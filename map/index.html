@@ -303,6 +303,12 @@
     .btn,.itab,.pktab,.ptab{min-height:42px;font-size:13px}
     #search,#pkQ,input[type=text],input[type=search]{min-height:42px;font-size:15px}  /* 15px+ stops iOS zoom-on-focus */
     .cfg-note,.ins-note{font-size:11px}
+    /* creature results list: on desktop it's flex:1 in a full-height column; inside the
+       bottom sheet that collapses to ~0 → give it a real, scrollable height so results show */
+    #clist{flex:none;max-height:44vh;min-height:120px;overflow-y:auto;
+      border-top:1px solid var(--line);margin-top:4px}
+    #clist:empty{display:none}
+    .crow{padding:10px 8px}          /* bigger tap rows */
 
     /* map-overlay verdict panel: sit just above the peeking sheet */
     #verdict{left:10px;right:10px;width:auto;max-width:none;bottom:72px;top:auto;max-height:46vh;z-index:1100}
@@ -96656,8 +96662,10 @@ document.getElementById('sub').textContent =
    DATA.creaturesTotal+' creature · '+DATA.spawnsTotal.toLocaleString()+' spawn · 16 piani';
 
 // ---- Leaflet map in simple pixel CRS ----
+const _isMobile = window.matchMedia('(max-width:820px)').matches;
 const map = L.map('map',{crs:L.CRS.Simple,minZoom:-3,maxZoom:7,zoomSnap:.25,
-   zoomDelta:.5,wheelPxPerZoomLevel:80,attributionControl:false,preferCanvas:true});
+   zoomDelta:.5,wheelPxPerZoomLevel:80,attributionControl:false,preferCanvas:true,
+   zoomControl:!_isMobile});   // hide +/- buttons on mobile — pinch-to-zoom instead
 const bounds=[[0,0],[IMGH,IMGW]];     // [y,x]
 // dedicated panes so the ghost floor IMAGES stack below markers (overlayPane = z 400)
 map.createPane('belowPane');   map.getPane('belowPane').style.zIndex=205;
@@ -96860,7 +96868,23 @@ function selectCreature(i){
     draw();
   }
 }
-document.getElementById('search').oninput=e=>buildList(e.target.value);
+document.getElementById('search').oninput=e=>{
+  const v=e.target.value;
+  buildList(v);
+  // If the typed text matches exactly ONE creature (or an exact name), highlight it on the
+  // map right away — the whole point of searching. Otherwise just show the filtered list.
+  const f=v.trim().toLowerCase();
+  if(f.length>=2){
+    const hits=[...DATA.names.keys()].filter(i=>DATA.display[i].toLowerCase().includes(f));
+    const exact=[...DATA.names.keys()].find(i=>DATA.display[i].toLowerCase()===f);
+    const pick = (exact!=null) ? exact : (hits.length===1 ? hits[0] : null);
+    if(pick!=null && pick!==selected) selectCreature(pick);
+  }
+};
+// tapping the search field expands the bottom sheet so the results list is visible (mobile)
+document.getElementById('search').addEventListener('focus',()=>{
+  if(window.matchMedia('(max-width:820px)').matches) document.getElementById('side').classList.add('open');
+});
 document.getElementById('clearSel').onclick=()=>selectCreature(null);
 document.getElementById('toAll').onclick=()=>{selected=null;renderStats(null);buildList();draw();};
 document.getElementById('st-close').onclick=()=>selectCreature(null);
