@@ -266,7 +266,7 @@
   /* DESKTOP-neutral: the creature-sheet wrapper is transparent (children float exactly as
      before) and the mobile-only chrome (combined header + 🐉 FAB) is hidden. */
   #crSheet{display:contents}
-  #crSheetHd,#crFab{display:none}
+  #crSheetHd,#crFab,#crBar{display:none}
 
   /* ===== MOBILE — full-screen map + slide-up bottom sheet (like Maps apps) ===== */
   @media (max-width:820px){
@@ -323,10 +323,25 @@
       width:52px;height:52px;border-radius:50%;font-size:24px;
       background:var(--acc);color:#111;border:none;box-shadow:0 4px 16px rgba(0,0,0,.5);cursor:pointer}
 
-    /* ---- combined creature sheet: ONE bottom sheet = verdict + stats together ---- */
+    /* ---- slim RESULT BAR: shown after picking a creature; map stays visible above it ---- */
+    #crBar{display:flex;align-items:center;gap:8px;position:fixed;left:8px;right:8px;
+      bottom:calc(env(safe-area-inset-bottom) + 10px);z-index:1250;
+      background:var(--panel);border:1px solid var(--line);border-radius:14px;
+      padding:10px 10px 10px 14px;box-shadow:0 6px 24px rgba(0,0,0,.55)}
+    #crBar.show{display:flex}
+    #crBarInfo{flex:1;min-width:0;font-size:13px;line-height:1.35;overflow:hidden}
+    #crBarInfo b{font-size:14px}
+    #crBarInfo .vbadge{padding:1px 8px;font-size:11px;margin-left:2px}
+    #crBarMore{flex:none;background:var(--acc);color:#111;border:none;border-radius:9px;
+      padding:8px 11px;font-size:12px;font-weight:700;cursor:pointer;min-height:38px}
+    #crBarX{flex:none;background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+      width:38px;height:38px;border-radius:9px;font-size:15px;cursor:pointer}
+
+    /* ---- combined creature sheet: expanded details (verdict + stats). Leaves the top of the
+       map visible so you keep spatial context; opens only when "Dettagli" is tapped. ---- */
     #crSheet{display:none;position:fixed;left:0;right:0;bottom:0;z-index:1300;
       background:var(--panel);border-top:1px solid var(--line);border-radius:18px 18px 0 0;
-      max-height:82dvh;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;
+      max-height:70dvh;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;
       box-shadow:0 -10px 34px rgba(0,0,0,.6);padding-bottom:calc(env(safe-area-inset-bottom) + 16px);
       animation:crUp .28s cubic-bezier(.32,.72,0,1)}
     #crSheet.show{display:block}
@@ -452,6 +467,8 @@
   <div id="mapwrap">
     <div id="map"></div>
     <button id="crFab" title="Cerca creatura">🐉</button>
+    <!-- MOBILE result bar: appears after picking a creature. Map stays visible; tap to expand. -->
+    <div id="crBar"><span id="crBarInfo"></span><button id="crBarMore">Dettagli ▾</button><button id="crBarX" title="deseleziona">✕</button></div>
     <div id="floors"></div>
     <div id="scan">
       <div class="hd"><span>🎯 Sotto il cursore</span><span id="scancount">0</span></div>
@@ -96894,18 +96911,27 @@ function renderStats(i){
   body.innerHTML=h;
   panel.classList.add('show');
 }
-// MOBILE ONLY: on a phone the two floating desktop panels are replaced by ONE combined
-// bottom sheet (#crSheet). This shows/hides it + sets its title. Desktop: no-op (crSheet is
-// display:contents and this just toggles a class nothing reads).
+// MOBILE ONLY: after picking a creature, the map stays visible with the spawns highlighted,
+// and a slim RESULT BAR appears at the bottom (name + verdict + floors). Tapping "Dettagli"
+// expands the full combined sheet (verdict + stats). Desktop: no-op (crBar/crSheet hidden).
 const _mob=()=>window.matchMedia('(max-width:820px)').matches;
 function crSheetShow(i){
-  const sh=document.getElementById('crSheet'); if(!sh) return;
-  if(i===null){ sh.classList.remove('show'); return; }
-  if(_mob()){
-    document.getElementById('crSheetHd').firstElementChild.textContent='🐉 '+DATA.display[i];
-    sh.classList.add('show');
-    document.getElementById('side').classList.remove('open');   // tuck the controls sheet away
-  }
+  const bar=document.getElementById('crBar'), sh=document.getElementById('crSheet');
+  if(!bar||!sh) return;
+  if(i===null){ bar.classList.remove('show'); sh.classList.remove('show'); return; }
+  if(!_mob()) return;
+  // fill the slim bar: name · verdict badge · floors (or boss note)
+  const boss = DATA.boss && DATA.boss[i];
+  const s = STATS[DATA.names[i]]; const a = (!boss && s) ? assess(s) : null;
+  const badge = a ? `<span class="vbadge ${a.cls}">${a.label}</span>` : '';
+  const where = boss ? '👑 boss · nessuno spawn fisso'
+                     : `piani <b>${DATA.crFloors[i].join(', ')||'?'}</b> · ${DATA.total[i]} spawn`;
+  document.getElementById('crBarInfo').innerHTML = `<b>${DATA.display[i]}</b> ${badge}<br><span style="color:var(--dim);font-size:12px">${where}</span>`;
+  document.getElementById('crSheetHd').firstElementChild.textContent = '🐉 '+DATA.display[i];
+  bar.classList.add('show');
+  sh.classList.remove('show');                        // details start collapsed — map is the star
+  document.getElementById('side').classList.remove('open');   // tuck the controls sheet away
+  const se=document.getElementById('search'); if(se) se.blur();   // drop the keyboard → full map
 }
 function selectCreature(i){
   selected=i;
@@ -96949,7 +96975,9 @@ document.getElementById('search').oninput=e=>{
   if(f.length>=2){
     const hits=[...DATA.names.keys()].filter(i=>DATA.display[i].toLowerCase().includes(f));
     const exact=[...DATA.names.keys()].find(i=>DATA.display[i].toLowerCase()===f);
-    const pick = (exact!=null) ? exact : (hits.length===1 ? hits[0] : null);
+    // On mobile, don't grab focus/blur mid-typing: auto-pick ONLY on an exact full-name match.
+    // On desktop keep the eager single-hit behaviour. Otherwise the user taps a result row.
+    const pick = (exact!=null) ? exact : (!_mob() && hits.length===1 ? hits[0] : null);
     if(pick!=null && pick!==selected) selectCreature(pick);
   }
 };
@@ -96957,14 +96985,20 @@ document.getElementById('search').oninput=e=>{
 document.getElementById('search').addEventListener('focus',()=>{
   if(window.matchMedia('(max-width:820px)').matches) document.getElementById('side').classList.add('open');
 });
-// MOBILE: 🐉 FAB opens the controls sheet + focuses creature search; close button closes the creature sheet
+// MOBILE: 🐉 FAB opens controls + focuses search; result-bar "Dettagli" expands the full
+// sheet; ✕ clears. The sheet's own close returns to the bar; tap-outside dismisses.
 (function(){
   const fab=document.getElementById('crFab'), sh=document.getElementById('crSheet'),
-        shClose=document.getElementById('crSheetClose'), side=document.getElementById('side');
+        shClose=document.getElementById('crSheetClose'), side=document.getElementById('side'),
+        bar=document.getElementById('crBar'), more=document.getElementById('crBarMore'),
+        barX=document.getElementById('crBarX');
   if(fab) fab.onclick=()=>{ side.classList.add('open');
     const s=document.getElementById('search'); s.focus(); s.scrollIntoView({block:'center'}); };
-  if(shClose) shClose.onclick=()=>selectCreature(null);
-  if(sh) sh.addEventListener('click',e=>{ if(e.target===sh) selectCreature(null); });
+  // "Dettagli" → expand full verdict+stats sheet (bar stays as the collapse anchor)
+  if(more) more.onclick=()=>{ sh.classList.add('show'); };
+  if(shClose) shClose.onclick=()=>{ sh.classList.remove('show'); };   // collapse details, keep the bar+map
+  if(sh) sh.addEventListener('click',e=>{ if(e.target===sh) sh.classList.remove('show'); });
+  if(barX) barX.onclick=()=>selectCreature(null);                      // clear selection entirely
 })();
 document.getElementById('clearSel').onclick=()=>selectCreature(null);
 document.getElementById('toAll').onclick=()=>{selected=null;renderStats(null);buildList();draw();};
