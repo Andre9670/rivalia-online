@@ -96671,7 +96671,10 @@ let ghostLayer=L.layerGroup().addTo(map); // floors above/below spawn dots
 let layer=L.layerGroup().addTo(map);      // current-floor markers
 let radius=50;
 let spriteMode='auto';   // 'auto' (sprite when zoomed/selected) | 'on' (always) | 'off' (dots only)
-let showAbove=true, showBelow=true;
+// Ghost above/below-floor veils default ON on desktop, but OFF on mobile: the toggle box
+// (#ghostbox) is hidden on phones, and the translucent veils just clutter a small screen.
+const _mobileGhostOff = window.matchMedia('(max-width:820px)').matches;
+let showAbove=!_mobileGhostOff, showBelow=!_mobileGhostOff;
 const anyGhost=()=>showAbove||showBelow;
 let curOpacity=0.78;        // current-floor map opacity when a ghost floor is ON (see-through)
 let aboveOpacity=0.42;      // opacity of the floor-above veil
@@ -96877,6 +96880,11 @@ document.getElementById('tBelow').onclick=function(){
   document.getElementById('opacityRow').style.display=showBelow?'flex':'none';
   setFloorImg(curFloor); draw();
 };
+// sync the toggle buttons + opacity rows to the JS defaults (matters on mobile where these start OFF)
+document.getElementById('tAbove').classList.toggle('on',showAbove);
+document.getElementById('tBelow').classList.toggle('on',showBelow);
+document.getElementById('opacityRowUp').style.display=showAbove?'flex':'none';
+document.getElementById('opacityRow').style.display=showBelow?'flex':'none';
 document.getElementById('opac').oninput=function(){
   curOpacity=+this.value/100;
   document.getElementById('opacv').textContent=this.value+'%';
