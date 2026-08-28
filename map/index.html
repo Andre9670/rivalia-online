@@ -202,6 +202,8 @@
   .reltab.on{opacity:1}
   .ptab{flex:1;padding:8px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;color:var(--dim);font-size:13px;cursor:pointer;font-weight:600}
   .ptab.on{background:var(--acc2);color:#04121d;border-color:var(--acc2)}
+  .tktab{flex:1;padding:8px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;color:var(--dim);font-size:12.5px;cursor:pointer;font-weight:600}
+  .tktab.on{background:var(--acc2);color:#04121d;border-color:var(--acc2)}
   .btn-sec{margin:11px 0 2px;font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--dim)}
   #npcBody .npc-city{margin-bottom:6px} #npcBody .npc-city>summary{cursor:pointer;padding:5px 2px;font-size:13px;position:sticky;top:0;background:var(--panel);z-index:2}
   #npcBody .npc-row{padding:5px 0 6px 10px;border-bottom:1px solid #222937}
@@ -387,7 +389,7 @@
     .ins-hd{position:sticky;top:0;z-index:6;padding:15px 16px}
     .ins-hd button{width:34px;height:34px;font-size:16px}
     .ins-tabs{flex-wrap:wrap;position:sticky;top:49px;z-index:5;background:var(--panel);padding:10px 12px 8px}
-    .itab,.pktab,.reltab{min-height:42px;font-size:12px;flex:1 1 30%}
+    .itab,.pktab,.reltab,.tktab{min-height:42px;font-size:12px;flex:1 1 30%}
     .ptab{min-height:42px;font-size:13px;flex:1 1 45%}
     /* PK table: drop the lower-value columns so the rest is readable on a phone
        (Voc, PvP deaths, Avg victim Lv) */
@@ -430,6 +432,9 @@
       <div class="btnrow">
         <button class="btn" id="insBtn" title="Loot-value, doable quests and where to farm items — computed on your data">💎 Insights</button>
         <button class="btn" id="areaBtn" title="Highlight TibiaWiki 7.4 hunting places on the map as zones colored by efficiency (xp/hit). Click a zone for its card + creatures">🎯 Hunt areas: Off</button>
+      </div>
+      <div class="btnrow">
+        <button class="btn" id="taskBtn" title="Weekly-task helper: YOU pick a task (a monster) from the full list, one at a time, and it shows the best place & way to do it — densest floor / best hunting area, farmability for your char, with Show-on-map and route.">📋 Task Helper</button>
       </div>
       <div class="btnrow">
         <button class="btn on" id="sprMode" title="Auto: icons when you zoom or select a monster · Always: icons everywhere (heavier) · Off: dots only">🖼️ Icons: Auto</button>
@@ -514,6 +519,21 @@
       <div style="padding:8px 16px 0"><input type="search" id="npcQ" placeholder="Search NPC… (name, city, bought/sold item)" style="width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:8px 11px;font-size:13px;outline:none" autocomplete="off"></div>
       <div class="ins-body" id="npcBody"></div>
       <div class="ins-note">Name · city · buy/sell offers = <b>authoritative Rivalia data</b> (npcs.php). 📍 = <b>approximate position</b> (Tibiantis 7.7, geography ≈ 7.4) — <b>verify in-game</b>. <b id="npcNcoord"></b> NPCs with a position.</div>
+    </div>
+  </div>
+  <div id="taskModal" class="ins-modal">
+    <div class="ins-card" style="width:min(1080px,95vw)">
+      <div class="ins-hd">
+        <span>📋 Task Helper <small id="taskSub"></small></span>
+        <button id="taskClose" title="close">✕</button>
+      </div>
+      <div class="ins-tabs" id="taskMode" style="padding-top:10px">
+        <button class="tktab on" data-m="mon">⚔️ Kill task</button>
+        <button class="tktab" data-m="item">📦 Deliver task</button>
+      </div>
+      <div style="padding:8px 16px 0"><input type="search" id="taskQ" placeholder="Filter targets… (e.g. cyclops, dragon, minotaur)" style="width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:8px 11px;font-size:13px;outline:none" autocomplete="off"></div>
+      <div class="ins-body" id="taskBody"></div>
+      <div class="ins-note"><b>You</b> pick the weekly task (Rivalia's Task Board is in-game only). Select a target below → for it you get the <b>best spot</b> (densest floor / best hunting area) and a farmability verdict for <b>your char</b> (🟢 farmable · 🟡 risky · 🔴 lethal), plus <b>Show on map</b> and route.</div>
     </div>
   </div>
   <div id="mapwrap">
@@ -85588,6 +85608,103 @@ function flyToChest(c){
     if(!npcOn){ npcOn=true; const b=document.getElementById('npcPinBtn'); b.classList.add('on'); b.textContent='📍 NPC: On'; npcLayer.addTo(map); }
     selectFloor(z,true); map.setView([IMGH-py,px],3);
   };
+})();
+
+// ===== 📋 TASK HELPER: user picks a weekly task (a monster) → best spot + how, for their char =====
+(function(){
+  const $=id=>document.getElementById(id);
+  const taskModal=$('taskModal'), taskBody=$('taskBody'), taskQ=$('taskQ');
+  // task options = huntable creatures (real spawns, not bosses) — the user picks one at a time
+  const OPTS=[...DATA.names.keys()].filter(i=>!(DATA.boss&&DATA.boss[i]) && (DATA.crFloors[i]||[]).length)
+     .sort((a,b)=>DATA.display[a].localeCompare(DATA.display[b]));
+  const OPTS_ITEM=Object.keys(INS.farm||{}).sort();   // deliver tasks = farmable items (body parts / drops)
+  $('taskSub').textContent=OPTS.length+' monsters · '+OPTS_ITEM.length+' items';
+  let mode='mon', selMon=null, selItem=null;
+  const dotcol=cls=>cls==='ok'?'#5fd38a':cls==='warn'?'#ffb347':'#ff5d6c';
+  function areaFor(i){ let best=null; const nm=DATA.display[i].toLowerCase();
+    for(const ar of (INS.areas||[])){ if((ar.creatures_present||[]).some(c=>c.toLowerCase()===nm)){ if(!best||(ar.exp_per_shot||0)>(best.exp_per_shot||0)) best=ar; } }
+    return best; }
+  function densest(i){ let f=null,bc=-1; for(const z of (DATA.crFloors[i]||[])){ const c=pts(z).filter(p=>p[0]===i).length; if(c>bc){bc=c;f=z;} } return {floor:f,count:bc}; }
+  function whereShort(i){ const ar=areaFor(i),df=densest(i); return ar?`${ar.name} · z${ar.z}`:(df.floor!=null?`floor z${df.floor}`:'—'); }
+  // jump the map to EXACTLY the spot the card recommends (fix: don't stay on the wrong floor)
+  function jumpTo(i){
+    if(i==null||i<0) return;
+    taskModal.classList.remove('show');
+    selectCreature(i);                                  // highlight this creature's spawns + verdict
+    const ar=areaFor(i), df=densest(i);
+    if(ar){ selectFloor(ar.z,true); map.setView([IMGH-ar.py,ar.px],3); }
+    else if(df.floor!=null){ selectFloor(df.floor,true); const pt=pts(df.floor).find(p=>p[0]===i); if(pt) map.setView([IMGH-pt[2],pt[1]],2); }
+  }
+  function card(i){
+    const slug=DATA.names[i], s=STATS[slug], a=s?assess(s):null, ar=areaFor(i), df=densest(i), spr=spriteFor(i);
+    const badge=a?`<span class="vbadge ${a.cls}">${a.label}</span>`:'<span class="vbadge warn" style="opacity:.6">no stats</span>';
+    const where = ar
+      ? `Best area: <b>${ar.name}</b> <span style="color:var(--dim)">(floor z${ar.z}${ar.exp_per_shot>0?' · '+ar.exp_per_shot+' xp/hit':''}${ar.rec_level?' · rec lvl '+ar.rec_level:''})</span>`
+      : (df.floor!=null?`Densest on <b>floor z${df.floor}</b> <span style="color:var(--dim)">(${df.count} spawn clusters)</span>`:'no fixed spawn (boss/event)');
+    const how=[];
+    if(a){ how.push(a.isRanged?'ranged mob — break line of sight or close the gap':'melee mob — kite it (shoot & retreat)');
+      (a.notes||[]).forEach(n=>{ if(/mana/i.test(n)) how.push(n); }); }
+    const metrics=a?`<div class="ap-meta">Kill in ~${a.ttk}s (${a.hitsToKill} turns) · you take ~${a.dmgTaken} (HP+heal budget ${a.healBudget})</div>`:'';
+    const h=`<div class="vhead" style="margin-bottom:6px">${spr?`<img src="${spr}">`:''}<div class="vn">${DATA.display[i]}</div>${badge}</div>`+
+      `<div class="ap-meta">📍 ${where}</div>`+
+      `<div class="ap-meta">Floors: <b>${(DATA.crFloors[i]||[]).join(', ')||'—'}</b> · ${DATA.total[i]} total spawns</div>`+
+      metrics+
+      (how.length?`<ul class="vnotes" style="margin:6px 0 4px">`+how.map(n=>`<li>${n}</li>`).join('')+`</ul>`:'')+
+      `<div style="margin-top:8px"><button class="btn" id="taskGo" style="max-width:220px">🎯 Show on map</button>`+
+      (ar&&ar.route?` <span class="flyto taskRoute" data-slug="${ar.route.slug}" style="margin-left:8px">🧭 how to get there</span>`:'')+`</div>`;
+    return `<div style="background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:10px">${h}</div>`;
+  }
+  function cardItem(item){
+    const drops=(INS.farm[item]||[]).slice().sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,6);
+    const rows=drops.map(d=>{
+      const i=DATA.names.indexOf(d.slug); const s=(i>=0)?STATS[d.slug]:null, a=s?assess(s):null;
+      const badge=a?`<span class="vbadge ${a.cls}" style="padding:1px 8px;font-size:10px">${a.label}</span>`:'';
+      const go=(i>=0)?`<button class="btn dropGo" data-i="${i}" style="padding:2px 9px;font-size:11px;max-width:110px">🎯 map</button>`:'';
+      return `<div class="pgrow"><span class="pgtag" style="flex:1;min-width:120px">${d.mob} ${badge}</span><span class="pgm">${(i>=0)?whereShort(i):'—'}</span><span class="pgm">×${d.mobs}</span> ${go}</div>`;
+    }).join('') || '<div class="ap-meta">No known dropper on the map.</div>';
+    return `<div style="background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:10px">`+
+      `<div class="vhead" style="margin-bottom:4px"><div class="vn">📦 ${item}</div></div>`+
+      `<div class="ap-meta">Farm it from — best droppers for your char (🟢 farmable · 🟡 risky · 🔴 lethal):</div>${rows}</div>`;
+  }
+  const EMPTY_ROW='<div class="empty" style="padding:20px;color:var(--dim);text-align:center">No match.</div>';
+  const PROMPT='<div style="padding:14px 4px;color:var(--dim);text-align:center">Select a task below to see the best place &amp; way to do it ↓</div>';
+  function monList(){
+    const q=taskQ.value.trim().toLowerCase(); let rows='';
+    for(const i of OPTS){ if(q && !DATA.display[i].toLowerCase().includes(q)) continue;
+      const s=STATS[DATA.names[i]], a=s?assess(s):null;
+      const dot=a?`<span class="vdot" style="--vc:${dotcol(a.cls)}"></span>`:'';
+      rows+=`<div class="crow taskopt${i===selMon?' on':''}" data-i="${i}">${spriteChip(i,22)}<span class="nm">${dot}${DATA.display[i]}</span><span class="fl">${(DATA.crFloors[i]||[]).join(',')}</span><span class="ct">${DATA.total[i]}</span></div>`;
+    }
+    return `<div id="taskList">${rows||EMPTY_ROW}</div>`;
+  }
+  function itemList(){
+    const q=taskQ.value.trim().toLowerCase(); let rows='';
+    for(const it of OPTS_ITEM){ if(q && !it.toLowerCase().includes(q)) continue;
+      const n=(INS.farm[it]||[]).length;
+      rows+=`<div class="crow taskitem${it===selItem?' on':''}" data-item="${encodeURIComponent(it)}"><span class="nm">📦 ${it}</span><span class="ct">${n} drop${n===1?'':'s'}</span></div>`;
+    }
+    return `<div id="taskList">${rows||EMPTY_ROW}</div>`;
+  }
+  function render(){
+    if(mode==='mon') taskBody.innerHTML=(selMon!=null?card(selMon):PROMPT)+monList();
+    else taskBody.innerHTML=(selItem!=null?cardItem(selItem):PROMPT)+itemList();
+  }
+  taskBody.addEventListener('click',e=>{
+    const opt=e.target.closest('.taskopt'); if(opt){ selMon=+opt.dataset.i; render(); taskBody.scrollTop=0; return; }
+    const it=e.target.closest('.taskitem'); if(it){ selItem=decodeURIComponent(it.dataset.item); render(); taskBody.scrollTop=0; return; }
+    if(e.target.id==='taskGo'){ jumpTo(selMon); return; }
+    const dg=e.target.closest('.dropGo'); if(dg){ jumpTo(+dg.dataset.i); return; }
+    const rt=e.target.closest('.taskRoute'); if(rt){ taskModal.classList.remove('show'); routeOpen=rt.dataset.slug; insModal.classList.add('show'); showTab('routes'); return; }
+  });
+  taskQ.addEventListener('input',render);
+  document.querySelectorAll('#taskMode .tktab').forEach(b=>b.onclick=()=>{
+    mode=b.dataset.m; document.querySelectorAll('#taskMode .tktab').forEach(x=>x.classList.toggle('on',x===b));
+    taskQ.placeholder = mode==='mon'?'Filter targets… (e.g. cyclops, dragon, minotaur)':'Filter items… (e.g. leather, paw, silk, cheese)';
+    render();
+  });
+  $('taskBtn').onclick=()=>{ taskModal.classList.add('show'); render(); };
+  $('taskClose').onclick=()=>taskModal.classList.remove('show');
+  taskModal.onclick=e=>{ if(e.target===taskModal) taskModal.classList.remove('show'); };
 })();
 
 buildDanger();   // initial per-tile danger from the default PG
