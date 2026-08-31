@@ -1,0 +1,25 @@
+{
+  "_meta": {
+    "note": "Walking-logic extracted from fandom route text + annotated images. Tibia 7.4-era vanilla; verify on Rivalia. Above-ground crossing of the Kha'zeel mountain range (underground alt route via Darama Terramite Cave not covered here).",
+    "coord_system": "Tibia game coords. z = floor (7=ground; higher z = deeper underground; lower z = higher up a mountain). 'up' = ascend one floor (climb mountain / go up ladder); 'down' = descend one floor.",
+    "legend": "steps[] is an ordered walking sequence. Each step: floor it happens on, cardinal heading, action, hazards, and any floor transition. Images: orange/white line = path, green = passable cave/grass, red bar = bridge, yellow/blue dots = ladders/holes."
+  },
+  "route": "Ankrahmun → Port Hope (Kha'zeel Pass)",
+  "slug": "khazeel-pass",
+  "from": "Ankrahmun (Kha'labal desert, east side of the Kha'zeel range)",
+  "to": "Port Hope (Tiquanda jungle, west side of the range)",
+  "start": { "x": null, "y": null, "z": 7, "note": "Ankrahmun town; exact coords not given in text. Head west toward the mountains." },
+  "min_level_note": "Mid/high level. Desert side: Hyaenas, Nomads, Bandits. Jungle side: Crocodiles, Elephants, Spit Nettles, Tarantulas, Dworcs, Terror Birds, Carniphilas, and possibly LURED HYDRAS. Do not solo underleveled.",
+  "steps": [
+    { "n": 1, "floor": 7, "heading": "W", "action": "walk", "img": "Ank_PH_Route1.png", "text": "From Ankrahmun head WEST out of town toward the mountains. Follow the white line up the desert edge. Hyaenas roam here.", "hazard": ["Hyaena"] },
+    { "n": 2, "floor": 7, "heading": "W then N", "action": "walk+ascend", "to_floor": 6, "img": ["Ank_PH_Route2.png","Ank_PH_Route3.png"], "text": "Climb the first stretch of mountain. Follow the orange path up the grey rock, working your way up the switchback (ascend a level as you climb).", "hazard": ["Hyaena"] },
+    { "n": 3, "floor": 6, "heading": "N", "action": "walk+ascend", "to_floor": 5, "img": ["Ank_PH_Route4.png","Ank_PH_Route5.png","Ank_PH_Route6.png"], "text": "Keep climbing the narrow mountain path (orange line) up to the top of the range. Each crop is one higher level of the climb.", "hazard": [] },
+    { "n": 4, "floor": 5, "heading": "N", "action": "cross", "img": "Ank_PH_Route7.png", "text": "At the top, CROSS THE BRIDGE (red span on the map). 1 Nomad and some Bandits guard it — clear or run.", "hazard": ["Nomad", "Bandit"] },
+    { "n": 5, "floor": 5, "heading": "W", "action": "walk", "img": "Ank_PH_Route8.png", "text": "Past the bridge, follow the white line WEST across the green ledge. No monsters through this stretch.", "hazard": [] },
+    { "n": 6, "floor": 5, "heading": "SW", "action": "walk+descend", "to_floor": 6, "img": ["Ank_PH_Route9.png","Ank_PH_Route10.png"], "text": "Begin the descent down the west face. Follow the path down through the green cave/ledge sections; no monsters — just keep going down until you reach a ladder.", "hazard": [] },
+    { "n": 7, "floor": 6, "heading": "S", "action": "walk+descend", "to_floor": 7, "img": ["Ank_PH_Route11.png","Ank_PH_Route12.png","Ank_PH_Route13.png"], "text": "Continue down the white/orange line through the lower ledges to the ladder (marked on Route13, red line into it). Take the ladder down to ground level in Tiquanda.", "hazard": [] },
+    { "n": 8, "floor": 7, "heading": "W then SW", "action": "walk", "img": "Ank_PH_Route14.png", "text": "Now in Tiquanda jungle. Follow the white line WEST toward Port Hope, then hug SOUTH. The line deliberately arcs SOUTH and OUTSIDE the thickest jungle — AVOID the circled danger zones: CARNIPHILIA! (center), HYDRA! (NE), LIZARDS! (SE). The further south you stay, the safer the terrain. Expect Spiders, Poison Spiders, Tarantulas, Centipedes, Wasps, Crocodiles, Spit Nettles, Dworcs, Elephants, Terror Birds, occasional Carniphila, and watch for LURED HYDRAS.", "hazard": ["Carniphila", "Hydra (lured)", "Lizard", "Crocodile", "Elephant", "Spit Nettle", "Tarantula", "Poison Spider", "Dworc", "Terror Bird"] }
+  ],
+  "floor_transitions": [7, 6, 5, 6, 7],
+  "hazards_all": ["Hyaena", "Nomad", "Bandit", "Carniphila", "Hydra (lured)", "Lizard", "Crocodile", "Elephant", "Spit Nettle", "Tarantula", "Poison Spider", "Centipede", "Wasp", "Dworc", "Terror Bird", "Spider"]
+}

@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "note": "Walking-logic extracted from fandom route text + annotated images. Tibia 7.4 vanilla; verify on Rivalia. This route is a HUB overview (routes around/through/into Kazordoon), not a single A→B corridor — steps cover the entrance descent, the surface city connections, and the Dwarf Mine exit.",
+    "coord_system": "Tibia game coords. z = floor (7=ground, higher=deeper). down = descend one floor (ladder/hole/rope-spot).",
+    "legend": "steps[] is an ordered walking sequence. Each step: floor, cardinal heading, action, hazards, and floor transition. Kazordoon is inside a mountain, entered from the surface and traversed via mine tunnels."
+  },
+  "route": "Kazordoon (routes around / through / into the mountain city)",
+  "slug": "route-kazordoon",
+  "from": "Surface north of Dwarven Bridge (Kazordoon mountain, central Tibia)",
+  "to": "Kazordoon city / Dwarf Mines (and onward connections to Carlin, Ab'Dendriel, Thais, Venore)",
+  "start": { "x": null, "y": null, "z": 7, "note": "Kazordoon entrance on the mountain surface — exact coords not given in source" },
+  "min_level_note": "Text: face Poison Spiders, Spiders, Rotworms, Wolves, Dwarfs, and a Dwarf Soldier on the Dwarf Bridge. Rope + Shovel required.",
+  "equipment": ["Rope", "Shovel"],
+  "steps": [
+    { "n": 1, "floor": 7, "heading": "N", "action": "walk", "img": "Kazordoon_entrance.gif", "text": "Approach the Kazordoon entrance on the mountain surface (white line leads up to the marked 'Kazordoon entrance'). Dwarven Bridge lies to the SE.", "hazard": ["Wolf", "Spider"] },
+    { "n": 2, "floor": 7, "action": "descend", "to_floor": 8, "img": "Kazordoon_entrance.gif", "text": "Enter the entrance and go DOWN into the mountain. Inset (red box) shows the underground passage: descend the marked hole ('Down this hole', dotted yellow line) to move through the tunnel.", "hazard": ["Dwarf"] },
+    { "n": 3, "floor": 8, "action": "descend", "to_floor": 9, "img": "Kazordoon_entrance.gif", "text": "Follow the tunnel; at the far end use the 'Rope up' spot (marked A = roping spot) to reach the next connecting level. Beware hidden holes.", "hazard": ["Rotworm"] },
+    { "n": 4, "floor": 7, "action": "walk", "img": "Route_Kazordoon.gif", "text": "CITY CONNECTIONS (surface hub): from the Kazordoon entrance area, white arrows fan out — NW to Carlin, NE to Ab'Dendriel, S to Thais, SE to Venore (via the Dwarf Bridge). Two rope holes and a stairs on the west side link surface levels.", "hazard": ["Dwarf Soldier (on Dwarf Bridge)"] },
+    { "n": 5, "floor": 7, "action": "descend", "to_floor": 8, "img": "Route_Kazordoon.gif", "text": "To cross the western gap, take the 'Stairs' down, or use either 'Rope Hole' (two are marked) to shortcut between the upper and lower surface levels.", "hazard": [] },
+    { "n": 6, "floor": 8, "heading": "NW/W", "action": "walk+ascend", "img": "Route_Kazordoon_Dwarf_Mines.gif", "text": "DWARF MINE EXIT: from the mines, follow the white arrows NW/W. Use the marked 'Shovel Hole'(s) (dig with shovel) and 'Rope Hole' to change levels; the 'Stairs' (top-right, circled) returns you toward the surface.", "hazard": ["Poison Spider", "Rotworm"] },
+    { "n": 7, "floor": 8, "action": "note", "img": "Route_Kazordoon_Hidden_hole.gif", "text": "HIDDEN-HOLE WARNING: in the mine, A (red circle) = a roping spot you CAN climb back up; B (green/red circle) = a HIDDEN hole you fall through. Do not confuse them — dropping into B is one of the classic Kazordoon traps.", "hazard": ["Dwarf", "hidden hole (B)"] }
+  ],
+  "return_shortcut": null,
+  "floor_transitions": [7, 8, 9],
+  "hazards_all": ["Poison Spider", "Spider", "Rotworm", "Wolf", "Dwarf", "Dwarf Soldier (Dwarf Bridge)", "hidden hole"]
+}

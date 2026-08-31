@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "note": "Walking-logic extracted from fandom route text + 2 annotated images. Tibia 7.4 vanilla; verify on Rivalia. Route through the Kazordoon mines to the Steam Boat dock (useful for the Postman Quest). The steamship itself is a boat-link, NOT a walkable tile — reaching it ends the on-foot route.",
+    "coord_system": "Tibia game coords. z = floor (7=ground, higher=deeper). down = descend one floor (ladder/stairs/hole).",
+    "legend": "steps[] is an ordered walking sequence. The path descends repeatedly through the mines (each dotted-yellow marker = a ladder/hole transition) then boards the steam ship to Cormaya."
+  },
+  "route": "Kazordoon → Steam Boat dock (to Cormaya)",
+  "slug": "route-kazordoon-steamship",
+  "from": "Kazordoon Entrance (surface, green dot on map 1)",
+  "to": "Steam ship to Cormaya (boat dock deep in the mines)",
+  "start": { "x": null, "y": null, "z": 7, "note": "Kazordoon Entrance marked with green dot; exact coords not given in source" },
+  "min_level_note": "Text: face Bats, Rotworms, Dwarves and Dwarf Soldiers through the mines. A less dangerous but longer alternative avoids Dwarf Soldiers.",
+  "alternatives": [
+    { "text": "A less dangerous but LONGER way exists with NO Dwarf Soldiers.", "avoids": ["Dwarf Soldier"] },
+    { "text": "You can buy an ore-wagon ticket and ride the wagon directly to the steamship from the depot, temple, main entrance, or shops (or indirectly from the magic carpet and the N/S/W surface entrances) — bypassing the on-foot mine descent entirely." }
+  ],
+  "steps": [
+    { "n": 1, "floor": 7, "heading": "S", "action": "descend", "to_floor": 8, "img": "Steamship_kazordoon1.gif", "text": "From the Kazordoon Entrance (green dot, top-left), head down the long corridor and take 'Down the stairs' (dotted marker, bottom of the red entrance box).", "hazard": ["Dwarf", "Bat"] },
+    { "n": 2, "floor": 8, "heading": "E", "action": "walk", "img": "Steamship_kazordoon1.gif", "text": "Follow the white line EAST through the tunnel network out of the entrance chamber toward the first ladder cluster.", "hazard": ["Rotworm", "Dwarf Soldier"] },
+    { "n": 3, "floor": 8, "action": "descend+ascend", "to_floor": 9, "img": "Steamship_kazordoon1.gif", "text": "At the middle marker use the 'Down and up these ladders' spot — a ladder pair that steps you down then back up to route around an obstacle, continuing EAST.", "hazard": ["Dwarf"] },
+    { "n": 4, "floor": 8, "heading": "E", "action": "descend", "to_floor": 9, "img": "Steamship_kazordoon1.gif", "text": "Continue EAST to the right-hand marker 'Down these ladders' (dotted line) and descend. The map notes '(see next map)' — the route continues on Steamship_kazordoon2.gif.", "hazard": ["Bat"] },
+    { "n": 5, "floor": 9, "action": "descend", "to_floor": 10, "img": "Steamship_kazordoon2.gif", "text": "Continued from last map: at top-left take 'Down this ladder', then follow the white line SW.", "hazard": ["Rotworm"] },
+    { "n": 6, "floor": 10, "heading": "S", "action": "descend", "to_floor": 11, "img": "Steamship_kazordoon2.gif", "text": "At the bottom-left marker 'Go down here' descend again (dotted line runs EAST to the next box).", "hazard": ["Dwarf Soldier"] },
+    { "n": 7, "floor": 11, "action": "descend", "to_floor": 12, "img": "Steamship_kazordoon2.gif", "text": "Middle box: 'Down here again' — one more descent, then the dotted line continues EAST toward the dock chamber.", "hazard": [] },
+    { "n": 8, "floor": 12, "heading": "N", "action": "board-boat", "img": "Steamship_kazordoon2.gif", "text": "Right box: follow the white line up into the water chamber and board the 'Steam ship to Cormaya' (the vessel on the blue water). This boat-link is the route's end — you sail, you do not walk onward.", "hazard": [] }
+  ],
+  "return_shortcut": null,
+  "floor_transitions": [7, 8, 9, 10, 11, 12],
+  "hazards_all": ["Bat", "Rotworm", "Dwarf", "Dwarf Soldier"]
+}

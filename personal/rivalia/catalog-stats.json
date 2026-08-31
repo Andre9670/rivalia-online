@@ -1,0 +1,6547 @@
+{
+  "Abomination": {
+    "name": "Abomination",
+    "health": 4000,
+    "experience": 2500,
+    "speed": 130,
+    "race": "blood",
+    "armor": 50,
+    "defense": 65,
+    "corpse": 6783,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~878)",
+      "Physical (450-0)",
+      "Poison (900-0)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Meat",
+      "Small Stone",
+      "Power Bolt",
+      "War Hammer",
+      "Tower Shield",
+      "Warrior Helmet",
+      "Abominated Arm",
+      "Small Amethyst",
+      "Dark Armor",
+      "Golden Armor",
+      "Giant Sword"
+    ]
+  },
+  "Algatha": {
+    "name": "Algatha",
+    "health": 50000,
+    "experience": 900,
+    "speed": 65,
+    "race": "undead",
+    "armor": 50,
+    "defense": 60,
+    "corpse": 6768,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~1275)",
+      "Physical (800-600)",
+      "Poison (450-200)"
+    ]
+  },
+  "Amazon": {
+    "name": "Amazon",
+    "health": 110,
+    "experience": 60,
+    "speed": 46,
+    "race": "blood",
+    "armor": 11,
+    "defense": 11,
+    "corpse": 3065,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~35)",
+      "Physical (30-20)"
+    ],
+    "loot": [
+      "Skull",
+      "Dagger",
+      "Leather Armor",
+      "Gold Coin",
+      "Brown Bread",
+      "Sabre",
+      "Girlish Hair Decoration",
+      "Torch",
+      "Studded Shield",
+      "Crystal Necklace",
+      "Small Ruby"
+    ]
+  },
+  "Ancient Scarab": {
+    "name": "Ancient Scarab",
+    "health": 1000,
+    "experience": 720,
+    "speed": 69,
+    "race": "venom",
+    "armor": 36,
+    "defense": 33,
+    "corpse": 3004,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~250)",
+      "Paralyze",
+      "Poisoncondition",
+      "Poison (135-15)"
+    ],
+    "summons": [
+      "Larva"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Plate Armor",
+      "Small Emerald",
+      "Small Amethyst",
+      "Scarab Pincers",
+      "Scarab Coin",
+      "Ancient Amulet",
+      "Scarab Shield",
+      "Scarab Amulet",
+      "Daramanian Waraxe",
+      "Magic Light Wand"
+    ]
+  },
+  "Apocalypse": {
+    "name": "Apocalypse",
+    "health": 125000,
+    "experience": 30000,
+    "speed": 230,
+    "race": "fire",
+    "armor": 188,
+    "defense": 145,
+    "corpse": 2916,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~3245)",
+      "Life Drain (1000-500)",
+      "Poisoncondition",
+      "Energy (1500-500)",
+      "Physical (900-300)",
+      "Mana Drain (1100-600)",
+      "Fire (900-100)",
+      "Paralyze",
+      "Life Drain (600-400)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Two Handed Sword",
+      "Double Axe",
+      "Fire Axe",
+      "Small Emerald",
+      "Silver Dagger",
+      "Demon Shield",
+      "Black Pearl",
+      "Teddy Bear",
+      "Talon",
+      "Thunder Hammer",
+      "Small Sapphire"
+    ]
+  },
+  "Ashmunrah": {
+    "name": "Ashmunrah",
+    "health": 5000,
+    "experience": 3100,
+    "speed": 175,
+    "race": "undead",
+    "armor": 74,
+    "defense": 74,
+    "corpse": 3034,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~629)",
+      "Life Drain (550-150)",
+      "Paralyze",
+      "Physical (750-250)",
+      "Poison (500-300)",
+      "Life Drain (700-400)"
+    ],
+    "summons": [
+      "Green Djinn",
+      "Ancient Scarab"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Might Ring",
+      "Silver Brooch",
+      "Crown Armor",
+      "Holy Scarab",
+      "Hammer Of Wrath"
+    ]
+  },
+  "Assassin": {
+    "name": "Assassin",
+    "health": 175,
+    "experience": 105,
+    "speed": 72,
+    "race": "blood",
+    "armor": 17,
+    "defense": 40,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~146)",
+      "Drunk",
+      "Physical (38-28)"
+    ],
+    "loot": [
+      "Torch",
+      "Gold Coin",
+      "Knife",
+      "Combat Knife",
+      "Steel Helmet",
+      "Plate Shield",
+      "Battle Shield",
+      "Steel Shield",
+      "Leopard Armor",
+      "Small Diamond",
+      "Horseman Helmet"
+    ]
+  },
+  "Badger": {
+    "name": "Badger",
+    "health": 23,
+    "experience": 5,
+    "speed": 30,
+    "race": "blood",
+    "armor": 1,
+    "defense": 3,
+    "corpse": 3043,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~19)"
+    ],
+    "loot": [
+      "Meat",
+      "Badger Fur"
+    ]
+  },
+  "Bandit": {
+    "name": "Bandit",
+    "health": 245,
+    "experience": 65,
+    "speed": 50,
+    "race": "blood",
+    "armor": 11,
+    "defense": 17,
+    "corpse": 3058,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~57)"
+    ],
+    "loot": [
+      "Axe",
+      "Brass Shield",
+      "Leather Legs",
+      "Gold Coin",
+      "Meat",
+      "Mace",
+      "Chain Helmet",
+      "Brass Armor",
+      "Iron Helmet",
+      "War Hammer"
+    ]
+  },
+  "Banshee": {
+    "name": "Banshee",
+    "health": 1000,
+    "experience": 900,
+    "speed": 70,
+    "race": "undead",
+    "armor": 25,
+    "defense": 65,
+    "corpse": 2998,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~98)",
+      "Life Drain (200-120)",
+      "Paralyze",
+      "Life Drain (350-50)"
+    ],
+    "loot": [
+      "Candlestick",
+      "Simple Dress",
+      "Gold Coin",
+      "Dirty Cape",
+      "Silver Amulet",
+      "Mirror",
+      "Black Pearl",
+      "Hair Of The Banshee",
+      "Petrified Scream",
+      "Silver Brooch",
+      "Poison Dagger",
+      "White Pearl"
+    ]
+  },
+  "Bat": {
+    "name": "Bat",
+    "health": 30,
+    "experience": 10,
+    "speed": 60,
+    "race": "blood",
+    "armor": 1,
+    "defense": 6,
+    "corpse": 4298,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~14)"
+    ],
+    "loot": [
+      "Bat Wing"
+    ]
+  },
+  "Bazir": {
+    "name": "Bazir",
+    "health": 110000,
+    "experience": 30000,
+    "speed": 225,
+    "race": "fire",
+    "armor": 160,
+    "defense": 160,
+    "corpse": 2916,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~2750)",
+      "Life Drain (850-500)",
+      "Fire (900-100)",
+      "Illusion",
+      "Paralyze",
+      "Mana Drain (700-400)",
+      "Life Drain (700-400)",
+      "Drunk",
+      "Mana Drain (1000-100)"
+    ],
+    "summons": [
+      "Bazir"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Two Handed Sword",
+      "Double Axe",
+      "Fire Axe",
+      "Small Emerald",
+      "Silver Dagger",
+      "Demon Shield",
+      "Black Pearl",
+      "Teddy Bear",
+      "Talon",
+      "Thunder Hammer",
+      "Small Sapphire"
+    ]
+  },
+  "Bear": {
+    "name": "Bear",
+    "health": 80,
+    "experience": 23,
+    "speed": 38,
+    "race": "blood",
+    "armor": 6,
+    "defense": 6,
+    "corpse": 2849,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~30)"
+    ],
+    "loot": [
+      "Meat",
+      "Ham",
+      "Bear Paw"
+    ]
+  },
+  "Behemoth": {
+    "name": "Behemoth",
+    "health": 4000,
+    "experience": 2500,
+    "speed": 130,
+    "race": "blood",
+    "armor": 50,
+    "defense": 65,
+    "corpse": 2931,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~488)",
+      "Physical (185-125)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Meat",
+      "Crowbar",
+      "Amphora",
+      "Double Axe",
+      "Big Bone",
+      "Pick",
+      "Two Handed Sword",
+      "Small Amethyst",
+      "Dark Armor",
+      "Plate Armor",
+      "Giant Sword"
+    ]
+  },
+  "Beholder": {
+    "name": "Beholder",
+    "health": 260,
+    "experience": 170,
+    "speed": 35,
+    "race": "blood",
+    "armor": 5,
+    "defense": 20,
+    "corpse": 2908,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~33)",
+      "Mana Drain (25-5)",
+      "Life Drain (45-35)",
+      "Poison (45-5)",
+      "Physical (50-30)",
+      "Fire (45-25)",
+      "Energy (45-15)"
+    ],
+    "summons": [
+      "Skeleton"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Longsword",
+      "Morning Star",
+      "Spellbook",
+      "Two Handed Sword",
+      "Steel Shield",
+      "Wooden Shield",
+      "Beholder Eye",
+      "Beholder Shield",
+      "Beholder's Book"
+    ]
+  },
+  "Black Knight": {
+    "name": "Black Knight",
+    "health": 1800,
+    "experience": 1600,
+    "speed": 155,
+    "race": "blood",
+    "armor": 42,
+    "defense": 60,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~324)",
+      "Physical (185-145)"
+    ],
+    "loot": [
+      "Spear",
+      "Brown Bread",
+      "Gold Coin",
+      "Rope",
+      "Halberd",
+      "Brass Legs",
+      "Two Handed Sword",
+      "Steel Helmet",
+      "Plate Armor",
+      "Battle Hammer",
+      "Warrior Helmet",
+      "Knight Axe"
+    ]
+  },
+  "Black Sheep": {
+    "name": "Black Sheep",
+    "health": 20,
+    "experience": 0,
+    "speed": 18,
+    "race": "blood",
+    "armor": 1,
+    "defense": 2,
+    "corpse": 2914,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee"
+    ],
+    "loot": [
+      "Meat",
+      "Black Wool"
+    ]
+  },
+  "Blue Butterfly": {
+    "name": "Blue Butterfly",
+    "health": 2,
+    "experience": 0,
+    "speed": 120,
+    "race": "venom",
+    "armor": 0,
+    "defense": 14,
+    "corpse": 4994,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": true,
+    "attacks": [
+      "Melee"
+    ]
+  },
+  "Blue Djinn": {
+    "name": "Blue Djinn",
+    "health": 330,
+    "experience": 190,
+    "speed": 70,
+    "race": "blood",
+    "armor": 20,
+    "defense": 30,
+    "corpse": 3001,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~105)",
+      "Illusion",
+      "Drunk",
+      "Life Drain (105-55)",
+      "Energycondition",
+      "Fire (75-45)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Carrot",
+      "Small Sapphire",
+      "Small Oil Lamp",
+      "Dirty Turban",
+      "Book",
+      "Blue Rose",
+      "Mystic Turban"
+    ]
+  },
+  "Bog Raider": {
+    "name": "Bog Raider",
+    "health": 1300,
+    "experience": 800,
+    "speed": 250,
+    "race": "venom",
+    "corpse": 8951,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false
+  },
+  "Bonebeast": {
+    "name": "Bonebeast",
+    "health": 515,
+    "experience": 580,
+    "speed": 69,
+    "race": "undead",
+    "armor": 40,
+    "defense": 45,
+    "corpse": 3031,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~223)",
+      "Poisoncondition",
+      "Life Drain (50-30)",
+      "Poison (65-25)"
+    ],
+    "loot": [
+      "Bone",
+      "Gold Coin",
+      "Skull",
+      "Big Bone",
+      "Plate Armor",
+      "Bony Tail",
+      "Bone Club",
+      "Bone Shield",
+      "Green Mushroom"
+    ]
+  },
+  "Bonereaper": {
+    "name": "Bonereaper",
+    "health": 400,
+    "experience": 240,
+    "speed": 50,
+    "race": "undead",
+    "armor": 25,
+    "defense": 35,
+    "corpse": 2809,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~450)",
+      "Life Drain (800-550)",
+      "Life Drain (200-100)",
+      "Paralyze",
+      "Physical (400-200)"
+    ],
+    "loot": [
+      "Torch",
+      "Gold Coin",
+      "Dark Armor",
+      "Melee Ring",
+      "Black Pearl",
+      "Skull Staff",
+      "Steel Boots",
+      "Revenant Mask",
+      "Revenant Legs",
+      "Revenant Boots",
+      "Revenant Armor",
+      "Mind Stone"
+    ]
+  },
+  "Bug": {
+    "name": "Bug",
+    "health": 29,
+    "experience": 18,
+    "speed": 40,
+    "race": "venom",
+    "armor": 2,
+    "defense": 3,
+    "corpse": 2902,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~19)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Cherry"
+    ]
+  },
+  "Carniphila": {
+    "name": "Carniphila",
+    "health": 255,
+    "experience": 150,
+    "speed": 15,
+    "race": "venom",
+    "armor": 26,
+    "defense": 20,
+    "corpse": 4280,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~120)",
+      "Poison (130-40)",
+      "Paralyze",
+      "Poison (90-60)"
+    ],
+    "loot": [
+      "Meat",
+      "Ham",
+      "Gold Coin",
+      "Dark Mushroom",
+      "Carniphila Seeds",
+      "Shadow Herb",
+      "Sling Herb",
+      "Grave Flower"
+    ]
+  },
+  "Cave Rat": {
+    "name": "Cave Rat",
+    "health": 30,
+    "experience": 10,
+    "speed": 35,
+    "race": "blood",
+    "armor": 1,
+    "defense": 4,
+    "corpse": 2813,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~15)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Cheese",
+      "Cookie"
+    ]
+  },
+  "Centipede": {
+    "name": "Centipede",
+    "health": 70,
+    "experience": 30,
+    "speed": 43,
+    "race": "blood",
+    "armor": 8,
+    "defense": 9,
+    "corpse": 4289,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "immunities": [
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~60)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Centipede Leg",
+      "Mace",
+      "Sword"
+    ]
+  },
+  "Chaos Hydra": {
+    "name": "Chaos Hydra",
+    "health": 3750,
+    "experience": 4000,
+    "speed": 77,
+    "race": "blood",
+    "armor": 45,
+    "defense": 70,
+    "corpse": 2881,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~440)",
+      "Fire (550-250)",
+      "Firefield",
+      "Fire (350-250)"
+    ],
+    "summons": [
+      "Dragon Lord"
+    ],
+    "loot": [
+      "Dragon Ham",
+      "Gold Coin",
+      "Green Mushroom",
+      "Power Bolt",
+      "Small Sapphire",
+      "Energy Ring",
+      "Book",
+      "Golden Mug",
+      "Life Crystal",
+      "Strange Helmet",
+      "Tower Shield",
+      "Fire Sword"
+    ]
+  },
+  "Chicken": {
+    "name": "Chicken",
+    "health": 15,
+    "experience": 0,
+    "speed": 24,
+    "race": "blood",
+    "armor": 1,
+    "defense": 2,
+    "corpse": 4265,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee"
+    ],
+    "loot": [
+      "Chicken Feather",
+      "Meat",
+      "Egg"
+    ]
+  },
+  "Cobra": {
+    "name": "Cobra",
+    "health": 65,
+    "experience": 30,
+    "speed": 20,
+    "race": "blood",
+    "armor": 1,
+    "defense": 6,
+    "corpse": 3007,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~32)",
+      "Poisoncondition"
+    ]
+  },
+  "Cold Ambusher": {
+    "name": "Cold Ambusher",
+    "health": 120,
+    "experience": 90,
+    "speed": 90,
+    "race": "blood",
+    "armor": 14,
+    "defense": 20,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~90)",
+      "Life Drain (30-20)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Throwing Knife",
+      "Leather Legs",
+      "Blank Rune",
+      "Katana",
+      "Brass Shield",
+      "Backpack",
+      "Brass Legs",
+      "Obsidian Lance"
+    ]
+  },
+  "Coldcrawler": {
+    "name": "Coldcrawler",
+    "health": 2620,
+    "experience": 1750,
+    "speed": 80,
+    "race": "venom",
+    "armor": 30,
+    "defense": 40,
+    "corpse": 6861,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Ice",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~325)",
+      "Ice (110-25)",
+      "Paralyze"
+    ],
+    "summons": [
+      "Poison Spider"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Plate Armor",
+      "Brass Legs",
+      "Steel Helmet",
+      "Spider Silk",
+      "Two Handed Sword",
+      "Time Ring",
+      "Frozen Legs",
+      "Frozen Armor",
+      "Platinum Amulet"
+    ]
+  },
+  "Crab": {
+    "name": "Crab",
+    "health": 55,
+    "experience": 30,
+    "speed": 60,
+    "race": "blood",
+    "armor": 28,
+    "defense": 30,
+    "corpse": 4253,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "immunities": [
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~34)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Fish",
+      "Crab Pincers"
+    ]
+  },
+  "Crocodile": {
+    "name": "Crocodile",
+    "health": 105,
+    "experience": 40,
+    "speed": 38,
+    "race": "blood",
+    "armor": 13,
+    "defense": 5,
+    "corpse": 4277,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~66)"
+    ],
+    "loot": [
+      "Meat",
+      "Gold Coin",
+      "Ham",
+      "Leather Legs",
+      "Leather Helmet",
+      "Piece Of Crocodile Leather",
+      "Crocodile Boots"
+    ]
+  },
+  "Crypt Shambler": {
+    "name": "Crypt Shambler",
+    "health": 330,
+    "experience": 195,
+    "speed": 30,
+    "race": "undead",
+    "armor": 30,
+    "defense": 25,
+    "corpse": 3028,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~156)",
+      "Life Drain (55-25)"
+    ],
+    "loot": [
+      "Bone",
+      "Gold Coin",
+      "Rotten Meat",
+      "Two Handed Sword",
+      "Iron Helmet",
+      "Half Digested Piece Of Meat",
+      "Throwing Star",
+      "Bone Sword",
+      "Bone Shield",
+      "Small Diamond"
+    ]
+  },
+  "Crystal Wolf": {
+    "name": "Crystal Wolf",
+    "health": 1000,
+    "experience": 550,
+    "speed": 90,
+    "race": "blood",
+    "armor": 25,
+    "defense": 38,
+    "corpse": 6791,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Ice",
+      "Invisible",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~158)",
+      "Ice (110-60)",
+      "Poison (170-100)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Short Sword",
+      "Mace",
+      "Steel Shield",
+      "Wolf Paw",
+      "Longsword",
+      "Steel Helmet",
+      "Plate Legs",
+      "Broadsword",
+      "Double Axe",
+      "Permafrost Longsword",
+      "Permafrost Morningstar"
+    ]
+  },
+  "Cyclops": {
+    "name": "Cyclops",
+    "health": 260,
+    "experience": 150,
+    "speed": 55,
+    "race": "blood",
+    "armor": 17,
+    "defense": 24,
+    "corpse": 2808,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~105)"
+    ],
+    "loot": [
+      "Meat",
+      "Gold Coin",
+      "Ham",
+      "Short Sword",
+      "Plate Shield",
+      "Cyclops Toe",
+      "Battle Shield",
+      "Halberd",
+      "Wolf Tooth Chain",
+      "Dark Helmet",
+      "Melee Ring"
+    ]
+  },
+  "Cyclops Warrior": {
+    "name": "Cyclops Warrior",
+    "health": 435,
+    "experience": 300,
+    "speed": 115,
+    "race": "blood",
+    "armor": 30,
+    "defense": 25,
+    "corpse": 2808,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Fire"
+    ],
+    "attacks": [
+      "Melee (~170)"
+    ],
+    "loot": [
+      "Meat",
+      "Gold Coin",
+      "Ham",
+      "Short Sword",
+      "Halberd",
+      "Cyclops Toe",
+      "Battle Hammer",
+      "Plate Shield",
+      "Dark Helmet",
+      "Battle Shield",
+      "Melee Ring",
+      "Plate Legs"
+    ]
+  },
+  "Dark Monk": {
+    "name": "Dark Monk",
+    "health": 190,
+    "experience": 145,
+    "speed": 75,
+    "race": "blood",
+    "armor": 22,
+    "defense": 43,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~130)",
+      "Life Drain (49-25)"
+    ],
+    "loot": [
+      "Scroll",
+      "Bread",
+      "Rope Belt",
+      "Gold Coin",
+      "Bag",
+      "Staff",
+      "Lamp",
+      "Book Of Prayers",
+      "Brown Flask",
+      "Sandals",
+      "Leather Armor",
+      "Life Crystal"
+    ]
+  },
+  "Deathslicer": {
+    "name": "Deathslicer",
+    "health": 8200,
+    "experience": 0,
+    "speed": 199,
+    "race": "undead",
+    "armor": 199,
+    "defense": 199,
+    "corpse": 2253,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~585)",
+      "Energy (250-150)",
+      "Life Drain (250-150)"
+    ]
+  },
+  "Deer": {
+    "name": "Deer",
+    "health": 25,
+    "experience": 0,
+    "speed": 58,
+    "race": "blood",
+    "armor": 2,
+    "defense": 2,
+    "corpse": 2835,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~3)"
+    ],
+    "loot": [
+      "Meat",
+      "Ham",
+      "Antlers"
+    ]
+  },
+  "Demodras": {
+    "name": "Demodras",
+    "health": 3750,
+    "experience": 4000,
+    "speed": 77,
+    "race": "blood",
+    "armor": 45,
+    "defense": 70,
+    "corpse": 2881,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~440)",
+      "Fire (550-250)",
+      "Firefield",
+      "Fire (350-250)"
+    ],
+    "summons": [
+      "Dragon Lord"
+    ],
+    "loot": [
+      "Dragon Ham",
+      "Red Scale Armor",
+      "Gold Coin",
+      "Green Mushroom",
+      "Power Bolt",
+      "Small Sapphire",
+      "Energy Ring",
+      "Book",
+      "Golden Mug",
+      "Life Crystal",
+      "Strange Helmet",
+      "Tower Shield"
+    ]
+  },
+  "Demon": {
+    "name": "Demon",
+    "health": 8200,
+    "experience": 6000,
+    "speed": 80,
+    "race": "fire",
+    "armor": 40,
+    "defense": 65,
+    "corpse": 2916,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~560)",
+      "Energy (420-300)",
+      "Firefield",
+      "Fire (200-110)",
+      "Mana Drain (100-40)"
+    ],
+    "summons": [
+      "Fire Elemental"
+    ],
+    "loot": [
+      "Coconut",
+      "Gold Coin",
+      "Fire Mushroom",
+      "Double Axe",
+      "Small Emerald",
+      "Demon Horn",
+      "Demonic Essence",
+      "Fire Axe",
+      "Talon",
+      "Orb",
+      "Giant Sword",
+      "Golden Sickle"
+    ]
+  },
+  "Demon Skeleton": {
+    "name": "Demon Skeleton",
+    "health": 400,
+    "experience": 240,
+    "speed": 50,
+    "race": "undead",
+    "armor": 25,
+    "defense": 35,
+    "corpse": 2809,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~203)",
+      "Life Drain (50-30)"
+    ],
+    "loot": [
+      "Torch",
+      "Gold Coin",
+      "Throwing Star",
+      "Demonic Skeletal Hand",
+      "Battle Hammer",
+      "Iron Helmet",
+      "Battle Shield",
+      "Mysterious Fetish",
+      "Mind Stone",
+      "Guardian Shield"
+    ]
+  },
+  "Dharalion": {
+    "name": "Dharalion",
+    "health": 390,
+    "experience": 380,
+    "speed": 72,
+    "race": "blood",
+    "armor": 15,
+    "defense": 39,
+    "corpse": 2979,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~70)",
+      "Physical (150-130)",
+      "Energy (90-70)",
+      "Mana Drain (60-30)"
+    ],
+    "summons": [
+      "Demon Skeleton"
+    ],
+    "loot": [
+      "Scroll",
+      "Melon",
+      "Blank Rune",
+      "Bread",
+      "Staff",
+      "Sandals",
+      "Inkwell",
+      "Green Tunic",
+      "Grave Flower",
+      "Candlestick",
+      "Sling Herb",
+      "Bowl"
+    ]
+  },
+  "Dipthrah": {
+    "name": "Dipthrah",
+    "health": 4200,
+    "experience": 2900,
+    "speed": 120,
+    "race": "undead",
+    "armor": 65,
+    "defense": 75,
+    "corpse": 3034,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Physical",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~293)",
+      "Drunk",
+      "Paralyze",
+      "Mana Drain (500-200)",
+      "Life Drain (800-400)"
+    ],
+    "summons": [
+      "Priestess"
+    ],
+    "loot": [
+      "Ornamented Ankh",
+      "Gold Coin",
+      "Small Sapphire",
+      "Energy Ring",
+      "Mind Stone",
+      "Blue Gem",
+      "Skull Staff",
+      "Ankh",
+      "Tomb Mask",
+      "Pharaoh Sword"
+    ]
+  },
+  "Dog": {
+    "name": "Dog",
+    "health": 20,
+    "experience": 0,
+    "speed": 22,
+    "race": "blood",
+    "armor": 1,
+    "defense": 2,
+    "corpse": 2839,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee"
+    ]
+  },
+  "Dragon": {
+    "name": "Dragon",
+    "health": 1000,
+    "experience": 700,
+    "speed": 45,
+    "race": "blood",
+    "armor": 25,
+    "defense": 38,
+    "corpse": 2844,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~158)",
+      "Fire (160-100)",
+      "Fire (105-55)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Dragon Ham",
+      "Short Sword",
+      "Mace",
+      "Steel Shield",
+      "Crossbow",
+      "Dragon's Tail",
+      "Burst Arrow",
+      "Royal Spear",
+      "Longsword",
+      "Steel Helmet",
+      "Plate Legs"
+    ]
+  },
+  "Dragon Lord": {
+    "name": "Dragon Lord",
+    "health": 1900,
+    "experience": 2100,
+    "speed": 60,
+    "race": "blood",
+    "armor": 32,
+    "defense": 48,
+    "corpse": 2881,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~234)",
+      "Fire (250-150)",
+      "Firefield",
+      "Fire (180-120)"
+    ],
+    "loot": [
+      "Dragon Ham",
+      "Gold Coin",
+      "Green Mushroom",
+      "Book",
+      "Power Bolt",
+      "Small Sapphire",
+      "Energy Ring",
+      "Red Dragon Scale",
+      "Golden Mug",
+      "Life Crystal",
+      "Red Dragon Leather",
+      "Strange Helmet"
+    ]
+  },
+  "Dravokar": {
+    "name": "Dravokar",
+    "health": 40000,
+    "experience": 6000,
+    "speed": 80,
+    "race": "fire",
+    "armor": 60,
+    "defense": 80,
+    "corpse": 2916,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~2080)",
+      "Energy (840-600)",
+      "Firefield",
+      "Fire (400-220)",
+      "Mana Drain (200-80)"
+    ],
+    "summons": [
+      "Fire Elemental"
+    ]
+  },
+  "Dwarf": {
+    "name": "Dwarf",
+    "health": 90,
+    "experience": 45,
+    "speed": 45,
+    "race": "blood",
+    "armor": 8,
+    "defense": 14,
+    "corpse": 2960,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "immunities": [
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~30)"
+    ],
+    "loot": [
+      "White Mushroom",
+      "Gold Coin",
+      "Hatchet",
+      "Axe",
+      "Pick",
+      "Leather Legs",
+      "Copper Shield",
+      "Studded Armor",
+      "Letter",
+      "Iron Hammer",
+      "Dwarven Ring"
+    ]
+  },
+  "Dwarf Geomancer": {
+    "name": "Dwarf Geomancer",
+    "health": 380,
+    "experience": 245,
+    "speed": 60,
+    "race": "blood",
+    "armor": 15,
+    "defense": 35,
+    "corpse": 2987,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~105)",
+      "Mana Drain (80-50)",
+      "Physical (105-55)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "White Mushroom",
+      "Bag",
+      "Leather Boots",
+      "Studded Legs",
+      "Pear",
+      "Blank Rune",
+      "Protection Amulet",
+      "Soldier Helmet",
+      "Magic Light Wand",
+      "Iron Hammer",
+      "Clerical Mace"
+    ]
+  },
+  "Dwarf Guard": {
+    "name": "Dwarf Guard",
+    "health": 240,
+    "experience": 170,
+    "speed": 63,
+    "race": "blood",
+    "armor": 15,
+    "defense": 37,
+    "corpse": 2983,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~146)"
+    ],
+    "loot": [
+      "White Mushroom",
+      "Gold Coin",
+      "Leather Boots",
+      "Scale Armor",
+      "Battle Shield",
+      "Battle Hammer",
+      "Steel Helmet",
+      "Iron Hammer",
+      "Double Axe",
+      "Melee Ring",
+      "Small Amethyst"
+    ]
+  },
+  "Dwarf Soldier": {
+    "name": "Dwarf Soldier",
+    "health": 135,
+    "experience": 70,
+    "speed": 48,
+    "race": "blood",
+    "armor": 9,
+    "defense": 20,
+    "corpse": 2985,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~65)",
+      "Physical (40-20)"
+    ],
+    "loot": [
+      "White Mushroom",
+      "Bolt",
+      "Gold Coin",
+      "Soldier Helmet",
+      "Shovel",
+      "Chain Armor",
+      "Dwarven Shield",
+      "Crossbow",
+      "Battle Axe",
+      "Iron Hammer",
+      "Melee Ring"
+    ]
+  },
+  "Dworc Fleshhunter": {
+    "name": "Dworc Fleshhunter",
+    "health": 85,
+    "experience": 35,
+    "speed": 34,
+    "race": "blood",
+    "armor": 3,
+    "defense": 8,
+    "corpse": 4307,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~38)",
+      "Physical (15-5)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Leather Armor",
+      "Cleaver",
+      "Torch",
+      "Skull",
+      "Poison Dagger",
+      "Bone Shield",
+      "Tribal Mask",
+      "Hunting Spear",
+      "Ripper Lance"
+    ]
+  },
+  "Dworc Venomsniper": {
+    "name": "Dworc Venomsniper",
+    "health": 80,
+    "experience": 30,
+    "speed": 36,
+    "race": "blood",
+    "armor": 3,
+    "defense": 15,
+    "corpse": 4310,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~20)",
+      "Poisoncondition"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Leather Armor",
+      "Throwing Knife",
+      "Torch",
+      "Poison Arrow",
+      "Poison Dagger",
+      "Skull",
+      "Tribal Mask",
+      "Bronze Amulet",
+      "Bast Skirt"
+    ]
+  },
+  "Dworc Voodoomaster": {
+    "name": "Dworc Voodoomaster",
+    "health": 80,
+    "experience": 50,
+    "speed": 35,
+    "race": "blood",
+    "armor": 3,
+    "defense": 8,
+    "corpse": 4304,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~27)",
+      "Poisonfield",
+      "Poison (18-6)",
+      "Illusion",
+      "Drunk",
+      "Paralyze",
+      "Life Drain (39-1)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Leather Armor",
+      "Bone",
+      "Big Bone",
+      "Torch",
+      "Skull",
+      "Poison Dagger",
+      "Tribal Mask",
+      "Strange Symbol",
+      "Voodoo Doll"
+    ]
+  },
+  "Efreet": {
+    "name": "Efreet",
+    "health": 550,
+    "experience": 300,
+    "speed": 77,
+    "race": "blood",
+    "armor": 24,
+    "defense": 35,
+    "corpse": 3037,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~131)",
+      "Energycondition",
+      "Illusion",
+      "Drunk",
+      "Paralyze",
+      "Life Drain (120-60)",
+      "Energy (115-65)",
+      "Fire (110-40)"
+    ],
+    "summons": [
+      "Green Djinn"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Pear",
+      "Small Oil Lamp",
+      "Heavy Machete",
+      "Jewelled Belt",
+      "Small Emerald",
+      "Green Tapestry",
+      "Noble Turban",
+      "Mystic Turban",
+      "Green Gem"
+    ]
+  },
+  "Elder Beholder": {
+    "name": "Elder Beholder",
+    "health": 500,
+    "experience": 280,
+    "speed": 45,
+    "race": "blood",
+    "armor": 13,
+    "defense": 26,
+    "corpse": 3052,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~52)",
+      "Paralyze",
+      "Mana Drain (40-20)",
+      "Life Drain (85-75)",
+      "Poison (70-30)",
+      "Physical (90-70)",
+      "Fire (80-60)",
+      "Energy (75-45)"
+    ],
+    "summons": [
+      "Crypt Shambler",
+      "Gazer"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Longsword",
+      "Morning Star",
+      "Elder Beholder Tentacle",
+      "Two Handed Sword",
+      "Steel Shield",
+      "Beholder Eye",
+      "Spellbook",
+      "Beholder Shield",
+      "Beholder Helmet"
+    ]
+  },
+  "Elder Wyrm": {
+    "name": "Elder Wyrm",
+    "health": 2700,
+    "experience": 2500,
+    "speed": 120,
+    "race": "blood",
+    "armor": 48,
+    "defense": 48,
+    "corpse": 6858,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Invisible",
+      "Life Drain",
+      "Paralyze"
+    ],
+    "attacks": [
+      "Melee (~400)",
+      "Energy (150-90)",
+      "Energy (250-140)",
+      "Physical (180-0)",
+      "Energy (300-200)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Platinum Coin",
+      "Dragon Ham",
+      "Small Diamond",
+      "Power Bolt",
+      "Orb",
+      "Dragon Hammer",
+      "Dragonbone Staff",
+      "Shadow Sceptre",
+      "Lightning Legs",
+      "Lightning Boots",
+      "Lightning Robe"
+    ]
+  },
+  "Elephant": {
+    "name": "Elephant",
+    "health": 320,
+    "experience": 160,
+    "speed": 55,
+    "race": "blood",
+    "armor": 20,
+    "defense": 16,
+    "corpse": 4295,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~133)"
+    ],
+    "loot": [
+      "Meat",
+      "Ham",
+      "Elephant Tusk",
+      "Tusk Shield"
+    ]
+  },
+  "Elf": {
+    "name": "Elf",
+    "health": 100,
+    "experience": 42,
+    "speed": 55,
+    "race": "blood",
+    "armor": 6,
+    "defense": 12,
+    "corpse": 2945,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "immunities": [
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~24)",
+      "Physical (35-15)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Red Apple",
+      "Studded Helmet",
+      "Brass Shield",
+      "Studded Armor",
+      "Leather Boots",
+      "Longsword",
+      "Arrow"
+    ]
+  },
+  "Elf Arcanist": {
+    "name": "Elf Arcanist",
+    "health": 220,
+    "experience": 175,
+    "speed": 70,
+    "race": "blood",
+    "armor": 15,
+    "defense": 20,
+    "corpse": 2979,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Illusion",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~45)",
+      "Physical (80-60)",
+      "Energy (50-30)",
+      "Physical (45-15)"
+    ],
+    "loot": [
+      "Scroll",
+      "Melon",
+      "Candlestick",
+      "Blank Rune",
+      "Bread",
+      "Sandals",
+      "Staff",
+      "Elven Astral Observer",
+      "Inkwell",
+      "Green Tunic",
+      "Grave Flower",
+      "Arrow"
+    ]
+  },
+  "Elf Scout": {
+    "name": "Elf Scout",
+    "health": 160,
+    "experience": 75,
+    "speed": 70,
+    "race": "blood",
+    "armor": 7,
+    "defense": 18,
+    "corpse": 2981,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~41)",
+      "Physical (60-30)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Arrow",
+      "Grapes",
+      "Poison Arrow",
+      "Waterskin",
+      "Studded Armor",
+      "Sandals",
+      "Elven Scouting Glass",
+      "Studded Helmet",
+      "Longsword",
+      "Bow"
+    ]
+  },
+  "Fernfang": {
+    "name": "Fernfang",
+    "health": 400,
+    "experience": 400,
+    "speed": 95,
+    "race": "blood",
+    "armor": 25,
+    "defense": 50,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~140)",
+      "Physical (180-140)",
+      "Energy (90-70)",
+      "Mana Drain (45-25)"
+    ],
+    "summons": [
+      "War Wolf"
+    ],
+    "loot": [
+      "Blank Rune",
+      "Bread",
+      "Gold Coin",
+      "Staff",
+      "Wolf Tooth Chain",
+      "Lamp",
+      "Star Herb",
+      "Sandals",
+      "Green Tunic",
+      "Grave Flower",
+      "Brown Flask",
+      "Dirty Fur"
+    ]
+  },
+  "Ferumbras": {
+    "name": "Ferumbras",
+    "health": 28000,
+    "experience": 9999,
+    "speed": 155,
+    "race": "venom",
+    "armor": 90,
+    "defense": 110,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~1434)",
+      "Life Drain (850-50)",
+      "Firecondition",
+      "Life Drain (400-200)",
+      "Mana Drain (375-125)",
+      "Energycondition",
+      "Poisoncondition",
+      "Mana Drain (650-350)"
+    ],
+    "summons": [
+      "Demon"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Two Handed Sword",
+      "Double Axe",
+      "Fire Axe",
+      "Small Emerald",
+      "Silver Dagger",
+      "Demon Shield",
+      "Black Pearl",
+      "Teddy Bear",
+      "Talon",
+      "Thunder Hammer",
+      "Small Sapphire"
+    ]
+  },
+  "Fherumin, the wise": {
+    "name": "Fherumin, the wise",
+    "health": 4000,
+    "experience": 2950,
+    "speed": 115,
+    "race": "undead",
+    "armor": 40,
+    "defense": 75,
+    "corpse": 3016,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~180)",
+      "Life Drain (550-250)",
+      "Paralyze",
+      "Life Drain (750-50)"
+    ],
+    "summons": [
+      "Banshee"
+    ],
+    "loot": [
+      "Gold Coin"
+    ]
+  },
+  "Fire Devil": {
+    "name": "Fire Devil",
+    "health": 200,
+    "experience": 110,
+    "speed": 50,
+    "race": "blood",
+    "armor": 13,
+    "defense": 15,
+    "corpse": 2886,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Fire"
+    ],
+    "attacks": [
+      "Melee (~55)",
+      "Fire (50-20)",
+      "Fire (90-60)"
+    ],
+    "loot": [
+      "Pitchfork",
+      "Torch",
+      "Blank Rune",
+      "Cleaver",
+      "Small Explosive Rune",
+      "Scimitar",
+      "Firelight Wand",
+      "Small Pitchfork",
+      "Double Axe",
+      "Small Amethyst",
+      "Guardian Shield",
+      "Red Spell Wand"
+    ]
+  },
+  "Fire Elemental": {
+    "name": "Fire Elemental",
+    "health": 280,
+    "experience": 220,
+    "speed": 55,
+    "race": "fire",
+    "armor": 18,
+    "defense": 20,
+    "corpse": 1487,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~110)",
+      "Firefield",
+      "Fire (155-55)"
+    ]
+  },
+  "Flamethrower": {
+    "name": "Flamethrower",
+    "health": 100,
+    "experience": 18,
+    "speed": -40,
+    "race": "undead",
+    "armor": 1,
+    "defense": 1,
+    "corpse": 1740,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~1)",
+      "Fire (100-50)"
+    ]
+  },
+  "Flamingo": {
+    "name": "Flamingo",
+    "health": 25,
+    "experience": 0,
+    "speed": 44,
+    "race": "blood",
+    "armor": 1,
+    "defense": 6,
+    "corpse": 4301,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~6)"
+    ]
+  },
+  "Fleshcursed Skeleton": {
+    "name": "Fleshcursed Skeleton",
+    "health": 400,
+    "experience": 240,
+    "speed": 50,
+    "race": "undead",
+    "armor": 25,
+    "defense": 35,
+    "corpse": 2809,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~203)",
+      "Life Drain (50-30)"
+    ],
+    "loot": [
+      "Torch",
+      "Gold Coin",
+      "Throwing Star",
+      "Battle Hammer",
+      "Iron Helmet",
+      "Battle Shield",
+      "Mysterious Fetish",
+      "Mind Stone",
+      "Guardian Shield"
+    ]
+  },
+  "Fog Wanderer": {
+    "name": "Fog Wanderer",
+    "health": 880,
+    "experience": 900,
+    "speed": 65,
+    "race": "undead",
+    "armor": 50,
+    "defense": 60,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~120)",
+      "Poisoncondition",
+      "Life Drain (200-100)",
+      "Life Drain (200-120)",
+      "Paralyze",
+      "Life Drain (250-50)"
+    ],
+    "summons": [
+      "Bonebeast"
+    ],
+    "loot": [
+      "Staff",
+      "Gold Coin",
+      "Dirty Cape",
+      "Spellbook",
+      "Black Pearl",
+      "White Pearl",
+      "Ring Of Healing",
+      "Strange Helmet",
+      "Mind Stone",
+      "Castle Shield",
+      "Platinum Amulet",
+      "Blue Robe"
+    ]
+  },
+  "Forsaken Knight": {
+    "name": "Forsaken Knight",
+    "health": 2400,
+    "experience": 1800,
+    "speed": 100,
+    "race": "blood",
+    "armor": 35,
+    "defense": 50,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~341)",
+      "Physical (155-95)",
+      "Ice (150-50)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Scroll",
+      "Rope",
+      "Red Rose",
+      "Grapes",
+      "Meat",
+      "Lyre",
+      "Scarf",
+      "Crossbow",
+      "Green Tunic",
+      "Wedding Ring",
+      "Power Bolt"
+    ]
+  },
+  "Frost Dragon": {
+    "name": "Frost Dragon",
+    "health": 1900,
+    "experience": 2100,
+    "speed": 60,
+    "race": "blood",
+    "armor": 32,
+    "defense": 48,
+    "corpse": 6778,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Ice",
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~261)",
+      "Life Drain (380-0)",
+      "Ice (240-0)",
+      "Physical (120-0)",
+      "Ice (200-45)"
+    ],
+    "loot": [
+      "Dragon Ham",
+      "Gold Coin",
+      "Green Mushroom",
+      "Book",
+      "Power Bolt",
+      "Small Sapphire",
+      "Energy Ring",
+      "Permafrost Longsword",
+      "Frost Dragon Claw",
+      "Golden Mug",
+      "Frost Dragon Wing",
+      "Life Crystal"
+    ]
+  },
+  "Frost Troll": {
+    "name": "Frost Troll",
+    "health": 55,
+    "experience": 23,
+    "speed": 30,
+    "race": "blood",
+    "armor": 7,
+    "defense": 9,
+    "corpse": 2928,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~21)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Spear",
+      "Fish",
+      "Wooden Shield",
+      "Rapier",
+      "Coat",
+      "Frosty Ear Of A Troll",
+      "Club",
+      "Twigs"
+    ]
+  },
+  "Frozemoth": {
+    "name": "Frozemoth",
+    "health": 6500,
+    "experience": 3200,
+    "speed": 130,
+    "race": "blood",
+    "armor": 50,
+    "defense": 65,
+    "corpse": 6839,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Ice",
+      "Invisible",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~520)",
+      "Ice (125-75)",
+      "Ice (250-150)",
+      "Paralyze",
+      "Ice (120-50)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Meat",
+      "Crowbar",
+      "Amphora",
+      "Double Axe",
+      "Big Bone",
+      "Pick",
+      "Behemoth Claw",
+      "Perfect Behemoth Fang",
+      "Small Amethyst",
+      "Dark Armor",
+      "Permafrost Longsword"
+    ]
+  },
+  "Gamemaster": {
+    "name": "Gamemaster",
+    "health": 8200,
+    "experience": 0,
+    "speed": 199,
+    "race": "blood",
+    "armor": 199,
+    "defense": 199,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~9254)",
+      "Energy (2250-1750)",
+      "Mana Drain (1029-969)",
+      "Life Drain (2150-1850)"
+    ]
+  },
+  "Gargoyle": {
+    "name": "Gargoyle",
+    "health": 250,
+    "experience": 150,
+    "speed": 60,
+    "race": "undead",
+    "armor": 26,
+    "defense": 30,
+    "corpse": 3022,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Life Drain",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~78)"
+    ],
+    "loot": [
+      "Meat",
+      "Gold Coin",
+      "Ham",
+      "Small Stone",
+      "Stone Wing",
+      "Studded Club",
+      "Battle Shield",
+      "Morning Star",
+      "Wolf Tooth Chain",
+      "Steel Helmet",
+      "Dark Armor",
+      "Melee Ring"
+    ]
+  },
+  "Gazer": {
+    "name": "Gazer",
+    "health": 120,
+    "experience": 90,
+    "speed": 30,
+    "race": "blood",
+    "armor": 4,
+    "defense": 15,
+    "corpse": 3049,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~20)",
+      "Mana Drain (15-5)",
+      "Life Drain (35-25)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Wooden Shield"
+    ]
+  },
+  "General Murius": {
+    "name": "General Murius",
+    "health": 550,
+    "experience": 300,
+    "speed": 85,
+    "race": "blood",
+    "armor": 26,
+    "defense": 52,
+    "corpse": 2876,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~248)",
+      "Physical (80-50)",
+      "Physical (120-50)"
+    ],
+    "summons": [
+      "Minotaur Guard",
+      "Minotaur Archer"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Chain Legs",
+      "Brass Armor",
+      "Battle Shield",
+      "Meat",
+      "Double Axe",
+      "Fishing Rod"
+    ]
+  },
+  "Ghost": {
+    "name": "Ghost",
+    "health": 150,
+    "experience": 120,
+    "speed": 40,
+    "race": "undead",
+    "armor": 10,
+    "defense": 20,
+    "corpse": 2913,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Life Drain",
+      "Paralyze",
+      "Physical",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~91)",
+      "Life Drain (45-25)"
+    ],
+    "loot": [
+      "Sandals",
+      "Shadow Herb",
+      "Morning Star",
+      "Cape",
+      "Combat Knife",
+      "Book",
+      "Ghostly Tissue",
+      "Ancient Shield",
+      "Stealth Ring",
+      "Golden Wand"
+    ]
+  },
+  "Ghoul": {
+    "name": "Ghoul",
+    "health": 100,
+    "experience": 85,
+    "speed": 32,
+    "race": "blood",
+    "armor": 8,
+    "defense": 17,
+    "corpse": 2853,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~74)",
+      "Life Drain (25-15)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Torch",
+      "Ghoul Snack",
+      "Brass Helmet",
+      "Knife",
+      "Rotten Piece Of Cloth",
+      "Viking Helmet",
+      "Pile Of Grave Earth",
+      "Scale Armor",
+      "Skull",
+      "Life Ring"
+    ]
+  },
+  "Giant Cobra": {
+    "name": "Giant Cobra",
+    "health": 1580,
+    "experience": 875,
+    "speed": 180,
+    "race": "venom",
+    "armor": 5,
+    "defense": 5,
+    "corpse": 7029,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Poison",
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~375)",
+      "Paralyze",
+      "Poison (200-100)"
+    ],
+    "summons": [
+      "Cobra"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Swamplight Wand",
+      "Small Emerald",
+      "Leather Legs",
+      "Cobra Scale",
+      "Silver Amulet",
+      "Double Axe",
+      "Giant Cobra Fang",
+      "Plate Legs",
+      "Ancient Boots",
+      "Time Ring",
+      "Cobra Tongue"
+    ]
+  },
+  "Giant Demon Skeleton": {
+    "name": "Giant Demon Skeleton",
+    "health": 800,
+    "experience": 540,
+    "speed": 65,
+    "race": "undead",
+    "armor": 25,
+    "defense": 35,
+    "corpse": 7071,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~275)",
+      "Life Drain (120-60)"
+    ],
+    "loot": [
+      "Torch",
+      "Gold Coin",
+      "Throwing Star",
+      "Warrior Helmet",
+      "Battle Hammer",
+      "Iron Helmet",
+      "Battle Shield",
+      "Plate Armor",
+      "Plate Legs",
+      "Mysterious Fetish",
+      "Mind Stone",
+      "Guardian Shield"
+    ]
+  },
+  "Giant Skeleton": {
+    "name": "Giant Skeleton",
+    "health": 200,
+    "experience": 180,
+    "speed": 50,
+    "race": "undead",
+    "armor": 2,
+    "defense": 9,
+    "corpse": 7072,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": true,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~50)",
+      "Life Drain (40-20)"
+    ],
+    "loot": [
+      "Torch",
+      "Bone",
+      "Gold Coin",
+      "Hatchet",
+      "Mace",
+      "Brass Shield",
+      "Viking Helmet",
+      "Sword",
+      "Chain Legs",
+      "Scale Armor"
+    ]
+  },
+  "Giant Spider": {
+    "name": "Giant Spider",
+    "health": 1300,
+    "experience": 900,
+    "speed": 80,
+    "race": "venom",
+    "armor": 30,
+    "defense": 40,
+    "corpse": 5360,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~325)",
+      "Poisonfield"
+    ],
+    "summons": [
+      "Poison Spider"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Plate Armor",
+      "Brass Legs",
+      "Steel Helmet",
+      "Spider Silk",
+      "Time Ring",
+      "Knight Legs",
+      "Knight Armor",
+      "Platinum Amulet",
+      "Ancient Whisper"
+    ]
+  },
+  "Goblin": {
+    "name": "Goblin",
+    "health": 50,
+    "experience": 25,
+    "speed": 20,
+    "race": "blood",
+    "armor": 6,
+    "defense": 8,
+    "corpse": 2940,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~18)",
+      "Physical (25-15)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Small Stone",
+      "Dagger",
+      "Fish",
+      "Bone",
+      "Small Axe",
+      "Leather Helmet",
+      "Goblin Ear",
+      "Short Sword",
+      "Leather Armor",
+      "Moldy Cheese",
+      "Bone Club"
+    ]
+  },
+  "Green Djinn": {
+    "name": "Green Djinn",
+    "health": 330,
+    "experience": 190,
+    "speed": 70,
+    "race": "blood",
+    "armor": 20,
+    "defense": 30,
+    "corpse": 2989,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~105)",
+      "Illusion",
+      "Drunk",
+      "Life Drain (105-55)",
+      "Energycondition",
+      "Fire (75-45)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Cheese",
+      "Grave Flower",
+      "Small Oil Lamp",
+      "Small Emerald",
+      "Dirty Turban",
+      "Book",
+      "Mystic Turban"
+    ]
+  },
+  "Grim Reaper": {
+    "name": "Grim Reaper",
+    "health": 3900,
+    "experience": 5500,
+    "speed": 260,
+    "race": "undead",
+    "corpse": 8955,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false
+  },
+  "Grimaw": {
+    "name": "Grimaw",
+    "health": 4200,
+    "experience": 2900,
+    "speed": 120,
+    "race": "undead",
+    "armor": 65,
+    "defense": 75,
+    "corpse": 3034,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~293)",
+      "Drunk",
+      "Paralyze",
+      "Mana Drain (500-200)",
+      "Life Drain (800-400)"
+    ],
+    "summons": [
+      "Priestess"
+    ],
+    "loot": [
+      "Ornamented Ankh",
+      "Gold Coin",
+      "Small Sapphire",
+      "Energy Ring",
+      "Mind Stone",
+      "Blue Gem",
+      "Skull Staff",
+      "Ankh",
+      "Pharaoh Sword"
+    ]
+  },
+  "Grorlam": {
+    "name": "Grorlam",
+    "health": 2700,
+    "experience": 1600,
+    "speed": 100,
+    "race": "undead",
+    "armor": 55,
+    "defense": 35,
+    "corpse": 2952,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~285)",
+      "Physical (200-150)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Small Stone",
+      "Steel Shield",
+      "Small Amethyst",
+      "Pick",
+      "Power Ring",
+      "Scale Armor",
+      "Steel Boots",
+      "Red Gem",
+      "Crystal Ring"
+    ]
+  },
+  "Hellforged Devil": {
+    "name": "Hellforged Devil",
+    "health": 1000,
+    "experience": 1200,
+    "speed": 100,
+    "race": "blood",
+    "armor": 25,
+    "defense": 38,
+    "corpse": 2886,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~158)",
+      "Fire (160-100)",
+      "Fire (105-55)",
+      "Randomtornado (165-85)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Scale Armor",
+      "Small Pitchfork",
+      "Blank Rune",
+      "Small Explosive Rune",
+      "Plate Armor",
+      "Small Ruby",
+      "Scimitar",
+      "Double Axe",
+      "Dragon Necklace",
+      "Wooden Wand",
+      "Ruby Necklace"
+    ]
+  },
+  "Hero": {
+    "name": "Hero",
+    "health": 1400,
+    "experience": 1200,
+    "speed": 100,
+    "race": "blood",
+    "armor": 35,
+    "defense": 50,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~290)",
+      "Physical (125-75)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Scroll",
+      "Arrow",
+      "Rope",
+      "Red Rose",
+      "Grapes",
+      "Meat",
+      "Lyre",
+      "Bow",
+      "Scarf",
+      "Green Tunic",
+      "Wedding Ring"
+    ]
+  },
+  "High Necromancer": {
+    "name": "High Necromancer",
+    "health": 750,
+    "experience": 700,
+    "speed": 60,
+    "race": "undead",
+    "armor": 55,
+    "defense": 45,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~124)",
+      "Poison (140-50)",
+      "Life Drain (120-80)"
+    ],
+    "summons": [
+      "Mummy",
+      "Ghost",
+      "Ghoul"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Bone",
+      "Green Mushroom",
+      "Bone Club",
+      "Skull",
+      "Short Sword",
+      "Scale Armor",
+      "Bone Shield",
+      "Big Bone",
+      "Clerical Mace",
+      "Mystic Turban",
+      "Skull Staff"
+    ]
+  },
+  "Hunter": {
+    "name": "Hunter",
+    "health": 150,
+    "experience": 150,
+    "speed": 65,
+    "race": "blood",
+    "armor": 8,
+    "defense": 10,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~25)",
+      "Physical (100-50)"
+    ],
+    "loot": [
+      "Arrow",
+      "Bow",
+      "Orange",
+      "Leather Legs",
+      "Roll",
+      "Leather Helmet",
+      "Torch",
+      "Burst Arrow",
+      "Brass Helmet",
+      "Brass Armor",
+      "Dragon Necklace",
+      "Sniper Gloves"
+    ]
+  },
+  "Hyaena": {
+    "name": "Hyaena",
+    "health": 60,
+    "experience": 20,
+    "speed": 58,
+    "race": "blood",
+    "armor": 1,
+    "defense": 5,
+    "corpse": 3019,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~21)"
+    ],
+    "loot": [
+      "Meat"
+    ]
+  },
+  "Hydra": {
+    "name": "Hydra",
+    "health": 2250,
+    "experience": 2100,
+    "speed": 60,
+    "race": "blood",
+    "armor": 27,
+    "defense": 45,
+    "corpse": 4283,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~255)",
+      "Poison (300-60)",
+      "Physical (200-100)",
+      "Paralyze"
+    ],
+    "loot": [
+      "Meat",
+      "Ham",
+      "Gold Coin",
+      "Hydra Head",
+      "Small Sapphire",
+      "Ring Of Healing",
+      "Warrior Helmet",
+      "Knight Armor",
+      "Hydra Egg",
+      "Stone Skin Amulet",
+      "Life Crystal",
+      "Royal Helmet"
+    ]
+  },
+  "Ice Goblin": {
+    "name": "Ice Goblin",
+    "health": 120,
+    "experience": 85,
+    "speed": 60,
+    "race": "blood",
+    "armor": 8,
+    "defense": 8,
+    "corpse": 2940,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~127)",
+      "Physical (55-0)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Small Stone",
+      "Fish",
+      "Bone",
+      "Hand Axe",
+      "Goblin Ear",
+      "Sword",
+      "Moldy Cheese",
+      "Steel Helmet",
+      "Mace",
+      "Scale Armor"
+    ]
+  },
+  "Ice Golem": {
+    "name": "Ice Golem",
+    "health": 385,
+    "experience": 295,
+    "speed": 95,
+    "race": "undead",
+    "armor": 30,
+    "defense": 25,
+    "corpse": 6795,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Ice",
+      "Invisible",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~270)",
+      "Ice (105-50)",
+      "Paralyze"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Small Stone",
+      "Plate Armor",
+      "Frosty Heart",
+      "Torch",
+      "Small Diamond",
+      "Black Pearl",
+      "Melee Ring",
+      "Strange Helmet",
+      "Spike Sword",
+      "Guardian Shield",
+      "Talon"
+    ]
+  },
+  "Ice Witch": {
+    "name": "Ice Witch",
+    "health": 650,
+    "experience": 580,
+    "speed": 90,
+    "race": "blood",
+    "armor": 8,
+    "defense": 12,
+    "corpse": 3065,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Ice",
+      "Invisible",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~34)",
+      "Ice (100-0)",
+      "Ice (110-0)",
+      "Ice (110-50)"
+    ],
+    "loot": [
+      "Sickle",
+      "Cookie",
+      "Broom",
+      "Wolf Tooth Chain",
+      "Star Herb",
+      "Gold Coin",
+      "Mystic Turban",
+      "Silver Dagger",
+      "Spike Sword",
+      "Garlic Necklace",
+      "Vampire Shield",
+      "Blue Robe"
+    ]
+  },
+  "Infernatil": {
+    "name": "Infernatil",
+    "health": 110000,
+    "experience": 30000,
+    "speed": 210,
+    "race": "fire",
+    "armor": 165,
+    "defense": 150,
+    "corpse": 2916,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~2990)",
+      "Fire (1500-300)",
+      "Fire (1000-500)",
+      "Fire (850-350)",
+      "Firefield",
+      "Fire (500-200)",
+      "Physical (750-250)",
+      "Firecondition"
+    ],
+    "summons": [
+      "Demon"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Two Handed Sword",
+      "Double Axe",
+      "Fire Axe",
+      "Small Emerald",
+      "Silver Dagger",
+      "Demon Shield",
+      "Black Pearl",
+      "Teddy Bear",
+      "Talon",
+      "Thunder Hammer",
+      "Small Sapphire"
+    ]
+  },
+  "Jothun": {
+    "name": "Jothun",
+    "health": 1550,
+    "experience": 1050,
+    "speed": 120,
+    "race": "blood",
+    "armor": 17,
+    "defense": 24,
+    "corpse": 6812,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~234)",
+      "Physical (150-0)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Meat",
+      "Ham",
+      "Short Sword",
+      "Halberd",
+      "Melee Ring",
+      "Platinum Amulet",
+      "Plate Shield",
+      "Battle Shield",
+      "Permafrost Morningstar",
+      "Crystallized Shield",
+      "Wolf Tooth Chain"
+    ]
+  },
+  "Jothun Elder": {
+    "name": "Jothun Elder",
+    "health": 3320,
+    "experience": 2250,
+    "speed": 145,
+    "race": "blood",
+    "armor": 30,
+    "defense": 25,
+    "corpse": 6812,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Ice",
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~400)",
+      "Physical (180-0)",
+      "Ice (180-100)",
+      "Paralyze"
+    ],
+    "loot": [
+      "Meat",
+      "Gold Coin",
+      "Ham",
+      "Plate Armor",
+      "Short Sword",
+      "Halberd",
+      "Battle Hammer",
+      "Platinum Amulet",
+      "Small Sapphire",
+      "Plate Shield",
+      "Dark Helmet",
+      "Time Ring"
+    ]
+  },
+  "Kongra": {
+    "name": "Kongra",
+    "health": 340,
+    "experience": 110,
+    "speed": 52,
+    "race": "blood",
+    "armor": 18,
+    "defense": 14,
+    "corpse": 4268,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~90)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Banana",
+      "Protection Amulet",
+      "Plate Armor",
+      "Ape Fur",
+      "Power Ring",
+      "Melee Ring"
+    ]
+  },
+  "Kragmorth": {
+    "name": "Kragmorth",
+    "health": 30000,
+    "experience": 0,
+    "speed": 130,
+    "race": "blood",
+    "armor": 63,
+    "defense": 81,
+    "corpse": 2931,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~975)",
+      "Physical (370-250)"
+    ]
+  },
+  "Larva": {
+    "name": "Larva",
+    "health": 70,
+    "experience": 44,
+    "speed": 22,
+    "race": "venom",
+    "armor": 5,
+    "defense": 11,
+    "corpse": 3010,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~50)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Meat"
+    ]
+  },
+  "Lich": {
+    "name": "Lich",
+    "health": 880,
+    "experience": 900,
+    "speed": 65,
+    "race": "undead",
+    "armor": 50,
+    "defense": 60,
+    "corpse": 3025,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~120)",
+      "Poisoncondition",
+      "Life Drain (200-100)",
+      "Life Drain (200-120)",
+      "Paralyze",
+      "Life Drain (250-50)"
+    ],
+    "summons": [
+      "Bonebeast"
+    ],
+    "loot": [
+      "Staff",
+      "Gold Coin",
+      "Dirty Cape",
+      "Spellbook",
+      "Black Pearl",
+      "White Pearl",
+      "Ring Of Healing",
+      "Strange Helmet",
+      "Mind Stone",
+      "Castle Shield",
+      "Platinum Amulet",
+      "Blue Robe"
+    ]
+  },
+  "Lion": {
+    "name": "Lion",
+    "health": 80,
+    "experience": 30,
+    "speed": 55,
+    "race": "blood",
+    "armor": 6,
+    "defense": 13,
+    "corpse": 2889,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~52)"
+    ],
+    "loot": [
+      "Meat",
+      "Ham",
+      "Lion's Mane"
+    ]
+  },
+  "Lizard Sentinel": {
+    "name": "Lizard Sentinel",
+    "health": 265,
+    "experience": 105,
+    "speed": 50,
+    "race": "blood",
+    "armor": 17,
+    "defense": 24,
+    "corpse": 4259,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": true,
+    "immunities": [
+      "Invisible",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~72)",
+      "Physical (70-40)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Spear",
+      "Chain Armor",
+      "Scale Armor",
+      "Obsidian Lance",
+      "Lizard Leather",
+      "Lizard Scale",
+      "Halberd",
+      "Sentinel Shield",
+      "Small Diamond"
+    ]
+  },
+  "Lizard Snakecharmer": {
+    "name": "Lizard Snakecharmer",
+    "health": 325,
+    "experience": 200,
+    "speed": 52,
+    "race": "blood",
+    "armor": 22,
+    "defense": 15,
+    "corpse": 4262,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": true,
+    "immunities": [
+      "Invisible",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~43)",
+      "Poison (100-50)",
+      "Poisoncondition"
+    ],
+    "summons": [
+      "Cobra"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Dead Snake",
+      "Dirty Cape",
+      "Cape",
+      "Life Crystal",
+      "Lizard Leather",
+      "Lizard Scale",
+      "Small Amethyst",
+      "Yellow Gem",
+      "Life Ring",
+      "Charmer's Tiara"
+    ]
+  },
+  "Lizard Templar": {
+    "name": "Lizard Templar",
+    "health": 410,
+    "experience": 145,
+    "speed": 47,
+    "race": "blood",
+    "armor": 26,
+    "defense": 20,
+    "corpse": 4256,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~96)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Short Sword",
+      "Sword",
+      "Steel Helmet",
+      "Plate Armor",
+      "Lizard Leather",
+      "Morning Star",
+      "Templar Scytheblade",
+      "Small Emerald",
+      "Salamander Shield"
+    ]
+  },
+  "Mad Santa": {
+    "name": "Mad Santa",
+    "health": 250000,
+    "experience": 250000,
+    "speed": 200,
+    "race": "fire",
+    "armor": 40,
+    "defense": 65,
+    "corpse": 6499,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Ice",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze"
+    ],
+    "attacks": [
+      "Melee (~560)",
+      "Energy (420-300)",
+      "Firefield",
+      "Ice (200-110)",
+      "Mana Drain (100-40)"
+    ],
+    "loot": [
+      "Golden Boots",
+      "Gold Coin",
+      "Ring Of Healing",
+      "Crystal Wand",
+      "Arena Coin",
+      "Large Aethernite",
+      "Demon Shield",
+      "Golden Legs",
+      "Royal Helmet",
+      "Blue Tome",
+      "Magic Plate Armor"
+    ]
+  },
+  "Magicthrower": {
+    "name": "Magicthrower",
+    "health": 100,
+    "experience": 18,
+    "speed": -40,
+    "race": "undead",
+    "armor": 1,
+    "defense": 1,
+    "corpse": 1740,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~1)",
+      "Poison (100-50)"
+    ]
+  },
+  "Mahrdis": {
+    "name": "Mahrdis",
+    "health": 3900,
+    "experience": 3050,
+    "speed": 110,
+    "race": "undead",
+    "armor": 40,
+    "defense": 60,
+    "corpse": 3016,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~180)",
+      "Firecondition",
+      "Firefield",
+      "Fire (800-100)",
+      "Paralyze",
+      "Fire (600-300)",
+      "Life Drain (750-50)"
+    ],
+    "summons": [
+      "Fire Elemental"
+    ],
+    "loot": [
+      "Burning Heart",
+      "Gold Coin",
+      "Small Ruby",
+      "Life Ring",
+      "Red Gem",
+      "Fire Axe",
+      "Phoenix Shield",
+      "Holy Falcon"
+    ]
+  },
+  "Manticore": {
+    "name": "Manticore",
+    "health": 8000,
+    "experience": 5700,
+    "speed": 160,
+    "race": "blood",
+    "armor": 55,
+    "defense": 55,
+    "corpse": 7026,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~660)",
+      "Fire (450-350)",
+      "Poison (750-450)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Green Mushroom",
+      "Halberd",
+      "Melee Ring",
+      "Serpent Sword",
+      "Knight Axe",
+      "Orb",
+      "Small Emerald",
+      "The Stinger",
+      "Ancient Boots",
+      "Crown Armor",
+      "Gold Ring"
+    ]
+  },
+  "Marid": {
+    "name": "Marid",
+    "health": 550,
+    "experience": 300,
+    "speed": 77,
+    "race": "blood",
+    "armor": 24,
+    "defense": 35,
+    "corpse": 3040,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~131)",
+      "Energycondition",
+      "Illusion",
+      "Drunk",
+      "Paralyze",
+      "Life Drain (120-60)",
+      "Energy (115-65)",
+      "Fire (110-40)"
+    ],
+    "summons": [
+      "Blue Djinn"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Blueberry",
+      "Small Oil Lamp",
+      "Heavy Machete",
+      "Jewelled Belt",
+      "Small Sapphire",
+      "Blue Tapestry",
+      "Noble Turban",
+      "Wooden Flute",
+      "Mystic Turban",
+      "Blue Gem"
+    ]
+  },
+  "Medusa": {
+    "name": "Medusa",
+    "health": 4500,
+    "experience": 4050,
+    "speed": 120,
+    "race": "blood",
+    "armor": 5,
+    "defense": 5,
+    "corpse": 7020,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~495)",
+      "Paralyze",
+      "Life Drain (150-75)",
+      "Poison (500-250)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Platinum Coin",
+      "Small Emerald",
+      "Strand Of Medusa Hair",
+      "Knight Armor",
+      "Medusa Shield",
+      "Titan Axe",
+      "Terra Mantle",
+      "Terra Legs"
+    ]
+  },
+  "Merlkin": {
+    "name": "Merlkin",
+    "health": 230,
+    "experience": 135,
+    "speed": 57,
+    "race": "blood",
+    "armor": 16,
+    "defense": 40,
+    "corpse": 4271,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~34)",
+      "Poisonfield",
+      "Energy (45-15)",
+      "Fire (90-30)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Magic Light Wand",
+      "Banana",
+      "Banana Sash",
+      "Orange",
+      "Ape Fur",
+      "Small Amethyst",
+      "Banana Staff"
+    ]
+  },
+  "Mimic": {
+    "name": "Mimic",
+    "health": 29,
+    "experience": 18,
+    "speed": 40,
+    "race": "undead",
+    "armor": 2,
+    "defense": 3,
+    "corpse": 1740,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~19)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Cherry"
+    ]
+  },
+  "Minotaur": {
+    "name": "Minotaur",
+    "health": 100,
+    "experience": 50,
+    "speed": 44,
+    "race": "blood",
+    "armor": 11,
+    "defense": 11,
+    "corpse": 2830,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~34)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Plate Shield",
+      "Leather Legs",
+      "Mace",
+      "Sword",
+      "Meat",
+      "Chain Armor",
+      "Minotaur Horn",
+      "Brass Helmet",
+      "Chain Helmet",
+      "Minotaur Leather",
+      "Axe"
+    ]
+  },
+  "Minotaur Archer": {
+    "name": "Minotaur Archer",
+    "health": 100,
+    "experience": 65,
+    "speed": 40,
+    "race": "blood",
+    "armor": 7,
+    "defense": 8,
+    "corpse": 2871,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~30)",
+      "Physical (85-45)"
+    ],
+    "loot": [
+      "Bolt",
+      "Gold Coin",
+      "Meat",
+      "Crossbow",
+      "Minotaur Horn",
+      "Leather Legs",
+      "Leather Helmet",
+      "Minotaur Leather",
+      "Soldier Helmet",
+      "Brass Armor",
+      "Scale Armor",
+      "Broken Crossbow"
+    ]
+  },
+  "Minotaur Guard": {
+    "name": "Minotaur Guard",
+    "health": 185,
+    "experience": 160,
+    "speed": 55,
+    "race": "blood",
+    "armor": 15,
+    "defense": 32,
+    "corpse": 2876,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~123)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Leather Legs",
+      "Meat",
+      "Hatchet",
+      "Minotaur Horn",
+      "Fishing Rod",
+      "Minotaur Leather",
+      "Brass Armor",
+      "Chain Armor",
+      "Battle Shield",
+      "Chain Legs",
+      "Piece Of Warrior Armor"
+    ]
+  },
+  "Minotaur Mage": {
+    "name": "Minotaur Mage",
+    "health": 155,
+    "experience": 150,
+    "speed": 45,
+    "race": "blood",
+    "armor": 18,
+    "defense": 40,
+    "corpse": 2866,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~29)",
+      "Energyfield",
+      "Fire (95-35)",
+      "Energy (45-15)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Dead Snake",
+      "Torch",
+      "Leather Legs",
+      "Leather Helmet",
+      "Knife",
+      "Carrot",
+      "Minotaur Horn",
+      "Moonlight Wand",
+      "Minotaur Leather",
+      "Combat Knife",
+      "Brass Armor"
+    ]
+  },
+  "Monk": {
+    "name": "Monk",
+    "health": 240,
+    "experience": 200,
+    "speed": 80,
+    "race": "blood",
+    "armor": 25,
+    "defense": 52,
+    "corpse": 3058,
+    "summonable": true,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~158)"
+    ],
+    "loot": [
+      "Rope Belt",
+      "Book Of Prayers",
+      "Scroll",
+      "Bread",
+      "Gold Coin",
+      "Bag",
+      "Staff",
+      "Lamp",
+      "Brown Flask",
+      "Sandals",
+      "Leather Armor",
+      "Life Crystal"
+    ]
+  },
+  "Morgaroth": {
+    "name": "Morgaroth",
+    "health": 55000,
+    "experience": 15000,
+    "speed": 185,
+    "race": "fire",
+    "armor": 130,
+    "defense": 130,
+    "corpse": 2916,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~2200)",
+      "Life Drain (850-500)",
+      "Fire (900-100)",
+      "Paralyze",
+      "Mana Drain (700-400)",
+      "Life Drain (700-400)",
+      "Mana Drain (1000-100)"
+    ],
+    "summons": [
+      "Demon"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Two Handed Sword",
+      "Double Axe",
+      "Fire Axe",
+      "Small Emerald",
+      "Silver Dagger",
+      "Demon Shield",
+      "Black Pearl",
+      "Teddy Bear",
+      "Talon",
+      "Thunder Hammer",
+      "Small Sapphire"
+    ]
+  },
+  "Morgrath": {
+    "name": "Morgrath",
+    "health": 7500,
+    "experience": 0,
+    "speed": 32,
+    "race": "blood",
+    "armor": 10,
+    "defense": 20,
+    "corpse": 2853,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~148)",
+      "Life Drain (50-30)"
+    ]
+  },
+  "Morguthis": {
+    "name": "Morguthis",
+    "health": 4800,
+    "experience": 3000,
+    "speed": 175,
+    "race": "undead",
+    "armor": 75,
+    "defense": 85,
+    "corpse": 3016,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~723)",
+      "Physical (750-450)",
+      "Physical (600-300)",
+      "Paralyze",
+      "Life Drain (550-250)"
+    ],
+    "summons": [
+      "Hero"
+    ],
+    "loot": [
+      "Sword Hilt",
+      "Gold Coin",
+      "Black Pearl",
+      "Stone Skin Amulet",
+      "Knight Axe",
+      "Steel Boots",
+      "Ravager's Axe",
+      "Demonbone Amulet"
+    ]
+  },
+  "Mummy": {
+    "name": "Mummy",
+    "health": 240,
+    "experience": 150,
+    "speed": 35,
+    "race": "undead",
+    "armor": 14,
+    "defense": 23,
+    "corpse": 2949,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~112)",
+      "Paralyze",
+      "Life Drain (40-30)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Short Sword",
+      "Flash Of Embalm Fluid",
+      "Gauze Bandage",
+      "Strange Talisman",
+      "Silver Brooch",
+      "Poison Dagger",
+      "Crystal Ring",
+      "Black Pearl",
+      "Black Shield",
+      "Silver Amulet",
+      "Magic Light Wand"
+    ]
+  },
+  "Necromancer": {
+    "name": "Necromancer",
+    "health": 580,
+    "experience": 580,
+    "speed": 54,
+    "race": "blood",
+    "armor": 50,
+    "defense": 40,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~100)",
+      "Poison (95-35)",
+      "Life Drain (100-60)"
+    ],
+    "summons": [
+      "Mummy",
+      "Ghost",
+      "Ghoul"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Short Sword",
+      "Scale Armor",
+      "Book Of Necromantic Rituals",
+      "Green Mushroom",
+      "Clerical Mace",
+      "Mystic Turban",
+      "Conjurer Wand",
+      "Skull Staff",
+      "Boots Of Haste"
+    ]
+  },
+  "Necropharus": {
+    "name": "Necropharus",
+    "health": 750,
+    "experience": 700,
+    "speed": 60,
+    "race": "blood",
+    "armor": 55,
+    "defense": 45,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~124)",
+      "Poison (140-50)",
+      "Life Drain (120-80)"
+    ],
+    "summons": [
+      "Mummy",
+      "Ghost",
+      "Ghoul"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Bone",
+      "Green Mushroom",
+      "Bone Club",
+      "Skull",
+      "Short Sword",
+      "Scale Armor",
+      "Bone Shield",
+      "Big Bone",
+      "Clerical Mace",
+      "Mystic Turban",
+      "Skull Staff"
+    ]
+  },
+  "Noctyrix": {
+    "name": "Noctyrix",
+    "health": 24000,
+    "experience": 4000,
+    "speed": 100,
+    "race": "blood",
+    "armor": 40,
+    "defense": 63,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~280)",
+      "Fire (340-180)",
+      "Paralyze",
+      "Mana Drain (150-70)",
+      "Physical (210-90)",
+      "Examplebeam (410-290)"
+    ]
+  },
+  "Omruc": {
+    "name": "Omruc",
+    "health": 4300,
+    "experience": 2950,
+    "speed": 115,
+    "race": "undead",
+    "armor": 60,
+    "defense": 65,
+    "corpse": 3016,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~309)",
+      "Paralyze",
+      "Physical (400-200)",
+      "Fire (450-50)",
+      "Poison (500-200)",
+      "Life Drain (350-50)"
+    ],
+    "summons": [
+      "Stalker"
+    ],
+    "loot": [
+      "Crystal Arrow",
+      "Red Apple",
+      "Poison Arrow",
+      "Burst Arrow",
+      "Gold Coin",
+      "Arrow",
+      "Small Diamond",
+      "Power Bolt",
+      "Stealth Ring",
+      "Yellow Gem",
+      "Boots Of Haste"
+    ]
+  },
+  "Orc": {
+    "name": "Orc",
+    "health": 70,
+    "experience": 25,
+    "speed": 35,
+    "race": "blood",
+    "armor": 4,
+    "defense": 8,
+    "corpse": 2820,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~27)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Meat",
+      "Studded Armor",
+      "Studded Shield",
+      "Studded Helmet",
+      "Axe",
+      "Sabre",
+      "Orc Leather",
+      "Orc Tooth"
+    ]
+  },
+  "Orc Berserker": {
+    "name": "Orc Berserker",
+    "health": 210,
+    "experience": 195,
+    "speed": 85,
+    "race": "blood",
+    "armor": 12,
+    "defense": 12,
+    "corpse": 2864,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~228)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Ham",
+      "Chain Helmet",
+      "Chain Armor",
+      "Orcish Gear",
+      "Lamp",
+      "Halberd",
+      "Battle Axe",
+      "Orc Leather",
+      "Orc Tooth"
+    ]
+  },
+  "Orc Leader": {
+    "name": "Orc Leader",
+    "health": 450,
+    "experience": 270,
+    "speed": 75,
+    "race": "blood",
+    "armor": 20,
+    "defense": 45,
+    "corpse": 2938,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~173)",
+      "Physical (70-50)"
+    ],
+    "loot": [
+      "Fish",
+      "Gold Coin",
+      "Dagger",
+      "Backpack",
+      "Meat",
+      "Scimitar",
+      "Throwing Knife",
+      "Plate Shield",
+      "Longsword",
+      "Orc Leather",
+      "Orc Tooth",
+      "Skull Belt"
+    ]
+  },
+  "Orc Rider": {
+    "name": "Orc Rider",
+    "health": 180,
+    "experience": 110,
+    "speed": 90,
+    "race": "blood",
+    "armor": 9,
+    "defense": 20,
+    "corpse": 2972,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Illusion"
+    ],
+    "attacks": [
+      "Melee (~139)"
+    ],
+    "loot": [
+      "Meat",
+      "Backpack",
+      "Studded Helmet",
+      "Orcish Axe",
+      "Warwolf Fur",
+      "Wolf Tooth Chain",
+      "Torch",
+      "Orc Leather",
+      "Orc Tooth",
+      "Obsidian Lance",
+      "Gold Coin",
+      "Battle Shield"
+    ]
+  },
+  "Orc Shaman": {
+    "name": "Orc Shaman",
+    "health": 115,
+    "experience": 110,
+    "speed": 30,
+    "race": "blood",
+    "armor": 8,
+    "defense": 10,
+    "corpse": 2860,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Invisible",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~26)",
+      "Fire (45-5)",
+      "Energy (30-20)"
+    ],
+    "summons": [
+      "Snake"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Corncob",
+      "Bag",
+      "Spear",
+      "Chain Helmet",
+      "Chain Armor",
+      "Orc Leather",
+      "Orc Tooth",
+      "Staff",
+      "Book",
+      "Broken Shamanic Staff",
+      "Shamanic Hood"
+    ]
+  },
+  "Orc Spearman": {
+    "name": "Orc Spearman",
+    "health": 105,
+    "experience": 38,
+    "speed": 48,
+    "race": "blood",
+    "armor": 6,
+    "defense": 12,
+    "corpse": 2920,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~33)",
+      "Physical (40-16)"
+    ],
+    "loot": [
+      "Meat",
+      "Spear",
+      "Gold Coin",
+      "Studded Legs",
+      "Machete",
+      "Studded Helmet",
+      "Dirty Fur",
+      "Orc Leather",
+      "Orc Tooth"
+    ]
+  },
+  "Orc Warlord": {
+    "name": "Orc Warlord",
+    "health": 950,
+    "experience": 670,
+    "speed": 77,
+    "race": "blood",
+    "armor": 28,
+    "defense": 55,
+    "corpse": 2967,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Illusion"
+    ],
+    "attacks": [
+      "Melee (~313)",
+      "Physical (120-100)"
+    ],
+    "loot": [
+      "Throwing Star",
+      "Meat",
+      "Gold Coin",
+      "Orcish Axe",
+      "Scimitar",
+      "Fish",
+      "Brass Legs",
+      "Orc Leather",
+      "Orc Tooth",
+      "Plate Armor",
+      "Skull Belt",
+      "Plate Legs"
+    ]
+  },
+  "Orc Warrior": {
+    "name": "Orc Warrior",
+    "health": 125,
+    "experience": 50,
+    "speed": 55,
+    "race": "blood",
+    "armor": 8,
+    "defense": 14,
+    "corpse": 2862,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~59)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Sabre",
+      "Wooden Shield",
+      "Meat",
+      "Chain Armor",
+      "Bottle",
+      "Orc Leather",
+      "Orc Tooth",
+      "Copper Shield",
+      "Poison Dagger"
+    ]
+  },
+  "Orshabaal": {
+    "name": "Orshabaal",
+    "health": 200000,
+    "experience": 9999,
+    "speed": 150,
+    "race": "fire",
+    "armor": 90,
+    "defense": 111,
+    "corpse": 2916,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~2090)",
+      "Energy (850-500)",
+      "Firefield",
+      "Fire (600-310)",
+      "Mana Drain (350-150)",
+      "Mana Drain (600-300)"
+    ],
+    "summons": [
+      "Demon"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Two Handed Sword",
+      "Double Axe",
+      "Fire Axe",
+      "Small Emerald",
+      "Silver Dagger",
+      "Demon Shield",
+      "Black Pearl",
+      "Teddy Bear",
+      "Talon",
+      "Thunder Hammer",
+      "Small Sapphire"
+    ]
+  },
+  "Panda": {
+    "name": "Panda",
+    "health": 80,
+    "experience": 23,
+    "speed": 38,
+    "race": "blood",
+    "armor": 8,
+    "defense": 8,
+    "corpse": 4286,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~26)"
+    ],
+    "loot": [
+      "Meat",
+      "Ham",
+      "Bamboo Stick"
+    ]
+  },
+  "Parrot": {
+    "name": "Parrot",
+    "health": 25,
+    "experience": 0,
+    "speed": 120,
+    "race": "blood",
+    "armor": 2,
+    "defense": 6,
+    "corpse": 4314,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~10)"
+    ]
+  },
+  "Pig": {
+    "name": "Pig",
+    "health": 25,
+    "experience": 0,
+    "speed": 17,
+    "race": "blood",
+    "armor": 2,
+    "defense": 2,
+    "corpse": 2935,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee"
+    ],
+    "loot": [
+      "Meat",
+      "Pig Feet"
+    ]
+  },
+  "Plaguethrower": {
+    "name": "Plaguethrower",
+    "health": 100,
+    "experience": 18,
+    "speed": -40,
+    "race": "undead",
+    "armor": 1,
+    "defense": 1,
+    "corpse": 1740,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~1)",
+      "Poison (100-50)"
+    ]
+  },
+  "Poison Spider": {
+    "name": "Poison Spider",
+    "health": 26,
+    "experience": 22,
+    "speed": 40,
+    "race": "venom",
+    "armor": 2,
+    "defense": 6,
+    "corpse": 2848,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "immunities": [
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~27)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Poison Spider Shell"
+    ]
+  },
+  "Polar Bear": {
+    "name": "Polar Bear",
+    "health": 85,
+    "experience": 28,
+    "speed": 38,
+    "race": "blood",
+    "armor": 7,
+    "defense": 10,
+    "corpse": 2893,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~35)"
+    ],
+    "loot": [
+      "Meat",
+      "Ham",
+      "Polar Bear Paw"
+    ]
+  },
+  "Priestess": {
+    "name": "Priestess",
+    "health": 390,
+    "experience": 420,
+    "speed": 45,
+    "race": "blood",
+    "armor": 30,
+    "defense": 50,
+    "corpse": 3065,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~45)",
+      "Mana Drain (120-60)",
+      "Physical (95-55)"
+    ],
+    "summons": [
+      "Ghoul"
+    ],
+    "loot": [
+      "Dagger",
+      "Bowl",
+      "Sling Herb",
+      "Goat Grass",
+      "Red Apple",
+      "Book",
+      "Powder Herb",
+      "Wood Mushroom",
+      "Cultish Robe",
+      "Black Hood",
+      "Clerical Mace",
+      "Wooden Flute"
+    ]
+  },
+  "Purple Butterfly": {
+    "name": "Purple Butterfly",
+    "health": 2,
+    "experience": 0,
+    "speed": 120,
+    "race": "venom",
+    "armor": 0,
+    "defense": 14,
+    "corpse": 4993,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": true,
+    "attacks": [
+      "Melee"
+    ]
+  },
+  "Pyrothar": {
+    "name": "Pyrothar",
+    "health": 12000,
+    "experience": 0,
+    "speed": 60,
+    "race": "blood",
+    "armor": 40,
+    "defense": 55,
+    "corpse": 2881,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~468)",
+      "Fire (500-300)",
+      "Firefield",
+      "Fire (360-240)"
+    ]
+  },
+  "Queen Follower": {
+    "name": "Queen Follower",
+    "health": 18000,
+    "experience": 11000,
+    "speed": 400,
+    "race": "blood",
+    "armor": 50,
+    "defense": 70,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Paralyze"
+    ],
+    "attacks": [
+      "Melee (~2990)",
+      "Physical (1100-100)",
+      "Mana Drain (95-70)",
+      "Physical (450-0)",
+      "Queen Attack (1600-0)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Bread",
+      "Knight Axe",
+      "Blue Robe",
+      "Warrior Helmet",
+      "Bright Sword",
+      "Crown Armor",
+      "Mastermind Shield",
+      "Great Axe"
+    ]
+  },
+  "Rabbit": {
+    "name": "Rabbit",
+    "health": 15,
+    "experience": 0,
+    "speed": 50,
+    "race": "blood",
+    "armor": 1,
+    "defense": 2,
+    "corpse": 2992,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee"
+    ],
+    "loot": [
+      "Meat",
+      "Carrot",
+      "Rabbit's Foot"
+    ]
+  },
+  "Rahemos": {
+    "name": "Rahemos",
+    "health": 3700,
+    "experience": 3100,
+    "speed": 100,
+    "race": "undead",
+    "armor": 40,
+    "defense": 65,
+    "corpse": 3034,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~150)",
+      "Illusion",
+      "Drunk",
+      "Paralyze",
+      "Physical (600-200)",
+      "Energy (600-200)",
+      "Life Drain (750-50)"
+    ],
+    "summons": [
+      "Demon"
+    ],
+    "loot": [
+      "Ancient Rune",
+      "Gold Coin",
+      "Small Amethyst",
+      "Ring Of Healing",
+      "Magician Hat",
+      "Violet Gem",
+      "Orb",
+      "Twin Axe",
+      "Crystal Wand"
+    ]
+  },
+  "Rat": {
+    "name": "Rat",
+    "health": 20,
+    "experience": 5,
+    "speed": 27,
+    "race": "blood",
+    "armor": 1,
+    "defense": 3,
+    "corpse": 2813,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~12)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Cheese"
+    ]
+  },
+  "Red Butterfly": {
+    "name": "Red Butterfly",
+    "health": 2,
+    "experience": 0,
+    "speed": 120,
+    "race": "venom",
+    "armor": 0,
+    "defense": 14,
+    "corpse": 4992,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": true,
+    "attacks": [
+      "Melee"
+    ]
+  },
+  "Rotworm": {
+    "name": "Rotworm",
+    "health": 65,
+    "experience": 40,
+    "speed": 18,
+    "race": "blood",
+    "armor": 8,
+    "defense": 11,
+    "corpse": 2824,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Illusion"
+    ],
+    "attacks": [
+      "Melee (~41)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Meat",
+      "Ham",
+      "Mace",
+      "Sword",
+      "Legion Helmet",
+      "Copper Shield",
+      "Katana"
+    ]
+  },
+  "Sapiovor": {
+    "name": "Sapiovor",
+    "health": 50000,
+    "experience": 20000,
+    "speed": 155,
+    "race": "undead",
+    "armor": 95,
+    "defense": 115,
+    "corpse": 6785,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~943)",
+      "Physical (700-500)",
+      "Life Drain (750-500)",
+      "Physical (900-600)",
+      "Mana Drain (200-50)",
+      "Paralyze"
+    ]
+  },
+  "Sayron, the loyal": {
+    "name": "Sayron, the loyal",
+    "health": 4000,
+    "experience": 2950,
+    "speed": 115,
+    "race": "undead",
+    "armor": 40,
+    "defense": 75,
+    "corpse": 3016,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~180)",
+      "Life Drain (550-250)",
+      "Paralyze",
+      "Life Drain (750-50)"
+    ],
+    "summons": [
+      "Banshee"
+    ],
+    "loot": [
+      "Gold Coin"
+    ]
+  },
+  "Scarab": {
+    "name": "Scarab",
+    "health": 320,
+    "experience": 120,
+    "speed": 40,
+    "race": "venom",
+    "armor": 21,
+    "defense": 26,
+    "corpse": 3013,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~78)",
+      "Poison (25-15)",
+      "Poisonfield"
+    ],
+    "loot": [
+      "Meat",
+      "Gold Coin",
+      "Piece Of Scarab Shell",
+      "Swamplight Wand",
+      "Arrow",
+      "Small Amethyst",
+      "Scarab Coin",
+      "Heavy Machete",
+      "Small Emerald",
+      "Daramanian Mace"
+    ]
+  },
+  "Scorpion": {
+    "name": "Scorpion",
+    "health": 45,
+    "experience": 45,
+    "speed": 35,
+    "race": "venom",
+    "armor": 14,
+    "defense": 5,
+    "corpse": 2897,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "immunities": [
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~58)"
+    ],
+    "loot": [
+      "Scorpion Tail"
+    ]
+  },
+  "Sea Tyrant": {
+    "name": "Sea Tyrant",
+    "health": 1950,
+    "experience": 2300,
+    "speed": 100,
+    "race": "blood",
+    "armor": 32,
+    "defense": 48,
+    "corpse": 6790,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~261)",
+      "Ice (300-110)",
+      "Poison (290-70)",
+      "Physical (100-40)"
+    ],
+    "loot": [
+      "Dragon Ham",
+      "Gold Coin",
+      "Green Mushroom",
+      "Plate Legs",
+      "Sea Serpent Scale",
+      "Book",
+      "Small Sapphire",
+      "Power Bolt",
+      "Energy Ring",
+      "Permafrost Longsword",
+      "Ring Of Healing",
+      "Golden Mug"
+    ]
+  },
+  "Serpent Spawn": {
+    "name": "Serpent Spawn",
+    "health": 3000,
+    "experience": 2000,
+    "speed": 77,
+    "race": "blood",
+    "armor": 38,
+    "defense": 40,
+    "corpse": 4323,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~316)",
+      "Poison (500-50)",
+      "Life Drain (400-150)",
+      "Paralyze",
+      "Poison (300-100)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Green Mushroom",
+      "Book",
+      "Small Sapphire",
+      "Power Bolt",
+      "Snake Skin",
+      "Life Ring",
+      "Golden Mug",
+      "Energy Ring",
+      "Charmer's Tiara",
+      "Life Crystal",
+      "Strange Helmet"
+    ]
+  },
+  "Shadow Drake": {
+    "name": "Shadow Drake",
+    "health": 21400,
+    "experience": 11500,
+    "speed": 100,
+    "race": "blood",
+    "armor": 32,
+    "defense": 50,
+    "corpse": 6765,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~1196)",
+      "Ice (500-225)",
+      "Physical (500-225)",
+      "Randomdeath (900-500)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Brown Mushroom",
+      "Serpent Sword",
+      "Knight Armor",
+      "Knight Legs",
+      "Desintegrate Rune",
+      "Golden Armor",
+      "Steel Boots",
+      "Might Ring",
+      "Magic Plate Armor",
+      "Chaos Shield"
+    ]
+  },
+  "Shadow Wraith": {
+    "name": "Shadow Wraith",
+    "health": 3200,
+    "experience": 4000,
+    "speed": 100,
+    "race": "blood",
+    "armor": 32,
+    "defense": 50,
+    "corpse": 6771,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~140)",
+      "Fire (170-90)",
+      "Paralyze",
+      "Mana Drain (75-35)",
+      "Physical (105-45)",
+      "Examplebeam (205-145)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Candlestick",
+      "Brown Bread",
+      "Mace",
+      "Book Of Necromantic Rituals",
+      "Crystal Mace",
+      "Energy Ring",
+      "Green Mushroom",
+      "Mind Stone",
+      "Blue Robe",
+      "Small Amethyst",
+      "Lit Lamp"
+    ]
+  },
+  "Sheep": {
+    "name": "Sheep",
+    "health": 20,
+    "experience": 0,
+    "speed": 18,
+    "race": "blood",
+    "armor": 1,
+    "defense": 2,
+    "corpse": 2905,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee"
+    ],
+    "loot": [
+      "Meat",
+      "Wool"
+    ]
+  },
+  "Shredderthrower": {
+    "name": "Shredderthrower",
+    "health": 100,
+    "experience": 18,
+    "speed": -40,
+    "race": "undead",
+    "armor": 1,
+    "defense": 1,
+    "corpse": 1740,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~1)",
+      "Physical (140-80)"
+    ]
+  },
+  "Sibang": {
+    "name": "Sibang",
+    "health": 225,
+    "experience": 100,
+    "speed": 67,
+    "race": "blood",
+    "armor": 15,
+    "defense": 32,
+    "corpse": 4274,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible"
+    ],
+    "attacks": [
+      "Melee (~53)",
+      "Physical (55-35)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Small Stone",
+      "Orange",
+      "Melon",
+      "Banana",
+      "Banana Sash",
+      "Chain Helmet",
+      "Ape Fur"
+    ]
+  },
+  "Skeleton": {
+    "name": "Skeleton",
+    "health": 50,
+    "experience": 35,
+    "speed": 37,
+    "race": "undead",
+    "armor": 2,
+    "defense": 9,
+    "corpse": 2843,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "immunities": [
+      "Life Drain",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~27)",
+      "Life Drain (13-7)"
+    ],
+    "loot": [
+      "Torch",
+      "Bone",
+      "Pelvis Bone",
+      "Gold Coin",
+      "Hatchet",
+      "Mace",
+      "Brass Shield",
+      "Viking Helmet",
+      "Sword"
+    ]
+  },
+  "Skeleton Mage": {
+    "name": "Skeleton Mage",
+    "health": 50,
+    "experience": 35,
+    "speed": 37,
+    "race": "undead",
+    "armor": 2,
+    "defense": 9,
+    "corpse": 2843,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": true,
+    "immunities": [
+      "Life Drain",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~114)",
+      "Life Drain (13-7)",
+      "Life Drain (200-100)"
+    ],
+    "loot": [
+      "Torch",
+      "Bone",
+      "Pelvis Bone",
+      "Purple Tome",
+      "Gold Coin",
+      "Hatchet",
+      "Mace",
+      "Brass Shield",
+      "Viking Helmet",
+      "Staff Of Light",
+      "Sword",
+      "Black Hood"
+    ]
+  },
+  "Skull Reaper": {
+    "name": "Skull Reaper",
+    "health": 580,
+    "experience": 580,
+    "speed": 54,
+    "race": "blood",
+    "armor": 50,
+    "defense": 40,
+    "corpse": 6818,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~100)",
+      "Poison (95-35)",
+      "Life Drain (100-60)"
+    ],
+    "summons": [
+      "Mummy",
+      "Ghost",
+      "Ghoul"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Short Sword",
+      "Scale Armor",
+      "Green Mushroom",
+      "Clerical Mace",
+      "Mystic Turban",
+      "Boots Of Haste",
+      "Skull Staff",
+      "Conjurer Wand"
+    ]
+  },
+  "Skullar": {
+    "name": "Skullar",
+    "health": 580,
+    "experience": 580,
+    "speed": 54,
+    "race": "blood",
+    "armor": 50,
+    "defense": 40,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~100)",
+      "Poison (95-35)",
+      "Life Drain (100-60)"
+    ],
+    "summons": [
+      "Mummy",
+      "Ghost",
+      "Ghoul"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Short Sword",
+      "Scale Armor",
+      "Green Mushroom",
+      "Clerical Mace",
+      "Mystic Turban",
+      "Boots Of Haste",
+      "Skull Staff",
+      "Conjurer Wand"
+    ]
+  },
+  "Skulltrap": {
+    "name": "Skulltrap",
+    "health": 100,
+    "experience": 18,
+    "speed": -40,
+    "race": "undead",
+    "armor": 1,
+    "defense": 1,
+    "corpse": 1740,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~1)",
+      "Poison (100-50)"
+    ]
+  },
+  "Skunk": {
+    "name": "Skunk",
+    "health": 20,
+    "experience": 3,
+    "speed": 28,
+    "race": "blood",
+    "armor": 1,
+    "defense": 5,
+    "corpse": 3046,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~7)",
+      "Poison (3-1)"
+    ],
+    "loot": [
+      "Skunk Tail",
+      "Meat"
+    ]
+  },
+  "Slime": {
+    "name": "Slime",
+    "health": 150,
+    "experience": 160,
+    "speed": 20,
+    "race": "venom",
+    "armor": 3,
+    "defense": 10,
+    "corpse": 1490,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~88)"
+    ],
+    "summons": [
+      "Slime"
+    ]
+  },
+  "Smuggler": {
+    "name": "Smuggler",
+    "health": 130,
+    "experience": 48,
+    "speed": 48,
+    "race": "blood",
+    "armor": 10,
+    "defense": 13,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~41)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Meat",
+      "Torch",
+      "Leather Legs",
+      "Short Sword",
+      "Leather Helmet",
+      "Knife",
+      "Ham",
+      "Sword",
+      "Combat Knife"
+    ]
+  },
+  "Snake": {
+    "name": "Snake",
+    "health": 15,
+    "experience": 10,
+    "speed": 20,
+    "race": "blood",
+    "armor": 0,
+    "defense": 1,
+    "corpse": 2817,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~8)"
+    ]
+  },
+  "Souleater": {
+    "name": "Souleater",
+    "health": 1100,
+    "experience": 1300,
+    "speed": 90,
+    "race": "undead",
+    "armor": 25,
+    "defense": 30,
+    "corpse": 6854,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Ice",
+      "Life Drain"
+    ],
+    "attacks": [
+      "Melee (~206)",
+      "Life Drain (60-0)",
+      "Poisoncondition",
+      "Ice (100-50)",
+      "Life Drain (200-100)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Platinum Coin",
+      "Lizard Essence",
+      "Ectoplasmi Sushi",
+      "Staff Of Light",
+      "Stone Skin Amulet",
+      "Conjurer Wand",
+      "Souleater Trophy",
+      "Spirit Container"
+    ]
+  },
+  "Spectre": {
+    "name": "Spectre",
+    "health": 1000,
+    "experience": 900,
+    "speed": 70,
+    "race": "undead",
+    "armor": 25,
+    "defense": 65,
+    "corpse": 2998,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~98)",
+      "Life Drain (200-120)",
+      "Paralyze",
+      "Life Drain (350-50)"
+    ],
+    "loot": [
+      "Candlestick",
+      "Simple Dress",
+      "Gold Coin",
+      "Dirty Cape",
+      "Silver Amulet",
+      "Mirror",
+      "Black Pearl",
+      "Silver Brooch",
+      "Poison Dagger",
+      "White Pearl",
+      "Lyre",
+      "Stone Skin Amulet"
+    ]
+  },
+  "Spider": {
+    "name": "Spider",
+    "health": 20,
+    "experience": 12,
+    "speed": 36,
+    "race": "venom",
+    "armor": 2,
+    "defense": 2,
+    "corpse": 2807,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~14)"
+    ],
+    "loot": [
+      "Gold Coin"
+    ]
+  },
+  "Spit Nettle": {
+    "name": "Spit Nettle",
+    "health": 150,
+    "experience": 20,
+    "speed": -40,
+    "race": "venom",
+    "armor": 12,
+    "defense": 33,
+    "corpse": 4326,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~16)",
+      "Poisoncondition",
+      "Poison (37-17)"
+    ],
+    "loot": [
+      "Shadow Herb",
+      "Gold Coin",
+      "Sling Herb",
+      "Grave Flower"
+    ]
+  },
+  "Stalker": {
+    "name": "Stalker",
+    "health": 120,
+    "experience": 90,
+    "speed": 90,
+    "race": "blood",
+    "armor": 14,
+    "defense": 20,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~90)",
+      "Life Drain (30-20)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Throwing Knife",
+      "Leather Legs",
+      "Blank Rune",
+      "Katana",
+      "Brass Shield",
+      "Backpack",
+      "Brass Legs",
+      "Obsidian Lance"
+    ]
+  },
+  "Stone Golem": {
+    "name": "Stone Golem",
+    "health": 270,
+    "experience": 160,
+    "speed": 50,
+    "race": "undead",
+    "armor": 30,
+    "defense": 25,
+    "corpse": 2952,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~137)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Small Stone",
+      "Steel Shield",
+      "Torch",
+      "Scale Armor",
+      "Power Ring",
+      "Carlin Sword",
+      "Crystal Ring",
+      "Red Gem"
+    ]
+  },
+  "Swamp Troll": {
+    "name": "Swamp Troll",
+    "health": 55,
+    "experience": 25,
+    "speed": 24,
+    "race": "blood",
+    "armor": 6,
+    "defense": 10,
+    "corpse": 2995,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~24)"
+    ],
+    "loot": [
+      "Fish",
+      "Gold Coin",
+      "Dagger",
+      "Torch",
+      "Leather Boots",
+      "Fishing Rod"
+    ]
+  },
+  "Tarantula": {
+    "name": "Tarantula",
+    "health": 225,
+    "experience": 120,
+    "speed": 67,
+    "race": "venom",
+    "armor": 20,
+    "defense": 20,
+    "corpse": 4320,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "immunities": [
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~114)",
+      "Poisonfield"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Tarantula Egg",
+      "Brass Legs",
+      "Plate Shield",
+      "Steel Helmet",
+      "Time Ring"
+    ]
+  },
+  "Terror Bird": {
+    "name": "Terror Bird",
+    "health": 300,
+    "experience": 150,
+    "speed": 66,
+    "race": "blood",
+    "armor": 13,
+    "defense": 21,
+    "corpse": 4317,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~122)"
+    ],
+    "loot": [
+      "Meat",
+      "Terrorbird Beak",
+      "Gold Coin",
+      "Colourful Feather",
+      "Feather Headdress"
+    ]
+  },
+  "Thalas": {
+    "name": "Thalas",
+    "health": 4100,
+    "experience": 2950,
+    "speed": 90,
+    "race": "undead",
+    "armor": 40,
+    "defense": 60,
+    "corpse": 3016,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~423)",
+      "Poison (550-250)",
+      "Paralyze",
+      "Poisoncondition",
+      "Poison (650-300)",
+      "Life Drain (900-400)"
+    ],
+    "summons": [
+      "Slime"
+    ],
+    "loot": [
+      "Cobrafang Dagger",
+      "Gold Coin",
+      "Poison Dagger",
+      "Small Emerald",
+      "Time Ring",
+      "Serpent Sword",
+      "Djinn Blade",
+      "Green Gem"
+    ]
+  },
+  "The Evil Eye": {
+    "name": "The Evil Eye",
+    "health": 1100,
+    "experience": 500,
+    "speed": 55,
+    "race": "blood",
+    "armor": 19,
+    "defense": 35,
+    "corpse": 3052,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~102)",
+      "Mana Drain (250-150)",
+      "Life Drain (85-75)",
+      "Poison (85-35)",
+      "Paralyze",
+      "Life Drain (130-110)",
+      "Poison (120-40)",
+      "Physical (175-135)",
+      "Fire (115-85)",
+      "Energy (130-60)"
+    ],
+    "summons": [
+      "Ghost",
+      "Demon Skeleton"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Longsword",
+      "Morning Star",
+      "Spellbook",
+      "Two Handed Sword",
+      "Steel Shield",
+      "Wooden Shield",
+      "Beholder Shield"
+    ]
+  },
+  "The Halloween Hare": {
+    "name": "The Halloween Hare",
+    "health": 2000,
+    "experience": 0,
+    "speed": 120,
+    "race": "blood",
+    "armor": 999,
+    "defense": 999,
+    "corpse": 2992,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee",
+      "Illusion"
+    ]
+  },
+  "The Horned Fox": {
+    "name": "The Horned Fox",
+    "health": 265,
+    "experience": 200,
+    "speed": 65,
+    "race": "blood",
+    "armor": 17,
+    "defense": 36,
+    "corpse": 2876,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~141)",
+      "Poisoncondition",
+      "Physical (120-50)"
+    ],
+    "summons": [
+      "Minotaur Guard",
+      "Minotaur Archer"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Chain Legs",
+      "Brass Armor",
+      "Meat",
+      "Hatchet",
+      "Dwarven Helmet",
+      "Fishing Rod",
+      "Battle Shield",
+      "Double Axe"
+    ]
+  },
+  "The Old Widow": {
+    "name": "The Old Widow",
+    "health": 100000,
+    "experience": 49570,
+    "speed": 140,
+    "race": "venom",
+    "armor": 45,
+    "defense": 60,
+    "corpse": 2857,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~665)",
+      "Poisonfield",
+      "Paralyze",
+      "Poison (300-250)"
+    ],
+    "summons": [
+      "Giant Spider"
+    ],
+    "loot": [
+      "Ancient Whisper",
+      "Large Aethernite",
+      "Spider Silk",
+      "Disenchantment Rune",
+      "Gold Coin",
+      "Plate Armor",
+      "Brass Legs",
+      "Steel Helmet",
+      "Time Ring",
+      "Knight Legs",
+      "Knight Armor",
+      "Platinum Amulet"
+    ]
+  },
+  "Tiger": {
+    "name": "Tiger",
+    "health": 75,
+    "experience": 40,
+    "speed": 60,
+    "race": "blood",
+    "armor": 5,
+    "defense": 15,
+    "corpse": 4292,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~47)"
+    ],
+    "loot": [
+      "Meat",
+      "Ham",
+      "Striped Fur"
+    ]
+  },
+  "Training Dummy": {
+    "name": "Training Dummy",
+    "health": 1000,
+    "experience": 0,
+    "speed": 0,
+    "race": "undead",
+    "armor": 5,
+    "defense": 10,
+    "corpse": 2253,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~3)"
+    ]
+  },
+  "Troll": {
+    "name": "Troll",
+    "health": 50,
+    "experience": 20,
+    "speed": 23,
+    "race": "blood",
+    "armor": 6,
+    "defense": 8,
+    "corpse": 2806,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~18)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Spear",
+      "Hand Axe",
+      "Wooden Shield",
+      "Meat",
+      "Leather Helmet",
+      "Leather Boots",
+      "Bunch Of Troll Hair",
+      "Rope",
+      "Studded Club",
+      "Silver Amulet"
+    ]
+  },
+  "Undead Dragon": {
+    "name": "Undead Dragon",
+    "health": 26500,
+    "experience": 18500,
+    "speed": 120,
+    "race": "undead",
+    "armor": 40,
+    "defense": 65,
+    "corpse": 6785,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~1950)",
+      "Physical (700-500)",
+      "Physical (700-250)",
+      "Physical (1850-1400)",
+      "Paralyze"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Small Sapphire",
+      "Two Handed Sword",
+      "Life Crystal",
+      "Green Mushroom",
+      "Small Emerald",
+      "Black Pearl",
+      "Tower Shield",
+      "Dragon Lance",
+      "War Hammer",
+      "Skull Staff",
+      "Power Bolt"
+    ]
+  },
+  "Valkyrie": {
+    "name": "Valkyrie",
+    "health": 190,
+    "experience": 85,
+    "speed": 48,
+    "race": "blood",
+    "armor": 12,
+    "defense": 14,
+    "corpse": 3065,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~55)",
+      "Physical (42-28)"
+    ],
+    "loot": [
+      "Skull",
+      "Spear",
+      "Gold Coin",
+      "Meat",
+      "Dagger",
+      "Girlish Hair Decoration",
+      "Chain Armor",
+      "Red Apple",
+      "Chain Helmet",
+      "Protection Amulet",
+      "Plate Armor",
+      "Double Axe"
+    ]
+  },
+  "Vampire": {
+    "name": "Vampire",
+    "health": 450,
+    "experience": 290,
+    "speed": 70,
+    "race": "undead",
+    "armor": 27,
+    "defense": 38,
+    "corpse": 2956,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~179)",
+      "Paralyze",
+      "Life Drain (105-55)"
+    ],
+    "loot": [
+      "Grave Flower",
+      "Katana",
+      "Gold Coin",
+      "Bowl",
+      "Skull",
+      "Leather Legs",
+      "Vampire Teeth",
+      "Black Pearl",
+      "Blood Preservation",
+      "Spike Sword",
+      "Strange Helmet",
+      "Ice Rapier"
+    ]
+  },
+  "Vampire Viscount": {
+    "name": "Vampire Viscount",
+    "health": 450,
+    "experience": 290,
+    "speed": 70,
+    "race": "undead",
+    "armor": 27,
+    "defense": 38,
+    "corpse": 2956,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~179)",
+      "Paralyze",
+      "Life Drain (105-55)"
+    ],
+    "loot": [
+      "Grave Flower",
+      "Katana",
+      "Gold Coin",
+      "Bowl",
+      "Skull",
+      "Leather Legs",
+      "Black Pearl",
+      "Spike Sword",
+      "Strange Helmet",
+      "Ice Rapier",
+      "Emerald Bangle",
+      "Bronze Amulet"
+    ]
+  },
+  "Vampire Wanderer": {
+    "name": "Vampire Wanderer",
+    "health": 450,
+    "experience": 290,
+    "speed": 70,
+    "race": "undead",
+    "armor": 27,
+    "defense": 38,
+    "corpse": 2956,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~179)",
+      "Paralyze",
+      "Life Drain (105-55)"
+    ],
+    "loot": [
+      "Grave Flower",
+      "Katana",
+      "Gold Coin",
+      "Bowl",
+      "Skull",
+      "Leather Legs",
+      "Black Pearl",
+      "Spike Sword",
+      "Strange Helmet",
+      "Ice Rapier",
+      "Emerald Bangle",
+      "Bronze Amulet"
+    ]
+  },
+  "Vashresamun": {
+    "name": "Vashresamun",
+    "health": 4000,
+    "experience": 2950,
+    "speed": 115,
+    "race": "undead",
+    "armor": 40,
+    "defense": 75,
+    "corpse": 3016,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~180)",
+      "Life Drain (550-250)",
+      "Paralyze",
+      "Life Drain (750-50)"
+    ],
+    "summons": [
+      "Banshee"
+    ],
+    "loot": [
+      "Blue Note",
+      "Gold Coin",
+      "White Pearl",
+      "Lute",
+      "Crystal Ring",
+      "Blue Robe",
+      "Panpipes",
+      "Crystal Mace",
+      "Ancient Tiara",
+      "Arcane Staff"
+    ]
+  },
+  "War Wolf": {
+    "name": "War Wolf",
+    "health": 140,
+    "experience": 55,
+    "speed": 92,
+    "race": "blood",
+    "armor": 8,
+    "defense": 16,
+    "corpse": 2969,
+    "summonable": false,
+    "convinceable": true,
+    "pushable": false,
+    "attacks": [
+      "Melee (~71)"
+    ],
+    "loot": [
+      "Meat",
+      "Ham",
+      "Warwolf Fur"
+    ]
+  },
+  "Warlock": {
+    "name": "Warlock",
+    "health": 3200,
+    "experience": 4000,
+    "speed": 75,
+    "race": "blood",
+    "armor": 32,
+    "defense": 50,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Fire",
+      "Invisible",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~140)",
+      "Energy (205-145)",
+      "Firefield",
+      "Fire (170-90)",
+      "Paralyze",
+      "Mana Drain (75-35)",
+      "Physical (105-45)"
+    ],
+    "summons": [
+      "Stone Golem"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Cherry",
+      "Candlestick",
+      "Inkwell",
+      "Bread",
+      "Poison Dagger",
+      "Skull Staff",
+      "Energy Ring",
+      "Dark Mushroom",
+      "Mind Stone",
+      "Blue Robe",
+      "Small Sapphire"
+    ]
+  },
+  "Wasp": {
+    "name": "Wasp",
+    "health": 35,
+    "experience": 24,
+    "speed": 120,
+    "race": "venom",
+    "armor": 4,
+    "defense": 8,
+    "corpse": 2899,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "immunities": [
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~26)"
+    ],
+    "loot": [
+      "Honeycomb"
+    ]
+  },
+  "Wight": {
+    "name": "Wight",
+    "health": 6000,
+    "experience": 5000,
+    "speed": 100,
+    "race": "undead",
+    "armor": 25,
+    "defense": 65,
+    "corpse": 6815,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Life Drain",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~240)",
+      "Life Drain (550-55)",
+      "Life Drain (650-55)",
+      "Paralyze"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Skull Staff",
+      "Wight Brain",
+      "Stone Skin Amulet",
+      "Tower Shield",
+      "Black Pearl",
+      "White Pearl",
+      "Blue Robe",
+      "Boots Of Haste",
+      "White Dress"
+    ]
+  },
+  "Wild Warrior": {
+    "name": "Wild Warrior",
+    "health": 135,
+    "experience": 60,
+    "speed": 55,
+    "race": "blood",
+    "armor": 9,
+    "defense": 18,
+    "corpse": 3058,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~53)"
+    ],
+    "loot": [
+      "Meat",
+      "Axe",
+      "Brass Shield",
+      "Leather Legs",
+      "Gold Coin",
+      "Mace",
+      "Chain Helmet",
+      "Brass Armor",
+      "Steel Shield",
+      "Iron Helmet",
+      "Doll",
+      "War Hammer"
+    ]
+  },
+  "Winter Guardian": {
+    "name": "Winter Guardian",
+    "health": 5600,
+    "experience": 3500,
+    "speed": 100,
+    "race": "blood",
+    "armor": 35,
+    "defense": 50,
+    "corpse": 3058,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Ice",
+      "Invisible",
+      "Illusion",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~715)",
+      "Ice (350-100)",
+      "Physical (150-25)",
+      "Paralyze"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Spear",
+      "Scale Armor",
+      "Studded Legs",
+      "Longsword",
+      "Knight Armor",
+      "Knight Legs",
+      "Lightbringer Helmet",
+      "Executioner Sword",
+      "Hellforged Legs"
+    ]
+  },
+  "Winter Wolf": {
+    "name": "Winter Wolf",
+    "health": 30,
+    "experience": 20,
+    "speed": 45,
+    "race": "blood",
+    "armor": 2,
+    "defense": 6,
+    "corpse": 2924,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~27)"
+    ],
+    "loot": [
+      "Winter Wolf Fur",
+      "Meat"
+    ]
+  },
+  "Witch": {
+    "name": "Witch",
+    "health": 300,
+    "experience": 120,
+    "speed": 62,
+    "race": "blood",
+    "armor": 8,
+    "defense": 12,
+    "corpse": 3065,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Invisible",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~34)",
+      "Firefield",
+      "Fire (55-25)"
+    ],
+    "loot": [
+      "Leather Boots",
+      "Cape",
+      "Sickle",
+      "Cheese",
+      "Cookie",
+      "Coat",
+      "Broom",
+      "Wolf Tooth Chain",
+      "Star Herb",
+      "Gold Coin",
+      "Firelight Wand",
+      "Witch Broom"
+    ]
+  },
+  "Wolf": {
+    "name": "Wolf",
+    "health": 25,
+    "experience": 18,
+    "speed": 42,
+    "race": "blood",
+    "armor": 1,
+    "defense": 4,
+    "corpse": 2826,
+    "summonable": true,
+    "convinceable": true,
+    "pushable": true,
+    "attacks": [
+      "Melee (~23)"
+    ],
+    "loot": [
+      "Meat",
+      "Gold Coin"
+    ]
+  },
+  "Wyrm": {
+    "name": "Wyrm",
+    "health": 1825,
+    "experience": 1550,
+    "speed": 100,
+    "race": "blood",
+    "armor": 34,
+    "defense": 34,
+    "corpse": 6842,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Invisible",
+      "Life Drain",
+      "Paralyze"
+    ],
+    "attacks": [
+      "Melee (~260)",
+      "Energy (200-130)",
+      "Life Drain (145-98)",
+      "Energy (220-100)",
+      "Energy (125-100)"
+    ],
+    "loot": [
+      "Gold Coin",
+      "Crossbow",
+      "Burst Arrow",
+      "Wyrm Scale",
+      "Dragon Hammer",
+      "Small Diamond",
+      "Golden Wand",
+      "Hibiscus Dress",
+      "Dragonbone Staff",
+      "Composite Hornbow",
+      "Focus Cape"
+    ]
+  },
+  "Xalthea": {
+    "name": "Xalthea",
+    "health": 25000,
+    "experience": 0,
+    "speed": 60,
+    "race": "blood",
+    "armor": 34,
+    "defense": 56,
+    "corpse": 4283,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Life Drain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee (~510)",
+      "Poison (600-120)",
+      "Physical (400-200)",
+      "Paralyze"
+    ]
+  },
+  "Yellow Butterfly": {
+    "name": "Yellow Butterfly",
+    "health": 2,
+    "experience": 0,
+    "speed": 180,
+    "race": "venom",
+    "armor": 0,
+    "defense": 14,
+    "corpse": 5014,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": true,
+    "attacks": [
+      "Melee"
+    ]
+  },
+  "Yeti": {
+    "name": "Yeti",
+    "health": 950,
+    "experience": 460,
+    "speed": 85,
+    "race": "blood",
+    "armor": 28,
+    "defense": 43,
+    "corpse": 3055,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "attacks": [
+      "Melee (~262)",
+      "Energy (210-120)",
+      "Physical (200-170)"
+    ],
+    "loot": [
+      "Meat",
+      "Snowball",
+      "Ham",
+      "Gold Coin",
+      "Wolf Tooth Chain",
+      "Bunnyslippers"
+    ]
+  }
+}

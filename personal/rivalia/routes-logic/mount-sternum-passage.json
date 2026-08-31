@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "note": "Walking-logic extracted from fandom route text + 2 annotated multi-panel images. Tibia 7.4 vanilla; verify on Rivalia. A SECRET underground passage from Thais to Kazordoon via the Mount Sternum caves — gives exp along the way. Image 1 = 9-panel underground maze (each panel: GREEN circle = where you enter/appear, RED circle = the hole/exit to the next panel, white arrow = path between them). Image 2 = 3-panel surface stretch from the cave exit NE to Kazordoon.",
+    "coord_system": "Tibia game coords. z = floor (7=ground, higher=deeper). down = descend one floor (hole/ladder). green→red circles chain the cave floors.",
+    "legend": "steps[] is an ordered walking sequence. The green→red circle convention drives the underground floor transitions; the two surface segments bookend the cave crawl."
+  },
+  "route": "Thais → Kazordoon (Mount Sternum secret passage)",
+  "slug": "mount-sternum-passage",
+  "from": "Mount Sternum (cave entrance SE of Thais)",
+  "to": "Kazordoon (surface entrance, via the cave exit)",
+  "start": { "x": null, "y": null, "z": 7, "note": "Mount Sternum cave entrance near Thais; exact coords not given in source" },
+  "min_level_note": "Creatures en route: Cyclops, Bat, Skeleton, Ghoul, Bonelord, Dwarf, Dwarf Soldier, Dwarf Guard, Rotworm. May also face Crypt Shamblers, Mummies, Ghosts IF lured. Mid-level+; luring risk is real.",
+  "steps": [
+    { "n": 1, "floor": 7, "action": "enter+descend", "to_floor": 8, "img": "Route_Thais_-_Kazordoon.png", "text": "PANEL 1 (surface): go into Mount Sternum SE of Thais (white double-arrow points down into the cave). Cyclopes are common right at the entrance.", "hazard": ["Cyclops"] },
+    { "n": 2, "floor": 8, "action": "walk+descend", "to_floor": 9, "img": "Route_Thais_-_Kazordoon.png", "text": "PANEL 2: appear at the GREEN circle, follow the white line down/across the cavern to the RED circle hole, and descend. 'Follow the way from green to red circles.'", "hazard": ["Bat", "Rotworm"] },
+    { "n": 3, "floor": 9, "action": "walk+descend", "to_floor": 10, "img": "Route_Thais_-_Kazordoon.png", "text": "PANEL 3: from the GREEN circle work through the branching tunnels (white arrow) to the RED-circle hole and drop down. Maze section — easy to lure extra monsters here.", "hazard": ["Skeleton", "Ghoul", "Bonelord"] },
+    { "n": 4, "floor": 10, "heading": "NE", "action": "walk+descend", "to_floor": 11, "img": "Route_Thais_-_Kazordoon.png", "text": "PANEL 4: GREEN circle → follow the white arrow NE across the chamber to the RED-circle hole and descend.", "hazard": ["Bonelord", "Ghoul"] },
+    { "n": 5, "floor": 11, "action": "walk+descend", "to_floor": 12, "img": "Route_Thais_-_Kazordoon.png", "text": "PANEL 5: short hop — GREEN to RED circle (white arrow up-left), then down.", "hazard": ["Rotworm"] },
+    { "n": 6, "floor": 12, "heading": "E", "action": "walk+descend", "to_floor": 13, "img": "Route_Thais_-_Kazordoon.png", "text": "PANEL 6: the long gallery — from the GREEN circle follow the white line EAST across the full width to the RED-circle hole, then descend. Watch for luring aggro in the open span.", "hazard": ["Dwarf", "Dwarf Soldier"] },
+    { "n": 7, "floor": 13, "action": "walk+descend", "to_floor": 14, "img": "Route_Thais_-_Kazordoon.png", "text": "PANEL 7: GREEN circle → thread the tunnels toward the grey dwarf-structure area, to the RED-circle transition.", "hazard": ["Dwarf", "Dwarf Guard"] },
+    { "n": 8, "floor": 14, "action": "walk+descend", "to_floor": 15, "img": "Route_Thais_-_Kazordoon.png", "text": "PANEL 8: GREEN circle → white arrow to the RED-circle hole (lower-right) and descend to the final cave floor.", "hazard": ["Dwarf Soldier", "Dwarf Guard"] },
+    { "n": 9, "floor": 15, "action": "ascend", "to_floor": 7, "img": "Route_Thais_-_Kazordoon.png", "text": "PANEL 9: GREEN circle at the RED-circle spot, then the GREEN DASHED arrow points UP/out — climb out of the cave system to the surface. 'Then follow the map below.'", "hazard": [] },
+    { "n": 10, "floor": 7, "heading": "NE", "action": "walk", "img": "Route_Thais_-_Kazordoon_2.png", "text": "SURFACE PANEL 1: emerge on the surface; white arrows lead NE (across grass/water) toward the next segment.", "hazard": ["Wolf"] },
+    { "n": 11, "floor": 7, "heading": "N", "action": "walk+descend", "to_floor": 8, "img": "Route_Thais_-_Kazordoon_2.png", "text": "SURFACE PANEL 2: follow the white/orange arrow up the rocky pass; a short cave/hole segment (brown) bridges to the final approach.", "hazard": ["Rotworm"] },
+    { "n": 12, "floor": 7, "heading": "NE", "action": "walk", "img": "Route_Thais_-_Kazordoon_2.png", "text": "SURFACE PANEL 3: green dashed arrow leads NE to the Kazordoon entrance area (red structure) — you arrive at Kazordoon.", "hazard": ["Dwarf"] }
+  ],
+  "return_shortcut": null,
+  "floor_transitions": [7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "hazards_all": ["Cyclops", "Bat", "Skeleton", "Ghoul", "Bonelord", "Dwarf", "Dwarf Soldier", "Dwarf Guard", "Rotworm", "Crypt Shambler (if lured)", "Mummy (if lured)", "Ghost (if lured)"]
+}

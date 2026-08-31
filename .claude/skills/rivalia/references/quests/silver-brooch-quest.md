@@ -1,0 +1,14 @@
+# Silver Brooch Quest
+
+> ⚠️ Source: TibiaWiki (fandom) — **Tibia 7.4-era VANILLA** (implemented ≤7.4). Rivalia is custom: rewards/dangers/NPCs MAY differ — verify in-game or on wiki.rivaliaonline.com.
+
+## Overview
+
+- **Premium:** no
+- **Also known as:** Mummy Quest
+- **Reward:** Silver Brooch, 2 Small Rubies, 3 Small Diamonds
+- **Location:** Greenclaw Swamp
+- **Level:** 0
+- **Recommended level:** 40+
+- **Dangers:** Bonelords, Mummies
+- **Legend:** ...

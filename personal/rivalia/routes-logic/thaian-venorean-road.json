@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "note": "Walking-logic extracted from TibiaWiki 'Thaian-Venorean Road' text + map (Thaian-Venorean_Road.png). Tibia 7.4 vanilla (implemented 7.1); verify on Rivalia. Overland surface road connecting Thais and Venore across the mainland.",
+    "coord_system": "Tibia game coords. z = floor (7=ground surface). Entire road is surface (z=7).",
+    "legend": "steps[] follow the white road line on the map W→E from Thais to Venore. heading = cardinal direction of travel; landmarks are the buildings/POI passed along the road."
+  },
+  "route": "Thais → Venore (Thaian-Venorean Road)",
+  "slug": "thaian-venorean-road",
+  "from": "Thais (NE city exit)",
+  "to": "Venore (SW/Horse Station entrance)",
+  "start": { "x": null, "y": null, "z": 7, "note": "Thais NE gate. The road is the classic mainland link between the two cities; also the safer of the two 'leave the road OK' legs per Mainland Trails." },
+  "min_level_note": "Low-mid level friendly if on the road; the surrounding wilds hold tougher spawns. Venore Dragon Lair sits off the east end.",
+  "buildings_on_road": ["Dark Mansion", "Mount Sternum Outlook Tower", "Lubo's Adventurer-Shop", "Postal Service Headquarters", "Mac Noodles", "Wolftower", "Venore Horse Station"],
+  "nearby_poi": ["Thaian-Greenshore Road", "Thais Graveyard", "Alatar Lake", "Mount Sternum", "Triangle Tower", "Dwarven Bridge", "Jakundaf Desert", "Riverspring", "Venore Dragon Lair"],
+  "steps": [
+    { "n": 1, "floor": 7, "heading": "N", "action": "walk", "img": "Thaian-Venorean_Road.png", "text": "Leave Thais by the NE gate. The white road heads N/NE out of the city, past the Thais Graveyard and Dark Mansion.", "hazard": ["Rotworm", "Wolf", "Bear"] },
+    { "n": 2, "floor": 7, "heading": "NE", "action": "walk", "text": "Follow the road NE, climbing toward the high ground. It crosses a river bridge and rises over Mount Sternum — the road's high point (Mount Sternum Outlook Tower / Triangle Tower area).", "hazard": ["Bear", "Wolf", "Spider", "Poison Spider"] },
+    { "n": 3, "floor": 7, "heading": "peak", "action": "walk", "img": "Thaian-Venorean_Road.png", "text": "Over the top of Mount Sternum the road turns and begins descending eastward. Lubo's Adventurer-Shop and Postal Service HQ sit along this stretch.", "hazard": ["Spider", "Bug", "Wolf"] },
+    { "n": 4, "floor": 7, "heading": "SE", "action": "walk", "text": "Descend SE toward the sand belt — the road skirts the NORTH edge of the Jakundaf Desert (the tan region on the map). Stay on the road; the desert interior is exposed.", "hazard": ["Scarab", "Bug", "Tarantula"] },
+    { "n": 5, "floor": 7, "heading": "E", "action": "walk", "text": "Continue E across the plains past Mac Noodles and the Wolftower. Alatar Lake and Riverspring are off to the sides.", "hazard": ["Wolf", "Bear", "Wild Warrior", "Bandit"] },
+    { "n": 6, "floor": 7, "heading": "E", "action": "walk", "img": "Thaian-Venorean_Road.png", "text": "The road runs into the Venore wetlands and arrives at the Venore Horse Station on the SW side of the city. Venore Dragon Lair is nearby to the E — Dragon hazard off-road.", "hazard": ["Dragon", "Rotworm"] }
+  ],
+  "return_shortcut": {
+    "text": "Same road in reverse (Venore → Thais): W over Mount Sternum then S down into Thais. Alternatively take the Venore boat/carpet travel to skip the walk entirely.",
+    "hazard": []
+  },
+  "floor_transitions": [7],
+  "hazards_all": ["Rotworm", "Wolf", "Bear", "Spider", "Poison Spider", "Bug", "Scarab", "Tarantula", "Wild Warrior", "Bandit", "Dragon"]
+}

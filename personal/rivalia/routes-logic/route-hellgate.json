@@ -1,0 +1,23 @@
+{
+  "route": "Hellgate → exit (to surface near Ab'Dendriel)",
+  "slug": "route-hellgate",
+  "from": "Hellgate interior (entry platform with ladder)",
+  "to": "Surface near Ab'Dendriel",
+  "end": { "x": 32603, "y": 31705, "z": 7, "note": "exit coord approx 127.91/123.217/7 near Ab'Dendriel" },
+  "note": "This is the EXIT route out of Hellgate (a deep multi-floor dungeon). Image legend: RED cross = where you currently stand (before going up/down), BLUE cross = where you're heading. Requires Rope + 6 Parcels or Levitate + Key 3012.",
+  "steps": [
+    { "n": 1, "action": "ascend", "text": "From the entry platform, go UP the ladder.", "hazard": [] },
+    { "n": 2, "heading": "W", "action": "walk+descend", "img": "RouteHellgate1.png", "text": "Walk LEFT (west) down a long corridor (skeletons only; going N at the first crossing = ghouls + up to 2 demon skeletons). Go DOWN the hole at the end.", "hazard": ["Skeleton", "Ghoul (if N)", "Demon Skeleton (if N)"] },
+    { "n": 3, "heading": "E", "action": "walk+descend", "img": "RouteHellgate2.png", "text": "Go RIGHT (east) down another long passage (normal skeletons). Then DOWN the hole.", "hazard": ["Skeleton"] },
+    { "n": 4, "heading": "W then loop", "action": "walk+ascend", "img": "RouteHellgate3.png", "text": "Go LEFT then around a long corridor to the YELLOW CIRCLE — go UP with a rope. Straying: one hole = 5 elves + 2 elf scouts (+~20 bugs deeper), other hole = spiders + giant spider.", "hazard": ["Spider", "Skeleton"] },
+    { "n": 5, "heading": "SE", "action": "walk+descend+ascend", "img": "RouteHellgate4_5.png", "text": "Go SOUTH-EAST (rotworms). Down the hole, a little S (2 ghouls), UP. Follow S (2 ghouls + 2 rotworms etc), then UP.", "hazard": ["Rotworm", "Ghoul"] },
+    { "n": 6, "heading": "S", "action": "descend", "img": "RouteHellgate6.png", "text": "Go S and down the FIRST hole you see. (The second roping spot has Poison Spiders + 1 Ghoul — avoid.)", "hazard": ["Poison Spider (wrong hole)", "Ghoul"] },
+    { "n": 7, "heading": "W", "action": "walk+descend", "img": "RouteHellgate7.png", "text": "Go LEFT through a big room: ~15 Ghouls, ~5 Skeletons, ~2 Bonelords, plus Elder Bonelords (may be lured). ADVICE: hug the SOUTHERN wall to avoid extra mobs. Then DOWN the hole.", "hazard": ["Ghoul x15", "Skeleton x5", "Bonelord x2", "Elder Bonelord"] },
+    { "n": 8, "heading": "NW", "action": "ascend", "img": "RouteHellgate8.png", "text": "Go NORTH-WEST (NO monsters). Need 6 Parcels or Levitate to climb up 2 floors, then UP the ladder.", "hazard": [] },
+    { "n": 9, "heading": "SW", "action": "ascend", "img": "RouteHellgate9.png", "text": "Go SOUTH-WEST and UP the hole. (Other hole SE descends to the lava levels — avoid.)", "hazard": ["Ghoul", "Demon Skeleton (SE detour)"] },
+    { "n": 10, "action": "switch+ascend", "text": "You may need to pull a SWITCH here (opens a bridge 1 floor up). Then just keep going UP (only one way) through many Wasps → surface near Ab'Dendriel.", "hazard": ["Wasp"] }
+  ],
+  "alternative": "Exit via Draconia and Red Bone Castle (separate route).",
+  "hazards_all": ["Spider", "Skeleton", "Ghoul", "Rotworm", "Carrion Worm", "Bonelord", "Wasp", "Demon Skeleton (lured)", "Elder Bonelord (lured)", "Poison Spider", "Giant Spider (stray)"],
+  "equipment": ["Rope", "6 Parcels or Levitate", "Key 3012 (to enter)"]
+}

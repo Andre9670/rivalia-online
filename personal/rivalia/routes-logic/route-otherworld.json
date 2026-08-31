@@ -1,0 +1,17 @@
+{
+  "route": "Otherworld navigation (Heart of Destruction)",
+  "slug": "route-otherworld",
+  "from": "Otherworld entrances (Darama / Zao / Svargrond glowing vortexes)",
+  "to": "Vortex Hub / charge bosses",
+  "start": { "x": 32906, "y": 31840, "z": 12, "note": "Otherworld, coords approx; endgame HoD quest area" },
+  "note": "ENDGAME (Heart of Destruction) — far above your level, included for completeness. The Otherworld is a shifting maze: 3 entrances, only ONE open at a time, passages change. A Spying Eye checks which of the 3 Glowing Vortexes is active. If lost: reach the Vortex Hub (safe area, coord ~125.162/122.96/11) and use a Temple Teleport, or backtrack via the hub routes.",
+  "steps": [
+    { "n": 1, "action": "vortex", "text": "Enter via whichever Glowing Vortex is currently open (Darama / Zao / Svargrond). Begin at the orange STAR on each map, head to the green arrows (up/down) and red cross.", "hazard": ["Anomaly/Rupture/Realityquake bosses"] },
+    { "n": 2, "action": "navigate", "img": ["HoD_Ankrahmun_to_Hub.png","HoD_Zao_to_Hub.png","HoD_Svargrond_to_Hub.png"], "text": "Route to the Vortex Hub depends on your entrance. The hub is reached after killing one of the 5 charge bosses.", "hazard": [] },
+    { "n": 3, "action": "leave", "img": "HoD_Leaving_the_Hub.png", "text": "Regardless of the active entrance, you can ALWAYS leave the hub via the path toward the Darama entrance (take the northern red exit vortex first).", "hazard": [] }
+  ],
+  "hazard_note": "Locations become unreachable when walls appear (one per entrance vortex); a yellow dot next to each wall = emergency exit if trapped.",
+  "floor_transitions": [11, 12, 13, 14],
+  "hazards_all": ["Otherworld bosses (endgame)"],
+  "equipment": ["Spying Eye","Temple Teleport Scroll"]
+}

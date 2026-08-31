@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "note": "POC — walking-logic extracted from fandom route text + annotated images. Tibia 7.4 vanilla; verify on Rivalia. Format proposal for routes-logic.json (all 22).",
+    "coord_system": "Tibia game coords. z = floor (7=ground, higher=deeper). down = descend one floor (ladder/hole/rope-spot).",
+    "legend": "steps[] is an ordered walking sequence. Each step: floor it happens on, cardinal heading, action (walk/descend/cross/fight), any hazards, and the transition to the next floor."
+  },
+  "route": "Thais → Mintwallin",
+  "slug": "route-mintwallin",
+  "from": "Thais (Ancient Temple, north of town)",
+  "to": "Mintwallin (city gate)",
+  "start": { "x": 32356, "y": 32267, "z": 7, "note": "Ancient Temple entrance, coord approx from text 126.100/125.171" },
+  "min_level_note": "text implies mid-level; Cyclopes + Minotaurs en route",
+  "steps": [
+    { "n": 1, "floor": 7, "heading": "N", "action": "enter", "text": "Enter the Ancient Temple north of Thais.", "hazard": [] },
+    { "n": 2, "floor": 7, "action": "descend", "to_floor": 9, "text": "Go DOWN two levels, then head as far NORTH as you can.", "hazard": [] },
+    { "n": 3, "floor": 9, "action": "descend", "to_floor": 10, "text": "Go down to the Rotworm level.", "hazard": ["Rotworm"] },
+    { "n": 4, "floor": 10, "heading": "E then S", "action": "walk+descend", "to_floor": 11, "img": "Route_to_Mintwallin_1.png", "text": "Follow the corridor EAST then SOUTH to the ladder (blue line A→B on the image). Go down the ladder.", "hazard": [] },
+    { "n": 5, "floor": 11, "action": "cross", "img": "Route_to_Mintwallin_2.png", "text": "Poison Fields here. Run through + use Antidote, OR use Destroy Field to clear a path.", "hazard": ["Poison Field"] },
+    { "n": 6, "floor": 11, "action": "descend", "to_floor": 12, "text": "Go down another level.", "hazard": [] },
+    { "n": 7, "floor": 12, "heading": "E then N", "action": "walk+descend", "to_floor": 13, "img": "Route_to_Mintwallin_3.png", "text": "Follow the path EAST then NORTH. Descend the CIRCLED hole on the map. Fight 2 Cyclopes at the bottom.", "hazard": ["Minotaur", "Cyclops x2"] },
+    { "n": 8, "floor": 13, "action": "walk", "img": ["Route_to_Mintwallin_4.png","Route_to_Mintwallin_5.png","Route_to_Mintwallin_6.png","Route_to_Mintwallin_7.png","Route_to_Mintwallin_8.png"], "text": "After the Cyclopes just follow the blue line A→B across the maze levels. No monsters here (maybe a Rat).", "hazard": ["Rat"] },
+    { "n": 9, "floor": 13, "action": "descend", "img": "Route_to_Mintwallin_9.png", "text": "At the two ladders take either one, then a few steps WEST → you stand at the Mintwallin gate.", "hazard": [] }
+  ],
+  "return_shortcut": {
+    "img": "Route_to_Mintwallin_10.png",
+    "text": "Going back: shortcut through a hole with 2 Bonelords. Follow the RED line to it, then exit via the BLUE line. NOTE: one-way — you canNOT re-enter Mintwallin this way. The red-circled hole is 'blind' (you fall through but can't rope up there).",
+    "hazard": ["Bonelord x2"]
+  },
+  "floor_transitions": [7, 9, 10, 11, 12, 13],
+  "hazards_all": ["Rotworm", "Poison Field", "Minotaur", "Cyclops x2", "Rat", "Bonelord x2 (return)"]
+}

@@ -1,0 +1,10548 @@
+{
+"abominated-arm": {
+"item": "Abominated Arm",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"amphora": {
+"item": "Amphora",
+"sell": null,
+"buy": 4,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Ashtamor",
+"city": "Venore",
+"buy": 4,
+"sell": null
+}
+]
+},
+"ancient-amulet": {
+"item": "Ancient Amulet",
+"sell": 200,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 200
+}
+]
+},
+"ancient-boots": {
+"item": "Ancient Boots",
+"sell": 5000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 5000
+}
+]
+},
+"ancient-rune": {
+"item": "Ancient Rune",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ancient-shield": {
+"item": "Ancient Shield",
+"sell": 900,
+"buy": 49,
+"traders": 2,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 900
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 49,
+"sell": null
+}
+]
+},
+"ancient-tiara": {
+"item": "Ancient Tiara",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ancient-whisper": {
+"item": "Ancient Whisper",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ankh": {
+"item": "Ankh",
+"sell": 100,
+"buy": null,
+"traders": 1,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 100
+}
+]
+},
+"antlers": {
+"item": "Antlers",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ape-fur": {
+"item": "Ape Fur",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"arcane-staff": {
+"item": "Arcane Staff",
+"sell": 42000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 42000
+}
+]
+},
+"arena-coin": {
+"item": "Arena Coin",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"arrow": {
+"item": "Arrow",
+"sell": null,
+"buy": 2,
+"traders": 10,
+"npc": null,
+"traders_list": [
+{
+"npc": "Dario",
+"city": "Ankrahmun",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Edoch",
+"city": "Darashia",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Galuna",
+"city": "Thais",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Irea",
+"city": "Ab'Dendriel",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Perac",
+"city": "Carlin",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Satir",
+"city": "Nivarya",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Timur",
+"city": "Rookgaard",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Xed",
+"city": "Venore",
+"buy": 2,
+"sell": null
+}
+]
+},
+"axe": {
+"item": "Axe",
+"sell": 7,
+"buy": 6,
+"traders": 13,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 20,
+"sell": 7
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 20,
+"sell": 7
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 20,
+"sell": 7
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 20,
+"sell": 7
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 20,
+"sell": 7
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 20,
+"sell": 7
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 20,
+"sell": 7
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": 20,
+"sell": 7
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 20,
+"sell": 7
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 20,
+"sell": 7
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": 20,
+"sell": null
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 20,
+"sell": 7
+}
+]
+},
+"backpack": {
+"item": "Backpack",
+"sell": null,
+"buy": 10,
+"traders": 7,
+"npc": null,
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 20,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Lubo",
+"city": "Thais",
+"buy": 25,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+}
+]
+},
+"badger-fur": {
+"item": "Badger Fur",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"bag": {
+"item": "Bag",
+"sell": null,
+"buy": 4,
+"traders": 6,
+"npc": null,
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 4,
+"sell": null
+}
+]
+},
+"bamboo-stick": {
+"item": "Bamboo Stick",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"banana": {
+"item": "Banana",
+"sell": null,
+"buy": 2,
+"traders": 7,
+"npc": null,
+"traders_list": [
+{
+"npc": "Bonifacius",
+"city": "Edron",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Brasith",
+"city": "Ab'Dendriel",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Hairycles",
+"city": "Port Hope",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Imalas",
+"city": "Carlin",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Jezzara",
+"city": "Ankrahmun",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Livielle",
+"city": "Venore",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Omur",
+"city": "Darashia",
+"buy": 3,
+"sell": null
+}
+]
+},
+"banana-sash": {
+"item": "Banana Sash",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"banana-staff": {
+"item": "Banana Staff",
+"sell": 1000,
+"buy": null,
+"traders": 1,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 1000
+}
+]
+},
+"bast-skirt": {
+"item": "Bast Skirt",
+"sell": 750,
+"buy": null,
+"traders": 1,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 750
+}
+]
+},
+"bat-wing": {
+"item": "Bat Wing",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"battle-axe": {
+"item": "Battle Axe",
+"sell": 80,
+"buy": 40,
+"traders": 10,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 80
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": null,
+"sell": 75
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 40,
+"sell": null
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 80
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": null,
+"sell": 80
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": null,
+"sell": 75
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": null,
+"sell": 80
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": null,
+"sell": 80
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": null,
+"sell": 75
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 80
+}
+]
+},
+"battle-hammer": {
+"item": "Battle Hammer",
+"sell": 120,
+"buy": 40,
+"traders": 10,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 350,
+"sell": 120
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": null,
+"sell": 50
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 40,
+"sell": null
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 120
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": null,
+"sell": 120
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": null,
+"sell": 50
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": null,
+"sell": 120
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": null,
+"sell": 120
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": null,
+"sell": 50
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 120
+}
+]
+},
+"battle-shield": {
+"item": "Battle Shield",
+"sell": 95,
+"buy": 50,
+"traders": 12,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": null,
+"sell": 60
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 95
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": null,
+"sell": 60
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 95
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 60
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 95
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": null,
+"sell": 95
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 95
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": null,
+"sell": 95
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 95
+},
+{
+"npc": "Yanni",
+"city": "Venore",
+"buy": null,
+"sell": 95
+}
+]
+},
+"bear-paw": {
+"item": "Bear Paw",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"behemoth-claw": {
+"item": "Behemoth Claw",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"beholder-eye": {
+"item": "Beholder Eye",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"beholder-helmet": {
+"item": "Beholder Helmet",
+"sell": 7500,
+"buy": null,
+"traders": 2,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 2200
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 7500
+}
+]
+},
+"beholder-shield": {
+"item": "Beholder Shield",
+"sell": 1200,
+"buy": 79,
+"traders": 2,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 79,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 1200
+}
+]
+},
+"beholders-book": {
+"item": "Beholder's Book",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"big-bone": {
+"item": "Big Bone",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"black-hood": {
+"item": "Black Hood",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"black-pearl": {
+"item": "Black Pearl",
+"sell": 280,
+"buy": 560,
+"traders": 8,
+"npc": "Briasol (Ab'Dendriel)",
+"traders_list": [
+{
+"npc": "Briasol",
+"city": "Ab'Dendriel",
+"buy": 560,
+"sell": 280
+},
+{
+"npc": "Gail",
+"city": "Port Hope",
+"buy": 560,
+"sell": 280
+},
+{
+"npc": "Hanna",
+"city": "Thais",
+"buy": 560,
+"sell": 280
+},
+{
+"npc": "Ishina",
+"city": "Darashia",
+"buy": 560,
+"sell": 280
+},
+{
+"npc": "Iwan",
+"city": "Edron",
+"buy": 560,
+"sell": 280
+},
+{
+"npc": "Odemara",
+"city": "Venore",
+"buy": 560,
+"sell": 280
+},
+{
+"npc": "Tesha",
+"city": "Ankrahmun",
+"buy": 560,
+"sell": 280
+},
+{
+"npc": "Tezila",
+"city": "Kazordoon",
+"buy": 560,
+"sell": 280
+}
+]
+},
+"black-shield": {
+"item": "Black Shield",
+"sell": 800,
+"buy": null,
+"traders": 1,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 800
+}
+]
+},
+"black-wool": {
+"item": "Black Wool",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"blank-rune": {
+"item": "Blank Rune",
+"sell": null,
+"buy": 10,
+"traders": 12,
+"npc": null,
+"traders_list": [
+{
+"npc": "Alexander",
+"city": "Edron",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Asima",
+"city": "Darashia",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Fenech",
+"city": "Ankrahmun",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Frans",
+"city": "Venore",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Penny",
+"city": "Carlin",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Rachel",
+"city": "Carlin",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Shiriel",
+"city": "Ab'Dendriel",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Sigurd",
+"city": "Kazordoon",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Tandros",
+"city": "Port Hope",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Topsy",
+"city": "Thais",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Visary",
+"city": "Nivarya",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Xodet",
+"city": "Thais",
+"buy": 10,
+"sell": null
+}
+]
+},
+"blood-preservation": {
+"item": "Blood Preservation",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"blue-gem": {
+"item": "Blue Gem",
+"sell": 5000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 5000
+}
+]
+},
+"blue-note": {
+"item": "Blue Note",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"blue-robe": {
+"item": "Blue Robe",
+"sell": 10000,
+"buy": null,
+"traders": 1,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 10000
+}
+]
+},
+"blue-rose": {
+"item": "Blue Rose",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"blue-tapestry": {
+"item": "Blue Tapestry",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"blue-tome": {
+"item": "Blue Tome",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"blueberry": {
+"item": "Blueberry",
+"sell": 1,
+"buy": 1,
+"traders": 2,
+"npc": "Lily (Rookgaard)",
+"traders_list": [
+{
+"npc": "Lily",
+"city": "Rookgaard",
+"buy": null,
+"sell": 1
+},
+{
+"npc": "Livielle",
+"city": "Venore",
+"buy": 1,
+"sell": null
+}
+]
+},
+"bolt": {
+"item": "Bolt",
+"sell": null,
+"buy": 4,
+"traders": 10,
+"npc": null,
+"traders_list": [
+{
+"npc": "Dario",
+"city": "Ankrahmun",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Edoch",
+"city": "Darashia",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Galuna",
+"city": "Thais",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Irea",
+"city": "Ab'Dendriel",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Perac",
+"city": "Carlin",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Satir",
+"city": "Nivarya",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Timur",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Xed",
+"city": "Venore",
+"buy": 4,
+"sell": null
+}
+]
+},
+"bone": {
+"item": "Bone",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"bone-club": {
+"item": "Bone Club",
+"sell": 5,
+"buy": null,
+"traders": 1,
+"npc": "Lee'delle (Rookgaard)",
+"traders_list": [
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 5
+}
+]
+},
+"bone-shield": {
+"item": "Bone Shield",
+"sell": 80,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 80
+}
+]
+},
+"bone-sword": {
+"item": "Bone Sword",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"bony-tail": {
+"item": "Bony Tail",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"book": {
+"item": "Book",
+"sell": null,
+"buy": 15,
+"traders": 4,
+"npc": null,
+"traders_list": [
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 15,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 15,
+"sell": null
+},
+{
+"npc": "Shiantis",
+"city": "Venore",
+"buy": 15,
+"sell": null
+},
+{
+"npc": "Thomas",
+"city": "Edron",
+"buy": 15,
+"sell": null
+}
+]
+},
+"book-of-necromantic-rituals": {
+"item": "Book Of Necromantic Rituals",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"book-of-prayers": {
+"item": "Book Of Prayers",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"boots-of-haste": {
+"item": "Boots Of Haste",
+"sell": 30000,
+"buy": null,
+"traders": 1,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 30000
+}
+]
+},
+"bottle": {
+"item": "Bottle",
+"sell": null,
+"buy": 3,
+"traders": 10,
+"npc": null,
+"traders_list": [
+{
+"npc": "Ahmet",
+"city": "Ankrahmun",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Bashira",
+"city": "Ab'Dendriel",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Bezil",
+"city": "Kazordoon",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Brasith",
+"city": "Ab'Dendriel",
+"buy": 15,
+"sell": null
+},
+{
+"npc": "Chephan",
+"city": "Venore",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Dane",
+"city": "Carlin",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Halif",
+"city": "Darashia",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Nezil",
+"city": "Kazordoon",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 3,
+"sell": null
+}
+]
+},
+"bow": {
+"item": "Bow",
+"sell": 130,
+"buy": 15,
+"traders": 11,
+"npc": "Timur (Rookgaard)",
+"traders_list": [
+{
+"npc": "Dario",
+"city": "Ankrahmun",
+"buy": 500,
+"sell": null
+},
+{
+"npc": "Edoch",
+"city": "Darashia",
+"buy": 500,
+"sell": null
+},
+{
+"npc": "Galuna",
+"city": "Thais",
+"buy": 500,
+"sell": null
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 15,
+"sell": null
+},
+{
+"npc": "Irea",
+"city": "Ab'Dendriel",
+"buy": 500,
+"sell": null
+},
+{
+"npc": "Perac",
+"city": "Carlin",
+"buy": 500,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 400,
+"sell": null
+},
+{
+"npc": "Satir",
+"city": "Nivarya",
+"buy": 500,
+"sell": null
+},
+{
+"npc": "Timur",
+"city": "Rookgaard",
+"buy": null,
+"sell": 130
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 500,
+"sell": null
+},
+{
+"npc": "Xed",
+"city": "Venore",
+"buy": 500,
+"sell": null
+}
+]
+},
+"bowl": {
+"item": "Bowl",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"brass-armor": {
+"item": "Brass Armor",
+"sell": 150,
+"buy": 50,
+"traders": 16,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": null,
+"sell": 150
+},
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": null,
+"sell": 112
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 450,
+"sell": 150
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": null,
+"sell": 112
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 150
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 112
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 112
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 150
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": null,
+"sell": 150
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 150
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": null,
+"sell": 150
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 150
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": null,
+"sell": 150
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 150
+},
+{
+"npc": "Yanni",
+"city": "Venore",
+"buy": null,
+"sell": 150
+}
+]
+},
+"brass-helmet": {
+"item": "Brass Helmet",
+"sell": 30,
+"buy": 8,
+"traders": 7,
+"npc": "Azil (Darashia)",
+"traders_list": [
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": 120,
+"sell": 30
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": 120,
+"sell": 30
+},
+{
+"npc": "Gamel",
+"city": "Thais",
+"buy": 120,
+"sell": null
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 30
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": 120,
+"sell": 30
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 30
+}
+]
+},
+"brass-legs": {
+"item": "Brass Legs",
+"sell": 49,
+"buy": 15,
+"traders": 6,
+"npc": "Azil (Darashia)",
+"traders_list": [
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": null,
+"sell": 49
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": null,
+"sell": 49
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 49
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 15,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 49
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 49
+}
+]
+},
+"brass-shield": {
+"item": "Brass Shield",
+"sell": 25,
+"buy": 15,
+"traders": 12,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": 65,
+"sell": 16
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": 65,
+"sell": 16
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 16
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 15,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": 65,
+"sell": 16
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 16
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 10
+}
+]
+},
+"bread": {
+"item": "Bread",
+"sell": null,
+"buy": 3,
+"traders": 14,
+"npc": null,
+"traders_list": [
+{
+"npc": "Arito",
+"city": "Ankrahmun",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Billy",
+"city": "Rookgaard",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Boozer",
+"city": "Venore",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Clyde",
+"city": "Port Hope",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Frodo",
+"city": "Thais",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "James",
+"city": "Edron",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Maria",
+"city": "Venore",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Maryza",
+"city": "Kazordoon",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Mirabell",
+"city": "Edron",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Miraia",
+"city": "Darashia",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Scott",
+"city": "Carlin",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Tokel",
+"city": "Thais",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Urkalio",
+"city": "Venore",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Willie",
+"city": "Rookgaard",
+"buy": 3,
+"sell": null
+}
+]
+},
+"bright-sword": {
+"item": "Bright Sword",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"broadsword": {
+"item": "Broadsword",
+"sell": 500,
+"buy": 10,
+"traders": 2,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 500
+}
+]
+},
+"broken-crossbow": {
+"item": "Broken Crossbow",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"broken-shamanic-staff": {
+"item": "Broken Shamanic Staff",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"bronze-amulet": {
+"item": "Bronze Amulet",
+"sell": 50,
+"buy": 100,
+"traders": 1,
+"npc": "Haroun (Darashia)",
+"traders_list": [
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": 100,
+"sell": 50
+}
+]
+},
+"broom": {
+"item": "Broom",
+"sell": null,
+"buy": 12,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Nelliem",
+"city": "Venore",
+"buy": 12,
+"sell": null
+}
+]
+},
+"brown-bread": {
+"item": "Brown Bread",
+"sell": null,
+"buy": 3,
+"traders": 3,
+"npc": null,
+"traders_list": [
+{
+"npc": "Imalas",
+"city": "Carlin",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Maryza",
+"city": "Kazordoon",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Snake Eye",
+"city": "Kazordoon",
+"buy": 4,
+"sell": null
+}
+]
+},
+"brown-flask": {
+"item": "Brown Flask",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"brown-mushroom": {
+"item": "Brown Mushroom",
+"sell": null,
+"buy": 10,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Luna",
+"city": "Edron",
+"buy": 10,
+"sell": null
+}
+]
+},
+"bunch-of-troll-hair": {
+"item": "Bunch Of Troll Hair",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"bunnyslippers": {
+"item": "Bunnyslippers",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"burning-heart": {
+"item": "Burning Heart",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"burst-arrow": {
+"item": "Burst Arrow",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"candlestick": {
+"item": "Candlestick",
+"sell": null,
+"buy": 2,
+"traders": 7,
+"npc": null,
+"traders_list": [
+{
+"npc": "Ahmet",
+"city": "Ankrahmun",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Bezil",
+"city": "Kazordoon",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Halif",
+"city": "Darashia",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Nezil",
+"city": "Kazordoon",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Sarina",
+"city": "Carlin",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Shiantis",
+"city": "Venore",
+"buy": 2,
+"sell": null
+}
+]
+},
+"cape": {
+"item": "Cape",
+"sell": null,
+"buy": 9,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Rudolph",
+"city": "Edron",
+"buy": 9,
+"sell": null
+}
+]
+},
+"carlin-sword": {
+"item": "Carlin Sword",
+"sell": 118,
+"buy": 5,
+"traders": 4,
+"npc": "Habdel (Darashia)",
+"traders_list": [
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": null,
+"sell": 118
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": 473,
+"sell": 118
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": null,
+"sell": 118
+}
+]
+},
+"carniphila-seeds": {
+"item": "Carniphila Seeds",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"carrot": {
+"item": "Carrot",
+"sell": null,
+"buy": 2,
+"traders": 5,
+"npc": null,
+"traders_list": [
+{
+"npc": "Brasith",
+"city": "Ab'Dendriel",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Donald Mcronald",
+"city": "Thais",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Imalas",
+"city": "Carlin",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Jezzara",
+"city": "Ankrahmun",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Omur",
+"city": "Darashia",
+"buy": 4,
+"sell": null
+}
+]
+},
+"castle-shield": {
+"item": "Castle Shield",
+"sell": 5000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 5000
+}
+]
+},
+"centipede-leg": {
+"item": "Centipede Leg",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"chain-armor": {
+"item": "Chain Armor",
+"sell": 70,
+"buy": 30,
+"traders": 16,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": null,
+"sell": 40
+},
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": 600,
+"sell": 40
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 200,
+"sell": 70
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": 600,
+"sell": 40
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 40
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 30,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": 600,
+"sell": 40
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 40
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 600,
+"sell": 70
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": null,
+"sell": 40
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 40
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 600,
+"sell": 70
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 600,
+"sell": 70
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 600,
+"sell": 70
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 600,
+"sell": 70
+},
+{
+"npc": "Yanni",
+"city": "Venore",
+"buy": 600,
+"sell": 70
+}
+]
+},
+"chain-helmet": {
+"item": "Chain Helmet",
+"sell": 17,
+"buy": 4,
+"traders": 16,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 52,
+"sell": 12
+},
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": 52,
+"sell": 12
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 52,
+"sell": 17
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": 52,
+"sell": 12
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 52,
+"sell": 12
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": 52,
+"sell": 12
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 52,
+"sell": 12
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 52,
+"sell": 17
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 52,
+"sell": 12
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 52,
+"sell": 12
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 52,
+"sell": 17
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 52,
+"sell": 17
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 52,
+"sell": 17
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 52,
+"sell": 17
+},
+{
+"npc": "Yanni",
+"city": "Venore",
+"buy": 52,
+"sell": 17
+}
+]
+},
+"chain-legs": {
+"item": "Chain Legs",
+"sell": 25,
+"buy": 80,
+"traders": 11,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": 240,
+"sell": 20
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 80,
+"sell": 25
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": 240,
+"sell": 20
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 20
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": 240,
+"sell": 20
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 240,
+"sell": 25
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 240,
+"sell": 25
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 240,
+"sell": 20
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 240,
+"sell": 25
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 240,
+"sell": 25
+},
+{
+"npc": "Yanni",
+"city": "Venore",
+"buy": 240,
+"sell": 25
+}
+]
+},
+"chaos-shield": {
+"item": "Chaos Shield",
+"sell": 500000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 500000
+}
+]
+},
+"charmers-tiara": {
+"item": "Charmer's Tiara",
+"sell": 900,
+"buy": null,
+"traders": 2,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 900
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 900
+}
+]
+},
+"cheese": {
+"item": "Cheese",
+"sell": null,
+"buy": 5,
+"traders": 18,
+"npc": null,
+"traders_list": [
+{
+"npc": "Arito",
+"city": "Ankrahmun",
+"buy": 12,
+"sell": null
+},
+{
+"npc": "Billy",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Bonifacius",
+"city": "Edron",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Boozer",
+"city": "Venore",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Clyde",
+"city": "Port Hope",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Donald Mcronald",
+"city": "Thais",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Frodo",
+"city": "Thais",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Imalas",
+"city": "Carlin",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "James",
+"city": "Edron",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Maria",
+"city": "Venore",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Maryza",
+"city": "Kazordoon",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Mirabell",
+"city": "Edron",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Miraia",
+"city": "Darashia",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Scott",
+"city": "Carlin",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Sherry Mcronald",
+"city": "Thais",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Tokel",
+"city": "Thais",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Urkalio",
+"city": "Venore",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Willie",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+}
+]
+},
+"cherry": {
+"item": "Cherry",
+"sell": null,
+"buy": 1,
+"traders": 4,
+"npc": null,
+"traders_list": [
+{
+"npc": "Brasith",
+"city": "Ab'Dendriel",
+"buy": 1,
+"sell": null
+},
+{
+"npc": "Imalas",
+"city": "Carlin",
+"buy": 1,
+"sell": null
+},
+{
+"npc": "Rodney",
+"city": "Venore",
+"buy": 1,
+"sell": null
+},
+{
+"npc": "Sherry Mcronald",
+"city": "Thais",
+"buy": 1,
+"sell": null
+}
+]
+},
+"chicken-feather": {
+"item": "Chicken Feather",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"cleaver": {
+"item": "Cleaver",
+"sell": null,
+"buy": 15,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Chephan",
+"city": "Venore",
+"buy": 15,
+"sell": null
+}
+]
+},
+"clerical-mace": {
+"item": "Clerical Mace",
+"sell": 170,
+"buy": 30,
+"traders": 2,
+"npc": "Willard (Edron)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 30,
+"sell": null
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 170
+}
+]
+},
+"club": {
+"item": "Club",
+"sell": null,
+"buy": 5,
+"traders": 3,
+"npc": null,
+"traders_list": [
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": 5,
+"sell": null
+}
+]
+},
+"coat": {
+"item": "Coat",
+"sell": 1,
+"buy": 8,
+"traders": 8,
+"npc": "Hardek (Thais)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 1
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Norbert",
+"city": "Venore",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 1
+}
+]
+},
+"cobra-scale": {
+"item": "Cobra Scale",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"cobra-tongue": {
+"item": "Cobra Tongue",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"cobrafang-dagger": {
+"item": "Cobrafang Dagger",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"coconut": {
+"item": "Coconut",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"colourful-feather": {
+"item": "Colourful Feather",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"combat-knife": {
+"item": "Combat Knife",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"composite-hornbow": {
+"item": "Composite Hornbow",
+"sell": 25000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 25000
+}
+]
+},
+"conjurer-wand": {
+"item": "Conjurer Wand",
+"sell": 4000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 4000
+}
+]
+},
+"cookie": {
+"item": "Cookie",
+"sell": null,
+"buy": 2,
+"traders": 6,
+"npc": null,
+"traders_list": [
+{
+"npc": "Bonifacius",
+"city": "Edron",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Boozer",
+"city": "Venore",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Imalas",
+"city": "Carlin",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Maria",
+"city": "Venore",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Maryza",
+"city": "Kazordoon",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Urkalio",
+"city": "Venore",
+"buy": 5,
+"sell": null
+}
+]
+},
+"copper-shield": {
+"item": "Copper Shield",
+"sell": 50,
+"buy": 10,
+"traders": 6,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": null,
+"sell": 50
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 50
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 50
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": null,
+"sell": 50
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 50
+}
+]
+},
+"corncob": {
+"item": "Corncob",
+"sell": null,
+"buy": 3,
+"traders": 2,
+"npc": null,
+"traders_list": [
+{
+"npc": "Brasith",
+"city": "Ab'Dendriel",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Donald Mcronald",
+"city": "Thais",
+"buy": 3,
+"sell": null
+}
+]
+},
+"crab-pincers": {
+"item": "Crab Pincers",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"crocodile-boots": {
+"item": "Crocodile Boots",
+"sell": 1000,
+"buy": null,
+"traders": 2,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 100
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 1000
+}
+]
+},
+"crossbow": {
+"item": "Crossbow",
+"sell": 160,
+"buy": 20,
+"traders": 11,
+"npc": "Timur (Rookgaard)",
+"traders_list": [
+{
+"npc": "Dario",
+"city": "Ankrahmun",
+"buy": 1200,
+"sell": null
+},
+{
+"npc": "Edoch",
+"city": "Darashia",
+"buy": 1200,
+"sell": null
+},
+{
+"npc": "Galuna",
+"city": "Thais",
+"buy": 1200,
+"sell": null
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 20,
+"sell": null
+},
+{
+"npc": "Irea",
+"city": "Ab'Dendriel",
+"buy": 1200,
+"sell": null
+},
+{
+"npc": "Perac",
+"city": "Carlin",
+"buy": 1200,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 500,
+"sell": null
+},
+{
+"npc": "Satir",
+"city": "Nivarya",
+"buy": 1200,
+"sell": null
+},
+{
+"npc": "Timur",
+"city": "Rookgaard",
+"buy": null,
+"sell": 160
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 1200,
+"sell": null
+},
+{
+"npc": "Xed",
+"city": "Venore",
+"buy": 1200,
+"sell": null
+}
+]
+},
+"crowbar": {
+"item": "Crowbar",
+"sell": 50,
+"buy": 260,
+"traders": 7,
+"npc": "Beatrice (Edron)",
+"traders_list": [
+{
+"npc": "Ahmet",
+"city": "Ankrahmun",
+"buy": 260,
+"sell": null
+},
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": 260,
+"sell": 50
+},
+{
+"npc": "Bezil",
+"city": "Kazordoon",
+"buy": 260,
+"sell": null
+},
+{
+"npc": "Halif",
+"city": "Darashia",
+"buy": 260,
+"sell": null
+},
+{
+"npc": "Lubo",
+"city": "Thais",
+"buy": 260,
+"sell": null
+},
+{
+"npc": "Nelliem",
+"city": "Venore",
+"buy": 260,
+"sell": null
+},
+{
+"npc": "Nezil",
+"city": "Kazordoon",
+"buy": 260,
+"sell": null
+}
+]
+},
+"crown-armor": {
+"item": "Crown Armor",
+"sell": 12000,
+"buy": 210,
+"traders": 2,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 210,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 12000
+}
+]
+},
+"crystal-arrow": {
+"item": "Crystal Arrow",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"crystal-mace": {
+"item": "Crystal Mace",
+"sell": 12000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 12000
+}
+]
+},
+"crystal-necklace": {
+"item": "Crystal Necklace",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"crystal-ring": {
+"item": "Crystal Ring",
+"sell": 250,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 250
+}
+]
+},
+"crystal-wand": {
+"item": "Crystal Wand",
+"sell": 40000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 40000
+}
+]
+},
+"crystallized-shield": {
+"item": "Crystallized Shield",
+"sell": 16000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 16000
+}
+]
+},
+"cultish-robe": {
+"item": "Cultish Robe",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"cyclops-toe": {
+"item": "Cyclops Toe",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"dagger": {
+"item": "Dagger",
+"sell": 2,
+"buy": 5,
+"traders": 17,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 5,
+"sell": 2
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Gamel",
+"city": "Thais",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": 5,
+"sell": 1
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 1
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": 5,
+"sell": 1
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 5,
+"sell": 2
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": 5,
+"sell": 1
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 5,
+"sell": null
+}
+]
+},
+"daramanian-mace": {
+"item": "Daramanian Mace",
+"sell": 110,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 110
+}
+]
+},
+"daramanian-waraxe": {
+"item": "Daramanian Waraxe",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"dark-armor": {
+"item": "Dark Armor",
+"sell": 400,
+"buy": 130,
+"traders": 2,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 130,
+"sell": null
+}
+]
+},
+"dark-helmet": {
+"item": "Dark Helmet",
+"sell": 250,
+"buy": 40,
+"traders": 2,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 250
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 40,
+"sell": null
+}
+]
+},
+"dark-mushroom": {
+"item": "Dark Mushroom",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"dead-snake": {
+"item": "Dead Snake",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"demon-horn": {
+"item": "Demon Horn",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"demon-shield": {
+"item": "Demon Shield",
+"sell": 30000,
+"buy": 130,
+"traders": 2,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 130,
+"sell": null
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 30000
+}
+]
+},
+"demonbone-amulet": {
+"item": "Demonbone Amulet",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"demonic-essence": {
+"item": "Demonic Essence",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"demonic-skeletal-hand": {
+"item": "Demonic Skeletal Hand",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"desintegrate-rune": {
+"item": "Desintegrate Rune",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"dirty-cape": {
+"item": "Dirty Cape",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"dirty-fur": {
+"item": "Dirty Fur",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"dirty-turban": {
+"item": "Dirty Turban",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"disenchantment-rune": {
+"item": "Disenchantment Rune",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"djinn-blade": {
+"item": "Djinn Blade",
+"sell": 15000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 15000
+}
+]
+},
+"doll": {
+"item": "Doll",
+"sell": 200,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 200
+}
+]
+},
+"double-axe": {
+"item": "Double Axe",
+"sell": 260,
+"buy": 70,
+"traders": 4,
+"npc": "Habdel (Darashia)",
+"traders_list": [
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": null,
+"sell": 260
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 70,
+"sell": null
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": null,
+"sell": 260
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": null,
+"sell": 260
+}
+]
+},
+"dragon-ham": {
+"item": "Dragon Ham",
+"sell": null,
+"buy": 25,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Jezzara",
+"city": "Ankrahmun",
+"buy": 25,
+"sell": null
+}
+]
+},
+"dragon-hammer": {
+"item": "Dragon Hammer",
+"sell": 2000,
+"buy": null,
+"traders": 1,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 2000
+}
+]
+},
+"dragon-lance": {
+"item": "Dragon Lance",
+"sell": 9000,
+"buy": 90,
+"traders": 2,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 90,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 9000
+}
+]
+},
+"dragon-necklace": {
+"item": "Dragon Necklace",
+"sell": 100,
+"buy": 1000,
+"traders": 1,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": 1000,
+"sell": 100
+}
+]
+},
+"dragons-tail": {
+"item": "Dragon's Tail",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"dragonbone-staff": {
+"item": "Dragonbone Staff",
+"sell": 3000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 3000
+}
+]
+},
+"dwarven-helmet": {
+"item": "Dwarven Helmet",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"dwarven-ring": {
+"item": "Dwarven Ring",
+"sell": 100,
+"buy": 2000,
+"traders": 1,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": 2000,
+"sell": 100
+}
+]
+},
+"dwarven-shield": {
+"item": "Dwarven Shield",
+"sell": 100,
+"buy": 55,
+"traders": 2,
+"npc": "Kroox (Kazordoon)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 55,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 100
+}
+]
+},
+"ectoplasmi-sushi": {
+"item": "Ectoplasmi Sushi",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"egg": {
+"item": "Egg",
+"sell": null,
+"buy": 2,
+"traders": 3,
+"npc": null,
+"traders_list": [
+{
+"npc": "Bonifacius",
+"city": "Edron",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Imalas",
+"city": "Carlin",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Maria",
+"city": "Venore",
+"buy": 2,
+"sell": null
+}
+]
+},
+"elder-beholder-tentacle": {
+"item": "Elder Beholder Tentacle",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"elephant-tusk": {
+"item": "Elephant Tusk",
+"sell": 100,
+"buy": null,
+"traders": 1,
+"npc": "Zaidal (Port Hope)",
+"traders_list": [
+{
+"npc": "Zaidal",
+"city": "Port Hope",
+"buy": null,
+"sell": 100
+}
+]
+},
+"elven-astral-observer": {
+"item": "Elven Astral Observer",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"elven-scouting-glass": {
+"item": "Elven Scouting Glass",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"emerald-bangle": {
+"item": "Emerald Bangle",
+"sell": 400,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 400
+}
+]
+},
+"energy-ring": {
+"item": "Energy Ring",
+"sell": 100,
+"buy": 2000,
+"traders": 1,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": 2000,
+"sell": 100
+}
+]
+},
+"executioner-sword": {
+"item": "Executioner Sword",
+"sell": 250000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 250000
+}
+]
+},
+"feather-headdress": {
+"item": "Feather Headdress",
+"sell": 850,
+"buy": null,
+"traders": 1,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 850
+}
+]
+},
+"fire-axe": {
+"item": "Fire Axe",
+"sell": 8000,
+"buy": null,
+"traders": 1,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 8000
+}
+]
+},
+"fire-mushroom": {
+"item": "Fire Mushroom",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"fire-sword": {
+"item": "Fire Sword",
+"sell": 4000,
+"buy": null,
+"traders": 4,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 1000
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 4000
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 1000
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": null,
+"sell": 1000
+}
+]
+},
+"firelight-wand": {
+"item": "Firelight Wand",
+"sell": 100,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 100
+}
+]
+},
+"fish": {
+"item": "Fish",
+"sell": null,
+"buy": 5,
+"traders": 5,
+"npc": null,
+"traders_list": [
+{
+"npc": "Arito",
+"city": "Ankrahmun",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Bruno",
+"city": "Carlin",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Jezzara",
+"city": "Ankrahmun",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Pemaret",
+"city": "Cormaya",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Snake Eye",
+"city": "Kazordoon",
+"buy": 5,
+"sell": null
+}
+]
+},
+"fishing-rod": {
+"item": "Fishing Rod",
+"sell": 40,
+"buy": 150,
+"traders": 17,
+"npc": "Beatrice (Edron)",
+"traders_list": [
+{
+"npc": "Ahmet",
+"city": "Ankrahmun",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Bashira",
+"city": "Ab'Dendriel",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": 150,
+"sell": 40
+},
+{
+"npc": "Bezil",
+"city": "Kazordoon",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Halif",
+"city": "Darashia",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Lubo",
+"city": "Thais",
+"buy": 175,
+"sell": null
+},
+{
+"npc": "Nelliem",
+"city": "Venore",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Nezil",
+"city": "Kazordoon",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Sarina",
+"city": "Carlin",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Timur",
+"city": "Rookgaard",
+"buy": 170,
+"sell": null
+}
+]
+},
+"flash-of-embalm-fluid": {
+"item": "Flash Of Embalm Fluid",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"focus-cape": {
+"item": "Focus Cape",
+"sell": 6000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 6000
+}
+]
+},
+"frost-dragon-claw": {
+"item": "Frost Dragon Claw",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"frost-dragon-wing": {
+"item": "Frost Dragon Wing",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"frosty-ear-of-a-troll": {
+"item": "Frosty Ear Of A Troll",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"frosty-heart": {
+"item": "Frosty Heart",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"frozen-armor": {
+"item": "Frozen Armor",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"frozen-legs": {
+"item": "Frozen Legs",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"garlic-necklace": {
+"item": "Garlic Necklace",
+"sell": 50,
+"buy": 100,
+"traders": 1,
+"npc": "Haroun (Darashia)",
+"traders_list": [
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": 100,
+"sell": 50
+}
+]
+},
+"gauze-bandage": {
+"item": "Gauze Bandage",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ghostly-tissue": {
+"item": "Ghostly Tissue",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ghoul-snack": {
+"item": "Ghoul Snack",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"giant-cobra-fang": {
+"item": "Giant Cobra Fang",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"giant-sword": {
+"item": "Giant Sword",
+"sell": 17000,
+"buy": 100,
+"traders": 2,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 17000
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 100,
+"sell": null
+}
+]
+},
+"girlish-hair-decoration": {
+"item": "Girlish Hair Decoration",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"goat-grass": {
+"item": "Goat Grass",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"goblin-ear": {
+"item": "Goblin Ear",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"gold-coin": {
+"item": "Gold Coin",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"gold-ring": {
+"item": "Gold Ring",
+"sell": 8000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 8000
+}
+]
+},
+"golden-armor": {
+"item": "Golden Armor",
+"sell": 20000,
+"buy": null,
+"traders": 3,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 1500
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 1500
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 20000
+}
+]
+},
+"golden-boots": {
+"item": "Golden Boots",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"golden-legs": {
+"item": "Golden Legs",
+"sell": null,
+"buy": 120,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 120,
+"sell": null
+}
+]
+},
+"golden-mug": {
+"item": "Golden Mug",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"golden-sickle": {
+"item": "Golden Sickle",
+"sell": null,
+"buy": 10,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 10,
+"sell": null
+}
+]
+},
+"golden-wand": {
+"item": "Golden Wand",
+"sell": 4000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 4000
+}
+]
+},
+"grapes": {
+"item": "Grapes",
+"sell": null,
+"buy": 3,
+"traders": 6,
+"npc": null,
+"traders_list": [
+{
+"npc": "Bonifacius",
+"city": "Edron",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Brasith",
+"city": "Ab'Dendriel",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Imalas",
+"city": "Carlin",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Jezzara",
+"city": "Ankrahmun",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Omur",
+"city": "Darashia",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Rodney",
+"city": "Venore",
+"buy": 3,
+"sell": null
+}
+]
+},
+"grave-flower": {
+"item": "Grave Flower",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"great-axe": {
+"item": "Great Axe",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"green-gem": {
+"item": "Green Gem",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"green-mushroom": {
+"item": "Green Mushroom",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"green-tapestry": {
+"item": "Green Tapestry",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"green-tunic": {
+"item": "Green Tunic",
+"sell": null,
+"buy": 10,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Rudolph",
+"city": "Edron",
+"buy": 10,
+"sell": null
+}
+]
+},
+"guardian-shield": {
+"item": "Guardian Shield",
+"sell": 2000,
+"buy": 150,
+"traders": 4,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 180
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 2000
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 180
+}
+]
+},
+"hair-of-the-banshee": {
+"item": "Hair Of The Banshee",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"halberd": {
+"item": "Halberd",
+"sell": 400,
+"buy": 50,
+"traders": 10,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": null,
+"sell": 310
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": null,
+"sell": 310
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": null,
+"sell": 310
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 400
+}
+]
+},
+"half-digested-piece-of-meat": {
+"item": "Half Digested Piece Of Meat",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ham": {
+"item": "Ham",
+"sell": null,
+"buy": 6,
+"traders": 18,
+"npc": null,
+"traders_list": [
+{
+"npc": "Anerui",
+"city": "Ab'Dendriel",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Arito",
+"city": "Ankrahmun",
+"buy": 16,
+"sell": null
+},
+{
+"npc": "Billy",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Boozer",
+"city": "Venore",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Clyde",
+"city": "Port Hope",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Frodo",
+"city": "Thais",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "James",
+"city": "Edron",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Jezzara",
+"city": "Ankrahmun",
+"buy": 15,
+"sell": null
+},
+{
+"npc": "Lector",
+"city": "Carlin",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Maria",
+"city": "Venore",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Maryza",
+"city": "Kazordoon",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Mirabell",
+"city": "Edron",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Miraia",
+"city": "Darashia",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Mugluf",
+"city": "Darashia",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Scott",
+"city": "Carlin",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Tokel",
+"city": "Thais",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Urkalio",
+"city": "Venore",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Willie",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+}
+]
+},
+"hammer-of-wrath": {
+"item": "Hammer Of Wrath",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"hand-axe": {
+"item": "Hand Axe",
+"sell": 4,
+"buy": 5,
+"traders": 12,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 8,
+"sell": 4
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 8,
+"sell": 4
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 8,
+"sell": 4
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 8,
+"sell": 4
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 8,
+"sell": 4
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 8,
+"sell": 4
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 8,
+"sell": 4
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": 8,
+"sell": 4
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 8,
+"sell": 4
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 8,
+"sell": 4
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 8,
+"sell": 4
+}
+]
+},
+"hatchet": {
+"item": "Hatchet",
+"sell": 25,
+"buy": 7,
+"traders": 7,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 7,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Timur",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+}
+]
+},
+"heavy-machete": {
+"item": "Heavy Machete",
+"sell": 90,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 90
+}
+]
+},
+"hellforged-legs": {
+"item": "Hellforged Legs",
+"sell": 100000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 100000
+}
+]
+},
+"hibiscus-dress": {
+"item": "Hibiscus Dress",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"holy-falcon": {
+"item": "Holy Falcon",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"holy-scarab": {
+"item": "Holy Scarab",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"honeycomb": {
+"item": "Honeycomb",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"horseman-helmet": {
+"item": "Horseman Helmet",
+"sell": 280,
+"buy": null,
+"traders": 1,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 280
+}
+]
+},
+"hunting-spear": {
+"item": "Hunting Spear",
+"sell": 250,
+"buy": null,
+"traders": 1,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 250
+}
+]
+},
+"hydra-egg": {
+"item": "Hydra Egg",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"hydra-head": {
+"item": "Hydra Head",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ice-rapier": {
+"item": "Ice Rapier",
+"sell": 1000,
+"buy": null,
+"traders": 1,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 1000
+}
+]
+},
+"inkwell": {
+"item": "Inkwell",
+"sell": 8,
+"buy": 8,
+"traders": 2,
+"npc": "Beatrice (Edron)",
+"traders_list": [
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": null,
+"sell": 8
+},
+{
+"npc": "Thomas",
+"city": "Edron",
+"buy": 8,
+"sell": null
+}
+]
+},
+"iron-hammer": {
+"item": "Iron Hammer",
+"sell": null,
+"buy": 9,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 9,
+"sell": null
+}
+]
+},
+"iron-helmet": {
+"item": "Iron Helmet",
+"sell": 150,
+"buy": 30,
+"traders": 5,
+"npc": "Willard (Edron)",
+"traders_list": [
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 145
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 30,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": 390,
+"sell": 145
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 145
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 150
+}
+]
+},
+"jewelled-belt": {
+"item": "Jewelled Belt",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"katana": {
+"item": "Katana",
+"sell": 35,
+"buy": 8,
+"traders": 2,
+"npc": "Lee'delle (Rookgaard)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 35
+}
+]
+},
+"knife": {
+"item": "Knife",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"knight-armor": {
+"item": "Knight Armor",
+"sell": 5000,
+"buy": 140,
+"traders": 4,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 5000
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 875
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 140,
+"sell": null
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 875
+}
+]
+},
+"knight-axe": {
+"item": "Knight Axe",
+"sell": 2000,
+"buy": 50,
+"traders": 2,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 2000
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 50,
+"sell": null
+}
+]
+},
+"knight-legs": {
+"item": "Knight Legs",
+"sell": 5000,
+"buy": 130,
+"traders": 5,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 5000
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 375
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 130,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 375
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 375
+}
+]
+},
+"lamp": {
+"item": "Lamp",
+"sell": null,
+"buy": 8,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": 8,
+"sell": null
+}
+]
+},
+"large-aethernite": {
+"item": "Large Aethernite",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"leather-armor": {
+"item": "Leather Armor",
+"sell": 12,
+"buy": 25,
+"traders": 15,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 25,
+"sell": 5
+},
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": 35,
+"sell": 5
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": 35,
+"sell": 5
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 25,
+"sell": 5
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 25,
+"sell": 5
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Norbert",
+"city": "Venore",
+"buy": 25,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 25,
+"sell": 5
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 25,
+"sell": 5
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Yanni",
+"city": "Venore",
+"buy": null,
+"sell": 12
+}
+]
+},
+"leather-boots": {
+"item": "Leather Boots",
+"sell": 2,
+"buy": 2,
+"traders": 7,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": null,
+"sell": 2
+},
+{
+"npc": "Aldo",
+"city": "Venore",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 2
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 2
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": null,
+"sell": 2
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 2
+},
+{
+"npc": "Rudolph",
+"city": "Edron",
+"buy": 2,
+"sell": null
+}
+]
+},
+"leather-helmet": {
+"item": "Leather Helmet",
+"sell": 4,
+"buy": 12,
+"traders": 15,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 12,
+"sell": 3
+},
+{
+"npc": "Aldo",
+"city": "Venore",
+"buy": 12,
+"sell": null
+},
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": 12,
+"sell": 3
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 12,
+"sell": 4
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": 12,
+"sell": 3
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 12,
+"sell": 3
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 12,
+"sell": 3
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 12,
+"sell": 4
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 12,
+"sell": 3
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 12,
+"sell": 3
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 12,
+"sell": 4
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 12,
+"sell": 4
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 12,
+"sell": 4
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 12,
+"sell": 4
+},
+{
+"npc": "Yanni",
+"city": "Venore",
+"buy": null,
+"sell": 4
+}
+]
+},
+"leather-legs": {
+"item": "Leather Legs",
+"sell": 1,
+"buy": 10,
+"traders": 9,
+"npc": "Hardek (Thais)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Aldo",
+"city": "Venore",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 1
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Rudolph",
+"city": "Edron",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 1
+}
+]
+},
+"legion-helmet": {
+"item": "Legion Helmet",
+"sell": 22,
+"buy": 8,
+"traders": 2,
+"npc": "Lee'delle (Rookgaard)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 22
+}
+]
+},
+"leopard-armor": {
+"item": "Leopard Armor",
+"sell": 1000,
+"buy": null,
+"traders": 2,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 300
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 1000
+}
+]
+},
+"letter": {
+"item": "Letter",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"life-crystal": {
+"item": "Life Crystal",
+"sell": 85,
+"buy": null,
+"traders": 2,
+"npc": "Alexander (Edron)",
+"traders_list": [
+{
+"npc": "Alexander",
+"city": "Edron",
+"buy": null,
+"sell": 85
+},
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": null,
+"sell": 50
+}
+]
+},
+"life-ring": {
+"item": "Life Ring",
+"sell": 50,
+"buy": 900,
+"traders": 2,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alexander",
+"city": "Edron",
+"buy": 900,
+"sell": null
+},
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": 900,
+"sell": 50
+}
+]
+},
+"lightbringer-helmet": {
+"item": "Lightbringer Helmet",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"lightning-boots": {
+"item": "Lightning Boots",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"lightning-legs": {
+"item": "Lightning Legs",
+"sell": 11000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 11000
+}
+]
+},
+"lightning-robe": {
+"item": "Lightning Robe",
+"sell": 11000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 11000
+}
+]
+},
+"lions-mane": {
+"item": "Lion's Mane",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"lit-lamp": {
+"item": "Lit Lamp",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"lizard-essence": {
+"item": "Lizard Essence",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"lizard-leather": {
+"item": "Lizard Leather",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"lizard-scale": {
+"item": "Lizard Scale",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"longsword": {
+"item": "Longsword",
+"sell": 51,
+"buy": 8,
+"traders": 5,
+"npc": "Hardek (Thais)",
+"traders_list": [
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 51
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 160,
+"sell": 51
+},
+{
+"npc": "Ulrik",
+"city": "Thais",
+"buy": 160,
+"sell": null
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": null,
+"sell": 51
+}
+]
+},
+"lute": {
+"item": "Lute",
+"sell": null,
+"buy": 195,
+"traders": 3,
+"npc": null,
+"traders_list": [
+{
+"npc": "Elvith",
+"city": "Ab'Dendriel",
+"buy": 195,
+"sell": null
+},
+{
+"npc": "Julian",
+"city": "Venore",
+"buy": 195,
+"sell": null
+},
+{
+"npc": "Quero",
+"city": "Thais",
+"buy": 195,
+"sell": null
+}
+]
+},
+"lyre": {
+"item": "Lyre",
+"sell": null,
+"buy": 120,
+"traders": 3,
+"npc": null,
+"traders_list": [
+{
+"npc": "Elvith",
+"city": "Ab'Dendriel",
+"buy": 120,
+"sell": null
+},
+{
+"npc": "Julian",
+"city": "Venore",
+"buy": 120,
+"sell": null
+},
+{
+"npc": "Quero",
+"city": "Thais",
+"buy": 120,
+"sell": null
+}
+]
+},
+"mace": {
+"item": "Mace",
+"sell": 30,
+"buy": 8,
+"traders": 19,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": null,
+"sell": 30
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 90,
+"sell": 30
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 30
+},
+{
+"npc": "Gamel",
+"city": "Thais",
+"buy": 90,
+"sell": null
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": 90,
+"sell": 23
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 23
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 30
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 90,
+"sell": 30
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": null,
+"sell": 30
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 30
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": 90,
+"sell": 30
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": 90,
+"sell": 23
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 90,
+"sell": 30
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 23
+},
+{
+"npc": "Timur",
+"city": "Rookgaard",
+"buy": null,
+"sell": 30
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 90,
+"sell": 30
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": 90,
+"sell": 23
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 90,
+"sell": 30
+}
+]
+},
+"machete": {
+"item": "Machete",
+"sell": 6,
+"buy": 6,
+"traders": 7,
+"npc": "Lee'delle (Rookgaard)",
+"traders_list": [
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 40,
+"sell": null
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 6
+},
+{
+"npc": "Nelliem",
+"city": "Venore",
+"buy": 35,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 40,
+"sell": null
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": 35,
+"sell": null
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 35,
+"sell": null
+}
+]
+},
+"magic-light-wand": {
+"item": "Magic Light Wand",
+"sell": 35,
+"buy": 120,
+"traders": 1,
+"npc": "Haroun (Darashia)",
+"traders_list": [
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": 120,
+"sell": 35
+}
+]
+},
+"magic-plate-armor": {
+"item": "Magic Plate Armor",
+"sell": 200000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 200000
+}
+]
+},
+"magician-hat": {
+"item": "Magician Hat",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"mastermind-shield": {
+"item": "Mastermind Shield",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"meat": {
+"item": "Meat",
+"sell": null,
+"buy": 3,
+"traders": 20,
+"npc": null,
+"traders_list": [
+{
+"npc": "Anerui",
+"city": "Ab'Dendriel",
+"buy": 4,
+"sell": null
+},
+{
+"npc": "Arito",
+"city": "Ankrahmun",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Billy",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Bonifacius",
+"city": "Edron",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Boozer",
+"city": "Venore",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Clyde",
+"city": "Port Hope",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Frodo",
+"city": "Thais",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "James",
+"city": "Edron",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Jezzara",
+"city": "Ankrahmun",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Lector",
+"city": "Carlin",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Maria",
+"city": "Venore",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Maryza",
+"city": "Kazordoon",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Mirabell",
+"city": "Edron",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Miraia",
+"city": "Darashia",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Mugluf",
+"city": "Darashia",
+"buy": 7,
+"sell": null
+},
+{
+"npc": "Scott",
+"city": "Carlin",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Snake Eye",
+"city": "Kazordoon",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Tokel",
+"city": "Thais",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Urkalio",
+"city": "Venore",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Willie",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+}
+]
+},
+"medusa-shield": {
+"item": "Medusa Shield",
+"sell": 9000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 9000
+}
+]
+},
+"melee-ring": {
+"item": "Melee Ring",
+"sell": 100,
+"buy": 500,
+"traders": 1,
+"npc": "Haroun (Darashia)",
+"traders_list": [
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": 500,
+"sell": 100
+}
+]
+},
+"melon": {
+"item": "Melon",
+"sell": null,
+"buy": 8,
+"traders": 7,
+"npc": null,
+"traders_list": [
+{
+"npc": "Bonifacius",
+"city": "Edron",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Brasith",
+"city": "Ab'Dendriel",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Imalas",
+"city": "Carlin",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Jezzara",
+"city": "Ankrahmun",
+"buy": 13,
+"sell": null
+},
+{
+"npc": "Livielle",
+"city": "Venore",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Omur",
+"city": "Darashia",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Sherry Mcronald",
+"city": "Thais",
+"buy": 8,
+"sell": null
+}
+]
+},
+"might-ring": {
+"item": "Might Ring",
+"sell": 250,
+"buy": 5000,
+"traders": 1,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": 5000,
+"sell": 250
+}
+]
+},
+"mind-stone": {
+"item": "Mind Stone",
+"sell": 170,
+"buy": null,
+"traders": 2,
+"npc": "Alexander (Edron)",
+"traders_list": [
+{
+"npc": "Alexander",
+"city": "Edron",
+"buy": null,
+"sell": 170
+},
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": null,
+"sell": 100
+}
+]
+},
+"minotaur-horn": {
+"item": "Minotaur Horn",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"minotaur-leather": {
+"item": "Minotaur Leather",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"mirror": {
+"item": "Mirror",
+"sell": 10,
+"buy": null,
+"traders": 1,
+"npc": "Beatrice (Edron)",
+"traders_list": [
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": null,
+"sell": 10
+}
+]
+},
+"moldy-cheese": {
+"item": "Moldy Cheese",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"moonlight-wand": {
+"item": "Moonlight Wand",
+"sell": 100,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 100
+}
+]
+},
+"morning-star": {
+"item": "Morning Star",
+"sell": 100,
+"buy": 50,
+"traders": 10,
+"npc": "Habdel (Darashia)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 90
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": null,
+"sell": 100
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 90
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": null,
+"sell": 90
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": null,
+"sell": 100
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": null,
+"sell": 90
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": null,
+"sell": 90
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": null,
+"sell": 100
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 90
+}
+]
+},
+"mysterious-fetish": {
+"item": "Mysterious Fetish",
+"sell": 50,
+"buy": null,
+"traders": 1,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 50
+}
+]
+},
+"mystic-turban": {
+"item": "Mystic Turban",
+"sell": 150,
+"buy": null,
+"traders": 1,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 150
+}
+]
+},
+"noble-turban": {
+"item": "Noble Turban",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"obsidian-lance": {
+"item": "Obsidian Lance",
+"sell": 500,
+"buy": 50,
+"traders": 2,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 500
+}
+]
+},
+"orange": {
+"item": "Orange",
+"sell": null,
+"buy": 5,
+"traders": 4,
+"npc": null,
+"traders_list": [
+{
+"npc": "Bonifacius",
+"city": "Edron",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Jezzara",
+"city": "Ankrahmun",
+"buy": 9,
+"sell": null
+},
+{
+"npc": "Livielle",
+"city": "Venore",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Omur",
+"city": "Darashia",
+"buy": 7,
+"sell": null
+}
+]
+},
+"orb": {
+"item": "Orb",
+"sell": 750,
+"buy": null,
+"traders": 1,
+"npc": "Haroun (Darashia)",
+"traders_list": [
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": null,
+"sell": 750
+}
+]
+},
+"orc-leather": {
+"item": "Orc Leather",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"orc-tooth": {
+"item": "Orc Tooth",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"orcish-axe": {
+"item": "Orcish Axe",
+"sell": null,
+"buy": 12,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 12,
+"sell": null
+}
+]
+},
+"orcish-gear": {
+"item": "Orcish Gear",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ornamented-ankh": {
+"item": "Ornamented Ankh",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"panpipes": {
+"item": "Panpipes",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"pear": {
+"item": "Pear",
+"sell": null,
+"buy": 4,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Rodney",
+"city": "Venore",
+"buy": 4,
+"sell": null
+}
+]
+},
+"pelvis-bone": {
+"item": "Pelvis Bone",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"perfect-behemoth-fang": {
+"item": "Perfect Behemoth Fang",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"permafrost-longsword": {
+"item": "Permafrost Longsword",
+"sell": 900,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 900
+}
+]
+},
+"permafrost-morningstar": {
+"item": "Permafrost Morningstar",
+"sell": 1600,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 1600
+}
+]
+},
+"petrified-scream": {
+"item": "Petrified Scream",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"pharaoh-sword": {
+"item": "Pharaoh Sword",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"phoenix-shield": {
+"item": "Phoenix Shield",
+"sell": 16000,
+"buy": null,
+"traders": 1,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 16000
+}
+]
+},
+"pick": {
+"item": "Pick",
+"sell": 15,
+"buy": 50,
+"traders": 10,
+"npc": "Beatrice (Edron)",
+"traders_list": [
+{
+"npc": "Ahmet",
+"city": "Ankrahmun",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Bashira",
+"city": "Ab'Dendriel",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": 50,
+"sell": 15
+},
+{
+"npc": "Bezil",
+"city": "Kazordoon",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Halif",
+"city": "Darashia",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Nelliem",
+"city": "Venore",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Nezil",
+"city": "Kazordoon",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Sarina",
+"city": "Carlin",
+"buy": 50,
+"sell": null
+}
+]
+},
+"piece-of-crocodile-leather": {
+"item": "Piece Of Crocodile Leather",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"piece-of-scarab-shell": {
+"item": "Piece Of Scarab Shell",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"piece-of-warrior-armor": {
+"item": "Piece Of Warrior Armor",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"pig-feet": {
+"item": "Pig Feet",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"pile-of-grave-earth": {
+"item": "Pile Of Grave Earth",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"pitchfork": {
+"item": "Pitchfork",
+"sell": null,
+"buy": 25,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Nelliem",
+"city": "Venore",
+"buy": 25,
+"sell": null
+}
+]
+},
+"plate-armor": {
+"item": "Plate Armor",
+"sell": 400,
+"buy": 110,
+"traders": 11,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": null,
+"sell": 240
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": null,
+"sell": 240
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 110,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 240
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 400
+},
+{
+"npc": "Yanni",
+"city": "Venore",
+"buy": null,
+"sell": 400
+}
+]
+},
+"plate-legs": {
+"item": "Plate Legs",
+"sell": 115,
+"buy": null,
+"traders": 3,
+"npc": "Hardek (Thais)",
+"traders_list": [
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 115
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 115
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 115
+}
+]
+},
+"plate-shield": {
+"item": "Plate Shield",
+"sell": 45,
+"buy": 25,
+"traders": 11,
+"npc": "Azil (Darashia)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": null,
+"sell": 40
+},
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": 125,
+"sell": 45
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": 125,
+"sell": 45
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 40
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 31
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 25,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": 125,
+"sell": 45
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 40
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": null,
+"sell": 40
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 40
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 31
+}
+]
+},
+"platinum-amulet": {
+"item": "Platinum Amulet",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"platinum-coin": {
+"item": "Platinum Coin",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"poison-arrow": {
+"item": "Poison Arrow",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"poison-dagger": {
+"item": "Poison Dagger",
+"sell": 50,
+"buy": 5,
+"traders": 2,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 50
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 5,
+"sell": null
+}
+]
+},
+"poison-spider-shell": {
+"item": "Poison Spider Shell",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"polar-bear-paw": {
+"item": "Polar Bear Paw",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"powder-herb": {
+"item": "Powder Herb",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"power-bolt": {
+"item": "Power Bolt",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"power-ring": {
+"item": "Power Ring",
+"sell": 50,
+"buy": 100,
+"traders": 1,
+"npc": "Haroun (Darashia)",
+"traders_list": [
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": 100,
+"sell": 50
+}
+]
+},
+"protection-amulet": {
+"item": "Protection Amulet",
+"sell": 100,
+"buy": 700,
+"traders": 2,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Eremo",
+"city": "Cormaya",
+"buy": 700,
+"sell": null
+},
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": 700,
+"sell": 100
+}
+]
+},
+"purple-tome": {
+"item": "Purple Tome",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"rabbits-foot": {
+"item": "Rabbit's Foot",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"rapier": {
+"item": "Rapier",
+"sell": 5,
+"buy": 5,
+"traders": 16,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": 15,
+"sell": 3
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": 15,
+"sell": 3
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": 15,
+"sell": 3
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 15,
+"sell": 5
+}
+]
+},
+"ravagers-axe": {
+"item": "Ravager's Axe",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"red-apple": {
+"item": "Red Apple",
+"sell": null,
+"buy": 3,
+"traders": 3,
+"npc": null,
+"traders_list": [
+{
+"npc": "James",
+"city": "Edron",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Lubo",
+"city": "Thais",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Rodney",
+"city": "Venore",
+"buy": 3,
+"sell": null
+}
+]
+},
+"red-dragon-leather": {
+"item": "Red Dragon Leather",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"red-dragon-scale": {
+"item": "Red Dragon Scale",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"red-gem": {
+"item": "Red Gem",
+"sell": 1000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 1000
+}
+]
+},
+"red-rose": {
+"item": "Red Rose",
+"sell": null,
+"buy": 11,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Luna",
+"city": "Edron",
+"buy": 11,
+"sell": null
+}
+]
+},
+"red-scale-armor": {
+"item": "Red Scale Armor",
+"sell": 190000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 190000
+}
+]
+},
+"red-spell-wand": {
+"item": "Red Spell Wand",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"revenant-armor": {
+"item": "Revenant Armor",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"revenant-boots": {
+"item": "Revenant Boots",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"revenant-legs": {
+"item": "Revenant Legs",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"revenant-mask": {
+"item": "Revenant Mask",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ring-of-healing": {
+"item": "Ring Of Healing",
+"sell": 100,
+"buy": 2000,
+"traders": 1,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": 2000,
+"sell": 100
+}
+]
+},
+"ripper-lance": {
+"item": "Ripper Lance",
+"sell": 500,
+"buy": null,
+"traders": 1,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 500
+}
+]
+},
+"roll": {
+"item": "Roll",
+"sell": null,
+"buy": 2,
+"traders": 3,
+"npc": null,
+"traders_list": [
+{
+"npc": "Bonifacius",
+"city": "Edron",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Imalas",
+"city": "Carlin",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Maryza",
+"city": "Kazordoon",
+"buy": 2,
+"sell": null
+}
+]
+},
+"rope": {
+"item": "Rope",
+"sell": 15,
+"buy": 50,
+"traders": 17,
+"npc": "Beatrice (Edron)",
+"traders_list": [
+{
+"npc": "Ahmet",
+"city": "Ankrahmun",
+"buy": 50,
+"sell": 8
+},
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 50,
+"sell": 8
+},
+{
+"npc": "Bashira",
+"city": "Ab'Dendriel",
+"buy": 50,
+"sell": 8
+},
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": 50,
+"sell": 15
+},
+{
+"npc": "Bezil",
+"city": "Kazordoon",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 50,
+"sell": 8
+},
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Halif",
+"city": "Darashia",
+"buy": 50,
+"sell": 8
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 50,
+"sell": 8
+},
+{
+"npc": "Lubo",
+"city": "Thais",
+"buy": 60,
+"sell": null
+},
+{
+"npc": "Nelliem",
+"city": "Venore",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Nezil",
+"city": "Kazordoon",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 50,
+"sell": 8
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 50,
+"sell": 8
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Sarina",
+"city": "Carlin",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Timur",
+"city": "Rookgaard",
+"buy": 65,
+"sell": null
+}
+]
+},
+"rope-belt": {
+"item": "Rope Belt",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"rotten-meat": {
+"item": "Rotten Meat",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"rotten-piece-of-cloth": {
+"item": "Rotten Piece Of Cloth",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"royal-helmet": {
+"item": "Royal Helmet",
+"sell": 30000,
+"buy": null,
+"traders": 1,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 30000
+}
+]
+},
+"royal-spear": {
+"item": "Royal Spear",
+"sell": 27,
+"buy": null,
+"traders": 1,
+"npc": "Galuna (Thais)",
+"traders_list": [
+{
+"npc": "Galuna",
+"city": "Thais",
+"buy": null,
+"sell": 27
+}
+]
+},
+"ruby-necklace": {
+"item": "Ruby Necklace",
+"sell": 3200,
+"buy": 3560,
+"traders": 9,
+"npc": "Hanna (Thais)",
+"traders_list": [
+{
+"npc": "Briasol",
+"city": "Ab'Dendriel",
+"buy": 3560,
+"sell": null
+},
+{
+"npc": "Carina",
+"city": "Venore",
+"buy": 3560,
+"sell": null
+},
+{
+"npc": "Gail",
+"city": "Port Hope",
+"buy": 3560,
+"sell": null
+},
+{
+"npc": "Hanna",
+"city": "Thais",
+"buy": 3560,
+"sell": 3200
+},
+{
+"npc": "Ishina",
+"city": "Darashia",
+"buy": 3560,
+"sell": 3200
+},
+{
+"npc": "Iwan",
+"city": "Edron",
+"buy": 3560,
+"sell": null
+},
+{
+"npc": "Tesha",
+"city": "Ankrahmun",
+"buy": 3560,
+"sell": null
+},
+{
+"npc": "Tezila",
+"city": "Kazordoon",
+"buy": 3560,
+"sell": null
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 900
+}
+]
+},
+"sabre": {
+"item": "Sabre",
+"sell": 12,
+"buy": 6,
+"traders": 16,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 25,
+"sell": 12
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 25,
+"sell": 12
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": 25,
+"sell": 5
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 6,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 25,
+"sell": 12
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 25,
+"sell": 12
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 25,
+"sell": 12
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": 25,
+"sell": 5
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 35,
+"sell": 12
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": 35,
+"sell": 5
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 35,
+"sell": 12
+}
+]
+},
+"salamander-shield": {
+"item": "Salamander Shield",
+"sell": 280,
+"buy": null,
+"traders": 2,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 280
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 280
+}
+]
+},
+"sandals": {
+"item": "Sandals",
+"sell": null,
+"buy": 2,
+"traders": 2,
+"npc": null,
+"traders_list": [
+{
+"npc": "Aldo",
+"city": "Venore",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Rudolph",
+"city": "Edron",
+"buy": 2,
+"sell": null
+}
+]
+},
+"scale-armor": {
+"item": "Scale Armor",
+"sell": null,
+"buy": 75,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 75,
+"sell": null
+}
+]
+},
+"scarab-amulet": {
+"item": "Scarab Amulet",
+"sell": 200,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 200
+}
+]
+},
+"scarab-coin": {
+"item": "Scarab Coin",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"scarab-pincers": {
+"item": "Scarab Pincers",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"scarab-shield": {
+"item": "Scarab Shield",
+"sell": 2000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 2000
+}
+]
+},
+"scarf": {
+"item": "Scarf",
+"sell": null,
+"buy": 15,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Rudolph",
+"city": "Edron",
+"buy": 15,
+"sell": null
+}
+]
+},
+"scimitar": {
+"item": "Scimitar",
+"sell": 150,
+"buy": 10,
+"traders": 2,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 150
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 10,
+"sell": null
+}
+]
+},
+"scorpion-tail": {
+"item": "Scorpion Tail",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"scroll": {
+"item": "Scroll",
+"sell": null,
+"buy": 5,
+"traders": 16,
+"npc": null,
+"traders_list": [
+{
+"npc": "Ahmet",
+"city": "Ankrahmun",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Bashira",
+"city": "Ab'Dendriel",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Bezil",
+"city": "Kazordoon",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Halif",
+"city": "Darashia",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Nezil",
+"city": "Kazordoon",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Sarina",
+"city": "Carlin",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Shiantis",
+"city": "Venore",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Thomas",
+"city": "Edron",
+"buy": 5,
+"sell": null
+},
+{
+"npc": "Timur",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+}
+]
+},
+"sea-serpent-scale": {
+"item": "Sea Serpent Scale",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"sentinel-shield": {
+"item": "Sentinel Shield",
+"sell": 120,
+"buy": null,
+"traders": 2,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 120
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 120
+}
+]
+},
+"serpent-sword": {
+"item": "Serpent Sword",
+"sell": 900,
+"buy": 15,
+"traders": 2,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 900
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 15,
+"sell": null
+}
+]
+},
+"shadow-herb": {
+"item": "Shadow Herb",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"shadow-sceptre": {
+"item": "Shadow Sceptre",
+"sell": 10000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 10000
+}
+]
+},
+"shamanic-hood": {
+"item": "Shamanic Hood",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"short-sword": {
+"item": "Short Sword",
+"sell": 10,
+"buy": 3,
+"traders": 14,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 30,
+"sell": 10
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 10
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 30,
+"sell": 10
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 30,
+"sell": 10
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 10
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 30,
+"sell": 10
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 30,
+"sell": 10
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": null,
+"sell": 10
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": null,
+"sell": 8
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": null,
+"sell": 10
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 10
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": null,
+"sell": 10
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 10
+}
+]
+},
+"shovel": {
+"item": "Shovel",
+"sell": 8,
+"buy": 10,
+"traders": 16,
+"npc": "Beatrice (Edron)",
+"traders_list": [
+{
+"npc": "Ahmet",
+"city": "Ankrahmun",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Bashira",
+"city": "Ab'Dendriel",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": 50,
+"sell": 8
+},
+{
+"npc": "Bezil",
+"city": "Kazordoon",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Halif",
+"city": "Darashia",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Nelliem",
+"city": "Venore",
+"buy": 20,
+"sell": null
+},
+{
+"npc": "Nezil",
+"city": "Kazordoon",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Sarina",
+"city": "Carlin",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Simon The Beggar",
+"city": "Rookgaard",
+"buy": 50,
+"sell": null
+}
+]
+},
+"sickle": {
+"item": "Sickle",
+"sell": 3,
+"buy": 8,
+"traders": 6,
+"npc": "Beatrice (Edron)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": null,
+"sell": 3
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 8,
+"sell": null
+}
+]
+},
+"silver-amulet": {
+"item": "Silver Amulet",
+"sell": 50,
+"buy": 100,
+"traders": 1,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": 100,
+"sell": 50
+}
+]
+},
+"silver-brooch": {
+"item": "Silver Brooch",
+"sell": 150,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 150
+}
+]
+},
+"silver-dagger": {
+"item": "Silver Dagger",
+"sell": 500,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 500
+}
+]
+},
+"simple-dress": {
+"item": "Simple Dress",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"skull": {
+"item": "Skull",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"skull-belt": {
+"item": "Skull Belt",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"skull-staff": {
+"item": "Skull Staff",
+"sell": 6000,
+"buy": null,
+"traders": 1,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 6000
+}
+]
+},
+"skunk-tail": {
+"item": "Skunk Tail",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"sling-herb": {
+"item": "Sling Herb",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"small-amethyst": {
+"item": "Small Amethyst",
+"sell": 200,
+"buy": 400,
+"traders": 8,
+"npc": "Briasol (Ab'Dendriel)",
+"traders_list": [
+{
+"npc": "Briasol",
+"city": "Ab'Dendriel",
+"buy": 400,
+"sell": 200
+},
+{
+"npc": "Gail",
+"city": "Port Hope",
+"buy": 400,
+"sell": 200
+},
+{
+"npc": "Hanna",
+"city": "Thais",
+"buy": 400,
+"sell": 200
+},
+{
+"npc": "Ishina",
+"city": "Darashia",
+"buy": 400,
+"sell": 200
+},
+{
+"npc": "Iwan",
+"city": "Edron",
+"buy": 400,
+"sell": 200
+},
+{
+"npc": "Odemara",
+"city": "Venore",
+"buy": 400,
+"sell": 200
+},
+{
+"npc": "Tesha",
+"city": "Ankrahmun",
+"buy": 400,
+"sell": 200
+},
+{
+"npc": "Tezila",
+"city": "Kazordoon",
+"buy": 400,
+"sell": 200
+}
+]
+},
+"small-axe": {
+"item": "Small Axe",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"small-diamond": {
+"item": "Small Diamond",
+"sell": 300,
+"buy": 600,
+"traders": 8,
+"npc": "Briasol (Ab'Dendriel)",
+"traders_list": [
+{
+"npc": "Briasol",
+"city": "Ab'Dendriel",
+"buy": 600,
+"sell": 300
+},
+{
+"npc": "Gail",
+"city": "Port Hope",
+"buy": 600,
+"sell": 300
+},
+{
+"npc": "Hanna",
+"city": "Thais",
+"buy": 600,
+"sell": 300
+},
+{
+"npc": "Ishina",
+"city": "Darashia",
+"buy": 600,
+"sell": 300
+},
+{
+"npc": "Iwan",
+"city": "Edron",
+"buy": 600,
+"sell": 300
+},
+{
+"npc": "Odemara",
+"city": "Venore",
+"buy": 600,
+"sell": 300
+},
+{
+"npc": "Tesha",
+"city": "Ankrahmun",
+"buy": 600,
+"sell": 300
+},
+{
+"npc": "Tezila",
+"city": "Kazordoon",
+"buy": 600,
+"sell": 300
+}
+]
+},
+"small-emerald": {
+"item": "Small Emerald",
+"sell": 250,
+"buy": 500,
+"traders": 8,
+"npc": "Briasol (Ab'Dendriel)",
+"traders_list": [
+{
+"npc": "Briasol",
+"city": "Ab'Dendriel",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Gail",
+"city": "Port Hope",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Hanna",
+"city": "Thais",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Ishina",
+"city": "Darashia",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Iwan",
+"city": "Edron",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Odemara",
+"city": "Venore",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Tesha",
+"city": "Ankrahmun",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Tezila",
+"city": "Kazordoon",
+"buy": 500,
+"sell": 250
+}
+]
+},
+"small-explosive-rune": {
+"item": "Small Explosive Rune",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"small-oil-lamp": {
+"item": "Small Oil Lamp",
+"sell": 150,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 150
+}
+]
+},
+"small-pitchfork": {
+"item": "Small Pitchfork",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"small-ruby": {
+"item": "Small Ruby",
+"sell": 250,
+"buy": 500,
+"traders": 8,
+"npc": "Briasol (Ab'Dendriel)",
+"traders_list": [
+{
+"npc": "Briasol",
+"city": "Ab'Dendriel",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Gail",
+"city": "Port Hope",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Hanna",
+"city": "Thais",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Ishina",
+"city": "Darashia",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Iwan",
+"city": "Edron",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Odemara",
+"city": "Venore",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Tesha",
+"city": "Ankrahmun",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Tezila",
+"city": "Kazordoon",
+"buy": 500,
+"sell": 250
+}
+]
+},
+"small-sapphire": {
+"item": "Small Sapphire",
+"sell": 250,
+"buy": 500,
+"traders": 8,
+"npc": "Briasol (Ab'Dendriel)",
+"traders_list": [
+{
+"npc": "Briasol",
+"city": "Ab'Dendriel",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Gail",
+"city": "Port Hope",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Hanna",
+"city": "Thais",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Ishina",
+"city": "Darashia",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Iwan",
+"city": "Edron",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Odemara",
+"city": "Venore",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Tesha",
+"city": "Ankrahmun",
+"buy": 500,
+"sell": 250
+},
+{
+"npc": "Tezila",
+"city": "Kazordoon",
+"buy": 500,
+"sell": 250
+}
+]
+},
+"small-stone": {
+"item": "Small Stone",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"snake-skin": {
+"item": "Snake Skin",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"sniper-gloves": {
+"item": "Sniper Gloves",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"snowball": {
+"item": "Snowball",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"soldier-helmet": {
+"item": "Soldier Helmet",
+"sell": 22,
+"buy": 16,
+"traders": 3,
+"npc": "Lee'delle (Rookgaard)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 16,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 22
+},
+{
+"npc": "Ulrik",
+"city": "Thais",
+"buy": 440,
+"sell": null
+}
+]
+},
+"souleater-trophy": {
+"item": "Souleater Trophy",
+"sell": 7500,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 7500
+}
+]
+},
+"spear": {
+"item": "Spear",
+"sell": 3,
+"buy": 2,
+"traders": 16,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 10,
+"sell": 3
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 10,
+"sell": 3
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 10,
+"sell": null
+}
+]
+},
+"spellbook": {
+"item": "Spellbook",
+"sell": null,
+"buy": 150,
+"traders": 13,
+"npc": null,
+"traders_list": [
+{
+"npc": "Asima",
+"city": "Darashia",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Fenech",
+"city": "Ankrahmun",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Frans",
+"city": "Venore",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Muriel",
+"city": "Thais",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Penny",
+"city": "Carlin",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Rachel",
+"city": "Carlin",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Shiriel",
+"city": "Ab'Dendriel",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Sigurd",
+"city": "Kazordoon",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Tandros",
+"city": "Port Hope",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Thomas",
+"city": "Edron",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Topsy",
+"city": "Thais",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Visary",
+"city": "Nivarya",
+"buy": 150,
+"sell": null
+},
+{
+"npc": "Xodet",
+"city": "Thais",
+"buy": 150,
+"sell": null
+}
+]
+},
+"spider-silk": {
+"item": "Spider Silk",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"spike-sword": {
+"item": "Spike Sword",
+"sell": 1000,
+"buy": 25,
+"traders": 6,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 225
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 25,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 1000
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 225
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": null,
+"sell": 225
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 240
+}
+]
+},
+"spirit-container": {
+"item": "Spirit Container",
+"sell": 40000,
+"buy": null,
+"traders": 1,
+"npc": "Fiona (Cormaya)",
+"traders_list": [
+{
+"npc": "Fiona",
+"city": "Cormaya",
+"buy": null,
+"sell": 40000
+}
+]
+},
+"staff": {
+"item": "Staff",
+"sell": null,
+"buy": 40,
+"traders": 2,
+"npc": null,
+"traders_list": [
+{
+"npc": "Gamel",
+"city": "Thais",
+"buy": 40,
+"sell": null
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 40,
+"sell": null
+}
+]
+},
+"staff-of-light": {
+"item": "Staff Of Light",
+"sell": 1500,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 1500
+}
+]
+},
+"star-herb": {
+"item": "Star Herb",
+"sell": null,
+"buy": 21,
+"traders": 1,
+"npc": null,
+"traders_list": [
+{
+"npc": "Luna",
+"city": "Edron",
+"buy": 21,
+"sell": null
+}
+]
+},
+"stealth-ring": {
+"item": "Stealth Ring",
+"sell": 200,
+"buy": 5000,
+"traders": 1,
+"npc": "Haroun (Darashia)",
+"traders_list": [
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": 5000,
+"sell": 200
+}
+]
+},
+"steel-boots": {
+"item": "Steel Boots",
+"sell": 30000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 30000
+}
+]
+},
+"steel-helmet": {
+"item": "Steel Helmet",
+"sell": 293,
+"buy": 60,
+"traders": 11,
+"npc": "Azil (Darashia)",
+"traders_list": [
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": null,
+"sell": 293
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 190
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": null,
+"sell": 293
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 60,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 293
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 190
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": null,
+"sell": 190
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 190
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": null,
+"sell": 190
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 190
+},
+{
+"npc": "Yanni",
+"city": "Venore",
+"buy": null,
+"sell": 190
+}
+]
+},
+"steel-shield": {
+"item": "Steel Shield",
+"sell": 80,
+"buy": 30,
+"traders": 8,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 240,
+"sell": 80
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 30,
+"sell": null
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 80
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": null,
+"sell": 80
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 80
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": null,
+"sell": 80
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 80
+},
+{
+"npc": "Yanni",
+"city": "Venore",
+"buy": null,
+"sell": 80
+}
+]
+},
+"stone-skin-amulet": {
+"item": "Stone Skin Amulet",
+"sell": 500,
+"buy": null,
+"traders": 1,
+"npc": "Haroun (Darashia)",
+"traders_list": [
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": null,
+"sell": 500
+}
+]
+},
+"stone-wing": {
+"item": "Stone Wing",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"strand-of-medusa-hair": {
+"item": "Strand Of Medusa Hair",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"strange-helmet": {
+"item": "Strange Helmet",
+"sell": 500,
+"buy": 55,
+"traders": 2,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 500
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 55,
+"sell": null
+}
+]
+},
+"strange-symbol": {
+"item": "Strange Symbol",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"strange-talisman": {
+"item": "Strange Talisman",
+"sell": 30,
+"buy": 100,
+"traders": 1,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": 100,
+"sell": 30
+}
+]
+},
+"striped-fur": {
+"item": "Striped Fur",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"studded-armor": {
+"item": "Studded Armor",
+"sell": 25,
+"buy": 18,
+"traders": 3,
+"npc": "Lee'delle (Rookgaard)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 18,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Norbert",
+"city": "Venore",
+"buy": 90,
+"sell": null
+}
+]
+},
+"studded-club": {
+"item": "Studded Club",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"studded-helmet": {
+"item": "Studded Helmet",
+"sell": 20,
+"buy": 2,
+"traders": 7,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 63,
+"sell": 20
+},
+{
+"npc": "Aldo",
+"city": "Venore",
+"buy": 63,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 63,
+"sell": 20
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 63,
+"sell": 20
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 63,
+"sell": 20
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 63,
+"sell": 20
+}
+]
+},
+"studded-legs": {
+"item": "Studded Legs",
+"sell": 15,
+"buy": 15,
+"traders": 3,
+"npc": "Lee'delle (Rookgaard)",
+"traders_list": [
+{
+"npc": "Aldo",
+"city": "Venore",
+"buy": 60,
+"sell": null
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 15,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 15
+}
+]
+},
+"studded-shield": {
+"item": "Studded Shield",
+"sell": 16,
+"buy": 50,
+"traders": 5,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 50,
+"sell": 16
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 50,
+"sell": 16
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 50,
+"sell": 16
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 50,
+"sell": 16
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 50,
+"sell": 16
+}
+]
+},
+"swamplight-wand": {
+"item": "Swamplight Wand",
+"sell": 100,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 100
+}
+]
+},
+"sword": {
+"item": "Sword",
+"sell": 25,
+"buy": 7,
+"traders": 16,
+"npc": "Al Dee (Rookgaard)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 85,
+"sell": 25
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": 85,
+"sell": 15
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 7,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 85,
+"sell": 25
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": 85,
+"sell": 25
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": 85,
+"sell": 15
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 85,
+"sell": 25
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 85,
+"sell": 25
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 85,
+"sell": 25
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": 85,
+"sell": 15
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 85,
+"sell": 25
+}
+]
+},
+"sword-hilt": {
+"item": "Sword Hilt",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"talon": {
+"item": "Talon",
+"sell": 320,
+"buy": null,
+"traders": 1,
+"npc": "Rachel (Carlin)",
+"traders_list": [
+{
+"npc": "Rachel",
+"city": "Carlin",
+"buy": null,
+"sell": 320
+}
+]
+},
+"tarantula-egg": {
+"item": "Tarantula Egg",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"teddy-bear": {
+"item": "Teddy Bear",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"templar-scytheblade": {
+"item": "Templar Scytheblade",
+"sell": 200,
+"buy": null,
+"traders": 2,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 200
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 200
+}
+]
+},
+"terra-legs": {
+"item": "Terra Legs",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"terra-mantle": {
+"item": "Terra Mantle",
+"sell": 11000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 11000
+}
+]
+},
+"terrorbird-beak": {
+"item": "Terrorbird Beak",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"the-stinger": {
+"item": "The Stinger",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"throwing-knife": {
+"item": "Throwing Knife",
+"sell": null,
+"buy": 25,
+"traders": 7,
+"npc": null,
+"traders_list": [
+{
+"npc": "Gamel",
+"city": "Thais",
+"buy": 25,
+"sell": null
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": 25,
+"sell": null
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": 25,
+"sell": null
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 25,
+"sell": null
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 25,
+"sell": null
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 25,
+"sell": null
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": 25,
+"sell": null
+}
+]
+},
+"throwing-star": {
+"item": "Throwing Star",
+"sell": null,
+"buy": 2,
+"traders": 5,
+"npc": null,
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 50,
+"sell": null
+}
+]
+},
+"thunder-hammer": {
+"item": "Thunder Hammer",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"time-ring": {
+"item": "Time Ring",
+"sell": 100,
+"buy": 2000,
+"traders": 1,
+"npc": "Yaman (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Yaman",
+"city": "Ankrahmun",
+"buy": 2000,
+"sell": 100
+}
+]
+},
+"titan-axe": {
+"item": "Titan Axe",
+"sell": 4000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 4000
+}
+]
+},
+"tomb-mask": {
+"item": "Tomb Mask",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"torch": {
+"item": "Torch",
+"sell": null,
+"buy": 2,
+"traders": 17,
+"npc": null,
+"traders_list": [
+{
+"npc": "Ahmet",
+"city": "Ankrahmun",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Bashira",
+"city": "Ab'Dendriel",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Bezil",
+"city": "Kazordoon",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Halif",
+"city": "Darashia",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Lubo",
+"city": "Thais",
+"buy": 3,
+"sell": null
+},
+{
+"npc": "Nezil",
+"city": "Kazordoon",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Sarina",
+"city": "Carlin",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Shiantis",
+"city": "Venore",
+"buy": 2,
+"sell": null
+},
+{
+"npc": "Timur",
+"city": "Rookgaard",
+"buy": 3,
+"sell": null
+}
+]
+},
+"tower-shield": {
+"item": "Tower Shield",
+"sell": 8000,
+"buy": 90,
+"traders": 2,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 8000
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 90,
+"sell": null
+}
+]
+},
+"tribal-mask": {
+"item": "Tribal Mask",
+"sell": 250,
+"buy": null,
+"traders": 1,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 250
+}
+]
+},
+"tusk-shield": {
+"item": "Tusk Shield",
+"sell": 40000,
+"buy": null,
+"traders": 2,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 850
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 40000
+}
+]
+},
+"twigs": {
+"item": "Twigs",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"twin-axe": {
+"item": "Twin Axe",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"two-handed-sword": {
+"item": "Two Handed Sword",
+"sell": 450,
+"buy": 60,
+"traders": 11,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": null,
+"sell": 450
+},
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": null,
+"sell": 190
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 60,
+"sell": null
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 450
+},
+{
+"npc": "Romella",
+"city": "Venore",
+"buy": null,
+"sell": 450
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": null,
+"sell": 190
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": null,
+"sell": 450
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 450
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": null,
+"sell": 450
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": null,
+"sell": 190
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": null,
+"sell": 450
+}
+]
+},
+"vampire-shield": {
+"item": "Vampire Shield",
+"sell": 15000,
+"buy": null,
+"traders": 1,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 15000
+}
+]
+},
+"vampire-teeth": {
+"item": "Vampire Teeth",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"viking-helmet": {
+"item": "Viking Helmet",
+"sell": 66,
+"buy": 12,
+"traders": 8,
+"npc": "Azil (Darashia)",
+"traders_list": [
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": 265,
+"sell": 66
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": 265,
+"sell": 66
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 66
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 12,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 66
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": null,
+"sell": 25
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 66
+},
+{
+"npc": "Timur",
+"city": "Rookgaard",
+"buy": 265,
+"sell": 66
+}
+]
+},
+"violet-gem": {
+"item": "Violet Gem",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"voodoo-doll": {
+"item": "Voodoo Doll",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"war-hammer": {
+"item": "War Hammer",
+"sell": 1200,
+"buy": 90,
+"traders": 5,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Habdel",
+"city": "Darashia",
+"buy": null,
+"sell": 470
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 90,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 1200
+},
+{
+"npc": "Rowenna",
+"city": "Carlin",
+"buy": null,
+"sell": 470
+},
+{
+"npc": "Uzgod",
+"city": "Kazordoon",
+"buy": null,
+"sell": 470
+}
+]
+},
+"warrior-helmet": {
+"item": "Warrior Helmet",
+"sell": 5000,
+"buy": 75,
+"traders": 5,
+"npc": "Alesar (Ankrahmun)",
+"traders_list": [
+{
+"npc": "Alesar",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 5000
+},
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 696
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 75,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 696
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 696
+}
+]
+},
+"warwolf-fur": {
+"item": "Warwolf Fur",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"waterskin": {
+"item": "Waterskin",
+"sell": null,
+"buy": 10,
+"traders": 3,
+"npc": null,
+"traders_list": [
+{
+"npc": "Bashira",
+"city": "Ab'Dendriel",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Bezil",
+"city": "Kazordoon",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Halif",
+"city": "Darashia",
+"buy": 40,
+"sell": null
+}
+]
+},
+"wedding-ring": {
+"item": "Wedding Ring",
+"sell": null,
+"buy": 990,
+"traders": 8,
+"npc": null,
+"traders_list": [
+{
+"npc": "Briasol",
+"city": "Ab'Dendriel",
+"buy": 990,
+"sell": null
+},
+{
+"npc": "Carina",
+"city": "Venore",
+"buy": 990,
+"sell": null
+},
+{
+"npc": "Gail",
+"city": "Port Hope",
+"buy": 990,
+"sell": null
+},
+{
+"npc": "Hanna",
+"city": "Thais",
+"buy": 990,
+"sell": null
+},
+{
+"npc": "Ishina",
+"city": "Darashia",
+"buy": 990,
+"sell": null
+},
+{
+"npc": "Iwan",
+"city": "Edron",
+"buy": 990,
+"sell": null
+},
+{
+"npc": "Tesha",
+"city": "Ankrahmun",
+"buy": 990,
+"sell": null
+},
+{
+"npc": "Tezila",
+"city": "Kazordoon",
+"buy": 990,
+"sell": null
+}
+]
+},
+"white-dress": {
+"item": "White Dress",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"white-mushroom": {
+"item": "White Mushroom",
+"sell": null,
+"buy": 6,
+"traders": 2,
+"npc": null,
+"traders_list": [
+{
+"npc": "Livielle",
+"city": "Venore",
+"buy": 10,
+"sell": null
+},
+{
+"npc": "Luna",
+"city": "Edron",
+"buy": 6,
+"sell": null
+}
+]
+},
+"white-pearl": {
+"item": "White Pearl",
+"sell": 160,
+"buy": 320,
+"traders": 8,
+"npc": "Briasol (Ab'Dendriel)",
+"traders_list": [
+{
+"npc": "Briasol",
+"city": "Ab'Dendriel",
+"buy": 320,
+"sell": 160
+},
+{
+"npc": "Gail",
+"city": "Port Hope",
+"buy": 320,
+"sell": 160
+},
+{
+"npc": "Hanna",
+"city": "Thais",
+"buy": 320,
+"sell": 160
+},
+{
+"npc": "Ishina",
+"city": "Darashia",
+"buy": 320,
+"sell": 160
+},
+{
+"npc": "Iwan",
+"city": "Edron",
+"buy": 320,
+"sell": 160
+},
+{
+"npc": "Odemara",
+"city": "Venore",
+"buy": 320,
+"sell": 160
+},
+{
+"npc": "Tesha",
+"city": "Ankrahmun",
+"buy": 320,
+"sell": 160
+},
+{
+"npc": "Tezila",
+"city": "Kazordoon",
+"buy": 320,
+"sell": 160
+}
+]
+},
+"wight-brain": {
+"item": "Wight Brain",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"winter-wolf-fur": {
+"item": "Winter Wolf Fur",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"witch-broom": {
+"item": "Witch Broom",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"wolf-paw": {
+"item": "Wolf Paw",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"wolf-tooth-chain": {
+"item": "Wolf Tooth Chain",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"wood-mushroom": {
+"item": "Wood Mushroom",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"wooden-flute": {
+"item": "Wooden Flute",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"wooden-shield": {
+"item": "Wooden Shield",
+"sell": 5,
+"buy": 15,
+"traders": 15,
+"npc": "Brengus (Port Hope)",
+"traders_list": [
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 15,
+"sell": 3
+},
+{
+"npc": "Azil",
+"city": "Darashia",
+"buy": 15,
+"sell": 3
+},
+{
+"npc": "Brengus",
+"city": "Port Hope",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Cornelia",
+"city": "Carlin",
+"buy": 15,
+"sell": 3
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 15,
+"sell": 3
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 3
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 15,
+"sell": 3
+},
+{
+"npc": "Memech",
+"city": "Ankrahmun",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 15,
+"sell": 3
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 15,
+"sell": 3
+},
+{
+"npc": "Sam",
+"city": "Nivarya",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Turvy",
+"city": "Thais",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Willard",
+"city": "Edron",
+"buy": 15,
+"sell": 5
+},
+{
+"npc": "Yanni",
+"city": "Venore",
+"buy": 15,
+"sell": 5
+}
+]
+},
+"wooden-wand": {
+"item": "Wooden Wand",
+"sell": 1500,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 1500
+}
+]
+},
+"wool": {
+"item": "Wool",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"wyrm-scale": {
+"item": "Wyrm Scale",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"yellow-gem": {
+"item": "Yellow Gem",
+"sell": 2000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 2000
+}
+]
+}
+}

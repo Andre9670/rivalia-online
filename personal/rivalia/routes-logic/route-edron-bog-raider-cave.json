@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "note": "Walking-logic extracted from TibiaWiki 'Route:Edron Bog Raider Cave' text + 6-panel annotated maze map (Bograidercave.gif). Tibia 7.4 vanilla; verify on Rivalia. This is a dungeon-descent route from the Edron surface down into the Bog Raider cave.",
+    "coord_system": "Tibia game coords. z = floor (7=ground surface, higher=deeper underground). down = descend one floor.",
+    "legend": "steps[] follow the 6 map panels of Bograidercave.gif in reading order (top-left → top-right, then bottom-left → bottom-right). Each panel is a successive underground floor of the maze; the red/marked corridor is the path. The last panel is the cave entrance proper."
+  },
+  "route": "Edron surface → Bog Raider Cave",
+  "slug": "route-edron-bog-raider-cave",
+  "from": "Edron (surface hole)",
+  "to": "Edron Bog Raider Cave (hunting ground)",
+  "start": { "x": 32380, "y": 31766, "z": 7, "note": "Surface hole; text minimap coords 130.22 / 124.43 / z7. Bring a Rope to climb back out." },
+  "min_level_note": "Bog Raiders hit hard for their tier — mid-level+ recommended; go with sustain (mana/health) for the descent maze.",
+  "steps": [
+    { "n": 1, "floor": 7, "action": "descend", "to_floor": 8, "img": "Bograidercave.gif", "text": "On the Edron surface, use/go DOWN the hole at ~130.22 124.43 (z7). This drops you into the first cave level (top-left panel).", "hazard": [] },
+    { "n": 2, "floor": 8, "heading": "follow corridor", "action": "walk", "img": "Bograidercave.gif", "text": "Panel 1 (top-left): follow the winding marked corridor through the first underground chamber to the next hole/descent.", "hazard": ["Bog Raider", "Bat", "Rotworm"] },
+    { "n": 3, "floor": 8, "action": "descend", "to_floor": 9, "img": "Bograidercave.gif", "text": "Panel 2 (top-middle): take the branching corridor to the descent point that drops to the next level.", "hazard": ["Bog Raider"] },
+    { "n": 4, "floor": 9, "heading": "spiral", "action": "walk", "img": "Bograidercave.gif", "text": "Panel 3 (top-right): follow the spiral/coiled passage around to its inner descent.", "hazard": ["Bog Raider"] },
+    { "n": 5, "floor": 9, "action": "descend", "to_floor": 10, "img": "Bograidercave.gif", "text": "Panel 4 (bottom-left): a long snaking corridor — walk it end-to-end to the next hole.", "hazard": ["Bog Raider"] },
+    { "n": 6, "floor": 10, "action": "descend", "to_floor": 11, "img": "Bograidercave.gif", "text": "Panel 5 (bottom-middle): short oval chamber with the final descent hole in the middle.", "hazard": ["Bog Raider"] },
+    { "n": 7, "floor": 11, "heading": "follow corridor", "action": "walk", "img": "Bograidercave.gif", "text": "Panel 6 (bottom-right): the long marked corridor here is the BEGINNING of the Bog Raider Cave proper — the hunting ground. Green markers along it indicate the spawn zone.", "hazard": ["Bog Raider"] }
+  ],
+  "return_shortcut": {
+    "text": "No shortcut given — climb back up the same descent chain with a Rope, or use a return teleport/logout if the cave has one. Retrace the panel maze in reverse.",
+    "hazard": ["Bog Raider"]
+  },
+  "floor_transitions": [7, 8, 9, 10, 11],
+  "hazards_all": ["Bog Raider", "Bat", "Rotworm"]
+}

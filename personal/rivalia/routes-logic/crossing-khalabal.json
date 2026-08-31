@@ -1,0 +1,18 @@
+{
+  "route": "Darashia ↔ Ankrahmun (across Darama / Kha'labal desert)",
+  "slug": "crossing-khalabal",
+  "from": "Darashia",
+  "to": "Ankrahmun",
+  "start": { "x": 33236, "y": 32432, "z": 7, "note": "Darashia" },
+  "end": { "x": 33146, "y": 32816, "z": 7, "note": "Ankrahmun" },
+  "note": "Overland desert crossing on Darama via the Devourer, Kha'zeel northern pass and the Kha'labal desert. Mostly flat desert, few obstacles. Maps run Darashia→Ankrahmun; reverse them for the opposite direction. All surface (z7).",
+  "steps": [
+    { "n": 1, "floor": 7, "heading": "W/SW", "action": "walk", "img": "Darama_Route_1.png", "text": "Leave Darashia heading toward the Kha'zeel northern pass.", "hazard": ["Sandcrawler","Hyaena","Nomad"] },
+    { "n": 2, "floor": 7, "action": "walk", "img": "Darama_Route_2.png", "text": "Cross the Kha'labal desert flats.", "hazard": ["Scorpion","Scarab"] },
+    { "n": 3, "floor": 7, "action": "walk", "img": "Darama_Route_3.png", "text": "Continue across the desert toward Ankrahmun.", "hazard": ["Larva (raid)","Ancient Scarab (raid)"] },
+    { "n": 4, "floor": 7, "action": "walk", "img": "Darama_Route_4.png", "text": "Final leg into Ankrahmun.", "hazard": ["Honour Guard (Horestis' Curse)"] }
+  ],
+  "floor_transitions": [7],
+  "hazards_all": ["Sandcrawler","Hyaena","Nomad","Scorpion","Honour Guard","Scarab","Larva","Ancient Scarab"],
+  "equipment": []
+}

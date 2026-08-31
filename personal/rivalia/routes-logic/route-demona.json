@@ -1,0 +1,21 @@
+{
+  "route": "Northport → Maze of Lost Souls (MoLS) → Demona",
+  "slug": "route-demona",
+  "from": "Cave south of Northport (north of Carlin), Fields of Glory",
+  "to": "Maze of Lost Souls / Demona",
+  "start": { "x": 32488, "y": 31866, "z": 7, "note": "cave coord ~126.232/123.122/7 south of Northport" },
+  "note": "Route into the MoLS (and on to Demona). Follow the blue line exactly — straying inside the MoLS means Dragons, Dragon Lords, Giant Spiders. Shovel required to open the entry hole.",
+  "steps": [
+    { "n": 1, "floor": 7, "action": "dig+descend", "text": "At the cave south of Northport, use a SHOVEL to open the hole (coord ~127.0/123.136/7) and enter.", "hazard": [], "equipment": ["Shovel"] },
+    { "n": 2, "action": "walk+descend", "img": "Route_Demona.png", "text": "Follow the BLUE LINE until the next hole.", "hazard": [] },
+    { "n": 3, "action": "switch", "img": "Route_Demona__1_.png", "text": "Keep following the blue line to a small forest inside the cave. In the RED spot, behind the trees, a hole contains a SWITCH — turn it RIGHT to open the MoLS entrance (if already right: turn left then right again).", "hazard": [] },
+    { "n": 4, "action": "cross", "img": "Route_Demona__2_.png", "text": "Exit the hole and follow the path to the MoLS entrance. You must cross some ENERGY FIELDS.", "hazard": ["Energy Field"] },
+    { "n": 5, "action": "walk", "img": "Route_Demona__3_.png", "text": "Inside the MoLS: follow the map step by step or face Dragons, Dragon Lords, Giant Spiders. On the marked path you meet the normal area creatures (rats … orc leaders). Do NOT leave the path.", "hazard": ["Rat","Rotworm","Cyclops","Minotaur","Orc Leader","Dragon (off-path)","Dragon Lord (off-path)","Giant Spider (off-path)"] },
+    { "n": 6, "action": "quest+gate", "img": "Demona_Gate.GIF", "text": "First entrance room = Griffin Shield Quest. Continue to the end and through the Gate of Expertise (level 60).", "hazard": [] },
+    { "n": 7, "heading": "N then E", "action": "ascend", "img": "Demona.GIF", "text": "Go NORTH, take the RIGHT passage all the way to the stairs. Right above = Demona.", "hazard": ["Warlock"] }
+  ],
+  "return": "Exit the MoLS via the maze path in Route_Demona__4_.png (shortest), then retrace the cave route. Alternative exit through Demona (Mols-exit_through_demona.jpg) — expect Warlocks and area monsters.",
+  "gate_level": 60,
+  "hazards_all": ["Energy Field","Rat","Rotworm","Cyclops","Minotaur","Orc Leader","Dragon","Dragon Lord","Giant Spider","Warlock"],
+  "equipment": ["Shovel"]
+}

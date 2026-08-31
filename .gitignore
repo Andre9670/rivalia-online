@@ -1,0 +1,15 @@
+# Local non-INLINE build output (external-sprites variant, only for local testing).
+# The published self-contained map is map/index.html (committed).
+personal/rivalia/rivalia-reverse-map.html
+personal/rivalia/rivalia-reverse-map-onedrive.html
+
+# Cron/pipeline logs
+personal/rivalia/*.log
+personal/rivalia/cron/*.log
+
+# Debug/verification screenshots (regenerable, not part of the deliverable)
+personal/rivalia/verify-*.png
+
+# Python
+__pycache__/
+*.pyc

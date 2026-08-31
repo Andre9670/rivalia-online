@@ -1,0 +1,19 @@
+{
+  "route": "Femor Hills (spawn map + escape routes)",
+  "slug": "route-femor-hills",
+  "from": "Kazordoon / Carlin / Ab'Dendriel (surface approach)",
+  "to": "Femor Hills hunting ground",
+  "start": { "x": 32569, "y": 31803, "z": 7, "note": "Femor Hills area, north of Kazordoon" },
+  "type": "spawn-map",
+  "note": "Not a single A→B walk — an annotated hunting-ground map. Ground floor (z7) is the main Goblin spawn between Carlin (W), Ab'Dendriel (NE) and Kazordoon (S). Numbered up/down markers link the underground (z8), a 1-up level, and a top level. Rope required; Shovel/Machete on some routes.",
+  "landmarks": { "W": "Carlin (Goblin Bridge)", "NE": "Ab'Dendriel", "S": "Kazordoon / Dwarf Mines", "surface_feature": "Bugs area N, walled compound (B = hole, rumoured goblin house w/ ring+amulet)" },
+  "steps": [
+    { "n": 1, "floor": 7, "heading": "central", "action": "hunt", "img": "Femor_Hills_Ground.gif", "text": "Ground floor: main Goblin spawn. A = open hills, B = a hole (goblin house rumour: ring + amulet, guarded), C = descent near the walled compound.", "hazard": ["Goblin", "Wolf", "Bear", "Black Sheep"] },
+    { "n": 2, "floor": 8, "action": "descend", "to_floor": 8, "img": "Femor_Hills_Underground.gif", "text": "Underground: 'Rotworms everywhere'. Numbered up-markers (3,4,5,8) and down-markers (6,7) connect back up and deeper; Guildhall in the SW corner as a landmark.", "hazard": ["Rotworm", "Poison Spider"] },
+    { "n": 3, "floor": 6, "action": "ascend", "img": "Femor_Hills_1_up.gif", "text": "1-up level (above ground) — connected by the numbered up-markers.", "hazard": ["Hunter"] },
+    { "n": 4, "floor": 5, "action": "ascend", "img": "Femor_Hills_top.gif", "text": "Top level — the most dangerous, where Hunters and Demon Skeletons appear. Escape routes documented here.", "hazard": ["Hunter", "Demon Skeleton"] }
+  ],
+  "floor_transitions": [5, 6, 7, 8],
+  "hazards_all": ["Goblin", "Wolf", "Bear", "Rotworm", "Cyclops", "Hunter", "Poison Spider", "Black Sheep", "Demon Skeleton"],
+  "equipment": ["Rope", "Shovel (some routes)", "Machete (some routes)"]
+}

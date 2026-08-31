@@ -1,0 +1,2375 @@
+# Introduction
+
+### <mark style="color:red;">**The Old-School Spirit, Reforged for a New Era**</mark>
+
+<div align="left" data-full-width="false"><figure><img src="https://i.imgur.com/AuXbe2r.png" alt=""><figcaption></figcaption></figure></div>
+
+Do you remember when every hunt felt dangerous? When you actually had to prepare your runes and mana, because dying meant losing hours of progress? Rivalia is built on that exact feeling — the classic 7.4 spirit — but with a twist. It’s not just a copy. We’ve rebuilt it with modern mechanics and new content that make the grind exciting again.
+
+Every step matters here. That random monster you’re about to fight? It could be your ticket to a rare drop… or the reason you’re running back from temple. That’s the kind of tension that keeps the game alive. And honestly — isn’t that what we’ve all been missing?
+
+### <mark style="color:red;">**Relive the Golden Age, with a Modern Spark**</mark>
+
+The old paths are still here — the dragon lairs, the haunted ruins, the familiar cities you know by heart. But Rivalia has been reshaped, piece by piece, into something bigger. Something alive.
+
+<div><img src="https://i.imgur.com/6T8xoJC.png" alt="" width="387"> <img src="https://i.imgur.com/ICltdNk.jpeg" alt="" width="387"></div>
+
+* **Retro Foundations** – Low loot, slower leveling, no hand-holding. You actually *earn* your progress.&#x20;
+* **Fresh Twists** – Systems like **rare monsters** that can drop anything from uncommon to legendary gear. Or **artifacts**, special items that give unique bonuses and can completely change how you play.&#x20;
+* **A Real Economy** – Runes aren’t sold by NPCs. Blank runes are, sure, but the magic comes from players crafting them. Professions like **Alchemy** mean the loot you drag back from a hunt might be worth more than you think.<br>
+
+You’ll recognize the world instantly… but look closer and you’ll see it’s not the same. And that’s the point.
+
+<img src="https://i.imgur.com/5DNG9pY.png" alt="" width="700">
+
+### <mark style="color:red;">**The Tibia Experience**</mark>
+
+![](https://i.imgur.com/13FA34y.jpeg)
+
+Think back for a second. It’s a cold morning, maybe a weekend, and you roll out of bed straight to your computer. You open the old Tibia client — no flashy music, no cinematic intro, just that familiar silence and the login screen waiting. Your friends are already online, huddled in Thais depot, backpacks stuffed with runes and potions. You don’t need a quest log or glowing arrows to tell you what to do — you *make your own plan*. “Dragon hunt today?” someone asks, and just like that, the adventure begins.That’s the heart of Rivalia. We’ve brought that exact spirit back — the raw danger, the thrill of discovery, the grind that actually feels rewarding. But we didn’t stop there. Rivalia adds new layers that keep the experience alive in 2025. Logging into Rivalia feels like logging into the past, but with something new around every corner. It’s the same nostalgia, the same heartbeat, but sharper, deeper, and built to last.
+
+#### <br>
+
+
+# Legacy Rates
+
+### <mark style="color:red;">Rates</mark>
+
+* Experience: x1
+* Skills: x1
+* Magic: x1
+* Spawn: x1
+* Loot: x1
+
+#### <mark style="color:red;">Regeneration Table</mark>
+
+| Vocation        | HP Gain/lvl | MP Gain/lvl | Cap Gain/lvl | HP Regen | Mana Regen |
+| --------------- | ----------- | ----------- | ------------ | -------- | ---------- |
+| None            | 5           | 5           | 10           | 1/6secs  | 0          |
+| Sorcerer        | 5           | 30          | 10           | 1/12secs | 1/6secs    |
+| Master Sorcerer | 5           | 30          | 10           | 1/10secs | 1/4secs    |
+| Druid           | 5           | 30          | 10           | 1/12secs | 1/6secs    |
+| Elder Druid     | 5           | 30          | 10           | 1/10secs | 1/4secs    |
+| Paladin         | 10          | 15          | 20           | 1/8secs  | 1/8secs    |
+| Royal Paladin   | 10          | 15          | 20           | 1/6secs  | 1/6secs    |
+| Knight          | 15          | 5           | 25           | 1/6secs  | 1/12secs   |
+| Elite Knight    | 15          | 5           | 25           | 1/4secs  | 1/10secs   |
+
+
+# Ascendia Rates
+
+### <mark style="color:red;">Rates</mark>
+
+* Experience:&#x20;
+
+| Levels    | Experience Rate |
+| --------- | --------------- |
+| 1 - 20    | x8              |
+| 21 - 40   | x7              |
+| 41 - 60   | x6              |
+| 61 - 80   | x5              |
+| 81 - 120  | x4              |
+| 121 - 180 | x3              |
+| 180+      | x2              |
+
+* Skills: x3
+* Magic: x2
+* Spawn: x1
+* Loot: x3
+
+#### <mark style="color:red;">Regeneration Table</mark>
+
+| Vocation        | HP Gain / lvl | MP Gain / lvl | Cap Gain / lvl | HP Regen     | Mana Regen  |
+| --------------- | ------------- | ------------- | -------------- | ------------ | ----------- |
+| None            | 5             | 5             | 10             | 1/6secs      | 0           |
+| Sorcerer        | 5             | 30            | 10             | **2/12secs** | **2/3secs** |
+| Master Sorcerer | 5             | 30            | 10             | **2/6secs**  | **2/2secs** |
+| Druid           | 5             | 30            | 10             | **2/12secs** | **2/3secs** |
+| Elder Druid     | 5             | 30            | 10             | **2/6secs**  | **2/2secs** |
+| Paladin         | 10            | 15            | 20             | **2/8secs**  | **2/4secs** |
+| Royal Paladin   | 10            | 15            | 20             | **2/4secs**  | **2/3secs** |
+| Knight          | 15            | 5             | 25             | **2/3secs**  | **2/6secs** |
+| Elite Knight    | 15            | 5             | 25             | **2/2secs**  | **2/5secs** |
+
+
+# Video Trailer
+
+### **Ascendia - High Rates**
+
+{% embed url="<https://www.youtube.com/watch?v=XIbfJ548nJI>" %}
+
+### **Legacy - Low Rates**
+
+{% embed url="<https://youtu.be/NvcrKRSLlik>" %}
+
+
+# The Cult of the Queen Spells
+
+These spells are rewards for completing the [The Cult of the Queen](/rivalia-online/custom-quests/mainland-quests/the-cult-of-the-queen) Quest.
+
+<table><thead><tr><th width="89">Image</th><th width="90">Magic</th><th>Spell Name</th><th width="85">Mana</th><th width="107">Vocation</th><th width="401">Effect</th></tr></thead><tbody><tr><td><img src="/files/9D0qzhHOhT8XpuVDOr1H" alt="" data-size="original"></td><td>7</td><td>Purity of Life</td><td>70</td><td>Elder Druid</td><td>Heals a player for a large amount of hp over 5 2-second turns.<br>Heals 20% less when used on self.</td></tr><tr><td><img src="/files/8iKf6Iu9yeKuRkpCEvTJ" alt=""></td><td>2</td><td>Taunt</td><td>5% Health</td><td>Elite Knight</td><td>Ranged, single target Challenge.</td></tr><tr><td><img src="/files/MiHFs1exMMdp0q4tAgy2" alt=""></td><td>18</td><td>Stealth</td><td>40</td><td>Royal Paladin</td><td>Makes you completely invisible to all monsters and players for a small period of time.</td></tr><tr><td><img src="/files/OYS6XoWGUJm59I4r3Fod" alt=""></td><td>3</td><td>Icicle Rune</td><td>70</td><td>Master Sorcerer</td><td>Creates a 5x charge Heavy Frozen Missile rune. </td></tr></tbody></table>
+
+
+# New Spells
+
+Some spells have been rebalanced — a few have been strengthened, while others have been toned down. Alongside these changes, brand-new spells have also been introduced. The most powerful of these aren’t simply handed out: players must prove themselves by completing faction lines, tasks, and quests before gaining access. This ensures that the strongest magic feels earned and tied to progression, making each spell a true reward for dedication and achievement.
+
+The new spells are only acquirable through the questline from Daniel Steelsoul in Edron.
+
+
+# Elite Knight
+
+### <mark style="color:red;">Taunt</mark>
+
+* Words: Exeta
+* Mana: 0
+* Health: 10% of player's max health
+* Magic Level: 6
+* Cooldown: 2 seconds
+
+**Taunt is a ranged single target challenge, this helps the knight not having to run after the monster each time it re-targets to a player.**
+
+<figure><img src="/files/9AxxC76Y6cbdFvsk0T6j" alt=""><figcaption></figcaption></figure>
+
+
+# Royal Paladin
+
+### <mark style="color:red;">**Stealth**</mark>
+
+1. **Words: Utana Gran Vid**
+2. **Mana: 50**
+3. **Magic Level: 18**
+4. **Cooldown: 2 seconds**
+
+**Description:** The Paladin enters a ghostly state, becoming completely invisible for 1-2 seconds. During this time, neither players nor monsters can see or target the Paladin. However, if the Paladin is hit by a direct attack or caught in an area-of-effect spell, the stealth effect will immediately end, and they will reappear. Use this spell strategically to evade danger or reposition in combat.
+
+<figure><img src="/files/vj5NnInVx77mvZOZjiy6" alt=""><figcaption></figcaption></figure>
+
+
+# Master Sorcerer
+
+### <mark style="color:red;">**Icicle Rune**</mark>
+
+* Words: Adori Frigo
+* Mana: 70
+* Magic Level: 4
+
+**Description:** The Sorcerer gets a new Ice Rune spell, the rune hits more than the regular Heavy Magic Missile, it will also help in several cases where monsters are weaker to certain types of damages.
+
+<figure><img src="/files/NvXTpLVbzS6klLBN4RF4" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:red;">Magic Shield</mark>
+
+* Words: Utamo Vita
+* Mana: 50
+* Magic Level: 4
+
+**Description:** The Paladin, Sorcerer and Druid can now toggle on/off magic shield
+
+### <mark style="color:red;">Recharge Moonlight Wand</mark>
+
+* **Words:** Exura Vis
+* **Mana:** 10
+* **Magic Level:** 0
+
+**Description:** By uttering these words, the caster infuses a Moonlight Wand with a spark of magical energy, restoring 20 charges. This spell allows young sorcerers and druids to extend the life of their low-level wand without needing to acquire a new one. The spell requires only a small amount of mana and no magic level, making it accessible to even the most inexperienced adventurers. However, the spell only works if the caster is holding a Moonlight Wand.
+
+### <mark style="color:red;">Recharge Firelight Wand</mark>
+
+* **Words:** Exura Flam
+* **Mana:** 10
+* **Magic Level:** 0
+
+**Description:** By uttering these words, the caster infuses a Firelight Wand with a spark of magical energy, restoring 20 charges. This spell allows young sorcerers and druids to extend the life of their low-level wand without needing to acquire a new one. The spell requires only a small amount of mana and no magic level, making it accessible to even the most inexperienced adventurers. However, the spell only works if the caster is holding a Firelight Wand.
+
+### <mark style="color:red;">Recharge Swamplight Wand</mark>
+
+* **Words:** Exura Pox
+* **Mana:** 10
+* **Magic Level:** 0
+
+**Description:** By uttering these words, the caster infuses a Swamplight Wand with a spark of magical energy, restoring 20 charges. This spell allows young sorcerers and druids to extend the life of their low-level wand without needing to acquire a new one. The spell requires only a small amount of mana and no magic level, making it accessible to even the most inexperienced adventurers. However, the spell only works if the caster is holding a Swamplight Wand.
+
+
+# Elder Druid
+
+### <mark style="color:red;">Purity of Life</mark>
+
+1. Words: Exura Mas Sio "Name
+2. Mana: 65
+3. Magic Level: 40
+4. Cooldown: 10 seconds
+
+**Description:** The druid invokes a sacred blessing that heals a chosen target over 10 seconds. The target receives a healing pulse every 2 seconds, for a total of 5 healing waves. The druid can use this spell on themselves or an ally, providing consistent support during critical moments. While Purity of Life is active, the druid can still cast other healing spells, such as Heal Friend, to further aid their allies. Use this spell to sustain a single target with reliable healing over time.
+
+<figure><img src="/files/pUlyE3XcHlmOSitx5ocV" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:red;">Poison Storm</mark>
+
+1. Words: Exevo Gran Mas Pox
+2. Mana: 600
+3. Magic Level: 28
+
+**Description:** The caster unleashes a devastating **Poison Storm**, striking all nearby creatures with a violent burst of **physical and poison energy**. The initial blast delivers a powerful impact—roughly half the force of an *Ultimate Explosion*—while leaving a lingering toxic effect that continues to ravage the target.
+
+The poison condition spreads through the creature’s body in **six successive cycles**, each inflicting heavy poison damage over time. This deadly combination of immediate physical impact and sustained venom makes *Poison Storm* one of the most destructive area spells in the caster’s arsenal, perfect for weakening groups of enemies or finishing resilient foes.
+
+<figure><img src="/files/NqPABkNh562G025124PR" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:red;">Energy Ward</mark>
+
+1. Words: Exana Vis Sio "Name
+2. Mana: 480
+3. Magic Level: 20
+
+**Description:** The druid protects the target or himself from incoming energy damage from all sources during 30 minutes, the amount of percent of protection depends on the druid's magic level, the maximum percent amount is 15%.
+
+### <mark style="color:red;">Fire Ward</mark>
+
+1. Words: Exana Flam Sio "Name
+2. Mana: 480
+3. Magic Level: 20
+
+**Description:** The druid protects the target or himself from incoming fire damage from all sources during 30 minutes, the amount of percent of protection depends on the druid's magic level, the maximum percent amount is 15%.
+
+### <mark style="color:red;">Poison Ward</mark>
+
+1. Words: Exana Pox Sio "Name
+2. Mana: 480
+3. Magic Level: 20
+
+**Description:** The druid protects the target or himself from incoming poison damage from all sources during 30 minutes, the amount of percent of protection depends on the druid's magic level, the maximum percent amount is 15%.
+
+<figure><img src="/files/sv4iSAxdHXV8mfNGWViU" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:red;">Cleanse</mark>
+
+1. Words: Exana Sio "Name
+2. Mana: 30
+3. Magic Level: 4
+
+**Description:** The druid protects the target or himself from incoming poison damage from all sources during 30 minutes, the amount of percent of protection depends on the druid's magic level, the maximum percent amount is 15%.
+
+### <mark style="color:red;">Recharge Moonlight Wand</mark>
+
+* **Words:** Exura Vis
+* **Mana:** 10
+* **Magic Level:** 0
+
+**Description:** By uttering these words, the caster infuses a Moonlight Wand with a spark of magical energy, restoring 20 charges. This spell allows young sorcerers and druids to extend the life of their low-level wand without needing to acquire a new one. The spell requires only a small amount of mana and no magic level, making it accessible to even the most inexperienced adventurers. However, the spell only works if the caster is holding a Moonlight Wand.
+
+### <mark style="color:red;">Recharge Firelight Wand</mark>
+
+* **Words:** Exura Flam
+* **Mana:** 10
+* **Magic Level:** 0
+
+**Description:** By uttering these words, the caster infuses a Firelight Wand with a spark of magical energy, restoring 20 charges. This spell allows young sorcerers and druids to extend the life of their low-level wand without needing to acquire a new one. The spell requires only a small amount of mana and no magic level, making it accessible to even the most inexperienced adventurers. However, the spell only works if the caster is holding a Firelight Wand.
+
+### <mark style="color:red;">Recharge Swamplight Wand</mark>
+
+* **Words:** Exura Pox
+* **Mana:** 10
+* **Magic Level:** 0
+
+**Description:** By uttering these words, the caster infuses a Swamplight Wand with a spark of magical energy, restoring 20 charges. This spell allows young sorcerers and druids to extend the life of their low-level wand without needing to acquire a new one. The spell requires only a small amount of mana and no magic level, making it accessible to even the most inexperienced adventurers. However, the spell only works if the caster is holding a Swamplight Wand.
+
+
+# Upcoming Knight Changes
+
+### <mark style="color:red;">**Cleave Bash – Two-Handed Mechanics for Knights**</mark>
+
+**Cleave** is a **melee attack** that strikes all enemies in a **180-degree arc** in front of the player. This ability allows warriors to efficiently deal with multiple foes at once, making it a powerful tool for crowd control and clearing groups of enemies.
+
+#### <mark style="color:red;">**Mechanics**</mark>
+
+* **Weapon Requirements**:
+  * Requires a **two-handed sword**, **two-handed axe**, or **two-handed club**.
+* **Attack Range**:
+  * Hits all enemies **in front of the player** within a **180-degree arc**.
+* **Damage Calculation**:
+  * Damage is applied to the **primary target at full strength**.
+  * Nearby enemies take **a percentage of the original damage** dealt to the primary target.
+* **Defense Penalty**:
+  * Players using Cleave **take 30% more damage** from all sources while attacking.
+  * This is represented as a **-30% defense penalty**, making the user more vulnerable to counterattacks.
+
+#### <mark style="color:red;">**Combat Strategy**</mark>
+
+* **Best Used Against:** Groups of melee enemies that cluster together.
+* **Risk vs. Reward:** Deals **high area damage**, but comes at the cost of increased vulnerability.
+* **Positioning Matters:** Maximizing the number of enemies hit while avoiding dangerous counterattacks is key.
+
+<figure><img src="/files/acX4ZxIoz9FcQdzCdiIM" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/files/P2uRGqTfp2efg5skR5tW" alt=""><figcaption></figcaption></figure>
+
+
+# Nivarya
+
+**Nivarya** is a vast, frozen continent built for high-level exploration and challenging hunts. Designed as a long-term expansion project, it already offers multiple hunting grounds and powerful creatures — and this is only the beginning. Future updates will expand Nivarya even further, introducing new questlines, deeper lore, additional bosses, unique rewards, and unexplored regions waiting to be discovered.
+
+<figure><img src="/files/L3mhkmHvmHbRQ4NoisoS" alt=""><figcaption></figcaption></figure>
+
+
+# Custom Respawns
+
+{% embed url="<https://www.youtube.com/watch?v=_7U4K41Axn4>" %}
+
+**Nivarya** is envisioned as a **future continent-scale expansion or new major area** in a game world (likely a custom world or upcoming content) featuring a variety of **challenging hunt locations and bosses**. It’s not just a single city — it’s *a new frontier with many adventure zones and rare targets to hunt*.
+
+#### What Makes Nivarya Special
+
+In Nivarya, players can travel between diverse **cold, dangerous environments** and pursue high-risk, high-reward encounters, including:
+
+* **Ice Goblins** — small, icy humanoid enemies
+* **Vampire Crypt** — undead vampire lairs to explore
+* **Frost Dragons** — powerful dragon bosses in frigid caves
+* **Frozemoths** — chill-themed flying creatures
+* **Dread Tomb** — dark, monster-filled tombs
+* **Undead Dragon** — a stronger, death-related dragon variant
+* **Abominations** — twisted, powerful monsters
+* **Cold Crawlers** — cold-adapted crawler enemies
+* **Heroes Arena** — combat challenge arena for players
+* **Jothuns & Ice Witches** — unique winter mythic foes
+* **And more, which havent been discovered yet!**
+
+#### Purpose of the Linked Video
+
+The video you shared shows **pathing routes** and **how to reach these hunt areas** — basically a **navigation guide** to get from town or spawn points to each of the major hunt targets across Nivarya’s terrain.
+
+
+# Task Board
+
+The Task Board system is divided into **Bounty Tasks (Daily)** and **Weekly Tasks**, providing both short-term and long-term progression.
+
+* [**Bounty Tasks**](/rivalia-online/systems/task-board/bounty-tasks) are daily hunting missions where you kill specific creatures to earn **Experience and Bounty Points**, used to upgrade your **Bounty Talisman** and improve your hunting efficiency.
+* [**Weekly Tasks**](/rivalia-online/systems/task-board/weekly-tasks) include **Kill** and **Delivery** missions that reset every week, rewarding **Experience and Hunting Points**, which can be used to buy **outfits, addons, and other rewards** in the shop.
+
+Together, this system encourages continuous hunting, progression, and customization of your character through both daily and weekly objectives.
+
+***
+
+
+# Bounty Tasks
+
+Bounty Tasks are hunting missions where players are assigned to kill a specific number of creatures. By completing these tasks, players earn **Bounty Points** and experience.
+
+These points can be used to:
+
+* Upgrade your **Bounty Talisman**
+* Reroll tasks
+* Manage preferred or avoided creatures
+
+There is also a chance to receive special task variants:
+
+* **Silver Tasks** – Increased rewards (2x Experience & Bounty Points)
+* **Gold Tasks** – High rewards (4x Experience & Bounty Points)
+
+***
+
+### Task Difficulty
+
+Bounty Tasks are divided into four difficulty tiers:
+
+* **Beginner**
+* **Adept**
+* **Expert**
+* **Master**
+
+Each tier increases:
+
+* The number of creatures required
+* The difficulty of monsters
+* The rewards obtained
+
+***
+
+### Bounty Points & Progression
+
+Completing tasks grants **Bounty Points**, which are the core progression system for Bounty Tasks.
+
+You can use these points to:
+
+* Upgrade your character bonuses through the talisman
+* Improve efficiency when hunting specific creatures
+* Customize your task pool (rerolls and preferences)
+
+***
+
+### Bounty Talisman
+
+The **Bounty Talisman** is a special item that enhances your performance against creatures from Bounty Tasks.
+
+It can be upgraded to provide bonuses such as:
+
+* Increased damage
+* Life leech
+* Loot bonus
+* Double Bestiary progress
+
+**Where to get it:**
+
+* Can be purchased in any jewelry shop for **5,000 gold.**
+
+***
+
+### Summary
+
+* Accept tasks to hunt specific monsters
+* Complete them to earn **Bounty Points + Experience**
+* Use points to upgrade your **Bounty Talisman** and improve your hunting efficiency
+* Progress through higher difficulty tiers for better rewards
+
+
+# Weekly Tasks
+
+Weekly Tasks are part of the Task Board system and provide **long-term challenges that reset every week**.
+
+They are designed to complement Bounty Tasks by offering a broader progression system and additional rewards.
+
+***
+
+### How It Works
+
+Each week, players receive a set of tasks that include:
+
+* **Kill Tasks** – Hunt and defeat specific creatures
+* **Delivery Tasks** – Collect and deliver certain items
+
+Every Monday (server save), a new set of Weekly Tasks is assigned to each character. ([Tibia Wiki](https://www.tibiawiki.com.br/wiki/Weekly_Tasks?utm_source=chatgpt.com))
+
+#### Task Amount
+
+* Default:
+  * 6 Kill Tasks
+  * 6 Delivery Tasks
+* With permanent expansion (Bought for 1000 Rivalia Coins):
+  * 9 Kill Tasks
+  * 9 Delivery Tasks ([Tibia Wiki](https://www.tibiawiki.com.br/wiki/Weekly_Tasks?utm_source=chatgpt.com))
+
+***
+
+### Rewards
+
+Weekly Tasks provide two types of rewards:
+
+#### Immediate Rewards
+
+* Experience gained upon completing each task
+
+#### Weekly Rewards (End of the Week)
+
+* **Hunting Task Points**
+
+The more tasks you complete during the week, the higher your total rewards.
+
+***
+
+### Hunting Task Points
+
+Hunting Task Points are the main currency earned from Weekly Tasks.
+
+They can be used to:
+
+* Purchase **outfits and addons**
+* Unlock cosmetic rewards
+* Buy items from the Hunting Task Shop
+
+***
+
+### Task Difficulty
+
+Weekly Tasks are divided into difficulty tiers:
+
+* **Beginner**
+* **Adept**
+* **Expert**
+* **Master**
+
+Difficulty is based on creature strength and bestiary difficulty, not directly on player level.
+
+***
+
+### Summary
+
+* Weekly Tasks reset every **Monday**
+* Include both **Kill** and **Delivery** missions
+* Completing tasks grants **Experience immediately**
+* At the end of the week, you receive **Hunting Task Points**
+* Points can be used to buy **outfits, addons, and other rewards**
+
+***
+
+If you want, I can merge both **Bounty + Weekly Tasks** into a single clean page for your GitBook so it looks like a complete system guide.
+
+
+# Light Wands
+
+<p align="center">The <mark style="color:red;"><strong>firelight wand</strong></mark> can be found in the Lighthouse of Thais. It deals fire damage.</p>
+
+<p align="center">Where do you buy the spell to recharge the wand? In any magic NPC in mainland.</p>
+
+<p align="center">What's the name of the spell? <mark style="color:$danger;"><strong>"Recharge Firelight Wand"</strong></mark></p>
+
+<figure><img src="/files/EBEAO8bHqRAnkwo5U6xf" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/files/syag8J6gdjjy1wk8ybv1" alt=""><figcaption></figcaption></figure>
+
+<p align="center">The <mark style="color:blue;"><strong>moonlight wand</strong></mark> can be found in Kazordoon's entrance. It deals energy damage.</p>
+
+<p align="center">Where do you buy the spell to recharge the wand? In any magic NPC in mainland.</p>
+
+<p align="center">What's the name of the spell? <mark style="color:blue;"><strong>"Recharge Moonlight Wand"</strong></mark></p>
+
+<p align="center"><img src="/files/1OUsLhUjqKCFYrWPRHny" alt=""></p>
+
+<figure><img src="/files/8gF3RGD5dk2nS2VnW2WY" alt=""><figcaption></figcaption></figure>
+
+<p align="center">The <mark style="color:$success;"><strong>swamplight wand</strong></mark> can be found in the Scale Armor Quest. It deals poison damage.</p>
+
+<p align="center">Where do you buy the spell to recharge the wand? In any magic NPC in mainland.</p>
+
+<p align="center">What's the name of the spell? <mark style="color:$success;"><strong>"Recharge Swamplight Wand"</strong></mark></p>
+
+<p align="center"><img src="/files/vKRn4ksIRTacI5IEDcJZ" alt=""></p>
+
+<figure><img src="/files/lNXFbM3en0dIzdbc9vbE" alt=""><figcaption></figcaption></figure>
+
+<p align="center"></p>
+
+
+# Wands and Staffs
+
+When used with **Small Explosive Runes**, serve as a modern replacement for the classic **bow + burst arrow** gameplay from the 7.4 era.\
+Small Explosive Runes follow **the exact same damage formula as burst arrows**, preserving the authentic feeling of that old-school mechanic.
+
+The difference lies in how the damage is delivered:
+
+* [**Wands**](/rivalia-online/items/weapons/wands) → A fast, precise **single-target** shot.
+* [**Staffs**](/rivalia-online/items/weapons/staffs) → A **3×3 area** impact, similar to the wider blast of a burst arrow.
+
+Another key improvement is that mages can **cast these runes using small explosive runes**, giving them far more flexibility and autonomy compared to the original system.
+
+<figure><img src="/files/j06IvxXFGHk484uzkHId" alt=""><figcaption></figcaption></figure>
+
+These wands and staffs are mostly dropped by monsters, since all quests in game are changed and you will not receive normal rewards there, they were changed to monster drops. Some examples are:<br>
+
+* Ghost
+* Necromancer
+* Warlock
+* Lich
+* Orc Shaman
+* Hellforged Devil
+
+
+# Bestiary & Charms
+
+The **Bestiary and Charm System** in *Rivalia Online* functions similarly to the **Cyclopedia** in Tibia RL. It allows players to progressively unlock detailed information about monsters by defeating them. As you slay more of a specific creature, you’ll gradually reveal their **loot table**, **elemental weaknesses**, and **resistances**.
+
+<figure><img src="/files/u9suJ1wIeR9Mxh0iUBiJ" alt=""><figcaption></figcaption></figure>
+
+Once you fully complete a monster's bestiary entry—by reaching the required number of kills—you are rewarded with **Charm Points**. These points can be spent on purchasing **magical rune effects**, which are powerful enhancements that apply only to the specific monster you've completed.
+
+<figure><img src="/files/Z6qZCwnSf94qijEY7pyM" alt=""><figcaption></figcaption></figure>
+
+For example, if you complete the Dragon bestiary by killing 1,500 Dragons, you can then spend Charm Points to unlock a rune effect that applies **only** to Dragons. This rune boosts your combat effectiveness against that creature every time you fight it.
+
+You can **remove** a rune effect from a monster if you’d like to reassign it elsewhere. However, doing so comes at a cost:\
+**Gold Cost = Player Level × 100**
+
+This system encourages focused hunting and strategic charm use to maximize your efficiency against high-value or challenging foes.
+
+### Reset Charms
+
+With this new feature, you can **redeem all rune charms you have unlocked throughout your gameplay** and freely reassign them whenever you wish.
+
+The first redemption costs **100 Rivalia Coins**, the second **150**, the third **200**, the fourth **250**, and from the fifth use onward the cost is **capped at 300 Rivalia Coins**.
+
+When you redeem your charms, **all spent charm points are fully refunded**, allowing you to re-assign your rune charms however you like and adapt your build at any time.
+
+
+# Item Attributes Information
+
+<div align="center"><figure><img src="/files/Z8HW0G2ZIGkLBtBSQOdy" alt=""><figcaption></figcaption></figure></div>
+
+<figure><img src="/files/ob6GNJcQp3a7LGt98v5W" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:red;">Item Enhancement System</mark>
+
+The item enhancement system allows players to augment weapons and equipment by applying various attributes that increase their effectiveness in different areas such as damage output, defense, and special effects. These attributes add uniqueness to items and provide significant gameplay improvement. These attributes are chosen randomly when dropped by any monster or upgraded by any player, each item has different attribute tiers, each tier means how many attributes a piece of equipment or weapon can handle.
+
+### <mark style="color:red;">Upgrading Item Attributes</mark>
+
+<table><thead><tr><th>RARITY</th><th># OF ATTRIBUTES</th><th data-hidden></th></tr></thead><tbody><tr><td>Classification 1</td><td>Can hold 1 attribute.</td><td></td></tr><tr><td>Classification 2</td><td>Can hold 2 attributes.</td><td></td></tr><tr><td>Classification 3</td><td>Can hold 3 attributes.</td><td></td></tr><tr><td>Classification 4</td><td>Can hold 4 attributes.</td><td></td></tr><tr><td>Classification 5</td><td>Can hold 5 attributes.</td><td></td></tr></tbody></table>
+
+When items are upgraded, the attributes assigned are entirely random, ensuring every item has a unique set of enhancements. This randomness introduces variability in gameplay, allowing for a myriad of powerful and distinct item configurations.
+
+Upgrades are performed using special crystals known as Small Aethernite, Medium Aethernite and Large Aethernite. These crystals come in three sizes, each corresponding to a different upgrade tier:
+
+The aether shards are mysteriously tied to **monsters elites**, each type of crystal dropping more frequently from its corresponding elite tier. While their origins remain unknown, these enchanted stones seem to resonate with the power of these formidable foes.
+
+Once collected, these crystals can be **traded in any magical NPC** in exchange for <mark style="color:red;">**Aether Shards**</mark>, making them not only useful for upgrades but also valuable for commerce.
+
+### <mark style="color:red;">Aethernite Crystals</mark>
+
+| Amount of Aether Shards | Amount of Gold Required | Aethernite Crystal |
+| ----------------------- | ----------------------- | ------------------ |
+| 5                       | 2000 gold coins         | Small Aethernite   |
+| 10                      | 6000 gold coins         | Medium Aethernite  |
+| 20                      | 8000 gold coins         | Large Aethernite   |
+
+<figure><img src="/files/xUEwyafkwunXVGSpkXu1" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:red;">Upgrade Chances</mark>
+
+* Higher-tier stones **increase your success rate**.
+* Higher-tier items (Epic, Legendary) are **harder to upgrade**.
+* The chance represents the **percentage of success per upgrade attempt**.
+
+| Item Classification | Small Aethernite | Medium Aethernite | Large Aethernite |
+| ------------------- | ---------------- | ----------------- | ---------------- |
+| Classification 1    | 10%              | 20%               | 40%              |
+| Classification 2    | 5%               | 10%               | 20%              |
+| Classification 3    | 3.3%             | 5%                | 10%              |
+| Classification 4    | 2.5%             | 3.3%              | 5%               |
+| Classification 5    | 2%               | 2.5%              | 3.3%             |
+
+<figure><img src="/files/sz7fRCYk1MpJAkoyO9hR" alt=""><figcaption></figcaption></figure>
+
+### <mark style="color:red;">Upgrading Attributes</mark>
+
+This system specifically upgrades one attribute's tier to a higher tier, there are 5 total tiers of attributes, from 1 to 5, the higher the tier, the most valuable and stronger the item is.
+
+<table><thead><tr><th width="179">Rarity → / Tier ↓</th><th>Rare</th><th>Epic</th><th>Legendary</th><th>Brutal</th></tr></thead><tbody><tr><td>Tier 1</td><td>30%</td><td>25%</td><td>20%</td><td>15%</td></tr><tr><td>Tier 2</td><td>20%</td><td>15%</td><td>10%</td><td>7.5%</td></tr><tr><td>Tier 3</td><td>15%</td><td>10%</td><td>5%</td><td>3.5%</td></tr><tr><td>Tier 4</td><td>10%</td><td>5%</td><td>2.5%</td><td>1.5%</td></tr><tr><td>Tier 5</td><td>5%</td><td>2.5%</td><td>1.5%</td><td>1%</td></tr></tbody></table>
+
+### <mark style="color:red;">Attributes</mark>
+
+| Attribute            | Function                                                            |
+| -------------------- | ------------------------------------------------------------------- |
+| Melee                | Additional Melee Skill                                              |
+| Distance             | Additional Distance Skill                                           |
+| Shield               | Additional Shielding Skill                                          |
+| Max Hit Points       | Provides max HP to any character (EK: 100%, RP: 50%, MAGES: 25%)    |
+| Max Mana Points      | Provides max Mana to any character (EK: 25%, RP: 50%, MAGES: 100%)  |
+| Magic Level          | Additional Magic Level                                              |
+| Speed                | Additional Speed                                                    |
+| Attack               | Additional Attack to weapons                                        |
+| Defense              | Additional Defense on shields                                       |
+| Armor                | Additional Armor on equipment                                       |
+| Hit Chance           | Higher percent of hit chance                                        |
+| Elemental Resistance | Provides protection against all elements.                           |
+| Physical Resistance  | Provides protection against physical damage                         |
+| Fire Resistance      | Provides protection against fire damage                             |
+| Ice Resistance       | Provides protection against ice damage                              |
+| Energy Resistance    | Provides protection against energy damage                           |
+| Poison Resistance    | Provides protection against poison damage                           |
+| Critical Hit Chance  | Chance of triggering a critical hit (doubles the amount of the hit) |
+| Mana Leech Chance    | Chance of triggering a mana leech                                   |
+| Life Leech Chance    | Chance of triggering life steal                                     |
+| Elemental Increments | Increases all of your attacks                                       |
+| Physical Increments  | Increases all of your physical attacks                              |
+| Fire Increments      | Increases all of your fire attacks                                  |
+| Ice Increments       | Increases all of your ice attacks                                   |
+| Energy Increments    | Increases all of your energy attacks                                |
+| Poison Increments    | Increases all of your poison attacks                                |
+| Mana Regeneration    | Regenerates faster mana for X amount of seconds                     |
+| Health Regeneration  | Regenerates faster health for X amount of seconds                   |
+| Dodge                | Completely dodges a hit                                             |
+| Vitality             | 10% extra MAX HP for 60 seconds when triggered                      |
+| Reflect              | Completely reflects a hit to the creature that attacked you         |
+| Double Shot          | Doubles the ammunition you shot                                     |
+| Sharpshooter         | 10% increase in speed and 10% increase in distance skill            |
+| Resurgence           | Regenerates 10% of your total max HP on kill                        |
+| Clarity              | Regenerates 10% of your total mana on kill                          |
+| Slash                | Ignores the target's armor                                          |
+| Crushing Blow        | Ignores the target's defense                                        |
+| Weight               | Reduces weight of item                                              |
+| Endure               | Completely removes a paralyze                                       |
+| Attack Interval      | Faster speed attack                                                 |
+| Healing Increments   | Increases healing                                                   |
+| Parry                | Completely dodges an attack with a weapon                           |
+
+
+# Attribute Tiers
+
+In this page you can find the attribute your item has and the tier your current attribute is on.
+
+## **Attack**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1     |
+| 2    | 2     |
+| 3    | 3     |
+| 4    | 4     |
+| 5    | 5     |
+
+## **Attack Two Handed**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 2     |
+| 2    | 4     |
+| 3    | 6     |
+| 4    | 8     |
+| 5    | 10    |
+
+## **Melee Fighting**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1     |
+| 2    | 2     |
+| 3    | 3     |
+| 4    | 4     |
+| 5    | 5     |
+
+## **Melee Two Handed Fighting**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 2     |
+| 2    | 4     |
+| 3    | 6     |
+| 4    | 8     |
+| 5    | 10    |
+
+## **Parry**
+
+**Chance of trigger on attack**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Slash**
+
+**Chance of trigger on attack**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Crushing Blow**
+
+**Chance of trigger on attack**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Hit Chance**
+
+**Chance of trigger on attack**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Double Shot**
+
+**Chance of trigger on attack**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Distance**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1     |
+| 2    | 2     |
+| 3    | 3     |
+| 4    | 4     |
+| 5    | 5     |
+
+## **Sharpshooter**
+
+**Chance of trigger on attack**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Magic Level**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1     |
+| 2    | 2     |
+| 3    | 3     |
+| 4    | 4     |
+| 5    | 5     |
+
+## **Critical Hit Chance**
+
+**Chance of trigger on attack**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Fire Increments**
+
+**Percent of increment**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Ice Increments**
+
+**Percent of increment**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Energy Increments**
+
+**Percent of increment**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Poison Increments**
+
+**Percent of increment**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Armor**
+
+**Value of armor on equipment**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1     |
+| 2    | 2     |
+| 3    | 3     |
+| 4    | 4     |
+| 5    | 5     |
+
+## **Fire Resistance**
+
+**Percent of resistance**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Ice Resistance**
+
+Percent of resistance
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Energy Resistance**
+
+**Percent of resistance**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Poison Resistance**
+
+Percent of resistance
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Endure**
+
+**Chance of triggering**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## **Defense**
+
+**Value of defense on shield**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1     |
+| 2    | 2     |
+| 3    | 3     |
+| 4    | 4     |
+| 5    | 5     |
+
+## **Shield**
+
+**Value of skill**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1     |
+| 2    | 2     |
+| 3    | 3     |
+| 4    | 4     |
+| 5    | 5     |
+
+## **Life Leech Chance**
+
+**Chance of trigger on attack**
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## Physical Resistance
+
+Percent of resistance
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## Elemental Resistance
+
+Percent of increment
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## Physical Increments
+
+Percent of increment
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## Elemental Increments
+
+Percent of increment
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## Clarity
+
+Chance of triggering on kill
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## Mana Leech Chance
+
+Chance of triggering on attack
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## Resurgence
+
+Chance of triggering on kill
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## Dodge
+
+Chance of triggering
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## Vitality
+
+Chance of triggering
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## Healing Increments
+
+Percent of increment
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 1%    |
+| 2    | 2%    |
+| 3    | 3%    |
+| 4    | 4%    |
+| 5    | 5%    |
+
+## Max Hit Points
+
+100% MAGE / 50% RP / 25% EK of the total value.
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 15    |
+| 2    | 30    |
+| 3    | 45    |
+| 4    | 60    |
+| 5    | 75    |
+
+## Speed
+
+Value of speed
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 10    |
+| 2    | 15    |
+| 3    | 20    |
+| 4    | 25    |
+| 5    | 30    |
+
+## Mana Regeneration
+
+| Tier | Value  | Ticks      |
+| ---- | ------ | ---------- |
+| 1    | 1 mana | 24 seconds |
+| 2    | 1 mana | 22 seconds |
+| 3    | 1 mana | 20 seconds |
+| 4    | 1 mana | 18 seconds |
+| 5    | 1 mana | 16 seconds |
+
+## Health Regeneration
+
+| Tier | Value    | Ticks       |
+| ---- | -------- | ----------- |
+| 1    | 1 health | 8 seconds   |
+| 2    | 1 health | 7.5 seconds |
+| 3    | 1 health | 7 seconds   |
+| 4    | 1 health | 6.5 seconds |
+| 5    | 1 health | 6 seconds   |
+
+## Attack Interval
+
+| Tier | Value       |
+| ---- | ----------- |
+| 1    | 1.9 seconds |
+| 2    | 1.8 seconds |
+| 3    | 1.7 seconds |
+| 4    | 1.6 seconds |
+| 5    | 1.5 seconds |
+
+## Weight
+
+| Tier | Value |
+| ---- | ----- |
+| 1    | 15%   |
+| 2    | 30%   |
+| 3    | 45%   |
+| 4    | 60%   |
+| 5    | 75%   |
+
+
+# Daily Reward
+
+In **Rivalia Online**, players can benefit from the **Daily Reward System**, allowing them to claim points every day and exchange them for useful supplies through the built-in **Supply Shop**.
+
+***
+
+<figure><img src="/files/tE4qVtFaR0l07Ea9IAUW" alt=""><figcaption></figcaption></figure>
+
+### 📍 How to Access
+
+You can open the Daily Reward module by interacting with a **Daily Reward Shrine**, located in:
+
+* Theres a tab button "Daily Rewards" in your sidemenu.
+
+***
+
+### ⚙️ How It Works
+
+* The system resets **daily at server save**
+* Each day, players can **claim Daily Points**
+* Points can be spent in the **Supply Shop** within the module
+* A **daily streak system** increases your rewards over time
+
+***
+
+### 🎯 XP Goal System
+
+Each time you claim your reward:
+
+* Your **current XP is recorded**
+* A new **XP Goal** is generated for the next day
+
+#### Goal Calculation
+
+* The goal equals **1% of your current XP**
+* Minimum: **1,000 XP**
+* Maximum: **1,000,000 XP**
+
+***
+
+### 📊 Reward Scaling
+
+To receive **100% of your Daily Points**, you must reach your XP Goal before your next claim.
+
+If you don’t:
+
+* Rewards scale proportionally
+* Minimum reward: **5%**
+
+#### Example:
+
+* Goal: 500,000 XP
+  * 0 XP gained → 5% reward
+  * 250,000 XP → 50% reward
+  * 500,000+ XP → 100% reward
+
+***
+
+### 🧱 Level Cap for Rewards
+
+Daily rewards are normalized using a **level cap**:
+
+* Mainland: high-level players are scaled
+* Rookgaard cap: **Level 150**
+
+This means:
+
+* A level 150 player and a level 500 player on Mainland receive **the same base reward**
+
+***
+
+### 🔥 Streak Bonus System
+
+Maintaining your daily streak grants **cumulative bonuses**:
+
+* 7 days → Base streak
+* 14 days → +5%
+* 21 days → +10%
+* 28 days → +15%
+* 35 days → +20%
+* 42 days → +25%
+* Beyond → up to **+30% (maximum)**
+
+⚠️ Missing a day will **reset your streak**
+
+***
+
+### 🔄 Streak Recovery
+
+If you miss a day:
+
+* You can **restore your streak**
+* This requires a payment in **Daily Points** (inside the module)
+
+***
+
+### 💎 Double Daily Reward
+
+A special item available in the Store allows you to **double your rewards**:
+
+* Rewards are **multiplied by 2** when claimed
+* The item is consumed upon use
+
+#### Example:
+
+* Normal reward: 100 points
+* With Double Reward: 200 points
+
+***
+
+### 💡 Tips
+
+* Log in daily to reach the **+30% streak bonus**
+* Plan your gameplay to consistently hit your **XP goal**
+* Spend points wisely based on your needs (hunting, supplies, support)
+* If you miss a day, compare the **cost of restoring vs. restarting your streak**
+
+<figure><img src="/files/6B20IudISoltrcp0xnD0" alt=""><figcaption></figcaption></figure>
+
+
+# Map Travel Waypoints
+
+<figure><img src="/files/NLOzocMJgW5dFlWr3FwW" alt=""><figcaption></figcaption></figure>
+
+
+# Custom Respawns
+
+Rivalia is a living world, constantly expanding with new hunting grounds in development.  Watch this space. We'll publish every new hunt here as it arrives.  The hunt continues.
+
+
+# Ab'dendriel Dragon Lair
+
+Face ancient, fiery power in their volcanic peaks. Hunt towering beasts for legendary glory.        …and more to discover below.
+
+Recommended: 50+
+
+<figure><img src="/files/WYujU2vUo4sZ5aYx2pZL" alt=""><figcaption></figcaption></figure>
+
+
+# Haunted Wraith Crypts
+
+Hunt the wailing Banshee. Prove your courage to unlock the deeper threat—the silent Shadow Wraith awaits in the Bestiary.
+
+Banshee: 80+\
+Shadow Wraith: 100+
+
+<figure><img src="/files/wMtMXY3a1J2Vhy5hddUf" alt=""><figcaption></figcaption></figure>
+
+
+# Darashia Dragon Pits
+
+Face ancient, fiery power in their volcanic peaks. Hunt towering beasts for legendary glory.        …and more to discover below.
+
+Recommended: 50+
+
+<figure><img src="/files/oNUxm8pNzGrinOtQmh80" alt=""><figcaption></figcaption></figure>
+
+
+# Edron Heroes
+
+Custom spawn, with more heroes.
+
+Recommended: 50+
+
+<figure><img src="/files/3OXheL1H8gICMbHf0zpR" alt=""><figcaption></figcaption></figure>
+
+
+# Hellforged Devils
+
+<figure><img src="/files/eXzt9vPkRizG3ycJ2hbV" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/files/trwXka3QsQSgC2VpuaWR" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/files/lJNiH0uo3yF96SJVBqRw" alt=""><figcaption></figcaption></figure>
+
+### How do you open this respawn?
+
+<figure><img src="/files/J50sEnW973s0FNgn0ox0" alt=""><figcaption></figcaption></figure>
+
+
+# Mount Tauren
+
+This minotaur hunt is a one-way journey. Ensure you are prepared before you enter.
+
+Recommended: 30+
+
+<figure><img src="/files/yRblGi9iHhqbxiNe26L8" alt=""><figcaption></figcaption></figure>
+
+
+# Thais Orc Fortress
+
+Recommended: 50+
+
+<figure><img src="/files/rZ3SNBW4fnkfEIzrTPSk" alt=""><figcaption></figcaption></figure>
+
+
+# Ankrahmun Lizard's
+
+Recommended: 30+
+
+<figure><img src="/files/zwJYQHe594QGPhluM6Co" alt=""><figcaption></figcaption></figure>
+
+
+# Hydra's 1
+
+Recommended: 60+
+
+<figure><img src="/files/ykAD7h4rFl3YYYgG2WSq" alt=""><figcaption></figcaption></figure>
+
+
+# Hydra's 2
+
+Going towards the Green Djinn quarter's, chose a different path towards a custom Hydra spawn.
+
+Recommended: 60+
+
+<figure><img src="/files/LsvSk65pPNZxtw9b0xrY" alt=""><figcaption></figcaption></figure>
+
+
+# Arena Daily Bosses
+
+### Daily Bosses
+
+The **Daily Bosses** system is designed to provide players with an additional source of experience, valuable rewards, and engaging group content. It offers a fun and competitive way to challenge powerful bosses while having a chance to obtain extremely rare items.
+
+#### 🔑 Entry Requirement
+
+To enter a Daily Boss arena, **each player must use 1 Arena Token**.
+
+* **Arena Tokens** are obtained by defeating any type of **Elite Monster** throughout the world.
+* Players can participate **solo** or form a **team** to take on the challenge.
+
+#### 🎁 Rewards
+
+Upon defeating a Daily Boss, players can receive **three types of rewards**:
+
+1. **Arena Coins**
+   * Used to purchase runes in the in-game Store.
+2. **Random Loot or Artifacts**
+   * Includes rare and extremely rare rewards.
+   * Some bosses have unique drop tables.
+3. **Experience**
+   * Grants an additional boost to character progression.
+
+#### ⚔ Boss Variety
+
+Each Daily Boss provides:
+
+* Different amounts of **Arena Coins**
+* Different amounts of **Experience**
+* Unique or varied **loot tables**
+
+This system encourages players to participate daily, hunt Elite Monsters for tokens, and challenge different bosses for the best possible rewards.
+
+
+# Morgrath
+
+Recommended level: 25+
+
+### Where to find him?
+
+<p align="center">In ghostlands, near Carlin.</p>
+
+<figure><img src="/files/Df2NtL40LYKwBTfpSGvN" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/files/d701ZyQBQaKUK5n2Hltv" alt=""><figcaption></figcaption></figure>
+
+
+# Pyrothar
+
+Recommended level: 50
+
+### Where to find him?
+
+<p align="center">In Venore Dragon Lair.</p>
+
+<figure><img src="/files/EIKKNRX9iej2Z0puRRpB" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/files/RFJL7UFxZMJHryDU2ZtG" alt=""><figcaption></figcaption></figure>
+
+
+# Xalthea
+
+Recommended level: 75
+
+Where to find him?
+
+<p align="center">In Ankrahmun's big hydra spawn.</p>
+
+<figure><img src="/files/FmEgiunIhl0gjmoPjjYo" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/files/YyjXjLkmiYSaEyHlL12u" alt=""><figcaption></figcaption></figure>
+
+
+# Kragmorth
+
+Recommended level: 100
+
+### Where to find?
+
+<p align="center">In cyclopolis behemoths.</p>
+
+<figure><img src="/files/rP6uxgvq62rOBzjuobXy" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/files/cwRfTxKe2w0rhayHehbO" alt=""><figcaption></figcaption></figure>
+
+
+# Noctyrix
+
+Recommended level: 125
+
+### Where to find him?
+
+<p align="center">In POH's Shadow Wraiths crypt.</p>
+
+<figure><img src="/files/ooxJ692W1oIs8gp75g6G" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="/files/iTutWjNQiW3ymlFlgn4D" alt=""><figcaption></figcaption></figure>
+
+
+# Monster Elites
+
+Elite monsters are powerful variants of regular creatures, designed to challenge players with greater strength and to reward them with unique loot. Every time a normal monster is slain, there is a **2% chance** that the next monster spawned will appear as an elite version instead.
+
+These elites are divided into **three star tiers**, each one stronger and deadlier than the last. Their power scales with multipliers applied to their **strength, armor protection, speed, and attack damage**:
+
+* <mark style="color:blue;">**★ (One-Star Elites):**</mark> The weakest of the elites, but still far more dangerous than regular monsters.
+
+<figure><img src="/files/eqUzapG445WdLFTZ3v4y" alt=""><figcaption></figcaption></figure>
+
+* <mark style="color:yellow;">**★★ (Two-Star Elites):**</mark> Deadlier, faster, and harder to bring down.
+
+<figure><img src="/files/96QZuVyxoQJUKUulq6q4" alt=""><figcaption></figcaption></figure>
+
+* <mark style="color:red;">**★★★ (Three-Star Elites):**</mark> The ultimate elites, rare and extremely dangerous, demanding teamwork and strategy.
+
+<figure><img src="/files/JCZBIIckQAz8rkyJzBeU" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Behavior and Mechanics**</mark>
+
+* **Spawn Chance:** 2% chance after killing a normal monster, replacing the next spawn.
+* **Despawn Timer:** If an elite monster goes **15 minutes without any interaction** from players, it will despawn.
+* **Scaling:** Each star tier scales progressively with higher multipliers to health, damage, armor, and speed
+
+#### <mark style="color:red;">**Rewards**</mark>
+
+Elite monsters are not just stronger — they’re **far more rewarding**. Defeating one grants:
+
+* **Increased loot rewards** compared to normal creatures.
+* A chance to obtain **special Artifacts**, powerful and rare items that aid the player’s journey.
+
+
+# Loot & Exp Analyzer
+
+The **Loot and Experience Analyzer** is one of the most practical tools in Rivalia Online for players who want to track their hunting efficiency. It gives you the full picture of your profit, expenses, and time investment.
+
+<figure><img src="/files/9RG1rmKGsTtqdabuQTCZ" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Key Features**</mark>
+
+* **Profit per Hour Tracking**\
+  The analyzer automatically calculates your **profit/hr** by comparing the value of items looted against the cost of supplies used (runes, potions, ammunition, etc.). This allows players to instantly see whether a hunt is worth continuing or if it’s draining their resources.
+* **Supplies & Loot Overview**\
+  Every healing potion, rune, or piece of ammunition you consume is recorded alongside all items looted. This lets you know exactly what you’re spending and what you’re earning, removing the guesswork from your hunts.
+* **Custom Loot Values**\
+  In the **Customize Loot** section, you can set your own values for items. For example, if the server’s economy makes a sudden death rune worth more than the market average, you can update that value, and the analyzer will use it in your profit/hr calculations.
+
+<figure><img src="/files/ZsdhUGfGtjVFqRonHeVS" alt=""><figcaption></figcaption></figure>
+
+
+# Character Bazaar
+
+<figure><img src="/files/sro7wCEIDakPIL4nKVJ5" alt=""><figcaption></figcaption></figure>
+
+The **Character Bazaar** in **Rivalia Online** allows players to trade characters safely using **two listing options**: **Auction** and **Buyout**. The **Auction** option uses a proxy bidding system where players set a maximum bid and the system automatically bids for them until the auction ends. The **Buyout** option offers an instant sale at a fixed price with no bidding involved. All listings become visible after the next server save, ensuring fair and transparent character trading.
+
+
+# Proxy Bidding
+
+#### What is Proxy Bidding?
+
+**Proxy bidding** is an automated auction system used in the **Character Bazaar** of **Rivalia Online**.\
+Instead of manually increasing bids every time someone outbids you, the system bids **on your behalf**, up to a maximum amount you choose.
+
+This creates fair, competitive auctions while preventing unnecessary bid spam and last-second chaos.
+
+***
+
+#### 🧠 How Proxy Bidding Works (Step by Step)
+
+1. **Seller lists a character for auction**
+   * The seller sets:
+     * A **starting bid**
+     * An **auction duration**
+   * The auction becomes visible **after the next server save** (not instantly).
+2. **Buyer places a bid (maximum bid)**
+   * When you bid, you are actually setting the **maximum amount of points** you are willing to pay.
+   * This maximum is **hidden from other players**.
+3. **System places automatic bids**
+   * The system automatically bids the **minimum required increment** to keep you in the lead.
+   * If someone bids below your maximum, the system instantly outbids them for you.
+4. **Competing bids**
+   * If another player places a higher maximum bid than yours:
+     * The system compares both maximums
+     * The highest maximum wins
+     * The winner only pays **slightly above the second-highest bid**, not their full maximum
+5. **Auction ends**
+   * When the timer expires:
+     * The highest bidder wins the character
+     * Points are transferred (minus applicable taxes)
+     * The character is delivered automatically
+
+***
+
+#### 📈 Why Proxy Bidding Is Good
+
+✔ Prevents bid spamming\
+✔ No need to babysit auctions\
+✔ Fair pricing based on real demand\
+✔ Encourages strategic bidding\
+✔ Protects bidders from overpaying unnecessarily
+
+You always pay **the minimum amount required to win**, not your full maximum bid.
+
+***
+
+#### 🆚 Example Scenario
+
+* Player A sets a maximum bid of **1,000 points**
+* Player B sets a maximum bid of **850 points**
+
+**Result:**
+
+* Player A wins
+* Final price is slightly above **850 points**
+* Player A does **not** pay 1,000 points
+
+***
+
+#### 💰 Fees & Taxes (Important)
+
+* **Auction Fee**: 50 Rivalia Coins to post a character
+* **Auction Tax**: A 10% taken from the final sale price
+* These values are configured server-side and apply to both auctions and buyouts
+
+***
+
+#### ⏳ Important Notes
+
+* Characters appear in the bazaar **after the next server save**
+* Bids cannot be withdrawn
+* If two bids are equal, the **earliest bid wins**
+* Proxy bidding applies **only to auction listings**, not buyouts
+
+***
+
+#### 🏁 Summary
+
+Proxy bidding in Rivalia Online’s Character Bazaar ensures:
+
+* Fair auctions
+* Competitive pricing
+* Less stress for buyers
+* Clean and transparent character trading
+
+It’s the same trusted system used in modern online auctions—adapted for Rivalia Online’s economy and progression.
+
+***
+
+
+# Buyout
+
+### 💎 Buyout Option – Character Bazaar (Rivalia Online Wiki)
+
+#### What Is the Buyout Option?
+
+The **Buyout** option allows a character to be sold for a **fixed price** instead of going through an auction.\
+There is **no bidding**, no waiting, and no competition—if a player pays the listed price, the character is sold instantly.
+
+This option is ideal for sellers who want a **guaranteed price** and buyers who want to **secure a character immediately**.
+
+***
+
+#### 🧠 How the Buyout Option Works
+
+1. **Seller lists a character with a buyout price**
+   * The seller sets a **fixed amount of points**
+   * No auction timer or bidding system is involved
+   * The listing becomes visible **after the next server save**
+2. **Buyer purchases the character**
+   * Any eligible buyer can purchase the character by paying the exact buyout price
+   * The purchase happens **instantly** once confirmed
+3. **Transaction completes**
+   * Points are transferred automatically
+   * The configured **bazaar tax** is deducted
+   * The character is delivered to the buyer without delay
+
+***
+
+#### ⚡ Why Choose Buyout?
+
+✔ Instant sale, no waiting\
+✔ Fixed and transparent price\
+✔ No bidding wars\
+✔ Perfect for quick character transfers\
+✔ Ideal for high-demand or clearly priced characters
+
+***
+
+#### 🆚 Buyout vs Auction (Quick Comparison)
+
+| Feature     | Auction (Proxy Bidding) | Buyout                 |
+| ----------- | ----------------------- | ---------------------- |
+| Price       | Market-driven           | Fixed                  |
+| Duration    | Time-limited            | Instant                |
+| Competition | Yes                     | No                     |
+| Automation  | Proxy bidding           | None needed            |
+| Best for    | Maximizing value        | Fast & guaranteed sale |
+
+***
+
+#### 💰 Fees & Taxes
+
+* A 10% **Buyout Tax** applies to the final price
+* No auction fee is charged (only the configured bazaar tax)
+* Taxes are deducted automatically upon sale
+
+***
+
+#### ⏳ Important Notes
+
+* Buyout listings appear **after the next server save**
+* Once purchased, the sale is **final**
+* Buyout prices cannot be negotiated
+* Buyout and auction options are **mutually exclusive** per listing
+
+***
+
+#### 🏁 Summary
+
+The **Buyout** option is the fastest and simplest way to trade characters in Rivalia Online.\
+It removes uncertainty, guarantees the price, and allows immediate ownership transfer—perfect for players who value speed and clarity.
+
+***
+
+
+# Mining
+
+<figure><img src="/files/M3PaTX6NsT4VIm7irIXR" alt=""><figcaption></figcaption></figure>
+
+**Mining** was created to introduce a new form of gameplay for RPG-oriented players who enjoy earning items through continuous, hands-on progression. By mining various stones scattered throughout the world, players engage in a long-term activity that rewards dedication rather than chance.
+
+Each **mining node ID** yields a different type of stone, each with its own unique properties. These stones are then used to craft runes, which serve two main purposes: **enchanting attributes** onto items or **disenchanting attributes** from existing equipment.
+
+This creates a self-sustaining gameplay cycle where players can actively farm resources, craft runes, modify their gear, and reliably obtain **Aether Shards** through multiple paths—making progression feel both rewarding and accessible through effort rather than luck.
+
+## **How to start Mining?**
+
+To start mining you need to find 3 different types of mineable ids in the game, which are:
+
+1. Lava Holes
+2. Blue Shrine Stones
+3. Red Shrine Stones
+
+To mine this stones, you can start using any pick or your multi-tool at first, there are 4 different types of mining picks that can be bought from NPC Uzgod in Kazordoon.
+
+<table><thead><tr><th width="87" align="center">Picks</th><th width="162" align="center">Name</th><th width="123" align="center">Skill</th><th width="138" align="center">Skill %</th><th width="144" align="center">Price</th><th align="center">Shards</th></tr></thead><tbody><tr><td align="center"><img src="/files/VhN5FdFiViurHjQ7Hhln" alt="" data-size="original"></td><td align="center">Pick</td><td align="center">10</td><td align="center">1.00</td><td align="center">50</td><td align="center">1</td></tr><tr><td align="center"><img src="/files/a0nnmWW5gzfIH81PTfAT" alt=""></td><td align="center">Advanced Pick</td><td align="center">25</td><td align="center">1.15</td><td align="center">25,000</td><td align="center">1-2</td></tr><tr><td align="center"><img src="/files/Nb0ODLhfOWlgEyJaimS4" alt=""></td><td align="center">Modified Pick</td><td align="center">40</td><td align="center">1.20</td><td align="center">100,000</td><td align="center">1-3</td></tr><tr><td align="center"><img src="/files/yUcXSlqs2UhCaLHmPpht" alt=""></td><td align="center">Enhanced Pick</td><td align="center">55</td><td align="center">1.25</td><td align="center">250,000</td><td align="center">1-4</td></tr><tr><td align="center"><img src="/files/ycIGkQzN84K1ohCS9EIN" alt=""></td><td align="center">Golden Pick</td><td align="center">70</td><td align="center">1.30</td><td align="center">500,000 </td><td align="center">1-5</td></tr></tbody></table>
+
+### Why buy a better pick?
+
+A higher pick is **not just better**, it is:
+
+✔ More shards per success\
+✔ Higher success rate\
+✔ Better rare shard weighting\
+✔ Required for endgame efficiency\
+✔ Passive QoL via mining pouch\
+✔ Long-term economy multiplier
+
+### What higher picks **do NOT do**
+
+Important for clarity:
+
+❌ They **do not** reduce required attempts\
+❌ They **do not** bypass protection zones\
+❌ They **do not** mine faster per click\
+❌ They **do not** guarantee success or rare shards
+
+## **Mineable Stones**
+
+### <mark style="color:$primary;">**Lava Hole**</mark>**&#x20;** ![](/files/xHR1iiNvp2xSYmZNzfV9)
+
+<mark style="color:$info;">The lava hole yields 4 different types of shards:</mark>
+
+1. <mark style="color:$info;">**Astralite Shards**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">- This shards can be used in crafting to create</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Astralite Runes**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">which can upgrade an attribute from Tier 1 to Tier 2.</mark>
+2. <mark style="color:$info;">**Celestium Shards**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">- This shards can be used in crafting to create</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Celestium Runes**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">which can upgrade an attribute from Tier 2 to Tier 3.</mark>
+3. <mark style="color:$info;">**Mythraline Shards**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">- This shards can be used in crafting to create</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Mythraline Runes**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">which can upgrade an attribute from Tier 3 to Tier 4.</mark>
+4. <mark style="color:$info;">**Eclipsite Shards**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">- This shards can be used in crafting to create</mark> <mark style="color:$info;"></mark><mark style="color:$info;">**Eclipsite Runes**</mark> <mark style="color:$info;"></mark><mark style="color:$info;">which can upgrade an attribute from Tier 4 to Tier 5.</mark>
+
+### <mark style="color:blue;">**Blue Shrine Stone**</mark> ![](/files/cz3TDhRrprUDzFQsnm7q)
+
+The blue shrine stone yields 2 different types of shards:
+
+1. **Small Sapphire** - You can sell them in a jewelry shop.
+2. **Aether Shards** - You can exchange them for small, medium or large aethernites to upgrade items.
+
+### <mark style="color:red;">**Red Shrine Stone**</mark> ![](/files/3ocXWaCGIg86iKhx7qIQ)
+
+The red shrine stone yields 2 different types of shards:
+
+1. **Small Ruby** - You can sell them in a jewelry shop.
+2. **Disenchanting Shard** - This shard can be used in crafting to create a **Disenchanting Rune**, capable of stripping all attributes from an item. When an item is disenchanted, you will receive an appropriate amount of **Aether Shards**, determined by both the **number of attributes** the item possessed and its **classification**. Higher-classified items yield a greater return, granting more Aether Shards upon disenchantment. This ensures that stronger or rarer equipment remains valuable even after its attributes are removed, reinforcing a rewarding and balanced crafting cycle.
+
+## **How do I know which Tier is my attribute?**
+
+Visit this page of the wiki and find your attribute, and find the value of the attribute.
+
+[Attribute Tiers Page](/rivalia-online/systems/item-attributes-information/attribute-tiers)
+
+## How do I start Crafting?
+
+Visit any tool/equipment shop and find "anvils" across the world, clicking on it will open the crafting module and you will be able to use your shards to create runes.&#x20;
+
+<figure><img src="/files/Ztst1wb7MSMvXYQsL52G" alt=""><figcaption></figcaption></figure>
+
+
+# Alchemy
+
+<figure><img src="/files/Sjz6VyWOM1WCughqHTAi" alt=""><figcaption></figcaption></figure>
+
+The <mark style="color:red;">**Alchemy Table**</mark> is a cornerstone of Rivalia’s crafting system, giving every player the chance to create useful items, regardless of vocation. Starting as early as **Rookgaard**, players can experiment with alchemy to produce consumables, upgrade their economy, and enhance their magical arsenal.
+
+#### <mark style="color:red;">Getting Started</mark>
+
+* **No vocation required** — any character can begin training alchemy right from the start.
+* Accessible in **Rookgaard**, making it one of the earliest professions available to all players.
+
+#### <mark style="color:red;">Core Features</mark>
+
+1. **Potion Crafting**\
+   Players can brew potions directly at the table, creating vital supplies to aid in combat and exploration.
+2. **Gold Converter**\
+   A unique recipe that allows adventurers to transmute **100 gold coins into 1 platinum coin**, offering a way to keep inventories lighter and prepare for the future economy.
+3. **Rune Enchanting & Doubling Charges**
+   * Players can place a rune into the table to attempt an upgrade.
+   * Successful upgrades **double the rune’s charges**, turning a single-use rune into a stack of greater utility.
+     * Example:
+       * A **1x Sudden Death Rune** may become a **2x Sudden Death Rune**.
+       * A **5x Heavy Magic Missile Rune** may transform into a **10x Heavy Magic Missile Rune**.
+   * Not every attempt succeeds, but higher alchemy skill increases your odds.
+
+#### <mark style="color:red;">Skill Progression</mark>
+
+* **Alchemy Skill** grows as you craft and attempt upgrades.
+* The **higher your skill**, the greater your **success chance** when crafting potions, converters, or rune enhancements.
+* Every failure still contributes to your skill progression, making the path of alchemy one of persistence and experimentation.
+
+
+# Crafting
+
+<figure><img src="/files/blJqHktDsgiMTVEd8EKd" alt=""><figcaption></figcaption></figure>
+
+Crafting in **Rivalia Online** is a core profession system that allows players to **create powerful items, tools, and equipment** by gathering and refining materials. Players can specialize in different crafting professions, each with its own unique purpose and benefits.
+
+Crafting requires:
+
+* **Gathering materials** from the world or purchasing them from NPCs.
+* **Processing raw resources** into usable crafting components.
+* **Using profession-specific tools** to create items.
+
+Each crafting profession serves a different role, from **weapon and armor crafting** to **alchemy,** giving players a variety of ways to contribute to the game’s economy and enhance their gameplay experience.
+
+
+# Guild Management
+
+The **Guild Management** system in Rivalia Online allows players to fully manage their guilds directly within the game, eliminating the need to visit an external website for administration or war tracking. This feature provides a seamless in-game experience for guild leaders and members to oversee all aspects of their guild.
+
+## <mark style="color:red;">**Features:**</mark>
+
+<mark style="color:red;">**Guild Administration**</mark>
+
+* **General Guild Management:** Create, edit, and manage your guild's settings without leaving the game.
+* **Member & Role Management:** Assign roles, set ranks, and manage member permissions with ease.
+* **Guild Bank & Donations:** Members can contribute funds to the guild bank, which plays a crucial role in financing wars, unlocking buffs, and improving the guild’s ranking.
+
+<figure><img src="/files/ZeD08SVfk7fEuIcoFdNW" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Guild Wars & Pacifist Mode**</mark>
+
+* **Declare Wars:** Challenge rival guilds to battle.
+* **Forced War Mode:** Declare war upon an opponent unless they have **Pacifist Mode** activated.
+* **Pacifist Mode:** Guilds can activate this mode once per week by making a payment, preventing forced war declarations.
+* **War Score Tracking:** Monitor real-time war scores and battle history between guilds.
+
+<figure><img src="/files/vrwPes4JzwEkqHkyN9di" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:red;">**Guild Buffs & Progression**</mark>
+
+Guilds can unlock **powerful buffs** for their members by donating to the guild bank and advancing in level. At each milestone, the guild must **choose between two buffs**, tailoring their strengths to fit their playstyle.
+
+<mark style="color:red;">**Buff Unlock Order:**</mark>
+
+<table><thead><tr><th>Level</th><th align="center">Option 1</th><th align="center">Option 2</th><th data-hidden></th></tr></thead><tbody><tr><td>Level 2</td><td align="center">Mana Regeneration</td><td align="center">Health Regeneration</td><td></td></tr><tr><td>Level 4</td><td align="center">Critical Hit Chance</td><td align="center">Critical Hit Amount</td><td></td></tr><tr><td>Level 6</td><td align="center">Movement Speed</td><td align="center">Attack Speed</td><td></td></tr><tr><td>Level 8</td><td align="center">Physical Protection</td><td align="center">Elemental Protection</td><td></td></tr><tr><td>Level 10</td><td align="center">Life Steal</td><td align="center">Mana Steal</td><td></td></tr><tr><td>Level 12</td><td align="center">Magic Level</td><td align="center">Melee Skills</td><td></td></tr><tr><td>Level 14</td><td align="center">All Protections Against Monsters</td><td align="center">All Protections Against Players</td><td></td></tr><tr><td>Level 16</td><td align="center">Damage vs Monsters</td><td align="center">Damage vs Players</td><td></td></tr><tr><td>Level 18</td><td align="center">Mana Cost Reduction</td><td align="center">Cooldown Reduction</td><td></td></tr></tbody></table>
+
+<figure><img src="/files/pDN0uUXWEvV9X7H0rgPF" alt=""><figcaption></figcaption></figure>
+
+
+# Artifacts
+
+Artifacts – Progression & Power in Rivalia
+
+Artifacts are a unique equipment system in **Rivalia Online** designed to add more depth and customization to your character. Unlike regular items such as weapons or armor, artifacts are **special utility items** that provide passive or active effects depending on their type. They are stored in the **Artefact Inventory**, which every player can unlock and manage.
+
+<mark style="color:red;">**Using Artifacts**</mark>
+
+* Once placed in a slot, the artifact becomes **active** and its effect is applied to your character.
+* Some artifacts provide **passive benefits** (e.g., boosting resistances, reducing loss on death, or improving loot chances).
+* Others may have **triggered effects** that activate under certain conditions (e.g., duplicating a rune, blocking a hit, or preserving ammunition).
+* Artifacts cannot be stacked — you can only equip one copy of the same artifact at a time.
+
+<mark style="color:red;">**How to unlock Artifact Slots?**</mark>
+
+Advance in game and you'll figure it out!
+
+<figure><img src="/files/xKT7kz6H7eSoHsCEuBtJ" alt=""><figcaption></figcaption></figure>
+
+| Artifact                                          | Function                                                                                                                            | How to get                             |
+| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| ![](/files/fJCYoixpdTp88BlWQVle)Radiant Lamp      | Provides 3 sqm's of light.                                                                                                          | Calmyt Quest                           |
+| ![](/files/ktv1s4ycFu6FsfT3ylhu)Rabbit's Foot     | 100% chance of the next respawn of the monster you killed to have 15% extra loot.                                                   | Rabbit's Drop                          |
+| ![](/files/1M8Q4teZMeeTgiYyBz6k)Poison Vaccine    | 5% chance of removing a paralyze condition on PVP. This item is removed from the player once triggered.                             | Carniphila's Drop                      |
+| ![](/files/qcZT36X9m4ceg3leMd2n)Trading Documents | Grants the ability to trade with Zarrith The Accredited.                                                                            | King Questline or Store                |
+| ![](/files/73I4iacEiRkk28xsUcOM)Sniper Gloves     | 1% chance of preserving an ammunition.                                                                                              | Hunter's Drop                          |
+| ![](/files/4SVkVuC31X4TSEkW7nyd)Chrono Prism      | 3% chance of skipping an exhaust turn. You can't use the same aggressive spell twice.                                               | Warlock Elite Monsters Drop            |
+| ![](/files/CPabOvJXf6XVP50hQpGr)Alchemist Shades  | 15% chance of creating an extra item while crafting in Alchemy Table.                                                               |                                        |
+| ![](/files/FjhrEANNrcQWyQrBHNw8)Protector Charm   | 25% chance of triggering, it provides an extra blessing on the player's death. This item is removed from the player once triggered. | Eremo or Store                         |
+| ![](/files/6k1BtH8SpWzWRqsTKDru) Dark Rosary      | 1% chance of preserving a mana fluid.                                                                                               | Priestess Elite Monsters Drop          |
+| ![](/files/ylss616BPrySTM9e0WqW)Artifact of Loss  | If triggered, player has 20% chance of NOT losing his amulet of loss on death. (Saving it)                                          | Eremo or Store                         |
+| ![](/files/diOyZWquazSVwx9BqllA)Blinking Rune     | 1% chance of creating another rune while conjuring runes.                                                                           | Elf Arcanist or Dwarf Geomancer's drop |
+
+
+# Food
+
+Artifacts – Progression & Power in Rivalia
+
+Food is a special type of item in the game that when used, provides mana and hp regeneration. A player can be up to 100% full based on the combination of food consumed. Food can be obtained through slaying of creatures, use of tools such as a fishing rod in water (see fishing), or conjured using the spell 'conjure food'.
+
+
+# Apple
+
+#### **Apple** ![](/files/OsuOHcQHo53gRXjOEHua)
+
+**Category:** Fruit\
+**Duration:** 72 seconds\
+**Fullness:** 6%\
+**Weight:** 1.5 oz\
+**Dropped by:** [Priestess](/rivalia-online/creatures/mainland-creatures/priestess), [Valkyrie](/rivalia-online/creatures/mainland-creatures/valkyrie)\
+**Description:** -
+
+
+# Banana
+
+#### **Banana** ![](/files/KmxL5YFcCfE688zRQm0P)
+
+**Category:** Fruit\
+**Duration:** 96 seconds\
+**Fullness:** 8%\
+**Weight:** 1.8 oz\
+**Dropped by:** [Kongra](/rivalia-online/creatures/mainland-creatures/kongra), [Merlkin](/rivalia-online/creatures/mainland-creatures/merlkin), [Sibang](/rivalia-online/creatures/mainland-creatures/sibang)\
+**Description:** -
+
+
+# Blueberry
+
+#### **Blueberry** ![](/files/U17Bo9O4NQVB1m07O9YZ)
+
+**Category:** Fruit\
+**Duration:** 12 seconds\
+**Fullness:** 1%\
+**Weight:** 0.2 oz\
+**Dropped by:** [Marid](/rivalia-online/creatures/mainland-creatures/marid)\
+**Description:** -\
+**Note:** They can be picked in the wild on Blueberry Bushes, before you can pick them you need to "Use" the bush. There should be only 3 berries left to pick. Still, sometimes other players "use" the Blueberry Bush and don't take them with themselves. Thus, there can be up to six blueberries in a bush. One hour is needed since the last player that used the bush for it to grow back the blueberries.
+
+
+# Bread
+
+#### **Bread** ![](/files/bEgh8zMgZxklHBFbIkpl)
+
+**Category:** Bread\
+**Duration:** 120 seconds\
+**Fullness:** 10%\
+**Weight:** 5 oz\
+**Dropped by:** [Dark Monk](/rivalia-online/creatures/mainland-creatures/dark-monk), [Elf Arcanist](/rivalia-online/creatures/mainland-creatures/elf-arcanist), [Fernfang](/rivalia-online/creatures/bosses/fernfang), [Monk](/rivalia-online/creatures/mainland-creatures/monk), [Warlock](/rivalia-online/creatures/mainland-creatures/warlock)\
+**Description:** -\
+**Note:** Bread can be made by players in the game. See [Breadmaking](/rivalia-online/breadmaking).
+
+
+# Brown Bread
+
+#### Brown **Bread** ![](/files/H8BO5mABGQJ8ATeb0JoK)
+
+**Category:** Bread\
+**Duration:** 96 seconds\
+**Fullness:** 8%\
+**Weight:** 4 oz\
+**Dropped by:** [Amazon](/rivalia-online/creatures/mainland-creatures/amazon), [Black Knight](/rivalia-online/creatures/mainland-creatures/black-knight)\
+**Description:** -<br>
+
+
+# Brown Mushroom
+
+#### Brown Mushroom ![](/files/nBZ07LtFYjWuNdB6SEwv)
+
+**Category:** Fungi\
+**Duration:** 264 seconds\
+**Fullness:** 22%\
+**Weight:** 0.2 oz\
+**Dropped by:** -\
+**Description:** -
+
+
+# Candy Cane
+
+#### Candy Cane ![](/files/7qzBFDkMBKRl8ouiQpsE)
+
+**Category:** Sweets\
+**Duration:** 24 seconds\
+**Fullness:** 2%\
+**Weight:** 0.5 oz\
+**Dropped by:** -\
+**Description:** -\
+**Notes:** This item can be obtained by [Santa ](/rivalia-online/santa)during the [Christmas Event](/rivalia-online/christmas-event).
+
+
+# Carrot
+
+#### Carrot ![](/files/j9HAB8umyCHs0sa6gxtC)
+
+**Category:** Vegetables\
+**Duration:** 96 seconds\
+**Fullness:** 8%\
+**Weight:** 2 oz\
+**Dropped by:** [Blue Djinn](/rivalia-online/creatures/mainland-creatures/blue-djinn), [Rabbit](/rivalia-online/creatures/mainland-creatures/rabbit)\
+**Description:** -<br>
+
+
+# Carrot of Doom
+
+#### Carrot of Doom ![](/files/GgYx9fyzmNqfMPOZ13mD)
+
+**Category:** Vegetables\
+**Duration:** 96 seconds\
+**Fullness:** 8%\
+**Weight:** 2 oz\
+**Dropped by:** -\
+**Description:** -\
+**Notes:** Looks exactly like a [carrot](/rivalia-online/items/food/carrot), although that's exactly what an evil carrot would attempt to disguise itself as...
+
+
+# Cheese
+
+#### Cheese ![](/files/88PFtva4RvRhelfrpGFs)
+
+**Category:** Dairy\
+**Duration:** 108 seconds\
+**Fullness:** 9%\
+**Weight:** 4 oz\
+**Dropped by:** [Rat](/rivalia-online/creatures/mainland-creatures/rat), [Cave Rat](/rivalia-online/creatures/mainland-creatures/cave-rat), [Green Djinn](/rivalia-online/creatures/mainland-creatures/green-djinn)\
+**Description:** -<br>
+
+
+# Cherry
+
+#### Cherry ![](/files/XIzomax94yBgaJwemOFz)
+
+**Category:** Dairy\
+**Duration:** 24 seconds\
+**Fullness:** 2%\
+**Weight:** 0.20 oz\
+**Dropped by:** [Bug](/rivalia-online/creatures/mainland-creatures/bug), [Warlock](/rivalia-online/creatures/mainland-creatures/warlock)\
+**Description:** -<br>
+
+
+# Coconut
+
+#### Coconut ![](/files/B6q0zm825MZ9s55DjJx2)
+
+**Category:** Fruit\
+**Duration:** 216 seconds\
+**Fullness:** 18%\
+**Weight:** 4.8 oz\
+**Dropped by:** [Demon](/rivalia-online/creatures/mainland-creatures/demon), Sibang\
+**Description:** -\
+**Notes:** 1 is needed for the [Paradox Tower Quest](/rivalia-online/custom-quests/mainland-quests/the-cult-of-the-queen).<br>
+
+
+# Cookie
+
+#### Cookie ![](/files/Jgy0QTBNDkJ6Lq3Eca3D)
+
+**Category:** Sweets\
+**Duration:** 24 seconds\
+**Fullness:** 2%\
+**Weight:** 0.1 oz\
+**Dropped by:** [Witch](/rivalia-online/creatures/mainland-creatures/witch)\
+**Description:** -\
+**Notes:** 27 can be obtained from the [Emperor's Cookies Quest](broken://pages/qPKaz6wj9JytyQmnUqlw).
+
+
+# Corncob
+
+#### Corncob ![](/files/TPyUsSyt3ll3NwZCBAJM)
+
+**Category:** Vegetables\
+**Duration:** 108 seconds\
+**Fullness:** 9%\
+**Weight:** 3.5 oz\
+**Dropped by:** [Orc Shaman](/rivalia-online/creatures/mainland-creatures/orc-shaman)\
+**Description:** -<br>
+
+
+# Dark Mushroom
+
+
+# Dragon Ham
+
+## Dragon Ham ![](/files/m5kSIwm814eR0uFO9Syt)
+
+**Category:** Meat\
+**Duration:** 720 seconds\
+**Fullness:** 60%\
+**Weight:** 30 oz\
+**Dropped by:** Dragon, Dragon Lord\
+**Description:** It still contains a small part of the power of a dragon
+
+
+# Egg
+
+## Egg ![](/files/WIeFPGTPRNTHlIJHaV5i)
+
+**Category:** Meat\
+**Duration:** 72 seconds\
+**Fullness:** 6%\
+**Weight:** 0.30 oz\
+**Dropped by:** [Chicken](/rivalia-online/creatures/mainland-creatures/chicken)\
+**Description:** -
+
+
+# Fire Mushroom
+
+## Fire Mushroom ![](/files/alQRRgcGSz2GxYWsL6PS)
+
+**Category:** Fungi\
+**Duration:** 432 seconds\
+**Fullness:** 36%\
+**Weight:** 0.10 oz\
+**Dropped by:** -\
+**Description:** -
+
+
+# Fish
+
+## Fish ![](/files/Nbc1TYTmNssyht9FWYOg)
+
+**Category:** Seafood\
+**Duration:** 144 seconds\
+**Fullness:** 12%\
+**Weight:** 5.20 oz\
+**Dropped by:** -\
+**Description:** -\
+**Notes:** Can be obtained using a fishing rod. See [Fishing](/rivalia-online/fishing).
+
+
+# Gingerbread Man
+
+## Gingerbread Man ![](/files/DNu6cPMQQc2KOhpiTlUC)
+
+**Category:** Sweets\
+**Duration:** 240 seconds\
+**Fullness:** 20%\
+**Weight:** 5.20 oz\
+**Dropped by:** -\
+**Description:** -\
+**Notes:** Can be obtained from [Santa ](/rivalia-online/santa)during the [Christmas Event](/rivalia-online/christmas-event).
+
+
+# Grapes
+
+## Grapes ![](/files/3yn6inwQ3Mv9MZ5DbVc9)
+
+**Category:** Fruit\
+**Duration:** 108 seconds\
+**Fullness:** 9%\
+**Weight:** 2.50 oz\
+**Dropped by:** [Elf Scout](/rivalia-online/creatures/mainland-creatures/elf-scout), [Hero](/rivalia-online/creatures/mainland-creatures/hero)\
+**Description:** -<br>
+
+
+# Green Mushroom
+
+## Green Mushroom ![](/files/cvmzhiSXi5lrVwVcIsIw)
+
+**Category:** Fungi\
+**Duration:** 60 seconds\
+**Fullness:** 5%\
+**Weight:** 0.10 oz\
+**Dropped by:** [Bonebeast](/rivalia-online/creatures/mainland-creatures/bonebeast), [Demodras](/rivalia-online/creatures/bosses/demodras), [Dragon Lord](/rivalia-online/creatures/mainland-creatures/dragon-lord), [Necromancer](/rivalia-online/creatures/mainland-creatures/necromancer)\
+**Description:** -<br>
+
+
+# Ham
+
+## Ham ![](/files/FUaEGfantjsNZb4XjQ1K)
+
+**Category:** Meat\
+**Duration:** 360 seconds\
+**Fullness:** 30%\
+**Weight:** 20 oz\
+**Dropped by:** [Rotworm](/rivalia-online/creatures/mainland-creatures/rotworm), [Carniphilia](/rivalia-online/creatures/mainland-creatures/carniphilia), [Cyclops](/rivalia-online/creatures/mainland-creatures/cyclops), [Bear](/rivalia-online/creatures/mainland-creatures/bear)\
+**Description:** -
+
+
+# Meat
+
+## Meat ![](/files/49OH5MkU0bayv6xThWmk)
+
+**Category:** Meat\
+**Duration:** 180 seconds\
+**Fullness:** 15%\
+**Weight:** 13 oz\
+**Dropped by:** [Bear](/rivalia-online/creatures/mainland-creatures/bear), [Behemoth](/rivalia-online/creatures/mainland-creatures/behemoth), [Black Sheep](/rivalia-online/creatures/mainland-creatures/black-sheep), [Chicken](/rivalia-online/creatures/mainland-creatures/chicken), [Cyclops](/rivalia-online/creatures/mainland-creatures/cyclops), [Deer](/rivalia-online/creatures/mainland-creatures/deer), [Elephant](/rivalia-online/creatures/mainland-creatures/elephant), [Hero](/rivalia-online/creatures/mainland-creatures/hero), [Hyaena](/rivalia-online/creatures/mainland-creatures/hyaena), [Larva](/rivalia-online/creatures/mainland-creatures/larva), [Minotaur](/rivalia-online/creatures/mainland-creatures/minotaur), [Minotaur Archer](/rivalia-online/creatures/mainland-creatures/minotaur-archer), [Orc](/rivalia-online/creatures/mainland-creatures/orc), [Orc Rider](/rivalia-online/creatures/mainland-creatures/orc-rider), [Orc Spearman](/rivalia-online/creatures/mainland-creatures/orc-spearman), [Orc Warrior](/rivalia-online/creatures/mainland-creatures/orc-warrior), [Panda](/rivalia-online/creatures/mainland-creatures/panda), [Pig](/rivalia-online/creatures/mainland-creatures/pig), [Polar Bear](/rivalia-online/creatures/mainland-creatures/polar-bear), [Rabbit](/rivalia-online/creatures/mainland-creatures/rabbit), [Rotworm](/rivalia-online/creatures/mainland-creatures/rotworm), [Scarab](/rivalia-online/creatures/mainland-creatures/scarab), [Sheep](/rivalia-online/creatures/mainland-creatures/sheep), [Terror Bird](/rivalia-online/creatures/mainland-creatures/terror-bird), [The Horned Fox](/rivalia-online/creatures/bosses/the-horned-fox), [Troll](/rivalia-online/creatures/rookgaard-creatures/troll), [Valkyrie](/rivalia-online/creatures/mainland-creatures/valkyrie), [Yeti](/rivalia-online/creatures/bosses/yeti)\
+**Description:** -
+
+
+# Melon
+
+
+# Northern Pike
+
+
+# Orange
+
+
+# Orange Mushroom
+
+
+# Pear
+
+
+# Pumpkin
+
+
+# Red Mushroom
+
+
+# Roll
+
+
+# Salmon
+
+
+# Shrimp
+
+
+# Some mushrooms (1)
+
+
+# Some mushrooms (2)
+
+
+# Strawberry
+
+
+# Tomato
+
+
+# White Mushroom
+
+
+# Wood Mushroom
+
+
+# Plum
+
+
+# Equipment
+
+Equipment are items present in the game that are equippable in character inventory slots. Characters in the game are equipped with the following primary slots:\
+\
+Helmet\
+Armor\
+Weapon\
+Shield\
+Legs\
+Boots\
+Amulet\
+Ring\
+\
+Additionally there is an artifact inventory that starts with 2 slots and can be expanded to more.
+
+
+# Helmets
+
+Helmet are items in the game that are equippable in the **helmet** slot of your inventory.\
+\
+![](/files/wbMkl84mEKl0fEp3PRC3)\ <br>
+
+
+# Amazon Helmet
+
+## Amazon Helmet ![](/files/kXItqbz83F1CSxB69pOT)
+
+**Category:** [Helmets](/rivalia-online/items/equipment/helmets)\
+**Armor: 0**\
+**Weight:** 29.5 oz\
+**Dropped by:** ?\
+**Description:** -\
+**Possible Attributes:** [Armor](/rivalia-online/systems/item-attributes-information#attributes), [Speed](/rivalia-online/systems/item-attributes-information#attributes), [Max Mana Points](/rivalia-online/systems/item-attributes-information#attributes)\
+**Item Classification: 2**
+
+
+# Ancient Tiara
+
+## Ancient Tiara ![](/files/uqMjmyXXsubJfNnjhOFO)
+
+**Category:** [Helmets](/rivalia-online/items/equipment/helmets)\
+**Armor: 0**\
+**Weight:** 8.2 oz\
+**Dropped by:** Vashresamun\
+**Description:** -\
+**Possible Attributes:** [Armor](/rivalia-online/systems/item-attributes-information#attributes), [Max Mana Points](/rivalia-online/systems/item-attributes-information#attributes), [Max Health Points](/rivalia-online/systems/item-attributes-information#attributes), [Mana Regeneration](/rivalia-online/systems/item-attributes-information#attributes), [Elemental Resistance](/rivalia-online/systems/item-attributes-information#attributes)\
+**Item Classification: 2**
+
+
+# Beholder Helmet
+
+## Beholder Helmet ![](/files/eLipECR6lzZRld7k7j9j)
+
+**Category:** [Helmets](/rivalia-online/items/equipment/helmets)\
+**Armor: 0**\
+**Weight:** 46 oz\
+**Dropped by:** The Evil Eye\
+**Description:** -\
+**Possible Attributes:** [Armor](/rivalia-online/systems/item-attributes-information#attributes), [Max Mana Points](/rivalia-online/systems/item-attributes-information#attributes), [Speed](/rivalia-online/systems/item-attributes-information#attributes)\
+**Item Classification: 2**
+
+
+# Brass Helmet
+
+## Brass Helmet ![](/files/Pj0kSsDHoMhquldeToNA)
+
+**Category:** [Helmets](/rivalia-online/items/equipment/helmets)\
+**Armor: 3**\
+**Weight:** 27 oz\
+**Dropped by:** Hunter, Ghoul, Minotaur\
+**Description:** -\
+**Possible Attributes:** \
+**Item Classification: 0**
+
+
+# Ceremonial Mask
+
+## Ceremonial Mask&#x20;
+
+**Category:** [Helmets](/rivalia-online/items/equipment/helmets)\
+**Armor: 9**\
+**Weight:** 40 oz\
+**Dropped by:** ?\
+**Description:** -\
+**Possible Attributes:** [Armor](/rivalia-online/systems/item-attributes-information#attributes), [Speed](/rivalia-online/systems/item-attributes-information#attributes), [Dodge](/rivalia-online/systems/item-attributes-information#attributes)\
+**Item Classification: 2**
+
+
+# Chain Helmet
+
+## Chain Helmet ![](/files/wy417b1oy7IFhb6d9HaO)
+
+**Category:** [Helmets](/rivalia-online/items/equipment/helmets)\
+**Armor: 2**\
+**Weight:** 42 oz\
+**Dropped by:** Wild Warrior\
+**Description:** -\
+**Possible Attributes:** \
+**Item Classification: 0**
+
+
+
+
+---
+
+[Next Page](/rivalia-online/llms-full.txt/1)
+

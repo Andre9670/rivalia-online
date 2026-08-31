@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "note": "Walking-logic extracted from TibiaWiki 'Mainland Trails' text + annotated overland map (Free_account_routes.png). Tibia 7.4 vanilla; verify on Rivalia. This is a NETWORK overview, not a single point-to-point route: the map shows the whole free-account overland trail spine plus boat links.",
+    "coord_system": "Tibia game coords. z = floor (7=ground surface). All overland trails are surface (z=7).",
+    "legend": "steps[] enumerates the trail segments and travel links visible on the map. heading = cardinal direction of travel along that leg. action walk = on-foot overland trail; board-boat = water crossing (no land path)."
+  },
+  "route": "Mainland overland trail network (free-account routes)",
+  "slug": "mainland-trails",
+  "from": "Any mainland city",
+  "to": "Any mainland city (network)",
+  "start": { "x": null, "y": null, "z": 7, "note": "No single start — network overview. Thais is the southern hub, Kazordoon the central hub, Carlin the northern hub." },
+  "min_level_note": "Text: mid-low levels can travel if they stay on the paths. Off-path hazards escalate (Dragon at Venore lair, Orc Berserker/Leader near Orc Fortress).",
+  "advice": [
+    "Stay ON the paths except Thais–Venore and Kazordoon–Carlin (those two legs are safe enough to leave the road).",
+    "Always carry a Rope and a Shovel — needed for holes/ladders and blocked spots."
+  ],
+  "steps": [
+    { "n": 1, "floor": 7, "heading": "hub", "action": "note", "img": "Free_account_routes.png", "text": "Thais (south) is the main southern hub. Yellow lines = walkable overland trails; red lines = boat-only water routes; cyan = short boat/ferry hops.", "hazard": [] },
+    { "n": 2, "floor": 7, "heading": "NW", "action": "walk", "text": "Thais → Greenshore: short trail NW out of Thais up the west coast to Greenshore.", "hazard": ["Snake", "Spider", "Wolf", "Bear", "Goblin"] },
+    { "n": 3, "floor": 7, "heading": "N", "action": "walk", "text": "Thais → Kazordoon: trail runs N/NE from Thais up to the central Kazordoon mountain hub. Passes the sand/desert belt.", "hazard": ["Orc", "Wild Warrior", "Bandit", "Dwarf"] },
+    { "n": 4, "floor": 7, "heading": "E then NE", "action": "walk", "text": "Thais → Venore: long trail E then NE toward Venore, skirting the Outlaw Camp. Text marks this as one of the two legs where leaving the road is tolerable.", "hazard": ["Wild Warrior", "Bandit", "Hunter", "Boar", "Tarantula"] },
+    { "n": 5, "floor": 7, "heading": "SE", "action": "walk", "text": "Thais → Outlaw Camp / Dark Cathedral: trail branches SE toward the Outlaw Camp and Dark Cathedral in the southern peninsula.", "hazard": ["Bandit", "Wild Warrior", "Poacher"] },
+    { "n": 6, "floor": 7, "heading": "N", "action": "walk", "text": "Kazordoon → Carlin: trail N from the Kazordoon hub to Carlin. Second leg text says is safe enough to leave the road.", "hazard": ["Dwarf", "Dwarf Soldier", "Wolf", "Bear"] },
+    { "n": 7, "floor": 7, "heading": "NE", "action": "walk", "text": "Kazordoon → Ab'Dendriel: trail NE from Kazordoon to the elf city Ab'Dendriel.", "hazard": ["Orc", "Orc Spearman", "Centipede"] },
+    { "n": 8, "floor": 7, "heading": "N", "action": "walk", "text": "Carlin → Northport: trail N up to Northport on the north coast.", "hazard": ["Wolf", "Bear", "Poacher", "Enraged White Deer"] },
+    { "n": 9, "floor": 7, "heading": "E", "action": "walk", "text": "Ab'Dendriel → Orc Fortress: trail E into orc territory toward the Orc Fortress.", "hazard": ["Orc Warrior", "Orc Berserker", "Orc Leader"] },
+    { "n": 10, "floor": 7, "heading": "E", "action": "walk", "text": "Venore → Amazon Camp: short trail E from Venore to the Amazon Camp.", "hazard": ["Amazon", "Wild Warrior"] },
+    { "n": 11, "floor": 7, "heading": "SE", "action": "walk", "text": "Venore → Shadowthorn: trail SE/E from Venore toward Shadowthorn (elf/orc frontier). Venore Dragon Lair is off this leg — Dragon hazard.", "hazard": ["Dragon", "Orc", "Elf"] },
+    { "n": 12, "floor": 7, "heading": "SW", "action": "board-boat", "text": "Thais → Fibula: cyan hop — short boat/ferry crossing SW to Fibula island. No land path.", "hazard": [] },
+    { "n": 13, "floor": 7, "heading": "central", "action": "board-boat", "text": "Kazordoon (A) ↔ Kazordoon (B): cyan link across the mountain — the two Kazordoon access points are joined by an internal passage/hop, not a straight surface walk.", "hazard": [] },
+    { "n": 14, "floor": 7, "heading": "W", "action": "board-boat", "text": "Carlin/Ghostlands → Isle of the Kings → Vega → Senja → Folda: RED boat route — the entire NW archipelago (Folda, Senja, Vega, Ghostlands, Isle of the Kings) is reachable only by boat, no overland trail.", "hazard": [] }
+  ],
+  "floor_transitions": [7],
+  "hazards_all": ["Snake", "Spider", "Wolf", "Bug", "Poison Spider", "Bear", "Goblin", "Dwarf", "Starving Wolf", "Poacher", "Dwarf Soldier", "Enraged White Deer", "Orc", "Centipede", "Orc Spearman", "Smuggler", "Orc Warrior", "Amazon", "Wild Warrior", "Boar", "Bandit", "Tarantula", "Hunter", "Orc Berserker", "Orc Leader", "Dragon"]
+}

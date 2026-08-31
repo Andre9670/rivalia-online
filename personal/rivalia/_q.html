@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Rivalia - A custom MMORPG experience">
+    <title>Rivalia Online</title>
+
+    <link rel="icon" type="image/x-icon" sizes="64x64" href="/Rivalia%20Branding/64.ico">
+    <link rel="icon" type="image/png"    sizes="64x64" href="/Rivalia%20Branding/64.png">
+
+    <!-- Fonts (same system as landing) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/layout/css/fonts.css?v=1.5">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/layout/css/style.css?v=1.6">
+    <link rel="stylesheet" href="/layout/css/resp.css?v=1.6">
+    <link rel="stylesheet" href="/layout/css/library.css?v=1.9">
+    <link rel="stylesheet" href="/layout/fontawesome/css/font-awesome.min.css">
+
+    <!-- Arcane reskin (Rivalia "Arcane" look + effects, ported from www1) — loads LAST so it wins the cascade -->
+    <link rel="stylesheet" href="/layout/css/arcane.css?v=16">
+
+    <!-- JavaScript -->
+    <script src="/layout/js/jquery.js" charset="utf-8"></script>
+    <script src="/layout/js/server-status.js" charset="utf-8"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
+    <!-- Meta Pixel -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init','892327550186845');fbq('track','PageView');
+    </script>
+</head>
+
+<body class='page_quests'>
+
+<a class="rv-skip" href="#main-content">Skip to content</a>
+
+<canvas class="rv-particles" id="rvParticles" aria-hidden="true"></canvas>
+
+<noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=892327550186845&ev=PageView&noscript=1">
+</noscript>
+
+<!-- ══════════════════════════════════════════════════════════════════════
+     STICKY NAVBAR
+     ══════════════════════════════════════════════════════════════════════ -->
+<header class="main-header" id="riv-topnav" role="banner">
+    <div class="container">
+        <div class="header-content">
+
+            <!-- Logo -->
+            <a href="/index.php" class="riv-nav-logo-link" aria-label="Rivalia Online — Home">
+                <img src="/Rivalia%20Branding/rivalia-main-logo.png"
+                     class="riv-nav-logo-img"
+                     alt="Rivalia Online">
+            </a>
+
+            <!-- Login form (guests) or My Account (logged in) -->
+                        <div class="header-login-area">
+                <form action="/login.php" method="post" class="header-login-form">
+                    <input type="text"     name="username" placeholder="Account"  class="header-field" autocomplete="username">
+                    <input type="password" name="password" placeholder="Password" class="header-field" autocomplete="current-password">
+                    <button type="submit" class="header-login-btn">Login</button>
+                    <input type="hidden" name="token" value="e31178b59dc0b6a1f808629111318826ddf591a0" />                </form>
+                <a href="/recovery.php" class="header-lost-link">Lost?</a>
+            </div>
+            
+            <!-- Server status bar (center) -->
+            <div class="server-status-bar"
+                 data-server-save-enabled="true"
+                 data-server-save-time="08:00"
+                 data-server-save-timezone="UTC"
+                 data-cleanup-enabled="true"
+                 data-cleanup-day="1"
+                 data-cleanup-time="08:00"
+                 data-cleanup-timezone="UTC"
+                 aria-live="polite">
+                                <div class="status-item">
+                    <i class="fa fa-users status-icon" aria-hidden="true"></i>
+                    <span class="status-value" id="header-players-online">221</span>
+                    <span class="status-label">Online</span>
+                </div>
+                                                <div class="status-divider"></div>
+                <div class="status-item">
+                    <i class="fa fa-clock-o status-icon" aria-hidden="true"></i>
+                    <span class="status-value" id="header-server-save-countdown" style=" width: 50px;">--:--</span>
+                    <span class="status-label">Save</span>
+                </div>
+                                                <div class="status-divider"></div>
+                <div class="status-item">
+                    <i class="fa fa-recycle status-icon" aria-hidden="true"></i>
+                    <span class="status-value" id="header-cleanup-countdown" style=" width: 65px;">--:--</span>
+                    <span class="status-label">Clean</span>
+                </div>
+                            </div>
+
+            <!-- Mobile hamburger -->
+            <button class="riv-burger" id="riv-burger"
+                    aria-label="Toggle navigation" aria-expanded="false"
+                    aria-controls="riv-main-nav">
+                <span></span><span></span><span></span>
+            </button>
+
+        </div><!-- /header-content -->
+    </div><!-- /container -->
+
+    </header>
+
+<!-- ══════════════════════════════════════════════════════════════════════
+     MAIN WRAPPER + 3-COLUMN LAYOUT
+     ══════════════════════════════════════════════════════════════════════ -->
+<div class="main">
+    <script>
+        
+        $(function () {
+            // ── Mobile burger toggle ──
+            $('#riv-burger').on('click', function () {
+                var $nav  = $('#riv-main-nav');
+                var $btn  = $(this);
+                var open  = $nav.hasClass('open');
+                $nav.toggleClass('open');
+                $btn.toggleClass('open');
+                $btn.attr('aria-expanded', !open);
+            });
+
+            // ── Sidebar box collapse toggles ──
+            $('.left_box:not(.left_box--link) .box-header, .right_box .box-header, .container_right .well > .header').each(function () {
+                var box          = $(this).parent();
+                var startCollapsed = box.hasClass('collapsed');
+                $(this).append('<i class="fa ' + (startCollapsed ? 'fa-chevron-down' : 'fa-chevron-up') + ' toggle-arrow"></i>');
+                $(this).on('click', function () {
+                    $(this).next().slideToggle(280);
+                    $(this).parent().toggleClass('collapsed');
+                    $(this).find('.toggle-arrow').toggleClass('fa-chevron-down fa-chevron-up');
+                });
+            });
+
+            // ── Collapse all right sidebar wells on load ──
+            $('.container_right .well:not(.loginContainer)').each(function () {
+                $(this).addClass('collapsed');
+                $(this).find('.body').hide();
+            });
+        });
+    </script>
+
+    <!-- ══ HERO BANNER ══════════════════════════════════════════════════════ -->
+    <div class="riv-hero" role="img" aria-label="Rivalia Online">
+        <img src="/layout/img/bgmr.png"
+             alt=""
+             class="riv-hero-bg"
+             loading="eager"
+             decoding="async">
+        <div class="riv-hero-vignette" aria-hidden="true"></div>
+        <div class="riv-hero-logo-wrap" aria-hidden="true">
+            <video class="riv-hero-logo"
+                   autoplay muted loop playsinline
+                   preload="auto">
+                <source src="/Rivalia%20Branding/main-logo.webm" type="video/webm">
+            </video>
+        </div>
+    </div>
+
+    <div class="container_main">
+
+        <!-- ── LEFT SIDEBAR ── -->
+        <div class="container_left">
+
+            <div class="left_box">
+                <div class="box-header box-header--nav">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0" aria-hidden="true">
+                        <line x1="2" y1="12" x2="10" y2="4" stroke="#c9a227" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="8" y1="2" x2="12" y2="6" stroke="#c9a227" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="7" y1="7" x2="11" y2="3" stroke="#c9a227" stroke-width="1.5" stroke-linecap="round"/>
+                        <circle cx="3" cy="11" r="1" fill="#c9a227"/>
+                    </svg>
+                    <h3>Navigation</h3>
+                </div>
+                <div class="box-content">
+                    <ul class="nav-menu">
+                        <li><a href="/news.php"><i class="fa fa-newspaper-o"></i> News</a></li>
+                        <li><a href="/downloads.php"><i class="fa fa-download"></i> Downloads</a></li>
+                                            </ul>
+                </div>
+            </div>
+            <div style="height:1px;background:linear-gradient(90deg,rgba(45,26,26,0.8),rgba(45,26,26,0.3),transparent);margin:0;"></div>
+
+            <div class="left_box collapsed">
+                <div class="box-header box-header--account">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0" aria-hidden="true">
+                        <path d="M7 1.5L2 3.5V7.5C2 10.5 7 12.5 7 12.5C7 12.5 12 10.5 12 7.5V3.5L7 1.5Z" stroke="#c9a227" stroke-width="1.2" stroke-linejoin="round"/>
+                        <circle cx="7" cy="6.5" r="1.5" fill="#c9a227" opacity="0.75"/>
+                    </svg>
+                    <h3>Account</h3>
+                </div>
+                <div class="box-content">
+                    <ul class="nav-menu">
+                                                <li><a href="/signin.php"><i class="fa fa-sign-in"></i> Sign In</a></li>
+                        <li><a href="/register.php"><i class="fa fa-user-plus"></i> Register</a></li>
+                                                <li><a href="/myaccount.php"><i class="fa fa-key"></i> My Account</a></li>
+                        <li><a href="/createcharacter.php"><i class="fa fa-plus-circle"></i> New Character</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="height:1px;background:linear-gradient(90deg,rgba(45,26,26,0.8),rgba(45,26,26,0.3),transparent);margin:0;"></div>
+
+            <div class="left_box">
+                <div class="box-header box-header--community">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0" aria-hidden="true">
+                        <circle cx="5" cy="4" r="1.8" stroke="#c9a227" stroke-width="1.2"/>
+                        <path d="M1.5 11C1.5 9 3 7.5 5 7.5C7 7.5 8.5 9 8.5 11" stroke="#c9a227" stroke-width="1.2" stroke-linecap="round"/>
+                        <circle cx="10" cy="4.5" r="1.5" stroke="#c9a227" stroke-width="1.2"/>
+                        <path d="M8 11C8 9.5 9 8.5 10 8.5C11.5 8.5 12.5 9.5 12.5 11" stroke="#c9a227" stroke-width="1.2" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Community</h3>
+                </div>
+                <div class="box-content">
+                    <ul class="nav-menu">
+                        <li><a href="/sub.php?page=search"><i class="fa fa-search"></i> Characters</a></li>
+                        <li><a href="/onlinelist.php"><i class="fa fa-signal"></i> Online List</a></li>
+                        <li><a href="/highscores.php"><i class="fa fa-trophy"></i> Highscores</a></li>
+                                                <li><a href="/powergamers.php"><i class="fa fa-line-chart"></i> Power Gamers</a></li>
+                                                <li><a href="/banishment.php"><i class="fa fa-ban"></i> Banishments</a></li>
+                        <li><a href="/deaths.php"><i class="fa fa-heartbeat"></i> Latest Deaths</a></li>
+                        <li><a href="/guilds.php"><i class="fa fa-shield"></i> Guilds</a></li>
+                        <li><a href="/guildwars.php"><i class="fa fa-bullseye"></i> Guild Wars</a></li>
+                        <li><a href="/houses.php"><i class="fa fa-home"></i> Houses</a></li>
+                        <li><a href="/polls.php"><i class="fa fa-check-square-o"></i> Polls</a></li>
+                                                <li><a href="/rules.php"><i class="fa fa-gavel"></i> Rules</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="height:1px;background:linear-gradient(90deg,rgba(45,26,26,0.8),rgba(45,26,26,0.3),transparent);margin:0;"></div>
+
+            <div class="left_box collapsed">
+                <div class="box-header box-header--shop">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0" aria-hidden="true">
+                        <path d="M7 1.5L11 5L7 12.5L3 5L7 1.5Z" stroke="#c9a227" stroke-width="1.2" stroke-linejoin="round"/>
+                        <line x1="3" y1="5" x2="11" y2="5" stroke="#c9a227" stroke-width="1" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Shop</h3>
+                </div>
+                <div class="box-content">
+                    <ul class="nav-menu">
+                        <li><a href="/buypoints.php"><i class="fa fa-credit-card"></i> Donations</a></li>
+                                                                    </ul>
+                </div>
+            </div>
+
+            <div style="height:1px;background:linear-gradient(90deg,rgba(45,26,26,0.8),rgba(45,26,26,0.3),transparent);margin:0;"></div>
+
+            <div class="left_box collapsed">
+                <div class="box-header box-header--library">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0" aria-hidden="true">
+                        <path d="M7 4V11" stroke="#c9a227" stroke-width="1.2" stroke-linecap="round"/>
+                        <path d="M2 3C2 3 4 3.5 7 5C10 3.5 12 3 12 3V11C12 11 10 10.5 7 12C4 10.5 2 11 2 11V3Z" stroke="#c9a227" stroke-width="1.2" stroke-linejoin="round"/>
+                    </svg>
+                    <h3>Library</h3>
+                </div>
+                <div class="box-content">
+                    <ul class="nav-menu">
+                        <li><a href="/premium.php"><i class="fa fa-star"></i> Premium Benefits</a></li>
+                        <li><a href="/referrals.php"><i class="fa fa-share-alt"></i> Referral Program</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="height:1px;background:linear-gradient(90deg,rgba(45,26,26,0.8),rgba(45,26,26,0.3),transparent);margin:0;"></div>
+
+            <!-- ── Wiki button (every category lives on wiki.php) ──── -->
+            <a href="/wiki.php" class="left_box left_box--link">
+                <div class="box-header box-header--wiki">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0" aria-hidden="true">
+                        <path d="M2.5 2C2.5 2 4.5 2.5 7 4C9.5 2.5 11.5 2 11.5 2V11.5C11.5 11.5 9.5 11 7 12.5C4.5 11 2.5 11.5 2.5 11.5V2Z" stroke="#c9a227" stroke-width="1.2" stroke-linejoin="round"/>
+                        <line x1="7" y1="4" x2="7" y2="12.5" stroke="#c9a227" stroke-width="1" stroke-linecap="round"/>
+                    </svg>
+                    <h3>Wiki</h3>
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
+            </a>
+
+        </div><!-- /container_left -->
+
+        <!-- ── CONTENT (each page fills this) ── -->
+        <div class="container_mid" id="main-content">
+
+                        <div class="wiki-return">
+                <a href="/wiki.php" class="wiki-return-btn">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i> Wiki
+                </a>
+            </div>
+            
+<div class="lib-page-header">
+    <h1><i class="fa fa-book" aria-hidden="true"></i> Quests</h1>
+    <span class="lib-count-badge">5</span>
+</div>
+
+<div class="qs-tabs">
+    <a class="qs-tab qs-tab-on" href="quests.php">
+        <i class="fa fa-book"></i> Questlines <span class="qs-tab-n">5</span>
+    </a>
+    <a class="qs-tab " href="quests.php?view=chests">
+        <i class="fa fa-archive"></i> Reward Chests <span class="qs-tab-n">222</span>
+    </a>
+</div>
+
+
+        <div class="qs-grid">
+                <a class="qs-card" href="quests.php?quest=the-cult-of-the-queen">
+            <div class="qs-card-head">
+                <h2>The Cult of the Queen</h2>
+                <span class="qs-badge qs-badge-custom">Original</span>            </div>
+            <p class="qs-card-first">
+                Daniel Steelsoul asked you to defend Edron by eliminating 500 trolls and 500 goblins that are invading from the western coast.            </p>
+            <span class="qs-card-count">4 missions</span>
+        </a>
+                <a class="qs-card" href="quests.php?quest=the-nivarya-missions">
+            <div class="qs-card-head">
+                <h2>The Nivarya Missions</h2>
+                <span class="qs-badge qs-badge-custom">Original</span>            </div>
+            <p class="qs-card-first">
+                Queen Eloise of Carlin granted you permission to secure her new trade route to the icy continent of Tarafhyr. Speak with Captain Depward at the Carlin harbour and ask him for passage to Nivarya.            </p>
+            <span class="qs-card-count">12 missions</span>
+        </a>
+                <a class="qs-card" href="quests.php?quest=trade-faction-accreditation">
+            <div class="qs-card-head">
+                <h2>Trade Faction Accreditation</h2>
+                <span class="qs-badge qs-badge-custom">Original</span>            </div>
+            <p class="qs-card-first">
+                You have paid the 100,000 gold accreditation fee to King Tibianus. The doors of the Trade Faction are open to you—visit Zarith the Accredited to trade.            </p>
+            <span class="qs-card-count">1 missions</span>
+        </a>
+                <a class="qs-card" href="quests.php?quest=the-djinn-war">
+            <div class="qs-card-head">
+                <h2>The Djinn War</h2>
+                            </div>
+            <p class="qs-card-first">
+                Seek out the djinns and learn their traditional greeting to show you come in peace.            </p>
+            <span class="qs-card-count">3 missions</span>
+        </a>
+                <a class="qs-card" href="quests.php?quest=the-postman-missions">
+            <div class="qs-card-head">
+                <h2>The Postman Missions</h2>
+                            </div>
+            <p class="qs-card-first">
+                Kevin Postner asked you to inspect the standard travel routes. Sail with Captain Bluebear from Thais to Carlin before reporting back.            </p>
+            <span class="qs-card-count">10 missions</span>
+        </a>
+            </div>
+
+    <div class="qs-footnote">
+        <h3>Reward chests</h3>
+        <p>
+            The questlines above are the ones the in-game quest log tracks mission by mission.
+            Rivalia also has <a href="quests.php?view=chests">222 classic reward chests</a>
+            hidden across the world &mdash; browse them to see what each one gives and where to find it.
+        </p>
+    </div>
+    
+
+
+<style>
+.qs-note { color: var(--text-muted); font-size: 0.88rem; margin: 6px 0 0; }
+
+.qs-grid {
+    padding: 16px 20px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(295px, 1fr)); gap: 14px;
+}
+.qs-card {
+    background: rgba(0,0,0,0.22); border: 1px solid var(--paper-border);
+    border-radius: var(--radius-md); padding: 14px 16px 16px;
+    display: flex; flex-direction: column; gap: 8px; text-decoration: none;
+    transition: border-color 0.18s ease, background 0.18s ease;
+}
+.qs-card:hover { border-color: var(--gold-border); background: rgba(201,162,39,0.05); text-decoration: none; }
+.qs-card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; min-height: 2.4em; }
+.qs-card-head h2 {
+    font-family: var(--font-heading); font-size: 0.95rem; font-weight: 700;
+    letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold-light); margin: 0;
+}
+.qs-card-first {
+    margin: 0; font-size: 0.88rem; line-height: 1.55; color: var(--text-muted);
+    /* Reserve three lines so every card body is the same height. */
+    min-height: 4.1em;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+/* Pin the mission count to the bottom so it lines up across every card. */
+.qs-card-count { margin-top: auto; font-family: var(--font-mono); font-size: 0.7rem; color: var(--gold-dark); }
+
+.qs-badge {
+    font-family: var(--font-mono); font-size: 0.66rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--text-muted);
+    border: 1px solid var(--paper-border); border-radius: var(--radius-full);
+    padding: 2px 8px; white-space: nowrap;
+}
+.qs-badge-custom { color: var(--gold-light); border-color: var(--gold-border); }
+
+/* ── Detail ── */
+.qs-detail { padding: 18px 20px 24px; display: flex; flex-direction: column; gap: 14px; }
+.qs-detail-head { display: flex; gap: 6px; flex-wrap: wrap; }
+.qs-cross { align-self: flex-start; }
+
+.qs-missions { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.qs-mission {
+    background: rgba(0,0,0,0.22); border: 1px solid var(--paper-border);
+    border-radius: var(--radius-md); padding: 13px 16px 15px;
+}
+.qs-mission-head { display: flex; align-items: center; gap: 10px; margin-bottom: 9px; }
+.qs-mission-no {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 22px; height: 22px; flex-shrink: 0; border-radius: 50%;
+    border: 1px solid var(--gold-border); color: var(--gold-light);
+    font-family: var(--font-mono); font-size: 0.75rem;
+}
+.qs-mission-head h2 {
+    font-family: var(--font-heading); font-size: 0.9rem; font-weight: 700;
+    letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold-light); margin: 0;
+}
+.qs-steps { display: flex; flex-direction: column; gap: 7px; }
+.qs-step {
+    margin: 0; padding-left: 12px; border-left: 2px solid var(--paper-border);
+    font-size: 0.89rem; line-height: 1.6; color: var(--text-muted);
+}
+.qs-spoiler { margin: 0; font-size: 0.81rem; color: var(--text-muted); opacity: 0.8; }
+
+.qs-footnote {
+    padding: 4px 20px 24px; max-width: 80ch;
+}
+.qs-footnote h3 {
+    font-family: var(--font-heading); font-size: 0.79rem; font-weight: 700;
+    letter-spacing: 0.11em; text-transform: uppercase; color: var(--gold-dark); margin: 0 0 8px;
+}
+.qs-footnote p { margin: 0; font-size: 0.89rem; line-height: 1.65; color: var(--text-muted); }
+.qs-footnote a, .qs-footnote-note a { color: var(--gold-dark); text-decoration: none; }
+.qs-footnote a:hover, .qs-footnote-note a:hover { color: var(--gold-light); }
+
+/* ── Tabs ── */
+.qs-tabs { display: flex; gap: 7px; padding: 14px 20px 0; flex-wrap: wrap; }
+.qs-tab {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: var(--font-heading); font-size: 0.76rem; font-weight: 700;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--text-muted); text-decoration: none;
+    border: 1px solid var(--paper-border); border-radius: var(--radius-full);
+    padding: 8px 16px; transition: all 0.16s ease;
+}
+.qs-tab:hover { border-color: var(--gold-border); color: var(--gold-light); text-decoration: none; }
+.qs-tab-on { color: var(--gold-light); border-color: var(--gold-border); background: rgba(201,162,39,0.09); }
+.qs-tab .fa { opacity: 0.75; }
+.qs-tab-n {
+    font-family: var(--font-mono); font-size: 0.68rem; color: var(--text-muted);
+    background: rgba(0,0,0,0.35); border-radius: var(--radius-full); padding: 1px 8px;
+}
+
+/* ── Reward chests ── */
+.qs-chest-grid {
+    padding: 16px 20px 8px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px;
+}
+.qs-chest {
+    display: flex; gap: 12px;
+    background: rgba(0,0,0,0.24); border: 1px solid var(--paper-border);
+    border-radius: var(--radius-md); padding: 12px 14px;
+    transition: border-color 0.18s ease;
+}
+.qs-chest:hover { border-color: var(--gold-border); }
+
+/* Fixed-width sprite column, top-aligned, so the text column starts at the
+   same x on every card and the rows read as a clean grid. */
+.qs-chest-rewards {
+    display: grid; grid-template-columns: repeat(2, 34px); grid-auto-rows: 34px;
+    gap: 4px; align-content: flex-start; flex-shrink: 0;
+}
+.qs-reward { position: relative; width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; }
+.qs-reward img { max-width: 32px; max-height: 32px; object-fit: contain; image-rendering: pixelated; }
+.qs-reward-noimg { color: var(--text-muted); opacity: 0.4; }
+.qs-reward-n {
+    position: absolute; right: -2px; bottom: -3px;
+    font-family: var(--font-mono); font-size: 0.58rem; color: #fff;
+    background: rgba(0,0,0,0.8); border-radius: var(--radius-full); padding: 0 4px;
+}
+
+.qs-chest-body { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.qs-chest-title {
+    font-family: var(--font-heading); font-size: 0.86rem; font-weight: 700;
+    letter-spacing: 0.03em; text-transform: capitalize; color: var(--gold-light); margin: 0 0 6px;
+}
+.qs-chest-items {
+    list-style: none; margin: 0 0 10px; padding: 0;
+    font-size: 0.8rem; line-height: 1.5; color: var(--text-secondary);
+}
+/* Pin the map button to the bottom so it aligns across a row. */
+.qs-chest-body .qs-chest-map { margin-top: auto; align-self: flex-start; }
+.qs-chest-count { font-family: var(--font-mono); color: var(--gold-dark); }
+.qs-chest-map {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-family: var(--font-heading); font-size: 0.7rem; font-weight: 700;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--gold-dark); text-decoration: none;
+    border: 1px solid var(--paper-border); border-radius: var(--radius-full);
+    padding: 4px 12px; transition: all 0.16s ease;
+}
+.qs-chest-map:hover {
+    color: var(--gold-light); border-color: var(--gold-border);
+    background: rgba(201,162,39,0.08); text-decoration: none;
+}
+.qs-chest-map .fa { font-size: 0.72rem; }
+
+.qs-footnote-note {
+    padding: 8px 20px 24px; margin: 0; max-width: 80ch;
+    font-size: 0.79rem; line-height: 1.6; color: var(--text-muted);
+}
+
+@media (max-width: 560px) {
+    .qs-grid, .qs-detail { padding: 14px; }
+    .qs-chest-grid { grid-template-columns: 1fr; padding: 14px; }
+}
+</style>
+
+        </div><!-- /container_mid -->
+
+        <!-- RIGHT PANE -->
+<div class="container_right">
+
+	<!-- Download Client -->
+	<a href="downloads.php" class="download-button">
+		<i class="fa fa-download"></i>
+		<span>Download Client</span>
+	</a>
+
+		<div class="right_box server-status-widget-mobile">
+		<div class="box-header">
+						<i class="fa fa-server"></i>
+			<h3>Server Status</h3>
+					</div>
+		<div class="box-content">
+			<div class="server-status-card"
+				 data-server-save-enabled="true"
+				 data-server-save-time="08:00"
+				 data-server-save-timezone="UTC"
+				 data-cleanup-enabled="true"
+				 data-cleanup-day="1"
+				 data-cleanup-time="08:00"
+				 data-cleanup-timezone="UTC">
+				<div class="status-display">
+					<div class="status-icon online">
+												<i class="fa fa-signal"></i>
+												<div class="pulse-animation"></div>
+					</div>
+					<div class="status-info online">
+												<div class="status-label">ONLINE</div>
+						<div class="status-details">Last checked: just now</div>
+											</div>
+				</div>
+				<div class="player-count">
+										<span>221</span> Players Online
+									</div>
+			</div>
+		</div>
+	</div>
+
+	
+<div class="riv-widget riv-widget--top">
+	<div class="riv-widget-head">
+		<i class="fa fa-trophy"></i>
+		<span class="riv-widget-title">Top Players</span>
+
+				<div class="riv-t5-picker" id="riv-t5-picker">
+			<button type="button" class="riv-t5-picker-btn" id="riv-t5-picker-btn"
+			        onclick="rivT5Toggle(event)" aria-haspopup="listbox" aria-expanded="false"
+			        title="World: Aeternum — switch">
+				<svg class="riv-t5-picker-globe" width="13" height="13" viewBox="0 0 24 24" fill="none">
+					<circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/>
+					<path d="M12 3c-2 3-2 6 0 9s2 6 0 9M3 12h18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+				</svg>
+				<svg class="riv-t5-picker-caret" width="9" height="9" viewBox="0 0 10 10" fill="none">
+					<path d="M2 3.5l3 3 3-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</button>
+			<div class="riv-t5-picker-drop" id="riv-t5-picker-drop" role="listbox">
+								<a href="?world=2"
+				   class="riv-t5-picker-opt is-active"
+				   role="option" aria-selected="true">
+										<svg width="8" height="8" viewBox="0 0 10 10" fill="none" style="flex-shrink:0"><path d="M2 5l2.5 2.5L8 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+										Aeternum				</a>
+								<a href="?world=1"
+				   class="riv-t5-picker-opt"
+				   role="option" aria-selected="false">
+										<span style="display:inline-block;width:8px;flex-shrink:0"></span>
+										Ascendia				</a>
+								<a href="?world=0"
+				   class="riv-t5-picker-opt"
+				   role="option" aria-selected="false">
+										<span style="display:inline-block;width:8px;flex-shrink:0"></span>
+										Legacy				</a>
+							</div>
+		</div>
+			</div>
+
+	<div class="rv-board">
+			<a class="rv-board-row is-leader" href="characterprofile.php?name=Cracked+Outlaw">
+			<span class="rv-board-outfit">
+				<img src="/creature_image.php?id=315&amp;addons=0&amp;head=79&amp;body=114&amp;legs=114&amp;feet=91&amp;walk=1&amp;frame_ms=220" alt="" loading="lazy" width="64" height="64" onerror="this.style.display='none'">
+			</span>
+			<span class="rv-board-name">Cracked Outlaw</span>
+			<span class="rv-board-voc">Royal Paladin</span>
+			<span class="rv-board-lvl">Lvl 142</span>
+		</a>
+			<a class="rv-board-row" href="characterprofile.php?name=Creepy+Nuggett">
+			<span class="rv-board-outfit">
+				<img src="/creature_image.php?id=318&amp;addons=0&amp;head=78&amp;body=114&amp;legs=94&amp;feet=0&amp;walk=1&amp;frame_ms=220" alt="" loading="lazy" width="64" height="64" onerror="this.style.display='none'">
+			</span>
+			<span class="rv-board-name">Creepy Nuggett</span>
+			<span class="rv-board-voc">Elder Druid</span>
+			<span class="rv-board-lvl">Lvl 127</span>
+		</a>
+			<a class="rv-board-row" href="characterprofile.php?name=Netza+Antramx">
+			<span class="rv-board-outfit">
+				<img src="/creature_image.php?id=279&amp;addons=0&amp;head=114&amp;body=72&amp;legs=72&amp;feet=114&amp;walk=1&amp;frame_ms=220" alt="" loading="lazy" width="64" height="64" onerror="this.style.display='none'">
+			</span>
+			<span class="rv-board-name">Netza Antramx</span>
+			<span class="rv-board-voc">Elite Knight</span>
+			<span class="rv-board-lvl">Lvl 123</span>
+		</a>
+			<a class="rv-board-row" href="characterprofile.php?name=King+Messi">
+			<span class="rv-board-outfit">
+				<img src="/creature_image.php?id=317&amp;addons=0&amp;head=95&amp;body=2&amp;legs=21&amp;feet=2&amp;walk=1&amp;frame_ms=220" alt="" loading="lazy" width="64" height="64" onerror="this.style.display='none'">
+			</span>
+			<span class="rv-board-name">King Messi</span>
+			<span class="rv-board-voc">Royal Paladin</span>
+			<span class="rv-board-lvl">Lvl 120</span>
+		</a>
+			<a class="rv-board-row" href="characterprofile.php?name=Br+N">
+			<span class="rv-board-outfit">
+				<img src="/creature_image.php?id=315&amp;addons=0&amp;head=0&amp;body=87&amp;legs=114&amp;feet=0&amp;walk=1&amp;frame_ms=220" alt="" loading="lazy" width="64" height="64" onerror="this.style.display='none'">
+			</span>
+			<span class="rv-board-name">Br N</span>
+			<span class="rv-board-voc">Elite Knight</span>
+			<span class="rv-board-lvl">Lvl 119</span>
+		</a>
+		</div>
+
+		<a class="riv-widget-btn" href="highscores.php?world=2">
+		<i class="fa fa-list-ol"></i> View Highscores
+	</a>
+	</div>
+
+<style>
+/* ══ Top Players — aligned to the page widget theme (gold / Cinzel / dark) ══ */
+
+/* Leaderboard rows */
+.riv-widget--top .rv-board-row {
+	display: flex; align-items: center; gap: 8px;
+	padding: 7px 12px; text-decoration: none;
+	border-bottom: 1px solid rgba(45,26,26,.6);
+	transition: background .15s ease;
+}
+.riv-widget--top .rv-board-row:last-of-type { border-bottom: 0; }
+.riv-widget--top .rv-board-row:hover { background: rgba(201,162,39,.07); }
+
+/* Outfit sprite — bare, no frame; img overflows a slim box leftwards so names get the space */
+.riv-widget--top .rv-board-outfit {
+	flex-shrink: 0; width: 28px; height: 40px; position: relative;
+}
+.riv-widget--top .rv-board-outfit img {
+	position: absolute; left: -20px; bottom: -3px;
+	width: 56px; height: 56px; object-fit: contain; object-position: center bottom;
+	image-rendering: pixelated;
+}
+
+.riv-widget--top .rv-board-name {
+	flex: 1; min-width: 0; font-family: var(--font-heading);
+	font-size: .82rem; font-weight: 600; color: #c8b89a;
+	white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.riv-widget--top .rv-board-row:hover .rv-board-name { color: #e8c547; }
+.riv-widget--top .rv-board-row.is-leader .rv-board-name { color: #e8c547; }
+.riv-widget--top .rv-board-voc { font-size: .68rem; color: #7a6a5a; white-space: nowrap; }
+.riv-widget--top .rv-board-lvl {
+	font-family: var(--font-heading); font-size: .72rem; font-weight: 700;
+	color: #c9a227; white-space: nowrap;
+}
+.riv-widget--top .rv-board-empty { padding: 18px 12px; text-align: center; font-size: .78rem; color: #7a6a5a; }
+.riv-widget--top .riv-widget-head .fa-trophy { color: #c9a227; font-size: .9rem; }
+@media (max-width: 360px) { .riv-widget--top .rv-board-voc { display: none; } }
+
+/* ── World picker (gold palette to match the page) ───────────────────────── */
+.riv-t5-picker { position: relative; flex-shrink: 0; margin-left: auto; }
+.riv-t5-picker-btn {
+	display: flex; align-items: center; gap: 3px; height: 26px; padding: 0 7px;
+	background: rgba(201,162,39,.1); border: 1px solid rgba(201,162,39,.35); border-radius: 6px;
+	color: #c9a227; cursor: pointer;
+	transition: border-color .15s, background .15s;
+}
+.riv-t5-picker-btn:hover, .riv-t5-picker.is-open .riv-t5-picker-btn {
+	border-color: rgba(201,162,39,.7); background: rgba(201,162,39,.18);
+}
+.riv-t5-picker-globe { color: rgba(201,162,39,.7); flex-shrink: 0; }
+.riv-t5-picker-caret { color: rgba(201,162,39,.7); transition: transform .2s; flex-shrink: 0; }
+.riv-t5-picker.is-open .riv-t5-picker-caret { transform: rotate(180deg); }
+.riv-t5-picker-drop {
+	position: fixed; min-width: 130px;
+	background: #1a0e12; border: 1px solid rgba(201,162,39,.35); border-radius: 8px;
+	overflow: hidden; display: none; z-index: 9990; box-shadow: 0 14px 36px -10px rgba(0,0,0,.85);
+}
+.riv-t5-picker.is-open .riv-t5-picker-drop { display: block; }
+.riv-t5-picker-opt {
+	display: flex; align-items: center; gap: 7px; padding: 8px 12px;
+	font-family: var(--font-ui); font-size: .72rem; font-weight: 600;
+	color: rgba(200,184,154,.7); text-decoration: none;
+	transition: background .12s, color .12s; white-space: nowrap;
+	border-bottom: 1px solid rgba(45,26,26,.6);
+}
+.riv-t5-picker-opt:last-child { border-bottom: none; }
+.riv-t5-picker-opt:hover { background: rgba(201,162,39,.16); color: #e8c547; }
+.riv-t5-picker-opt.is-active { color: #c9a227; background: rgba(201,162,39,.12); font-weight: 700; }
+</style>
+
+<script>
+(function () {
+	function rivT5Position() {
+		var btn  = document.getElementById('riv-t5-picker-btn');
+		var drop = document.getElementById('riv-t5-picker-drop');
+		if (!btn || !drop) return;
+		var r = btn.getBoundingClientRect();
+		drop.style.top   = (r.bottom + 5) + 'px';
+		drop.style.right = (window.innerWidth - r.right) + 'px';
+		drop.style.left  = 'auto';
+	}
+	function rivT5Toggle(e) {
+		e.stopPropagation();
+		var picker = document.getElementById('riv-t5-picker');
+		if (!picker) return;
+		var opening = !picker.classList.contains('is-open');
+		if (opening) rivT5Position();
+		picker.classList.toggle('is-open', opening);
+		var btn = document.getElementById('riv-t5-picker-btn');
+		if (btn) btn.setAttribute('aria-expanded', opening ? 'true' : 'false');
+	}
+	function rivT5Close() {
+		var picker = document.getElementById('riv-t5-picker');
+		if (picker) {
+			picker.classList.remove('is-open');
+			var btn = document.getElementById('riv-t5-picker-btn');
+			if (btn) btn.setAttribute('aria-expanded', 'false');
+		}
+	}
+	document.addEventListener('click', rivT5Close);
+	document.addEventListener('keydown', function(e) { if (e.key === 'Escape') rivT5Close(); });
+	window.addEventListener('scroll', function() { var p = document.getElementById('riv-t5-picker'); if (p && p.classList.contains('is-open')) rivT5Position(); }, true);
+	window.addEventListener('resize', function() { var p = document.getElementById('riv-t5-picker'); if (p && p.classList.contains('is-open')) rivT5Position(); });
+	window.rivT5Toggle = rivT5Toggle;
+})();
+</script>
+
+<div class="riv-widget riv-widget--top riv-widget--gainers">
+	<div class="riv-widget-head">
+		<i class="fa fa-line-chart"></i>
+		<span class="riv-widget-title">Power Gamers</span>
+		<span class="tg-window" title="Since the last daily server save">Today</span>
+	</div>
+
+	<div class="rv-board">
+			<a class="rv-board-row is-leader" href="characterprofile.php?name=Creepy+Nuggett">
+			<span class="rv-board-outfit">
+				<img src="/creature_image.php?id=318&amp;addons=0&amp;head=78&amp;body=114&amp;legs=94&amp;feet=0&amp;walk=1&amp;frame_ms=220" alt="" loading="lazy" width="64" height="64" onerror="this.style.display='none'">
+			</span>
+			<span class="rv-board-name">Creepy Nuggett</span>
+			<span class="rv-board-gain">+2.23kk</span>
+		</a>
+			<a class="rv-board-row" href="characterprofile.php?name=Hydra">
+			<span class="rv-board-outfit">
+				<img src="/creature_image.php?id=256&amp;addons=0&amp;head=115&amp;body=114&amp;legs=114&amp;feet=83&amp;walk=1&amp;frame_ms=220" alt="" loading="lazy" width="64" height="64" onerror="this.style.display='none'">
+			</span>
+			<span class="rv-board-name">Hydra</span>
+			<span class="rv-board-gain">+1.03kk</span>
+		</a>
+			<a class="rv-board-row" href="characterprofile.php?name=Cracked+Outlaw">
+			<span class="rv-board-outfit">
+				<img src="/creature_image.php?id=315&amp;addons=0&amp;head=79&amp;body=114&amp;legs=114&amp;feet=91&amp;walk=1&amp;frame_ms=220" alt="" loading="lazy" width="64" height="64" onerror="this.style.display='none'">
+			</span>
+			<span class="rv-board-name">Cracked Outlaw</span>
+			<span class="rv-board-gain">+820.9k</span>
+		</a>
+			<a class="rv-board-row" href="characterprofile.php?name=Mantis+Religiosa">
+			<span class="rv-board-outfit">
+				<img src="/creature_image.php?id=264&amp;addons=0&amp;head=0&amp;body=94&amp;legs=94&amp;feet=18&amp;walk=1&amp;frame_ms=220" alt="" loading="lazy" width="64" height="64" onerror="this.style.display='none'">
+			</span>
+			<span class="rv-board-name">Mantis Religiosa</span>
+			<span class="rv-board-gain">+647.7k</span>
+		</a>
+			<a class="rv-board-row" href="characterprofile.php?name=Matheo">
+			<span class="rv-board-outfit">
+				<img src="/creature_image.php?id=426&amp;addons=0&amp;head=3&amp;body=114&amp;legs=114&amp;feet=79&amp;walk=1&amp;frame_ms=220" alt="" loading="lazy" width="64" height="64" onerror="this.style.display='none'">
+			</span>
+			<span class="rv-board-name">Matheo</span>
+			<span class="rv-board-gain">+598.8k</span>
+		</a>
+		</div>
+
+		<a class="riv-widget-btn" href="powergamers.php?world=2">
+		<i class="fa fa-trophy"></i> Power Gamers
+	</a>
+	</div>
+
+<style>
+.riv-widget--gainers .riv-widget-head .fa-line-chart { color: #c9a227; font-size: .9rem; }
+.riv-widget--gainers .tg-window {
+	margin-left: auto; font-family: var(--font-mono, monospace); font-size: .62rem;
+	letter-spacing: .05em; color: #7a6a5a; background: rgba(201,162,39,.08);
+	border: 1px solid rgba(201,162,39,.25); border-radius: 9999px; padding: 2px 9px;
+}
+.riv-widget--gainers .rv-board-gain {
+	font-family: var(--font-mono, monospace); font-size: .74rem; font-weight: 700;
+	color: #54e08a; white-space: nowrap;
+}
+</style>
+<div class="riv-widget riv-widget--guild">
+	<div class="riv-widget-head">
+		<i class="fa fa-shield" style="color:#f06a7e"></i>
+		<span class="riv-widget-title">Top Guild</span>
+	</div>
+
+			<a class="rv-guild-main" href="guilds.php?name=Control+Total">
+			<span class="rv-guild-emblem">
+				<img src="engine/guildimg/Control Total.gif" alt="" loading="lazy" onerror="this.style.display='none'">
+			</span>
+			<span class="rv-guild-info">
+				<span class="rv-guild-name">Control Total</span>
+				<span class="rv-guild-sub">Largest guild</span>
+			</span>
+		</a>
+
+		<div class="rv-guild-stats">
+			<div class="rv-guild-stat">
+				<span class="rv-guild-num">38</span>
+				<span class="rv-guild-lbl">Members</span>
+			</div>
+			<div class="rv-guild-stat">
+				<span class="rv-guild-num rv-guild-num--online">
+					<span class="rv-guild-dot"></span>1				</span>
+				<span class="rv-guild-lbl">Online</span>
+			</div>
+		</div>
+
+		<a class="riv-widget-btn" href="guilds.php">
+			<i class="fa fa-flag"></i> View All Guilds
+		</a>
+	</div>
+
+<style>
+.rv-guild-main {
+	display: flex; align-items: center; gap: 12px;
+	padding: 13px 14px; text-decoration: none;
+	border-bottom: 1px solid rgba(255,255,255,.05);
+	transition: background .15s ease;
+}
+.rv-guild-main:hover { background: rgba(214,50,74,.08); }
+.rv-guild-emblem {
+	flex-shrink: 0; width: 50px; height: 50px; border-radius: 10px;
+	display: flex; align-items: center; justify-content: center; overflow: hidden;
+	background: rgba(0,0,0,.30);
+	border: 1px solid rgba(214,50,74,.28);
+}
+.rv-guild-emblem img { width: 42px; height: 42px; object-fit: contain; image-rendering: pixelated; }
+.rv-guild-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.rv-guild-name {
+	font-size: 15px; font-weight: 700; color: #cdcdcd; line-height: 1.2;
+	white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.rv-guild-main:hover .rv-guild-name { color: #f06a7e; }
+.rv-guild-sub {
+	font-family: "JetBrains Mono", ui-monospace, monospace;
+	font-size: 9px; font-weight: 500; text-transform: uppercase; letter-spacing: .16em;
+	color: #cdcdcd;
+}
+
+.rv-guild-stats { display: flex; }
+.rv-guild-stat {
+	flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px;
+	padding: 11px 8px;
+}
+.rv-guild-stat + .rv-guild-stat { border-left: 1px solid rgba(255,255,255,.06); }
+.rv-guild-num {
+	font-family: "JetBrains Mono", ui-monospace, monospace;
+	font-size: 17px; font-weight: 700; color: #cdcdcd; line-height: 1;
+	display: inline-flex; align-items: center; gap: 6px;
+}
+.rv-guild-num--online { color: #6fce96; }
+.rv-guild-dot {
+	width: 7px; height: 7px; border-radius: 50%; background: #5a9e72;
+	box-shadow: 0 0 7px rgba(90,158,114,.8); flex-shrink: 0;
+	animation: rvGuildPulse 1.6s ease-in-out infinite;
+}
+@keyframes rvGuildPulse { 0%,100% { opacity: 1; } 50% { opacity: .45; } }
+.rv-guild-lbl {
+	font-family: "JetBrains Mono", ui-monospace, monospace;
+	font-size: 9px; font-weight: 500; text-transform: uppercase; letter-spacing: .14em;
+	color: #cdcdcd;
+}
+.rv-guild-empty { padding: 22px 14px; text-align: center; font-size: 13px; color: #cdcdcd; }
+</style>
+
+	
+	<div class="riv-widget riv-widget--streams">
+		<div class="riv-widget-head">
+			<span class="riv-widget-live-dot"></span>
+			<span class="riv-widget-title">Live Streamers</span>
+		</div>
+
+						<a href="https://twitch.tv/jaosheq" target="_blank" rel="noopener" class="riv-stream-thumb-link">
+			<div class="riv-stream-thumb">
+				<img src="https://static-cdn.jtvnw.net/previews-ttv/live_user_jaosheq-320x180.jpg" alt="jaosheq" loading="lazy">
+				<div class="riv-stream-thumb-overlay">
+					<span class="riv-stream-live-badge">LIVE</span>
+					<span class="riv-stream-viewers"><i class="fa fa-eye"></i> 19</span>
+				</div>
+			</div>
+			<div class="riv-stream-info">
+				<span class="riv-stream-name">jaosheq</span>
+								<span class="riv-stream-game">RIVALIA &amp; MYTHERA TIBIA OLD - (!mythera …</span>
+							</div>
+		</a>
+		
+		<a href="twitch_streams.php" class="riv-widget-btn">
+			<i class="fa fa-th-large"></i> View All Streams
+		</a>
+	</div>
+
+		<!-- Discord Widget -->
+	<div class="riv-widget">
+		<div class="riv-widget-head">
+			<i class="fa fa-comments" style="color:#5865f2"></i>
+			<span class="riv-widget-title">Discord</span>
+		</div>
+		<p class="riv-widget-text">Join our community — talk to staff and fellow players.</p>
+		<a href="https://discord.gg/DQ746HesuC" target="_blank" rel="noopener" class="riv-widget-btn riv-widget-btn--discord">
+			<i class="fa fa-comments"></i> Join Discord
+		</a>
+	</div>
+	
+</div>
+<!-- RIGHT PANE END -->
+
+<style>
+/* ── Right sidebar icon color ────────────────────────────────────────────── */
+.container_right .fa { color: #f06a7e !important; }
+
+/* ── Sidebar widgets ─────────────────────────────────────────────────────── */
+.riv-widget {
+	background: linear-gradient(160deg, #160c12 0%, #0f080d 100%);
+	border: 1px solid rgba(139,105,20,.25);
+	border-top: 2px solid rgba(139,26,26,.5);
+	border-radius: 8px;
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+.riv-widget-head {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	padding: 9px 12px 8px;
+	border-bottom: 1px solid rgba(45,26,26,.6);
+}
+.riv-widget-title {
+	font-family: var(--font-heading);
+	font-size: .68rem;
+	letter-spacing: .12em;
+	text-transform: uppercase;
+	color: #f2c44d;
+}
+.riv-widget-live-dot {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #e74c3c;
+	box-shadow: 0 0 6px rgba(231,76,60,.8);
+	animation: livePulse 1.5s ease-in-out infinite;
+	flex-shrink: 0;
+}
+@keyframes livePulse {
+	0%,100% { opacity: 1; transform: scale(1); }
+	50% { opacity: .6; transform: scale(1.3); }
+}
+
+/* Thumbnail */
+.riv-stream-thumb-link { display: block; text-decoration: none; }
+.riv-stream-thumb {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 16/9;
+	overflow: hidden;
+}
+.riv-stream-thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .4s ease;
+}
+.riv-stream-thumb-link:hover .riv-stream-thumb img { transform: scale(1.05); }
+.riv-stream-thumb-overlay {
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(to top, rgba(0,0,0,.7) 0%, transparent 55%);
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 6px 8px;
+}
+.riv-stream-live-badge {
+	background: #e74c3c;
+	color: #fff;
+	font-size: .6rem;
+	font-weight: 700;
+	letter-spacing: .1em;
+	padding: 2px 6px;
+	border-radius: 3px;
+}
+.riv-stream-viewers {
+	color: rgba(255,255,255,.85);
+	font-size: .7rem;
+}
+.riv-stream-info {
+	padding: 7px 12px 4px;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+.riv-stream-name {
+	font-family: var(--font-heading);
+	font-size: .78rem;
+	color: #c8b89a;
+	font-weight: 600;
+}
+.riv-stream-game {
+	font-size: .68rem;
+	color: rgba(200,184,154,.5);
+	font-family: var(--font-ui);
+}
+.riv-stream-offline {
+	padding: 16px 12px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	color: rgba(200,184,154,.4);
+	font-size: .78rem;
+	font-family: var(--font-ui);
+}
+.riv-stream-offline .fa { color: #9146ff; font-size: 1rem; }
+
+.riv-widget-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	margin: 8px 10px 10px;
+	padding: 8px 12px;
+	background: linear-gradient(135deg, rgba(139,26,26,.3), rgba(139,26,26,.1));
+	border: 1px solid rgba(139,26,26,.4);
+	border-radius: 6px;
+	color: #c8b89a;
+	font-family: var(--font-ui);
+	font-size: .75rem;
+	text-decoration: none;
+	transition: background .2s, border-color .2s;
+}
+.riv-widget-btn:hover {
+	background: rgba(139,26,26,.4);
+	border-color: rgba(139,26,26,.65);
+	color: #e0cca8;
+}
+.riv-widget-btn--discord {
+	background: linear-gradient(135deg, rgba(88,101,242,.25), rgba(88,101,242,.1));
+	border-color: rgba(88,101,242,.35);
+}
+.riv-widget-btn--discord:hover {
+	background: rgba(88,101,242,.35);
+	border-color: rgba(88,101,242,.6);
+}
+.riv-widget-text {
+	font-family: var(--font-ui);
+	font-size: .75rem;
+	color: rgba(200,184,154,.55);
+	padding: 8px 12px 4px;
+	margin: 0;
+	line-height: 1.5;
+}
+
+/* ── Boss Timer widget ───────────────────────────────────────────────────── */
+.riv-boss-list {
+	list-style: none;
+	margin: 0;
+	padding: 4px 0;
+}
+.riv-boss-row {
+	display: flex;
+	align-items: center;
+	gap: 9px;
+	padding: 8px 12px;
+	border-bottom: 1px solid rgba(45,26,26,.4);
+}
+.riv-boss-row:last-child { border-bottom: none; }
+.riv-boss-outfit {
+	width: 36px;
+	height: 36px;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.riv-boss-outfit img {
+	max-width: 100%;
+	max-height: 100%;
+	image-rendering: pixelated;
+}
+.riv-boss-name {
+	font-family: var(--font-heading);
+	font-size: .8rem;
+	color: #c8b89a;
+	font-weight: 600;
+	flex: 1;
+}
+.riv-boss-time {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	text-align: right;
+}
+.riv-boss-status {
+	font-family: var(--font-ui);
+	font-size: .78rem;
+	font-variant-numeric: tabular-nums;
+	color: #c8b89a;
+	font-weight: 600;
+}
+.riv-boss-row--up .riv-boss-status { color: #2ecc71; }
+.riv-boss-row--soon .riv-boss-status { color: #e0cca8; }
+.riv-boss-detail {
+	font-family: var(--font-ui);
+	font-size: .62rem;
+	color: rgba(200,184,154,.45);
+}
+
+/* Myaccount widget — always expanded, no collapse */
+.myaccount_widget .box-content,
+.myaccount_widget .body { display: block !important; }
+.myaccount_widget .toggle-arrow { display: none !important; }
+</style>
+
+    </div><!-- /container_main -->
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         SITE FOOTER
+         ══════════════════════════════════════════════════════════════════ -->
+    <footer class="riv-site-footer" role="contentinfo">
+        <div class="riv-footer-inner">
+
+            <div class="riv-footer-grid">
+
+                <!-- Brand -->
+                <div class="riv-footer-brand">
+                    <img src="/Rivalia%20Branding/rivalia-main-logo.png"
+                         alt="Rivalia Online"
+                         class="riv-footer-logo" loading="lazy" width="100">
+                    <p class="riv-footer-tagline">
+                        A world of darkness, valor, and relentless ambition.
+                    </p>
+                </div>
+
+                <!-- Explore -->
+                <div class="riv-footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="/serverinfo.php">Server Info</a></li>
+                        <li><a href="/highscores.php">Highscores</a></li>
+                        <li><a href="/premium.php">Premium</a></li>
+                        <li><a href="/referrals.php">Referrals</a></li>
+                    </ul>
+                </div>
+
+                <!-- Account -->
+                <div class="riv-footer-col">
+                    <h4>Account</h4>
+                    <ul>
+                        <li><a href="/register.php">Register</a></li>
+                        <li><a href="/login.php">Login</a></li>
+                        <li><a href="/downloads.php">Downloads</a></li>
+                        <li><a href="/forum.php">Forum</a></li>
+                    </ul>
+                </div>
+
+                <!-- Community -->
+                <div class="riv-footer-col">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="/rules.php">Rules</a></li>
+                                                <li><a href="https://discord.gg/DQ746HesuC" target="_blank" rel="noopener">Discord</a></li>
+                                                <li><a href="/support.php">Support</a></li>
+                        <li><a href="/changelog.php">Changelog</a></li>
+                    </ul>
+                </div>
+
+            </div><!-- /riv-footer-grid -->
+
+            <div class="riv-footer-bottom">
+                <p class="riv-footer-copy">
+                    &copy; 2026 Rivalia Online.
+                    All rights reserved.
+                    &nbsp;&mdash;&nbsp;
+                    27 July 2026 (19:23)                </p>
+                <p class="riv-footer-disclaimer">
+                    Rivalia is not affiliated with CipSoft GmbH.
+                    Tibia&reg; is a registered trademark of CipSoft GmbH.
+                </p>
+            </div>
+
+        </div><!-- /riv-footer-inner -->
+    </footer>
+
+</div><!-- /main -->
+
+<!-- ══════════════════════════════════════════════════════════════════════
+     ARCANE EFFECTS (ported from www1) — scroll progress, back to top,
+     command palette, ember particles, spotlight, brush trail, page loader
+     ══════════════════════════════════════════════════════════════════════ -->
+
+<!-- scroll progress -->
+<div class="rv-progress" id="rvProgress"></div>
+
+<!-- back to top -->
+<button class="rv-totop" id="rvToTop" type="button" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg>
+</button>
+
+<!-- command palette -->
+<div class="rv-palette-overlay" id="rvPalette" aria-hidden="true">
+    <div class="rv-palette" role="dialog" aria-modal="true" aria-label="Quick navigation">
+        <div class="rv-palette-input">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input id="rvPaletteInput" type="text" placeholder="Search pages…" autocomplete="off" spellcheck="false">
+            <kbd>ESC</kbd>
+        </div>
+        <ul class="rv-palette-list" id="rvPaletteList"></ul>
+        <div class="rv-palette-empty" id="rvPaletteEmpty" hidden>No matches.</div>
+    </div>
+</div>
+
+<!-- page loader -->
+<div class="site-page-loader" id="sitePageLoader" aria-hidden="true">
+    <div class="site-page-loader__panel"><div class="site-page-loader__spinner"></div></div>
+</div>
+
+<script>
+// ===== scroll: progress bar + nav state + back-to-top =====
+document.addEventListener('DOMContentLoaded', function () {
+    var prog = document.getElementById('rvProgress');
+    var nav  = document.querySelector('.main-header');
+    var toTop = document.getElementById('rvToTop');
+    function onScroll() {
+        var st = window.scrollY || document.documentElement.scrollTop;
+        var h  = document.documentElement.scrollHeight - window.innerHeight;
+        var pct = h > 0 ? (st / h) * 100 : 0;
+        if (prog) prog.style.width = pct + '%';
+        if (nav) nav.classList.toggle('is-scrolled', st > 8);
+        if (toTop) toTop.classList.toggle('is-visible', st > 480);
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    if (toTop) toTop.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+});
+</script>
+<script>
+// ===== command palette (Ctrl/Cmd+K) =====
+document.addEventListener('DOMContentLoaded', function () {
+    var PAGES = [
+        {l:'News', h:'/news.php', g:'Main'},
+        {l:'Downloads', h:'/downloads.php', g:'Main'},
+        {l:'Server Info', h:'/serverinfo.php', g:'Main'},
+        {l:'Sign In', h:'/signin.php', g:'Account'},
+        {l:'Register', h:'/register.php', g:'Account'},
+        {l:'My Account', h:'/myaccount.php', g:'Account'},
+        {l:'New Character', h:'/createcharacter.php', g:'Account'},
+        {l:'Account Recovery', h:'/recovery.php', g:'Account'},
+        {l:'Characters', h:'/sub.php?page=search', g:'Community'},
+        {l:'Online List', h:'/onlinelist.php', g:'Community'},
+        {l:'Highscores', h:'/highscores.php', g:'Community'},
+        {l:'Latest Deaths', h:'/deaths.php', g:'Community'},
+        {l:'Guilds', h:'/guilds.php', g:'Community'},
+        {l:'Guild Wars', h:'/guildwars.php', g:'Community'},
+        {l:'Houses', h:'/houses.php', g:'Community'},
+        {l:'Banishments', h:'/banishment.php', g:'Community'},
+        {l:'Rules', h:'/rules.php', g:'Community'},
+        {l:'Donations', h:'/buypoints.php', g:'Shop'},
+        {l:'Character Auction', h:'/auctionChar.php', g:'Shop'},
+        {l:'Premium Benefits', h:'/premium.php', g:'Library'},
+        {l:'Referral Program', h:'/referrals.php', g:'Library'},
+        {l:'Artifacts', h:'/artifacts.php', g:'Library'},
+        {l:'Prestige Arena', h:'/prestige_arena.php', g:'Library'},
+        {l:'Upgrading Items', h:'/upgrading_items.php', g:'Library'},
+        {l:'Mining', h:'/mining.php', g:'Library'},
+        {l:'Task Board', h:'/task_board.php', g:'Library'},
+        {l:'Changelog', h:'/changelog.php', g:'Support'},
+        {l:'Support', h:'/support.php', g:'Support'},
+        {l:'Help Desk', h:'/helpdesk.php', g:'Support'}
+    ];
+    var overlay = document.getElementById('rvPalette');
+    var input = document.getElementById('rvPaletteInput');
+    var list = document.getElementById('rvPaletteList');
+    var empty = document.getElementById('rvPaletteEmpty');
+    var trigger = document.getElementById('rvSearchBtn');
+    if (!overlay || !input || !list) return;
+    var sel = 0, shown = [];
+
+    function render(q) {
+        q = (q || '').trim().toLowerCase();
+        shown = q ? PAGES.filter(function (p) { return (p.l + ' ' + p.g).toLowerCase().indexOf(q) !== -1; }) : PAGES.slice();
+        sel = 0;
+        list.innerHTML = shown.map(function (p, i) {
+            return '<li class="rv-palette-item' + (i === 0 ? ' is-sel' : '') + '" data-href="' + p.h + '" data-i="' + i + '">' +
+                '<span class="rv-pi-label">' + p.l + '</span><span class="rv-pi-group">' + p.g + '</span></li>';
+        }).join('');
+        if (empty) empty.hidden = shown.length !== 0;
+    }
+    function setSel(i) {
+        var items = list.querySelectorAll('.rv-palette-item');
+        if (!items.length) return;
+        sel = (i + items.length) % items.length;
+        items.forEach(function (el, idx) { el.classList.toggle('is-sel', idx === sel); });
+        items[sel].scrollIntoView({ block: 'nearest' });
+    }
+    function go(i) { if (shown[i]) window.location.href = shown[i].h; }
+    function open() { overlay.classList.add('is-open'); overlay.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden'; render(''); input.value = ''; setTimeout(function () { input.focus(); }, 30); }
+    function close() { overlay.classList.remove('is-open'); overlay.setAttribute('aria-hidden', 'true'); document.body.style.overflow = ''; }
+
+    if (trigger) trigger.addEventListener('click', open);
+    document.addEventListener('keydown', function (e) {
+        if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); overlay.classList.contains('is-open') ? close() : open(); return; }
+        if (!overlay.classList.contains('is-open')) return;
+        if (e.key === 'Escape') { close(); }
+        else if (e.key === 'ArrowDown') { e.preventDefault(); setSel(sel + 1); }
+        else if (e.key === 'ArrowUp') { e.preventDefault(); setSel(sel - 1); }
+        else if (e.key === 'Enter') { e.preventDefault(); go(sel); }
+    });
+    input.addEventListener('input', function () { render(input.value); });
+    overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
+    list.addEventListener('click', function (e) {
+        var li = e.target.closest('.rv-palette-item');
+        if (li) go(parseInt(li.getAttribute('data-i'), 10));
+    });
+    list.addEventListener('mousemove', function (e) {
+        var li = e.target.closest('.rv-palette-item');
+        if (li) setSel(parseInt(li.getAttribute('data-i'), 10));
+    });
+});
+</script>
+<script>
+// ===== pointer + background visual effects =====
+document.addEventListener('DOMContentLoaded', function () {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var fine   = window.matchMedia && window.matchMedia('(pointer:fine)').matches;
+    if (reduce) return;
+
+    // ---- ember particles (magenta / violet) ----
+    var canvas = document.getElementById('rvParticles');
+    if (canvas && canvas.getContext) {
+        var ctx = canvas.getContext('2d');
+        var W, H, dpr = Math.min(window.devicePixelRatio || 1, 2), parts = [];
+        function resize() {
+            W = canvas.width = Math.floor(innerWidth * dpr);
+            H = canvas.height = Math.floor(innerHeight * dpr);
+            canvas.style.width = innerWidth + 'px';
+            canvas.style.height = innerHeight + 'px';
+        }
+        function spawn() {
+            return {
+                x: Math.random() * W, y: Math.random() * H,
+                r: (Math.random() * 1.8 + 0.6) * dpr,
+                s: (Math.random() * 0.45 + 0.15) * dpr,
+                sway: (Math.random() * 10 + 4) * dpr,
+                a: Math.random() * 0.45 + 0.18,
+                ph: Math.random() * 6.28,
+                hue: Math.random() > 0.5
+            };
+        }
+        var N = innerWidth < 700 ? 20 : 44;
+        resize();
+        for (var i = 0; i < N; i++) parts.push(spawn());
+        function frame() {
+            ctx.clearRect(0, 0, W, H);
+            for (var j = 0; j < parts.length; j++) {
+                var p = parts[j];
+                p.y -= p.s; p.ph += 0.012;
+                var x = p.x + Math.sin(p.ph) * p.sway;
+                if (p.y < -10 * dpr) { p.y = H + 10 * dpr; p.x = Math.random() * W; }
+                var rad = p.r * 4;
+                var g = ctx.createRadialGradient(x, p.y, 0, x, p.y, rad);
+                var c1 = p.hue ? 'rgba(255,138,154,' : 'rgba(157,144,246,';
+                g.addColorStop(0, c1 + p.a + ')');
+                g.addColorStop(1, c1 + '0)');
+                ctx.fillStyle = g;
+                ctx.beginPath(); ctx.arc(x, p.y, rad, 0, 6.2832); ctx.fill();
+            }
+            requestAnimationFrame(frame);
+        }
+        window.addEventListener('resize', function () { dpr = Math.min(window.devicePixelRatio || 1, 2); resize(); }, { passive: true });
+        requestAnimationFrame(frame);
+    }
+
+    // ---- click ripple ----
+    document.addEventListener('pointerdown', function (e) {
+        var r = document.createElement('div');
+        r.className = 'rv-ripple';
+        r.style.left = e.clientX + 'px';
+        r.style.top = e.clientY + 'px';
+        document.body.appendChild(r);
+        setTimeout(function () { r.remove(); }, 600);
+    }, { passive: true });
+});
+</script>
+<script>
+// ===== page loader on navigation =====
+document.addEventListener('DOMContentLoaded', function () {
+    var loader = document.getElementById('sitePageLoader');
+    if (!loader) return;
+    var loaderTimeout = null;
+    function show() { clearTimeout(loaderTimeout); loader.classList.add('is-visible'); loader.setAttribute('aria-hidden', 'false'); loaderTimeout = setTimeout(hide, 12000); }
+    function hide() { clearTimeout(loaderTimeout); loader.classList.remove('is-visible'); loader.setAttribute('aria-hidden', 'true'); }
+    function isRealLink(link, event) {
+        if (!link || !link.href) return false;
+        if (event && (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey)) return false;
+        if (link.target && link.target !== '_self') return false;
+        if (link.hasAttribute('download')) return false;
+        var href = link.getAttribute('href') || '';
+        if (href === '' || href.charAt(0) === '#' || href.indexOf('javascript:') === 0 || href.indexOf('mailto:') === 0 || href.indexOf('tel:') === 0) return false;
+        var targetUrl = new URL(link.href, window.location.href);
+        if (targetUrl.href === window.location.href) return false;
+        return true;
+    }
+    document.addEventListener('click', function (event) {
+        var link = event.target.closest('a');
+        if (isRealLink(link, event)) { setTimeout(function () { if (!event.defaultPrevented) show(); }, 0); }
+    });
+    window.addEventListener('pageshow', hide);
+    window.addEventListener('focus', hide);
+    document.addEventListener('visibilitychange', function () { if (!document.hidden) hide(); });
+});
+</script>
+<script>
+// ===== modern UX: reveal-on-scroll + cursor-follow card glow =====
+document.addEventListener('DOMContentLoaded', function () {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // ---- reveal-on-scroll (class added here so no-JS keeps content visible) ----
+    if (!reduce && 'IntersectionObserver' in window) {
+        var sel = '.container_mid .lib-page-header, .container_mid .lib-filter-bar, '
+                + '.container_mid .lib-table, .container_mid .lib-card-grid, '
+                + '.container_mid .card, .container_mid .cards, .container_mid .news-item, '
+                + '.container_mid .postHolder, .container_mid .lib-tabs, .container_mid .lib-pagination';
+        var els = Array.prototype.slice.call(document.querySelectorAll(sel));
+        var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (e) {
+                if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+            });
+        }, { threshold: 0.08, rootMargin: '0px 0px -6% 0px' });
+        els.forEach(function (el, i) {
+            // skip anything already in view at load so above-the-fold content never flashes
+            var r = el.getBoundingClientRect();
+            if (r.top < window.innerHeight * 0.92) { return; }
+            el.classList.add('rv-reveal');
+            el.style.transitionDelay = Math.min((i % 6) * 45, 220) + 'ms';
+            io.observe(el);
+        });
+    }
+
+    // ---- highlight the current page in the left sidebar nav ("you are here") ----
+    var here = location.pathname.split('/').pop().toLowerCase();
+    if (here) {
+        document.querySelectorAll('.nav-menu a').forEach(function (a) {
+            var href = (a.getAttribute('href') || '').split('?')[0].split('/').pop().toLowerCase();
+            if (!href || href !== here) return;
+            a.classList.add('is-current');
+            var box = a.closest('.left_box');
+            if (box && box.classList.contains('collapsed')) {
+                box.classList.remove('collapsed');
+                var content = box.querySelector('.box-content');
+                if (content) content.style.display = '';
+                var arrow = box.querySelector('.toggle-arrow');
+                if (arrow) { arrow.classList.remove('fa-chevron-down'); arrow.classList.add('fa-chevron-up'); }
+            }
+        });
+    }
+});
+</script>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a21cfda4bf1c8e2c',t:'MTc4NTE2OTQyOQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

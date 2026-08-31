@@ -1,0 +1,356 @@
+[
+ {
+  "slug": "the-cult-of-the-queen",
+  "title": "the-cult-of-the-queen",
+  "missions": [
+   {
+    "no": "1",
+    "title": "West Coast Containment",
+    "steps": [
+     "Daniel Steelsoul asked you to defend Edron by eliminating 500 trolls and 500 goblins that are invading from the western coast.",
+     "You have lowered the troll and goblin presence along Edron's western coast.",
+     "Report to Daniel Steelsoul in Edron for further orders.",
+     "Return to him once both tasks are complete."
+    ]
+   },
+   {
+    "no": "2",
+    "title": "Cyclopolis Offensive",
+    "steps": [
+     "Daniel Steelsoul needs the cyclops forces of Cyclopolis reduced by 500 to keep Edron secure.",
+     "You have severely weakened the cyclops of Cyclopolis.",
+     "Report to Daniel Steelsoul in Edron to receive your reward.",
+     "Await Daniel Steelsoul's next set of orders.",
+     "Return to Daniel Steelsoul once the task is complete."
+    ]
+   },
+   {
+    "no": "3",
+    "title": "Forbidden Ruins",
+    "steps": [
+     "Daniel Steelsoul needs the forgotten ruins to be investigated.",
+     "You have investigated forbidden ruins.",
+     "Report to Daniel Steelsoul in Edron.",
+     "Await Daniel Steelsoul's next set of orders.",
+     "Return to Daniel Steelsoul once you investigate the ruins."
+    ]
+   },
+   {
+    "no": "4",
+    "title": "Brotherhood Cult",
+    "steps": [
+     "Go tell Gundralph, Puffels and Ursula about the cult so we can start a plan to engage in the ruins once more.",
+     "Gundralph wants you to outresource the cult by killing 2500 Dragons and 1000 Dragon Lords.",
+     "You have already outresourced the cult. Report it back to the Gundralph.",
+     "Go to the Puffels and talk to him about the cult.",
+     "Master the fight against cultists by killing 400 Warlocks.",
+     "You have already mastered the fight against cultists. Report it back to the Puffels.",
+     "Go tell Ursula about the cult and take her advice.",
+     "Defeat the darkness by killing 400 Demons.",
+     "You have already defeated the darkness. Report it to Ursula immediately.",
+     "Report the plan to Zoltan.",
+     "Get tactical instructions from Daniel Steelsoul.",
+     "Investigate Carlin and Queen Eloise to get an evidence.",
+     "You have found the needed evidence. Report it to Daniel Steelsoul.",
+     "Weaken the Carlin's army by killing 100 Queen Followers.",
+     "You have weakened the Carlin's army. Go back to Daniel Steelsoul.",
+     "Kill Algatha in the depths of the forbidden ruins north of Edron.",
+     "You've defeated Algatha and her cursed cult. Go tell Daniel Steelsoul",
+     "You have finished all the missions. You can now buy spell from the Zoltan if you haven't."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "the-nivarya-missions",
+  "title": "the-nivarya-missions",
+  "missions": [
+   {
+    "no": "1",
+    "title": "The Queen's Trade Route",
+    "steps": [
+     "Queen Eloise of Carlin granted you permission to secure her new trade route to the icy continent of Tarafhyr. Speak with Captain Depward at the Carlin harbour and ask him for passage to Nivarya.",
+     "Captain Depward's ship crashed on a Sea Tyrant island near Nivarya. Speak with him again on the wreck to learn how you can help.",
+     "Captain Depward needs the Sea Tyrant nest weakened before he can finish repairs. Kill 500 Sea Tyrants near the wreck.",
+     "You secured the trade route. Captain Depward can now ferry you safely between Carlin and Nivarya. Speak with Inquisitor Rayin in the city to offer your help."
+    ]
+   },
+   {
+    "no": "2",
+    "title": "Sewer Goblins",
+    "steps": [
+     "Inquisitor Rayin sent you to Satir at the archery shop. He suspects an Ice Goblin nest in the city sewers is behind the recent kidnappings. Ask him for a mission.",
+     "Satir wants the Ice Goblin nest in Nivarya's sewers wiped out.",
+     "Satir thanked you for cleansing the sewers. Return to Inquisitor Rayin for your next task."
+    ]
+   },
+   {
+    "no": "3",
+    "title": "The Witches of the Jothuns",
+    "steps": [
+     "Visary at the magic shop fears the Ice Witches are persuading the friendly Jothuns into sacrificing Nivarya. Speak with him.",
+     "Visary asked you to wipe out the Ice Witches before they turn the Jothuns against the city.",
+     "The Ice Witches have been pushed back. Report your success to Visary at the magic shop.",
+     "Visary thanked you for protecting the Jothun alliance. Return to Inquisitor Rayin for your next assignment."
+    ]
+   },
+   {
+    "no": "4",
+    "title": "Old Brend's Farm",
+    "steps": [
+     "Monk Fryns at the city temple is worried about Old Brend's farm: no food has been delivered in weeks and his wives have vanished. Visit Fryns for the details.",
+     "Travel to Old Brend's farm and investigate what happened to him and his wives. Search for clues, then return to Monk Fryns.",
+     "Read the letter you found at Brend's farm to uncover the truth, then report back to Monk Fryns.",
+     "You discovered the dark practices behind Old Brend. Return to Monk Fryns at the temple.",
+     "Monk Fryns is grateful for your investigation. Speak with Inquisitor Rayin to receive your next task."
+    ]
+   },
+   {
+    "no": "5",
+    "title": "Trade With Carlin",
+    "steps": [
+     "Captain Frosty at the Nivarya harbour needs help establishing a fresh-seafood trade with Queen Eloise of Carlin. Speak with him.",
+     "Use a pickaxe to open the ice holes around the city, then fish with a fishing rod and worms. Bring Captain Frosty 10 Rainbow Trout and 10 Green Perch.",
+     "You caught the required fish. Deliver them to Captain Frosty at the harbour.",
+     "Captain Frosty sent the catch to Queen Eloise. Report back to Inquisitor Rayin for the next mission."
+    ]
+   },
+   {
+    "no": "6",
+    "title": "Arxcel's Star Herbs",
+    "steps": [
+     "The Inquisition's healer Arxcel works from a cave east of the city. Visit him to learn about the missing healing supplies.",
+     "Arxcel needs Star Herbs from the ruin northwest of Nivarya. Find Inquisitor Blade outside the ruin and ask him for permission.",
+     "Inquisitor Blade demands proof of your strength.",
+     "You earned Inquisitor Blade's respect. Return to him to receive entry to the ruin.",
+     "Enter the vampire-infested underground ruin through the mountain cave. On the ground floor to the right, harvest the Star Herbs from the garden.",
+     "You collected the Star Herbs. Bring them back to Arxcel in his cave, then speak with Inquisitor Rayin."
+    ]
+   },
+   {
+    "no": "7",
+    "title": "The Inquisition's Armory",
+    "steps": [
+     "Inquisitor Rayin is preparing the Inquisition's armory for the next sacred cleansing. Speak with him to begin the supply delivery.",
+     "You stocked Rayin's armory, claimed the Inquisitor's reward chest (5,000 gold, an inquisitor artifact, and 10,000 exp) and earned access to the Nivarya bastion. Seek out High Inquisitor Fluleon inside the bastion for the next chapter.",
+     "Bring Inquisitor Rayin the following equipment, one delivery at a time: - %s Next delivery: %s."
+    ]
+   },
+   {
+    "no": "8",
+    "title": "Western Expedition",
+    "steps": [
+     "High Inquisitor Fluleon commands the city of Nivarya from the bastion. Speak with him about the curse on the continent of Tarafhyr.",
+     "Fluleon dispatched you to the western mountain base. Find High Inquisitor Sereun and offer reinforcements for the holy expedition.",
+     "Sereun wants you to test your strength against the undead breaching the underground farm east of the base.",
+     "You proved your worth. Sereun cleared you to cross the mountain wall and investigate the cursed lands beyond \u2014 the volcanic activity to the northwest and the lost royal library."
+    ]
+   },
+   {
+    "no": "9",
+    "title": "Essences of the Fallen",
+    "steps": [
+     "Once Sereun lets you cross the mountain, hunt down the two cursed champions to absorb their essences.",
+     "Two of Queen Persh's fallen champions must be slain to break the final seal at the Nivarya Cathedral. Each champion is summoned by a server-wide kill quota of regional creatures, then beaten down while you stand within 7 tiles so the essence drips into you.",
+     "Reach their hunt zones from the cathedral's side seals (each consumes 1 amulet from its altar):",
+     "- Place a scarab amulet on the western altar; the flame teleports you to the Chaos Hydra hunt \u2014 Sayron, the loyal spawns after 80 Chaos Hydras are killed (server-wide).",
+     "- Place an ancient amulet on the eastern altar; the flame teleports you to the Bonereaper hunt \u2014 Fherumin, the wise spawns after 120 Bonereapers are killed (server-wide).",
+     "Essences carried: Sayron %d, Fherumin %d."
+    ]
+   },
+   {
+    "no": "10",
+    "title": "The Sealed Void Draken",
+    "steps": [
+     "Enter the Undead Island through the Undead Mirror passage (requires 500 Frozemoth kills), navigate the five pagoda passage puzzles, then arrange the gems on Queen Persh's gem-switch tiles. Pull the lever and speak with the Sealed Void Draken \u2014 Sayron, Queen Persh's loyal protector \u2014 to learn the curse's truth.",
+     "You spoke with the Sealed Void Draken. Now find Queen Persh's flame to absorb the essence of loyalty.",
+     "You absorbed the essence of loyalty. Travel to the Nivarya Cathedral and prepare to face the final seal."
+    ]
+   },
+   {
+    "no": "11",
+    "title": "The Cathedral Seals",
+    "steps": [
+     "First absorb the essence of loyalty at Queen Persh's flame, then return to the Nivarya Cathedral.",
+     "Open the Nivarya Cathedral by placing a white pearl on its outer altar and pulling the entry switch. Inside, cross the final seal flame \u2014 it consumes 1 essence of Sayron and 1 essence of Fherumin per crossing.",
+     "Essences carried: Sayron %d, Fherumin %d.",
+     "Behind the seal, pull the final lever to face Sapiovor \u2014 the embodiment of Tafariel's curse. Entry locks server-wide for the day once the boss is summoned.",
+     "The great evil has been stopped. Report your victory to High Inquisitor Sereun at the expedition base."
+    ]
+   },
+   {
+    "no": "12",
+    "title": "The Curse Broken",
+    "steps": [
+     "After defeating Sapiovor, report back to High Inquisitor Sereun at the expedition base to receive your final reward.",
+     "You have shattered Tafariel's curse over Tarafhyr. Claim your well-deserved reward in the underground vault of the cathedral at the expedition base."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "trade-faction-accreditation",
+  "title": "trade-faction-accreditation",
+  "missions": [
+   {
+    "no": "1",
+    "title": "Mark of Accreditation",
+    "steps": [
+     "You have paid the 100,000 gold accreditation fee to King Tibianus. The doors of the Trade Faction are open to you\u2014visit Zarith the Accredited to trade.",
+     "Speak with King Tibianus about a trading document and pay the 100,000 gold accreditation fee to gain access to Zarith the Accredited."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "the-djinn-war",
+  "title": "the-djinn-war",
+  "missions": [
+   {
+    "no": "1",
+    "title": "Greeting the Djinns",
+    "steps": [
+     "Seek out the djinns and learn their traditional greeting to show you come in peace.",
+     "You learned the greeting djanni'hah. Decide whether to support the blue-skinned Marid or the green-skinned Efreet.",
+     "You pledged loyalty to the Marid. Travel to Ashta'daramai and help Fa'hradin and Gabel end the conflict.",
+     "You sided with the Efreet. Report to Ubaid and Baa'leal in Mal'ouquah to advance their war effort."
+    ]
+   },
+   {
+    "no": "2",
+    "title": "Marid Faction",
+    "steps": [
+     "To aid the Marid, pledge yourself to their cause in Ashta'daramai.",
+     "Bo'ques in Ashta'daramai needs a dwarven cookbook. Recover it so Fa'hradin will trust you with further work.",
+     "Deliver the dwarven cookbook to Bo'ques so he can complete his recipe collection.",
+     "Fa'hradin wants intelligence from Mal'ouquah. Sneak in through the back entrance and steal the spy report without being caught.",
+     "Bring the stolen spy report back to Fa'hradin so he can brief Gabel.",
+     "Speak with Gabel about Fa'hradin's findings. He will ask you to place Fa'hradin's lamp in Malor's quarters inside Mal'ouquah.",
+     "Secure Fa'hradin's lamp from the Orc King and infiltrate Mal'ouquah to hide it in Malor's room.",
+     "Return to Gabel in Ashta'daramai after planting the lamp to receive the Marid's gratitude and trading rights.",
+     "You completed the Marid's operations against the Efreet and earned their trust."
+    ]
+   },
+   {
+    "no": "3",
+    "title": "Efreet Faction",
+    "steps": [
+     "To support the Efreet, swear loyalty to King Malor's followers in Mal'ouquah.",
+     "Baa'leal wants the thief stealing their supplies found. Search Carlin for clues and confront the culprit.",
+     "You discovered the supply thief. Report back to Baa'leal to receive your reward and the next orders.",
+     "Baa'leal redirected you to Alesar for a new assignment.",
+     "Alesar needs a Tear of Daraman from the Marid. Infiltrate Ashta'daramai and steal the sacred gem.",
+     "Bring the stolen Tear of Daraman to Alesar in Mal'ouquah.",
+     "Malor is ready to trust you after Alesar's mission. Seek him out for a decisive task.",
+     "Malor tasks you with capturing Fa'hradin's lamp. Retrieve it and place it in Malor's chambers to turn the war.",
+     "Fa'hradin's lamp must be positioned inside Malor's personal quarters. Complete the infiltration.",
+     "Report back to Malor after securing the lamp to earn access to Efreet traders Alesar and Yaman.",
+     "You completed the Efreet war effort and earned their confidence."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "the-postman-missions",
+  "title": "the-postman-missions",
+  "missions": [
+   {
+    "no": "1",
+    "title": "Officer Training",
+    "steps": [
+     "Kevin Postner asked you to inspect the standard travel routes. Sail with Captain Bluebear from Thais to Carlin before reporting back.",
+     "You travelled with Captain Bluebear. Next, accompany Uzon from the Femor Hills to Edron.",
+     "You already took Uzon's route. Board Captain Seahorse's ship in Venore and travel to the city.",
+     "Only Brodrosch's route to Cormaya remains. Meet him in Kazordoon and ride his steamship.",
+     "You inspected every route. Report back to Kevin Postner in the post office."
+    ]
+   },
+   {
+    "no": "2",
+    "title": "Jammed Mailbox",
+    "steps": [
+     "A mailbox on Folda's so-called mountain is jammed. Bring a crowbar, travel there and fix it.",
+     "The mailbox is working again. Return to Kevin for your next assignment."
+    ]
+   },
+   {
+    "no": "3",
+    "title": "The Magic Hat",
+    "steps": [
+     "Track down the stage magician David Brassacres somewhere in Venore and deliver the bill you received.",
+     "You revealed David Brassacres' true identity. Hand him the bill and make sure he accepts it.",
+     "David Brassacres paid his dues. Report the success to Kevin Postner."
+    ]
+   },
+   {
+    "no": "4",
+    "title": "Bones for the Guild",
+    "steps": [
+     "Collect twenty bones for the officers' safety fund. Kevin keeps an example bone in his office.",
+     "You delivered %d of the twenty bones that Kevin requested. Keep hunting for more.",
+     "You secured all bones for the safety fund. Let Kevin know about your accomplishment.",
+     "The officers' safety fund is fully stocked."
+    ]
+   },
+   {
+    "no": "5",
+    "title": "Fibula's Present",
+    "steps": [
+     "Deliver the valuable present from Kevin's office to Dermot on Fibula without opening it.",
+     "Dermot received the present. Report back to Kevin Postner."
+    ]
+   },
+   {
+    "no": "6",
+    "title": "Uniform Logistics",
+    "steps": [
+     "Negotiate with Hugo Chief in Venore about producing new post officer uniforms.",
+     "Hugo needs the original dress pattern. Ask Kevin Postner where to retrieve it.",
+     "Kevin sent you to the technomancer Talphion in Kazordoon for the dress pattern details.",
+     "Bring Talphion's instructions back to Kevin in the post office.",
+     "Queen Eloise in Carlin should provide the colour samples for the uniforms. Speak with her.",
+     "Report to Kevin so he can prepare the anti-dog measures for the uniforms.",
+     "Perform the sniff test with King Tibianus' dog Noodles to learn which smell he hates most.",
+     "Tell Kevin about the smell that Noodles disliked the most.",
+     "Finalize the contract with Hugo Chief in Venore now that all requirements are met.",
+     "The uniform deal is secured. Inform Kevin Postner."
+    ]
+   },
+   {
+    "no": "7",
+    "title": "Measurement Duty",
+    "steps": [
+     "Lokur via Kroox in Kazordoon",
+     "Chrystal in the Venore depot",
+     "You collected every required measurement. Return to Kevin Postner.",
+     "Gather the following measurements for Hugo Chief:"
+    ]
+   },
+   {
+    "no": "8",
+    "title": "Waldo's Posthorn",
+    "steps": [
+     "Kevin already received Waldo's posthorn. Await your next assignment.",
+     "You found Waldo's posthorn. Bring it back to Kevin Postner immediately.",
+     "Search the caves beneath the troll-infested mountain east of Thais, find Postofficer Waldo and recover his posthorn."
+    ]
+   },
+   {
+    "no": "9",
+    "title": "Letters to Santa",
+    "steps": [
+     "Deliver the bag of letters from the post office basement to Santa's mailbox on the isle of Vega.",
+     "Santa received the letters. Return to Kevin for the final assignment."
+    ]
+   },
+   {
+    "no": "10",
+    "title": "Mintwallin Delivery",
+    "steps": [
+     "Sneak into Mintwallin and hand Markwin the letter from his mother.",
+     "Markwin accepted his mother's letter. Kevin will surely promote you for completing all postman missions."
+    ]
+   }
+  ]
+ }
+]

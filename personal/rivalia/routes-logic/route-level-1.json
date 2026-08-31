@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "note": "Walking-logic extracted from fandom route text + annotated images. Tibia 7.4-era vanilla; verify on Rivalia. The 'Level 1' route bypasses the switch-tile barrier on the northern Rookgaard bridge by going through a hidden underground cave. A ROPE is mandatory — several transitions are rope-up holes, not ladders.",
+    "coord_system": "Tibia game coords (format in text is minimap 125.xx 125.yy z, not raw). z = floor (7=ground; higher z = deeper). 'down' = descend (pitfall/ladder). 'rope-up' = ascend via a rope spot (needs a Rope). 'up' = ascend via ladder.",
+    "legend": "steps[] is an ordered walking sequence. Cave maps: yellow circle = current/entry hole or key ladder, green circle = target next hole/ladder. Note the route ZIG-ZAGS up and down floors — it is NOT monotonic descent."
+  },
+  "route": "Rookgaard town → West Rookgaard wilderness (Level 1 bypass)",
+  "slug": "route-level-1",
+  "from": "Rookgaard town (through the barn, NE of the wheat field)",
+  "to": "Western Rookgaard wilderness (surface), bypassing the north-bridge switch-tile barrier",
+  "start": { "x": null, "y": null, "z": 7, "note": "Pitfall NE of the wheat field, behind the Rookgaard barn. Text minimap coords ~125.76 125.176 7 (floor 7)." },
+  "min_level_note": "Any level CAN take it (built for level 1s to skip the bridge barrier), but NOT advised solo/underprepared. Poison Spider poison is lethal to low levels. Bring a ROPE (required) + Antidote or several Small Health Potions. Cave holds Rats, Spiders, Bugs, Poison Spiders, Trolls; Wolves/Snakes at the exit.",
+  "requirements": ["Rope (mandatory — used for rope-up holes)", "Antidote Potion or Small Health Potions (recommended)"],
+  "steps": [
+    { "n": 1, "floor": 7, "heading": "NE", "action": "descend", "to_floor": 8, "img": ["Route_Level_1_Pitfall.png","Route_Level_1_Pitfall.gif"], "text": "Go through the Rookgaard barn and step onto the PITFALL north-east of the wheat field to drop into the cave. (Pitfall marked by the X on the gif.)", "hazard": [] },
+    { "n": 2, "floor": 8, "heading": "SW", "action": "walk+descend", "to_floor": 9, "text": "Follow the cave SOUTH-WEST and take the ladder down. A single Spider waits below.", "hazard": ["Spider"] },
+    { "n": 3, "floor": 9, "heading": "W", "action": "rope-up", "to_floor": 8, "text": "ROPE UP the hole on the WEST side of the room (needs Rope). Another Spider up here. This rope hole intentionally blocks ropeless newcomers from getting stuck.", "hazard": ["Spider"] },
+    { "n": 4, "floor": 8, "heading": "NW", "action": "descend", "to_floor": 9, "text": "Go down the ladder to the NORTH-WEST. A single Poison Spider spawns here.", "hazard": ["Poison Spider"] },
+    { "n": 5, "floor": 9, "heading": "SW then N then SE", "action": "rope-up+walk", "to_floor": 8, "img": "Route_Level_1_Map_1.png", "text": "ROPE UP the hole on the SOUTH-WEST end of the room (yellow circle = the rope hole; green circle = where you land / next target). Face a Rat + one or more Spiders and Bugs. Do NOT go south into the spider/bug cave — instead go NORTH and follow the cave around, turning SOUTH-EAST when you can, to a ladder by a warning sign.", "hazard": ["Rat", "Spider", "Bug"] },
+    { "n": 6, "floor": 8, "heading": "SE", "action": "descend", "to_floor": 9, "img": "Route_Level_1_Danger.png", "text": "At the ladder by the 'DANGER! Only experienced adventurers should proceed from here.' sign, go DOWN. On landing you see a Dead Human (contains Leather Legs). To the EAST is a Troll and 2 ladders down — take the EASTERN ladder.", "hazard": ["Troll"] },
+    { "n": 7, "floor": 9, "heading": "E", "action": "descend", "to_floor": 10, "img": "Route_Level_1_Map_2.png", "text": "Go down the EASTERN ladder (yellow circle) into the troll cave. Green circle marks the next objective.", "hazard": ["Troll"] },
+    { "n": 8, "floor": 10, "heading": "N", "action": "walk+descend", "to_floor": 11, "text": "In the troll cave go NORTH and down the stairs. This is the HARDEST part of the cave.", "hazard": ["Troll"] },
+    { "n": 9, "floor": 11, "heading": "NW", "action": "rope-up", "to_floor": 10, "img": ["Route_Level_1_Map_3.png","Route_Level_1_Map_4.png"], "text": "DANGER FLOOR: you may drop in among 3 Poison Spiders; floor holds 3 Spiders + 6 Poison Spiders total. Get to the NORTH-WEST end and go UP the ladder (green circle on Map_4). Poison here is deadly for low levels — use Antidote/heal.", "hazard": ["Poison Spider x6", "Spider x3"] },
+    { "n": 10, "floor": 10, "heading": "N", "action": "walk+ascend", "to_floor": 9, "text": "This floor has a few Trolls. Follow the cave ALL THE WAY NORTH and go UP the ladder.", "hazard": ["Troll"] },
+    { "n": 11, "floor": 9, "heading": "NE", "action": "walk+ascend", "to_floor": 8, "text": "Go NORTH-EAST to the next ladder. Face a few Trolls and a Spider, then go UP.", "hazard": ["Troll", "Spider"] },
+    { "n": 12, "floor": 8, "heading": "NW", "action": "ascend", "to_floor": 7, "text": "Go NORTH-WEST. IGNORE the ladder DOWN — instead take the next ladder UP to the surface. (Easy to mis-take the down ladder here.)", "hazard": [] },
+    { "n": 13, "floor": 7, "heading": "S", "action": "walk", "img": ["Route_Level_1_Freedom.png","Route_Level_1_Bridge.png"], "text": "You surface in the WESTERN Rookgaard wilderness (~125.58 125.91 7) among a bunch of Spiders — the barrier is now behind/bypassed. To reach the EAST part, cross the bridge at the top of the mountain to the SOUTH.", "hazard": ["Spider", "Wolf", "Snake"] }
+  ],
+  "floor_transitions": [7, 8, 9, 8, 9, 8, 9, 10, 11, 10, 9, 8, 7],
+  "hazards_all": ["Spider", "Poison Spider", "Rat", "Bug", "Troll", "Wolf", "Snake"]
+}
