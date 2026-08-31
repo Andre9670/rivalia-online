@@ -35,7 +35,7 @@ bash personal/rivalia/cron/pk-map-refresh.sh
 ```
 Pipeline: `build_seed.py` → `crawl_pk.py` → `build_pkdata.py` → `build_relationships.py` → `build_insights.py` → `INLINE=1 build_html.py` → `git add/commit/push`. Log in `personal/rivalia/cron-pk-map-refresh.log`. Se il build fallisce (rete/parse), lo script NON pubblica e tiene la mappa precedente.
 
-**Automazione:** gira come **Claude Routine settimanale** (lunedì ~08:30 UTC, id `trig_019Vd9G93SoP16tWmhTh9e3E`, sessione fresca che fa push su `main`). `personal/rivalia/cron/registry-entry.json` tiene traccia dello schedule.
+**Automazione:** gira come **GitHub Action schedulata** — `.github/workflows/refresh-map.yml`, lunedì 08:30 UTC (+ `workflow_dispatch` per lanciarla a mano dalla tab Actions). L'Action esegue la pipeline sui runner GitHub (hanno internet → lo scrape funziona) e committa `map/index.html` su `main` col `GITHUB_TOKEN`; Pages ripubblica. ⚠️ **Perché Action e non Claude Routine:** le sessioni Routine possono pushare solo su branch `claude/` (non su `main`, se `main` ha commit di altri autori — regola "Repositories and branch permissions" dei docs) e non hanno gli strumenti GitHub per mergiare una PR. L'Action non ha questi limiti. Lo script `cron/pk-map-refresh.sh` resta per esecuzione **manuale/locale** (da una sessione che può pushare su `main`).
 
 ## PIPELINE — ruolo di ogni script (in personal/rivalia/)
 - **`build_seed.py`** → seed player da highscores (Aeternum).

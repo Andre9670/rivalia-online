@@ -6,6 +6,8 @@
     "type": "script",
     "scriptFile": "personal/rivalia/cron/pk-map-refresh.sh",
     "publish": "github-pages",
-    "note": "Mon 08:30 UTC (~10:30 CEST). Personal hobby (Rivalia). Pipeline: build_seed.py -> crawl_pk.py -> build_pkdata.py -> build_relationships.py -> build_insights.py -> INLINE=1 build_html.py -> git commit/push. Scraping rivaliaonline.com is public (no auth). Publishing is GitHub Pages (was OneDrive/Midway on the old work-PC setup). Intended to run as a weekly Claude Routine; this JSON is kept as a record of the schedule + pipeline."
+    "automation": "github-actions",
+    "workflow": ".github/workflows/refresh-map.yml",
+    "note": "Mon 08:30 UTC (~10:30 CEST). Personal hobby (Rivalia). Pipeline: build_seed.py -> crawl_pk.py -> build_pkdata.py -> build_relationships.py -> build_insights.py -> INLINE=1 build_html.py -> commit map/index.html to main. Scraping rivaliaonline.com is public (no auth). Publishing is GitHub Pages from main (was OneDrive/Midway on the old work-PC setup). The weekly automation is the GitHub Action .github/workflows/refresh-map.yml (NOT a Claude Routine: routine sessions can't push to main or merge PRs). cron/pk-map-refresh.sh is kept for manual/local runs. This JSON is just a record of the schedule + pipeline."
   }
 ]

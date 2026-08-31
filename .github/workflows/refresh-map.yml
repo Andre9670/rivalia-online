@@ -1,0 +1,65 @@
+name: Refresh Rivalia map
+
+# Weekly regeneration of the reverse map's PK / relationship / insights data and
+# republish to GitHub Pages. Runs on GitHub's runners (public internet, so the
+# rivaliaonline.com scrape works) and commits map/index.html to main; Pages then
+# republishes. Pure-stdlib Python pipeline — no dependencies to install.
+#
+# Also runnable on demand from the Actions tab (workflow_dispatch).
+
+on:
+  schedule:
+    - cron: '30 8 * * 1'      # Mondays 08:30 UTC (~10:30 CEST)
+  workflow_dispatch: {}
+
+# Let the job commit back to the repo.
+permissions:
+  contents: write
+
+# Never let two refreshes run at once.
+concurrency:
+  group: refresh-map
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run PK-map refresh pipeline
+        working-directory: personal/rivalia
+        env:
+          PK_WORLD_FILTER: Aeternum   # keep the crawl to Andrea's world (see NOTES.md)
+        run: |
+          set -e
+          python3 build_seed.py
+          python3 crawl_pk.py
+          python3 build_pkdata.py
+          python3 build_relationships.py
+          python3 build_insights.py
+          INLINE=1 python3 build_html.py
+
+      - name: Commit & publish if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add map/index.html \
+                  personal/rivalia/pk-map-data.json \
+                  personal/rivalia/relationships.json \
+                  personal/rivalia/insights-data.json \
+                  personal/rivalia/known-players.json
+          if git diff --cached --quiet; then
+            echo "No changes to publish — map already up to date."
+          else
+            git commit -m "Weekly PK-map refresh $(date -u +%F)"
+            git push
+            echo "Published — GitHub Pages will republish from main."
+          fi
