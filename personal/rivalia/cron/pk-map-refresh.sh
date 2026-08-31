@@ -46,7 +46,8 @@ cd "$ROOT" || { echo "  FATAL: no repo root $ROOT" >> "$LOG"; exit 1; }
 git add map/index.html \
         personal/rivalia/pk-map-data.json \
         personal/rivalia/relationships.json \
-        personal/rivalia/insights-data.json >> "$LOG" 2>&1
+        personal/rivalia/insights-data.json \
+        personal/rivalia/known-players.json >> "$LOG" 2>&1
 if git diff --cached --quiet; then
   echo "  [6] no changes to publish (map already up to date)" >> "$LOG"
 else
