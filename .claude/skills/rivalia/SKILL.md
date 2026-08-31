@@ -1,6 +1,6 @@
 ---
 name: rivalia
-description: Strategic guide for Andrea's Paladin on Rivalia Online (custom Tibia 7.4 private server, Legacy 1x low-rate). Use whenever Andrea asks about Rivalia — monster stats/HP/exp/drops, hunting spots, equipment/loot decisions, prices, Alchemy/Mining/Crafting, Item Attributes, custom spells, quests, NPCs, map/positions, daily reward, professions, task board, or Paladin strategy. Triggers on "rivalia", monster names + stats/drop questions, "where to hunt", "spot for", "is X worth it", "reverse map".
+description: Game-advice guide for Andrea's Paladin on Rivalia Online (custom Tibia 7.4 private server, Legacy 1x low-rate). Use whenever Andrea asks for Rivalia GAME advice — monster stats/HP/exp/drops, hunting spots, equipment/loot decisions, prices, Alchemy/Mining/Crafting, Item Attributes, custom spells, quests, NPCs, positions/where-is, daily reward, professions, task board, or Paladin strategy. Triggers on "rivalia", monster names + stats/drop questions, "where to hunt", "spot for", "is X worth it". For BUILDING or PUBLISHING the interactive reverse map, use the separate "rivalia-map" skill instead.
 ---
 
 # Rivalia Online — Paladin Strategy Guide (PERSONAL / LOCAL)
@@ -129,15 +129,14 @@ Spear è la scelta migliore per il training: riutilizzabile e droppata da **mob 
 - **Store Inbox** è separato dal backpack (Rivalia-specific): item lì vanno trasferiti a mano.
 - **Loot**: vendita player-market (es. Halberd) spesso > prezzo NPC; controllare prima di vendere.
 
-## DATI LOCALI GIÀ COSTRUITI (in personal/rivalia/)
-Lavoro già fatto e riutilizzabile — sta in `personal/rivalia/` (radice della repo):
-- **`hunt-spots.json`** — DB completo spawn (174 creature, 12254 punti; x,y,z,amount,radius,time). Scaricato da wiki.rivaliaonline.com/hunt-spots.json.
-- **`catalog-stats.json`** — stats REALI di tutte le 212 creature del Bestiary (health, experience, speed, race, armor, defense, immunities, attacks, loot). **Usa questo per i numeri invece di rifare WebFetch**, ma se sospetti sia cambiato ri-verifica sul Bestiary.
-- **`map/index.html`** — mappa inversa interattiva (zona→creature) con overlay piani sopra/sotto, scanner mouse, stats panel. **Pubblicata via GitHub Pages** (build self-contained base64). Sorgente generata da `build_html.py` (+ `map-data.json`, `img-b64.json`, `stats-all.json`, immagini in `minimap/`). Con `INLINE=1 python3 build_html.py` scrive direttamente `map/index.html`.
+## DATI REALI LOCALI (usa questi per i numeri, in personal/rivalia/)
+Dati Rivalia REALI già estratti — **usali come fonte dei numeri invece di rifare WebFetch** (ma se sospetti un cambio, ri-verifica sul Bestiary):
+- **`catalog-stats.json`** — stats REALI di tutte le ~212 creature del Bestiary (health, experience, speed, race, armor, defense, immunities, attacks, loot).
+- **`hunt-spots.json`** — DB completo spawn (174 creature, 12254 punti; x,y,z,amount,radius,time), da wiki.rivaliaonline.com/hunt-spots.json.
 - **`rivalia-zones.json` / `.csv`** — zone geografiche (griglia 150) con creature per zona.
 - **`exp-ratio-under300.csv`** — analisi EXP/HP per mostri sotto 300 HP, split ranged/melee, con danno attacco.
 
-**Formula coordinate→pixel mappa** (dal sito): `px = x − 31744`, `py = y − 30701`. Immagini piano 1685×2827. In Leaflet CRS.Simple va flippato: `lat = IMGH − py`.
+> 🗺️ **La reverse map interattiva** (zona→creature, insights, PK map, pathfinder "come ci arrivo") e **tutto il come rigenerarla/pubblicarla** vivono nella skill separata **`rivalia-map`** — quella è l'unica fonte per le operazioni sulla mappa; non duplicare qui i comandi di build.
 
 ### REFERENCE TIBIAWIKI 7.4 (in `references/` — dentro questa skill)
 Indicizzate da TibiaWiki (fandom), **filtrate a `implemented ≤ 7.4`** — 206 pagine. ⚠️ Sono **7.4 VANILLA, NON Rivalia**: geografia/struttura quest/layout spot sono in gran parte validi, ma **stats creature, loot, reward e NPC DIFFERISCONO** — incrocia sempre coi dati REALI locali (`catalog-stats.json`, `hunt-spots.json`) e wiki.rivaliaonline.com. Ogni file ha il banner di avviso.
@@ -149,23 +148,5 @@ Indicizzate da TibiaWiki (fandom), **filtrate a `implemented ≤ 7.4`** — 206 
 
 **Definizione "ranged" concordata:** un mostro è ranged solo se ha danno a distanza VERO (Physical separato dal melee = freccia/lancia, o magie Fire/Energy/Ice/Poison). **Life Drain / Mana Drain NON contano** (sono da contatto) — es. Ghoul è melee, non ranged.
 
-### REVERSE MAP — funzionalità complete (sorgente in `personal/rivalia/`, pubblicata via GitHub Pages come `map/index.html`)
-La mappa interattiva è cresciuta molto (lug 2026). Per rigenerarla dalla radice repo: `cd personal/rivalia && python3 build_insights.py` (dati) → `INLINE=1 python3 build_html.py` (build self-contained base64 → scrive `../../map/index.html`). Poi `git add map/index.html && git commit && git push`: GitHub Pages ripubblica in automatico (link stabile). La build "esterna" leggera (`python3 build_html.py` senza INLINE, sprite in `creatures/`) resta per test locali e scrive `rivalia-reverse-map.html` (non committata).
-- **Pannello "Il mio PG" in cima** (prominente): Solo/Duo/Trio (1-3 PG), default = stat reali di Andrea (Paladin lv30, Distance 64, Shielding 53, scudo def 28, armor 26, spear atk 30) in `CHAR_DEF`. Salvato in localStorage. **Tutti gli insight partono da qui** — cambiando il PG si ricalcolano live (`refreshAll`→`buildDanger`).
-- **💎 Insights (modal, 5 tab):** Aree caccia · Loot-value (450 item, droppers cliccabili→evidenzia sulla mappa, pallino farmabilità 🟢🟡🔴 dal PG) · Quest (3 sotto-tab: **Quest Fandom 79** / **Questline Rivalia 5** con walkthrough / **Chest 222**) · Dove farmare (450 item) · Routes (14 walkthrough + immagini annotate).
-- **Verdetto farmabilità** = motore `assess()` (FARMABILE/RISCHIOSO/LETALE) dal PG, riusato ovunque.
-- **Layer sulla mappa (toggle):** 🎯 Aree caccia (zone colorate per exp/colpo, dalle hunting-places fandom, "vai" al piano di caccia reale) · 🏰 Città (13 landmark) · 🎁 Chest (222 reward chest geolocalizzate, popup loot).
-- **`build_insights.py`** genera `insights-data.json` (CHAR editabile in cima). **`build_chests.py`** rifà `chests.json` + questlines da rivaliaonline.com. **`routes-logic/*.json`** = 14 walking-logic estratte da testo+immagini (`references/routes/images/` = 82 immagini scaricate). `routes-logic/PATHFINDER-LESSONS.md` = 17 lezioni.
-
-### PATHFINDER "come ci arrivo" — regole di walkability (IMPORTANTI, ground-truth di Andrea)
-A* 3D multi-piano su walk-grid + transizioni (`build_pathdata.py` → `pathdata-grid.json` + `pathdata-trans.json`, inlinati nell'HTML). Correzioni chiave:
-- **`block=1`**: 1 pixel minimap = 1 cella di gioco (la trasformata è 1:1). NIENTE downsampling — il vecchio block=4 spezzava i corridoi (scartava il blocco se 1px su 16 non era calpestabile). Rigen ~20s in Python.
-- **Grigio scuro `(102,102,102)` = SEMPRE muro, su TUTTI i piani** (montagna in superficie, roccia/parete sottoterra). Confermato da Andrea. NON reintrodurlo nel set walkable. Grigio chiaro `(153,153,153)` = pavimento calpestabile (Thais, dungeon).
-- **Transizioni yellow↔yellow**: un puntino giallo è un passaggio valido anche se il piano adiacente ha un giallo allineato (non solo se calpestabile) → recupera i buchi shovel/rope (+~590 transizioni, +55%). In `build_pathdata.py`.
-- **Danger-weighting**: costo A* extra sui tile vicino a mob 🔴 letali PER IL PG (toggle "Evita i mob letali"). Solo additivo (non rompe percorsi).
-- **Limiti onesti residui:** la minimap ha copertura sparsa in profondità (pozze isolate → "nessun percorso"); i passaggi action-gated (shovel/leva/parcels/barca) esistono nel grid ma richiedono l'azione in-game (documentati nelle routes, non distinti con icona).
-
-## REGOLE OPERATIVE LOCALI
-- Tutti i sorgenti/output Rivalia vanno in `personal/rivalia/`; l'unico deliverable pubblicato è `map/index.html` (radice repo).
-- Pubblicazione = **GitHub Pages** della repo `Andre9670/rivalia-online` (commit+push di `map/index.html`). Niente OneDrive, niente S3, niente Midway.
-- Verifica le mappe HTML con Chromium headless (in questo ambiente: `/opt/pw-browsers/chromium`) o Playwright se serve un controllo visivo.
+## MAPPA & OPERAZIONI → skill `rivalia-map`
+Tutto ciò che riguarda la **reverse map** (rigenerarla, pubblicarla su GitHub Pages, il pathfinder, le regole di walkability, i percorsi build, il refresh settimanale PK) sta nella skill separata **`rivalia-map`**. Questa skill (`rivalia`) è **solo consigli di gioco** — se ti serve costruire/aggiornare la mappa, usa `rivalia-map`.
