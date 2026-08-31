@@ -282,122 +282,187 @@
   .chestpin{font-size:15px;cursor:pointer;filter:drop-shadow(0 1px 2px #000);line-height:1}
 
   /* DESKTOP-neutral: the creature-sheet wrapper is transparent (children float exactly as
-     before) and the mobile-only chrome (combined header + 🐉 FAB) is hidden. */
+     before) and every mobile-only shell element is hidden. */
   #crSheet{display:contents}
-  #crSheetHd,#crFab,#crBar{display:none}
+  #crSheetHd,#crFab,#crBar,#mnav,#msheet,#mtop,#mfloor{display:none}
 
-  /* ===== MOBILE — full-screen map + slide-up bottom sheet (like Maps apps) ===== */
+  /* =========================================================================
+     MOBILE APP SHELL (≤820px) — designed as a native map app, not a squeezed
+     desktop sidebar:
+       · the MAP is the canvas, full-screen, nothing permanent on top of it
+       · a bottom TAB BAR (thumb zone) exposes the whole menu at 1 tap
+       · ONE bottom sheet with 4 detents (closed · peek · half · full), real
+         drag-to-resize; every tab renders into it
+       · map LAYER CHIPS live on the map (top, h-scroll) because they change
+         the map — not buried in a menu
+       · a FLOOR PILL (right, thumb-reachable) replaces the 16-button column;
+         tapping the number opens a compact floor grid
+     The desktop DOM/logic is untouched: on boot the shell MOVES the stateful
+     panels (search, results, verdict, stats, My Char) into the sheet and
+     PROXIES the toggle/modal buttons, so there is no duplicated logic.
+     ========================================================================= */
   @media (max-width:820px){
-    html,body{height:100%;overflow:hidden}
+    :root{--navh:56px;--sbi:env(safe-area-inset-bottom);--sti:env(safe-area-inset-top)}
+    html,body{height:100%;overflow:hidden;overscroll-behavior:none}
     #app{display:block;height:100dvh;overflow:hidden}
-    /* map fills the whole screen */
     #mapwrap{position:fixed;inset:0;width:100vw;height:100dvh}
-    /* the hover scanner + ghost/level overlays are mouse-only → hide on touch layout */
-    #scan,#ghostbox{display:none!important}
-    #floors{top:calc(env(safe-area-inset-top) + 10px);left:10px;padding:5px;max-height:58vh}
-    #readout{font-size:11px;padding:6px 10px;bottom:78px;left:10px;z-index:600}
+    /* mouse-only chrome + the old mobile chrome this shell replaces */
+    #scan,#ghostbox,#crFab,#crBar,#crSheetHd{display:none!important}
+    #side{display:none!important}          /* emptied on boot; kept for proxy targets */
+    #crSheet{display:contents}
+    #readout{font-size:10.5px;padding:5px 9px;left:10px;z-index:900;
+      bottom:calc(var(--navh) + var(--sbi) + 10px);background:rgba(22,26,35,.86)}
 
-    /* ---- SIDEBAR = bottom sheet: peeks at the bottom, tap the handle to expand ---- */
-    #side{
-      position:fixed;left:0;right:0;bottom:0;width:auto;z-index:1200;
-      background:var(--panel);border:none;border-top:1px solid var(--line);
-      border-radius:18px 18px 0 0;box-shadow:0 -10px 34px rgba(0,0,0,.55);
-      max-height:86dvh;overflow-y:auto;-webkit-overflow-scrolling:touch;
-      padding-bottom:calc(env(safe-area-inset-bottom) + 14px);
-      transform:translateY(calc(100% - 62px));           /* PEEK: only the handle shows */
-      transition:transform .30s cubic-bezier(.32,.72,0,1);
-      overscroll-behavior:contain;
-    }
-    #side.open{transform:translateY(0)}
-    /* the title bar doubles as the drag handle */
-    #side h1{
-      position:sticky;top:0;z-index:6;background:var(--panel);cursor:pointer;
-      border-radius:18px 18px 0 0;padding:20px 16px 12px;margin:0;
-      font-size:15px;display:flex;justify-content:space-between;align-items:center;
-    }
-    #side h1::before{                                     /* grabber pill */
-      content:"";position:absolute;top:7px;left:50%;transform:translateX(-50%);
-      width:40px;height:4px;border-radius:2px;background:var(--line);
-    }
-    #side h1::after{content:"▴";font-size:15px;color:var(--dim)}
-    #side.open h1::after{content:"▾"}
-    #side h1 small{display:none}                          /* hide the long subtitle on the handle */
-    /* roomier controls when the sheet is open */
+    /* ---------- map layer chips (top, horizontally scrollable) ---------- */
+    #mtop{display:flex;gap:7px;position:fixed;left:0;right:0;z-index:1100;
+      top:calc(var(--sti) + 8px);padding:0 10px 2px;overflow-x:auto;
+      scrollbar-width:none;-webkit-overflow-scrolling:touch}
+    #mtop::-webkit-scrollbar{display:none}
+    .mchip{flex:0 0 auto;display:flex;align-items:center;gap:5px;height:36px;padding:0 13px;
+      border-radius:18px;background:rgba(22,26,35,.92);border:1px solid var(--line);
+      color:var(--txt);font-size:12.5px;font-weight:600;white-space:nowrap;cursor:pointer;
+      -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+      box-shadow:0 2px 10px rgba(0,0,0,.4);-webkit-tap-highlight-color:transparent}
+    .mchip.on{background:var(--acc);border-color:var(--acc);color:#111}
+    .mchip b{font-weight:800;font-size:11px;opacity:.8}
+
+    /* ---------- floor pill + floor grid popover ---------- */
+    #mfloor{display:flex;flex-direction:column;align-items:center;gap:2px;position:fixed;
+      right:10px;top:50%;transform:translateY(-50%);z-index:1100;padding:4px;
+      background:rgba(22,26,35,.92);border:1px solid var(--line);border-radius:22px;
+      -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+      box-shadow:0 3px 14px rgba(0,0,0,.45)}
+    #mfloor button{background:none;border:none;color:var(--dim);width:42px;height:32px;
+      font-size:14px;cursor:pointer;border-radius:16px;padding:0;
+      -webkit-tap-highlight-color:transparent}
+    #mfNow{height:42px!important;background:var(--panel2)!important;color:var(--acc2)!important;
+      font-weight:800;font-size:16px!important;line-height:1.05}
+    #mfNow small{display:block;font-size:8.5px;color:var(--dim);font-weight:700;margin-top:1px}
+    #floors{display:none;flex-direction:row;flex-wrap:wrap;justify-content:center;gap:6px;
+      position:fixed;inset:auto;left:50%;transform:translateX(-50%);
+      bottom:calc(var(--navh) + var(--sbi) + 14px);width:min(330px,92vw);max-height:none;
+      z-index:1600;padding:11px;border-radius:16px;box-shadow:0 10px 34px rgba(0,0,0,.6)}
+    #floors.mopen{display:flex}
+    .fbtn{width:66px;height:44px;font-size:13px}
+
+    /* ---------- bottom tab bar: the whole menu, always one tap away ---------- */
+    #mnav{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:1500;
+      height:calc(var(--navh) + var(--sbi));padding-bottom:var(--sbi);
+      background:rgba(18,22,30,.97);border-top:1px solid var(--line);
+      -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+    #mnav button{position:relative;flex:1;background:none;border:none;color:var(--dim);
+      display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;
+      font-size:21px;line-height:1;padding:0;cursor:pointer;
+      -webkit-tap-highlight-color:transparent}
+    #mnav button i{font-style:normal;font-size:9.5px;font-weight:600;letter-spacing:.2px}
+    #mnav button.on{color:var(--acc)}
+    #mnav button.on::before{content:"";position:absolute;top:0;width:28px;height:2.5px;
+      border-radius:0 0 3px 3px;background:var(--acc)}
+    #mnav button .mdot{position:absolute;top:6px;right:calc(50% - 17px);width:7px;height:7px;
+      border-radius:50%;background:var(--acc2);display:none}
+    #mnav button.act .mdot{display:block}
+
+    /* ---------- THE sheet ---------- */
+    #msheet{display:flex;flex-direction:column;position:fixed;left:0;right:0;
+      bottom:calc(var(--navh) + var(--sbi));height:78dvh;z-index:1300;
+      background:var(--panel);border-top:1px solid var(--line);border-radius:20px 20px 0 0;
+      box-shadow:0 -12px 40px rgba(0,0,0,.6);will-change:transform;
+      transform:translateY(100%);transition:transform .32s cubic-bezier(.32,.72,0,1)}
+    #msheet.dragging{transition:none}
+    #mshGrab{flex:0 0 auto;height:24px;display:flex;align-items:center;justify-content:center;
+      touch-action:none;cursor:grab}
+    #mshGrab::before{content:"";width:44px;height:4.5px;border-radius:3px;background:#3b4457}
+    #mshPeek{flex:0 0 auto;padding:0 14px 11px;touch-action:none}
+    #mshBody{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;
+      padding-bottom:calc(var(--sbi) + 20px)}
+    .mpane{display:none}
+    .mpane.on{display:block}
+    /* the moved sidebar title becomes a plain header inside the "Me" pane */
+    #msheet h1{position:static;padding:13px 16px;margin:0;font-size:15px;display:block;
+      border-radius:0;border-bottom:1px solid var(--line);cursor:default}
+    #msheet h1::before,#msheet h1::after{display:none!important}
+    #msheet h1 small{display:block}
+
+    /* peek row: creature card when something is selected, else the pane title */
+    .mph{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:1px 2px}
+    .mph .mpht{font-size:15.5px;font-weight:800}
+    .mph .mpht small{display:block;color:var(--dim);font-weight:500;font-size:11.5px;margin-top:2px}
+    .mph .mphc{color:var(--dim);font-size:13px}
+    .mpk{display:flex;align-items:center;gap:10px;background:var(--panel2);
+      border:1px solid var(--line);border-radius:14px;padding:9px 11px;cursor:pointer}
+    .mpk>img{width:36px;height:36px;flex:0 0 36px;object-fit:contain;background:#0d1018;
+      border-radius:9px;image-rendering:pixelated}
+    .mpk .mpn{flex:1;min-width:0}
+    .mpk .mpn .mpnt{font-size:14.5px;font-weight:800;display:flex;align-items:center;gap:6px}
+    .mpk .mpn .mpns{font-size:11.5px;color:var(--dim);margin-top:3px;white-space:nowrap;
+      overflow:hidden;text-overflow:ellipsis}
+    .mpk .mpx{flex:0 0 auto;width:36px;height:36px;border-radius:10px;background:var(--panel);
+      border:1px solid var(--line);color:var(--txt);font-size:15px;cursor:pointer}
+    .mfchip{display:inline-block;background:var(--panel);border:1px solid var(--line);
+      border-radius:9px;padding:2px 9px;margin:0 4px 0 0;font-size:11px;font-weight:700;
+      color:var(--acc2);cursor:pointer}
+    .mfchip.cur{background:var(--acc2);border-color:var(--acc2);color:#04121d}
+
+    /* sticky search inside the Creatures pane */
+    .msearch{position:sticky;top:0;z-index:4;background:var(--panel);padding:4px 14px 10px;
+      display:flex;align-items:center;gap:9px}
+    .msearch::before{content:"🔍";font-size:15px;opacity:.65}
+    #search{min-height:46px;font-size:16px;border-radius:12px;padding:10px 12px}
+    #clist{flex:none;max-height:none;overflow:visible;padding:0 8px 6px}
+    #clist:empty{display:none}
+    .crow{padding:11px 8px;gap:10px}
+    .crow .nm{font-size:14px}
+
+    /* big list rows for the menu panes (proxy the real sidebar buttons) */
+    .msec{padding:14px 16px 6px;font-size:10.5px;font-weight:800;letter-spacing:.7px;
+      text-transform:uppercase;color:var(--dim)}
+    .mrow{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:none;
+      border:none;border-bottom:1px solid #202634;color:var(--txt);padding:14px 16px;
+      font-size:14.5px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+    .mrow:active{background:var(--panel2)}
+    .mrow .mri{flex:0 0 26px;font-size:20px;text-align:center}
+    .mrow .mrt{flex:1;min-width:0;font-weight:600}
+    .mrow .mrt small{display:block;color:var(--dim);font-size:11.5px;font-weight:400;
+      margin-top:3px;white-space:normal;line-height:1.45}
+    .mrow .mrs{flex:0 0 auto;font-size:11px;font-weight:800;padding:4px 10px;border-radius:11px;
+      background:var(--panel2);color:var(--dim);border:1px solid var(--line)}
+    .mrow .mrs.on{background:var(--acc);color:#111;border-color:var(--acc)}
+
+    /* creature detail inside the pane: the two floating panels become stacked sections */
+    #mcrDetail{border-bottom:1px solid var(--line)}
+    #mcrDetail #verdict,#mcrDetail #stats{position:static!important;width:auto!important;
+      max-width:none!important;max-height:none!important;inset:auto;border:none;border-radius:0;
+      box-shadow:none;background:none;overflow:visible;display:none}
+    #mcrDetail #verdict.show,#mcrDetail #stats.show{display:block!important}
+    #mcrDetail #verdict .hd,#mcrDetail #stats .shd{background:none;border-bottom:none;position:static}
+    #mcrDetail #vClose,#mcrDetail #st-close{display:none}
+
+    /* roomier controls everywhere on touch */
     .sec{padding:14px 16px}
     .btnrow{gap:8px;margin-top:10px}
-    .btn,.itab,.pktab,.ptab,.reltab{min-height:42px;font-size:13px}
-    #search,#pkQ,input[type=text],input[type=search]{min-height:42px;font-size:15px}  /* 15px+ stops iOS zoom-on-focus */
+    .btn,.itab,.pktab,.ptab,.reltab{min-height:44px;font-size:13px}
+    #pkQ,input[type=text],input[type=search]{min-height:44px;font-size:16px}  /* 16px stops iOS zoom */
     .cfg-note,.ins-note{font-size:11px}
-    /* creature results list: on desktop it's flex:1 in a full-height column; inside the
-       bottom sheet that collapses to ~0 → give it a real, scrollable height so results show */
-    #clist{flex:none;max-height:44vh;min-height:120px;overflow-y:auto;
-      border-top:1px solid var(--line);margin-top:4px}
-    #clist:empty{display:none}
-    .crow{padding:10px 8px}          /* bigger tap rows */
+    .vmetrics,.stat-grid{grid-template-columns:1fr 1fr}
 
-    /* ---- 🐉 creature FAB: mobile entry point to search creatures. Anchored bottom-right,
-       clear of the Leaflet zoom (hidden on mobile) and the floor column; rises above the
-       result bar when it's shown so it's always tappable regardless of map zoom/pan. ---- */
-    #crFab{display:flex;align-items:center;justify-content:center;position:fixed;
-      right:14px;bottom:calc(env(safe-area-inset-bottom) + 16px);z-index:1400;
-      width:56px;height:56px;border-radius:50%;font-size:26px;
-      background:var(--acc);color:#111;border:none;box-shadow:0 4px 16px rgba(0,0,0,.5);cursor:pointer}
-    #crFab.lifted{bottom:calc(env(safe-area-inset-bottom) + 84px)}   /* rise above the result bar */
-
-    /* ---- slim RESULT BAR: shown after picking a creature; map stays visible above it ---- */
-    #crBar{display:flex;align-items:center;gap:8px;position:fixed;left:8px;right:8px;
-      bottom:calc(env(safe-area-inset-bottom) + 10px);z-index:1250;
-      background:var(--panel);border:1px solid var(--line);border-radius:14px;
-      padding:10px 10px 10px 14px;box-shadow:0 6px 24px rgba(0,0,0,.55)}
-    #crBar.show{display:flex}
-    #crBarInfo{flex:1;min-width:0;font-size:13px;line-height:1.35;overflow:hidden}
-    #crBarInfo b{font-size:14px}
-    #crBarInfo .vbadge{padding:1px 8px;font-size:11px;margin-left:2px}
-    #crBarMore{flex:none;background:var(--acc);color:#111;border:none;border-radius:9px;
-      padding:8px 11px;font-size:12px;font-weight:700;cursor:pointer;min-height:38px}
-    #crBarX{flex:none;background:var(--panel2);border:1px solid var(--line);color:var(--txt);
-      width:38px;height:38px;border-radius:9px;font-size:15px;cursor:pointer}
-
-    /* ---- combined creature sheet: expanded details (verdict + stats). Leaves the top of the
-       map visible so you keep spatial context; opens only when "Dettagli" is tapped. ---- */
-    #crSheet{display:none;position:fixed;left:0;right:0;bottom:0;z-index:1300;
-      background:var(--panel);border-top:1px solid var(--line);border-radius:18px 18px 0 0;
-      max-height:70dvh;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;
-      box-shadow:0 -10px 34px rgba(0,0,0,.6);padding-bottom:calc(env(safe-area-inset-bottom) + 16px);
-      animation:crUp .28s cubic-bezier(.32,.72,0,1)}
-    #crSheet.show{display:block}
-    @keyframes crUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
-    #crSheetHd{display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:3;
-      background:var(--panel);padding:16px 16px 10px;font-size:15px;font-weight:800;border-radius:18px 18px 0 0}
-    #crSheetHd::before{content:"";position:absolute;top:7px;left:50%;transform:translateX(-50%);
-      width:40px;height:4px;border-radius:2px;background:var(--line)}
-    #crSheetHd button{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
-      width:34px;height:34px;border-radius:8px;font-size:16px;cursor:pointer}
-    /* inside the combined sheet the two panels become plain stacked sections (no floating) */
-    #crSheet #verdict,#crSheet #stats{position:static!important;width:auto!important;max-width:none!important;
-      max-height:none!important;display:block!important;border:none;border-radius:0;box-shadow:none;
-      background:none;overflow:visible;inset:auto}
-    #crSheet #verdict{border-bottom:1px solid var(--line);padding-bottom:6px}
-    #crSheet #verdict .hd,#crSheet #stats .shd{background:none;border-bottom:none;position:static}
-    #crSheet #vClose,#crSheet #st-close{display:none}   /* one close button (in crSheetHd) is enough */
-    .vmetrics{grid-template-columns:1fr 1fr}
-    .stat-grid{grid-template-columns:1fr 1fr}
-
-    /* ---- modals: full-bleed, sticky header/tabs, comfortable tap targets ---- */
-    .ins-modal{align-items:flex-end}                      /* modal rises from the bottom */
-    .ins-card{width:100vw!important;max-width:100vw;max-height:92dvh;border-radius:18px 18px 0 0}
-    .ins-hd{position:sticky;top:0;z-index:6;padding:15px 16px}
-    .ins-hd button{width:34px;height:34px;font-size:16px}
-    .ins-tabs{flex-wrap:wrap;position:sticky;top:49px;z-index:5;background:var(--panel);padding:10px 12px 8px}
-    .itab,.pktab,.reltab,.tktab{min-height:42px;font-size:12px;flex:1 1 30%}
-    .ptab{min-height:42px;font-size:13px;flex:1 1 45%}
+    /* ---- modals: full-bleed sheets above the tab bar ---- */
+    .ins-modal{align-items:flex-end}
+    .ins-card{width:100vw!important;max-width:100vw;max-height:94dvh;border-radius:20px 20px 0 0;
+      padding-bottom:var(--sbi)}
+    .ins-hd{position:sticky;top:0;z-index:6;padding:16px 16px 13px}
+    .ins-hd::before{content:"";position:absolute;top:6px;left:50%;transform:translateX(-50%);
+      width:44px;height:4.5px;border-radius:3px;background:#3b4457}
+    .ins-hd button{width:36px;height:36px;font-size:16px}
+    .ins-tabs{flex-wrap:wrap;position:sticky;top:56px;z-index:5;background:var(--panel);padding:10px 12px 8px}
+    .itab,.pktab,.reltab,.tktab{min-height:44px;font-size:12px;flex:1 1 30%}
+    .ptab{min-height:44px;font-size:13px;flex:1 1 45%}
     /* PK table: drop the lower-value columns so the rest is readable on a phone
        (Voc, PvP deaths, Avg victim Lv) */
     #pkBody th:nth-child(4),#pkBody td:nth-child(4),
     #pkBody th:nth-child(8),#pkBody td:nth-child(8),
     #pkBody th:nth-child(9),#pkBody td:nth-child(9){display:none}
     #pkBody th,#pkBody td{padding:9px 7px;font-size:12.5px}
-    #pkBody .exp{font-size:15px}                          /* bigger expand tap target */
+    #pkBody .exp{font-size:15px}
   }
 </style>
 </head>
@@ -580,6 +645,33 @@
       </div>
     </div>
   </div>
+  <!-- ===== MOBILE APP SHELL (hidden on desktop; wired up in the MOBILE SHELL script) =====
+       #mtop   = map layer chips  ·  #mfloor = floor stepper pill
+       #msheet = the one bottom sheet (peek/half/full)  ·  #mnav = bottom tab bar -->
+  <div id="mtop"></div>
+  <div id="mfloor">
+    <button id="mfUp" title="floor above">▲</button>
+    <button id="mfNow" title="pick a floor">7</button>
+    <button id="mfDn" title="floor below">▼</button>
+  </div>
+  <div id="msheet">
+    <div id="mshGrab"></div>
+    <div id="mshPeek"></div>
+    <div id="mshBody">
+      <div class="mpane" id="mpCr"></div>
+      <div class="mpane" id="mpHunt"></div>
+      <div class="mpane" id="mpNpc"></div>
+      <div class="mpane" id="mpPl"></div>
+      <div class="mpane" id="mpMe"></div>
+    </div>
+  </div>
+  <nav id="mnav">
+    <button data-p="cr">🐉<i>Creatures</i><span class="mdot"></span></button>
+    <button data-p="hunt">🎯<i>Hunt</i><span class="mdot"></span></button>
+    <button data-p="npc">🧙<i>NPC</i><span class="mdot"></span></button>
+    <button data-p="pl">👥<i>Players</i><span class="mdot"></span></button>
+    <button data-p="me">⚔️<i>My Char</i><span class="mdot"></span></button>
+  </nav>
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
@@ -86340,6 +86432,228 @@ function flyToChest(c){
   $('taskBtn').onclick=()=>{ taskModal.classList.add('show'); render(); };
   $('taskClose').onclick=()=>taskModal.classList.remove('show');
   taskModal.onclick=e=>{ if(e.target===taskModal) taskModal.classList.remove('show'); };
+})();
+
+/* ============================================================================
+   MOBILE APP SHELL  (≤820px only — desktop returns immediately)
+   Rebuilds the mobile UX as a native-feeling map app. It does NOT duplicate any
+   feature logic:
+     · stateful panels (#search, #clist, #verdict, #stats, #pgSec, the title)
+       are MOVED into the sheet → every listener already bound stays bound;
+     · every toggle / modal opener stays in the (hidden) #side and is driven by
+       a PROXY chip or list row that .click()s it and mirrors its state through a
+       MutationObserver → one source of truth, no drift.
+   Layout: map = canvas · #mtop chips = map layers · #mfloor = floor stepper ·
+   #msheet = the one sheet (closed/peek/half/full, draggable) · #mnav = tab bar.
+   ============================================================================ */
+(function(){
+  if(!window.matchMedia('(max-width:820px)').matches) return;
+  const $=id=>document.getElementById(id);
+  const sheet=$('msheet'), grab=$('mshGrab'), peek=$('mshPeek'), sbody=$('mshBody'),
+        nav=$('mnav'), chips=$('mtop'), fpop=$('floors');
+  const PANES={cr:$('mpCr'),hunt:$('mpHunt'),npc:$('mpNpc'),pl:$('mpPl'),me:$('mpMe')};
+  const TITLES={
+    cr:['🐉 Creatures','search a monster → every spawn lights up on the map'],
+    hunt:['🎯 Hunt','areas, loot value, quests, weekly tasks, routes'],
+    npc:['🧙 NPC','355 NPCs — what they buy/sell, and where they stand'],
+    pl:['👥 Players','Aeternum threat map + relationship graph'],
+    me:['⚔️ My Char','your party drives every farmable / risky / lethal verdict']};
+  const mk=(tag,cls,html)=>{const e=document.createElement(tag);
+    if(cls)e.className=cls; if(html!=null)e.innerHTML=html; return e;};
+
+  /* ---- 1. move the stateful panels into the sheet ---- */
+  const sw=mk('div','msearch'); sw.appendChild($('search'));
+  const det=mk('div'); det.id='mcrDetail'; det.style.display='none';
+  det.appendChild($('verdict')); det.appendChild($('stats'));
+  PANES.cr.append(sw, det, $('clist'));
+  PANES.me.append(document.querySelector('#side h1'), $('pgSec'));
+
+  /* ---- 2. proxies: chips (map layers) + list rows (menu) ---- */
+  const obs=[];
+  function bind(b,fn){ fn(); const o=new MutationObserver(fn);
+    o.observe(b,{attributes:true,attributeFilter:['class'],childList:true,
+                 characterData:true,subtree:true}); obs.push(o); }
+  const isOn=b=>b.classList.contains('on');
+  const suffix=b=>{const m=b.textContent.match(/:\s*(.+)$/);return m?m[1].trim():null;};
+  function chip(id,icon,label){
+    const b=$(id); if(!b) return;
+    const c=mk('button','mchip'); c.title=b.title||'';
+    c.onclick=()=>b.click();
+    bind(b,()=>{ c.classList.toggle('on',isOn(b));
+      const s=suffix(b);
+      c.innerHTML=icon+' '+label+(s&&/auto|always/i.test(s)?' <b>'+s+'</b>':''); });
+    chips.appendChild(c);
+  }
+  function row(pane,id,icon,label,o){
+    const b=$(id); if(!b) return; o=o||{};
+    const r=mk('button','mrow');
+    r.innerHTML='<span class="mri">'+icon+'</span><span class="mrt">'+label+
+      (o.desc===false?'':'<small>'+(b.title||'').replace(/</g,'&lt;')+'</small>')+'</span>'+
+      (o.toggle?'<span class="mrs"></span>'
+              :'<span class="mrs" style="background:none;border:none;color:var(--dim);font-size:17px;padding:0">›</span>');
+    r.onclick=()=>{ b.click(); if(o.close) collapse(); };
+    pane.appendChild(r);
+    if(o.toggle){ const p=r.querySelector('.mrs');
+      bind(b,()=>{ p.textContent=suffix(b)||(isOn(b)?'On':'Off');
+                   p.classList.toggle('on',isOn(b)); }); }
+  }
+  chip('areaBtn','🎯','Areas');   chip('npcPinBtn','📍','NPCs');
+  chip('chestBtn','🎁','Chests'); chip('cityBtn','🏰','Cities');
+  chip('sprMode','🖼️','Icons');  chip('routeBtn','🧭','Route');
+
+  PANES.hunt.appendChild(mk('div','msec','On the map'));
+  row(PANES.hunt,'areaBtn','🎯','Hunt areas',{toggle:1});
+  row(PANES.hunt,'routeBtn','🧭','How to get there',{toggle:1,close:1});
+  PANES.hunt.appendChild(mk('div','msec','Tools'));
+  row(PANES.hunt,'insBtn','💎','Insights');
+  row(PANES.hunt,'taskBtn','📋','Task Helper');
+
+  PANES.npc.appendChild(mk('div','msec','Directory'));
+  row(PANES.npc,'npcBtn','🧙','NPC directory');
+  PANES.npc.appendChild(mk('div','msec','On the map'));
+  row(PANES.npc,'npcPinBtn','📍','Show NPC pins',{toggle:1,close:1});
+
+  PANES.pl.appendChild(mk('div','msec','Aeternum'));
+  row(PANES.pl,'pkMapBtn','☠️','Threat / PK map');
+  row(PANES.pl,'relBtn','🕸️','Relations graph');
+
+  PANES.me.appendChild(mk('div','msec','Map display'));
+  row(PANES.me,'sprMode','🖼️','Creature icons',{toggle:1});
+  row(PANES.me,'cityBtn','🏰','City names',{toggle:1});
+  row(PANES.me,'chestBtn','🎁','Reward chests',{toggle:1});
+  PANES.me.appendChild(mk('div','msec','Selection'));
+  row(PANES.me,'toAll','🗺️','Show all monsters',{close:1});
+  row(PANES.me,'clearSel','✖️','Clear selection',{close:1});
+  PANES.me.appendChild(mk('div','msec','How to use it on the phone'));
+  PANES.me.appendChild(mk('div','sec legend',
+    '• <b>🐉 Creatures</b> → type a name, tap a result: the sheet drops to a card and '+
+    'the map lights up every spawn.<br>'+
+    '• On the card, tap a <b>z-chip</b> to jump floor, or the card itself for full stats + verdict.<br>'+
+    '• <b>Chips on top</b> switch map layers (areas, NPCs, chests, cities, icons, route).<br>'+
+    '• <b>Floor pill</b> on the right: ▲▼ steps to the next floor that has spawns, tap the number for the grid. 7 = ground.<br>'+
+    '• Drag the sheet handle to resize it; pan the map and it gets out of the way.<br>'+
+    '• The hover scanner and the floor-veil overlays are mouse-only — they stay on desktop.'));
+
+  /* ---- 3. sheet: detents + state ---- */
+  let H=0,PK=0,state='closed',pane=null,sel=null;
+  function measure(){ H=sheet.offsetHeight; PK=grab.offsetHeight+peek.offsetHeight; }
+  function pos(s){ if(!H)measure();
+    return s==='full'?0:s==='half'?Math.round(H*0.52):s==='peek'?Math.max(0,H-PK):H; }
+  function syncNav(){ nav.querySelectorAll('button').forEach(b=>{
+      b.classList.toggle('on',(state==='half'||state==='full')&&b.dataset.p===pane);
+      if(b.dataset.p==='cr') b.classList.toggle('act',sel!=null); }); }
+  function snap(s,silent){ measure(); state=s;
+    sheet.style.transform='translateY('+pos(s)+'px)'; syncNav();
+    if(!silent) setTimeout(()=>{try{map.invalidateSize();}catch(e){}},340); }
+  function showPane(p){ pane=p;
+    Object.keys(PANES).forEach(k=>PANES[k].classList.toggle('on',k===p)); }
+  function collapse(){ if(sel!=null&&pane!=='cr') showPane('cr');
+    renderPeek(); snap(sel!=null?'peek':'closed'); }
+  function chev(){ const c=peek.querySelector('.mphc');
+    if(c) c.textContent = state==='full'?'▾':'▴'; }
+
+  function renderPeek(){
+    if(sel!=null && (pane==='cr'||pane==null)){
+      const i=sel, boss=DATA.boss&&DATA.boss[i], s=STATS[DATA.names[i]];
+      const a=(!boss&&s)?assess(s):null;
+      const badge=a?'<span class="vbadge '+a.cls+'">'+a.label+'</span>':'';
+      const spr=spriteFor(i);
+      const where= boss ? '👑 boss · no fixed spawn'
+        : DATA.crFloors[i].map(z=>'<span class="mfchip'+(z===curFloor?' cur':'')+'" data-z="'+z+'">z'+z+'</span>').join('')
+          +'<span style="opacity:.85">'+DATA.total[i]+' spawn</span>';
+      peek.innerHTML='<div class="mpk">'+(spr?'<img src="'+spr+'" alt="">':'')+
+        '<span class="mpn"><span class="mpnt">'+DATA.display[i]+' '+badge+'</span>'+
+        '<span class="mpns">'+where+'</span></span>'+
+        '<button class="mpx" title="deselect">✕</button></div>';
+      peek.querySelector('.mpx').onclick=e=>{e.stopPropagation();selectCreature(null);};
+      peek.querySelectorAll('.mfchip').forEach(c=>c.onclick=e=>{
+        e.stopPropagation(); selectFloor(+c.dataset.z); });
+      peek.querySelector('.mpk').onclick=()=>snap(state==='full'?'peek':'full');
+    }else{
+      const t=TITLES[pane||'cr'];
+      peek.innerHTML='<div class="mph"><span class="mpht">'+t[0]+'<small>'+t[1]+
+        '</small></span><span class="mphc">'+(state==='full'?'▾':'▴')+'</span></div>';
+      peek.querySelector('.mph').onclick=()=>{ snap(state==='full'?'half':'full'); chev(); };
+    }
+  }
+
+  /* ---- 4. tab bar ---- */
+  nav.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+    const p=b.dataset.p;
+    if(pane===p&&(state==='half'||state==='full')){ collapse(); return; }
+    showPane(p); sbody.scrollTop=0;
+    if(p==='cr') det.style.display = sel!=null?'block':'none';
+    renderPeek(); snap('half');
+  });
+
+  /* ---- 5. creature selection drives the sheet (replaces the old FAB/bar/sheet trio) ---- */
+  crSheetShow=function(i){
+    sel=(i==null?null:i);
+    if(sel==null){ det.style.display='none';
+      if(pane==='cr'&&(state==='half'||state==='full')) renderPeek();
+      else { renderPeek(); snap('closed'); }
+      syncNav(); return; }
+    showPane('cr'); det.style.display='block';
+    const s=$('search'); if(s) s.blur();
+    fpop.classList.remove('mopen');
+    renderPeek(); snap('peek');          // map stays visible → exploration first
+  };
+  const se=$('search');
+  if(se) se.addEventListener('focus',()=>{ showPane('cr'); renderPeek(); snap('full'); });
+
+  /* ---- 6. drag the handle / peek row between detents ---- */
+  let y0=0,t0=0,base=0,dragging=false;
+  function down(e){ const p=e.touches?e.touches[0]:e;
+    y0=p.clientY; t0=Date.now(); base=pos(state); dragging=true;
+    sheet.classList.add('dragging'); }
+  function move(e){ if(!dragging)return; const p=e.touches?e.touches[0]:e;
+    let y=base+(p.clientY-y0); y=Math.max(-24,Math.min(H,y));
+    sheet.style.transform='translateY('+y+'px)';
+    if(e.cancelable) e.preventDefault(); }
+  function up(e){ if(!dragging)return; dragging=false; sheet.classList.remove('dragging');
+    const p=e.changedTouches?e.changedTouches[0]:e, dy=p.clientY-y0;
+    if(Math.abs(dy)<6){ sheet.style.transform='translateY('+pos(state)+'px)'; return; } // tap → let the click through
+    const cur=base+dy, dt=Date.now()-t0, fast=Math.abs(dy)/Math.max(1,dt)>0.6;
+    const cands=['full','half'].concat(sel!=null?['peek']:[]).concat(['closed'])
+                 .sort((a,b)=>pos(a)-pos(b));
+    let best=cands[0],bd=1e9;
+    cands.forEach(s=>{const d=Math.abs(pos(s)-cur); if(d<bd){bd=d;best=s;}});
+    if(fast){ const i=cands.indexOf(best)+(dy<0?-1:1);
+      if(i>=0&&i<cands.length) best=cands[i]; }
+    snap(best); chev();
+  }
+  [grab,peek].forEach(el=>{
+    el.addEventListener('touchstart',down,{passive:true});
+    el.addEventListener('touchmove',move,{passive:false});
+    el.addEventListener('touchend',up,{passive:true});
+    el.addEventListener('mousedown',down);
+  });
+  window.addEventListener('mousemove',move);
+  window.addEventListener('mouseup',up);
+
+  /* ---- 7. floor pill + grid popover (replaces the 16-button column) ---- */
+  function mfSync(){ $('mfNow').innerHTML=curFloor+
+    '<small>'+((DATA.floorcount[curFloor]||0)||'·')+'</small>'; }
+  const _sf=selectFloor;
+  selectFloor=function(z,keepView){ _sf(z,keepView); mfSync();
+    if(sel!=null&&state==='peek') renderPeek(); };
+  function step(d){ let z=curFloor+d;
+    while(z>=0&&z<=15&&!(DATA.floorcount[z]||0)) z+=d;
+    if(z>=0&&z<=15) selectFloor(z); }
+  $('mfUp').onclick=()=>step(-1);        // ▲ = one floor up (lower z)
+  $('mfDn').onclick=()=>step(1);
+  $('mfNow').onclick=e=>{ e.stopPropagation(); fpop.classList.toggle('mopen'); };
+  fpop.addEventListener('click',()=>setTimeout(()=>fpop.classList.remove('mopen'),0));
+  map.on('movestart',()=>fpop.classList.remove('mopen'));
+  map.on('dragstart',()=>{ if(state==='half'||state==='full') collapse(); });
+  mfSync();
+
+  /* ---- 8. boot / viewport changes ---- */
+  window.addEventListener('resize',()=>{ measure();
+    sheet.style.transform='translateY('+pos(state)+'px)'; });
+  window.addEventListener('orientationchange',()=>setTimeout(()=>snap(state),350));
+  requestAnimationFrame(()=>{ measure(); renderPeek(); snap('closed',true);
+    setTimeout(()=>{try{map.invalidateSize();}catch(e){}},300); });
 })();
 
 buildDanger();   // initial per-tile danger from the default PG
