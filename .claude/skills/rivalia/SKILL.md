@@ -22,8 +22,9 @@ Quando ti chiede di un mostro, uno spot, un drop o un prezzo: **apri il Bestiary
 
 Per leggere le fonti usa `WebFetch` (le pagine wiki.rivaliaonline.com sono pubbliche, non Midway). Il Bestiary `catalog/mainland-creatures/` ha le stats embedded come JSON nel markup (health, experience, speed, race, armor, defense, immunities, attacks, loot) — vedi i dati già estratti sotto.
 
-## FONTI UFFICIALI (usare queste — la principale è wiki.rivaliaonline.com)
-- Wiki Home: https://wiki.rivaliaonline.com/
+## FONTI UFFICIALI (usare queste — la principale è la wiki su rivaliaonline.com/wiki.php)
+- **Wiki (FUNZIONANTE, confermata da Andrea set 2026):** https://rivaliaonline.com/wiki.php — è QUESTA l'entry point viva. ⚠️ Può dare 403 a `WebFetch` (bot-block/proxy) pur funzionando nel browser: se il fetch fallisce NON dedurre che la wiki è giù, incrocia coi dati locali e in caso rimanda Andrea a controllare la pagina.
+- Wiki Home (vecchio sottodominio, spesso 404 — usare solo come fallback): https://wiki.rivaliaonline.com/
 - **Bestiary** (stats e drop REALI): https://wiki.rivaliaonline.com/catalog/mainland-creatures/
 - **Hunt** (spot di caccia): https://wiki.rivaliaonline.com/hunt/
 - Roadmap: https://wiki.rivaliaonline.com/roadmap/
@@ -65,7 +66,7 @@ Rivalia usa il combat model 7.4 classico. Formule estratte dal JS del calculator
 Il danno cresce **linearmente con la skill**: `+5 × value × stance × 99/10000` di max hit per ogni punto skill (con Spear ≈ +1.8 max hit / punto). **Skill rate Legacy = x1** (vanilla), quindi salire è lento e i colpi-per-livello crescono salendo.
 
 ## FORMULE AVANZAMENTO SKILL (come SALGONO Distance & Shielding — non il danno)
-⚠️ **Distinguere netto confermato vs modello.** Verificato lug 2026: la wiki (`wiki.rivaliaonline.com`) era **giù/404 su tutto**, `/calculator` reindirizza a `landing.php` (morto), e l'export GitBook completo (`llms-full.txt`, 91KB) ha **ZERO occorrenze** di skill-training/tries/formula. Quindi:
+⚠️ **Distinguere netto confermato vs modello.** Verificato lug 2026: il sottodominio `wiki.rivaliaonline.com` era **giù/404 su tutto** (aggiornamento set 2026: la wiki viva è `rivaliaonline.com/wiki.php`), `/calculator` reindirizza a `landing.php` (morto), e l'export GitBook completo (`llms-full.txt`, 91KB) ha **ZERO occorrenze** di skill-training/tries/formula. Quindi:
 
 **CONFERMATO da fonte Rivalia (export GitBook):**
 - **Skills x1** su Legacy (come Exp/Magic/Spawn/Loot). **Nessun** training tool, **nessun** offline training, **nessuna** stamina, **nessun** bonus premium/loyalty, **nessun** double-skill. Task Board dà solo Exp + Bounty/Hunting Points, MAI skill. → Le skill salgono **solo giocando attivamente a velocità vanilla piena**.

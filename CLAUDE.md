@@ -7,7 +7,7 @@ no OneDrive, no Midway, no AIM package. Publishing is **GitHub Pages** (`map/ind
 - **`rivalia`** (`.claude/skills/rivalia/`) — GAME advice only: monster stats, hunting
   spots, loot, prices, quests, NPCs, positions, Paladin strategy. Rule: never give
   Rivalia numbers from memory — verify against `personal/rivalia/catalog-stats.json` /
-  `hunt-spots.json` and `wiki.rivaliaonline.com`.
+  `hunt-spots.json` and the live wiki at `rivaliaonline.com/wiki.php`.
 - **`rivalia-map`** (`.claude/skills/rivalia-map/`) — the **single source of truth** for
   building/updating/**publishing** the interactive reverse map (the pipeline, the
   pathfinder, the weekly PK refresh). Use this whenever you touch the map.
