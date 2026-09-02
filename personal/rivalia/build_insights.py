@@ -10,7 +10,7 @@ Usage: python3 build_insights.py
 import json, math, re, glob, os, collections, statistics
 
 # ---- YOUR CHARACTER (edit when it changes) ----
-CHAR = dict(level=30, distance=64, shielding=53, hp=515, ammo_atk=30, stance=1.2)
+CHAR = dict(level=40, distance=71, shielding=57, hp=615, ammo_atk=30, stance=1.2)
 OX, OY = 31744, 30701
 REF = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                     '..', '..', '.claude', 'skills', 'rivalia', 'references'))

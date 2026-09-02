@@ -1,14 +1,14 @@
 {
  "char": {
-  "level": 30,
-  "distance": 64,
-  "shielding": 53,
-  "hp": 515,
+  "level": 40,
+  "distance": 71,
+  "shielding": 57,
+  "hp": 615,
   "ammo_atk": 30,
   "stance": 1.2
  },
- "avg_hit": 65,
- "max_hit": 131,
+ "avg_hit": 72,
+ "max_hit": 144,
  "loot_value": [
   {
    "item": "Chaos Shield",
@@ -247,22 +247,22 @@
    "droppers": 2,
    "mobs": [
     {
-     "mob": "Rahemos",
-     "slug": "rahemos",
-     "hp": 3700,
-     "spawns": 1,
-     "score": 0.0
-    },
-    {
      "mob": "Mad Santa",
      "slug": "mad-santa",
      "hp": 250000,
      "spawns": 0,
      "score": 0.0
+    },
+    {
+     "mob": "Rahemos",
+     "slug": "rahemos",
+     "hp": 3700,
+     "spawns": 1,
+     "score": 0.0
     }
    ],
    "easiest_hp": 3700,
-   "top_spawns": 1
+   "top_spawns": 0
   },
   {
    "item": "Boots Of Haste",
@@ -301,17 +301,17 @@
      "score": 0.2
     },
     {
-     "mob": "Skullar",
-     "slug": "skullar",
-     "hp": 580,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Omruc",
      "slug": "omruc",
      "hp": 4300,
      "spawns": 1,
+     "score": 0.0
+    },
+    {
+     "mob": "Skullar",
+     "slug": "skullar",
+     "hp": 580,
+     "spawns": 0,
      "score": 0.0
     }
    ],
@@ -420,6 +420,13 @@
    "droppers": 7,
    "mobs": [
     {
+     "mob": "Mad Santa",
+     "slug": "mad-santa",
+     "hp": 250000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
@@ -434,23 +441,16 @@
      "score": 0.0
     },
     {
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -1004,13 +1004,6 @@
      "score": 0.0
     },
     {
-     "mob": "Mahrdis",
-     "slug": "mahrdis",
-     "hp": 3900,
-     "spawns": 1,
-     "score": 0.0
-    },
-    {
      "mob": "Morgaroth",
      "slug": "morgaroth",
      "hp": 55000,
@@ -1018,9 +1011,16 @@
      "score": 0.0
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Mahrdis",
+     "slug": "mahrdis",
+     "hp": 3900,
+     "spawns": 1,
+     "score": 0.0
+    },
+    {
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -1057,17 +1057,17 @@
      "score": 1.2
     },
     {
-     "mob": "Chaos Hydra",
-     "slug": "chaos-hydra",
-     "hp": 3750,
-     "spawns": 7,
-     "score": 0.2
-    },
-    {
      "mob": "Wight",
      "slug": "wight",
      "hp": 6000,
      "spawns": 14,
+     "score": 0.2
+    },
+    {
+     "mob": "Chaos Hydra",
+     "slug": "chaos-hydra",
+     "hp": 3750,
+     "spawns": 7,
      "score": 0.2
     },
     {
@@ -1456,17 +1456,17 @@
      "score": 0.7
     },
     {
-     "mob": "Shadow Drake",
-     "slug": "shadow-drake",
-     "hp": 21400,
-     "spawns": 28,
-     "score": 0.1
-    },
-    {
      "mob": "Medusa",
      "slug": "medusa",
      "hp": 4500,
      "spawns": 5,
+     "score": 0.1
+    },
+    {
+     "mob": "Shadow Drake",
+     "slug": "shadow-drake",
+     "hp": 21400,
+     "spawns": 28,
      "score": 0.1
     }
    ],
@@ -3067,16 +3067,16 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3543,13 +3543,6 @@
      "score": 0.7
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Morgaroth",
      "slug": "morgaroth",
      "hp": 55000,
@@ -3557,9 +3550,16 @@
      "score": 0.0
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6347,10 +6347,10 @@
      "score": 0.7
     },
     {
-     "mob": "Rahemos",
-     "slug": "rahemos",
-     "hp": 3700,
-     "spawns": 1,
+     "mob": "Mad Santa",
+     "slug": "mad-santa",
+     "hp": 250000,
+     "spawns": 0,
      "score": 0.0
     }
    ],
@@ -7993,16 +7993,16 @@
      "score": 71.4
     },
     {
-     "mob": "The Horned Fox",
-     "slug": "the-horned-fox",
-     "hp": 265,
+     "mob": "General Murius",
+     "slug": "general-murius",
+     "hp": 550,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "General Murius",
-     "slug": "general-murius",
-     "hp": 550,
+     "mob": "The Horned Fox",
+     "slug": "the-horned-fox",
+     "hp": 265,
      "spawns": 0,
      "score": 0.0
     }
@@ -8910,16 +8910,16 @@
      "score": 10.5
     },
     {
-     "mob": "The Horned Fox",
-     "slug": "the-horned-fox",
-     "hp": 265,
+     "mob": "General Murius",
+     "slug": "general-murius",
+     "hp": 550,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "General Murius",
-     "slug": "general-murius",
-     "hp": 550,
+     "mob": "The Horned Fox",
+     "slug": "the-horned-fox",
+     "hp": 265,
      "spawns": 0,
      "score": 0.0
     }
@@ -10509,9 +10509,9 @@
      "score": 78.1
     },
     {
-     "mob": "Gazer",
-     "slug": "gazer",
-     "hp": 120,
+     "mob": "The Evil Eye",
+     "slug": "the-evil-eye",
+     "hp": 1100,
      "spawns": 0,
      "score": 0.0
     }
@@ -10549,15 +10549,15 @@
      "score": 20.0
     },
     {
-     "mob": "High Necromancer",
-     "slug": "high-necromancer",
+     "mob": "Necropharus",
+     "slug": "necropharus",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Necropharus",
-     "slug": "necropharus",
+     "mob": "High Necromancer",
+     "slug": "high-necromancer",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
@@ -13598,17 +13598,17 @@
      "score": 27.0
     },
     {
-     "mob": "Carniphila",
-     "slug": "carniphila",
-     "hp": 255,
-     "spawns": 36,
-     "score": 14.1
-    },
-    {
      "mob": "Elf Arcanist",
      "slug": "elf-arcanist",
      "hp": 220,
      "spawns": 31,
+     "score": 14.1
+    },
+    {
+     "mob": "Carniphila",
+     "slug": "carniphila",
+     "hp": 255,
+     "spawns": 36,
      "score": 14.1
     },
     {
@@ -15364,17 +15364,17 @@
      "score": 1.7
     },
     {
-     "mob": "Elder Wyrm",
-     "slug": "elder-wyrm",
-     "hp": 2700,
-     "spawns": 34,
-     "score": 1.3
-    },
-    {
      "mob": "Forsaken Knight",
      "slug": "forsaken-knight",
      "hp": 2400,
      "spawns": 31,
+     "score": 1.3
+    },
+    {
+     "mob": "Elder Wyrm",
+     "slug": "elder-wyrm",
+     "hp": 2700,
+     "spawns": 34,
      "score": 1.3
     }
    ],
@@ -18524,16 +18524,16 @@
      "score": 1.3
     },
     {
-     "mob": "Dharalion",
-     "slug": "dharalion",
-     "hp": 390,
+     "mob": "Fernfang",
+     "slug": "fernfang",
+     "hp": 400,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Fernfang",
-     "slug": "fernfang",
-     "hp": 400,
+     "mob": "Dharalion",
+     "slug": "dharalion",
+     "hp": 390,
      "spawns": 0,
      "score": 0.0
     }
@@ -19793,6 +19793,13 @@
      "score": 0.0
     },
     {
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -19802,13 +19809,6 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -19840,6 +19840,13 @@
      "score": 0.0
     },
     {
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -19849,13 +19856,6 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -20311,6 +20311,76 @@
    "file": "quests/longsword-quest.md"
   },
   {
+   "title": "Noble Armor Quest",
+   "rec_level": 35,
+   "reward": "Noble Armor and Crown Helmet",
+   "doable": true,
+   "file": "quests/noble-armor-quest.md"
+  },
+  {
+   "title": "Panpipe Quest",
+   "rec_level": 35,
+   "reward": "Panpipes, 2 Small Amethysts, Power Ring",
+   "doable": true,
+   "file": "quests/panpipe-quest.md"
+  },
+  {
+   "title": "Circle Room Quest",
+   "rec_level": 40,
+   "reward": "Dwarven Axe, War Hammer",
+   "doable": true,
+   "file": "quests/circle-room-quest.md"
+  },
+  {
+   "title": "Crusader Helmet Quest",
+   "rec_level": 40,
+   "reward": "Crusader Helmet",
+   "doable": true,
+   "file": "quests/crusader-helmet-quest.md"
+  },
+  {
+   "title": "Devil Helmet Quest",
+   "rec_level": 40,
+   "reward": "Devil Helmet, Halberd, 4 Small Sapphire",
+   "doable": true,
+   "file": "quests/devil-helmet-quest.md"
+  },
+  {
+   "title": "Power Bolts Quest",
+   "rec_level": 40,
+   "reward": "5 Power Bolts, 12 Burst Arrows, Two Handed Sword, The Dreammaster (Book), 6 Throwing Stars, Talon.",
+   "doable": true,
+   "file": "quests/power-bolts-quest.md"
+  },
+  {
+   "title": "Spike Sword Quest",
+   "rec_level": 40,
+   "reward": "Spike Sword",
+   "doable": true,
+   "file": "quests/spike-sword-quest.md"
+  },
+  {
+   "title": "Stealth Ring Quest",
+   "rec_level": 40,
+   "reward": "Stealth Ring and Protection Amulet.",
+   "doable": true,
+   "file": "quests/stealth-ring-quest.md"
+  },
+  {
+   "title": "Time Ring Quest",
+   "rec_level": 40,
+   "reward": "Time Ring, Elven Amulet, Crystal Ball",
+   "doable": true,
+   "file": "quests/time-ring-quest.md"
+  },
+  {
+   "title": "Triangle Tower Quest",
+   "rec_level": 40,
+   "reward": "Garlic Necklace, Dwarven Ring and 2 Small Sapphires",
+   "doable": true,
+   "file": "quests/triangle-tower-quest.md"
+  },
+  {
    "title": "Berserker Treasure Quest",
    "rec_level": null,
    "reward": "3 White Pearls and 175 gp.",
@@ -20416,74 +20486,25 @@
    "file": "quests/throwing-star-quest.md"
   },
   {
-   "title": "Noble Armor Quest",
-   "rec_level": 35,
-   "reward": "Noble Armor and Crown Helmet",
-   "doable": false,
-   "file": "quests/noble-armor-quest.md"
-  },
-  {
-   "title": "Panpipe Quest",
-   "rec_level": 35,
-   "reward": "Panpipes, 2 Small Amethysts, Power Ring",
-   "doable": false,
-   "file": "quests/panpipe-quest.md"
-  },
-  {
-   "title": "Circle Room Quest",
+   "title": "Isle of the Mists Quest",
    "rec_level": 40,
-   "reward": "Dwarven Axe, War Hammer",
-   "doable": false,
-   "file": "quests/circle-room-quest.md"
+   "reward": "2 Small Emeralds, Book",
+   "doable": true,
+   "file": "quests/isle-of-the-mists-quest.md"
   },
   {
-   "title": "Crusader Helmet Quest",
+   "title": "Silver Brooch Quest",
    "rec_level": 40,
-   "reward": "Crusader Helmet",
-   "doable": false,
-   "file": "quests/crusader-helmet-quest.md"
+   "reward": "Silver Brooch, 2 Small Rubies, 3 Small Diamonds",
+   "doable": true,
+   "file": "quests/silver-brooch-quest.md"
   },
   {
-   "title": "Devil Helmet Quest",
+   "title": "Small Ruby Quest",
    "rec_level": 40,
-   "reward": "Devil Helmet, Halberd, 4 Small Sapphire",
-   "doable": false,
-   "file": "quests/devil-helmet-quest.md"
-  },
-  {
-   "title": "Power Bolts Quest",
-   "rec_level": 40,
-   "reward": "5 Power Bolts, 12 Burst Arrows, Two Handed Sword, The Dreammaster (Book), 6 Throwing Stars, Talon.",
-   "doable": false,
-   "file": "quests/power-bolts-quest.md"
-  },
-  {
-   "title": "Spike Sword Quest",
-   "rec_level": 40,
-   "reward": "Spike Sword",
-   "doable": false,
-   "file": "quests/spike-sword-quest.md"
-  },
-  {
-   "title": "Stealth Ring Quest",
-   "rec_level": 40,
-   "reward": "Stealth Ring and Protection Amulet.",
-   "doable": false,
-   "file": "quests/stealth-ring-quest.md"
-  },
-  {
-   "title": "Time Ring Quest",
-   "rec_level": 40,
-   "reward": "Time Ring, Elven Amulet, Crystal Ball",
-   "doable": false,
-   "file": "quests/time-ring-quest.md"
-  },
-  {
-   "title": "Triangle Tower Quest",
-   "rec_level": 40,
-   "reward": "Garlic Necklace, Dwarven Ring and 2 Small Sapphires",
-   "doable": false,
-   "file": "quests/triangle-tower-quest.md"
+   "reward": "1 Small Ruby",
+   "doable": true,
+   "file": "quests/small-ruby-quest.md"
   },
   {
    "title": "Geomancer Quest",
@@ -20554,27 +20575,6 @@
    "reward": "Boots of Haste, Giant Sword, Tower Shield, Stealth Ring, Stone Skin Amulet and 100 Platinum Coins (10K)",
    "doable": false,
    "file": "quests/the-queen-of-the-banshees-quest.md"
-  },
-  {
-   "title": "Isle of the Mists Quest",
-   "rec_level": 40,
-   "reward": "2 Small Emeralds, Book",
-   "doable": false,
-   "file": "quests/isle-of-the-mists-quest.md"
-  },
-  {
-   "title": "Silver Brooch Quest",
-   "rec_level": 40,
-   "reward": "Silver Brooch, 2 Small Rubies, 3 Small Diamonds",
-   "doable": false,
-   "file": "quests/silver-brooch-quest.md"
-  },
-  {
-   "title": "Small Ruby Quest",
-   "rec_level": 40,
-   "reward": "1 Small Ruby",
-   "doable": false,
-   "file": "quests/small-ruby-quest.md"
   },
   {
    "title": "Naginata Quest",
@@ -20740,17 +20740,17 @@
     "score": 1.7
    },
    {
-    "mob": "Elder Wyrm",
-    "slug": "elder-wyrm",
-    "hp": 2700,
-    "mobs": 34,
-    "score": 1.3
-   },
-   {
     "mob": "Forsaken Knight",
     "slug": "forsaken-knight",
     "hp": 2400,
     "mobs": 31,
+    "score": 1.3
+   },
+   {
+    "mob": "Elder Wyrm",
+    "slug": "elder-wyrm",
+    "hp": 2700,
+    "mobs": 34,
     "score": 1.3
    }
   ],
@@ -20793,17 +20793,17 @@
     "score": 1.2
    },
    {
-    "mob": "Chaos Hydra",
-    "slug": "chaos-hydra",
-    "hp": 3750,
-    "mobs": 7,
-    "score": 0.2
-   },
-   {
     "mob": "Wight",
     "slug": "wight",
     "hp": 6000,
     "mobs": 14,
+    "score": 0.2
+   },
+   {
+    "mob": "Chaos Hydra",
+    "slug": "chaos-hydra",
+    "hp": 3750,
+    "mobs": 7,
     "score": 0.2
    },
    {
@@ -21493,13 +21493,6 @@
     "score": 0.0
    },
    {
-    "mob": "Mahrdis",
-    "slug": "mahrdis",
-    "hp": 3900,
-    "mobs": 1,
-    "score": 0.0
-   },
-   {
     "mob": "Morgaroth",
     "slug": "morgaroth",
     "hp": 55000,
@@ -21507,9 +21500,16 @@
     "score": 0.0
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Mahrdis",
+    "slug": "mahrdis",
+    "hp": 3900,
+    "mobs": 1,
+    "score": 0.0
+   },
+   {
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -21537,21 +21537,28 @@
     "score": 0.0
    },
    {
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
     "mobs": 0,
     "score": 0.0
-   },
-   {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
    }
   ],
   "Demon Shield": [
+   {
+    "mob": "Mad Santa",
+    "slug": "mad-santa",
+    "hp": 250000,
+    "mobs": 0,
+    "score": 0.0
+   },
    {
     "mob": "Orshabaal",
     "slug": "orshabaal",
@@ -21567,23 +21574,16 @@
     "score": 0.0
    },
    {
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -21641,6 +21641,13 @@
     "score": 0.0
    },
    {
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -21650,13 +21657,6 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -21678,13 +21678,6 @@
     "score": 0.7
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Morgaroth",
     "slug": "morgaroth",
     "hp": 55000,
@@ -21692,9 +21685,16 @@
     "score": 0.0
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -21715,6 +21715,13 @@
     "score": 0.0
    },
    {
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -21724,13 +21731,6 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -22921,9 +22921,9 @@
     "score": 78.1
    },
    {
-    "mob": "Gazer",
-    "slug": "gazer",
-    "hp": 120,
+    "mob": "The Evil Eye",
+    "slug": "the-evil-eye",
+    "hp": 1100,
     "mobs": 0,
     "score": 0.0
    }
@@ -23407,15 +23407,15 @@
     "score": 20.0
    },
    {
-    "mob": "High Necromancer",
-    "slug": "high-necromancer",
+    "mob": "Necropharus",
+    "slug": "necropharus",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Necropharus",
-    "slug": "necropharus",
+    "mob": "High Necromancer",
+    "slug": "high-necromancer",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
@@ -23789,17 +23789,17 @@
     "score": 27.0
    },
    {
-    "mob": "Carniphila",
-    "slug": "carniphila",
-    "hp": 255,
-    "mobs": 36,
-    "score": 14.1
-   },
-   {
     "mob": "Elf Arcanist",
     "slug": "elf-arcanist",
     "hp": 220,
     "mobs": 31,
+    "score": 14.1
+   },
+   {
+    "mob": "Carniphila",
+    "slug": "carniphila",
+    "hp": 255,
+    "mobs": 36,
     "score": 14.1
    },
    {
@@ -25273,16 +25273,16 @@
     "score": 1.3
    },
    {
-    "mob": "Dharalion",
-    "slug": "dharalion",
-    "hp": 390,
+    "mob": "Fernfang",
+    "slug": "fernfang",
+    "hp": 400,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Fernfang",
-    "slug": "fernfang",
-    "hp": 400,
+    "mob": "Dharalion",
+    "slug": "dharalion",
+    "hp": 390,
     "mobs": 0,
     "score": 0.0
    }
@@ -26637,10 +26637,10 @@
     "score": 0.7
    },
    {
-    "mob": "Rahemos",
-    "slug": "rahemos",
-    "hp": 3700,
-    "mobs": 1,
+    "mob": "Mad Santa",
+    "slug": "mad-santa",
+    "hp": 250000,
+    "mobs": 0,
     "score": 0.0
    }
   ],
@@ -26897,16 +26897,16 @@
     "score": 10.5
    },
    {
-    "mob": "The Horned Fox",
-    "slug": "the-horned-fox",
-    "hp": 265,
+    "mob": "General Murius",
+    "slug": "general-murius",
+    "hp": 550,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "General Murius",
-    "slug": "general-murius",
-    "hp": 550,
+    "mob": "The Horned Fox",
+    "slug": "the-horned-fox",
+    "hp": 265,
     "mobs": 0,
     "score": 0.0
    }
@@ -26927,16 +26927,16 @@
     "score": 71.4
    },
    {
-    "mob": "The Horned Fox",
-    "slug": "the-horned-fox",
-    "hp": 265,
+    "mob": "General Murius",
+    "slug": "general-murius",
+    "hp": 550,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "General Murius",
-    "slug": "general-murius",
-    "hp": 550,
+    "mob": "The Horned Fox",
+    "slug": "the-horned-fox",
+    "hp": 265,
     "mobs": 0,
     "score": 0.0
    }
@@ -27236,17 +27236,17 @@
     "score": 0.7
    },
    {
-    "mob": "Shadow Drake",
-    "slug": "shadow-drake",
-    "hp": 21400,
-    "mobs": 28,
-    "score": 0.1
-   },
-   {
     "mob": "Medusa",
     "slug": "medusa",
     "hp": 4500,
     "mobs": 5,
+    "score": 0.1
+   },
+   {
+    "mob": "Shadow Drake",
+    "slug": "shadow-drake",
+    "hp": 21400,
+    "mobs": 28,
     "score": 0.1
    }
   ],
@@ -27830,17 +27830,17 @@
   ],
   "Crystal Wand": [
    {
-    "mob": "Rahemos",
-    "slug": "rahemos",
-    "hp": 3700,
-    "mobs": 1,
-    "score": 0.0
-   },
-   {
     "mob": "Mad Santa",
     "slug": "mad-santa",
     "hp": 250000,
     "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Rahemos",
+    "slug": "rahemos",
+    "hp": 3700,
+    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -28294,17 +28294,17 @@
     "score": 0.2
    },
    {
-    "mob": "Skullar",
-    "slug": "skullar",
-    "hp": 580,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Omruc",
     "slug": "omruc",
     "hp": 4300,
     "mobs": 1,
+    "score": 0.0
+   },
+   {
+    "mob": "Skullar",
+    "slug": "skullar",
+    "hp": 580,
+    "mobs": 0,
     "score": 0.0
    }
   ],
@@ -29234,44 +29234,8 @@
     "Scorpion"
    ],
    "spawn_near": 1137,
-   "exp_per_shot": 41.1,
+   "exp_per_shot": 41.6,
    "file": "hunting-places/drefia.md"
-  },
-  {
-   "name": "Ghostlands",
-   "x": 32214,
-   "y": 31862,
-   "z": 12,
-   "px": 470,
-   "py": 1161,
-   "radius": 79,
-   "entrance": {
-    "x": 32202,
-    "y": 31822,
-    "z": 7,
-    "px": 458,
-    "py": 1121
-   },
-   "rec_level": "Knights 20, Paladins 20, Mages 13",
-   "loot": "Knight Legs, Knight Armor, Spider Silk, Guardian Shield, Terra Rod",
-   "profit": "Loot/Profit: Average (\u2605\u2605\u2605); Exp: Average (\u2605\u2605\u2605)",
-   "creatures_present": [
-    "Rat",
-    "Cave Rat",
-    "Poison Spider",
-    "Slime",
-    "Rabbit",
-    "Cave Rat",
-    "Skeleton",
-    "Scorpion",
-    "Ghoul",
-    "Ghoul",
-    "Demon Skeleton",
-    "Poison Spider"
-   ],
-   "spawn_near": 980,
-   "exp_per_shot": 36.4,
-   "file": "hunting-places/ghostlands.md"
   },
   {
    "name": "Isle of the Kings",
@@ -29306,7 +29270,7 @@
     "Mummy"
    ],
    "spawn_near": 398,
-   "exp_per_shot": 35.8,
+   "exp_per_shot": 41.6,
    "file": "hunting-places/isle-of-the-kings.md"
   },
   {
@@ -29342,7 +29306,7 @@
     "Slime"
    ],
    "spawn_near": 104,
-   "exp_per_shot": 33.5,
+   "exp_per_shot": 39.1,
    "file": "hunting-places/desert-dungeon.md"
   },
   {
@@ -29371,8 +29335,44 @@
     "Mummy"
    ],
    "spawn_near": 89,
-   "exp_per_shot": 33.1,
+   "exp_per_shot": 38.5,
    "file": "hunting-places/dark-pyramid.md"
+  },
+  {
+   "name": "Ghostlands",
+   "x": 32214,
+   "y": 31862,
+   "z": 12,
+   "px": 470,
+   "py": 1161,
+   "radius": 79,
+   "entrance": {
+    "x": 32202,
+    "y": 31822,
+    "z": 7,
+    "px": 458,
+    "py": 1121
+   },
+   "rec_level": "Knights 20, Paladins 20, Mages 13",
+   "loot": "Knight Legs, Knight Armor, Spider Silk, Guardian Shield, Terra Rod",
+   "profit": "Loot/Profit: Average (\u2605\u2605\u2605); Exp: Average (\u2605\u2605\u2605)",
+   "creatures_present": [
+    "Rat",
+    "Cave Rat",
+    "Poison Spider",
+    "Slime",
+    "Rabbit",
+    "Cave Rat",
+    "Skeleton",
+    "Scorpion",
+    "Ghoul",
+    "Ghoul",
+    "Demon Skeleton",
+    "Poison Spider"
+   ],
+   "spawn_near": 980,
+   "exp_per_shot": 37.2,
+   "file": "hunting-places/ghostlands.md"
   },
   {
    "name": "Hellgate",
@@ -29405,11 +29405,83 @@
     "Giant Spider"
    ],
    "spawn_near": 164,
-   "exp_per_shot": 32.3,
+   "exp_per_shot": 34.5,
    "file": "hunting-places/hellgate.md",
    "route": {
     "slug": "route-hellgate",
     "route": "Hellgate \u2192 exit (to surface near Ab'Dendriel)"
+   }
+  },
+  {
+   "name": "Hero Cave",
+   "x": 33135,
+   "y": 31646,
+   "z": 13,
+   "px": 1391,
+   "py": 945,
+   "radius": 76,
+   "entrance": {
+    "x": 33164,
+    "y": 31638,
+    "z": 7,
+    "px": 1420,
+    "py": 937
+   },
+   "rec_level": "Knights 70, Paladins 60, Mages 50",
+   "loot": "Reins",
+   "profit": "Loot/Profit: Good; Exp: Good",
+   "creatures_present": [
+    "Wild Warrior",
+    "Demon Skeleton",
+    "Stalker",
+    "Priestess",
+    "Wild Warrior",
+    "Hunter",
+    "Demon Skeleton",
+    "Priestess",
+    "Poison Spider",
+    "Skeleton",
+    "Wild Warrior",
+    "Slime"
+   ],
+   "spawn_near": 1081,
+   "exp_per_shot": 33.8,
+   "file": "hunting-places/hero-cave.md"
+  },
+  {
+   "name": "Mintwallin",
+   "x": 32426,
+   "y": 32135,
+   "z": 15,
+   "px": 682,
+   "py": 1434,
+   "radius": 49,
+   "entrance": {
+    "x": 32410,
+    "y": 32157,
+    "z": 15,
+    "px": 666,
+    "py": 1456
+   },
+   "rec_level": "Knights 35, Paladins 30, Mages 27",
+   "loot": "Dragon Shield, Wand of Inferno, Dragonbone Staff, Wand of Cosmic Energy, Dragon Hammer",
+   "profit": "Loot/Profit: Good; Exp: Average",
+   "creatures_present": [
+    "Dog",
+    "Snake",
+    "Minotaur",
+    "Minotaur Archer",
+    "Minotaur Mage",
+    "Minotaur Guard",
+    "Dragon",
+    "Giant Spider"
+   ],
+   "spawn_near": 129,
+   "exp_per_shot": 33.6,
+   "file": "hunting-places/mintwallin.md",
+   "route": {
+    "slug": "route-mintwallin",
+    "route": "Thais \u2192 Mintwallin"
    }
   },
   {
@@ -29445,7 +29517,7 @@
     "Scorpion"
    ],
    "spawn_near": 1220,
-   "exp_per_shot": 30.2,
+   "exp_per_shot": 30.3,
    "file": "hunting-places/cyclopolis.md"
   },
   {
@@ -29489,42 +29561,6 @@
    }
   },
   {
-   "name": "Mintwallin",
-   "x": 32426,
-   "y": 32135,
-   "z": 15,
-   "px": 682,
-   "py": 1434,
-   "radius": 49,
-   "entrance": {
-    "x": 32410,
-    "y": 32157,
-    "z": 15,
-    "px": 666,
-    "py": 1456
-   },
-   "rec_level": "Knights 35, Paladins 30, Mages 27",
-   "loot": "Dragon Shield, Wand of Inferno, Dragonbone Staff, Wand of Cosmic Energy, Dragon Hammer",
-   "profit": "Loot/Profit: Good; Exp: Average",
-   "creatures_present": [
-    "Dog",
-    "Snake",
-    "Minotaur",
-    "Minotaur Archer",
-    "Minotaur Mage",
-    "Minotaur Guard",
-    "Dragon",
-    "Giant Spider"
-   ],
-   "spawn_near": 129,
-   "exp_per_shot": 29.8,
-   "file": "hunting-places/mintwallin.md",
-   "route": {
-    "slug": "route-mintwallin",
-    "route": "Thais \u2192 Mintwallin"
-   }
-  },
-  {
    "name": "Green Claw Swamp",
    "x": 32775,
    "y": 31989,
@@ -29557,44 +29593,8 @@
     "Witch"
    ],
    "spawn_near": 138,
-   "exp_per_shot": 24.5,
+   "exp_per_shot": 29.1,
    "file": "hunting-places/green-claw-swamp.md"
-  },
-  {
-   "name": "Hero Cave",
-   "x": 33135,
-   "y": 31646,
-   "z": 13,
-   "px": 1391,
-   "py": 945,
-   "radius": 76,
-   "entrance": {
-    "x": 33164,
-    "y": 31638,
-    "z": 7,
-    "px": 1420,
-    "py": 937
-   },
-   "rec_level": "Knights 70, Paladins 60, Mages 50",
-   "loot": "Reins",
-   "profit": "Loot/Profit: Good; Exp: Good",
-   "creatures_present": [
-    "Wild Warrior",
-    "Demon Skeleton",
-    "Stalker",
-    "Priestess",
-    "Wild Warrior",
-    "Hunter",
-    "Demon Skeleton",
-    "Priestess",
-    "Poison Spider",
-    "Skeleton",
-    "Wild Warrior",
-    "Slime"
-   ],
-   "spawn_near": 1081,
-   "exp_per_shot": 23.6,
-   "file": "hunting-places/hero-cave.md"
   },
   {
    "name": "Maze of Lost Souls",
@@ -29629,76 +29629,12 @@
     "Orc Warrior"
    ],
    "spawn_near": 222,
-   "exp_per_shot": 23.6,
+   "exp_per_shot": 26.1,
    "file": "hunting-places/maze-of-lost-souls.md",
    "route": {
     "slug": "route-demona",
     "route": "Northport \u2192 Maze of Lost Souls (MoLS) \u2192 Demona"
    }
-  },
-  {
-   "name": "Jakundaf Desert",
-   "x": 32675,
-   "y": 32104,
-   "z": 7,
-   "px": 931,
-   "py": 1403,
-   "radius": 90,
-   "entrance": {
-    "x": 32633,
-    "y": 32113,
-    "z": 7,
-    "px": 889,
-    "py": 1412
-   },
-   "rec_level": "Knights 8, Paladins 8, Mages 7",
-   "loot": "Lion's Mane, Scorpion Tail, Antlers",
-   "profit": "Loot/Profit: Very Bad (\u2605); Exp: Very Bad (\u2605)",
-   "creatures_present": [
-    "Snake",
-    "Bug",
-    "Lion",
-    "Scorpion"
-   ],
-   "spawn_near": 48,
-   "exp_per_shot": 21.7,
-   "file": "hunting-places/jakundaf-desert.md"
-  },
-  {
-   "name": "Folda",
-   "x": 32015,
-   "y": 31624,
-   "z": 8,
-   "px": 271,
-   "py": 923,
-   "radius": 84,
-   "entrance": {
-    "x": 32020,
-    "y": 31572,
-    "z": 7,
-    "px": 276,
-    "py": 871
-   },
-   "rec_level": "Knights 7, Paladins 7, Mages 7",
-   "loot": "Wand of Inferno, Leviathan's Amulet, Giant Shimmering Pearl, Terra Rod, Wand of Cosmic Energy",
-   "profit": "Loot/Profit: Average (\u2605\u2605\u2605); Exp: Good (\u2605\u2605\u2605\u2605)",
-   "creatures_present": [
-    "Winter Wolf",
-    "Frost Troll",
-    "Rabbit",
-    "Deer",
-    "Winter Wolf",
-    "Frost Troll",
-    "Polar Bear",
-    "Spider",
-    "Bug",
-    "Winter Wolf",
-    "Poison Spider",
-    "Frost Troll"
-   ],
-   "spawn_near": 414,
-   "exp_per_shot": 21.2,
-   "file": "hunting-places/folda.md"
   },
   {
    "name": "Ancient Temple",
@@ -29733,8 +29669,44 @@
     "Rotworm"
    ],
    "spawn_near": 820,
-   "exp_per_shot": 20.6,
+   "exp_per_shot": 26.0,
    "file": "hunting-places/ancient-temple.md"
+  },
+  {
+   "name": "Folda",
+   "x": 32015,
+   "y": 31624,
+   "z": 8,
+   "px": 271,
+   "py": 923,
+   "radius": 84,
+   "entrance": {
+    "x": 32020,
+    "y": 31572,
+    "z": 7,
+    "px": 276,
+    "py": 871
+   },
+   "rec_level": "Knights 7, Paladins 7, Mages 7",
+   "loot": "Wand of Inferno, Leviathan's Amulet, Giant Shimmering Pearl, Terra Rod, Wand of Cosmic Energy",
+   "profit": "Loot/Profit: Average (\u2605\u2605\u2605); Exp: Good (\u2605\u2605\u2605\u2605)",
+   "creatures_present": [
+    "Winter Wolf",
+    "Frost Troll",
+    "Rabbit",
+    "Deer",
+    "Winter Wolf",
+    "Frost Troll",
+    "Polar Bear",
+    "Spider",
+    "Bug",
+    "Winter Wolf",
+    "Poison Spider",
+    "Frost Troll"
+   ],
+   "spawn_near": 414,
+   "exp_per_shot": 25.9,
+   "file": "hunting-places/folda.md"
   },
   {
    "name": "Femor Hills",
@@ -29769,12 +29741,40 @@
     "Hunter"
    ],
    "spawn_near": 139,
-   "exp_per_shot": 17.7,
+   "exp_per_shot": 24.3,
    "file": "hunting-places/femor-hills.md",
    "route": {
     "slug": "route-femor-hills",
     "route": "Femor Hills (spawn map + escape routes)"
    }
+  },
+  {
+   "name": "Jakundaf Desert",
+   "x": 32675,
+   "y": 32104,
+   "z": 7,
+   "px": 931,
+   "py": 1403,
+   "radius": 90,
+   "entrance": {
+    "x": 32633,
+    "y": 32113,
+    "z": 7,
+    "px": 889,
+    "py": 1412
+   },
+   "rec_level": "Knights 8, Paladins 8, Mages 7",
+   "loot": "Lion's Mane, Scorpion Tail, Antlers",
+   "profit": "Loot/Profit: Very Bad (\u2605); Exp: Very Bad (\u2605)",
+   "creatures_present": [
+    "Snake",
+    "Bug",
+    "Lion",
+    "Scorpion"
+   ],
+   "spawn_near": 48,
+   "exp_per_shot": 21.7,
+   "file": "hunting-places/jakundaf-desert.md"
   },
   {
    "name": "Minotaur Hell",
@@ -29800,7 +29800,7 @@
     "Minotaur"
    ],
    "spawn_near": 64,
-   "exp_per_shot": 16.2,
+   "exp_per_shot": 20.8,
    "file": "hunting-places/minotaur-hell.md"
   },
   {

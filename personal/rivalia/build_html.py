@@ -789,7 +789,7 @@ function spriteFor(i){const v=SPRITES[DATA.names[i]];if(!v)return null;return v.
    ========================================================================== */
 // Default = le stat reali del Paladin di Andrea (lug 2026): lv30, Distance 64, Shielding 53,
 // scudo def 28, armor tot 26 (pari), spear Attack 30. Modificabili nel pannello.
-const CHAR_DEF = {voc:'paladin', level:30, weapSkill:64, shield:53, shieldDef:28, hp:515, mana:300,
+const CHAR_DEF = {voc:'paladin', level:40, weapSkill:71, shield:57, shieldDef:28, hp:615, mana:300,
   weapAtk:30, armor:26, stance:'balanced',            // weapAtk = Attack munizione (pala) o arma (knight)
   mlvl:0, spellDmg:0, spellMana:0,                    // caster: Magic Level, danno medio/cast, mana/cast
   healAmt:120, healMana:40};                           // Exura: HP per cast / mana per cast (INPUT: verifica in-game)
