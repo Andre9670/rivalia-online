@@ -98,13 +98,26 @@ TEMPLATE = r'''<!DOCTYPE html>
   html,body{margin:0;height:100%;font-family:system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt)}
   #app{display:flex;height:100vh;overflow:hidden}
   /* ---------- sidebar ---------- */
-  #side{width:330px;flex:0 0 330px;background:var(--panel);border-right:1px solid var(--line);display:flex;flex-direction:column}
+  #side{width:330px;flex:0 0 330px;background:var(--panel);border-right:1px solid var(--line);display:flex;flex-direction:column;overflow-y:auto}
   #side h1{font-size:16px;margin:0;padding:14px 16px;border-bottom:1px solid var(--line);letter-spacing:.5px}
   #side h1 small{display:block;color:var(--dim);font-weight:400;font-size:11px;margin-top:3px}
   .sec{padding:12px 16px;border-bottom:1px solid var(--line)}
   .sec label{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--dim);display:block;margin-bottom:6px}
   #search{width:100%;padding:8px 10px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;color:var(--txt);font-size:13px}
-  #clist{flex:1;overflow-y:auto;padding:4px 8px}
+  #clist{flex:1;min-height:140px;overflow-y:auto;padding:4px 8px}
+  /* collapsible sections in the sidebar (Tools, How to use): native <details>,
+     styled to match .sec/label so opening them costs one click, not permanent space */
+  #side details.sec{padding-top:11px;padding-bottom:11px}
+  #side details.sec summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px;
+    font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--dim)}
+  #side details.sec summary::-webkit-details-marker{display:none}
+  #side details.sec summary::before{content:"▸";display:inline-block;font-size:9px;color:var(--dim);
+    transition:transform .15s}
+  #side details.sec[open] summary::before{transform:rotate(90deg)}
+  #side details.sec summary small{text-transform:none;letter-spacing:0;font-weight:400;font-size:10.5px}
+  #side details.sec summary b{text-transform:none;letter-spacing:0}
+  .toolsGrid{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+  .toolsGrid .btn{flex:1 1 108px;min-width:100px}
   .crow{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:7px;cursor:pointer;font-size:13px}
   .crow:hover{background:var(--panel2)}
   .crow.on{background:#33405a;outline:1px solid var(--acc2)}
@@ -557,9 +570,9 @@ TEMPLATE = r'''<!DOCTYPE html>
     <div class="sec" id="pgSec">
       <div class="pg-hd">
         <span>⚔️ My Char <small id="pgSummary"></small></span>
-        <button id="cfgToggle" title="Show/hide fields">▾</button>
+        <button id="cfgToggle" title="Show/hide fields">▸</button>
       </div>
-      <div id="cfgBox">
+      <div id="cfgBox" style="display:none">
         <div class="party-toggle">
           <button class="ptab on" id="ptSolo" data-n="1">👤 Solo</button>
           <button class="ptab" id="ptDuo" data-n="2">👥 Duo</button>
@@ -572,45 +585,38 @@ TEMPLATE = r'''<!DOCTYPE html>
     <div class="sec">
       <label>Search creature (highlights where it spawns)</label>
       <input id="search" placeholder="e.g. demon, cyclops, ghoul…" autocomplete="off"/>
-      <div class="btn-sec">👥 Player</div>
-      <div class="btnrow">
-        <button class="btn" id="pkMapBtn" title="PK Map (Aeternum): who kills whom, unjustified flag and threat class, from player death profiles. Shared search with Relations.">☠️ PK Map</button>
-        <button class="btn" id="relBtn" title="Relations (Aeternum): a player's allies (same guild or co-kill together), reciprocal enemies and co-faction (shared victims), as a star graph. Shared search with PK Map.">🕸️ Relations</button>
-      </div>
-      <div class="btn-sec">⚔️ Hunt</div>
-      <div class="btnrow">
-        <button class="btn" id="insBtn" title="Loot-value, doable quests and where to farm items — computed on your data">💎 Insights</button>
-        <button class="btn" id="areaBtn" title="Highlight TibiaWiki 7.4 hunting places on the map as zones colored by efficiency (xp/hit). Click a zone for its card + creatures">🎯 Hunt areas: Off</button>
-      </div>
-      <div class="btnrow">
-        <button class="btn" id="taskBtn" title="Weekly-task helper: YOU pick a task (a monster) from the full list, one at a time, and it shows the best place & way to do it — densest floor / best hunting area, farmability for your char, with Show-on-map and route.">📋 Task Helper</button>
-      </div>
       <div class="btnrow">
         <button class="btn on" id="sprMode" title="Auto: icons when you zoom or select a monster · Always: icons everywhere (heavier) · Off: dots only">🖼️ Icons: Auto</button>
         <button class="btn" id="toAll">All monsters</button>
         <button class="btn" id="clearSel">Show all</button>
       </div>
-      <div class="btn-sec">🧙 NPC</div>
-      <div class="btnrow">
+    </div>
+    <details class="sec" id="toolsDetails" open>
+      <summary>🧰 Tools <small>PK map, hunt areas, NPCs, insights…</small></summary>
+      <div class="toolsGrid">
+        <button class="btn" id="pkMapBtn" title="PK Map (Aeternum): who kills whom, unjustified flag and threat class, from player death profiles. Shared search with Relations.">☠️ PK Map</button>
+        <button class="btn" id="relBtn" title="Relations (Aeternum): a player's allies (same guild or co-kill together), reciprocal enemies and co-faction (shared victims), as a star graph. Shared search with PK Map.">🕸️ Relations</button>
+        <button class="btn" id="insBtn" title="Loot-value, doable quests and where to farm items — computed on your data">💎 Insights</button>
+        <button class="btn" id="areaBtn" title="Highlight TibiaWiki 7.4 hunting places on the map as zones colored by efficiency (xp/hit). Click a zone for its card + creatures">🎯 Hunt areas: Off</button>
+        <button class="btn" id="taskBtn" title="Weekly-task helper: YOU pick a task (a monster) from the full list, one at a time, and it shows the best place & way to do it — densest floor / best hunting area, farmability for your char, with Show-on-map and route.">📋 Task Helper</button>
         <button class="btn" id="npcBtn" title="Rivalia NPC directory (355): by city, with what they buy/sell and at what price (authoritative Rivalia data). 📍 = approximate position from Tibiantis 7.7.">🧙 Directory</button>
         <button class="btn" id="npcPinBtn" title="Show NPCs as pins on the map (APPROXIMATE position, ref Tibiantis 7.7 — verify in-game). Pins on the current floor, popup with offers.">📍 NPC: Off</button>
-      </div>
-      <div class="btn-sec">🗺️ Map</div>
-      <div class="btnrow">
         <button class="btn" id="routeBtn" title="Find how to reach a point: click the START then the DESTINATION on the map">🧭 How to get there</button>
         <button class="btn on" id="cityBtn" title="Show city names (Thais, Carlin, Venore…) on the map as landmarks">🏰 Cities: On</button>
         <button class="btn" id="chestBtn" title="Show Rivalia's 222 reward chests on the map (pins on the current floor, popup with loot)">🎁 Chest: Off</button>
       </div>
-    </div>
+    </details>
     <div id="clist"></div>
-    <div class="sec legend">
-      <b style="color:var(--txt)">How to use</b><br>
+    <details class="sec legend" id="legendDetails">
+      <summary><b style="color:var(--txt)">❔ How to use</b></summary>
+      <div style="margin-top:8px">
       • Move the mouse over the map → the right panel lists <b>ALL</b> monsters within the cursor radius.<br>
       • Click a creature to highlight it on every floor it appears on.<br>
       • Change floor with the numbered column (left). 7 = ground level.<br>
       • <span style="color:var(--danger)">Red</span> in the scanner = the monster is also on a floor other than the one you're viewing.<br>
       • <b>Floors above/below</b>: see <b>the real map</b> of the floor above (<span style="color:#6cc6ff">cyan</span> veil, above) and below (<span style="color:#ff9d3d">orange</span>, showing through the current floor) → understand stairs, holes and corridors to move between levels. Adjust "Floor opacity" to see below better.
-    </div>
+      </div>
+    </details>
   </aside>
   <div id="insModal" class="ins-modal">
     <div class="ins-card">
