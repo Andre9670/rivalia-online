@@ -96,7 +96,9 @@ Esempio Shielding col modello classico (da 50): 50→51 ≈ 4.5k blocchi ricevut
 **COME OTTENERE IL NUMERO REALE (invece del modello):** il client 7.4 mostra la % di progresso skill. Prendere 2 letture della % a distanza di N tries CONTATI (frecce a segno per Distance / blocchi ricevuti per Shielding) → si ricava il MULT reale del char. In alternativa chiedere sul Discord ("shielding/distance skill formula, vocation constants, Legacy"). Finché la wiki è giù, il Discord è l'unica fonte autorevole.
 
 ## SPEAR SUPPLY (per training Distance economico)
-Spear è la scelta migliore per il training: riutilizzabile e droppata da **mob deboli che già cacci** — **Orc Shaman** (HP115/hit45), **Valkyrie** (HP190/hit55), Troll, Frost Troll, Orc Spearman. Throwing Star è gated dietro mob duri (Demon Skeleton HP400/hit203, ecc. → inaccessibili a lvl 16-25); Throwing Knife solo dal Dworc Venomsniper (HP80/hit20) è farmabile facile. **Nessun NPC vende queste armi** (verificato wiki+GitBook) → solo drop. Break-chance/recupero su Rivalia NON documentato → verificare in-game/Discord.
+Spear è la scelta migliore per il training: riutilizzabile e droppata da **mob deboli che già cacci** — **Orc Shaman** (HP115/hit45), **Valkyrie** (HP190/hit55), Troll, Frost Troll, Orc Spearman, **Lizard Sentinel**, Black Knight (fonte: pagina item Spear GitBook, Atk 30 / range 7). Throwing Star è gated dietro mob duri (Demon Skeleton HP400/hit203, ecc. → inaccessibili a lvl 16-25); Throwing Knife solo dal Dworc Venomsniper (HP80/hit20) è farmabile facile. Gli NPC **non vendono** queste armi → solo drop. Break-chance/recupero su Rivalia NON documentato → verificare in-game/Discord.
+- ⚠️ **Hunting Spear** (drop Dworc Fleshhunter) è categoria **Axes** (Atk18/Def8), **arma da mischia — NON allena Distance.** Solo la Spear normale (Distance) traina.
+- ✅ **SPELL "Training Spear" = `exevo con lancea`** (CONFERMATO su `rivaliaonline.com/spells.php`, set 2026): Paladin, **Premium**, 50 mana, magic lvl 1, categoria Conjuring, *"conjures ammunition"*. **Not sold by any NPC** ma secondo Andrea (Discord) è **gratis/free** (non quest-locked): te lo ritrovi learnable senza pagarlo, richiede solo Premium. → risolve il supply spear per il training a costo zero. **DA VERIFICARE:** se traina Distance a rate pieno o ridotto (test: ~50 colpi contati, guarda la % skill). Andrea è Premium (set 2026).
 
 ## NOTE / SCOPERTE GIÀ FATTE (verificare sempre, ma tenere a mente)
 - **"Relog → temple" trick (fuga/recall).** Meccanica motore Tibia 7.x (CONFERMATA su TibiaWiki *Teleporting*; **da riconfermare su Rivalia** perché custom): al **login** il server prova a rimetterti sulla casella di logout; se occupata/non calpestabile ti sposta sulla libera più vicina scansionando **da Nord in senso orario** (N→NE→E→SE→S→SO→O→NO); se **tutto il 3×3 attorno è non calpestabile o occupato** (item/player/creature) → **teleport al tempio di partenza**. Usi: sblocco d'emergenza se incastrato, o "recall del povero" murandosi con parcel su tutte 8 le caselle e riloggando. ⚠️ Tempio SOLO col 3×3 pieno del tutto (1 casella libera = ti sposta solo di 1); e **NON attraversa i gap** — ti manda al tempio, non oltre il buco, quindi non risolve i "no path" del pathfinder su pozze isolate.
@@ -105,6 +107,34 @@ Spear è la scelta migliore per il training: riutilizzabile e droppata da **mob 
 - **Rune:** non si comprano dagli NPC; gli NPC vendono blank rune, la magia la craftano i player. L'**Alchemy** può raddoppiare le cariche delle rune e craftare pozioni — utile per il problema di mana.
 - **Crossbow base = Attack 0** come il bow (danno tutto in munizioni + distance). Su Rivalia il crossbow può ricevere attributi custom (Double Shot, Attack, Critical) col sistema **Item Attributes**: è LÌ che diventa un upgrade, non da base.
 - **Custom Respawns** hanno livelli alti: es. Thais Orc Fortress consigliato 50+. Controllare sempre "Recommended:" sulla pagina dello spot.
+
+## DUE SISTEMI DI POTENZIAMENTO — NON confonderli (entrambi usano "Tier")
+Rivalia ha **due** sistemi di upgrade equip separati, con valute e meccaniche diverse. "Forge" per Andrea = il secondo (Exaltation).
+
+### A) ITEM ATTRIBUTES (enchant custom — Aethernite/mining) — fonte GitBook `systems/item-attributes-information` + `mining`
+- Ogni item ha una **Classification (1–5)** = quante attributes può tenere (Class1=1 … Class5=5). La Spear è Class 2.
+- Ogni attribute ha un **Tier 1–5** (valore crescente; es. Distance T1=+1 … T5=+5; Attack 2H T1=+2 … T5=+10).
+- **Roll attribute (riempie slot, attribute CASUALE)** = **Aethernite** (Small 5 shard+2000g / Medium 10+6000g / Large 20+8000g), comprate da NPC magico con **Aether Shards**+gold. Success per Classification×size: Class1 10/20/40%, Class2 5/10/20%, … Class5 2/2.5/3.3%.
+  - 🔑 **CONTO FATTO:** costo *atteso per successo* in shard è uguale con tutte; in gold **Small=Large** ma **Medium costa +50%**. → **usa SEMPRE Large** (stesso costo atteso della Small, molta meno varianza). **Medium = trappola, mai.**
+- **Upgrade di Tier** (una attribute T→T+1) = **rune craftate** dai shard del **Lava Hole**: Astralite(T1→2)/Celestium(2→3)/Mythraline(3→4)/Eclipsite(4→5). Odds per rarità×tier crollano: T1 30–15% … T5 5–1%. **T5 = brutale, non inseguire a lvl basso.**
+- **Disenchant** (rune da shard del **Red Shrine**): strippa TUTTE le attributes e **ridà Aether Shards** (in base a #attributes×class). Loop: roll con Large → se attribute schifo, disenchant → ritira.
+- **Mining**: pick da **Uzgod (Kazordoon)** — Pick(skill10,50g)/Advanced(25,25k)/Modified(40,100k)/Enhanced(55,250k)/Golden(70,500k); pick migliore = più shard/successo, NON più veloce. Nodi: **Lava Hole**(rune tier-up), **Blue Shrine**(Small Sapphire + Aether Shard), **Red Shrine**(Small Ruby + Disenchant Shard). Crafting agli **anvil** nei negozi.
+- **Attributes utili per RP kiter**: Distance, Attack, Hit Chance, Double Shot, Sharpshooter, Critical, Life Leech, Max HP (RP 50%), Shielding, Armor, Dodge/Parry. Da disenchantare: Magic Level, Max Mana, skill Melee, increments non usati.
+
+### B) EXALTATION FORGE (Dust/Slivers/Cores — stile Tibia ufficiale) — fonte guida Discord (set 2026)
+- Si apre dall'**icona Forge** nel client (vicino a Store). Alza il **Tier dell'item** → potenzia l'**effetto Exaltation** per slot:
+  - **Weapon → Onslaught** (chance Fatal Hit, > crit) · **Armor → Ruse** (chance evade totale) · **Helmet → Momentum** (chance annulla exhaust del prossimo heal/support — NON spell offensivi) · **Legs → Transcendence** (chance trasformarsi in Avatar con bonus combat) · **Boots → Amplification** (aumenta trigger degli altri effetti).
+- **3 risorse**: **Dust** (da hunt; limit base 100, alzabile con Dust) → **Slivers** (60 Dust→3 Slivers, o da mob speciali) → **Exalted Core** (50 Slivers→1 Core).
+- **Mob speciali** (danno Dust/Slivers): **Fiendish** (icona !+giallo, più forte), **Influenced** (!+rosso, summona 2 mob extra), + versioni **Elite**. Trovali con lo spell **Find Fiend = `exiva moe res`**, comprato da **Zoltan a Edron**.
+- **FUSION** = fondi **2 item identici stessa Classification** → 1 di Tier +1 (fail = perdi 1 item). Serve Dust+Gold+risorse; ha success rate + tier loss. **Cap tier per Class: C1→T1, C2→T2, C3→T3, C4→T6, C5→T10** (quindi forgiare gear Class basse è quasi inutile). Extra-effect random possibili (dust/gold/core non consumati, 2° item salvo, +2 tier finali, ecc.).
+- **TRANSFER** = sposta il Tier da un **Donor (T1+)** a un **Receiver (T0)** stessa Classification. Costo **100 Dust + 1 Exalted Core + gold**. Donor perde i tier, Receiver li prende.
+- **Exalted Core** in Fusion: o **success 50%→65%**, o **tier-loss 100%→50%**. In Transfer: ne serve esattamente 1.
+- 💡 **Take per RP lvl40 low-rate**: accumula **Dust passivamente** mentre cacci (Dworc/Scarab/Mino) + alza il Dust limit; compra **Find Fiend** per catchare Fiendish/Influenced (Slivers). **NON fare Fusion ora** su gear Class 1–2 (cap tier bassissimo + fail perde item): banca Dust/Slivers/Cores e forgia solo gear Class 4–5 degna. **Transfer** è lo strumento furbo: sposta un Tier alto da un item che non usi al tuo main-slot (stessa Class).
+
+### Domande aperte su ENTRAMBI (verificare Discord/in-game, NON inventare)
+- Come si determina la **Classification/rarità** di un item (Rare/Epic/Legendary/Brutal) e se è la stessa "Classification 1–5" usata dai due sistemi.
+- Fusion: valori esatti di Dust/Gold per tentativo e success-rate base (guida dice ~50%).
+- Item Attributes: se "Rare/Epic/Legendary/Brutal" (odds tier-up) è distinto dalla Classification slot.
 
 ## STATO PERSONAGGIO (ultimo noto — verificare/chiedere se serve)
 - **Royal Paladin, Livello 40** (aggiornato 2 set 2026). **Distance Fighting 71, Shielding 57.** (era lv30/D64/S53 il 27 lug.) Distance = skill primaria in training. ⚠️ Il default `CHAR_DEF` nella reverse map è ancora fermo a D64/S53 (lug) → va rigenerato/ripubblicato (skill `rivalia-map`) per allinearlo.
