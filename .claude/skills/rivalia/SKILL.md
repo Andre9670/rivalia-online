@@ -35,6 +35,10 @@ Per leggere le fonti usa `WebFetch` (le pagine wiki.rivaliaonline.com sono pubbl
 - New Spells: https://wiki.rivaliaonline.com/docs/new-spells/
 - Sito gioco (highscores, online list, downloads): https://rivaliaonline.com/
 - Discord ufficiale: https://discord.gg/DQ746HesuC
+- **Endpoint `.php` server-rendered (SCRAPABILI con curl + User-Agent browser; NON JS come wiki.php/quests.php):**
+  - **Spell**: `https://rivaliaonline.com/spells.php?search=<query>` — lista completa spell con words, mana, mlvl, vocazione, Premium, prezzo/NPC. (Es: Training Spear `exevo con lancea`, Conjure Bolt `exevo con mort`.)
+  - **NPC**: `https://rivaliaonline.com/npcs.php?npc=<Nome>` — offerte buy/sell reali + città.
+  - **Case**: `https://rivaliaonline.com/houses.php?world=2&id=<town>&order=<id|name|size|beds|rent|owner>&type=<asc|desc>` — world=2 = **Aeternum** (mondo di Andrea). town id: 1 Thais, 2 Carlin, 3 Kazordoon, 4 Ab'Dendriel, 5 Edron, 6 Darashia, 7 Venore, 8 Ankrahmun, 9 Port Hope, 10 Rookgaard, 12 Home, 13 Nivarya. Colonne: Name/Size/**Beds**/Rent/Owner. Affitto **BISETTIMANALE** (~85 gp/sqm; cheapest flat ~1020/2wk 12sqm).
 
 **Fonte secondaria (GitBook — spesso incompleta, pagine creature vuote; solo se la wiki principale non copre):** https://rivalia-online.gitbook.io/rivalia-online/sitemap.md — leggibili in markdown aggiungendo `.md` all'URL, interrogabili con `?ask=<domanda>` in GET.
 
