@@ -379,7 +379,8 @@ TEMPLATE = r'''<!DOCTYPE html>
   .chestpin{font-size:15px;cursor:pointer;filter:drop-shadow(0 1px 2px #000);line-height:1}
   .mail-pin{background:none;border:none}
   .mailpin{font-size:15px;cursor:pointer;filter:drop-shadow(0 1px 2px #000);line-height:1}
-  .mailpin.verify{opacity:.55}
+  .mailpin.verify{opacity:.6}
+  .mailpin.offfloor{opacity:.35;filter:grayscale(.6) drop-shadow(0 1px 2px #000)}
 
   /* DESKTOP-neutral: the creature-sheet wrapper is transparent (children float exactly as
      before) and every mobile-only shell element is hidden. */
@@ -2314,9 +2315,11 @@ let mailOn=false;
 function drawMailboxes(){
   mailLayer.clearLayers();
   for(const m of MAILBOXES){
-    if(m.z!==curFloor && !(curFloor===7 && m.z<=7)) continue;
-    const cls='mailpin'+(m.kind==='verify'?' verify':'');
-    const html=`<div class="${cls}" title="📮 ${m.name} — ${MAILKIND[m.kind]}">📮</div>`;
+    // cross-floor by design: mailboxes are navigation aids, show on every floor
+    // (dim the ones not on the current floor so the current-floor ones stand out)
+    const off = m.z!==curFloor;
+    const cls='mailpin'+(m.kind==='verify'?' verify':'')+(off?' offfloor':'');
+    const html=`<div class="${cls}" title="📮 ${m.name} (z${m.z}${off?' — other floor':''}) — ${MAILKIND[m.kind]}">📮</div>`;
     const mk=L.marker([IMGH-m.py,m.px],{icon:L.divIcon({className:'mail-pin',html,iconSize:null})});
     mk.bindTooltip(`📮 ${m.name}`,{direction:'top',opacity:.9});
     mk.on('click',()=>{
