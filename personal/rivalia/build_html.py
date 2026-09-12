@@ -2293,21 +2293,34 @@ function flyToChest(c){
 // kind: 'open' = usable without the quest · 'royal' = needs full Postman Quest (7.4-likely)
 //       · 'verify' = royal but post-7.4 content, may not exist on Rivalia.
 const MAILBOXES=[
-  {name:'Fibula (town)',        px:517, py:1684, z:7,  kind:'open'},
-  {name:'Folda (mountain top)', px:265, py:863,  z:7,  kind:'open'},
-  {name:'Outlaw Camp',          px:909, py:1501, z:8,  kind:'open'},
-  {name:'Minotaur Pyramid (Darashia)', px:1563, py:1591, z:7, kind:'royal'},
-  {name:'Cyclopolis',           px:1527, py:955,  z:8,  kind:'royal'},
-  {name:'Drefia',               px:1275, py:1746, z:7,  kind:'royal'},
-  {name:'Orc Fortress',         px:1274, py:1077, z:7,  kind:'royal'},
-  {name:'Mintwallin',           px:679,  py:1394, z:15, kind:'royal'},
-  {name:'Kazordoon Dwarf Mines (hub)', px:710, py:1268, z:10, kind:'royal'},
-  {name:'Kazordoon (surface)',  px:791,  py:1263, z:7,  kind:'royal'},
-  {name:'Shadowthorn',          px:1340, py:1488, z:7,  kind:'verify'},
-  {name:'Laguna Islands',       px:642,  py:2249, z:7,  kind:'verify'},
-  {name:'Mistrock',             px:871,  py:733,  z:7,  kind:'verify'},
-  {name:'Nargor',               px:264,  py:2161, z:5,  kind:'verify'},
-  {name:'Talahu (Hydra Island)',px:177,  py:1951, z:8,  kind:'verify'},
+  {name:'Fibula (town)',        px:517, py:1684, z:7,  kind:'open', desc:'Fibula town.'},
+  {name:'Folda (mountain top)', px:265, py:863,  z:7,  kind:'open', desc:'Top of the mountain.'},
+  {name:'Outlaw Camp',          px:909, py:1501, z:8,  kind:'open', desc:'Underground.'},
+  {name:'Minotaur Pyramid (Darashia)', px:1563, py:1591, z:7, kind:'royal', desc:'Ground floor, south side.'},
+  {name:'Cyclopolis',           px:1527, py:955,  z:8,  kind:'royal', desc:'Far north-east part of the first level.'},
+  {name:'Drefia',               px:1275, py:1746, z:7,  kind:'royal', desc:'North beach, south of the main building (just east of the ship).'},
+  {name:'Orc Fortress',         px:1274, py:1077, z:7,  kind:'royal', desc:'Inside the fort on the main level, all the way to the east.'},
+  {name:'Mintwallin',           px:679,  py:1394, z:15, kind:'royal', desc:'North part of town.'},
+  {name:'Kazordoon Dwarf Mines (hub)', px:710, py:1268, z:10, kind:'royal', desc:'Four boxes surrounding the Mine Hub.'},
+  {name:'Kazordoon (surface)',  px:791,  py:1263, z:7,  kind:'royal', desc:'On the surface.'},
+  {name:'Shadowthorn',          px:1340, py:1488, z:7,  kind:'verify', desc:'Southern part of the elven fortress; go down to -1, mailbox a few steps north.'},
+  {name:'Laguna Islands',       px:642,  py:2249, z:7,  kind:'verify', desc:'Center of the first island, after the teleport from Meriana.'},
+  {name:'Mistrock',             px:871,  py:733,  z:7,  kind:'verify', desc:'West of the boat.'},
+  {name:'Nargor',               px:264,  py:2161, z:5,  kind:'verify', desc:'Second level in the main cave, up the stairs right of the two docked boats, room to the right.'},
+  {name:'Talahu (Hydra Island)',px:177,  py:1951, z:8,  kind:'verify', desc:'In its Teleportation Hub.'},
+];
+// Royal mailboxes from the wiki that have NO map coordinates (post-7.4 landmarks not on
+// the 7.4 map) — kept as reference text only, not placed as pins to avoid fake positions.
+const MAILBOXES_NOPOS=[
+  {name:'Calassa', desc:'(underwater).'},
+  {name:'Formorgar Mines', desc:'Just left of the hoist on the second floor of the mines.'},
+  {name:'Fury Dungeon', desc:'At the entrance of the Fury Dungeon.'},
+  {name:'Raider Camps', desc:'North of Ragnir.'},
+  {name:'Razachai', desc:'In a room in the magistracy building just north of NPC Zlak.'},
+  {name:"Robson's Isle", desc:'Next to Robson (he sells Parcels and Labels).'},
+  {name:'Vengoth', desc:'Outside the castle.'},
+  {name:'Zao Rebel Camp', desc:'Southwest of NPC Chartan (Ezean sells Parcels and Labels nearby).'},
+  {name:'Rascacoon', desc:'Off the current map bounds — position known but outside the rendered area.'},
 ];
 const MAILKIND={open:'Open — no quest needed',royal:'Royal — needs full Postman Quest',verify:'Royal (post-7.4) — may not exist on Rivalia, verify in-game'};
 const mailLayer=L.layerGroup();
@@ -2326,6 +2339,7 @@ function drawMailboxes(){
       L.popup({maxWidth:280,className:'area-popup'}).setLatLng([IMGH-m.py,m.px])
        .setContent(`<div class="area-pop"><div class="ap-hd">📮 ${m.name}</div>`+
          `<div class="ap-meta">Floor z${m.z}</div>`+
+         (m.desc?`<div class="ap-meta">📍 ${m.desc}</div>`:'')+
          `<div class="ap-meta">${MAILKIND[m.kind]}</div>`+
          `<div class="ap-meta" style="opacity:.7">7.4-vanilla candidate — verify position in-game</div></div>`).openOn(map);
     });
