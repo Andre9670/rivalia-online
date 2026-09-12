@@ -44,6 +44,10 @@ jobs:
           python3 crawl_pk.py
           python3 build_pkdata.py
           python3 build_relationships.py
+          # Anti-empty guard: a transient scrape failure can return 0 profiles and
+          # still exit 0. Fail here so the job stops BEFORE the commit step and the
+          # previous (good) map/data stay published. (2026-09-07 shipped an empty PK graph.)
+          python3 -c "import json,sys; d=json.load(open('pk-map-data.json')); n=len(d.get('players') or {}); k=d.get('total_kills') or 0; sys.stderr.write('PK sanity: %d players, %d kills\n'%(n,k)); sys.exit('EMPTY PK GRAPH — refusing to publish' if (n<10 or k<10) else 0)"
           python3 build_insights.py
           INLINE=1 python3 build_html.py
 

@@ -32,12 +32,13 @@ cd "$DIR" || { echo "  FATAL: no dir $DIR" >> "$LOG"; exit 1; }
   python3 crawl_pk.py            && \
   python3 build_pkdata.py        && \
   python3 build_relationships.py && \
+  python3 -c "import json,sys; d=json.load(open('pk-map-data.json')); n=len(d.get('players') or {}); k=d.get('total_kills') or 0; sys.stderr.write('PK sanity: %d players, %d kills\n'%(n,k)); sys.exit('EMPTY PK GRAPH' if (n<10 or k<10) else 0)" && \
   python3 build_insights.py      && \
   INLINE=1 python3 build_html.py
 } >> "$LOG" 2>&1
 RC=$?
 if [ "$RC" != "0" ]; then
-  echo "  FATAL: build pipeline failed (rc=$RC), not publishing — prior map/index.html kept" >> "$LOG"
+  echo "  FATAL: build pipeline failed or PK graph empty (rc=$RC), not publishing — prior map/index.html kept" >> "$LOG"
   exit 1
 fi
 
