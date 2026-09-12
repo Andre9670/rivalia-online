@@ -377,6 +377,9 @@ TEMPLATE = r'''<!DOCTYPE html>
   .citylabel{font-size:13px;font-weight:800;color:#fff;text-shadow:0 0 3px #000,0 0 6px #000,0 1px 2px #000;white-space:nowrap;letter-spacing:.3px;pointer-events:none;opacity:.92}
   .chest-pin{background:none;border:none}
   .chestpin{font-size:15px;cursor:pointer;filter:drop-shadow(0 1px 2px #000);line-height:1}
+  .mail-pin{background:none;border:none}
+  .mailpin{font-size:15px;cursor:pointer;filter:drop-shadow(0 1px 2px #000);line-height:1}
+  .mailpin.verify{opacity:.55}
 
   /* DESKTOP-neutral: the creature-sheet wrapper is transparent (children float exactly as
      before) and every mobile-only shell element is hidden. */
@@ -604,6 +607,7 @@ TEMPLATE = r'''<!DOCTYPE html>
         <button class="btn" id="routeBtn" title="Find how to reach a point: click the START then the DESTINATION on the map">🧭 How to get there</button>
         <button class="btn on" id="cityBtn" title="Show city names (Thais, Carlin, Venore…) on the map as landmarks">🏰 Cities: On</button>
         <button class="btn" id="chestBtn" title="Show Rivalia's 222 reward chests on the map (pins on the current floor, popup with loot)">🎁 Chest: Off</button>
+        <button class="btn" id="mailBtn" title="Show mailboxes (send parcels to your depot mid-hunt). Royal ones need the full Postman Quest. Positions are 7.4-vanilla candidates — verify in-game.">📮 Mail: Off</button>
       </div>
     </details>
     <div id="clist"></div>
@@ -2282,6 +2286,57 @@ function flyToChest(c){
   selectFloor(c.z,true); map.setView([IMGH-c.py,c.px],3);
 }
 
+// ================= MAILBOX LAYER =================
+// Candidate mailbox positions from TibiaWiki (7.4-era), coords converted to game frame
+// (px=x-31744, py=y-30701). Rivalia is custom: placement/floor are candidates to verify in-game.
+// kind: 'open' = usable without the quest · 'royal' = needs full Postman Quest (7.4-likely)
+//       · 'verify' = royal but post-7.4 content, may not exist on Rivalia.
+const MAILBOXES=[
+  {name:'Fibula (town)',        px:517, py:1684, z:7,  kind:'open'},
+  {name:'Folda (mountain top)', px:265, py:863,  z:7,  kind:'open'},
+  {name:'Outlaw Camp',          px:909, py:1501, z:8,  kind:'open'},
+  {name:'Minotaur Pyramid (Darashia)', px:1563, py:1591, z:7, kind:'royal'},
+  {name:'Cyclopolis',           px:1527, py:955,  z:8,  kind:'royal'},
+  {name:'Drefia',               px:1275, py:1746, z:7,  kind:'royal'},
+  {name:'Orc Fortress',         px:1274, py:1077, z:7,  kind:'royal'},
+  {name:'Mintwallin',           px:679,  py:1394, z:15, kind:'royal'},
+  {name:'Kazordoon Dwarf Mines (hub)', px:710, py:1268, z:10, kind:'royal'},
+  {name:'Kazordoon (surface)',  px:791,  py:1263, z:7,  kind:'royal'},
+  {name:'Shadowthorn',          px:1340, py:1488, z:7,  kind:'verify'},
+  {name:'Laguna Islands',       px:642,  py:2249, z:7,  kind:'verify'},
+  {name:'Mistrock',             px:871,  py:733,  z:7,  kind:'verify'},
+  {name:'Nargor',               px:264,  py:2161, z:5,  kind:'verify'},
+  {name:'Talahu (Hydra Island)',px:177,  py:1951, z:8,  kind:'verify'},
+];
+const MAILKIND={open:'Open — no quest needed',royal:'Royal — needs full Postman Quest',verify:'Royal (post-7.4) — may not exist on Rivalia, verify in-game'};
+const mailLayer=L.layerGroup();
+let mailOn=false;
+function drawMailboxes(){
+  mailLayer.clearLayers();
+  for(const m of MAILBOXES){
+    if(m.z!==curFloor && !(curFloor===7 && m.z<=7)) continue;
+    const cls='mailpin'+(m.kind==='verify'?' verify':'');
+    const html=`<div class="${cls}" title="📮 ${m.name} — ${MAILKIND[m.kind]}">📮</div>`;
+    const mk=L.marker([IMGH-m.py,m.px],{icon:L.divIcon({className:'mail-pin',html,iconSize:null})});
+    mk.bindTooltip(`📮 ${m.name}`,{direction:'top',opacity:.9});
+    mk.on('click',()=>{
+      L.popup({maxWidth:280,className:'area-popup'}).setLatLng([IMGH-m.py,m.px])
+       .setContent(`<div class="area-pop"><div class="ap-hd">📮 ${m.name}</div>`+
+         `<div class="ap-meta">Floor z${m.z}</div>`+
+         `<div class="ap-meta">${MAILKIND[m.kind]}</div>`+
+         `<div class="ap-meta" style="opacity:.7">7.4-vanilla candidate — verify position in-game</div></div>`).openOn(map);
+    });
+    mailLayer.addLayer(mk);
+  }
+}
+document.getElementById('mailBtn').onclick=function(){
+  mailOn=!mailOn; this.classList.toggle('on',mailOn);
+  this.textContent=mailOn?'📮 Mail: On':'📮 Mail: Off';
+  if(mailOn){drawMailboxes();mailLayer.addTo(map);} else {map.removeLayer(mailLayer);}
+};
+const _selFloorMail=selectFloor;
+selectFloor=function(z,keepView){ _selFloorMail(z,keepView); if(mailOn) drawMailboxes(); };
+
 // ===== 🧙 NPC: directory modal (Rivalia authoritative) + approximate 7.7 map pins =====
 (function(){
   const N=(NPCS&&NPCS.npcs)||[];
@@ -2519,6 +2574,7 @@ function flyToChest(c){
   }
   chip('areaBtn','🎯','Areas');   chip('npcPinBtn','📍','NPCs');
   chip('chestBtn','🎁','Chests'); chip('cityBtn','🏰','Cities');
+  chip('mailBtn','📮','Mail');
   chip('sprMode','🖼️','Icons');  chip('routeBtn','🧭','Route');
 
   PANES.hunt.appendChild(mk('div','msec','On the map'));
@@ -2541,6 +2597,7 @@ function flyToChest(c){
   row(PANES.me,'sprMode','🖼️','Creature icons',{toggle:1});
   row(PANES.me,'cityBtn','🏰','City names',{toggle:1});
   row(PANES.me,'chestBtn','🎁','Reward chests',{toggle:1});
+  row(PANES.me,'mailBtn','📮','Mailboxes',{toggle:1});
   PANES.me.appendChild(mk('div','msec','Selection'));
   row(PANES.me,'toAll','🗺️','Show all monsters',{close:1});
   row(PANES.me,'clearSel','✖️','Clear selection',{close:1});

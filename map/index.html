@@ -293,6 +293,9 @@
   .citylabel{font-size:13px;font-weight:800;color:#fff;text-shadow:0 0 3px #000,0 0 6px #000,0 1px 2px #000;white-space:nowrap;letter-spacing:.3px;pointer-events:none;opacity:.92}
   .chest-pin{background:none;border:none}
   .chestpin{font-size:15px;cursor:pointer;filter:drop-shadow(0 1px 2px #000);line-height:1}
+  .mail-pin{background:none;border:none}
+  .mailpin{font-size:15px;cursor:pointer;filter:drop-shadow(0 1px 2px #000);line-height:1}
+  .mailpin.verify{opacity:.55}
 
   /* DESKTOP-neutral: the creature-sheet wrapper is transparent (children float exactly as
      before) and every mobile-only shell element is hidden. */
@@ -520,6 +523,7 @@
         <button class="btn" id="routeBtn" title="Find how to reach a point: click the START then the DESTINATION on the map">🧭 How to get there</button>
         <button class="btn on" id="cityBtn" title="Show city names (Thais, Carlin, Venore…) on the map as landmarks">🏰 Cities: On</button>
         <button class="btn" id="chestBtn" title="Show Rivalia's 222 reward chests on the map (pins on the current floor, popup with loot)">🎁 Chest: Off</button>
+        <button class="btn" id="mailBtn" title="Show mailboxes (send parcels to your depot mid-hunt). Royal ones need the full Postman Quest. Positions are 7.4-vanilla candidates — verify in-game.">📮 Mail: Off</button>
       </div>
     </details>
     <div id="clist"></div>
@@ -936,22 +940,22 @@ const INS = {
    "droppers": 2,
    "mobs": [
     {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Rahemos",
      "slug": "rahemos",
      "hp": 3700,
      "spawns": 1,
      "score": 0.0
+    },
+    {
+     "mob": "Mad Santa",
+     "slug": "mad-santa",
+     "hp": 250000,
+     "spawns": 0,
+     "score": 0.0
     }
    ],
    "easiest_hp": 3700,
-   "top_spawns": 0
+   "top_spawns": 1
   },
   {
    "item": "Boots Of Haste",
@@ -990,17 +994,17 @@ const INS = {
      "score": 0.2
     },
     {
-     "mob": "Omruc",
-     "slug": "omruc",
-     "hp": 4300,
-     "spawns": 1,
-     "score": 0.0
-    },
-    {
      "mob": "Skullar",
      "slug": "skullar",
      "hp": 580,
      "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Omruc",
+     "slug": "omruc",
+     "hp": 4300,
+     "spawns": 1,
      "score": 0.0
     }
    ],
@@ -1070,17 +1074,17 @@ const INS = {
      "score": 0.1
     },
     {
-     "mob": "Morguthis",
-     "slug": "morguthis",
-     "hp": 4800,
-     "spawns": 1,
-     "score": 0.0
-    },
-    {
      "mob": "Grorlam",
      "slug": "grorlam",
      "hp": 2700,
      "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morguthis",
+     "slug": "morguthis",
+     "hp": 4800,
+     "spawns": 1,
      "score": 0.0
     }
    ],
@@ -1109,20 +1113,6 @@ const INS = {
    "droppers": 7,
    "mobs": [
     {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Morgaroth",
      "slug": "morgaroth",
      "hp": 55000,
@@ -1130,9 +1120,23 @@ const INS = {
      "score": 0.0
     },
     {
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -1240,17 +1244,17 @@ const INS = {
    "droppers": 3,
    "mobs": [
     {
-     "mob": "Abomination",
-     "slug": "abomination",
-     "hp": 4000,
-     "spawns": 48,
-     "score": 1.2
-    },
-    {
      "mob": "Behemoth",
      "slug": "behemoth",
      "hp": 4000,
      "spawns": 49,
+     "score": 1.2
+    },
+    {
+     "mob": "Abomination",
+     "slug": "abomination",
+     "hp": 4000,
+     "spawns": 48,
      "score": 1.2
     },
     {
@@ -1262,7 +1266,7 @@ const INS = {
     }
    ],
    "easiest_hp": 4000,
-   "top_spawns": 48
+   "top_spawns": 49
   },
   {
    "item": "Crystallized Shield",
@@ -1686,10 +1690,10 @@ const INS = {
      "score": 0.7
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
+     "mob": "Mahrdis",
+     "slug": "mahrdis",
+     "hp": 3900,
+     "spawns": 1,
      "score": 0.0
     },
     {
@@ -1700,16 +1704,16 @@ const INS = {
      "score": 0.0
     },
     {
-     "mob": "Mahrdis",
-     "slug": "mahrdis",
-     "hp": 3900,
-     "spawns": 1,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -1746,17 +1750,17 @@ const INS = {
      "score": 1.2
     },
     {
-     "mob": "Wight",
-     "slug": "wight",
-     "hp": 6000,
-     "spawns": 14,
-     "score": 0.2
-    },
-    {
      "mob": "Chaos Hydra",
      "slug": "chaos-hydra",
      "hp": 3750,
      "spawns": 7,
+     "score": 0.2
+    },
+    {
+     "mob": "Wight",
+     "slug": "wight",
+     "hp": 6000,
+     "spawns": 14,
      "score": 0.2
     },
     {
@@ -2145,17 +2149,17 @@ const INS = {
      "score": 0.7
     },
     {
-     "mob": "Medusa",
-     "slug": "medusa",
-     "hp": 4500,
-     "spawns": 5,
-     "score": 0.1
-    },
-    {
      "mob": "Shadow Drake",
      "slug": "shadow-drake",
      "hp": 21400,
      "spawns": 28,
+     "score": 0.1
+    },
+    {
+     "mob": "Medusa",
+     "slug": "medusa",
+     "hp": 4500,
+     "spawns": 5,
      "score": 0.1
     }
    ],
@@ -3058,15 +3062,15 @@ const INS = {
      "score": 82.2
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -3098,17 +3102,17 @@ const INS = {
      "score": 45.9
     },
     {
-     "mob": "Grorlam",
-     "slug": "grorlam",
-     "hp": 2700,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Mahrdis",
      "slug": "mahrdis",
      "hp": 3900,
      "spawns": 1,
+     "score": 0.0
+    },
+    {
+     "mob": "Grorlam",
+     "slug": "grorlam",
+     "hp": 2700,
+     "spawns": 0,
      "score": 0.0
     }
    ],
@@ -3742,16 +3746,16 @@ const INS = {
      "score": 2.2
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -3763,9 +3767,9 @@ const INS = {
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -4185,15 +4189,15 @@ const INS = {
    "droppers": 2,
    "mobs": [
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -4239,16 +4243,16 @@ const INS = {
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -7036,10 +7040,10 @@ const INS = {
      "score": 0.7
     },
     {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
-     "spawns": 0,
+     "mob": "Rahemos",
+     "slug": "rahemos",
+     "hp": 3700,
+     "spawns": 1,
      "score": 0.0
     }
    ],
@@ -8206,15 +8210,15 @@ const INS = {
      "score": 307.5
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -11238,15 +11242,15 @@ const INS = {
      "score": 20.0
     },
     {
-     "mob": "Necropharus",
-     "slug": "necropharus",
+     "mob": "High Necromancer",
+     "slug": "high-necromancer",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "High Necromancer",
-     "slug": "high-necromancer",
+     "mob": "Necropharus",
+     "slug": "necropharus",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
@@ -16053,17 +16057,17 @@ const INS = {
      "score": 1.7
     },
     {
-     "mob": "Forsaken Knight",
-     "slug": "forsaken-knight",
-     "hp": 2400,
-     "spawns": 31,
-     "score": 1.3
-    },
-    {
      "mob": "Elder Wyrm",
      "slug": "elder-wyrm",
      "hp": 2700,
      "spawns": 34,
+     "score": 1.3
+    },
+    {
+     "mob": "Forsaken Knight",
+     "slug": "forsaken-knight",
+     "hp": 2400,
+     "spawns": 31,
      "score": 1.3
     }
    ],
@@ -20468,16 +20472,16 @@ const INS = {
    "droppers": 6,
    "mobs": [
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -20489,16 +20493,16 @@ const INS = {
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -20515,16 +20519,16 @@ const INS = {
    "droppers": 6,
    "mobs": [
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -20536,16 +20540,16 @@ const INS = {
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -20600,16 +20604,16 @@ const INS = {
    "droppers": 2,
    "mobs": [
     {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
+     "mob": "The Old Widow",
+     "slug": "the-old-widow",
+     "hp": 100000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "The Old Widow",
-     "slug": "the-old-widow",
-     "hp": 100000,
+     "mob": "Mad Santa",
+     "slug": "mad-santa",
+     "hp": 250000,
      "spawns": 0,
      "score": 0.0
     }
@@ -21429,17 +21433,17 @@ const INS = {
     "score": 1.7
    },
    {
-    "mob": "Forsaken Knight",
-    "slug": "forsaken-knight",
-    "hp": 2400,
-    "mobs": 31,
-    "score": 1.3
-   },
-   {
     "mob": "Elder Wyrm",
     "slug": "elder-wyrm",
     "hp": 2700,
     "mobs": 34,
+    "score": 1.3
+   },
+   {
+    "mob": "Forsaken Knight",
+    "slug": "forsaken-knight",
+    "hp": 2400,
+    "mobs": 31,
     "score": 1.3
    }
   ],
@@ -21482,17 +21486,17 @@ const INS = {
     "score": 1.2
    },
    {
-    "mob": "Wight",
-    "slug": "wight",
-    "hp": 6000,
-    "mobs": 14,
-    "score": 0.2
-   },
-   {
     "mob": "Chaos Hydra",
     "slug": "chaos-hydra",
     "hp": 3750,
     "mobs": 7,
+    "score": 0.2
+   },
+   {
+    "mob": "Wight",
+    "slug": "wight",
+    "hp": 6000,
+    "mobs": 14,
     "score": 0.2
    },
    {
@@ -21648,17 +21652,17 @@ const INS = {
   ],
   "Giant Sword": [
    {
-    "mob": "Abomination",
-    "slug": "abomination",
-    "hp": 4000,
-    "mobs": 48,
-    "score": 1.2
-   },
-   {
     "mob": "Behemoth",
     "slug": "behemoth",
     "hp": 4000,
     "mobs": 49,
+    "score": 1.2
+   },
+   {
+    "mob": "Abomination",
+    "slug": "abomination",
+    "hp": 4000,
+    "mobs": 48,
     "score": 1.2
    },
    {
@@ -22175,10 +22179,10 @@ const INS = {
     "score": 0.7
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
+    "mob": "Mahrdis",
+    "slug": "mahrdis",
+    "hp": 3900,
+    "mobs": 1,
     "score": 0.0
    },
    {
@@ -22189,16 +22193,16 @@ const INS = {
     "score": 0.0
    },
    {
-    "mob": "Mahrdis",
-    "slug": "mahrdis",
-    "hp": 3900,
-    "mobs": 1,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -22212,16 +22216,16 @@ const INS = {
     "score": 2.2
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -22233,29 +22237,15 @@ const INS = {
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
   ],
   "Demon Shield": [
    {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Morgaroth",
     "slug": "morgaroth",
     "hp": 55000,
@@ -22263,9 +22253,23 @@ const INS = {
     "score": 0.0
    },
    {
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -22316,16 +22320,16 @@ const INS = {
   ],
   "Teddy Bear": [
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -22337,16 +22341,16 @@ const INS = {
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -22374,32 +22378,32 @@ const INS = {
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
   ],
   "Thunder Hammer": [
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -22411,16 +22415,16 @@ const INS = {
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24096,15 +24100,15 @@ const INS = {
     "score": 20.0
    },
    {
-    "mob": "Necropharus",
-    "slug": "necropharus",
+    "mob": "High Necromancer",
+    "slug": "high-necromancer",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "High Necromancer",
-    "slug": "high-necromancer",
+    "mob": "Necropharus",
+    "slug": "necropharus",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
@@ -24274,17 +24278,17 @@ const INS = {
     "score": 0.1
    },
    {
-    "mob": "Morguthis",
-    "slug": "morguthis",
-    "hp": 4800,
-    "mobs": 1,
-    "score": 0.0
-   },
-   {
     "mob": "Grorlam",
     "slug": "grorlam",
     "hp": 2700,
     "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morguthis",
+    "slug": "morguthis",
+    "hp": 4800,
+    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -26736,15 +26740,15 @@ const INS = {
     "score": 307.5
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -27326,10 +27330,10 @@ const INS = {
     "score": 0.7
    },
    {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
-    "mobs": 0,
+    "mob": "Rahemos",
+    "slug": "rahemos",
+    "hp": 3700,
+    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -27925,17 +27929,17 @@ const INS = {
     "score": 0.7
    },
    {
-    "mob": "Medusa",
-    "slug": "medusa",
-    "hp": 4500,
-    "mobs": 5,
-    "score": 0.1
-   },
-   {
     "mob": "Shadow Drake",
     "slug": "shadow-drake",
     "hp": 21400,
     "mobs": 28,
+    "score": 0.1
+   },
+   {
+    "mob": "Medusa",
+    "slug": "medusa",
+    "hp": 4500,
+    "mobs": 5,
     "score": 0.1
    }
   ],
@@ -28028,17 +28032,17 @@ const INS = {
     "score": 45.9
    },
    {
-    "mob": "Grorlam",
-    "slug": "grorlam",
-    "hp": 2700,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Mahrdis",
     "slug": "mahrdis",
     "hp": 3900,
     "mobs": 1,
+    "score": 0.0
+   },
+   {
+    "mob": "Grorlam",
+    "slug": "grorlam",
+    "hp": 2700,
+    "mobs": 0,
     "score": 0.0
    }
   ],
@@ -28519,17 +28523,17 @@ const INS = {
   ],
   "Crystal Wand": [
    {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Rahemos",
     "slug": "rahemos",
     "hp": 3700,
     "mobs": 1,
+    "score": 0.0
+   },
+   {
+    "mob": "Mad Santa",
+    "slug": "mad-santa",
+    "hp": 250000,
+    "mobs": 0,
     "score": 0.0
    }
   ],
@@ -28544,16 +28548,16 @@ const INS = {
   ],
   "Large Aethernite": [
    {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
+    "mob": "The Old Widow",
+    "slug": "the-old-widow",
+    "hp": 100000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "The Old Widow",
-    "slug": "the-old-widow",
-    "hp": 100000,
+    "mob": "Mad Santa",
+    "slug": "mad-santa",
+    "hp": 250000,
     "mobs": 0,
     "score": 0.0
    }
@@ -28983,17 +28987,17 @@ const INS = {
     "score": 0.2
    },
    {
-    "mob": "Omruc",
-    "slug": "omruc",
-    "hp": 4300,
-    "mobs": 1,
-    "score": 0.0
-   },
-   {
     "mob": "Skullar",
     "slug": "skullar",
     "hp": 580,
     "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Omruc",
+    "slug": "omruc",
+    "hp": 4300,
+    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -29678,15 +29682,15 @@ const INS = {
     "score": 82.2
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -29694,15 +29698,15 @@ const INS = {
   ],
   "Emerald Bangle": [
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -86268,6 +86272,57 @@ function flyToChest(c){
   selectFloor(c.z,true); map.setView([IMGH-c.py,c.px],3);
 }
 
+// ================= MAILBOX LAYER =================
+// Candidate mailbox positions from TibiaWiki (7.4-era), coords converted to game frame
+// (px=x-31744, py=y-30701). Rivalia is custom: placement/floor are candidates to verify in-game.
+// kind: 'open' = usable without the quest · 'royal' = needs full Postman Quest (7.4-likely)
+//       · 'verify' = royal but post-7.4 content, may not exist on Rivalia.
+const MAILBOXES=[
+  {name:'Fibula (town)',        px:517, py:1684, z:7,  kind:'open'},
+  {name:'Folda (mountain top)', px:265, py:863,  z:7,  kind:'open'},
+  {name:'Outlaw Camp',          px:909, py:1501, z:8,  kind:'open'},
+  {name:'Minotaur Pyramid (Darashia)', px:1563, py:1591, z:7, kind:'royal'},
+  {name:'Cyclopolis',           px:1527, py:955,  z:8,  kind:'royal'},
+  {name:'Drefia',               px:1275, py:1746, z:7,  kind:'royal'},
+  {name:'Orc Fortress',         px:1274, py:1077, z:7,  kind:'royal'},
+  {name:'Mintwallin',           px:679,  py:1394, z:15, kind:'royal'},
+  {name:'Kazordoon Dwarf Mines (hub)', px:710, py:1268, z:10, kind:'royal'},
+  {name:'Kazordoon (surface)',  px:791,  py:1263, z:7,  kind:'royal'},
+  {name:'Shadowthorn',          px:1340, py:1488, z:7,  kind:'verify'},
+  {name:'Laguna Islands',       px:642,  py:2249, z:7,  kind:'verify'},
+  {name:'Mistrock',             px:871,  py:733,  z:7,  kind:'verify'},
+  {name:'Nargor',               px:264,  py:2161, z:5,  kind:'verify'},
+  {name:'Talahu (Hydra Island)',px:177,  py:1951, z:8,  kind:'verify'},
+];
+const MAILKIND={open:'Open — no quest needed',royal:'Royal — needs full Postman Quest',verify:'Royal (post-7.4) — may not exist on Rivalia, verify in-game'};
+const mailLayer=L.layerGroup();
+let mailOn=false;
+function drawMailboxes(){
+  mailLayer.clearLayers();
+  for(const m of MAILBOXES){
+    if(m.z!==curFloor && !(curFloor===7 && m.z<=7)) continue;
+    const cls='mailpin'+(m.kind==='verify'?' verify':'');
+    const html=`<div class="${cls}" title="📮 ${m.name} — ${MAILKIND[m.kind]}">📮</div>`;
+    const mk=L.marker([IMGH-m.py,m.px],{icon:L.divIcon({className:'mail-pin',html,iconSize:null})});
+    mk.bindTooltip(`📮 ${m.name}`,{direction:'top',opacity:.9});
+    mk.on('click',()=>{
+      L.popup({maxWidth:280,className:'area-popup'}).setLatLng([IMGH-m.py,m.px])
+       .setContent(`<div class="area-pop"><div class="ap-hd">📮 ${m.name}</div>`+
+         `<div class="ap-meta">Floor z${m.z}</div>`+
+         `<div class="ap-meta">${MAILKIND[m.kind]}</div>`+
+         `<div class="ap-meta" style="opacity:.7">7.4-vanilla candidate — verify position in-game</div></div>`).openOn(map);
+    });
+    mailLayer.addLayer(mk);
+  }
+}
+document.getElementById('mailBtn').onclick=function(){
+  mailOn=!mailOn; this.classList.toggle('on',mailOn);
+  this.textContent=mailOn?'📮 Mail: On':'📮 Mail: Off';
+  if(mailOn){drawMailboxes();mailLayer.addTo(map);} else {map.removeLayer(mailLayer);}
+};
+const _selFloorMail=selectFloor;
+selectFloor=function(z,keepView){ _selFloorMail(z,keepView); if(mailOn) drawMailboxes(); };
+
 // ===== 🧙 NPC: directory modal (Rivalia authoritative) + approximate 7.7 map pins =====
 (function(){
   const N=(NPCS&&NPCS.npcs)||[];
@@ -86505,6 +86560,7 @@ function flyToChest(c){
   }
   chip('areaBtn','🎯','Areas');   chip('npcPinBtn','📍','NPCs');
   chip('chestBtn','🎁','Chests'); chip('cityBtn','🏰','Cities');
+  chip('mailBtn','📮','Mail');
   chip('sprMode','🖼️','Icons');  chip('routeBtn','🧭','Route');
 
   PANES.hunt.appendChild(mk('div','msec','On the map'));
@@ -86527,6 +86583,7 @@ function flyToChest(c){
   row(PANES.me,'sprMode','🖼️','Creature icons',{toggle:1});
   row(PANES.me,'cityBtn','🏰','City names',{toggle:1});
   row(PANES.me,'chestBtn','🎁','Reward chests',{toggle:1});
+  row(PANES.me,'mailBtn','📮','Mailboxes',{toggle:1});
   PANES.me.appendChild(mk('div','msec','Selection'));
   row(PANES.me,'toAll','🗺️','Show all monsters',{close:1});
   row(PANES.me,'clearSel','✖️','Clear selection',{close:1});
