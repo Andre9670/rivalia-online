@@ -68,7 +68,7 @@ Per Paladin a distanza: i 5 charm "5% maxHP del mostro" sono i migliori contro m
 - **Bounty Talisman** (artifact slot): solo vs i mostri bounty attivi: danno +2.5→15%, life leech +2.5→12%, loot +2.5→30%, bestiary ×2 chance +5→50%.
   Upgrade costo BP = 5×(lvl+1)²+2.
 - Preferred list ×5 più probabile, Unwanted rimosso; 1 slot ciascuno → 5 (slot n costa owned×200 BP; assegnare costa 10 BP).
-- Weekly (reset **lunedì 08:00**): 6 kill + 6 delivery (espandibili a 9+9 con 1.000 Shop Points l'uno). Slot kill 1 = "Any Creature".
+- Weekly (reset **lunedì 08:00**): 6 kill + 6 delivery (12 task totali di base). ✅ **Correzione di Andrea:** +3 kill e +3 delivery extra si sbloccano pagando **1.000 Rivalia Coins oppure 10.000 Hunting Points** (il wiki dice solo "1.000 Shop Points"). Con 12 task si arriva già al ×8, quindi gli extra servono solo per più Hunting Points/exp, non per il moltiplicatore. Slot kill 1 = "Any Creature".
   Hunting Points per kill task: 20/35/55/75 (Beg/Adept/Exp/Master); delivery 60 HP flat. Barra moltiplicatore (tabella wiki): 5→×1.5, 8→×2, 12→×3, 16→×4. ✅ **CORREZIONE di Andrea (in-game, 13 ott): su Aeternum il weekly arriva a ×8 con 12 task** — la tabella del wiki è sbagliata/obsoleta, il testo della pagina che cita ×8 era quello giusto. Quindi basta chiudere 12 task, non 16.
 - Shop: outfit base 8.000 HP, addon 4.000 HP ciascuno (set completo 16.000).
 - Pool mostri per tier: Beginner (rat, orc, troll…), Adept (cyclops, dragon, kongra, minotaur*, vampire…), Expert (hydra, wyrm, banshee, cold ambusher, lich, serpent spawn…),
