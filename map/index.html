@@ -110,6 +110,9 @@
   .chip.imm{border-color:#3a5a7a;color:#9fd0ff}
   .chip.atk{border-color:#7a3a3a;color:#ffb0b0}
   .loot-list{font-size:12px;line-height:1.7;color:var(--txt)}
+  .loot-list .lrow{display:flex;justify-content:space-between;gap:10px}
+  .loot-list .lv{color:var(--acc);white-space:nowrap}
+  .loot-list .lv.none{color:var(--dim)}
   .flags{font-size:11px;color:var(--dim);margin-top:6px}
   .flags b{color:var(--txt)}
   .nostat{padding:14px 12px;font-size:12px;color:var(--dim);line-height:1.6}
@@ -89102,7 +89105,10 @@ function renderStats(i){
   }
   if(s.loot&&s.loot.length){
     h+=`<div class="sblock"><div class="h">💰 Loot</div><div class="loot-list">`+
-       s.loot.map(l=>`• ${l}`).join('<br>')+`</div></div>`;
+       s.loot.map(l=>{
+         const v=lootVal(l);
+         return `<div class="lrow"><span>• ${l}</span>`+(v>0?`<span class="lv">${v.toLocaleString()} gp</span>`:`<span class="lv none" title="No NPC buys this item">—</span>`)+`</div>`;
+       }).join('')+`</div></div>`;
   }
   if(s.summons&&s.summons.length){
     h+=`<div class="sblock"><div class="h">👹 Summon</div>`+
@@ -89654,6 +89660,12 @@ function verdictDot(slug){
 function mobChip(m){
   // clickable chip -> selects the creature on the map; dot = FARMABILE/RISCHIOSO/LETALE from your PG
   return `<span class="mobchip" data-slug="${m.slug}" title="Click: highlight ${m.mob} on the map (HP ${m.hp}, ${m.spawns} spawn)">${verdictDot(m.slug)}${m.mob} <small>·${m.spawns}</small></span>`;
+}
+let _LV=null;
+function lootVal(name){
+  // best NPC sell price for a loot item (from INS.loot_value, built by build_insights.py)
+  if(!_LV){ _LV={}; for(const r of INS.loot_value) _LV[r.item.toLowerCase()]=r.value||0; _LV['gold coin']=_LV['gold coin']||1; }
+  return _LV[String(name).toLowerCase()]||0;
 }
 function lootTraders(r){
   // "Vendi a (NPC)" cell: top sell price headline + expandable full trader table
