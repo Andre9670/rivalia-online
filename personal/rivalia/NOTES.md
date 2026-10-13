@@ -74,3 +74,8 @@ Armor 34 and Speed 206 are the same in both setups (Combat Stats screenshots, 13
 (melee that reaches me + physical ranged, e.g. Hero, Black Knight) -> shield + spears (Attack 34, def 31); otherwise (mostly elemental/spells, e.g. Dragon) -> crossbow (Attack 30, def 0).
 The verdict note says which loadout was used. Buttons: Auto / Shield + spears / Crossbow-bow force a setup; typing Attack or Shield def by hand switches to 'manual'.
 Split today: 124 monsters pick spears, 91 pick crossbow. Threshold `PHYS_SHARE_SPEARS` = 0.4 (heuristic).
+
+## 9. Open points (13 Oct 2026)
+- Distance hit chance of Royal Spears vs crossbow is UNKNOWN (no Rivalia source; the model assumes 90% for both). If Andrea measures it, add a per-setup hit chance to `PAL_SETUPS`.
+- Loadout choice by convenience (not picking up spears) is deliberately NOT modeled; use the Crossbow / bow button to force it.
+- Elite monsters (2% spawn, stronger) are not modeled; Hero/Dragon verdicts assume normal spawns.
