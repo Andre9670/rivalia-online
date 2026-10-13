@@ -88786,7 +88786,7 @@ function spriteFor(i){const v=SPRITES[DATA.names[i]];if(!v)return null;return v.
    ========================================================================== */
 // Default = le stat reali del Paladin di Andrea (13 ott 2026): lv62, Distance 79, Shielding 62, HP 725, Mana 845, ML 15,
 // scudo def 28, armor tot 26 (pari), spear Attack 30. Modificabili nel pannello.
-const CHAR_DEF = {voc:'paladin', level:62, weapSkill:79, shield:62, shieldDef:28, hp:725, mana:845,
+const CHAR_DEF = {voc:'paladin', level:62, weapSkill:79, shield:62, shieldDef:28, hp:725, mana:845, speed:171,
   weapAtk:30, armor:26, stance:'balanced',            // weapAtk = Attack munizione (pala) o arma (knight)
   mlvl:15, spellDmg:0, spellMana:0,                   // caster: Magic Level, danno medio/cast, mana/cast
   healAmt:370, healMana:80};                           // Exura Vita (Andrea, 13 ott 2026): ~370 HP per cast / 80 mana
@@ -88859,16 +88859,18 @@ function runAssess(s, group, origIdx){
   group.forEach(c=>{ if(isCaster(c.voc) && sustainCasts(c) < hitsToKill) manaStalled=true; });
   const atks=(s.attacks||[]).map(parseAtk).filter(Boolean);
   const isRanged = atks.some(a=>!(a.kind==='melee'||a.kind==='life drain'||a.kind==='mana drain'));
-  // EXPECTED damage per turn (not "strongest attack every turn"):
-  //  - melee and Physical hits ALWAYS land (Andrea: assume I take all physical hits), reduced by armor + shield block
-  //  - elemental / drain spells fire with chance SPELL_P per turn (not avoided, armor doesn't reduce them)
+  // EXPECTED damage per turn, KITING model (Andrea, 13 Oct 2026):
+  //  - melee is NOT taken while kiting: only if the monster is too fast to kite (speed >= 90% of mine) it lands in full
+  //  - ranged / elemental / drain / physical SPELLS are what hurts: each fires with chance SPELL_P per turn
+  //    (physical ones are reduced by armor + shield block, elemental ones are not)
   function rawPerTurn(c){
     if(!atks.length) return 0;
     const block=blockOf(c);
+    const kiteable=(s.speed||0) < (c.speed||171)*0.9;
     let tot=0;
     for(const a of atks){
       let d=incomingPerHit(a,c.armor);
-      if(a.kind==='melee'){ d=Math.max(0,d-block); }
+      if(a.kind==='melee'){ d = kiteable ? 0 : Math.max(0,d-block); }
       else if(a.phys){ d=Math.max(0,d-block)*SPELL_P; }
       else d*=SPELL_P;
       tot+=d;
@@ -88928,7 +88930,7 @@ function assess(s){
   const notes=[];
   if(duo){const vs=chars.map(c=>VOCS[c.voc]).join(' + ');notes.push('party ('+vs+'): summed DPS, monster damage split onto the tank');}
   if(duo && score===soloFloor && soloFloor>r.score) notes.push('the teammate does not help here → score = as if playing solo (the better of the two)');
-  if(r.isRanged) notes.push('has spell attacks: counted as expected damage (~35%/turn each); physical hits always land');
+  if(r.isRanged) notes.push('spell/ranged attacks counted at ~35%/turn each; melee ignored while kiting (monster slower than you)');
   else if(r.atks.length) notes.push('melee: kite it (shoot & retreat)');
   if(r.manaStalled) notes.push('⚠️ the caster runs out of mana before the kill — bring mana pots or shorten it');
   r.perChar.forEach(p=>{if(!p.survivable)notes.push(`survival at risk: Char${p.idx+1} (${VOCS[p.voc]}${p.isTank?', tank':''}) takes ~${p.dmgTaken} vs ${p.hp}+${p.healBudget}`);});
