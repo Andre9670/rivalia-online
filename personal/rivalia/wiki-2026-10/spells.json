@@ -1,0 +1,1303 @@
+[
+ {
+  "name": "Force Strike",
+  "words": "exori mort",
+  "desc": "An aggressive instant spell that deals damage in front of the caster. It costs 20 mana, requires magic level 2.",
+  "stats": {
+   "Mana": "20",
+   "Magic lvl": "2",
+   "Cooldown": "1s"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 600 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Energy Strike",
+  "words": "exori vis",
+  "desc": "An aggressive instant spell that deals damage in front of the caster. It costs 20 mana, requires magic level 3.",
+  "stats": {
+   "Mana": "20",
+   "Magic lvl": "3",
+   "Cooldown": "1s"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 800 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Flame Strike",
+  "words": "exori flam",
+  "desc": "An aggressive instant spell that deals damage in front of the caster. It costs 20 mana, requires magic level 3.",
+  "stats": {
+   "Mana": "20",
+   "Magic lvl": "3",
+   "Cooldown": "1s"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 800 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Berserk",
+  "words": "exori",
+  "desc": "An aggressive instant spell that deals damage in front of the caster. It costs 40% mana, requires magic level 5.",
+  "stats": {
+   "Mana": "40%",
+   "Magic lvl": "5"
+  },
+  "vocs": [
+   "knight"
+  ],
+  "premium": true,
+  "learn": "Learn for 2,500 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Fire Wave",
+  "words": "exevo flam hur",
+  "desc": "An aggressive instant spell that deals damage in front of the caster. It costs 80 mana, requires magic level 7.",
+  "stats": {
+   "Mana": "80",
+   "Magic lvl": "7"
+  },
+  "vocs": [
+   "sorcerer"
+  ],
+  "premium": false,
+  "learn": "Learn for 850 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Energy Beam",
+  "words": "exevo vis lux",
+  "desc": "An aggressive instant spell that deals damage in front of the caster. It costs 100 mana, requires magic level 10.",
+  "stats": {
+   "Mana": "100",
+   "Magic lvl": "10"
+  },
+  "vocs": [
+   "sorcerer"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,000 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Great Energy Beam",
+  "words": "exevo gran vis lux",
+  "desc": "An aggressive instant spell that deals damage in front of the caster. It costs 200 mana, requires magic level 14.",
+  "stats": {
+   "Mana": "200",
+   "Magic lvl": "14"
+  },
+  "vocs": [
+   "sorcerer"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,800 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Energy Wave",
+  "words": "exevo mort hur",
+  "desc": "An aggressive instant spell that deals damage in front of the caster. It costs 250 mana, requires magic level 20.",
+  "stats": {
+   "Mana": "250",
+   "Magic lvl": "20"
+  },
+  "vocs": [
+   "sorcerer"
+  ],
+  "premium": true,
+  "learn": "Learn for 2,500 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Poison Storm",
+  "words": "exevo gran mas pox",
+  "desc": "An aggressive instant spell that deals damage in front of the caster. It costs 600 mana, requires magic level 28.",
+  "stats": {
+   "Mana": "600",
+   "Magic lvl": "28"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 3,400 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Ultimate Explosion",
+  "words": "exevo gran mas vis",
+  "desc": "An aggressive instant spell that deals damage in front of the caster. It costs 800 mana, requires magic level 40.",
+  "stats": {
+   "Mana": "800",
+   "Magic lvl": "40"
+  },
+  "vocs": [
+   "sorcerer"
+  ],
+  "premium": true,
+  "learn": "Learn for 8,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Light Healing",
+  "words": "exura",
+  "desc": "Restores hit points to the caster. It costs 25 mana, requires magic level 1.",
+  "stats": {
+   "Mana": "25",
+   "Magic lvl": "1"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin",
+   "knight"
+  ],
+  "premium": false,
+  "learn": "Learn for 170 gp from 24 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Intense Healing",
+  "words": "exura gran",
+  "desc": "Restores hit points to the caster. It costs 40 mana, requires magic level 2.",
+  "stats": {
+   "Mana": "40",
+   "Magic lvl": "2"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 350 gp from 19 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Cleanse",
+  "words": "exana sio",
+  "desc": "Dispels poisoned, burning and electrified state conditions of the caster or a friend. It costs 30 mana, requires magic level 4.",
+  "stats": {
+   "Mana": "30",
+   "Magic lvl": "4"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 800 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Heal Friend",
+  "words": "exura sio",
+  "desc": "Heals a friendly target at range. It costs 70 mana, requires magic level 7.",
+  "stats": {
+   "Mana": "70",
+   "Magic lvl": "7"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 800 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Purity of Life",
+  "words": "exura mas sio",
+  "desc": "Heals the specified player for a large amount of hitpoints over 5 2-second turns. Heals 20% less when used on self. It costs 70 mana, requires magic level 7.",
+  "stats": {
+   "Mana": "70",
+   "Magic lvl": "7"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 10,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Ultimate Healing",
+  "words": "exura vita",
+  "desc": "Restores hit points to the caster. It costs 80 mana, requires magic level 8.",
+  "stats": {
+   "Mana": "80",
+   "Magic lvl": "8"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,000 gp from 19 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Mass Healing",
+  "words": "exura gran mas res",
+  "desc": "Heals the caster and nearby party members. It costs 150 mana, requires magic level 19.",
+  "stats": {
+   "Mana": "150",
+   "Magic lvl": "19"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 2,200 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Find Fiend",
+  "words": "exiva moe res",
+  "desc": "Reveals the direction and difficulty of the nearest Fiendish creature. It costs 20 mana.",
+  "stats": {
+   "Mana": "20",
+   "Magic lvl": "0"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin",
+   "knight"
+  ],
+  "premium": false,
+  "learn": "Learn for 2,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Find Person",
+  "words": "exiva",
+  "desc": "Reveals the direction of another player on the map. It costs 20 mana.",
+  "stats": {
+   "Mana": "20",
+   "Magic lvl": "0"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin",
+   "knight"
+  ],
+  "premium": false,
+  "learn": "Learn for 80 gp from 24 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Light",
+  "words": "utevo lux",
+  "desc": "Illuminates the area around the caster. It costs 20 mana.",
+  "stats": {
+   "Mana": "20",
+   "Magic lvl": "0"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin",
+   "knight"
+  ],
+  "premium": false,
+  "learn": "Learn for 100 gp from 24 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Recharge Firelight Wand",
+  "words": "exura flam",
+  "desc": "Illuminates the area around the caster. It costs 10 mana.",
+  "stats": {
+   "Mana": "10",
+   "Magic lvl": "0",
+   "Cooldown": "2s"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 100 gp from 8 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Recharge Moonlight Wand",
+  "words": "exura vis",
+  "desc": "Illuminates the area around the caster. It costs 10 mana.",
+  "stats": {
+   "Mana": "10",
+   "Magic lvl": "0",
+   "Cooldown": "2s"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 100 gp from 8 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Recharge Swamplight Wand",
+  "words": "exura pox",
+  "desc": "Illuminates the area around the caster. It costs 10 mana.",
+  "stats": {
+   "Mana": "10",
+   "Magic lvl": "0",
+   "Cooldown": "2s"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 100 gp from 8 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Magic Rope",
+  "words": "exani tera",
+  "desc": "A utility spell that aids the caster in combat or exploration. It costs 20 mana, requires magic level 1.",
+  "stats": {
+   "Mana": "20",
+   "Magic lvl": "1"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin",
+   "knight"
+  ],
+  "premium": true,
+  "learn": "Learn for 200 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Antidote",
+  "words": "exana pox",
+  "desc": "A utility spell that aids the caster in combat or exploration. It costs 30 mana, requires magic level 2.",
+  "stats": {
+   "Mana": "30",
+   "Magic lvl": "2"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin",
+   "knight"
+  ],
+  "premium": false,
+  "learn": "Learn for 150 gp from 24 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Taunt",
+  "words": "exeta",
+  "desc": "A utility spell that aids the caster in combat or exploration. It requires magic level 2.",
+  "stats": {
+   "Mana": "0",
+   "Magic lvl": "2"
+  },
+  "vocs": [
+   "knight"
+  ],
+  "premium": false,
+  "learn": "Learn for 10,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Great Light",
+  "words": "utevo gran lux",
+  "desc": "Illuminates the area around the caster. It costs 60 mana, requires magic level 3.",
+  "stats": {
+   "Mana": "60",
+   "Magic lvl": "3"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin",
+   "knight"
+  ],
+  "premium": false,
+  "learn": "Learn for 500 gp from 24 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Levitate",
+  "words": "exani hur",
+  "desc": "A utility spell that aids the caster in combat or exploration. It costs 50 mana, requires magic level 3.",
+  "stats": {
+   "Mana": "50",
+   "Magic lvl": "3"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin",
+   "knight"
+  ],
+  "premium": true,
+  "learn": "Learn for 500 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Challenge",
+  "words": "exeta res",
+  "desc": "A utility spell that aids the caster in combat or exploration. It costs 30 mana, requires magic level 4.",
+  "stats": {
+   "Mana": "30",
+   "Magic lvl": "4"
+  },
+  "vocs": [
+   "knight"
+  ],
+  "premium": true,
+  "learn": "Learn for 2,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Haste",
+  "words": "utani hur",
+  "desc": "Increases the caster's movement speed for a short time. It costs 60 mana, requires magic level 4.",
+  "stats": {
+   "Mana": "60",
+   "Magic lvl": "4"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin",
+   "knight"
+  ],
+  "premium": true,
+  "learn": "Learn for 600 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Magic Shield",
+  "words": "utamo vita",
+  "desc": "Protects the caster with a magical shield that absorbs damage. It costs 50 mana, requires magic level 4.",
+  "stats": {
+   "Mana": "50",
+   "Magic lvl": "4"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 450 gp from 19 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Strong Haste",
+  "words": "utani gran hur",
+  "desc": "Increases the caster's movement speed for a short time. It costs 100 mana, requires magic level 8.",
+  "stats": {
+   "Mana": "100",
+   "Magic lvl": "8"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 1,300 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Creature Illusion",
+  "words": "utevo res ina",
+  "desc": "A utility spell that aids the caster in combat or exploration. It costs 100 mana, requires magic level 10.",
+  "stats": {
+   "Mana": "100",
+   "Magic lvl": "10"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 1,000 gp from 13 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Cancel Invisibility",
+  "words": "exana ina",
+  "desc": "Makes the caster invisible to other creatures for a short time. It costs 200 mana, requires magic level 12.",
+  "stats": {
+   "Mana": "200",
+   "Magic lvl": "12"
+  },
+  "vocs": [
+   "sorcerer"
+  ],
+  "premium": true,
+  "learn": "Learn for 1,600 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Ultimate Light",
+  "words": "utevo vis lux",
+  "desc": "Illuminates the area around the caster. It costs 140 mana, requires magic level 12.",
+  "stats": {
+   "Mana": "140",
+   "Magic lvl": "12"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 1,600 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Wild Growth",
+  "words": "exevo grav vita",
+  "desc": "A utility spell that aids the caster in combat or exploration. It costs 220 mana, requires magic level 13.",
+  "stats": {
+   "Mana": "220",
+   "Magic lvl": "13"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 2,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Invisibility",
+  "words": "utana vid",
+  "desc": "Makes the caster invisible to other creatures for a short time. It costs 210 mana, requires magic level 15.",
+  "stats": {
+   "Mana": "210",
+   "Magic lvl": "15"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,000 gp from 19 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Undead Legion",
+  "words": "exana mas mort",
+  "desc": "A utility spell that aids the caster in combat or exploration. It costs 500 mana, requires magic level 15.",
+  "stats": {
+   "Mana": "500",
+   "Magic lvl": "15"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 2,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Stealth",
+  "words": "utana gran vid",
+  "desc": "A utility spell that aids the caster in combat or exploration. It costs 100 mana, requires magic level 18.",
+  "stats": {
+   "Mana": "100",
+   "Magic lvl": "18",
+   "Cooldown": "6s"
+  },
+  "vocs": [
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 10,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Energy Ward",
+  "words": "exana vis sio",
+  "desc": "Boosts resistance of the caster or a friend against energy damage for 30 minutes. It costs 480 mana, requires magic level 20.",
+  "stats": {
+   "Mana": "480",
+   "Magic lvl": "20"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 4,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Fire Ward",
+  "words": "exana flam sio",
+  "desc": "Boosts resistance of the caster or a friend against fire damage for 30 minutes. It costs 480 mana, requires magic level 20.",
+  "stats": {
+   "Mana": "480",
+   "Magic lvl": "20"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 4,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Poison Ward",
+  "words": "exana pox sio",
+  "desc": "Boosts resistance of the caster or a friend against poison damage for 30 minutes. It costs 480 mana, requires magic level 20.",
+  "stats": {
+   "Mana": "480",
+   "Magic lvl": "20"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 4,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Light Magic Missile",
+  "words": "adori",
+  "desc": "Conjures a few charges of the corresponding rune (item id 2287) into the caster's inventory. It costs 40 mana, requires magic level 1.",
+  "stats": {
+   "Mana": "40",
+   "Magic lvl": "1"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 200 gp from 19 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Poison Field",
+  "words": "adevo grav pox",
+  "desc": "Conjures a few charges of the corresponding rune (item id 2285) into the caster's inventory. It costs 50 mana, requires magic level 2.",
+  "stats": {
+   "Mana": "50",
+   "Magic lvl": "2"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 300 gp from 13 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Fire Field",
+  "words": "adevo grav flam",
+  "desc": "Conjures 1 charges of the corresponding rune (item id 2301) into the caster's inventory. It costs 60 mana, requires magic level 3.",
+  "stats": {
+   "Mana": "60",
+   "Magic lvl": "3",
+   "To use rune": "ML 1"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 500 gp from 13 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Heavy Magic Missile",
+  "words": "adori gran",
+  "desc": "Conjures 1 charges of the corresponding rune (item id 2311) into the caster's inventory. It costs 70 mana, requires magic level 3.",
+  "stats": {
+   "Mana": "70",
+   "Magic lvl": "3",
+   "To use rune": "ML 1"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 600 gp from 19 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Antidote Rune",
+  "words": "adana pox",
+  "desc": "Conjures a few charges of the corresponding rune (item id 2266) into the caster's inventory. It costs 50 mana, requires magic level 4.",
+  "stats": {
+   "Mana": "50",
+   "Magic lvl": "4"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 600 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Intense Healing Rune",
+  "words": "adura gran",
+  "desc": "Conjures 1 charges of the corresponding rune (item id 2265) into the caster's inventory. It costs 60 mana, requires magic level 4.",
+  "stats": {
+   "Mana": "60",
+   "Magic lvl": "4",
+   "To use rune": "ML 1"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 600 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Energy Field",
+  "words": "adevo grav vis",
+  "desc": "Conjures 3 charges of the corresponding rune (item id 2277) into the caster's inventory. It costs 80 mana, requires magic level 5.",
+  "stats": {
+   "Mana": "80",
+   "Magic lvl": "5",
+   "To use rune": "ML 3"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 700 gp from 13 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Fireball",
+  "words": "adori flam",
+  "desc": "Conjures 2 charges of the corresponding rune (item id 2302) into the caster's inventory. It costs 60 mana, requires magic level 5.",
+  "stats": {
+   "Mana": "60",
+   "Magic lvl": "5",
+   "To use rune": "ML 2"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 800 gp from 19 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Destroy Field",
+  "words": "adito grav",
+  "desc": "Conjures 3 charges of the corresponding rune (item id 2261) into the caster's inventory. It costs 60 mana, requires magic level 6.",
+  "stats": {
+   "Mana": "60",
+   "Magic lvl": "6",
+   "To use rune": "ML 3"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 350 gp from 19 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Animate Dead",
+  "words": "adana mort",
+  "desc": "Conjures 4 charges of the corresponding rune (item id 2316) into the caster's inventory. It costs 300 mana, requires magic level 7.",
+  "stats": {
+   "Mana": "300",
+   "Magic lvl": "7",
+   "To use rune": "ML 4"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,200 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Envenom",
+  "words": "adevo res pox",
+  "desc": "Conjures 4 charges of the corresponding rune (item id 2292) into the caster's inventory. It costs 100 mana, requires magic level 7.",
+  "stats": {
+   "Mana": "100",
+   "Magic lvl": "7",
+   "To use rune": "ML 4"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 1,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Desintegrate",
+  "words": "adito tera",
+  "desc": "Conjures 4 charges of the corresponding rune (item id 2310) into the caster's inventory. It costs 100 mana, requires magic level 8.",
+  "stats": {
+   "Mana": "100",
+   "Magic lvl": "8",
+   "To use rune": "ML 4"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid",
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 900 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Poisonbomb",
+  "words": "adevo mas pox",
+  "desc": "Conjures 4 charges of the corresponding rune (item id 2286) into the caster's inventory. It costs 130 mana, requires magic level 8.",
+  "stats": {
+   "Mana": "130",
+   "Magic lvl": "8",
+   "To use rune": "ML 4"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 1,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Firebomb",
+  "words": "adevo mas flam",
+  "desc": "Conjures 5 charges of the corresponding rune (item id 2305) into the caster's inventory. It costs 150 mana, requires magic level 9.",
+  "stats": {
+   "Mana": "150",
+   "Magic lvl": "9",
+   "To use rune": "ML 5"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,500 gp from 13 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Great Fireball",
+  "words": "adori gran flam",
+  "desc": "Conjures 4 charges of the corresponding rune (item id 2304) into the caster's inventory. It costs 120 mana, requires magic level 9.",
+  "stats": {
+   "Mana": "120",
+   "Magic lvl": "9",
+   "To use rune": "ML 4"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,200 gp from 13 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Convince Creature",
+  "words": "adeta sio",
+  "desc": "Conjures 5 charges of the corresponding rune (item id 2290) into the caster's inventory. It costs 100 mana, requires magic level 10.",
+  "stats": {
+   "Mana": "100",
+   "Magic lvl": "10",
+   "To use rune": "ML 5"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,300 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Chameleon",
+  "words": "adevo ina",
+  "desc": "Conjures 4 charges of the corresponding rune (item id 2291) into the caster's inventory. It costs 150 mana, requires magic level 11.",
+  "stats": {
+   "Mana": "150",
+   "Magic lvl": "11",
+   "To use rune": "ML 4"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,300 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Poison Wall",
+  "words": "adevo mas grav pox",
+  "desc": "Conjures 5 charges of the corresponding rune (item id 2289) into the caster's inventory. It costs 160 mana, requires magic level 11.",
+  "stats": {
+   "Mana": "160",
+   "Magic lvl": "11",
+   "To use rune": "ML 5"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,600 gp from 13 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Ultimate Healing Rune",
+  "words": "adura vita",
+  "desc": "Conjures 4 charges of the corresponding rune (item id 2273) into the caster's inventory. It costs 100 mana, requires magic level 11.",
+  "stats": {
+   "Mana": "100",
+   "Magic lvl": "11",
+   "To use rune": "ML 4"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,500 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Explosion",
+  "words": "adevo mas hur",
+  "desc": "Conjures 6 charges of the corresponding rune (item id 2313) into the caster's inventory. It costs 180 mana, requires magic level 12.",
+  "stats": {
+   "Mana": "180",
+   "Magic lvl": "12",
+   "To use rune": "ML 6"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 1,800 gp from 13 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Fire Wall",
+  "words": "adevo mas grav flam",
+  "desc": "Conjures 6 charges of the corresponding rune (item id 2303) into the caster's inventory. It costs 200 mana, requires magic level 13.",
+  "stats": {
+   "Mana": "200",
+   "Magic lvl": "13",
+   "To use rune": "ML 6"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 2,000 gp from 13 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Soulfire",
+  "words": "adevo res flam",
+  "desc": "Conjures 7 charges of the corresponding rune (item id 2308) into the caster's inventory. It costs 150 mana, requires magic level 13.",
+  "stats": {
+   "Mana": "150",
+   "Magic lvl": "13",
+   "To use rune": "ML 7"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 1,800 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Magic Wall",
+  "words": "adevo grav tera",
+  "desc": "Conjures 9 charges of the corresponding rune (item id 2293) into the caster's inventory. It costs 250 mana, requires magic level 14.",
+  "stats": {
+   "Mana": "250",
+   "Magic lvl": "14",
+   "To use rune": "ML 9"
+  },
+  "vocs": [
+   "sorcerer"
+  ],
+  "premium": true,
+  "learn": "Learn for 2,100 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Icicle Rune",
+  "words": "adori frigo",
+  "desc": "Conjures 4 charges of the corresponding rune (item id 2271) into the caster's inventory. It costs 100 mana, requires magic level 15.",
+  "stats": {
+   "Mana": "100",
+   "Magic lvl": "15",
+   "To use rune": "ML 4"
+  },
+  "vocs": [
+   "sorcerer"
+  ],
+  "premium": false,
+  "learn": "Learn for 10,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Energy Wall",
+  "words": "adevo mas grav vis",
+  "desc": "Conjures 9 charges of the corresponding rune (item id 2279) into the caster's inventory. It costs 250 mana, requires magic level 18.",
+  "stats": {
+   "Mana": "250",
+   "Magic lvl": "18",
+   "To use rune": "ML 9"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 2,500 gp from 13 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Energybomb",
+  "words": "adevo mas vis",
+  "desc": "Conjures 10 charges of the corresponding rune (item id 2262) into the caster's inventory. It costs 220 mana, requires magic level 18.",
+  "stats": {
+   "Mana": "220",
+   "Magic lvl": "18",
+   "To use rune": "ML 10"
+  },
+  "vocs": [
+   "sorcerer"
+  ],
+  "premium": true,
+  "learn": "Learn for 2,300 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Sudden Death",
+  "words": "adori vita vis",
+  "desc": "Conjures 15 charges of the corresponding rune (item id 2268) into the caster's inventory. It costs 220 mana, requires magic level 25.",
+  "stats": {
+   "Mana": "220",
+   "Magic lvl": "25",
+   "To use rune": "ML 15"
+  },
+  "vocs": [
+   "sorcerer"
+  ],
+  "premium": false,
+  "learn": "Learn for 3,000 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Paralyze",
+  "words": "adana ani",
+  "desc": "Conjures 18 charges of the corresponding rune (item id 2278) into the caster's inventory. It costs 600 mana, requires magic level 35.",
+  "stats": {
+   "Mana": "600",
+   "Magic lvl": "35",
+   "To use rune": "ML 18"
+  },
+  "vocs": [
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 1,900 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Food",
+  "words": "exevo pan",
+  "desc": "Conjures a small selection of food into the caster's inventory. It costs 30 mana.",
+  "stats": {
+   "Mana": "30",
+   "Magic lvl": "0"
+  },
+  "vocs": [
+   "druid",
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 150 gp from 13 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Training Spear",
+  "words": "exevo con lancea",
+  "desc": "Conjures ammunition into the caster's inventory. It costs 50 mana, requires magic level 1.",
+  "stats": {
+   "Mana": "50",
+   "Magic lvl": "1"
+  },
+  "vocs": [
+   "paladin"
+  ],
+  "premium": true,
+  "learn": "",
+  "npcs": []
+ },
+ {
+  "name": "Conjure Arrow",
+  "words": "exevo con",
+  "desc": "Conjures ammunition into the caster's inventory. It costs 40 mana, requires magic level 2.",
+  "stats": {
+   "Mana": "40",
+   "Magic lvl": "2"
+  },
+  "vocs": [
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 450 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Poisoned Arrow",
+  "words": "exevo con pox",
+  "desc": "Conjures ammunition into the caster's inventory. It costs 70 mana, requires magic level 5.",
+  "stats": {
+   "Mana": "70",
+   "Magic lvl": "5"
+  },
+  "vocs": [
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 700 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Conjure Bolt",
+  "words": "exevo con mort",
+  "desc": "Conjures ammunition into the caster's inventory. It costs 70 mana, requires magic level 6.",
+  "stats": {
+   "Mana": "70",
+   "Magic lvl": "6"
+  },
+  "vocs": [
+   "paladin"
+  ],
+  "premium": false,
+  "learn": "Learn for 750 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Conjure Small Explosive Rune",
+  "words": "adori ignis",
+  "desc": "Conjures ammunition into the caster's inventory. It costs 120 mana, requires magic level 10.",
+  "stats": {
+   "Mana": "120",
+   "Magic lvl": "10"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": true,
+  "learn": "Learn for 1,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Explosive Arrow",
+  "words": "exevo con flam",
+  "desc": "Conjures ammunition into the caster's inventory. It costs 120 mana, requires magic level 10.",
+  "stats": {
+   "Mana": "120",
+   "Magic lvl": "10"
+  },
+  "vocs": [
+   "paladin"
+  ],
+  "premium": true,
+  "learn": "Learn for 1,000 gp from 7 NPCs",
+  "npcs": []
+ },
+ {
+  "name": "Conjure Power Bolt",
+  "words": "exevo con vis",
+  "desc": "Conjures ammunition into the caster's inventory. It costs 200 mana, requires magic level 14.",
+  "stats": {
+   "Mana": "200",
+   "Magic lvl": "14"
+  },
+  "vocs": [
+   "paladin"
+  ],
+  "premium": true,
+  "learn": "Learn for 2,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Enchant Staff",
+  "words": "exeta vis",
+  "desc": "Imbues a wielded weapon with magical properties. It costs 80 mana, requires magic level 22.",
+  "stats": {
+   "Mana": "80",
+   "Magic lvl": "22"
+  },
+  "vocs": [
+   "sorcerer"
+  ],
+  "premium": true,
+  "learn": "Learn for 2,000 gp from 1 NPC",
+  "npcs": []
+ },
+ {
+  "name": "Summon Creature",
+  "words": "utevo res",
+  "desc": "Summons a creature that fights for the caster. It requires magic level 16.",
+  "stats": {
+   "Mana": "0",
+   "Magic lvl": "16"
+  },
+  "vocs": [
+   "sorcerer",
+   "druid"
+  ],
+  "premium": false,
+  "learn": "Learn for 2,000 gp from 13 NPCs",
+  "npcs": []
+ }
+]

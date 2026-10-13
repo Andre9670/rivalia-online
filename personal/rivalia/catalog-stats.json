@@ -36,7 +36,10 @@
       "Small Amethyst",
       "Dark Armor",
       "Golden Armor",
-      "Giant Sword"
+      "Giant Sword",
+      "Stone Skin Amulet",
+      "Might Ring",
+      "Heavy Halberd"
     ]
   },
   "Algatha": {
@@ -58,7 +61,8 @@
       "Melee (~1275)",
       "Physical (800-600)",
       "Poison (450-200)"
-    ]
+    ],
+    "loot": []
   },
   "Amazon": {
     "name": "Amazon",
@@ -167,7 +171,45 @@
       "Teddy Bear",
       "Talon",
       "Thunder Hammer",
-      "Small Sapphire"
+      "Small Sapphire",
+      "Small Amethyst",
+      "Energy Ring",
+      "Silver Amulet",
+      "Ring Of Healing",
+      "White Pearl",
+      "Giant Sword",
+      "Orb",
+      "Magic Light Wand",
+      "Devil Helmet",
+      "Stealth Ring",
+      "Small Diamond",
+      "Big Bone",
+      "Gold Ring",
+      "Mastermind Shield",
+      "Ice Rapier",
+      "Golden Mug",
+      "Crystal Ring",
+      "Skull Staff",
+      "Might Ring",
+      "Golden Legs",
+      "Protection Amulet",
+      "Platinum Amulet",
+      "Golden Sickle",
+      "Dragon Hammer",
+      "Stone Skin Amulet",
+      "Mind Stone",
+      "Boots Of Haste",
+      "Ring Of The Sky",
+      "Ancient Amulet",
+      "Magic Plate Armor",
+      "Purple Tome",
+      "Strange Symbol",
+      "Crystal Ball",
+      "Green Gem",
+      "Crystal Necklace",
+      "Blue Gem",
+      "Life Crystal",
+      "Voodoo Doll"
     ]
   },
   "Ashmunrah": {
@@ -320,7 +362,16 @@
       "Petrified Scream",
       "Silver Brooch",
       "Poison Dagger",
-      "White Pearl"
+      "White Pearl",
+      "Lyre",
+      "Stone Skin Amulet",
+      "Ring Of Healing",
+      "Blue Robe",
+      "Wedding Ring",
+      "Spellbook",
+      "Red Robe",
+      "Life Crystal",
+      "Crystal Ring"
     ]
   },
   "Bat": {
@@ -380,7 +431,45 @@
       "Teddy Bear",
       "Talon",
       "Thunder Hammer",
-      "Small Sapphire"
+      "Small Sapphire",
+      "Small Amethyst",
+      "Energy Ring",
+      "Silver Amulet",
+      "Ring Of Healing",
+      "White Pearl",
+      "Giant Sword",
+      "Orb",
+      "Magic Light Wand",
+      "Devil Helmet",
+      "Stealth Ring",
+      "Small Diamond",
+      "Big Bone",
+      "Gold Ring",
+      "Mastermind Shield",
+      "Ice Rapier",
+      "Golden Mug",
+      "Crystal Ring",
+      "Skull Staff",
+      "Might Ring",
+      "Golden Legs",
+      "Protection Amulet",
+      "Platinum Amulet",
+      "Golden Sickle",
+      "Dragon Hammer",
+      "Stone Skin Amulet",
+      "Mind Stone",
+      "Boots Of Haste",
+      "Ring Of The Sky",
+      "Ancient Amulet",
+      "Magic Plate Armor",
+      "Purple Tome",
+      "Strange Symbol",
+      "Crystal Ball",
+      "Green Gem",
+      "Crystal Necklace",
+      "Blue Gem",
+      "Life Crystal",
+      "Voodoo Doll"
     ]
   },
   "Bear": {
@@ -440,7 +529,13 @@
       "Small Amethyst",
       "Dark Armor",
       "Plate Armor",
-      "Giant Sword"
+      "Giant Sword",
+      "Perfect Behemoth Fang",
+      "Behemoth Claw",
+      "Strange Symbol",
+      "Steel Boots",
+      "Crystal Necklace",
+      "Green Spell Wand"
     ]
   },
   "Beholder": {
@@ -513,7 +608,14 @@
       "Plate Armor",
       "Battle Hammer",
       "Warrior Helmet",
-      "Knight Axe"
+      "Knight Axe",
+      "Dark Helmet",
+      "Dark Armor",
+      "Knight Legs",
+      "Knight Armor",
+      "Ruby Necklace",
+      "Boots Of Haste",
+      "Dragon Lance"
     ]
   },
   "Black Sheep": {
@@ -550,7 +652,8 @@
     "pushable": true,
     "attacks": [
       "Melee"
-    ]
+    ],
+    "loot": []
   },
   "Blue Djinn": {
     "name": "Blue Djinn",
@@ -601,7 +704,8 @@
     "corpse": 8951,
     "summonable": false,
     "convinceable": false,
-    "pushable": false
+    "pushable": false,
+    "loot": []
   },
   "Bonebeast": {
     "name": "Bonebeast",
@@ -815,7 +919,9 @@
       "Life Crystal",
       "Strange Helmet",
       "Tower Shield",
-      "Fire Sword"
+      "Fire Sword",
+      "Royal Helmet",
+      "Dragon Scale Mail"
     ]
   },
   "Chicken": {
@@ -854,13 +960,14 @@
     "attacks": [
       "Melee (~32)",
       "Poisoncondition"
-    ]
+    ],
+    "loot": []
   },
   "Cold Ambusher": {
     "name": "Cold Ambusher",
-    "health": 120,
-    "experience": 90,
-    "speed": 90,
+    "health": 1180,
+    "experience": 800,
+    "speed": 130,
     "race": "blood",
     "armor": 14,
     "defense": 20,
@@ -881,7 +988,22 @@
       "Brass Shield",
       "Backpack",
       "Brass Legs",
-      "Obsidian Lance"
+      "Obsidian Lance",
+      "Morning Star",
+      "Moonlight Wand",
+      "Cultish Robe",
+      "Geomancer's Staff",
+      "Cape",
+      "Chain Armor",
+      "Blue Tapestry",
+      "Black Pearl",
+      "White Pearl",
+      "Permafrost Morningstar",
+      "Wooden Wand",
+      "Life Crystal",
+      "Stealth Ring",
+      "Boots Of Haste",
+      "Focus Cape"
     ]
   },
   "Coldcrawler": {
@@ -1043,7 +1165,11 @@
       "Broadsword",
       "Double Axe",
       "Permafrost Longsword",
-      "Permafrost Morningstar"
+      "Permafrost Morningstar",
+      "Small Diamond",
+      "Crystallized Shield",
+      "Life Crystal",
+      "Crystallized Bow"
     ]
   },
   "Cyclops": {
@@ -1105,7 +1231,8 @@
       "Dark Helmet",
       "Battle Shield",
       "Melee Ring",
-      "Plate Legs"
+      "Plate Legs",
+      "War Hammer"
     ]
   },
   "Dark Monk": {
@@ -1139,7 +1266,9 @@
       "Brown Flask",
       "Sandals",
       "Leather Armor",
-      "Life Crystal"
+      "Life Crystal",
+      "Distance Ring",
+      "Ankh"
     ]
   },
   "Deathslicer": {
@@ -1158,7 +1287,8 @@
       "Melee (~585)",
       "Energy (250-150)",
       "Life Drain (250-150)"
-    ]
+    ],
+    "loot": []
   },
   "Deer": {
     "name": "Deer",
@@ -1221,7 +1351,10 @@
       "Golden Mug",
       "Life Crystal",
       "Strange Helmet",
-      "Tower Shield"
+      "Tower Shield",
+      "Fire Sword",
+      "Royal Helmet",
+      "Dragon Scale Mail"
     ]
   },
   "Demon": {
@@ -1267,7 +1400,22 @@
       "Talon",
       "Orb",
       "Giant Sword",
-      "Golden Sickle"
+      "Golden Sickle",
+      "Stealth Ring",
+      "Purple Tome",
+      "Devil Helmet",
+      "Gold Ring",
+      "Platinum Amulet",
+      "Ice Rapier",
+      "Ring Of Healing",
+      "Mastermind Shield",
+      "Demon Shield",
+      "Golden Legs",
+      "Might Ring",
+      "Magic Plate Armor",
+      "Demon's Heart",
+      "Magic Plate Legs",
+      "Magic Plate Boots"
     ]
   },
   "Demon Skeleton": {
@@ -1338,7 +1486,10 @@
       "Grave Flower",
       "Candlestick",
       "Sling Herb",
-      "Bowl"
+      "Bowl",
+      "Elven Amulet",
+      "Life Crystal",
+      "Yellow Gem"
     ]
   },
   "Dipthrah": {
@@ -1398,7 +1549,8 @@
     "pushable": false,
     "attacks": [
       "Melee"
-    ]
+    ],
+    "loot": []
   },
   "Dragon": {
     "name": "Dragon",
@@ -1435,7 +1587,17 @@
       "Royal Spear",
       "Longsword",
       "Steel Helmet",
-      "Plate Legs"
+      "Plate Legs",
+      "Broadsword",
+      "Double Axe",
+      "Serpent Sword",
+      "Dragon Hammer",
+      "Green Dragon Leather",
+      "Green Dragon Scale",
+      "Small Diamond",
+      "Dragon Shield",
+      "Scaled Quiver",
+      "Life Crystal"
     ]
   },
   "Dragon Lord": {
@@ -1475,7 +1637,13 @@
       "Golden Mug",
       "Life Crystal",
       "Red Dragon Leather",
-      "Strange Helmet"
+      "Strange Helmet",
+      "Tower Shield",
+      "Fire Sword",
+      "Royal Helmet",
+      "Dragon Scale Mail",
+      "Naginata",
+      "Dragon Lord's Eye"
     ]
   },
   "Dravokar": {
@@ -1508,7 +1676,8 @@
     ],
     "summons": [
       "Fire Elemental"
-    ]
+    ],
+    "loot": []
   },
   "Dwarf": {
     "name": "Dwarf",
@@ -1576,7 +1745,11 @@
       "Soldier Helmet",
       "Magic Light Wand",
       "Iron Hammer",
-      "Clerical Mace"
+      "Clerical Mace",
+      "Spellbook",
+      "Dwarven Ring",
+      "Small Sapphire",
+      "Blink Rune"
     ]
   },
   "Dwarf Guard": {
@@ -1865,7 +2038,8 @@
       "Shadow Sceptre",
       "Lightning Legs",
       "Lightning Boots",
-      "Lightning Robe"
+      "Lightning Robe",
+      "Composite Hornbow"
     ]
   },
   "Elephant": {
@@ -1957,7 +2131,13 @@
       "Inkwell",
       "Green Tunic",
       "Grave Flower",
-      "Arrow"
+      "Arrow",
+      "Bowl",
+      "Sling Herb",
+      "Elven Amulet",
+      "Life Crystal",
+      "Yellow Gem",
+      "Elven Wand"
     ]
   },
   "Elf Scout": {
@@ -2026,7 +2206,12 @@
       "Green Tunic",
       "Grave Flower",
       "Brown Flask",
-      "Dirty Fur"
+      "Dirty Fur",
+      "Sling Herb",
+      "Bowl",
+      "Life Crystal",
+      "Distance Ring",
+      "Yellow Gem"
     ]
   },
   "Ferumbras": {
@@ -2066,7 +2251,44 @@
       "Teddy Bear",
       "Talon",
       "Thunder Hammer",
-      "Small Sapphire"
+      "Small Sapphire",
+      "Small Amethyst",
+      "Energy Ring",
+      "Silver Amulet",
+      "Ring Of Healing",
+      "White Pearl",
+      "Giant Sword",
+      "Orb",
+      "Magic Light Wand",
+      "Devil Helmet",
+      "Stealth Ring",
+      "Small Diamond",
+      "Gold Ring",
+      "Mastermind Shield",
+      "Ice Rapier",
+      "Golden Mug",
+      "Crystal Ring",
+      "Skull Staff",
+      "Might Ring",
+      "Golden Legs",
+      "Protection Amulet",
+      "Platinum Amulet",
+      "Golden Sickle",
+      "Dragon Hammer",
+      "Stone Skin Amulet",
+      "Mind Stone",
+      "Boots Of Haste",
+      "Ring Of The Sky",
+      "Ancient Amulet",
+      "Magic Plate Armor",
+      "Purple Tome",
+      "Strange Symbol",
+      "Crystal Ball",
+      "Green Gem",
+      "Crystal Necklace",
+      "Blue Gem",
+      "Life Crystal",
+      "Voodoo Doll"
     ]
   },
   "Fherumin, the wise": {
@@ -2152,7 +2374,8 @@
       "Melee (~110)",
       "Firefield",
       "Fire (155-55)"
-    ]
+    ],
+    "loot": []
   },
   "Flamethrower": {
     "name": "Flamethrower",
@@ -2169,7 +2392,8 @@
     "attacks": [
       "Melee (~1)",
       "Fire (100-50)"
-    ]
+    ],
+    "loot": []
   },
   "Flamingo": {
     "name": "Flamingo",
@@ -2185,7 +2409,8 @@
     "pushable": false,
     "attacks": [
       "Melee (~6)"
-    ]
+    ],
+    "loot": []
   },
   "Fleshcursed Skeleton": {
     "name": "Fleshcursed Skeleton",
@@ -2289,7 +2514,19 @@
       "Crossbow",
       "Green Tunic",
       "Wedding Ring",
-      "Power Bolt"
+      "Power Bolt",
+      "Scroll Of Heroic Deeds",
+      "Two Handed Sword",
+      "Crown Armor",
+      "War Hammer",
+      "Might Ring",
+      "Fire Sword",
+      "Crown Legs",
+      "Crown Helmet",
+      "Bright Sword",
+      "Permafrost Shard",
+      "Crown Shield",
+      "Crystallized Crossbow"
     ]
   },
   "Frost Dragon": {
@@ -2331,7 +2568,13 @@
       "Frost Dragon Claw",
       "Golden Mug",
       "Frost Dragon Wing",
-      "Life Crystal"
+      "Life Crystal",
+      "Shard",
+      "Strange Helmet",
+      "Tower Shield",
+      "Royal Helmet",
+      "Dragon Scale Mail",
+      "Naginata"
     ]
   },
   "Frost Troll": {
@@ -2401,7 +2644,21 @@
       "Perfect Behemoth Fang",
       "Small Amethyst",
       "Dark Armor",
-      "Permafrost Longsword"
+      "Permafrost Longsword",
+      "Permafrost Morningstar",
+      "Ice Rapier",
+      "Plate Armor",
+      "Giant Sword",
+      "Icicle Rune",
+      "Strange Symbol",
+      "Steel Boots",
+      "Ancient Armor",
+      "Crystal Necklace",
+      "Crystallized Crossbow",
+      "Executioner Sword",
+      "Frozen Shield",
+      "Frozen Heartstone",
+      "Green Spell Wand"
     ]
   },
   "Gamemaster": {
@@ -2421,7 +2678,8 @@
       "Energy (2250-1750)",
       "Mana Drain (1029-969)",
       "Life Drain (2150-1850)"
-    ]
+    ],
+    "loot": []
   },
   "Gargoyle": {
     "name": "Gargoyle",
@@ -2618,7 +2876,8 @@
       "Plate Legs",
       "Ancient Boots",
       "Time Ring",
-      "Cobra Tongue"
+      "Cobra Tongue",
+      "Knight Axe"
     ]
   },
   "Giant Demon Skeleton": {
@@ -2656,7 +2915,9 @@
       "Plate Legs",
       "Mysterious Fetish",
       "Mind Stone",
-      "Guardian Shield"
+      "Guardian Shield",
+      "Knight Armor",
+      "Knight Legs"
     ]
   },
   "Giant Skeleton": {
@@ -2807,12 +3068,29 @@
     "name": "Grim Reaper",
     "health": 3900,
     "experience": 5500,
-    "speed": 260,
+    "speed": 160,
     "race": "undead",
     "corpse": 8955,
     "summonable": false,
     "convinceable": false,
-    "pushable": false
+    "pushable": false,
+    "armor": 40,
+    "defense": 50,
+    "loot": [
+      "Gold Coin",
+      "Demonic Essence",
+      "Scythe",
+      "Mystical Hourglass",
+      "Dark Shield",
+      "Platinum Coin",
+      "Orichalcum Pearl",
+      "Nightmare Blade",
+      "Gold Ring",
+      "Glacier Kilt",
+      "Stone Skin Amulet",
+      "Staff Of Might",
+      "Skullcracker Armor"
+    ]
   },
   "Grimaw": {
     "name": "Grimaw",
@@ -2874,7 +3152,8 @@
       "Scale Armor",
       "Steel Boots",
       "Red Gem",
-      "Crystal Ring"
+      "Crystal Ring",
+      "Distance Ring"
     ]
   },
   "Hellforged Devil": {
@@ -2911,7 +3190,9 @@
       "Double Axe",
       "Dragon Necklace",
       "Wooden Wand",
-      "Ruby Necklace"
+      "Ruby Necklace",
+      "Dragonbone Sigil",
+      "Red Spell Wand"
     ]
   },
   "Hero": {
@@ -2950,7 +3231,17 @@
       "Bow",
       "Scarf",
       "Green Tunic",
-      "Wedding Ring"
+      "Wedding Ring",
+      "Scroll Of Heroic Deeds",
+      "Two Handed Sword",
+      "Crown Armor",
+      "War Hammer",
+      "Might Ring",
+      "Fire Sword",
+      "Crown Legs",
+      "Crown Helmet",
+      "Bright Sword",
+      "Crown Shield"
     ]
   },
   "High Necromancer": {
@@ -2987,7 +3278,8 @@
       "Big Bone",
       "Clerical Mace",
       "Mystic Turban",
-      "Skull Staff"
+      "Skull Staff",
+      "Boots Of Haste"
     ]
   },
   "Hunter": {
@@ -3018,7 +3310,8 @@
       "Brass Helmet",
       "Brass Armor",
       "Dragon Necklace",
-      "Sniper Gloves"
+      "Sniper Gloves",
+      "Small Ruby"
     ]
   },
   "Hyaena": {
@@ -3076,7 +3369,11 @@
       "Hydra Egg",
       "Stone Skin Amulet",
       "Life Crystal",
-      "Royal Helmet"
+      "Royal Helmet",
+      "Scaled Quiver",
+      "Medusa Shield",
+      "Boots Of Haste",
+      "Hydra Scale Legs"
     ]
   },
   "Ice Goblin": {
@@ -3145,7 +3442,9 @@
       "Strange Helmet",
       "Spike Sword",
       "Guardian Shield",
-      "Talon"
+      "Talon",
+      "Crystal Ring",
+      "Blue Gem"
     ]
   },
   "Ice Witch": {
@@ -3224,7 +3523,45 @@
       "Teddy Bear",
       "Talon",
       "Thunder Hammer",
-      "Small Sapphire"
+      "Small Sapphire",
+      "Small Amethyst",
+      "Energy Ring",
+      "Silver Amulet",
+      "Ring Of Healing",
+      "White Pearl",
+      "Giant Sword",
+      "Orb",
+      "Magic Light Wand",
+      "Devil Helmet",
+      "Stealth Ring",
+      "Small Diamond",
+      "Big Bone",
+      "Gold Ring",
+      "Mastermind Shield",
+      "Ice Rapier",
+      "Golden Mug",
+      "Crystal Ring",
+      "Skull Staff",
+      "Might Ring",
+      "Golden Legs",
+      "Protection Amulet",
+      "Platinum Amulet",
+      "Golden Sickle",
+      "Dragon Hammer",
+      "Stone Skin Amulet",
+      "Mind Stone",
+      "Boots Of Haste",
+      "Ring Of The Sky",
+      "Ancient Amulet",
+      "Magic Plate Armor",
+      "Purple Tome",
+      "Strange Symbol",
+      "Crystal Ball",
+      "Green Gem",
+      "Crystal Necklace",
+      "Blue Gem",
+      "Life Crystal",
+      "Voodoo Doll"
     ]
   },
   "Jothun": {
@@ -3259,7 +3596,9 @@
       "Battle Shield",
       "Permafrost Morningstar",
       "Crystallized Shield",
-      "Wolf Tooth Chain"
+      "Wolf Tooth Chain",
+      "Dark Helmet",
+      "War Hammer"
     ]
   },
   "Jothun Elder": {
@@ -3297,7 +3636,12 @@
       "Small Sapphire",
       "Plate Shield",
       "Dark Helmet",
-      "Time Ring"
+      "Time Ring",
+      "Battle Shield",
+      "Melee Ring",
+      "Plate Legs",
+      "Permafrost Morningstar",
+      "Steel Boots"
     ]
   },
   "Kongra": {
@@ -3322,7 +3666,8 @@
       "Plate Armor",
       "Ape Fur",
       "Power Ring",
-      "Melee Ring"
+      "Melee Ring",
+      "Distance Ring"
     ]
   },
   "Kragmorth": {
@@ -3340,7 +3685,8 @@
     "attacks": [
       "Melee (~975)",
       "Physical (370-250)"
-    ]
+    ],
+    "loot": []
   },
   "Larva": {
     "name": "Larva",
@@ -3578,7 +3924,8 @@
     "attacks": [
       "Melee (~1)",
       "Poison (100-50)"
-    ]
+    ],
+    "loot": []
   },
   "Mahrdis": {
     "name": "Mahrdis",
@@ -3651,7 +3998,13 @@
       "The Stinger",
       "Ancient Boots",
       "Crown Armor",
-      "Gold Ring"
+      "Gold Ring",
+      "Hellforged Shield",
+      "Poisoned Bow",
+      "Poisonous Tail",
+      "Ancient Legs",
+      "Ancient Armor",
+      "Vanquisher"
     ]
   },
   "Marid": {
@@ -3818,7 +4171,9 @@
       "Brass Helmet",
       "Chain Helmet",
       "Minotaur Leather",
-      "Axe"
+      "Axe",
+      "Shovel",
+      "Bronze Amulet"
     ]
   },
   "Minotaur Archer": {
@@ -3849,7 +4204,8 @@
       "Soldier Helmet",
       "Brass Armor",
       "Scale Armor",
-      "Broken Crossbow"
+      "Broken Crossbow",
+      "Piece Of Archer Armor"
     ]
   },
   "Minotaur Guard": {
@@ -3879,7 +4235,8 @@
       "Chain Armor",
       "Battle Shield",
       "Chain Legs",
-      "Piece Of Warrior Armor"
+      "Piece Of Warrior Armor",
+      "Double Axe"
     ]
   },
   "Minotaur Mage": {
@@ -3916,7 +4273,8 @@
       "Moonlight Wand",
       "Minotaur Leather",
       "Combat Knife",
-      "Brass Armor"
+      "Brass Armor",
+      "Chain Legs"
     ]
   },
   "Monk": {
@@ -3949,7 +4307,9 @@
       "Brown Flask",
       "Sandals",
       "Leather Armor",
-      "Life Crystal"
+      "Life Crystal",
+      "Distance Ring",
+      "Ankh"
     ]
   },
   "Morgaroth": {
@@ -3988,7 +4348,45 @@
       "Teddy Bear",
       "Talon",
       "Thunder Hammer",
-      "Small Sapphire"
+      "Small Sapphire",
+      "Small Amethyst",
+      "Energy Ring",
+      "Silver Amulet",
+      "Ring Of Healing",
+      "White Pearl",
+      "Giant Sword",
+      "Orb",
+      "Magic Light Wand",
+      "Devil Helmet",
+      "Stealth Ring",
+      "Small Diamond",
+      "Big Bone",
+      "Gold Ring",
+      "Mastermind Shield",
+      "Ice Rapier",
+      "Golden Mug",
+      "Crystal Ring",
+      "Skull Staff",
+      "Might Ring",
+      "Golden Legs",
+      "Protection Amulet",
+      "Platinum Amulet",
+      "Golden Sickle",
+      "Dragon Hammer",
+      "Stone Skin Amulet",
+      "Mind Stone",
+      "Boots Of Haste",
+      "Ring Of The Sky",
+      "Ancient Amulet",
+      "Magic Plate Armor",
+      "Purple Tome",
+      "Strange Symbol",
+      "Crystal Ball",
+      "Green Gem",
+      "Crystal Necklace",
+      "Blue Gem",
+      "Life Crystal",
+      "Voodoo Doll"
     ]
   },
   "Morgrath": {
@@ -4006,7 +4404,8 @@
     "attacks": [
       "Melee (~148)",
       "Life Drain (50-30)"
-    ]
+    ],
+    "loot": []
   },
   "Morguthis": {
     "name": "Morguthis",
@@ -4154,7 +4553,8 @@
       "Big Bone",
       "Clerical Mace",
       "Mystic Turban",
-      "Skull Staff"
+      "Skull Staff",
+      "Boots Of Haste"
     ]
   },
   "Noctyrix": {
@@ -4184,7 +4584,8 @@
       "Mana Drain (150-70)",
       "Physical (210-90)",
       "Examplebeam (410-290)"
-    ]
+    ],
+    "loot": []
   },
   "Omruc": {
     "name": "Omruc",
@@ -4310,7 +4711,13 @@
       "Longsword",
       "Orc Leather",
       "Orc Tooth",
-      "Skull Belt"
+      "Skull Belt",
+      "Melee Ring",
+      "Brass Legs",
+      "Plate Armor",
+      "Broadsword",
+      "Plate Legs",
+      "Warrior Helmet"
     ]
   },
   "Orc Rider": {
@@ -4343,7 +4750,8 @@
       "Orc Tooth",
       "Obsidian Lance",
       "Gold Coin",
-      "Battle Shield"
+      "Battle Shield",
+      "Scale Armor"
     ]
   },
   "Orc Shaman": {
@@ -4383,7 +4791,9 @@
       "Staff",
       "Book",
       "Broken Shamanic Staff",
-      "Shamanic Hood"
+      "Shamanic Hood",
+      "Staff Of Light",
+      "Blue Spell Wand"
     ]
   },
   "Orc Spearman": {
@@ -4447,7 +4857,15 @@
       "Orc Tooth",
       "Plate Armor",
       "Skull Belt",
-      "Plate Legs"
+      "Plate Legs",
+      "Two Handed Sword",
+      "Protection Amulet",
+      "Dark Helmet",
+      "Brass Armor",
+      "Dragon Hammer",
+      "Crusader Helmet",
+      "Percht Head",
+      "Stealth Ring"
     ]
   },
   "Orc Warrior": {
@@ -4513,7 +4931,44 @@
       "Teddy Bear",
       "Talon",
       "Thunder Hammer",
-      "Small Sapphire"
+      "Small Sapphire",
+      "Small Amethyst",
+      "Energy Ring",
+      "Silver Amulet",
+      "Ring Of Healing",
+      "White Pearl",
+      "Giant Sword",
+      "Orb",
+      "Magic Light Wand",
+      "Devil Helmet",
+      "Stealth Ring",
+      "Small Diamond",
+      "Gold Ring",
+      "Mastermind Shield",
+      "Ice Rapier",
+      "Golden Mug",
+      "Crystal Ring",
+      "Skull Staff",
+      "Might Ring",
+      "Golden Legs",
+      "Protection Amulet",
+      "Platinum Amulet",
+      "Golden Sickle",
+      "Dragon Hammer",
+      "Stone Skin Amulet",
+      "Mind Stone",
+      "Boots Of Haste",
+      "Ring Of The Sky",
+      "Ancient Amulet",
+      "Magic Plate Armor",
+      "Purple Tome",
+      "Strange Symbol",
+      "Crystal Ball",
+      "Green Gem",
+      "Crystal Necklace",
+      "Blue Gem",
+      "Life Crystal",
+      "Voodoo Doll"
     ]
   },
   "Panda": {
@@ -4554,7 +5009,8 @@
     "pushable": false,
     "attacks": [
       "Melee (~10)"
-    ]
+    ],
+    "loot": []
   },
   "Pig": {
     "name": "Pig",
@@ -4591,7 +5047,8 @@
     "attacks": [
       "Melee (~1)",
       "Poison (100-50)"
-    ]
+    ],
+    "loot": []
   },
   "Poison Spider": {
     "name": "Poison Spider",
@@ -4675,7 +5132,12 @@
       "Cultish Robe",
       "Black Hood",
       "Clerical Mace",
-      "Wooden Flute"
+      "Wooden Flute",
+      "Crystal Ball",
+      "Talon",
+      "Crystal Necklace",
+      "Black Shield",
+      "Hat Of The Mad"
     ]
   },
   "Purple Butterfly": {
@@ -4692,7 +5154,8 @@
     "pushable": true,
     "attacks": [
       "Melee"
-    ]
+    ],
+    "loot": []
   },
   "Pyrothar": {
     "name": "Pyrothar",
@@ -4718,7 +5181,8 @@
       "Fire (500-300)",
       "Firefield",
       "Fire (360-240)"
-    ]
+    ],
+    "loot": []
   },
   "Queen Follower": {
     "name": "Queen Follower",
@@ -4847,7 +5311,8 @@
     "pushable": true,
     "attacks": [
       "Melee"
-    ]
+    ],
+    "loot": []
   },
   "Rotworm": {
     "name": "Rotworm",
@@ -4897,7 +5362,8 @@
       "Physical (900-600)",
       "Mana Drain (200-50)",
       "Paralyze"
-    ]
+    ],
+    "loot": []
   },
   "Sayron, the loyal": {
     "name": "Sayron, the loyal",
@@ -5024,7 +5490,12 @@
       "Energy Ring",
       "Permafrost Longsword",
       "Ring Of Healing",
-      "Golden Mug"
+      "Golden Mug",
+      "Life Crystal",
+      "Strange Helmet",
+      "Dragon Scale Mail",
+      "Frozen Shield",
+      "Frostwarden Wand"
     ]
   },
   "Serpent Spawn": {
@@ -5065,7 +5536,13 @@
       "Energy Ring",
       "Charmer's Tiara",
       "Life Crystal",
-      "Strange Helmet"
+      "Strange Helmet",
+      "Winged Tail",
+      "Old Parchment",
+      "Tower Shield",
+      "Fire Sword",
+      "Royal Helmet",
+      "Dragon Scale Mail"
     ]
   },
   "Shadow Drake": {
@@ -5148,7 +5625,14 @@
       "Mind Stone",
       "Blue Robe",
       "Small Amethyst",
-      "Lit Lamp"
+      "Lit Lamp",
+      "Crystal Ring",
+      "Violet Gem",
+      "Stone Skin Amulet",
+      "Gold Ring",
+      "Purple Tome",
+      "Golden Armor",
+      "Spectral Bow"
     ]
   },
   "Sheep": {
@@ -5186,7 +5670,8 @@
     "attacks": [
       "Melee (~1)",
       "Physical (140-80)"
-    ]
+    ],
+    "loot": []
   },
   "Sibang": {
     "name": "Sibang",
@@ -5252,9 +5737,9 @@
   },
   "Skeleton Mage": {
     "name": "Skeleton Mage",
-    "health": 50,
-    "experience": 35,
-    "speed": 37,
+    "health": 800,
+    "experience": 900,
+    "speed": 120,
     "race": "undead",
     "armor": 2,
     "defense": 9,
@@ -5283,7 +5768,11 @@
       "Viking Helmet",
       "Staff Of Light",
       "Sword",
-      "Black Hood"
+      "Black Hood",
+      "Revenant Mask",
+      "Revenant Legs",
+      "Revenant Boots",
+      "Revenant Armor"
     ]
   },
   "Skull Reaper": {
@@ -5375,7 +5864,8 @@
     "attacks": [
       "Melee (~1)",
       "Poison (100-50)"
-    ]
+    ],
+    "loot": []
   },
   "Skunk": {
     "name": "Skunk",
@@ -5415,7 +5905,8 @@
     ],
     "summons": [
       "Slime"
-    ]
+    ],
+    "loot": []
   },
   "Smuggler": {
     "name": "Smuggler",
@@ -5459,7 +5950,8 @@
     "pushable": false,
     "attacks": [
       "Melee (~8)"
-    ]
+    ],
+    "loot": []
   },
   "Souleater": {
     "name": "Souleater",
@@ -5526,7 +6018,14 @@
       "Poison Dagger",
       "White Pearl",
       "Lyre",
-      "Stone Skin Amulet"
+      "Stone Skin Amulet",
+      "Ring Of Healing",
+      "Blue Robe",
+      "Wedding Ring",
+      "Spellbook",
+      "Red Robe",
+      "Life Crystal",
+      "Crystal Ring"
     ]
   },
   "Spider": {
@@ -5624,7 +6123,8 @@
       "Power Ring",
       "Carlin Sword",
       "Crystal Ring",
-      "Red Gem"
+      "Red Gem",
+      "Distance Ring"
     ]
   },
   "Swamp Troll": {
@@ -5790,7 +6290,8 @@
     "attacks": [
       "Melee",
       "Illusion"
-    ]
+    ],
+    "loot": []
   },
   "The Horned Fox": {
     "name": "The Horned Fox",
@@ -5903,7 +6404,8 @@
     "pushable": false,
     "attacks": [
       "Melee (~3)"
-    ]
+    ],
+    "loot": []
   },
   "Troll": {
     "name": "Troll",
@@ -5974,7 +6476,17 @@
       "Dragon Lance",
       "War Hammer",
       "Skull Staff",
-      "Power Bolt"
+      "Power Bolt",
+      "Golden Mug",
+      "Energy Ring",
+      "Crusader Helmet",
+      "Ancient Bone",
+      "Giant Sword",
+      "Dragon Slayer",
+      "Mastermind Shield",
+      "Ouroboros",
+      "Hellforged Armor",
+      "Death Magic Book"
     ]
   },
   "Valkyrie": {
@@ -6005,7 +6517,9 @@
       "Chain Helmet",
       "Protection Amulet",
       "Plate Armor",
-      "Double Axe"
+      "Double Axe",
+      "Small Diamond",
+      "Noble Armor"
     ]
   },
   "Vampire": {
@@ -6043,7 +6557,10 @@
       "Blood Preservation",
       "Spike Sword",
       "Strange Helmet",
-      "Ice Rapier"
+      "Ice Rapier",
+      "Emerald Bangle",
+      "Bronze Amulet",
+      "Vampire Shield"
     ]
   },
   "Vampire Viscount": {
@@ -6081,7 +6598,8 @@
       "Strange Helmet",
       "Ice Rapier",
       "Emerald Bangle",
-      "Bronze Amulet"
+      "Bronze Amulet",
+      "Vampire Shield"
     ]
   },
   "Vampire Wanderer": {
@@ -6119,7 +6637,8 @@
       "Strange Helmet",
       "Ice Rapier",
       "Emerald Bangle",
-      "Bronze Amulet"
+      "Bronze Amulet",
+      "Vampire Shield"
     ]
   },
   "Vashresamun": {
@@ -6228,7 +6747,15 @@
       "Dark Mushroom",
       "Mind Stone",
       "Blue Robe",
-      "Small Sapphire"
+      "Small Sapphire",
+      "Talon",
+      "Crystal Ring",
+      "Stone Skin Amulet",
+      "Magician Hat",
+      "Red Tome",
+      "Golden Armor",
+      "Ring Of The Sky",
+      "Staff Of Might"
     ]
   },
   "Wasp": {
@@ -6415,7 +6942,9 @@
       "Star Herb",
       "Gold Coin",
       "Firelight Wand",
-      "Witch Broom"
+      "Witch Broom",
+      "Garlic Necklace",
+      "Silver Dagger"
     ]
   },
   "Wolf": {
@@ -6435,7 +6964,8 @@
     ],
     "loot": [
       "Meat",
-      "Gold Coin"
+      "Gold Coin",
+      "Wolf Paw"
     ]
   },
   "Wyrm": {
@@ -6500,7 +7030,8 @@
       "Poison (600-120)",
       "Physical (400-200)",
       "Paralyze"
-    ]
+    ],
+    "loot": []
   },
   "Yellow Butterfly": {
     "name": "Yellow Butterfly",
@@ -6516,7 +7047,8 @@
     "pushable": true,
     "attacks": [
       "Melee"
-    ]
+    ],
+    "loot": []
   },
   "Yeti": {
     "name": "Yeti",
@@ -6543,5 +7075,121 @@
       "Wolf Tooth Chain",
       "Bunnyslippers"
     ]
+  },
+  "Ignaroth": {
+    "name": "Ignaroth",
+    "health": 150000,
+    "experience": 350000,
+    "speed": 180,
+    "race": "blood",
+    "armor": 32,
+    "defense": 48,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Fire",
+      "Invisible",
+      "Lifedrain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee",
+      "\u2014",
+      "Fire",
+      "600\u2013800",
+      "Fire",
+      "550\u2013700",
+      "Firecondition",
+      "\u2014",
+      "Fire",
+      "400\u2013500",
+      "Firefield",
+      "\u2014",
+      "Infernaltornado",
+      "200\u2013350",
+      "Summons",
+      "Hellforged Devil",
+      "max 2"
+    ],
+    "loot": [],
+    "source": "wiki 2026-10-13"
+  },
+  "Zatharak": {
+    "name": "Zatharak",
+    "health": 150000,
+    "experience": 350000,
+    "speed": 180,
+    "race": "blood",
+    "armor": 32,
+    "defense": 48,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Energy",
+      "Invisible",
+      "Lifedrain",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee",
+      "\u2014",
+      "Energy",
+      "600\u2013800",
+      "Energy",
+      "550\u2013700",
+      "Speed",
+      "\u2014",
+      "Energy",
+      "400\u2013500",
+      "Energyfield",
+      "\u2014",
+      "Energytornado",
+      "200\u2013350",
+      "Summons",
+      "Wyrm",
+      "max 3"
+    ],
+    "loot": [],
+    "source": "wiki 2026-10-13"
+  },
+  "Zyphera": {
+    "name": "Zyphera",
+    "health": 120000,
+    "experience": 350000,
+    "speed": 180,
+    "race": "blood",
+    "armor": 90,
+    "defense": 120,
+    "summonable": false,
+    "convinceable": false,
+    "pushable": false,
+    "immunities": [
+      "Invisible",
+      "Lifedrain",
+      "Outfit",
+      "Paralyze",
+      "Poison"
+    ],
+    "attacks": [
+      "Melee",
+      "\u2014",
+      "Poison",
+      "550\u2013750",
+      "Lifedrain",
+      "600\u2013800",
+      "Earth",
+      "350\u2013550",
+      "Poisoncondition",
+      "\u2014",
+      "Summons",
+      "Hydra",
+      "max 3"
+    ],
+    "loot": [],
+    "source": "wiki 2026-10-13"
   }
 }

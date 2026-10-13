@@ -39,3 +39,11 @@ Bug found + fixed 27 Aug 2026.
 *rate set*. That is about rates / skill-training advice, NOT the profile world value —
 his profile world is **Aeternum**. Don't conflate the two; don't delete the Legacy-rate
 content when correcting world references.
+
+## 3. Wiki rescan 13 Oct 2026
+
+Full rescan of rivaliaonline.com/wiki.php (creatures 214, spells 80, zones 164, raids 35, systems pages).
+Summary + findings in `.claude/skills/rivalia/references/WIKI-RESCAN-2026-10.md`; structured dumps in
+`personal/rivalia/wiki-2026-10/`. `catalog-stats.json` updated (loot lists were truncated; 2 stat changes; 3 new bosses
+Ignaroth/Zatharak/Zyphera). New: Destiny PvP world (launched 5 Oct 2026), Rarity Upgrade replaces old Aethernite model.
+Not rescanned: per-category item pages (`items.php?...`), Hunt Finder map, per-quest details.

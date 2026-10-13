@@ -1,0 +1,268 @@
+[
+ {
+  "name": "Aether Prism",
+  "arm": "0",
+  "weight": "0.00",
+  "props": "5% chance to mine Large Aethernite instead of Aether Shards",
+  "duration": "-"
+ },
+ {
+  "name": "Alchemist Shades",
+  "arm": "0",
+  "weight": "65.00",
+  "props": "15% chance to create an extra alchemy craft on success",
+  "duration": "-"
+ },
+ {
+  "name": "Ancestral Spirit Ring",
+  "arm": "0",
+  "weight": "3.00",
+  "props": "Magic Level +1, Mana Regen +1/36s",
+  "duration": "-"
+ },
+ {
+  "name": "Ancient Whisper",
+  "arm": "0",
+  "weight": "2.00",
+  "props": "Speed +10",
+  "duration": "-"
+ },
+ {
+  "name": "Artifact Of Loss",
+  "arm": "0",
+  "weight": "42.00",
+  "props": "20% chance to preserve an amulet of loss on death",
+  "duration": "Consumed on trigger"
+ },
+ {
+  "name": "Beholder's Book",
+  "arm": "0",
+  "weight": "4.00",
+  "props": "Magic Level +1, Damage Poison +5%",
+  "duration": "-"
+ },
+ {
+  "name": "Blink Rune",
+  "arm": "0",
+  "weight": "25.00",
+  "props": "1% chance to create an extra rune when conjuring runes",
+  "duration": "-"
+ },
+ {
+  "name": "Chrono Prism",
+  "arm": "0",
+  "weight": "6.50",
+  "props": "3% chance to ignore spell cooldown",
+  "duration": "-"
+ },
+ {
+  "name": "Cobra Spirit",
+  "arm": "0",
+  "weight": "2.00",
+  "props": "Magic Level +1, Mana Regen +1/36s",
+  "duration": "-"
+ },
+ {
+  "name": "Cyclops Hand",
+  "arm": "0",
+  "weight": "20.00",
+  "props": "Critical Hit +5% chance, +10% amount",
+  "duration": "-"
+ },
+ {
+  "name": "Dark Rosary",
+  "arm": "0",
+  "weight": "16.00",
+  "props": "3% chance to preserve mana fluid on use",
+  "duration": "-"
+ },
+ {
+  "name": "Death Magic Book",
+  "arm": "0",
+  "weight": "7.50",
+  "props": "Critical Spell +3% chance, +8% amount",
+  "duration": "-"
+ },
+ {
+  "name": "Demon Heart",
+  "arm": "0",
+  "weight": "5.00",
+  "props": "Health Regen +2/6s, Healing +3%",
+  "duration": "-"
+ },
+ {
+  "name": "Draconian Sigil",
+  "arm": "0",
+  "weight": "-",
+  "props": "-",
+  "duration": "-"
+ },
+ {
+  "name": "Dragon Lord's Eye",
+  "arm": "0",
+  "weight": "3.00",
+  "props": "Health Regen +1/8s, Fire Protection +2%",
+  "duration": "-"
+ },
+ {
+  "name": "Dragonbone Sigil",
+  "arm": "0",
+  "weight": "18.00",
+  "props": "Fire Protection +2%",
+  "duration": "-"
+ },
+ {
+  "name": "Frozen Heartstone",
+  "arm": "0",
+  "weight": "1.00",
+  "props": "Ice Protection +3%, 5% chance to chill (paralyze) attacking players",
+  "duration": "-"
+ },
+ {
+  "name": "Giant Amethyst",
+  "arm": "1",
+  "weight": "4.00",
+  "props": "Max Mana +60",
+  "duration": "60 minutes"
+ },
+ {
+  "name": "Giant Emerald",
+  "arm": "1",
+  "weight": "4.00",
+  "props": "Max Health +60",
+  "duration": "60 minutes"
+ },
+ {
+  "name": "Giant Ruby",
+  "arm": "1",
+  "weight": "4.00",
+  "props": "Health Regen +1/3s",
+  "duration": "90 minutes"
+ },
+ {
+  "name": "Giant Sapphire",
+  "arm": "1",
+  "weight": "4.00",
+  "props": "Mana Regen +1/3s",
+  "duration": "90 minutes"
+ },
+ {
+  "name": "Jade Pendant",
+  "arm": "0",
+  "weight": "4.00",
+  "props": "-",
+  "duration": "7 days"
+ },
+ {
+  "name": "Medusa Head",
+  "arm": "0",
+  "weight": "-",
+  "props": "-",
+  "duration": "-"
+ },
+ {
+  "name": "Percht Head",
+  "arm": "0",
+  "weight": "2.50",
+  "props": "Life Leech +5% chance, +7% amount",
+  "duration": "-"
+ },
+ {
+  "name": "Poison Vaccine",
+  "arm": "0",
+  "weight": "50.00",
+  "props": "5% chance to remove paralyze when hit by a paralyze rune",
+  "duration": "Consumed on trigger"
+ },
+ {
+  "name": "Protector Charm",
+  "arm": "0",
+  "weight": "36.00",
+  "props": "25% chance to reduce skill loss on death",
+  "duration": "Consumed on trigger"
+ },
+ {
+  "name": "Rabbit's Foot",
+  "arm": "0",
+  "weight": "26.00",
+  "props": "10% chance to increase spawn luck after killing a monster",
+  "duration": "-"
+ },
+ {
+  "name": "Scarab Flame Sigil",
+  "arm": "0",
+  "weight": "42.00",
+  "props": "Pass through sacred scarab flames",
+  "duration": "-"
+ },
+ {
+  "name": "Seal Of Preservation",
+  "arm": "0",
+  "weight": "30.00",
+  "props": "100% chance to move protected containers to depot on death",
+  "duration": "Consumed on trigger"
+ },
+ {
+  "name": "Skull Of The Forsaken",
+  "arm": "0",
+  "weight": "-",
+  "props": "-",
+  "duration": "-"
+ },
+ {
+  "name": "Sniper Gloves",
+  "arm": "0",
+  "weight": "62.00",
+  "props": "1% chance to preserve ammunition on shot",
+  "duration": "-"
+ },
+ {
+  "name": "Stonebound Blade",
+  "arm": "0",
+  "weight": "-",
+  "props": "-",
+  "duration": "-"
+ },
+ {
+  "name": "Tomb Mask",
+  "arm": "0",
+  "weight": "2.50",
+  "props": "Attack Interval 1.8s, Dodge +1%",
+  "duration": "-"
+ },
+ {
+  "name": "Trading Document",
+  "arm": "0",
+  "weight": "10.00",
+  "props": "1% chance for NPC buy discount, unlocks sealed trade door",
+  "duration": "-"
+ },
+ {
+  "name": "Viper Relic",
+  "arm": "0",
+  "weight": "-",
+  "props": "-",
+  "duration": "-"
+ },
+ {
+  "name": "Void Core",
+  "arm": "0",
+  "weight": "-",
+  "props": "-",
+  "duration": "-"
+ },
+ {
+  "name": "Warriors Blessing",
+  "arm": "0",
+  "weight": "12.00",
+  "props": "5% chance to get healed to full health when dying to a monster",
+  "duration": "-"
+ },
+ {
+  "name": "Worldshaper",
+  "arm": "0",
+  "weight": "-",
+  "props": "-",
+  "duration": "-"
+ }
+]

@@ -1,0 +1,5644 @@
+[
+ {
+  "region": "Nivarya",
+  "name": "Ambusher's Pass",
+  "mobs": [
+   [
+    "Cold Ambusher",
+    48,
+    800
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface",
+  "spawns": 48
+ },
+ {
+  "region": "Nivarya",
+  "name": "Bonefrost Ossuary",
+  "mobs": [
+   [
+    "Demon Skeleton",
+    66,
+    240
+   ],
+   [
+    "Ghoul",
+    46,
+    85
+   ],
+   [
+    "Giant Demon Skeleton",
+    25,
+    540
+   ],
+   [
+    "Spectre",
+    4,
+    900
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 120
+ },
+ {
+  "region": "Nivarya",
+  "name": "Bonereaper Ossuary",
+  "mobs": [
+   [
+    "Fleshcursed Skeleton",
+    32,
+    240
+   ],
+   [
+    "Bonereaper",
+    12,
+    240
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 44
+ },
+ {
+  "region": "Nivarya",
+  "name": "Coldcrawler Caverns",
+  "mobs": [
+   [
+    "Coldcrawler",
+    30,
+    1750
+   ],
+   [
+    "Ghoul",
+    22,
+    85
+   ],
+   [
+    "Frozemoth",
+    9,
+    3200
+   ],
+   [
+    "Fog Wanderer",
+    2,
+    900
+   ]
+  ],
+  "floors": "Floors +2, +1, Surface, -1",
+  "spawns": 63
+ },
+ {
+  "region": "Nivarya",
+  "name": "Crystal Wolf Tundra",
+  "mobs": [
+   [
+    "Crystal Wolf",
+    30,
+    550
+   ]
+  ],
+  "floors": "Floors +5, +4, +3, +2",
+  "spawns": 30
+ },
+ {
+  "region": "Nivarya",
+  "name": "Dragon Graveyard",
+  "mobs": [
+   [
+    "Undead Dragon",
+    31,
+    18500
+   ],
+   [
+    "Chaos Hydra",
+    7,
+    4000
+   ]
+  ],
+  "floors": "Floor +4",
+  "spawns": 38
+ },
+ {
+  "region": "Nivarya",
+  "name": "Eastern Abomination Pits",
+  "mobs": [
+   [
+    "Abomination",
+    35,
+    2500
+   ]
+  ],
+  "floors": "Floors -2, -3",
+  "spawns": 35
+ },
+ {
+  "region": "Nivarya",
+  "name": "Forsaken Knight Citadel",
+  "mobs": [
+   [
+    "Forsaken Knight",
+    30,
+    1800
+   ],
+   [
+    "Hero",
+    18,
+    1200
+   ],
+   [
+    "Wild Warrior",
+    14,
+    60
+   ],
+   [
+    "Monk",
+    6,
+    200
+   ],
+   [
+    "Rabbit",
+    2,
+    0
+   ]
+  ],
+  "floors": "Floors +6, +5, +4, +3, +2, +1",
+  "spawns": 58
+ },
+ {
+  "region": "Nivarya",
+  "name": "Frostwing Glacier",
+  "mobs": [
+   [
+    "Frost Dragon",
+    30,
+    2100
+   ],
+   [
+    "Bonebeast",
+    6,
+    580
+   ],
+   [
+    "Bat",
+    4,
+    10
+   ]
+  ],
+  "floors": "Floors +2, +1, Surface, -2, -3, -4",
+  "spawns": 40
+ },
+ {
+  "region": "Nivarya",
+  "name": "Frozemoth Hollow",
+  "mobs": [
+   [
+    "Frozemoth",
+    19,
+    3200
+   ]
+  ],
+  "floors": "Floors -2, -3",
+  "spawns": 19
+ },
+ {
+  "region": "Nivarya",
+  "name": "Frozen Barrows",
+  "mobs": [
+   [
+    "Crypt Shambler",
+    34,
+    195
+   ],
+   [
+    "Bat",
+    29,
+    10
+   ],
+   [
+    "Demon Skeleton",
+    22,
+    240
+   ],
+   [
+    "Giant Skeleton",
+    21,
+    180
+   ],
+   [
+    "Vampire",
+    15,
+    290
+   ],
+   [
+    "Lich",
+    7,
+    900
+   ]
+  ],
+  "floors": "Floors Surface, -1",
+  "spawns": 91
+ },
+ {
+  "region": "Nivarya",
+  "name": "Grimaw Chasm",
+  "mobs": [
+   [
+    "Grimaw",
+    30,
+    2900
+   ],
+   [
+    "Demon",
+    19,
+    6000
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 49
+ },
+ {
+  "region": "Nivarya",
+  "name": "Ice Witch Coven",
+  "mobs": [
+   [
+    "Ice Witch",
+    14,
+    580
+   ],
+   [
+    "Ice Golem",
+    13,
+    295
+   ],
+   [
+    "Winter Wolf",
+    2,
+    20
+   ],
+   [
+    "Rabbit",
+    1,
+    0
+   ]
+  ],
+  "floors": "Floors +5, +4, +3, +2, +1, Surface",
+  "spawns": 29
+ },
+ {
+  "region": "Nivarya",
+  "name": "Jothun Steading",
+  "mobs": [
+   [
+    "Jothun",
+    24,
+    1050
+   ],
+   [
+    "Jothun Elder",
+    5,
+    2250
+   ],
+   [
+    "Pig",
+    3,
+    0
+   ]
+  ],
+  "floors": "Floors +2, +1, Surface, -1",
+  "spawns": 30
+ },
+ {
+  "region": "Nivarya",
+  "name": "Royal Frost Cathedral",
+  "mobs": [
+   [
+    "Frozemoth",
+    28,
+    3200
+   ]
+  ],
+  "floors": "Floors -1, -2, -3",
+  "spawns": 28
+ },
+ {
+  "region": "Nivarya",
+  "name": "Shadowdrake Roost",
+  "mobs": [
+   [
+    "Shadow Drake",
+    28,
+    11500
+   ]
+  ],
+  "floors": "Floor -4",
+  "spawns": 28
+ },
+ {
+  "region": "Nivarya",
+  "name": "Western Abomination Pits",
+  "mobs": [
+   [
+    "Abomination",
+    13,
+    2500
+   ]
+  ],
+  "floors": "Floors -4, -5, -6",
+  "spawns": 13
+ },
+ {
+  "region": "Nivarya",
+  "name": "Wight Catacombs",
+  "mobs": [
+   [
+    "Necromancer",
+    39,
+    580
+   ],
+   [
+    "Demon Skeleton",
+    34,
+    240
+   ],
+   [
+    "Mummy",
+    34,
+    150
+   ],
+   [
+    "Vampire",
+    10,
+    290
+   ],
+   [
+    "Wight",
+    10,
+    5000
+   ],
+   [
+    "Bat",
+    7,
+    10
+   ],
+   [
+    "Priestess",
+    7,
+    420
+   ],
+   [
+    "Bonebeast",
+    4,
+    580
+   ],
+   [
+    "Lich",
+    3,
+    900
+   ],
+   [
+    "Undead Dragon",
+    1,
+    18500
+   ]
+  ],
+  "floors": "Floors -1, -2, -3, -4",
+  "spawns": 144
+ },
+ {
+  "region": "Nivarya",
+  "name": "Winter Guardian Bastion",
+  "mobs": [
+   [
+    "Winter Guardian",
+    34,
+    3500
+   ],
+   [
+    "Rabbit",
+    3,
+    0
+   ]
+  ],
+  "floors": "Floors +4, +3, +2, +1",
+  "spawns": 35
+ },
+ {
+  "region": "Port Hope",
+  "name": "Ape Warrens -1",
+  "mobs": [
+   [
+    "Kongra",
+    50,
+    110
+   ],
+   [
+    "Sibang",
+    50,
+    100
+   ],
+   [
+    "Merlkin",
+    24,
+    135
+   ]
+  ],
+  "floors": "Floor -1",
+  "spawns": 57
+ },
+ {
+  "region": "Port Hope",
+  "name": "Ape Warrens -2",
+  "mobs": [
+   [
+    "Kongra",
+    58,
+    110
+   ],
+   [
+    "Sibang",
+    57,
+    100
+   ],
+   [
+    "Merlkin",
+    31,
+    135
+   ]
+  ],
+  "floors": "Floor -2",
+  "spawns": 49
+ },
+ {
+  "region": "Port Hope",
+  "name": "Banuta Canopy",
+  "mobs": [
+   [
+    "Sibang",
+    121,
+    100
+   ],
+   [
+    "Kongra",
+    105,
+    110
+   ],
+   [
+    "Merlkin",
+    35,
+    135
+   ],
+   [
+    "Bat",
+    5,
+    10
+   ],
+   [
+    "Blue Butterfly",
+    4,
+    0
+   ],
+   [
+    "Parrot",
+    3,
+    0
+   ],
+   [
+    "Wasp",
+    2,
+    24
+   ],
+   [
+    "Yellow Butterfly",
+    2,
+    0
+   ],
+   [
+    "Tiger",
+    1,
+    40
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface",
+  "spawns": 137
+ },
+ {
+  "region": "Port Hope",
+  "name": "Banuta Hydra Sanctum",
+  "mobs": [
+   [
+    "Bonebeast",
+    32,
+    580
+   ],
+   [
+    "Hydra",
+    24,
+    2100
+   ],
+   [
+    "Serpent Spawn",
+    18,
+    2000
+   ],
+   [
+    "Giant Spider",
+    4,
+    900
+   ]
+  ],
+  "floors": "Floor -4",
+  "spawns": 30
+ },
+ {
+  "region": "Port Hope",
+  "name": "Banuta Sunken Halls",
+  "mobs": [
+   [
+    "Slime",
+    37,
+    160
+   ],
+   [
+    "Gargoyle",
+    31,
+    150
+   ],
+   [
+    "Stone Golem",
+    21,
+    160
+   ],
+   [
+    "Beholder",
+    15,
+    170
+   ],
+   [
+    "Green Djinn",
+    13,
+    190
+   ],
+   [
+    "Bonebeast",
+    12,
+    580
+   ],
+   [
+    "Efreet",
+    5,
+    300
+   ],
+   [
+    "Elder Beholder",
+    5,
+    280
+   ],
+   [
+    "Carniphila",
+    4,
+    150
+   ]
+  ],
+  "floors": "Floor -3",
+  "spawns": 67
+ },
+ {
+  "region": "Port Hope",
+  "name": "Cobra Thicket",
+  "mobs": [
+   [
+    "Giant Cobra",
+    71,
+    875
+   ],
+   [
+    "Centipede",
+    4,
+    30
+   ],
+   [
+    "Bug",
+    3,
+    18
+   ],
+   [
+    "Tarantula",
+    2,
+    120
+   ]
+  ],
+  "floors": "Floors +2, +1, Surface",
+  "spawns": 74
+ },
+ {
+  "region": "Port Hope",
+  "name": "Dworc Underhive -1",
+  "mobs": [
+   [
+    "Dworc Fleshhunter",
+    244,
+    35
+   ],
+   [
+    "Dworc Venomsniper",
+    219,
+    30
+   ],
+   [
+    "Dworc Voodoomaster",
+    78,
+    50
+   ],
+   [
+    "Centipede",
+    66,
+    30
+   ],
+   [
+    "Tarantula",
+    25,
+    120
+   ],
+   [
+    "Crypt Shambler",
+    15,
+    195
+   ],
+   [
+    "Poison Spider",
+    8,
+    22
+   ]
+  ],
+  "floors": "Floors -1, -2, -3, -4, -5",
+  "spawns": 241
+ },
+ {
+  "region": "Port Hope",
+  "name": "Elder Wyrm Hollow",
+  "mobs": [
+   [
+    "Elder Wyrm",
+    18,
+    2500
+   ]
+  ],
+  "floors": "Floor Surface",
+  "spawns": 18
+ },
+ {
+  "region": "Port Hope",
+  "name": "Lizard Temple Ruins",
+  "mobs": [
+   [
+    "Lizard Sentinel",
+    82,
+    105
+   ],
+   [
+    "Lizard Templar",
+    63,
+    145
+   ],
+   [
+    "Lizard Snakecharmer",
+    17,
+    200
+   ],
+   [
+    "Cobra",
+    13,
+    30
+   ],
+   [
+    "Crocodile",
+    8,
+    40
+   ]
+  ],
+  "floors": "Floors Surface, -1",
+  "spawns": 78
+ },
+ {
+  "region": "Port Hope",
+  "name": "Manticore Den",
+  "mobs": [
+   [
+    "Manticore",
+    18,
+    5700
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 18
+ },
+ {
+  "region": "Port Hope",
+  "name": "Northern Hydra Mire",
+  "mobs": [
+   [
+    "Hydra",
+    11,
+    2100
+   ],
+   [
+    "Carniphila",
+    1,
+    150
+   ]
+  ],
+  "floors": "Floor +3",
+  "spawns": 9
+ },
+ {
+  "region": "Port Hope",
+  "name": "Destiny \u00b7 9m left",
+  "mobs": [
+   [
+    "Swamp Troll",
+    96,
+    25
+   ],
+   [
+    "Cave Rat",
+    21,
+    10
+   ],
+   [
+    "Poison Spider",
+    17,
+    22
+   ],
+   [
+    "Bug",
+    14,
+    18
+   ],
+   [
+    "Skeleton",
+    8,
+    35
+   ],
+   [
+    "Spider",
+    4,
+    12
+   ],
+   [
+    "Slime",
+    2,
+    160
+   ],
+   [
+    "Beholder",
+    1,
+    170
+   ],
+   [
+    "Crab",
+    1,
+    30
+   ]
+  ],
+  "floors": "Floors Surface, -1, -2, -3",
+  "spawns": 50
+ },
+ {
+  "region": "Port Hope",
+  "name": "Smugglers' Cove",
+  "mobs": [
+   [
+    "Smuggler",
+    7,
+    48
+   ],
+   [
+    "Bandit",
+    2,
+    65
+   ]
+  ],
+  "floors": "Floor -1",
+  "spawns": 4
+ },
+ {
+  "region": "Port Hope",
+  "name": "Southern Hydra Mire",
+  "mobs": [
+   [
+    "Hydra",
+    6,
+    2100
+   ]
+  ],
+  "floors": "Floors +1, Surface, -1",
+  "spawns": 6
+ },
+ {
+  "region": "Port Hope",
+  "name": "Spider Queen's Tower",
+  "mobs": [
+   [
+    "Tarantula",
+    12,
+    120
+   ],
+   [
+    "Giant Spider",
+    6,
+    900
+   ],
+   [
+    "Snake",
+    5,
+    10
+   ],
+   [
+    "Centipede",
+    3,
+    30
+   ],
+   [
+    "Poison Spider",
+    3,
+    22
+   ],
+   [
+    "Wasp",
+    3,
+    24
+   ],
+   [
+    "Spider",
+    2,
+    12
+   ],
+   [
+    "Cobra",
+    1,
+    30
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface",
+  "spawns": 26
+ },
+ {
+  "region": "Port Hope",
+  "name": "Wyrmscale Cliffs",
+  "mobs": [
+   [
+    "Wyrm",
+    27,
+    1550
+   ],
+   [
+    "Elder Wyrm",
+    16,
+    2500
+   ]
+  ],
+  "floors": "Floors +3, +2, +1",
+  "spawns": 43
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Ancient Scarab Crypt -1",
+  "mobs": [
+   [
+    "Larva",
+    25,
+    44
+   ],
+   [
+    "Ancient Scarab",
+    21,
+    720
+   ],
+   [
+    "Scarab",
+    20,
+    120
+   ]
+  ],
+  "floors": "Floor -4",
+  "spawns": 24
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Ancient Scarab Crypt -2",
+  "mobs": [
+   [
+    "Larva",
+    18,
+    44
+   ],
+   [
+    "Scarab",
+    15,
+    120
+   ],
+   [
+    "Ancient Scarab",
+    12,
+    720
+   ]
+  ],
+  "floors": "Floor -4",
+  "spawns": 18
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Ancient Scarab Crypt -3",
+  "mobs": [
+   [
+    "Scarab",
+    29,
+    120
+   ],
+   [
+    "Ancient Scarab",
+    20,
+    720
+   ],
+   [
+    "Larva",
+    6,
+    44
+   ]
+  ],
+  "floors": "Floor -4",
+  "spawns": 22
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Ancient Scarab Crypt -5",
+  "mobs": [
+   [
+    "Scarab",
+    21,
+    120
+   ],
+   [
+    "Ancient Scarab",
+    16,
+    720
+   ],
+   [
+    "Larva",
+    12,
+    44
+   ]
+  ],
+  "floors": "Floor -4",
+  "spawns": 20
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Forbidden Library",
+  "mobs": [
+   [
+    "Scarab",
+    23,
+    120
+   ],
+   [
+    "Skeleton",
+    21,
+    35
+   ],
+   [
+    "Mummy",
+    15,
+    150
+   ],
+   [
+    "Poison Spider",
+    13,
+    22
+   ],
+   [
+    "Ghost",
+    12,
+    120
+   ],
+   [
+    "Vampire",
+    12,
+    290
+   ],
+   [
+    "Larva",
+    11,
+    44
+   ],
+   [
+    "Demon Skeleton",
+    8,
+    240
+   ],
+   [
+    "Ancient Scarab",
+    6,
+    720
+   ],
+   [
+    "Crypt Shambler",
+    4,
+    195
+   ],
+   [
+    "Necromancer",
+    4,
+    580
+   ],
+   [
+    "Cave Rat",
+    3,
+    10
+   ],
+   [
+    "Ghoul",
+    3,
+    85
+   ],
+   [
+    "Cobra",
+    2,
+    30
+   ],
+   [
+    "Hyaena",
+    2,
+    20
+   ],
+   [
+    "Lich",
+    2,
+    900
+   ],
+   [
+    "Magicthrower",
+    2,
+    18
+   ],
+   [
+    "Snake",
+    2,
+    10
+   ],
+   [
+    "Scorpion",
+    1,
+    45
+   ]
+  ],
+  "floors": "Floors -1, -2, -3, -4",
+  "spawns": 68
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Larva Burrows -1",
+  "mobs": [
+   [
+    "Larva",
+    79,
+    44
+   ]
+  ],
+  "floors": "Floor -1",
+  "spawns": 38
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Larva Burrows -2",
+  "mobs": [
+   [
+    "Larva",
+    67,
+    44
+   ]
+  ],
+  "floors": "Floor -1",
+  "spawns": 32
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Larva Burrows -3",
+  "mobs": [
+   [
+    "Larva",
+    90,
+    44
+   ]
+  ],
+  "floors": "Floor -1",
+  "spawns": 39
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Larva Burrows -4",
+  "mobs": [
+   [
+    "Larva",
+    73,
+    44
+   ]
+  ],
+  "floors": "Floor -1",
+  "spawns": 35
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Larva Burrows -5",
+  "mobs": [
+   [
+    "Larva",
+    68,
+    44
+   ]
+  ],
+  "floors": "Floor -1",
+  "spawns": 37
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Mountain Tomb -1-2",
+  "mobs": [
+   [
+    "Skeleton",
+    86,
+    35
+   ],
+   [
+    "Larva",
+    33,
+    44
+   ],
+   [
+    "Snake",
+    24,
+    10
+   ],
+   [
+    "Poison Spider",
+    21,
+    22
+   ],
+   [
+    "Hyaena",
+    20,
+    20
+   ],
+   [
+    "Ghoul",
+    9,
+    85
+   ],
+   [
+    "Cobra",
+    7,
+    30
+   ],
+   [
+    "Mummy",
+    4,
+    150
+   ],
+   [
+    "Cave Rat",
+    3,
+    10
+   ],
+   [
+    "Stalker",
+    3,
+    90
+   ],
+   [
+    "Scarab",
+    2,
+    120
+   ],
+   [
+    "Demon Skeleton",
+    1,
+    240
+   ]
+  ],
+  "floors": "Floors -4, -5",
+  "spawns": 89
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Mountain Tomb -3-4",
+  "mobs": [
+   [
+    "Vampire",
+    49,
+    290
+   ],
+   [
+    "Ghost",
+    42,
+    120
+   ],
+   [
+    "Mummy",
+    37,
+    150
+   ],
+   [
+    "Stalker",
+    33,
+    90
+   ],
+   [
+    "Demon Skeleton",
+    31,
+    240
+   ],
+   [
+    "Beholder",
+    13,
+    170
+   ],
+   [
+    "Ghoul",
+    13,
+    85
+   ],
+   [
+    "Priestess",
+    10,
+    420
+   ],
+   [
+    "Necromancer",
+    8,
+    580
+   ],
+   [
+    "Slime",
+    8,
+    160
+   ],
+   [
+    "Gargoyle",
+    6,
+    150
+   ],
+   [
+    "Magicthrower",
+    6,
+    18
+   ],
+   [
+    "Bonebeast",
+    4,
+    580
+   ],
+   [
+    "Lich",
+    4,
+    900
+   ],
+   [
+    "Scarab",
+    3,
+    120
+   ],
+   [
+    "Green Djinn",
+    2,
+    190
+   ],
+   [
+    "Scorpion",
+    2,
+    45
+   ]
+  ],
+  "floors": "Floors -6, -7",
+  "spawns": 125
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Northern Sun Dragon Lair",
+  "mobs": [
+   [
+    "Dragon",
+    14,
+    700
+   ],
+   [
+    "Dragon Lord",
+    8,
+    2100
+   ],
+   [
+    "Fire Elemental",
+    7,
+    220
+   ]
+  ],
+  "floors": "Floors +4, +3, +2, +1, Surface",
+  "spawns": 13
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Oasis Tomb -1-2",
+  "mobs": [
+   [
+    "Skeleton",
+    54,
+    35
+   ],
+   [
+    "Ghoul",
+    29,
+    85
+   ],
+   [
+    "Snake",
+    29,
+    10
+   ],
+   [
+    "Poison Spider",
+    9,
+    22
+   ],
+   [
+    "Scarab",
+    9,
+    120
+   ],
+   [
+    "Scorpion",
+    6,
+    45
+   ],
+   [
+    "Stalker",
+    6,
+    90
+   ],
+   [
+    "Hyaena",
+    5,
+    20
+   ],
+   [
+    "Mummy",
+    5,
+    150
+   ],
+   [
+    "Cobra",
+    4,
+    30
+   ],
+   [
+    "Slime",
+    2,
+    160
+   ],
+   [
+    "Amazon",
+    1,
+    60
+   ],
+   [
+    "Dwarf",
+    1,
+    45
+   ],
+   [
+    "Elf",
+    1,
+    42
+   ]
+  ],
+  "floors": "Floors -4, -5",
+  "spawns": 71
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Oasis Tomb -3-4",
+  "mobs": [
+   [
+    "Mummy",
+    60,
+    150
+   ],
+   [
+    "Vampire",
+    52,
+    290
+   ],
+   [
+    "Beholder",
+    51,
+    170
+   ],
+   [
+    "Ghost",
+    51,
+    120
+   ],
+   [
+    "Stalker",
+    36,
+    90
+   ],
+   [
+    "Green Djinn",
+    31,
+    190
+   ],
+   [
+    "Demon Skeleton",
+    19,
+    240
+   ],
+   [
+    "Necromancer",
+    18,
+    580
+   ],
+   [
+    "Scorpion",
+    17,
+    45
+   ],
+   [
+    "Lich",
+    13,
+    900
+   ],
+   [
+    "Ghoul",
+    11,
+    85
+   ],
+   [
+    "Crypt Shambler",
+    9,
+    195
+   ],
+   [
+    "Gargoyle",
+    9,
+    150
+   ],
+   [
+    "Cobra",
+    4,
+    30
+   ],
+   [
+    "Slime",
+    4,
+    160
+   ],
+   [
+    "Warlock",
+    2,
+    4000
+   ]
+  ],
+  "floors": "Floors -6, -7",
+  "spawns": 154
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Peninsula Tomb -1-2",
+  "mobs": [
+   [
+    "Skeleton",
+    33,
+    35
+   ],
+   [
+    "Larva",
+    25,
+    44
+   ],
+   [
+    "Ghoul",
+    23,
+    85
+   ],
+   [
+    "Snake",
+    15,
+    10
+   ],
+   [
+    "Scorpion",
+    13,
+    45
+   ],
+   [
+    "Lion",
+    10,
+    30
+   ],
+   [
+    "Crypt Shambler",
+    9,
+    195
+   ],
+   [
+    "Mummy",
+    9,
+    150
+   ],
+   [
+    "Scarab",
+    9,
+    120
+   ],
+   [
+    "Poison Spider",
+    6,
+    22
+   ],
+   [
+    "Slime",
+    4,
+    160
+   ],
+   [
+    "Cobra",
+    2,
+    30
+   ],
+   [
+    "Stone Golem",
+    1,
+    160
+   ]
+  ],
+  "floors": "Floors -4, -5",
+  "spawns": 84
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Peninsula Tomb -3-4",
+  "mobs": [
+   [
+    "Stalker",
+    197,
+    90
+   ],
+   [
+    "Ghost",
+    122,
+    120
+   ],
+   [
+    "Vampire",
+    88,
+    290
+   ],
+   [
+    "Mummy",
+    53,
+    150
+   ],
+   [
+    "Demon Skeleton",
+    39,
+    240
+   ],
+   [
+    "Necromancer",
+    18,
+    580
+   ],
+   [
+    "Bonebeast",
+    15,
+    580
+   ],
+   [
+    "Scorpion",
+    12,
+    45
+   ],
+   [
+    "Gargoyle",
+    8,
+    150
+   ],
+   [
+    "Crypt Shambler",
+    7,
+    195
+   ],
+   [
+    "Slime",
+    7,
+    160
+   ],
+   [
+    "Beholder",
+    6,
+    170
+   ],
+   [
+    "Scarab",
+    2,
+    120
+   ],
+   [
+    "Ancient Scarab",
+    1,
+    720
+   ],
+   [
+    "Green Djinn",
+    1,
+    190
+   ]
+  ],
+  "floors": "Floors -6, -7",
+  "spawns": 202
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Scarab Nest -1",
+  "mobs": [
+   [
+    "Larva",
+    159,
+    44
+   ],
+   [
+    "Scarab",
+    100,
+    120
+   ]
+  ],
+  "floors": "Floors -2, -3",
+  "spawns": 129
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Scarab Nest -2",
+  "mobs": [
+   [
+    "Larva",
+    180,
+    44
+   ],
+   [
+    "Scarab",
+    79,
+    120
+   ]
+  ],
+  "floors": "Floors -2, -3",
+  "spawns": 108
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Scarab Nest -3",
+  "mobs": [
+   [
+    "Larva",
+    196,
+    44
+   ],
+   [
+    "Scarab",
+    104,
+    120
+   ]
+  ],
+  "floors": "Floors -2, -3",
+  "spawns": 136
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Scarab Nest -4",
+  "mobs": [
+   [
+    "Larva",
+    199,
+    44
+   ],
+   [
+    "Scarab",
+    107,
+    120
+   ]
+  ],
+  "floors": "Floors -2, -3",
+  "spawns": 144
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Scarab Nest -5",
+  "mobs": [
+   [
+    "Scarab",
+    146,
+    120
+   ],
+   [
+    "Larva",
+    132,
+    44
+   ]
+  ],
+  "floors": "Floors -2, -3",
+  "spawns": 126
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Scorched Dragon Lair",
+  "mobs": [
+   [
+    "Dragon",
+    11,
+    700
+   ],
+   [
+    "Dragon Lord",
+    4,
+    2100
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface",
+  "spawns": 8
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Shadow Tomb -1-2",
+  "mobs": [
+   [
+    "Ghoul",
+    51,
+    85
+   ],
+   [
+    "Skeleton",
+    38,
+    35
+   ],
+   [
+    "Larva",
+    31,
+    44
+   ],
+   [
+    "Scarab",
+    18,
+    120
+   ],
+   [
+    "Poison Spider",
+    15,
+    22
+   ],
+   [
+    "Crypt Shambler",
+    14,
+    195
+   ],
+   [
+    "Mummy",
+    8,
+    150
+   ],
+   [
+    "Scorpion",
+    7,
+    45
+   ],
+   [
+    "Fire Devil",
+    6,
+    110
+   ],
+   [
+    "Cave Rat",
+    4,
+    10
+   ],
+   [
+    "Stalker",
+    4,
+    90
+   ],
+   [
+    "Snake",
+    3,
+    10
+   ],
+   [
+    "Fire Elemental",
+    2,
+    220
+   ],
+   [
+    "Ghost",
+    2,
+    120
+   ],
+   [
+    "Beholder",
+    1,
+    170
+   ],
+   [
+    "Slime",
+    1,
+    160
+   ],
+   [
+    "Vampire",
+    1,
+    290
+   ]
+  ],
+  "floors": "Floors -5, -6",
+  "spawns": 82
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Shadow Tomb -3-4",
+  "mobs": [
+   [
+    "Mummy",
+    85,
+    150
+   ],
+   [
+    "Demon Skeleton",
+    63,
+    240
+   ],
+   [
+    "Fire Elemental",
+    63,
+    220
+   ],
+   [
+    "Crypt Shambler",
+    62,
+    195
+   ],
+   [
+    "Ghost",
+    22,
+    120
+   ],
+   [
+    "Vampire",
+    22,
+    290
+   ],
+   [
+    "Scarab",
+    15,
+    120
+   ],
+   [
+    "Green Djinn",
+    14,
+    190
+   ],
+   [
+    "Necromancer",
+    14,
+    580
+   ],
+   [
+    "Flamethrower",
+    7,
+    18
+   ],
+   [
+    "Dragon",
+    6,
+    700
+   ],
+   [
+    "Fire Devil",
+    5,
+    110
+   ]
+  ],
+  "floors": "Floors -7, -8",
+  "spawns": 161
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Southern Sun Dragon Lair",
+  "mobs": [
+   [
+    "Dragon",
+    6,
+    700
+   ],
+   [
+    "Scorpion",
+    2,
+    45
+   ]
+  ],
+  "floors": "Floors +3, +2, +1",
+  "spawns": 6
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Stone Tomb -1-2",
+  "mobs": [
+   [
+    "Ghoul",
+    36,
+    85
+   ],
+   [
+    "Skeleton",
+    22,
+    35
+   ],
+   [
+    "Larva",
+    14,
+    44
+   ],
+   [
+    "Scarab",
+    8,
+    120
+   ],
+   [
+    "Hyaena",
+    3,
+    20
+   ],
+   [
+    "Mummy",
+    3,
+    150
+   ],
+   [
+    "Scorpion",
+    3,
+    45
+   ],
+   [
+    "Crypt Shambler",
+    2,
+    195
+   ],
+   [
+    "Poison Spider",
+    2,
+    22
+   ],
+   [
+    "Stalker",
+    2,
+    90
+   ],
+   [
+    "Cobra",
+    1,
+    30
+   ],
+   [
+    "Slime",
+    1,
+    160
+   ]
+  ],
+  "floors": "Floors -4, -5",
+  "spawns": 47
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Stone Tomb -3-4",
+  "mobs": [
+   [
+    "Scarab",
+    107,
+    120
+   ],
+   [
+    "Crypt Shambler",
+    90,
+    195
+   ],
+   [
+    "Slime",
+    90,
+    160
+   ],
+   [
+    "Mummy",
+    86,
+    150
+   ],
+   [
+    "Cobra",
+    31,
+    30
+   ],
+   [
+    "Ghoul",
+    26,
+    85
+   ],
+   [
+    "Vampire",
+    26,
+    290
+   ],
+   [
+    "Scorpion",
+    22,
+    45
+   ],
+   [
+    "Bonebeast",
+    14,
+    580
+   ],
+   [
+    "Ghost",
+    11,
+    120
+   ],
+   [
+    "Poison Spider",
+    11,
+    22
+   ],
+   [
+    "Ancient Scarab",
+    7,
+    720
+   ],
+   [
+    "Demon Skeleton",
+    6,
+    240
+   ],
+   [
+    "Necromancer",
+    5,
+    580
+   ],
+   [
+    "Giant Spider",
+    4,
+    900
+   ],
+   [
+    "Larva",
+    3,
+    44
+   ],
+   [
+    "Stalker",
+    3,
+    90
+   ],
+   [
+    "Beholder",
+    2,
+    170
+   ]
+  ],
+  "floors": "Floors -6, -7",
+  "spawns": 240
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Sunken Ruins Tomb -1-2",
+  "mobs": [
+   [
+    "Ghoul",
+    52,
+    85
+   ],
+   [
+    "Skeleton",
+    46,
+    35
+   ],
+   [
+    "Mummy",
+    22,
+    150
+   ],
+   [
+    "Cobra",
+    15,
+    30
+   ],
+   [
+    "Scarab",
+    13,
+    120
+   ],
+   [
+    "Stalker",
+    12,
+    90
+   ],
+   [
+    "Larva",
+    8,
+    44
+   ],
+   [
+    "Cave Rat",
+    7,
+    10
+   ],
+   [
+    "Ghost",
+    6,
+    120
+   ],
+   [
+    "Slime",
+    5,
+    160
+   ],
+   [
+    "Poison Spider",
+    4,
+    22
+   ],
+   [
+    "Scorpion",
+    3,
+    45
+   ],
+   [
+    "Beholder",
+    2,
+    170
+   ],
+   [
+    "Crypt Shambler",
+    1,
+    195
+   ],
+   [
+    "Fire Elemental",
+    1,
+    220
+   ],
+   [
+    "Vampire",
+    1,
+    290
+   ]
+  ],
+  "floors": "Floors -5, -6",
+  "spawns": 83
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Sunken Ruins Tomb -3-4",
+  "mobs": [
+   [
+    "Ghost",
+    77,
+    120
+   ],
+   [
+    "Mummy",
+    43,
+    150
+   ],
+   [
+    "Demon Skeleton",
+    40,
+    240
+   ],
+   [
+    "Stalker",
+    36,
+    90
+   ],
+   [
+    "Vampire",
+    26,
+    290
+   ],
+   [
+    "Banshee",
+    21,
+    900
+   ],
+   [
+    "Necromancer",
+    15,
+    580
+   ],
+   [
+    "Crypt Shambler",
+    9,
+    195
+   ],
+   [
+    "Beholder",
+    8,
+    170
+   ],
+   [
+    "Lich",
+    6,
+    900
+   ],
+   [
+    "Slime",
+    6,
+    160
+   ],
+   [
+    "Scorpion",
+    5,
+    45
+   ],
+   [
+    "Gargoyle",
+    4,
+    150
+   ],
+   [
+    "Bonebeast",
+    2,
+    580
+   ],
+   [
+    "Cobra",
+    2,
+    30
+   ],
+   [
+    "Ghoul",
+    2,
+    85
+   ]
+  ],
+  "floors": "Floors -7, -8",
+  "spawns": 135
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Tar Pit Tomb -1-2",
+  "mobs": [
+   [
+    "Skeleton",
+    52,
+    35
+   ],
+   [
+    "Ghoul",
+    49,
+    85
+   ],
+   [
+    "Cave Rat",
+    17,
+    10
+   ],
+   [
+    "Scarab",
+    9,
+    120
+   ],
+   [
+    "Mummy",
+    7,
+    150
+   ],
+   [
+    "Poison Spider",
+    5,
+    22
+   ],
+   [
+    "Crypt Shambler",
+    4,
+    195
+   ],
+   [
+    "Scorpion",
+    4,
+    45
+   ],
+   [
+    "Ghost",
+    3,
+    120
+   ],
+   [
+    "Larva",
+    3,
+    44
+   ],
+   [
+    "Stalker",
+    3,
+    90
+   ],
+   [
+    "Cobra",
+    2,
+    30
+   ],
+   [
+    "Beholder",
+    1,
+    170
+   ]
+  ],
+  "floors": "Floors -4, -5",
+  "spawns": 71
+ },
+ {
+  "region": "Ankrahmun",
+  "name": "Tar Pit Tomb -3-4",
+  "mobs": [
+   [
+    "Mummy",
+    51,
+    150
+   ],
+   [
+    "Demon Skeleton",
+    39,
+    240
+   ],
+   [
+    "Gargoyle",
+    39,
+    150
+   ],
+   [
+    "Stone Golem",
+    39,
+    160
+   ],
+   [
+    "Vampire",
+    25,
+    290
+   ],
+   [
+    "Crypt Shambler",
+    22,
+    195
+   ],
+   [
+    "Ghoul",
+    18,
+    85
+   ],
+   [
+    "Bonebeast",
+    6,
+    580
+   ],
+   [
+    "Behemoth",
+    5,
+    2500
+   ],
+   [
+    "Ghost",
+    1,
+    120
+   ]
+  ],
+  "floors": "Floors -6, -7",
+  "spawns": 113
+ },
+ {
+  "region": "Darashia",
+  "name": "Darashia Minotaur Hills",
+  "mobs": [
+   [
+    "Minotaur",
+    38,
+    50
+   ],
+   [
+    "Minotaur Guard",
+    23,
+    160
+   ],
+   [
+    "Minotaur Archer",
+    14,
+    65
+   ],
+   [
+    "Minotaur Mage",
+    13,
+    150
+   ],
+   [
+    "Mummy",
+    1,
+    150
+   ]
+  ],
+  "floors": "Floors +2, +1, Surface, -1, -2, -3, -4",
+  "spawns": 39
+ },
+ {
+  "region": "Darashia",
+  "name": "Darashia Rotworm Cave 1",
+  "mobs": [
+   [
+    "Rotworm",
+    87,
+    40
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 33
+ },
+ {
+  "region": "Darashia",
+  "name": "Darashia Rotworm Cave 2",
+  "mobs": [
+   [
+    "Rotworm",
+    60,
+    40
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 24
+ },
+ {
+  "region": "Darashia",
+  "name": "Darashia Rotworm Cave 3",
+  "mobs": [
+   [
+    "Rotworm",
+    62,
+    40
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 22
+ },
+ {
+  "region": "Darashia",
+  "name": "Darashia Rotworm Cave 4",
+  "mobs": [
+   [
+    "Rotworm",
+    90,
+    40
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 33
+ },
+ {
+  "region": "Darashia",
+  "name": "Dragon Gate Lair",
+  "mobs": [
+   [
+    "Dragon",
+    19,
+    700
+   ],
+   [
+    "Dragon Lord",
+    11,
+    2100
+   ]
+  ],
+  "floors": "Floors -3, -4, -5",
+  "spawns": 22
+ },
+ {
+  "region": "Darashia",
+  "name": "Dragon Lord Gate",
+  "mobs": [
+   [
+    "Dragon Lord",
+    43,
+    2100
+   ]
+  ],
+  "floors": "Floors -6, -7",
+  "spawns": 30
+ },
+ {
+  "region": "Darashia",
+  "name": "Drefia Necromancer Crypts",
+  "mobs": [
+   [
+    "Demon Skeleton",
+    47,
+    240
+   ],
+   [
+    "Ghoul",
+    18,
+    85
+   ],
+   [
+    "Necromancer",
+    17,
+    580
+   ],
+   [
+    "Ghost",
+    14,
+    120
+   ],
+   [
+    "Mummy",
+    10,
+    150
+   ],
+   [
+    "Black Sheep",
+    7,
+    0
+   ],
+   [
+    "Skeleton",
+    6,
+    35
+   ],
+   [
+    "Stalker",
+    5,
+    90
+   ],
+   [
+    "Priestess",
+    4,
+    420
+   ],
+   [
+    "Vampire",
+    4,
+    290
+   ]
+  ],
+  "floors": "Floors -3, -4",
+  "spawns": 52
+ },
+ {
+  "region": "Darashia",
+  "name": "Drefia Reaper Halls",
+  "mobs": [
+   [
+    "Grim Reaper",
+    13,
+    5500
+   ]
+  ],
+  "floors": "Floors -5, -6",
+  "spawns": 13
+ },
+ {
+  "region": "Darashia",
+  "name": "Drefia Vampire Crypt",
+  "mobs": [
+   [
+    "Vampire",
+    16,
+    290
+   ],
+   [
+    "Ghoul",
+    11,
+    85
+   ],
+   [
+    "Demon Skeleton",
+    9,
+    240
+   ],
+   [
+    "Ghost",
+    4,
+    120
+   ],
+   [
+    "Mummy",
+    4,
+    150
+   ],
+   [
+    "Stalker",
+    3,
+    90
+   ],
+   [
+    "Scorpion",
+    2,
+    45
+   ]
+  ],
+  "floors": "Floor -5",
+  "spawns": 19
+ },
+ {
+  "region": "Darashia",
+  "name": "Drefia Wastes",
+  "mobs": [
+   [
+    "Demon Skeleton",
+    26,
+    240
+   ],
+   [
+    "Ghoul",
+    19,
+    85
+   ],
+   [
+    "Ghost",
+    13,
+    120
+   ],
+   [
+    "Skeleton",
+    12,
+    35
+   ],
+   [
+    "Scorpion",
+    11,
+    45
+   ],
+   [
+    "Stalker",
+    9,
+    90
+   ],
+   [
+    "Snake",
+    4,
+    10
+   ],
+   [
+    "Hyaena",
+    2,
+    20
+   ],
+   [
+    "Wasp",
+    1,
+    24
+   ]
+  ],
+  "floors": "Floors +5, +3, +2, +1, Surface",
+  "spawns": 47
+ },
+ {
+  "region": "Darashia",
+  "name": "Drefia Wastes -1-2",
+  "mobs": [
+   [
+    "Ghoul",
+    36,
+    85
+   ],
+   [
+    "Demon Skeleton",
+    13,
+    240
+   ],
+   [
+    "Skeleton",
+    13,
+    35
+   ],
+   [
+    "Scorpion",
+    10,
+    45
+   ],
+   [
+    "Beholder",
+    3,
+    170
+   ],
+   [
+    "Ghost",
+    3,
+    120
+   ],
+   [
+    "Snake",
+    3,
+    10
+   ],
+   [
+    "Slime",
+    2,
+    160
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 32
+ },
+ {
+  "region": "Darashia",
+  "name": "Northern Dragon Ridge -1",
+  "mobs": [
+   [
+    "Dragon",
+    33,
+    700
+   ],
+   [
+    "Lion",
+    7,
+    30
+   ],
+   [
+    "Dragon Lord",
+    4,
+    2100
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface, -1",
+  "spawns": 30
+ },
+ {
+  "region": "Darashia",
+  "name": "Wasp Spires",
+  "mobs": [
+   [
+    "Wasp",
+    67,
+    24
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface",
+  "spawns": 25
+ },
+ {
+  "region": "Edron",
+  "name": "Behemoth Depths of Cyclopolis",
+  "mobs": [
+   [
+    "Behemoth",
+    42,
+    2500
+   ],
+   [
+    "Cyclops",
+    15,
+    150
+   ],
+   [
+    "Dwarf Soldier",
+    6,
+    70
+   ],
+   [
+    "Dragon",
+    2,
+    700
+   ],
+   [
+    "Priestess",
+    1,
+    420
+   ]
+  ],
+  "floors": "Floors -6, -7, -8",
+  "spawns": 29
+ },
+ {
+  "region": "Edron",
+  "name": "Cyclopolis -1-2",
+  "mobs": [
+   [
+    "Cyclops",
+    58,
+    150
+   ],
+   [
+    "Dwarf Soldier",
+    16,
+    70
+   ],
+   [
+    "Dwarf Guard",
+    9,
+    170
+   ],
+   [
+    "Scorpion",
+    6,
+    45
+   ],
+   [
+    "Orc Berserker",
+    3,
+    195
+   ],
+   [
+    "Wild Warrior",
+    3,
+    60
+   ],
+   [
+    "Elf Scout",
+    2,
+    75
+   ],
+   [
+    "Minotaur Archer",
+    2,
+    65
+   ],
+   [
+    "Minotaur Guard",
+    2,
+    160
+   ],
+   [
+    "Elf Arcanist",
+    1,
+    175
+   ],
+   [
+    "Minotaur Mage",
+    1,
+    150
+   ],
+   [
+    "Orc Leader",
+    1,
+    270
+   ]
+  ],
+  "floors": "Floors Surface, -1, -2",
+  "spawns": 42
+ },
+ {
+  "region": "Edron",
+  "name": "Cyclopolis -3-4",
+  "mobs": [
+   [
+    "Cyclops",
+    36,
+    150
+   ],
+   [
+    "Fire Elemental",
+    7,
+    220
+   ],
+   [
+    "Dwarf Soldier",
+    5,
+    70
+   ]
+  ],
+  "floors": "Floors -3, -4",
+  "spawns": 19
+ },
+ {
+  "region": "Edron",
+  "name": "Cyclopolis Dragon Forge",
+  "mobs": [
+   [
+    "Cyclops",
+    10,
+    150
+   ],
+   [
+    "Fire Elemental",
+    6,
+    220
+   ],
+   [
+    "Dragon",
+    3,
+    700
+   ],
+   [
+    "Dwarf Soldier",
+    3,
+    70
+   ],
+   [
+    "Dragon Lord",
+    1,
+    2100
+   ]
+  ],
+  "floors": "Floors -5, -6, -7",
+  "spawns": 11
+ },
+ {
+  "region": "Edron",
+  "name": "Demon Helmet Depths",
+  "mobs": [
+   [
+    "Demon",
+    18,
+    6000
+   ],
+   [
+    "Banshee",
+    8,
+    900
+   ],
+   [
+    "Fire Elemental",
+    5,
+    220
+   ]
+  ],
+  "floors": "Floors -5, -6, -7, -8",
+  "spawns": 18
+ },
+ {
+  "region": "Edron",
+  "name": "Demon Tower",
+  "mobs": [
+   [
+    "Demon",
+    6,
+    6000
+   ],
+   [
+    "Fire Devil",
+    3,
+    110
+   ],
+   [
+    "Necromancer",
+    1,
+    580
+   ]
+  ],
+  "floors": "Floors +6, +5, +4, +3, +2, +1, Surface",
+  "spawns": 8
+ },
+ {
+  "region": "Edron",
+  "name": "Demon's Sanctum",
+  "mobs": [
+   [
+    "Demon",
+    3,
+    6000
+   ]
+  ],
+  "floors": "Floors -7, -8",
+  "spawns": 2
+ },
+ {
+  "region": "Edron",
+  "name": "Eastern Rotworm Pits",
+  "mobs": [
+   [
+    "Rotworm",
+    26,
+    40
+   ],
+   [
+    "Skeleton",
+    6,
+    35
+   ],
+   [
+    "Ghoul",
+    4,
+    85
+   ],
+   [
+    "Demon Skeleton",
+    1,
+    240
+   ]
+  ],
+  "floors": "Floors -1, -2, -3, -4, -5, -6, -7",
+  "spawns": 19
+ },
+ {
+  "region": "Edron",
+  "name": "Edron Dragon Lair",
+  "mobs": [
+   [
+    "Dragon",
+    22,
+    700
+   ],
+   [
+    "Dragon Lord",
+    4,
+    2100
+   ]
+  ],
+  "floors": "Floors +1, -1, -2, -4",
+  "spawns": 14
+ },
+ {
+  "region": "Edron",
+  "name": "Edron Goblin Warrens",
+  "mobs": [
+   [
+    "Goblin",
+    133,
+    25
+   ],
+   [
+    "Bug",
+    18,
+    18
+   ],
+   [
+    "Wasp",
+    2,
+    24
+   ]
+  ],
+  "floors": "Floors +2, Surface, -1, -2, -3",
+  "spawns": 48
+ },
+ {
+  "region": "Edron",
+  "name": "Edron Orc Warcamp",
+  "mobs": [
+   [
+    "Poison Spider",
+    84,
+    22
+   ],
+   [
+    "Orc Warrior",
+    58,
+    50
+   ],
+   [
+    "Orc Spearman",
+    55,
+    38
+   ],
+   [
+    "Orc Berserker",
+    30,
+    195
+   ],
+   [
+    "Orc",
+    23,
+    25
+   ],
+   [
+    "Orc Shaman",
+    23,
+    110
+   ],
+   [
+    "Deer",
+    8,
+    0
+   ],
+   [
+    "Orc Leader",
+    7,
+    270
+   ],
+   [
+    "Snake",
+    4,
+    10
+   ],
+   [
+    "Giant Spider",
+    1,
+    900
+   ]
+  ],
+  "floors": "Floors Surface, -1, -2, -3, -4, -5",
+  "spawns": 100
+ },
+ {
+  "region": "Edron",
+  "name": "Edron Rotworm Pits",
+  "mobs": [
+   [
+    "Rotworm",
+    109,
+    40
+   ]
+  ],
+  "floors": "Floors -1, -2, -3, -4",
+  "spawns": 48
+ },
+ {
+  "region": "Edron",
+  "name": "Edron Troll Caves",
+  "mobs": [
+   [
+    "Troll",
+    124,
+    20
+   ],
+   [
+    "Bear",
+    8,
+    23
+   ],
+   [
+    "Rat",
+    4,
+    5
+   ],
+   [
+    "Swamp Troll",
+    2,
+    25
+   ],
+   [
+    "Frost Troll",
+    1,
+    23
+   ]
+  ],
+  "floors": "Floors Surface, -1, -2, -3",
+  "spawns": 38
+ },
+ {
+  "region": "Edron",
+  "name": "Fire Devil Necropolis",
+  "mobs": [
+   [
+    "Fire Devil",
+    17,
+    110
+   ],
+   [
+    "Necromancer",
+    5,
+    580
+   ]
+  ],
+  "floors": "Floor -8",
+  "spawns": 12
+ },
+ {
+  "region": "Edron",
+  "name": "Hero Fortress",
+  "mobs": [
+   [
+    "Monk",
+    17,
+    200
+   ],
+   [
+    "Hero",
+    14,
+    1200
+   ],
+   [
+    "Priestess",
+    9,
+    420
+   ],
+   [
+    "Stone Golem",
+    5,
+    160
+   ],
+   [
+    "Demon Skeleton",
+    4,
+    240
+   ],
+   [
+    "Wild Warrior",
+    3,
+    60
+   ],
+   [
+    "Orc Shaman",
+    1,
+    110
+   ]
+  ],
+  "floors": "Floors -6, -7, -8",
+  "spawns": 25
+ },
+ {
+  "region": "Venore",
+  "name": "Amazon Camp",
+  "mobs": [
+   [
+    "Amazon",
+    27,
+    60
+   ],
+   [
+    "Valkyrie",
+    17,
+    85
+   ],
+   [
+    "Witch",
+    3,
+    120
+   ],
+   [
+    "Lion",
+    1,
+    30
+   ]
+  ],
+  "floors": "Floors +4, +2, +1, Surface, -1",
+  "spawns": 25
+ },
+ {
+  "region": "Venore",
+  "name": "Bandit Hideout",
+  "mobs": [
+   [
+    "Wild Warrior",
+    19,
+    60
+   ],
+   [
+    "Bandit",
+    12,
+    65
+   ],
+   [
+    "Smuggler",
+    8,
+    48
+   ],
+   [
+    "Deer",
+    3,
+    0
+   ],
+   [
+    "Slime",
+    3,
+    160
+   ],
+   [
+    "Hunter",
+    2,
+    150
+   ],
+   [
+    "Poison Spider",
+    2,
+    22
+   ],
+   [
+    "Cave Rat",
+    1,
+    10
+   ]
+  ],
+  "floors": "Floors Surface, -1, -2",
+  "spawns": 22
+ },
+ {
+  "region": "Venore",
+  "name": "Banshee Hollow",
+  "mobs": [
+   [
+    "Banshee",
+    23,
+    900
+   ],
+   [
+    "Necromancer",
+    10,
+    580
+   ],
+   [
+    "Demon Skeleton",
+    7,
+    240
+   ],
+   [
+    "Stalker",
+    4,
+    90
+   ],
+   [
+    "Bonebeast",
+    2,
+    580
+   ]
+  ],
+  "floors": "Floors -4, -5",
+  "spawns": 45
+ },
+ {
+  "region": "Venore",
+  "name": "Black Knight Keep",
+  "mobs": [
+   [
+    "Beholder",
+    8,
+    170
+   ],
+   [
+    "Scorpion",
+    3,
+    45
+   ],
+   [
+    "Black Knight",
+    1,
+    1600
+   ],
+   [
+    "Skeleton",
+    1,
+    35
+   ]
+  ],
+  "floors": "Floors -4, -5",
+  "spawns": 11
+ },
+ {
+  "region": "Venore",
+  "name": "Dark Cathedral -2-3",
+  "mobs": [
+   [
+    "Dark Monk",
+    71,
+    145
+   ],
+   [
+    "Assassin",
+    69,
+    105
+   ],
+   [
+    "Witch",
+    33,
+    120
+   ],
+   [
+    "Monk",
+    16,
+    200
+   ],
+   [
+    "Ghost",
+    14,
+    120
+   ],
+   [
+    "Hunter",
+    7,
+    150
+   ],
+   [
+    "Demon Skeleton",
+    5,
+    240
+   ],
+   [
+    "Wild Warrior",
+    5,
+    60
+   ],
+   [
+    "Mummy",
+    4,
+    150
+   ],
+   [
+    "Stone Golem",
+    2,
+    160
+   ]
+  ],
+  "floors": "Floors -2, -3",
+  "spawns": 85
+ },
+ {
+  "region": "Venore",
+  "name": "Dark Cathedral Grounds -1",
+  "mobs": [
+   [
+    "Poison Spider",
+    49,
+    22
+   ],
+   [
+    "Bandit",
+    39,
+    65
+   ],
+   [
+    "Skeleton",
+    30,
+    35
+   ],
+   [
+    "Wild Warrior",
+    24,
+    60
+   ],
+   [
+    "Rotworm",
+    21,
+    40
+   ],
+   [
+    "Smuggler",
+    21,
+    48
+   ],
+   [
+    "Slime",
+    19,
+    160
+   ],
+   [
+    "Ghoul",
+    13,
+    85
+   ],
+   [
+    "Centipede",
+    11,
+    30
+   ],
+   [
+    "Tarantula",
+    11,
+    120
+   ],
+   [
+    "Bat",
+    7,
+    10
+   ],
+   [
+    "Cave Rat",
+    5,
+    10
+   ],
+   [
+    "Orc Rider",
+    4,
+    110
+   ],
+   [
+    "Assassin",
+    3,
+    105
+   ],
+   [
+    "Scorpion",
+    2,
+    45
+   ],
+   [
+    "Beholder",
+    1,
+    170
+   ],
+   [
+    "Dark Monk",
+    1,
+    145
+   ],
+   [
+    "Demon Skeleton",
+    1,
+    240
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface, -1, -2",
+  "spawns": 95
+ },
+ {
+  "region": "Venore",
+  "name": "Pits of Inferno Bone Halls",
+  "mobs": [
+   [
+    "Demon Skeleton",
+    26,
+    240
+   ]
+  ],
+  "floors": "Floor -3",
+  "spawns": 10
+ },
+ {
+  "region": "Venore",
+  "name": "Pits of Inferno Dragon Lord Lair",
+  "mobs": [
+   [
+    "Dragon Lord",
+    24,
+    2100
+   ],
+   [
+    "Dragon",
+    7,
+    700
+   ]
+  ],
+  "floors": "Floor -5",
+  "spawns": 14
+ },
+ {
+  "region": "Venore",
+  "name": "Plains of Havoc Cyclops Hills",
+  "mobs": [
+   [
+    "Cyclops",
+    34,
+    150
+   ],
+   [
+    "Minotaur",
+    17,
+    50
+   ],
+   [
+    "Rotworm",
+    13,
+    40
+   ],
+   [
+    "Slime",
+    11,
+    160
+   ],
+   [
+    "Minotaur Archer",
+    8,
+    65
+   ],
+   [
+    "Skeleton",
+    7,
+    35
+   ],
+   [
+    "Minotaur Guard",
+    6,
+    160
+   ],
+   [
+    "Wolf",
+    6,
+    18
+   ],
+   [
+    "Orc",
+    4,
+    25
+   ],
+   [
+    "Poison Spider",
+    4,
+    22
+   ],
+   [
+    "Minotaur Mage",
+    2,
+    150
+   ],
+   [
+    "Scorpion",
+    2,
+    45
+   ]
+  ],
+  "floors": "Floors Surface, -1, -2",
+  "spawns": 41
+ },
+ {
+  "region": "Venore",
+  "name": "Plains of Havoc Dragon Lair",
+  "mobs": [
+   [
+    "Dragon",
+    8,
+    700
+   ],
+   [
+    "Dragon Lord",
+    2,
+    2100
+   ]
+  ],
+  "floors": "Floors -1, -2, -3",
+  "spawns": 5
+ },
+ {
+  "region": "Venore",
+  "name": "Plains of Havoc Graveyard",
+  "mobs": [
+   [
+    "Ghoul",
+    36,
+    85
+   ],
+   [
+    "Skeleton",
+    25,
+    35
+   ],
+   [
+    "Demon Skeleton",
+    6,
+    240
+   ]
+  ],
+  "floors": "Floors Surface, -1",
+  "spawns": 31
+ },
+ {
+  "region": "Venore",
+  "name": "Plains of Havoc Wilds",
+  "mobs": [
+   [
+    "Giant Spider",
+    13,
+    900
+   ],
+   [
+    "Skeleton",
+    8,
+    35
+   ],
+   [
+    "Wolf",
+    6,
+    18
+   ],
+   [
+    "Ghoul",
+    5,
+    85
+   ],
+   [
+    "Orc Spearman",
+    5,
+    38
+   ],
+   [
+    "Demon Skeleton",
+    4,
+    240
+   ],
+   [
+    "Orc Berserker",
+    4,
+    195
+   ],
+   [
+    "Poison Spider",
+    4,
+    22
+   ],
+   [
+    "Dragon",
+    3,
+    700
+   ],
+   [
+    "Elf Scout",
+    2,
+    75
+   ],
+   [
+    "Hunter",
+    2,
+    150
+   ],
+   [
+    "Orc Leader",
+    2,
+    270
+   ],
+   [
+    "Orc Shaman",
+    2,
+    110
+   ]
+  ],
+  "floors": "Floors Surface, -1",
+  "spawns": 20
+ },
+ {
+  "region": "Venore",
+  "name": "Shadowthorn Woods",
+  "mobs": [
+   [
+    "Elf Scout",
+    73,
+    75
+   ],
+   [
+    "Elf",
+    71,
+    42
+   ],
+   [
+    "Elf Arcanist",
+    14,
+    175
+   ],
+   [
+    "Cyclops",
+    3,
+    150
+   ],
+   [
+    "Dragon",
+    3,
+    700
+   ],
+   [
+    "Ghoul",
+    2,
+    85
+   ],
+   [
+    "Demon Skeleton",
+    1,
+    240
+   ]
+  ],
+  "floors": "Floors +5, +4, +3, +2, +1, Surface, -1, -2, -3",
+  "spawns": 83
+ },
+ {
+  "region": "Venore",
+  "name": "Venore Eastern Dragon Lair",
+  "mobs": [
+   [
+    "Dragon",
+    9,
+    700
+   ],
+   [
+    "Dragon Lord",
+    3,
+    2100
+   ]
+  ],
+  "floors": "Floors +2, +1, Surface, -1, -2",
+  "spawns": 9
+ },
+ {
+  "region": "Venore",
+  "name": "Venore Northern Burrows",
+  "mobs": [
+   [
+    "Snake",
+    35,
+    10
+   ],
+   [
+    "Orc",
+    18,
+    25
+   ],
+   [
+    "Orc Spearman",
+    15,
+    38
+   ],
+   [
+    "Rotworm",
+    12,
+    40
+   ],
+   [
+    "Beholder",
+    1,
+    170
+   ],
+   [
+    "Orc Shaman",
+    1,
+    110
+   ]
+  ],
+  "floors": "Floors +1, Surface, -1, -2",
+  "spawns": 39
+ },
+ {
+  "region": "Venore",
+  "name": "Venore Orc Fortress",
+  "mobs": [
+   [
+    "Orc Spearman",
+    92,
+    38
+   ],
+   [
+    "Orc Berserker",
+    79,
+    195
+   ],
+   [
+    "Orc Warrior",
+    70,
+    50
+   ],
+   [
+    "Pig",
+    43,
+    0
+   ],
+   [
+    "Orc Shaman",
+    33,
+    110
+   ],
+   [
+    "Orc",
+    27,
+    25
+   ],
+   [
+    "Orc Leader",
+    26,
+    270
+   ],
+   [
+    "War Wolf",
+    15,
+    55
+   ],
+   [
+    "Orc Rider",
+    12,
+    110
+   ],
+   [
+    "Bear",
+    6,
+    23
+   ],
+   [
+    "Wolf",
+    6,
+    18
+   ],
+   [
+    "Bug",
+    5,
+    18
+   ],
+   [
+    "Orc Warlord",
+    4,
+    670
+   ],
+   [
+    "Chicken",
+    3,
+    0
+   ],
+   [
+    "Deer",
+    3,
+    0
+   ],
+   [
+    "Cyclops",
+    1,
+    150
+   ],
+   [
+    "Elf",
+    1,
+    42
+   ]
+  ],
+  "floors": "Floors +5, +4, +3, +2, +1, Surface",
+  "spawns": 168
+ },
+ {
+  "region": "Venore",
+  "name": "Venore Orc Fortress -1-2",
+  "mobs": [
+   [
+    "Orc Berserker",
+    28,
+    195
+   ],
+   [
+    "Orc Shaman",
+    22,
+    110
+   ],
+   [
+    "Orc Leader",
+    14,
+    270
+   ],
+   [
+    "Orc Warlord",
+    11,
+    670
+   ],
+   [
+    "Orc Warrior",
+    10,
+    50
+   ],
+   [
+    "Orc Spearman",
+    9,
+    38
+   ],
+   [
+    "Slime",
+    6,
+    160
+   ],
+   [
+    "Orc Rider",
+    5,
+    110
+   ],
+   [
+    "War Wolf",
+    3,
+    55
+   ],
+   [
+    "Orc",
+    2,
+    25
+   ],
+   [
+    "Beholder",
+    1,
+    170
+   ],
+   [
+    "Dragon",
+    1,
+    700
+   ],
+   [
+    "Stone Golem",
+    1,
+    160
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 46
+ },
+ {
+  "region": "Venore",
+  "name": "Venore Southern Rotworm Pits",
+  "mobs": [
+   [
+    "Rotworm",
+    87,
+    40
+   ],
+   [
+    "Slime",
+    5,
+    160
+   ]
+  ],
+  "floors": "Floors -1, -2, -3",
+  "spawns": 47
+ },
+ {
+  "region": "Venore",
+  "name": "Venore Troll Swamp",
+  "mobs": [
+   [
+    "Swamp Troll",
+    83,
+    25
+   ],
+   [
+    "Cave Rat",
+    14,
+    10
+   ],
+   [
+    "Rotworm",
+    7,
+    40
+   ],
+   [
+    "Skeleton",
+    4,
+    35
+   ],
+   [
+    "Rabbit",
+    2,
+    0
+   ],
+   [
+    "Blue Butterfly",
+    1,
+    0
+   ],
+   [
+    "Ghoul",
+    1,
+    85
+   ]
+  ],
+  "floors": "Floors Surface, -1, -2",
+  "spawns": 40
+ },
+ {
+  "region": "Venore",
+  "name": "Venore Western Dragon Lair",
+  "mobs": [
+   [
+    "Dragon",
+    27,
+    700
+   ],
+   [
+    "Dragon Lord",
+    2,
+    2100
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface, -1, -2",
+  "spawns": 22
+ },
+ {
+  "region": "Venore",
+  "name": "Wraith Abyss -1",
+  "mobs": [
+   [
+    "Shadow Wraith",
+    41,
+    4000
+   ],
+   [
+    "Ghoul",
+    13,
+    85
+   ],
+   [
+    "Ghost",
+    12,
+    120
+   ],
+   [
+    "Beholder",
+    11,
+    170
+   ],
+   [
+    "Banshee",
+    4,
+    900
+   ]
+  ],
+  "floors": "Floors -6, -7, -8",
+  "spawns": 78
+ },
+ {
+  "region": "Ab'Dendriel",
+  "name": "Ab'Dendriel Crypts",
+  "mobs": [
+   [
+    "Skeleton",
+    16,
+    35
+   ],
+   [
+    "Rotworm",
+    7,
+    40
+   ],
+   [
+    "Poison Spider",
+    4,
+    22
+   ],
+   [
+    "Ghoul",
+    2,
+    85
+   ],
+   [
+    "Slime",
+    2,
+    160
+   ],
+   [
+    "Snake",
+    2,
+    10
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 15
+ },
+ {
+  "region": "Ab'Dendriel",
+  "name": "Ab'Dendriel Dragon Lair",
+  "mobs": [
+   [
+    "Dragon",
+    20,
+    700
+   ],
+   [
+    "Dragon Lord",
+    2,
+    2100
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface",
+  "spawns": 22
+ },
+ {
+  "region": "Ab'Dendriel",
+  "name": "Ab'Dendriel Dragon Lord Lair",
+  "mobs": [
+   [
+    "Dragon",
+    10,
+    700
+   ],
+   [
+    "Dragon Lord",
+    7,
+    2100
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 17
+ },
+ {
+  "region": "Ab'Dendriel",
+  "name": "Ab'Dendriel Troll Caves",
+  "mobs": [
+   [
+    "Troll",
+    98,
+    20
+   ]
+  ],
+  "floors": "Floors -2, -3, -4, -5",
+  "spawns": 37
+ },
+ {
+  "region": "Ab'Dendriel",
+  "name": "Ab'Dendriel Wasp Hives",
+  "mobs": [
+   [
+    "Wasp",
+    48,
+    24
+   ]
+  ],
+  "floors": "Floors Surface, -1, -2, -3",
+  "spawns": 16
+ },
+ {
+  "region": "Ab'Dendriel",
+  "name": "Elven Castle Ruins",
+  "mobs": [
+   [
+    "Minotaur",
+    27,
+    50
+   ],
+   [
+    "Orc Warrior",
+    26,
+    50
+   ],
+   [
+    "Orc",
+    11,
+    25
+   ],
+   [
+    "Orc Spearman",
+    8,
+    38
+   ],
+   [
+    "Troll",
+    5,
+    20
+   ],
+   [
+    "Elf",
+    4,
+    42
+   ],
+   [
+    "Demon Skeleton",
+    2,
+    240
+   ],
+   [
+    "Minotaur Guard",
+    2,
+    160
+   ],
+   [
+    "Orc Berserker",
+    2,
+    195
+   ],
+   [
+    "Dragon",
+    1,
+    700
+   ],
+   [
+    "Dwarf",
+    1,
+    45
+   ],
+   [
+    "Elf Arcanist",
+    1,
+    175
+   ],
+   [
+    "Hunter",
+    1,
+    150
+   ],
+   [
+    "Minotaur Archer",
+    1,
+    65
+   ],
+   [
+    "Minotaur Mage",
+    1,
+    150
+   ],
+   [
+    "Orc Shaman",
+    1,
+    110
+   ]
+  ],
+  "floors": "Floors +4, +3, +2, +1, Surface, -1, -2, -3",
+  "spawns": 48
+ },
+ {
+  "region": "Ab'Dendriel",
+  "name": "Elven Glade",
+  "mobs": [
+   [
+    "Elf",
+    16,
+    42
+   ],
+   [
+    "Elf Scout",
+    4,
+    75
+   ],
+   [
+    "Snake",
+    4,
+    10
+   ],
+   [
+    "Elf Arcanist",
+    1,
+    175
+   ]
+  ],
+  "floors": "Floors +1, Surface, -1",
+  "spawns": 9
+ },
+ {
+  "region": "Carlin and the hills",
+  "name": "Banshee Crypt",
+  "mobs": [
+   [
+    "Ghost",
+    28,
+    120
+   ],
+   [
+    "Banshee",
+    17,
+    900
+   ],
+   [
+    "Demon Skeleton",
+    14,
+    240
+   ],
+   [
+    "Stalker",
+    13,
+    90
+   ],
+   [
+    "Mummy",
+    8,
+    150
+   ],
+   [
+    "Fire Devil",
+    3,
+    110
+   ],
+   [
+    "Scorpion",
+    3,
+    45
+   ]
+  ],
+  "floors": "Floors -7, -8",
+  "spawns": 40
+ },
+ {
+  "region": "Carlin and the hills",
+  "name": "Carlin Amazon Camp",
+  "mobs": [
+   [
+    "Amazon",
+    15,
+    60
+   ],
+   [
+    "Valkyrie",
+    8,
+    85
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface",
+  "spawns": 12
+ },
+ {
+  "region": "Carlin and the hills",
+  "name": "Demona",
+  "mobs": [
+   [
+    "Warlock",
+    15,
+    4000
+   ],
+   [
+    "Elf Arcanist",
+    9,
+    175
+   ],
+   [
+    "Dragon",
+    6,
+    700
+   ],
+   [
+    "Stone Golem",
+    6,
+    160
+   ]
+  ],
+  "floors": "Floors -7, -8",
+  "spawns": 18
+ },
+ {
+  "region": "Carlin and the hills",
+  "name": "Ghostlands",
+  "mobs": [
+   [
+    "Ghoul",
+    70,
+    85
+   ],
+   [
+    "Skeleton",
+    63,
+    35
+   ],
+   [
+    "Cave Rat",
+    44,
+    10
+   ],
+   [
+    "Scorpion",
+    40,
+    45
+   ],
+   [
+    "Poison Spider",
+    26,
+    22
+   ],
+   [
+    "Demon Skeleton",
+    23,
+    240
+   ],
+   [
+    "Rat",
+    11,
+    5
+   ],
+   [
+    "Stalker",
+    7,
+    90
+   ],
+   [
+    "Slime",
+    4,
+    160
+   ],
+   [
+    "Fire Devil",
+    1,
+    110
+   ],
+   [
+    "Rotworm",
+    1,
+    40
+   ],
+   [
+    "Vampire",
+    1,
+    290
+   ]
+  ],
+  "floors": "Floors Surface, -1, -2, -3, -4, -5",
+  "spawns": 129
+ },
+ {
+  "region": "Carlin and the hills",
+  "name": "Goblin Hills",
+  "mobs": [
+   [
+    "Goblin",
+    64,
+    25
+   ],
+   [
+    "Rotworm",
+    23,
+    40
+   ],
+   [
+    "Pig",
+    6,
+    0
+   ],
+   [
+    "Rabbit",
+    4,
+    0
+   ],
+   [
+    "Wolf",
+    4,
+    18
+   ],
+   [
+    "Snake",
+    3,
+    10
+   ],
+   [
+    "Skeleton",
+    2,
+    35
+   ],
+   [
+    "Spider",
+    2,
+    12
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface, -1, -2",
+  "spawns": 38
+ },
+ {
+  "region": "Carlin and the hills",
+  "name": "Queen's Shrine",
+  "mobs": [
+   [
+    "Queen Follower",
+    9,
+    11000
+   ]
+  ],
+  "floors": "Floors -2, -3, -4, -5",
+  "spawns": 9
+ },
+ {
+  "region": "Carlin and the hills",
+  "name": "Wild Warrior Camp",
+  "mobs": [
+   [
+    "Wild Warrior",
+    3,
+    60
+   ]
+  ],
+  "floors": "Floor Surface",
+  "spawns": 1
+ },
+ {
+  "region": "Hellgate",
+  "name": "Draconia",
+  "mobs": [
+   [
+    "Skeleton",
+    30,
+    35
+   ],
+   [
+    "Ghoul",
+    28,
+    85
+   ],
+   [
+    "Scorpion",
+    26,
+    45
+   ],
+   [
+    "Rotworm",
+    19,
+    40
+   ],
+   [
+    "Mummy",
+    18,
+    150
+   ],
+   [
+    "Demon Skeleton",
+    8,
+    240
+   ],
+   [
+    "Dragon",
+    5,
+    700
+   ],
+   [
+    "Slime",
+    2,
+    160
+   ],
+   [
+    "Dragon Lord",
+    1,
+    2100
+   ]
+  ],
+  "floors": "Floors +5, +4, +3, +2, +1, Surface, -1, -2",
+  "spawns": 56
+ },
+ {
+  "region": "Hellgate",
+  "name": "Hellgate Beholder Depths",
+  "mobs": [
+   [
+    "Ghoul",
+    63,
+    85
+   ],
+   [
+    "Demon Skeleton",
+    47,
+    240
+   ],
+   [
+    "Beholder",
+    25,
+    170
+   ],
+   [
+    "Slime",
+    9,
+    160
+   ],
+   [
+    "Skeleton",
+    8,
+    35
+   ],
+   [
+    "Elder Beholder",
+    5,
+    280
+   ],
+   [
+    "Scorpion",
+    2,
+    45
+   ]
+  ],
+  "floors": "Floors -6, -7",
+  "spawns": 74
+ },
+ {
+  "region": "Hellgate",
+  "name": "Hellgate Entrance",
+  "mobs": [
+   [
+    "Skeleton",
+    25,
+    35
+   ],
+   [
+    "Ghoul",
+    13,
+    85
+   ],
+   [
+    "Demon Skeleton",
+    2,
+    240
+   ]
+  ],
+  "floors": "Floor -4",
+  "spawns": 14
+ },
+ {
+  "region": "Hellgate",
+  "name": "Hellgate Rotworm Caves",
+  "mobs": [
+   [
+    "Rotworm",
+    20,
+    40
+   ],
+   [
+    "Ghoul",
+    9,
+    85
+   ],
+   [
+    "Poison Spider",
+    6,
+    22
+   ]
+  ],
+  "floors": "Floors -5, -6",
+  "spawns": 13
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 1 -1-2-3",
+  "mobs": [
+   [
+    "Dwarf",
+    38,
+    45
+   ],
+   [
+    "Rotworm",
+    22,
+    40
+   ],
+   [
+    "Dwarf Soldier",
+    9,
+    70
+   ],
+   [
+    "Poison Spider",
+    3,
+    22
+   ]
+  ],
+  "floors": "Floors -1, -2, -3",
+  "spawns": 25
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 1 -4-5-6",
+  "mobs": [
+   [
+    "Dwarf Soldier",
+    18,
+    70
+   ],
+   [
+    "Dwarf Guard",
+    15,
+    170
+   ],
+   [
+    "Slime",
+    4,
+    160
+   ],
+   [
+    "Poison Spider",
+    2,
+    22
+   ]
+  ],
+  "floors": "Floors -4, -5, -6",
+  "spawns": 16
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 2 -1-2-3",
+  "mobs": [
+   [
+    "Dwarf",
+    41,
+    45
+   ],
+   [
+    "Rotworm",
+    18,
+    40
+   ],
+   [
+    "Dwarf Soldier",
+    16,
+    70
+   ],
+   [
+    "Poison Spider",
+    5,
+    22
+   ]
+  ],
+  "floors": "Floors -1, -2, -3",
+  "spawns": 26
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 2 -4-5-6-7",
+  "mobs": [
+   [
+    "Dwarf Soldier",
+    23,
+    70
+   ],
+   [
+    "Slime",
+    16,
+    160
+   ],
+   [
+    "Dwarf Guard",
+    14,
+    170
+   ],
+   [
+    "Poison Spider",
+    4,
+    22
+   ]
+  ],
+  "floors": "Floors -4, -5, -6, -7",
+  "spawns": 31
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 3 -1-2-3",
+  "mobs": [
+   [
+    "Rotworm",
+    18,
+    40
+   ],
+   [
+    "Dwarf",
+    15,
+    45
+   ],
+   [
+    "Poison Spider",
+    2,
+    22
+   ]
+  ],
+  "floors": "Floors -1, -2, -3",
+  "spawns": 12
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 3 -4-5-6",
+  "mobs": [
+   [
+    "Dwarf Guard",
+    47,
+    170
+   ],
+   [
+    "Dwarf Soldier",
+    8,
+    70
+   ],
+   [
+    "Poison Spider",
+    3,
+    22
+   ]
+  ],
+  "floors": "Floors -4, -5, -6",
+  "spawns": 36
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 4 -1-2-3",
+  "mobs": [
+   [
+    "Dwarf",
+    37,
+    45
+   ],
+   [
+    "Rotworm",
+    26,
+    40
+   ],
+   [
+    "Poison Spider",
+    2,
+    22
+   ]
+  ],
+  "floors": "Floors -1, -2, -3",
+  "spawns": 25
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 4 -4-5-6",
+  "mobs": [
+   [
+    "Dwarf Guard",
+    48,
+    170
+   ],
+   [
+    "Dwarf Soldier",
+    15,
+    70
+   ]
+  ],
+  "floors": "Floors -4, -5, -6",
+  "spawns": 50
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 5 -1-2-3",
+  "mobs": [
+   [
+    "Rotworm",
+    31,
+    40
+   ],
+   [
+    "Dwarf",
+    16,
+    45
+   ],
+   [
+    "Dwarf Soldier",
+    5,
+    70
+   ],
+   [
+    "Poison Spider",
+    4,
+    22
+   ]
+  ],
+  "floors": "Floors -1, -2, -3",
+  "spawns": 19
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 5 -4-5-6",
+  "mobs": [
+   [
+    "Dwarf Guard",
+    52,
+    170
+   ],
+   [
+    "Dwarf Soldier",
+    34,
+    70
+   ]
+  ],
+  "floors": "Floors -4, -5, -6",
+  "spawns": 54
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 6 -1-2-3",
+  "mobs": [
+   [
+    "Dwarf Soldier",
+    33,
+    70
+   ],
+   [
+    "Rotworm",
+    33,
+    40
+   ],
+   [
+    "Dwarf",
+    16,
+    45
+   ],
+   [
+    "Poison Spider",
+    4,
+    22
+   ],
+   [
+    "Dwarf Guard",
+    2,
+    170
+   ]
+  ],
+  "floors": "Floors -1, -2, -3",
+  "spawns": 33
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Dwarven Mine 6 -4-5-6",
+  "mobs": [
+   [
+    "Dwarf Guard",
+    37,
+    170
+   ],
+   [
+    "Dwarf Soldier",
+    18,
+    70
+   ],
+   [
+    "Poison Spider",
+    2,
+    22
+   ]
+  ],
+  "floors": "Floors -4, -5, -6",
+  "spawns": 43
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Geomancer Forge of Mine 5",
+  "mobs": [
+   [
+    "Dwarf Guard",
+    40,
+    170
+   ],
+   [
+    "Dwarf Soldier",
+    37,
+    70
+   ],
+   [
+    "Dwarf Geomancer",
+    13,
+    245
+   ]
+  ],
+  "floors": "Floor -7",
+  "spawns": 24
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Kazordoon Deep City -1",
+  "mobs": [
+   [
+    "Dwarf Soldier",
+    55,
+    70
+   ],
+   [
+    "Rotworm",
+    33,
+    40
+   ],
+   [
+    "Dwarf",
+    30,
+    45
+   ],
+   [
+    "Dwarf Guard",
+    4,
+    170
+   ]
+  ],
+  "floors": "Floors -6, -7, -8",
+  "spawns": 46
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Kazordoon Deep City -2",
+  "mobs": [
+   [
+    "Dwarf Guard",
+    40,
+    170
+   ],
+   [
+    "Dwarf Soldier",
+    38,
+    70
+   ],
+   [
+    "Rotworm",
+    26,
+    40
+   ],
+   [
+    "Poison Spider",
+    11,
+    22
+   ],
+   [
+    "Slime",
+    6,
+    160
+   ],
+   [
+    "Witch",
+    1,
+    120
+   ]
+  ],
+  "floors": "Floors -6, -7, -8",
+  "spawns": 48
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Kazordoon Minotaur Mines",
+  "mobs": [
+   [
+    "Minotaur",
+    41,
+    50
+   ],
+   [
+    "Minotaur Archer",
+    33,
+    65
+   ],
+   [
+    "Minotaur Guard",
+    12,
+    160
+   ],
+   [
+    "Minotaur Mage",
+    3,
+    150
+   ]
+  ],
+  "floors": "Floors +4, +3, +2, +1, Surface, -1, -2",
+  "spawns": 37
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Kazordoon Outer Walls",
+  "mobs": [
+   [
+    "Dwarf Guard",
+    14,
+    170
+   ],
+   [
+    "Dwarf Soldier",
+    12,
+    70
+   ],
+   [
+    "Cyclops",
+    5,
+    150
+   ],
+   [
+    "Dwarf",
+    5,
+    45
+   ],
+   [
+    "Minotaur",
+    5,
+    50
+   ],
+   [
+    "Orc Berserker",
+    5,
+    195
+   ],
+   [
+    "Orc Warrior",
+    5,
+    50
+   ],
+   [
+    "Troll",
+    4,
+    20
+   ],
+   [
+    "Minotaur Guard",
+    3,
+    160
+   ],
+   [
+    "Minotaur Mage",
+    3,
+    150
+   ],
+   [
+    "Orc Spearman",
+    3,
+    38
+   ],
+   [
+    "Orc Shaman",
+    2,
+    110
+   ],
+   [
+    "Minotaur Archer",
+    1,
+    65
+   ]
+  ],
+  "floors": "Floors +6, +5, -1, -6, -7, -8",
+  "spawns": 28
+ },
+ {
+  "region": "Kazordoon",
+  "name": "Spider Nest of Mine 6",
+  "mobs": [
+   [
+    "Giant Spider",
+    4,
+    900
+   ]
+  ],
+  "floors": "Floor -7",
+  "spawns": 3
+ },
+ {
+  "region": "Thais and Fibula",
+  "name": "Cyclops Mountain",
+  "mobs": [
+   [
+    "Cyclops",
+    48,
+    150
+   ],
+   [
+    "Ghoul",
+    18,
+    85
+   ],
+   [
+    "Skeleton",
+    10,
+    35
+   ],
+   [
+    "Rat",
+    8,
+    5
+   ],
+   [
+    "Spider",
+    8,
+    12
+   ],
+   [
+    "Poison Spider",
+    7,
+    22
+   ],
+   [
+    "Demon Skeleton",
+    2,
+    240
+   ]
+  ],
+  "floors": "Floors +2, +1, Surface, -1, -2",
+  "spawns": 26
+ },
+ {
+  "region": "Thais and Fibula",
+  "name": "Cyclops Warrior Bastion",
+  "mobs": [
+   [
+    "Cyclops",
+    36,
+    150
+   ],
+   [
+    "Cyclops Warrior",
+    18,
+    300
+   ],
+   [
+    "Wolf",
+    5,
+    18
+   ],
+   [
+    "Bear",
+    3,
+    23
+   ],
+   [
+    "Hunter",
+    2,
+    150
+   ],
+   [
+    "Snake",
+    1,
+    10
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface",
+  "spawns": 34
+ },
+ {
+  "region": "Thais and Fibula",
+  "name": "Fibula Dragon Dungeon",
+  "mobs": [
+   [
+    "Minotaur",
+    19,
+    50
+   ],
+   [
+    "Dragon",
+    16,
+    700
+   ],
+   [
+    "Minotaur Archer",
+    13,
+    65
+   ],
+   [
+    "Minotaur Mage",
+    10,
+    150
+   ],
+   [
+    "Minotaur Guard",
+    8,
+    160
+   ],
+   [
+    "Dragon Lord",
+    4,
+    2100
+   ]
+  ],
+  "floors": "Floor -3",
+  "spawns": 25
+ },
+ {
+  "region": "Thais and Fibula",
+  "name": "Fibula Rotworm Caves",
+  "mobs": [
+   [
+    "Rotworm",
+    94,
+    40
+   ],
+   [
+    "Orc",
+    11,
+    25
+   ],
+   [
+    "Demon Skeleton",
+    3,
+    240
+   ]
+  ],
+  "floors": "Floor -2",
+  "spawns": 26
+ },
+ {
+  "region": "Thais and Fibula",
+  "name": "Hellforge Depths",
+  "mobs": [
+   [
+    "Hellforged Devil",
+    41,
+    1200
+   ],
+   [
+    "Fire Devil",
+    18,
+    110
+   ]
+  ],
+  "floors": "Floors -4, -5, -6",
+  "spawns": 35
+ },
+ {
+  "region": "Thais and Fibula",
+  "name": "Mintwallin",
+  "mobs": [
+   [
+    "Minotaur",
+    57,
+    50
+   ],
+   [
+    "Minotaur Guard",
+    25,
+    160
+   ],
+   [
+    "Minotaur Archer",
+    10,
+    65
+   ],
+   [
+    "Minotaur Mage",
+    4,
+    150
+   ],
+   [
+    "Dragon",
+    3,
+    700
+   ],
+   [
+    "Dog",
+    2,
+    0
+   ],
+   [
+    "Snake",
+    2,
+    10
+   ]
+  ],
+  "floors": "Floors -7, -8",
+  "spawns": 44
+ },
+ {
+  "region": "Thais and Fibula",
+  "name": "Southern Cyclops Camp",
+  "mobs": [
+   [
+    "Cyclops",
+    15,
+    150
+   ],
+   [
+    "Bear",
+    6,
+    23
+   ],
+   [
+    "Deer",
+    5,
+    0
+   ],
+   [
+    "Minotaur",
+    5,
+    50
+   ],
+   [
+    "Wasp",
+    4,
+    24
+   ],
+   [
+    "Minotaur Guard",
+    2,
+    160
+   ]
+  ],
+  "floors": "Floors Surface, -1",
+  "spawns": 18
+ },
+ {
+  "region": "Thais and Fibula",
+  "name": "Southern Minotaur Lair",
+  "mobs": [
+   [
+    "Minotaur",
+    45,
+    50
+   ],
+   [
+    "Minotaur Guard",
+    24,
+    160
+   ],
+   [
+    "Minotaur Archer",
+    8,
+    65
+   ],
+   [
+    "Minotaur Mage",
+    3,
+    150
+   ],
+   [
+    "Pig",
+    3,
+    0
+   ],
+   [
+    "Cyclops",
+    1,
+    150
+   ],
+   [
+    "Troll",
+    1,
+    20
+   ]
+  ],
+  "floors": "Floors +1, Surface",
+  "spawns": 43
+ },
+ {
+  "region": "Thais and Fibula",
+  "name": "Thais Orc Fortress",
+  "mobs": [
+   [
+    "Orc Berserker",
+    62,
+    195
+   ],
+   [
+    "Orc Warrior",
+    42,
+    50
+   ],
+   [
+    "Orc Shaman",
+    18,
+    110
+   ],
+   [
+    "Orc Spearman",
+    17,
+    38
+   ],
+   [
+    "Orc Leader",
+    10,
+    270
+   ],
+   [
+    "Orc Rider",
+    8,
+    110
+   ],
+   [
+    "War Wolf",
+    7,
+    55
+   ],
+   [
+    "Wolf",
+    7,
+    18
+   ],
+   [
+    "Bear",
+    3,
+    23
+   ],
+   [
+    "Pig",
+    2,
+    0
+   ]
+  ],
+  "floors": "Floors +3, +2, +1, Surface, -1",
+  "spawns": 96
+ },
+ {
+  "region": "Thais and Fibula",
+  "name": "Thais Rotworm Tunnels",
+  "mobs": [
+   [
+    "Rotworm",
+    30,
+    40
+   ],
+   [
+    "Gargoyle",
+    2,
+    150
+   ]
+  ],
+  "floors": "Floors -1, -2",
+  "spawns": 32
+ },
+ {
+  "region": "Thais and Fibula",
+  "name": "Thais Troll Caves",
+  "mobs": [
+   [
+    "Troll",
+    36,
+    20
+   ],
+   [
+    "Rotworm",
+    19,
+    40
+   ],
+   [
+    "Orc",
+    15,
+    25
+   ],
+   [
+    "Orc Warrior",
+    4,
+    50
+   ],
+   [
+    "Rabbit",
+    4,
+    0
+   ],
+   [
+    "Rat",
+    4,
+    5
+   ],
+   [
+    "Scorpion",
+    4,
+    45
+   ],
+   [
+    "Skeleton",
+    3,
+    35
+   ],
+   [
+    "Wolf",
+    3,
+    18
+   ],
+   [
+    "Wasp",
+    2,
+    24
+   ],
+   [
+    "Slime",
+    1,
+    160
+   ]
+  ],
+  "floors": "Floors +1, Surface, -1, -2, -3, -4",
+  "spawns": 34
+ }
+]
