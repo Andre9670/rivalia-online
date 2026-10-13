@@ -809,12 +809,13 @@ function spriteFor(i){const v=SPRITES[DATA.names[i]];if(!v)return null;return v.
 const CHAR_DEF = {voc:'paladin', level:62, weapSkill:79, shield:62, shieldDef:28, hp:725, mana:218,
   weapAtk:30, armor:26, stance:'balanced',            // weapAtk = Attack munizione (pala) o arma (knight)
   mlvl:15, spellDmg:0, spellMana:0,                   // caster: Magic Level, danno medio/cast, mana/cast
-  healAmt:120, healMana:40};                           // Exura: HP per cast / mana per cast (INPUT: verifica in-game)
+  healAmt:370, healMana:80};                           // Exura Vita (Andrea, 13 ott 2026): ~370 HP per cast / 80 mana
 const STANCE_ATK={offensive:1.2, balanced:1.0, defensive:0.6};
 const STANCE_DEF={offensive:0.6, balanced:1.0, defensive:1.8};   // stance invertito per il block
 // blocco medio dello scudo (formula 7.4 ufficiale, media ≈ metà del max)
 function blockOf(c){return Math.floor((5*c.shield+50)*(c.shieldDef||0)*STANCE_DEF[c.stance]*49.5/10000);}
 const TURN=2.0;                                        // s per turno (euristico 7.4)
+const SPELL_P=0.35;                                    // chance per turno che un attacco-spell del mostro parta (euristico, tarabile)
 const VOCS={paladin:'Paladin',knight:'Knight',sorcerer:'Sorcerer',druid:'Druid'};
 const isCaster=v=>v==='sorcerer'||v==='druid';
 // PARTY: 1 o 2 personaggi. CHARS[0] = PG A, CHARS[1] = PG B (usato solo se duo).
@@ -878,14 +879,21 @@ function runAssess(s, group, origIdx){
   group.forEach(c=>{ if(isCaster(c.voc) && sustainCasts(c) < hitsToKill) manaStalled=true; });
   const atks=(s.attacks||[]).map(parseAtk).filter(Boolean);
   const isRanged = atks.some(a=>!(a.kind==='melee'||a.kind==='life drain'||a.kind==='mana drain'));
+  // EXPECTED damage per turn (not "strongest attack every turn"):
+  //  - melee and Physical hits ALWAYS land (Andrea: assume I take all physical hits), reduced by armor + shield block
+  //  - elemental / drain spells fire with chance SPELL_P per turn (not avoided, armor doesn't reduce them)
   function rawPerTurn(c){
     if(!atks.length) return 0;
     const block=blockOf(c);
-    return Math.max(...atks.map(a=>{
+    let tot=0;
+    for(const a of atks){
       let d=incomingPerHit(a,c.armor);
-      if(a.kind==='melee'||a.phys) d=Math.max(0,d-block);
-      return d;
-    }));
+      if(a.kind==='melee'){ d=Math.max(0,d-block); }
+      else if(a.phys){ d=Math.max(0,d-block)*SPELL_P; }
+      else d*=SPELL_P;
+      tot+=d;
+    }
+    return tot;
   }
   // SPLIT danno mostro sul party ordinato per budget: solo=100%, duo=65/35, trio=50/30/20.
   const split = group.length>=3 ? [0.50,0.30,0.20] : (group.length===2 ? [0.65,0.35] : [1.0]);
@@ -908,7 +916,7 @@ function runAssess(s, group, origIdx){
   const hit0=avgHitOf(group[0]);
   let score=100;
   score -= Math.min(60, worst.pressure*60);
-  score -= Math.min(25, ttk/8*25);
+  score -= Math.min(20, Math.max(0,ttk-20)/100*20);
   const anyDead=perChar.some(p=>!p.survivable);
   if(anyDead) score=Math.min(score,25);
   if(partyEff<=1) score=Math.min(score,10);
@@ -940,7 +948,7 @@ function assess(s){
   const notes=[];
   if(duo){const vs=chars.map(c=>VOCS[c.voc]).join(' + ');notes.push('party ('+vs+'): summed DPS, monster damage split onto the tank');}
   if(duo && score===soloFloor && soloFloor>r.score) notes.push('the teammate does not help here → score = as if playing solo (the better of the two)');
-  if(r.isRanged) notes.push('ranged: kiting useless, break LoS or close in');
+  if(r.isRanged) notes.push('has spell attacks: counted as expected damage (~35%/turn each); physical hits always land');
   else if(r.atks.length) notes.push('melee: kite it (shoot & retreat)');
   if(r.manaStalled) notes.push('⚠️ the caster runs out of mana before the kill — bring mana pots or shorten it');
   r.perChar.forEach(p=>{if(!p.survivable)notes.push(`survival at risk: Char${p.idx+1} (${VOCS[p.voc]}${p.isTank?', tank':''}) takes ~${p.dmgTaken} vs ${p.hp}+${p.healBudget}`);});
