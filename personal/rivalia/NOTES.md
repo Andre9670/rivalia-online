@@ -68,3 +68,9 @@ Useful bits: Monster Elites (2% chance the next spawn is a 1-3 star elite: more 
 ## 7. Paladin loadout toggle (map, "My character" panel)
 Two buttons for paladins: "Shield + spears" (Attack 34, Shield def 31) and "Crossbow / bow" (Attack 30, Shield def 0 — two-handed, no shield). Defined in `PAL_SETUPS` (build_html.py).
 Armor 34 and Speed 206 are the same in both setups (Combat Stats screenshots, 13 Oct 2026). The fields stay editable; the active button is derived from Shield def (>0 = spears).
+
+## 8. Paladin loadout: Auto per monster (default)
+`loadout:'auto'` (CHAR_DEF): for each monster the engine picks the setup. The shield only absorbs PHYSICAL damage, so: if >= 40% of the expected damage is physical
+(melee that reaches me + physical ranged, e.g. Hero, Black Knight) -> shield + spears (Attack 34, def 31); otherwise (mostly elemental/spells, e.g. Dragon) -> crossbow (Attack 30, def 0).
+The verdict note says which loadout was used. Buttons: Auto / Shield + spears / Crossbow-bow force a setup; typing Attack or Shield def by hand switches to 'manual'.
+Split today: 124 monsters pick spears, 91 pick crossbow. Threshold `PHYS_SHARE_SPEARS` = 0.4 (heuristic).

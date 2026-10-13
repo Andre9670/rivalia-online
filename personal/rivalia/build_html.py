@@ -809,9 +809,34 @@ function spriteFor(i){const v=SPRITES[DATA.names[i]];if(!v)return null;return v.
 // Default = le stat reali del Paladin di Andrea (13 ott 2026): lv62, Distance 79, Shielding 62, HP 725, Mana 845, ML 15,
 // scudo def 28, armor tot 26 (pari), spear Attack 30. Modificabili nel pannello.
 const CHAR_DEF = {voc:'paladin', level:62, weapSkill:79, shield:62, shieldDef:31, hp:725, mana:845, speed:206,
-  weapAtk:34, armor:34, stance:'balanced',            // weapAtk = Attack munizione (pala) o arma (knight)
+  weapAtk:34, armor:34, stance:'balanced', loadout:'auto',            // weapAtk = Attack munizione (pala) o arma (knight)
   mlvl:15, spellDmg:0, spellMana:0,                   // caster: Magic Level, danno medio/cast, mana/cast
   healAmt:370, healMana:80};                           // Exura Vita (Andrea, 13 ott 2026): ~370 HP per cast / 80 mana
+// Paladin loadouts (Andrea's two setups, 13 Oct 2026): a bow/crossbow is two-handed -> no shield.
+// loadout:'auto' (default) picks one PER MONSTER: the shield only absorbs PHYSICAL damage, so
+//   shield + spears when physical hits dominate (melee that reaches me + physical ranged, e.g. Hero),
+//   crossbow when the damage is mostly elemental/spells (e.g. Dragon: the shield would not help).
+const PAL_SETUPS={spears:{weapAtk:34,shieldDef:31}, bow:{weapAtk:30,shieldDef:0}};
+const PHYS_SHARE_SPEARS=0.4;
+function palLoadoutFor(s,c){
+  const atks=(s.attacks||[]).map(parseAtk).filter(Boolean);
+  const expo=meleeExposure(s.speed,c.speed,(s.attacks||[]).some(x=>/paraly/i.test(x)));
+  let phys=0,tot=0;
+  for(const a of atks){
+    let d=incomingPerHit(a,c.armor);
+    if(a.kind==='melee'){ d*=expo; phys+=d; tot+=d; }
+    else if(a.phys){ phys+=d; tot+=d; }
+    else tot+=d*SPELL_P;
+  }
+  return (tot>0 && phys/tot>=PHYS_SHARE_SPEARS)?'spears':'bow';
+}
+function effChars(s){
+  return activeChars().map(c=>{
+    if(c.voc!=='paladin'||c.loadout!=='auto') return c;
+    const k=palLoadoutFor(s,c);
+    return Object.assign({},c,PAL_SETUPS[k],{_loadout:k});
+  });
+}
 const STANCE_ATK={offensive:1.2, balanced:1.0, defensive:0.6};
 const STANCE_DEF={offensive:0.6, balanced:1.0, defensive:1.8};   // stance invertito per il block
 // blocco medio dello scudo (formula 7.4 ufficiale, media ≈ metà del max)
@@ -942,7 +967,7 @@ function runAssess(s, group, origIdx){
 // verdetto per una singola creatura (s = stats). Usa la PARTY (1 o 2 PG).
 function assess(s){
   if(!s || !s.health) return null;
-  const chars=activeChars();
+  const chars=effChars(s);
   const duo=chars.length>1;
   const r=runAssess(s, chars, chars.map((c,i)=>i));
   let score=r.score;
@@ -959,6 +984,7 @@ function assess(s){
   else if(score>=40){label='RISKY';cls='warn';}
   else {label='LETHAL';cls='bad';}
   const notes=[];
+  chars.forEach((c,i)=>{ if(c._loadout) notes.push((PARTY.n>1?('Char'+(i+1)+': '):'')+(c._loadout==='spears'?'loadout: 🛡️ shield + spears (physical hits dominate — the shield absorbs them)':'loadout: 🏹 crossbow (mostly elemental/spell damage — the shield would not help)')); });
   if(duo){const vs=chars.map(c=>VOCS[c.voc]).join(' + ');notes.push('party ('+vs+'): summed DPS, monster damage split onto the tank');}
   if(duo && score===soloFloor && soloFloor>r.score) notes.push('the teammate does not help here → score = as if playing solo (the better of the two)');
   if(r.isRanged) notes.push('physical ranged attacks hit every turn, elemental/drain spells ~35%/turn; melee scaled by how much slower the monster is than you (kiting exposure)');
@@ -1350,9 +1376,7 @@ const F_WEAPON=[['weapSkill','Weapon skill'],['weapAtk','Weapon Attack']];   // 
 const F_CASTER=[['mlvl','Magic Level'],['spellDmg','Dmg/cast'],['spellMana','Mana/cast']];
 const F_DEFENSE=[['shield','Shielding'],['shieldDef','Shield def']];
 const F_HEAL=[['healAmt','Exura HP/cast'],['healMana','Exura mana/cast']];
-// Paladin loadout presets (Andrea's two setups, 13 Oct 2026): a bow/crossbow is two-handed -> no shield
-const PAL_SETUPS={spears:{weapAtk:34,shieldDef:31}, bow:{weapAtk:30,shieldDef:0}};
-function palSetupOf(c){return (c.shieldDef||0)>0?'spears':'bow';}
+function palSetupOf(c){return c.loadout==='auto'?'auto':((c.shieldDef||0)>0?'spears':'bow');}   // 'manual' = custom numbers typed by hand
 function fieldHtml(idx,k,lab,title){const c=PARTY.chars[idx];
   return `<label>${lab}<input type="number" data-idx="${idx}" data-k="${k}" value="${c[k]}" ${title?`title="${title}"`:''}></label>`;}
 function charForm(idx){
@@ -1366,9 +1390,11 @@ function charForm(idx){
      `</select></label>`;
   if(c.voc==='paladin'){
     const cur=palSetupOf(c);
-    h+=`<div class="party-toggle pal-setup" style="margin:6px 0" title="Preset: Attack and Shield def. A bow/crossbow is two-handed, so no shield.">`+
+    h+=`<div class="party-toggle pal-setup" style="margin:6px 0" title="Loadout. Auto picks the best one per monster: shield + spears when physical hits dominate, crossbow when the damage is mostly elemental. A bow/crossbow is two-handed, so no shield.">`+
+       `<button class="psetup ${cur==='auto'?'on':''}" data-idx="${idx}" data-setup="auto">⚙️ Auto</button>`+
        `<button class="psetup ${cur==='spears'?'on':''}" data-idx="${idx}" data-setup="spears">🛡️ Shield + spears</button>`+
        `<button class="psetup ${cur==='bow'?'on':''}" data-idx="${idx}" data-setup="bow">🏹 Crossbow / bow</button></div>`;
+    if(cur==='auto') h+=`<div class="cfg-note" style="margin:0 0 6px">Auto: Attack / Shield def below are replaced per monster by the presets (spears 34 / 31, crossbow 30 / 0).</div>`;
   }
   h+=`<div class="cfg-grid">`;
   for(const [k,lab] of F_COMMON_TOP) h+=fieldHtml(idx,k,lab);
@@ -1395,12 +1421,13 @@ function renderCharForms(){
   wrap.querySelectorAll('input,select').forEach(el=>{
     el.oninput=()=>{const i=+el.dataset.idx,k=el.dataset.k;
       PARTY.chars[i][k]=(k==='stance'||k==='voc')?el.value:(+el.value||0);
+      if(k==='weapAtk'||k==='shieldDef') PARTY.chars[i].loadout='manual';
       saveParty();
       if(k==='voc') renderCharForms();   // cambia i campi mostrati
       refreshAll();};
   });
   wrap.querySelectorAll('.pal-setup .psetup').forEach(b=>{
-    b.onclick=()=>{const i=+b.dataset.idx; Object.assign(PARTY.chars[i],PAL_SETUPS[b.dataset.setup]);
+    b.onclick=()=>{const i=+b.dataset.idx,k=b.dataset.setup; if(k==='auto') PARTY.chars[i].loadout='auto'; else Object.assign(PARTY.chars[i],PAL_SETUPS[k],{loadout:k});
       saveParty(); renderCharForms(); refreshAll();};
   });
   [['ptSolo',1],['ptDuo',2],['ptTrio',3]].forEach(([id,n])=>
