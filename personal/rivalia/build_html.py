@@ -816,12 +816,13 @@ const STANCE_DEF={offensive:0.6, balanced:1.0, defensive:1.8};   // stance inver
 function blockOf(c){return Math.floor((5*c.shield+50)*(c.shieldDef||0)*STANCE_DEF[c.stance]*49.5/10000);}
 const TURN=2.0;                                        // s per turno (euristico 7.4)
 // Melee exposure while kiting, a function of the speed ratio r = monster speed / my speed (same rule for EVERY monster):
-//   r >= 0.9 -> can't kite (100% of melee lands); slower monsters leak less: e = 0.15 + 0.85*r^2 (floor = imperfect kiting / terrain)
+//   r >= 0.9 -> can't kite (100% of melee lands); well below that the monster basically never reaches me (Andrea: Hero, speed 100, never hits me):
+//   e = 0.05 + 0.95*(r/0.9)^6  (r=.22 -> ~5%, r=.5 -> ~8%, r=.77 -> ~42%).
 //   a monster that PARALYZES breaks kiting while it works -> +0.30 exposure.  Heuristic, tunable.
 function meleeExposure(monSpeed, mySpeed, paralyzes){
   const r=(monSpeed||0)/Math.max(1,mySpeed||171);
   if(r>=0.9) return 1;
-  return Math.min(1, 0.15+0.85*r*r + (paralyzes?0.30:0));
+  return Math.min(1, 0.05+0.95*Math.pow(r/0.9,6) + (paralyzes?0.30:0));
 }
 const SPELL_P=0.35;                                    // chance per turno che un attacco-spell del mostro parta (euristico, tarabile)
 const VOCS={paladin:'Paladin',knight:'Knight',sorcerer:'Sorcerer',druid:'Druid'};
