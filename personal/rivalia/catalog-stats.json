@@ -127,8 +127,8 @@
       "Plate Armor",
       "Small Emerald",
       "Small Amethyst",
-      "Scarab Pincers",
       "Scarab Coin",
+      "Scarab Pincers",
       "Ancient Amulet",
       "Scarab Shield",
       "Scarab Amulet",
@@ -263,8 +263,8 @@
       "Physical (38-28)"
     ],
     "loot": [
-      "Torch",
       "Gold Coin",
+      "Torch",
       "Knife",
       "Combat Knife",
       "Steel Helmet",
@@ -312,10 +312,10 @@
       "Melee (~57)"
     ],
     "loot": [
+      "Gold Coin",
       "Axe",
       "Brass Shield",
       "Leather Legs",
-      "Gold Coin",
       "Meat",
       "Mace",
       "Chain Helmet",
@@ -356,10 +356,10 @@
       "Gold Coin",
       "Dirty Cape",
       "Silver Amulet",
-      "Mirror",
-      "Black Pearl",
       "Hair Of The Banshee",
       "Petrified Scream",
+      "Mirror",
+      "Black Pearl",
       "Silver Brooch",
       "Poison Dagger",
       "White Pearl",
@@ -598,8 +598,8 @@
     ],
     "loot": [
       "Spear",
-      "Brown Bread",
       "Gold Coin",
+      "Brown Bread",
       "Rope",
       "Halberd",
       "Brass Legs",
@@ -830,9 +830,9 @@
       "Poison (90-60)"
     ],
     "loot": [
+      "Gold Coin",
       "Meat",
       "Ham",
-      "Gold Coin",
       "Dark Mushroom",
       "Carniphila Seeds",
       "Shadow Herb",
@@ -908,8 +908,8 @@
       "Dragon Lord"
     ],
     "loot": [
-      "Dragon Ham",
       "Gold Coin",
+      "Dragon Ham",
       "Green Mushroom",
       "Power Bolt",
       "Small Sapphire",
@@ -981,14 +981,6 @@
     ],
     "loot": [
       "Gold Coin",
-      "Throwing Knife",
-      "Leather Legs",
-      "Blank Rune",
-      "Katana",
-      "Brass Shield",
-      "Backpack",
-      "Brass Legs",
-      "Obsidian Lance",
       "Morning Star",
       "Moonlight Wand",
       "Cultish Robe",
@@ -1121,9 +1113,9 @@
       "Bone",
       "Gold Coin",
       "Rotten Meat",
+      "Half Digested Piece Of Meat",
       "Two Handed Sword",
       "Iron Helmet",
-      "Half Digested Piece Of Meat",
       "Throwing Star",
       "Bone Sword",
       "Bone Shield",
@@ -1188,8 +1180,8 @@
       "Melee (~105)"
     ],
     "loot": [
-      "Meat",
       "Gold Coin",
+      "Meat",
       "Ham",
       "Short Sword",
       "Plate Shield",
@@ -1220,8 +1212,8 @@
       "Melee (~170)"
     ],
     "loot": [
-      "Meat",
       "Gold Coin",
+      "Meat",
       "Ham",
       "Short Sword",
       "Halberd",
@@ -1340,9 +1332,9 @@
       "Dragon Lord"
     ],
     "loot": [
+      "Gold Coin",
       "Dragon Ham",
       "Red Scale Armor",
-      "Gold Coin",
       "Green Mushroom",
       "Power Bolt",
       "Small Sapphire",
@@ -1389,8 +1381,8 @@
       "Fire Elemental"
     ],
     "loot": [
-      "Coconut",
       "Gold Coin",
+      "Coconut",
       "Fire Mushroom",
       "Double Axe",
       "Small Emerald",
@@ -1523,7 +1515,6 @@
       "Priestess"
     ],
     "loot": [
-      "Ornamented Ankh",
       "Gold Coin",
       "Small Sapphire",
       "Energy Ring",
@@ -1626,8 +1617,8 @@
       "Fire (180-120)"
     ],
     "loot": [
-      "Dragon Ham",
       "Gold Coin",
+      "Dragon Ham",
       "Green Mushroom",
       "Book",
       "Power Bolt",
@@ -2058,7 +2049,6 @@
       "Melee (~133)"
     ],
     "loot": [
-      "Meat",
       "Ham",
       "Elephant Tusk",
       "Tusk Shield"
@@ -2557,8 +2547,8 @@
       "Ice (200-45)"
     ],
     "loot": [
-      "Dragon Ham",
       "Gold Coin",
+      "Dragon Ham",
       "Green Mushroom",
       "Book",
       "Power Bolt",
@@ -2702,8 +2692,8 @@
       "Melee (~78)"
     ],
     "loot": [
-      "Meat",
       "Gold Coin",
+      "Meat",
       "Ham",
       "Small Stone",
       "Stone Wing",
@@ -2907,15 +2897,15 @@
       "Torch",
       "Gold Coin",
       "Throwing Star",
-      "Warrior Helmet",
       "Battle Hammer",
+      "Plate Armor",
       "Iron Helmet",
       "Battle Shield",
-      "Plate Armor",
       "Plate Legs",
+      "Guardian Shield",
+      "Warrior Helmet",
       "Mysterious Fetish",
       "Mind Stone",
-      "Guardian Shield",
       "Knight Armor",
       "Knight Legs"
     ]
@@ -3115,7 +3105,6 @@
       "Priestess"
     ],
     "loot": [
-      "Ornamented Ankh",
       "Gold Coin",
       "Small Sapphire",
       "Energy Ring",
@@ -3148,12 +3137,11 @@
       "Steel Shield",
       "Small Amethyst",
       "Pick",
-      "Power Ring",
+      "Distance Ring",
       "Scale Armor",
       "Steel Boots",
       "Red Gem",
-      "Crystal Ring",
-      "Distance Ring"
+      "Crystal Ring"
     ]
   },
   "Hellforged Devil": {
@@ -3230,9 +3218,9 @@
       "Lyre",
       "Bow",
       "Scarf",
+      "Scroll Of Heroic Deeds",
       "Green Tunic",
       "Wedding Ring",
-      "Scroll Of Heroic Deeds",
       "Two Handed Sword",
       "Crown Armor",
       "War Hammer",
@@ -3358,9 +3346,8 @@
       "Paralyze"
     ],
     "loot": [
-      "Meat",
-      "Ham",
       "Gold Coin",
+      "Ham",
       "Hydra Head",
       "Small Sapphire",
       "Ring Of Healing",
@@ -3433,16 +3420,16 @@
     "loot": [
       "Gold Coin",
       "Small Stone",
-      "Plate Armor",
       "Frosty Heart",
+      "Plate Armor",
       "Torch",
-      "Small Diamond",
-      "Black Pearl",
       "Melee Ring",
       "Strange Helmet",
+      "Talon",
+      "Small Diamond",
+      "Black Pearl",
       "Spike Sword",
       "Guardian Shield",
-      "Talon",
       "Crystal Ring",
       "Blue Gem"
     ]
@@ -3472,12 +3459,12 @@
       "Ice (110-50)"
     ],
     "loot": [
+      "Gold Coin",
       "Sickle",
       "Cookie",
       "Broom",
       "Wolf Tooth Chain",
       "Star Herb",
-      "Gold Coin",
       "Mystic Turban",
       "Silver Dagger",
       "Spike Sword",
@@ -3625,8 +3612,8 @@
       "Paralyze"
     ],
     "loot": [
-      "Meat",
       "Gold Coin",
+      "Meat",
       "Ham",
       "Plate Armor",
       "Short Sword",
@@ -3665,9 +3652,8 @@
       "Protection Amulet",
       "Plate Armor",
       "Ape Fur",
-      "Power Ring",
-      "Melee Ring",
-      "Distance Ring"
+      "Distance Ring",
+      "Melee Ring"
     ]
   },
   "Kragmorth": {
@@ -3952,7 +3938,6 @@
       "Fire Elemental"
     ],
     "loot": [
-      "Burning Heart",
       "Gold Coin",
       "Small Ruby",
       "Life Ring",
@@ -4115,8 +4100,8 @@
     ],
     "loot": [
       "Gold Coin",
-      "Magic Light Wand",
       "Banana",
+      "Magic Light Wand",
       "Banana Sash",
       "Orange",
       "Ape Fur",
@@ -4430,7 +4415,6 @@
       "Hero"
     ],
     "loot": [
-      "Sword Hilt",
       "Gold Coin",
       "Black Pearl",
       "Stone Skin Amulet",
@@ -4611,11 +4595,10 @@
       "Stalker"
     ],
     "loot": [
-      "Crystal Arrow",
       "Red Apple",
+      "Gold Coin",
       "Poison Arrow",
       "Burst Arrow",
-      "Gold Coin",
       "Arrow",
       "Small Diamond",
       "Power Bolt",
@@ -4739,6 +4722,7 @@
       "Melee (~139)"
     ],
     "loot": [
+      "Gold Coin",
       "Meat",
       "Backpack",
       "Studded Helmet",
@@ -4749,7 +4733,6 @@
       "Orc Leather",
       "Orc Tooth",
       "Obsidian Lance",
-      "Gold Coin",
       "Battle Shield",
       "Scale Armor"
     ]
@@ -5125,12 +5108,12 @@
       "Bowl",
       "Sling Herb",
       "Goat Grass",
+      "Cultish Robe",
+      "Black Hood",
       "Red Apple",
       "Book",
       "Powder Herb",
       "Wood Mushroom",
-      "Cultish Robe",
-      "Black Hood",
       "Clerical Mace",
       "Wooden Flute",
       "Crystal Ball",
@@ -5266,7 +5249,6 @@
       "Demon"
     ],
     "loot": [
-      "Ancient Rune",
       "Gold Coin",
       "Small Amethyst",
       "Ring Of Healing",
@@ -5419,8 +5401,8 @@
       "Poisonfield"
     ],
     "loot": [
-      "Meat",
       "Gold Coin",
+      "Meat",
       "Piece Of Scarab Shell",
       "Swamplight Wand",
       "Arrow",
@@ -5479,8 +5461,8 @@
       "Physical (100-40)"
     ],
     "loot": [
-      "Dragon Ham",
       "Gold Coin",
+      "Dragon Ham",
       "Green Mushroom",
       "Plate Legs",
       "Sea Serpent Scale",
@@ -5531,13 +5513,13 @@
       "Small Sapphire",
       "Power Bolt",
       "Snake Skin",
+      "Winged Tail",
       "Life Ring",
       "Golden Mug",
       "Energy Ring",
       "Charmer's Tiara",
       "Life Crystal",
       "Strange Helmet",
-      "Winged Tail",
       "Old Parchment",
       "Tower Shield",
       "Fire Sword",
@@ -5695,9 +5677,9 @@
     "loot": [
       "Gold Coin",
       "Small Stone",
+      "Banana",
       "Orange",
       "Melon",
-      "Banana",
       "Banana Sash",
       "Chain Helmet",
       "Ape Fur"
@@ -6120,11 +6102,10 @@
       "Steel Shield",
       "Torch",
       "Scale Armor",
-      "Power Ring",
+      "Distance Ring",
       "Carlin Sword",
       "Crystal Ring",
-      "Red Gem",
-      "Distance Ring"
+      "Red Gem"
     ]
   },
   "Swamp Troll": {
@@ -6195,9 +6176,9 @@
       "Melee (~122)"
     ],
     "loot": [
+      "Gold Coin",
       "Meat",
       "Terrorbird Beak",
-      "Gold Coin",
       "Colourful Feather",
       "Feather Headdress"
     ]
@@ -6226,7 +6207,6 @@
       "Slime"
     ],
     "loot": [
-      "Cobrafang Dagger",
       "Gold Coin",
       "Poison Dagger",
       "Small Emerald",
@@ -6355,10 +6335,6 @@
       "Giant Spider"
     ],
     "loot": [
-      "Ancient Whisper",
-      "Large Aethernite",
-      "Spider Silk",
-      "Disenchantment Rune",
       "Gold Coin",
       "Plate Armor",
       "Brass Legs",
@@ -6552,9 +6528,9 @@
       "Bowl",
       "Skull",
       "Leather Legs",
+      "Blood Preservation",
       "Vampire Teeth",
       "Black Pearl",
-      "Blood Preservation",
       "Spike Sword",
       "Strange Helmet",
       "Ice Rapier",
@@ -6670,7 +6646,6 @@
       "Banshee"
     ],
     "loot": [
-      "Blue Note",
       "Gold Coin",
       "White Pearl",
       "Lute",
@@ -6836,10 +6811,10 @@
     ],
     "loot": [
       "Meat",
+      "Gold Coin",
       "Axe",
       "Brass Shield",
       "Leather Legs",
-      "Gold Coin",
       "Mace",
       "Chain Helmet",
       "Brass Armor",
@@ -7000,9 +6975,9 @@
       "Wyrm Scale",
       "Dragon Hammer",
       "Small Diamond",
-      "Golden Wand",
       "Hibiscus Dress",
       "Dragonbone Staff",
+      "Golden Wand",
       "Composite Hornbow",
       "Focus Cape"
     ]
@@ -7069,9 +7044,9 @@
     ],
     "loot": [
       "Meat",
+      "Gold Coin",
       "Snowball",
       "Ham",
-      "Gold Coin",
       "Wolf Tooth Chain",
       "Bunnyslippers"
     ]

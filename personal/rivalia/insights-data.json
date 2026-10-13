@@ -125,6 +125,13 @@
      "score": 0.1
     },
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -132,16 +139,9 @@
      "score": 0.0
     },
     {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -498,22 +498,22 @@
    "droppers": 2,
    "mobs": [
     {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Rahemos",
      "slug": "rahemos",
      "hp": 3700,
      "spawns": 1,
      "score": 0.0
+    },
+    {
+     "mob": "Mad Santa",
+     "slug": "mad-santa",
+     "hp": 250000,
+     "spawns": 0,
+     "score": 0.0
     }
    ],
    "easiest_hp": 3700,
-   "top_spawns": 0
+   "top_spawns": 1
   },
   {
    "item": "Hellforged Shield",
@@ -730,6 +730,13 @@
      "score": 0.7
     },
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -737,23 +744,16 @@
      "score": 0.0
     },
     {
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Mad Santa",
      "slug": "mad-santa",
      "hp": 250000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -810,6 +810,13 @@
      "score": 0.6
     },
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -817,16 +824,9 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -1166,17 +1166,17 @@
    "droppers": 11,
    "mobs": [
     {
-     "mob": "Behemoth",
-     "slug": "behemoth",
-     "hp": 4000,
-     "spawns": 49,
-     "score": 1.2
-    },
-    {
      "mob": "Abomination",
      "slug": "abomination",
      "hp": 4000,
      "spawns": 48,
+     "score": 1.2
+    },
+    {
+     "mob": "Behemoth",
+     "slug": "behemoth",
+     "hp": 4000,
+     "spawns": 49,
      "score": 1.2
     },
     {
@@ -1202,7 +1202,7 @@
     }
    ],
    "easiest_hp": 4000,
-   "top_spawns": 49
+   "top_spawns": 48
   },
   {
    "item": "Elven Wand",
@@ -1345,15 +1345,15 @@
      "score": 2.2
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -1892,20 +1892,6 @@
      "score": 0.7
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
@@ -1913,10 +1899,24 @@
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Bazir",
+     "slug": "bazir",
      "hp": 110000,
      "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Mahrdis",
+     "slug": "mahrdis",
+     "hp": 3900,
+     "spawns": 1,
      "score": 0.0
     }
    ],
@@ -1960,9 +1960,9 @@
      "score": 0.2
     },
     {
-     "mob": "Grim Reaper",
-     "slug": "grim-reaper",
-     "hp": 3900,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     },
@@ -2551,16 +2551,16 @@
      "score": 0.7
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3092,9 +3092,9 @@
      "score": 1.3
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3218,6 +3218,13 @@
      "score": 7.1
     },
     {
+     "mob": "Fernfang",
+     "slug": "fernfang",
+     "hp": 400,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Omruc",
      "slug": "omruc",
      "hp": 4300,
@@ -3228,13 +3235,6 @@
      "mob": "Dharalion",
      "slug": "dharalion",
      "hp": 390,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Fernfang",
-     "slug": "fernfang",
-     "hp": 400,
      "spawns": 0,
      "score": 0.0
     }
@@ -3530,16 +3530,16 @@
      "score": 0.7
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3808,6 +3808,13 @@
      "score": 0.7
     },
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -3815,16 +3822,9 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -4164,16 +4164,16 @@
      "score": 0.2
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -4200,7 +4200,7 @@
      "sell": 500
     }
    ],
-   "droppers": 4,
+   "droppers": 3,
    "mobs": [
     {
      "mob": "Stalker",
@@ -4222,13 +4222,6 @@
      "hp": 180,
      "spawns": 29,
      "score": 16.1
-    },
-    {
-     "mob": "Cold Ambusher",
-     "slug": "cold-ambusher",
-     "hp": 1180,
-     "spawns": 48,
-     "score": 4.1
     }
    ],
    "easiest_hp": 120,
@@ -4450,6 +4443,13 @@
      "score": 2.2
     },
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -4457,16 +4457,9 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -4611,15 +4604,15 @@
      "score": 82.2
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -4886,17 +4879,17 @@
      "score": 3.0
     },
     {
-     "mob": "Behemoth",
-     "slug": "behemoth",
-     "hp": 4000,
-     "spawns": 49,
-     "score": 1.2
-    },
-    {
      "mob": "Abomination",
      "slug": "abomination",
      "hp": 4000,
      "spawns": 48,
+     "score": 1.2
+    },
+    {
+     "mob": "Behemoth",
+     "slug": "behemoth",
+     "hp": 4000,
+     "spawns": 49,
      "score": 1.2
     },
     {
@@ -4986,9 +4979,9 @@
      "score": 0.6
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6087,9 +6080,9 @@
      "score": 0.7
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6146,6 +6139,13 @@
      "score": 8.3
     },
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -6153,16 +6153,9 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -6258,6 +6251,13 @@
      "score": 12.1
     },
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -6265,16 +6265,9 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -6399,8 +6392,8 @@
      "score": 0.5
     },
     {
-     "mob": "High Necromancer",
-     "slug": "high-necromancer",
+     "mob": "Necropharus",
+     "slug": "necropharus",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
@@ -7728,9 +7721,9 @@
      "score": 1.6
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -8449,15 +8442,15 @@
      "score": 20.0
     },
     {
-     "mob": "High Necromancer",
-     "slug": "high-necromancer",
+     "mob": "Necropharus",
+     "slug": "necropharus",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Necropharus",
-     "slug": "necropharus",
+     "mob": "High Necromancer",
+     "slug": "high-necromancer",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
@@ -9259,46 +9252,6 @@
    "top_spawns": 219
   },
   {
-   "item": "Power Ring",
-   "value": 50,
-   "sell_npc": "Haroun (Darashia)",
-   "buy": 100,
-   "traders": [
-    {
-     "npc": "Haroun",
-     "city": "Darashia",
-     "buy": 100,
-     "sell": 50
-    }
-   ],
-   "droppers": 3,
-   "mobs": [
-    {
-     "mob": "Kongra",
-     "slug": "kongra",
-     "hp": 340,
-     "spawns": 219,
-     "score": 64.4
-    },
-    {
-     "mob": "Stone Golem",
-     "slug": "stone-golem",
-     "hp": 270,
-     "spawns": 124,
-     "score": 45.9
-    },
-    {
-     "mob": "Grorlam",
-     "slug": "grorlam",
-     "hp": 2700,
-     "spawns": 0,
-     "score": 0.0
-    }
-   ],
-   "easiest_hp": 270,
-   "top_spawns": 219
-  },
-  {
    "item": "Garlic Necklace",
    "value": 50,
    "sell_npc": "Haroun (Darashia)",
@@ -9443,7 +9396,7 @@
      "sell": 49
     }
    ],
-   "droppers": 9,
+   "droppers": 8,
    "mobs": [
     {
      "mob": "Stalker",
@@ -9474,11 +9427,11 @@
      "score": 7.2
     },
     {
-     "mob": "Cold Ambusher",
-     "slug": "cold-ambusher",
-     "hp": 1180,
-     "spawns": 48,
-     "score": 4.1
+     "mob": "Orc Warlord",
+     "slug": "orc-warlord",
+     "hp": 950,
+     "spawns": 15,
+     "score": 1.6
     }
    ],
    "easiest_hp": 120,
@@ -9724,16 +9677,16 @@
      "score": 71.4
     },
     {
-     "mob": "The Horned Fox",
-     "slug": "the-horned-fox",
-     "hp": 265,
+     "mob": "General Murius",
+     "slug": "general-murius",
+     "hp": 550,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "General Murius",
-     "slug": "general-murius",
-     "hp": 550,
+     "mob": "The Horned Fox",
+     "slug": "the-horned-fox",
+     "hp": 265,
      "spawns": 0,
      "score": 0.0
     }
@@ -9760,7 +9713,7 @@
      "sell": 35
     }
    ],
-   "droppers": 6,
+   "droppers": 5,
    "mobs": [
     {
      "mob": "Rotworm",
@@ -9784,15 +9737,15 @@
      "score": 82.2
     },
     {
-     "mob": "Cold Ambusher",
-     "slug": "cold-ambusher",
-     "hp": 1180,
-     "spawns": 48,
-     "score": 4.1
-    },
-    {
      "mob": "Vampire Wanderer",
      "slug": "vampire-wanderer",
+     "hp": 450,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -9845,9 +9798,9 @@
      "score": 3.9
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -10368,7 +10321,7 @@
      "sell": 10
     }
    ],
-   "droppers": 8,
+   "droppers": 7,
    "mobs": [
     {
      "mob": "Skeleton",
@@ -13289,7 +13242,7 @@
      "sell": 1
     }
    ],
-   "droppers": 16,
+   "droppers": 15,
    "mobs": [
     {
      "mob": "Minotaur",
@@ -14540,7 +14493,7 @@
      "sell": null
     }
    ],
-   "droppers": 52,
+   "droppers": 50,
    "mobs": [
     {
      "mob": "Wolf",
@@ -15086,89 +15039,6 @@
    "top_spawns": 474
   },
   {
-   "item": "Throwing Knife",
-   "value": 0,
-   "sell_npc": null,
-   "buy": 25,
-   "traders": [
-    {
-     "npc": "Gamel",
-     "city": "Thais",
-     "buy": 25,
-     "sell": null
-    },
-    {
-     "npc": "Romella",
-     "city": "Venore",
-     "buy": 25,
-     "sell": null
-    },
-    {
-     "npc": "Rowenna",
-     "city": "Carlin",
-     "buy": 25,
-     "sell": null
-    },
-    {
-     "npc": "Sam",
-     "city": "Nivarya",
-     "buy": 25,
-     "sell": null
-    },
-    {
-     "npc": "Shanar",
-     "city": "Ab'Dendriel",
-     "buy": 25,
-     "sell": null
-    },
-    {
-     "npc": "Turvy",
-     "city": "Thais",
-     "buy": 25,
-     "sell": null
-    },
-    {
-     "npc": "Uzgod",
-     "city": "Kazordoon",
-     "buy": 25,
-     "sell": null
-    }
-   ],
-   "droppers": 4,
-   "mobs": [
-    {
-     "mob": "Stalker",
-     "slug": "stalker",
-     "hp": 120,
-     "spawns": 446,
-     "score": 371.7
-    },
-    {
-     "mob": "Dworc Venomsniper",
-     "slug": "dworc-venomsniper",
-     "hp": 80,
-     "spawns": 246,
-     "score": 307.5
-    },
-    {
-     "mob": "Orc Leader",
-     "slug": "orc-leader",
-     "hp": 450,
-     "spawns": 65,
-     "score": 14.4
-    },
-    {
-     "mob": "Cold Ambusher",
-     "slug": "cold-ambusher",
-     "hp": 1180,
-     "spawns": 48,
-     "score": 4.1
-    }
-   ],
-   "easiest_hp": 80,
-   "top_spawns": 446
-  },
-  {
    "item": "Blank Rune",
    "value": 0,
    "sell_npc": null,
@@ -15247,7 +15117,7 @@
      "sell": null
     }
    ],
-   "droppers": 8,
+   "droppers": 7,
    "mobs": [
     {
      "mob": "Stalker",
@@ -15278,14 +15148,90 @@
      "score": 4.1
     },
     {
-     "mob": "Cold Ambusher",
-     "slug": "cold-ambusher",
-     "hp": 1180,
-     "spawns": 48,
-     "score": 4.1
+     "mob": "Dwarf Geomancer",
+     "slug": "dwarf-geomancer",
+     "hp": 380,
+     "spawns": 15,
+     "score": 3.9
     }
    ],
    "easiest_hp": 120,
+   "top_spawns": 446
+  },
+  {
+   "item": "Throwing Knife",
+   "value": 0,
+   "sell_npc": null,
+   "buy": 25,
+   "traders": [
+    {
+     "npc": "Gamel",
+     "city": "Thais",
+     "buy": 25,
+     "sell": null
+    },
+    {
+     "npc": "Romella",
+     "city": "Venore",
+     "buy": 25,
+     "sell": null
+    },
+    {
+     "npc": "Rowenna",
+     "city": "Carlin",
+     "buy": 25,
+     "sell": null
+    },
+    {
+     "npc": "Sam",
+     "city": "Nivarya",
+     "buy": 25,
+     "sell": null
+    },
+    {
+     "npc": "Shanar",
+     "city": "Ab'Dendriel",
+     "buy": 25,
+     "sell": null
+    },
+    {
+     "npc": "Turvy",
+     "city": "Thais",
+     "buy": 25,
+     "sell": null
+    },
+    {
+     "npc": "Uzgod",
+     "city": "Kazordoon",
+     "buy": 25,
+     "sell": null
+    }
+   ],
+   "droppers": 3,
+   "mobs": [
+    {
+     "mob": "Stalker",
+     "slug": "stalker",
+     "hp": 120,
+     "spawns": 446,
+     "score": 371.7
+    },
+    {
+     "mob": "Dworc Venomsniper",
+     "slug": "dworc-venomsniper",
+     "hp": 80,
+     "spawns": 246,
+     "score": 307.5
+    },
+    {
+     "mob": "Orc Leader",
+     "slug": "orc-leader",
+     "hp": 450,
+     "spawns": 65,
+     "score": 14.4
+    }
+   ],
+   "easiest_hp": 80,
    "top_spawns": 446
   },
   {
@@ -15337,7 +15283,7 @@
      "sell": null
     }
    ],
-   "droppers": 4,
+   "droppers": 3,
    "mobs": [
     {
      "mob": "Stalker",
@@ -15359,13 +15305,6 @@
      "hp": 450,
      "spawns": 65,
      "score": 14.4
-    },
-    {
-     "mob": "Cold Ambusher",
-     "slug": "cold-ambusher",
-     "hp": 1180,
-     "spawns": 48,
-     "score": 4.1
     }
    ],
    "easiest_hp": 120,
@@ -15493,17 +15432,17 @@
      "score": 27.0
     },
     {
-     "mob": "Carniphila",
-     "slug": "carniphila",
-     "hp": 255,
-     "spawns": 36,
-     "score": 14.1
-    },
-    {
      "mob": "Elf Arcanist",
      "slug": "elf-arcanist",
      "hp": 220,
      "spawns": 31,
+     "score": 14.1
+    },
+    {
+     "mob": "Carniphila",
+     "slug": "carniphila",
+     "hp": 255,
+     "spawns": 36,
      "score": 14.1
     },
     {
@@ -15547,15 +15486,15 @@
      "score": 12.1
     },
     {
-     "mob": "Dharalion",
-     "slug": "dharalion",
-     "hp": 390,
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
+     "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -15565,7 +15504,7 @@
    "top_spawns": 370
   },
   {
-   "item": "Vampire Teeth",
+   "item": "Blood Preservation",
    "value": 0,
    "sell_npc": null,
    "buy": null,
@@ -15584,7 +15523,7 @@
    "top_spawns": 370
   },
   {
-   "item": "Blood Preservation",
+   "item": "Vampire Teeth",
    "value": 0,
    "sell_npc": null,
    "buy": null,
@@ -18422,7 +18361,7 @@
    "sell_npc": null,
    "buy": null,
    "traders": [],
-   "droppers": 3,
+   "droppers": 2,
    "mobs": [
     {
      "mob": "Giant Spider",
@@ -18437,13 +18376,6 @@
      "hp": 2620,
      "spawns": 30,
      "score": 1.1
-    },
-    {
-     "mob": "The Old Widow",
-     "slug": "the-old-widow",
-     "hp": 100000,
-     "spawns": 0,
-     "score": 0.0
     }
    ],
    "easiest_hp": 1300,
@@ -18455,7 +18387,7 @@
    "sell_npc": null,
    "buy": null,
    "traders": [],
-   "droppers": 2,
+   "droppers": 1,
    "mobs": [
     {
      "mob": "Giant Spider",
@@ -18463,13 +18395,6 @@
      "hp": 1300,
      "spawns": 94,
      "score": 7.2
-    },
-    {
-     "mob": "The Old Widow",
-     "slug": "the-old-widow",
-     "hp": 100000,
-     "spawns": 0,
-     "score": 0.0
     }
    ],
    "easiest_hp": 1300,
@@ -18665,8 +18590,8 @@
      "score": 0.9
     },
     {
-     "mob": "High Necromancer",
-     "slug": "high-necromancer",
+     "mob": "Necropharus",
+     "slug": "necropharus",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
@@ -18705,16 +18630,16 @@
      "score": 0.9
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -18738,6 +18663,13 @@
      "score": 106.2
     },
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -18745,16 +18677,9 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -18922,9 +18847,9 @@
      "score": 0.9
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19560,13 +19485,6 @@
      "score": 0.7
     },
     {
-     "mob": "Undead Dragon",
-     "slug": "undead-dragon",
-     "hp": 26500,
-     "spawns": 32,
-     "score": 0.1
-    },
-    {
      "mob": "Queen Follower",
      "slug": "queen-follower",
      "hp": 18000,
@@ -19574,16 +19492,23 @@
      "score": 0.1
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Undead Dragon",
+     "slug": "undead-dragon",
+     "hp": 26500,
+     "spawns": 32,
+     "score": 0.1
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19614,6 +19539,13 @@
      "score": 0.7
     },
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -19621,23 +19553,16 @@
      "score": 0.0
     },
     {
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Mad Santa",
      "slug": "mad-santa",
      "hp": 250000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19668,6 +19593,13 @@
      "score": 0.7
     },
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -19675,16 +19607,9 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -20290,6 +20215,32 @@
    "top_spawns": 47
   },
   {
+   "item": "Black Hood",
+   "value": 0,
+   "sell_npc": null,
+   "buy": null,
+   "traders": [],
+   "droppers": 2,
+   "mobs": [
+    {
+     "mob": "Priestess",
+     "slug": "priestess",
+     "hp": 390,
+     "spawns": 47,
+     "score": 12.1
+    },
+    {
+     "mob": "Skeleton Mage",
+     "slug": "skeleton-mage",
+     "hp": 800,
+     "spawns": 2,
+     "score": 0.2
+    }
+   ],
+   "easiest_hp": 390,
+   "top_spawns": 47
+  },
+  {
    "item": "Powder Herb",
    "value": 0,
    "sell_npc": null,
@@ -20322,32 +20273,6 @@
      "hp": 390,
      "spawns": 47,
      "score": 12.1
-    }
-   ],
-   "easiest_hp": 390,
-   "top_spawns": 47
-  },
-  {
-   "item": "Black Hood",
-   "value": 0,
-   "sell_npc": null,
-   "buy": null,
-   "traders": [],
-   "droppers": 2,
-   "mobs": [
-    {
-     "mob": "Priestess",
-     "slug": "priestess",
-     "hp": 390,
-     "spawns": 47,
-     "score": 12.1
-    },
-    {
-     "mob": "Skeleton Mage",
-     "slug": "skeleton-mage",
-     "hp": 800,
-     "spawns": 2,
-     "score": 0.2
     }
    ],
    "easiest_hp": 390,
@@ -20402,16 +20327,16 @@
      "score": 0.2
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -20621,53 +20546,6 @@
     }
    ],
    "easiest_hp": 255,
-   "top_spawns": 36
-  },
-  {
-   "item": "Sling Herb",
-   "value": 0,
-   "sell_npc": null,
-   "buy": null,
-   "traders": [],
-   "droppers": 6,
-   "mobs": [
-    {
-     "mob": "Carniphila",
-     "slug": "carniphila",
-     "hp": 255,
-     "spawns": 36,
-     "score": 14.1
-    },
-    {
-     "mob": "Elf Arcanist",
-     "slug": "elf-arcanist",
-     "hp": 220,
-     "spawns": 31,
-     "score": 14.1
-    },
-    {
-     "mob": "Priestess",
-     "slug": "priestess",
-     "hp": 390,
-     "spawns": 47,
-     "score": 12.1
-    },
-    {
-     "mob": "Spit Nettle",
-     "slug": "spit-nettle",
-     "hp": 150,
-     "spawns": 6,
-     "score": 4.0
-    },
-    {
-     "mob": "Dharalion",
-     "slug": "dharalion",
-     "hp": 390,
-     "spawns": 0,
-     "score": 0.0
-    }
-   ],
-   "easiest_hp": 150,
    "top_spawns": 36
   },
   {
@@ -21218,6 +21096,53 @@
    "top_spawns": 31
   },
   {
+   "item": "Sling Herb",
+   "value": 0,
+   "sell_npc": null,
+   "buy": null,
+   "traders": [],
+   "droppers": 6,
+   "mobs": [
+    {
+     "mob": "Elf Arcanist",
+     "slug": "elf-arcanist",
+     "hp": 220,
+     "spawns": 31,
+     "score": 14.1
+    },
+    {
+     "mob": "Carniphila",
+     "slug": "carniphila",
+     "hp": 255,
+     "spawns": 36,
+     "score": 14.1
+    },
+    {
+     "mob": "Priestess",
+     "slug": "priestess",
+     "hp": 390,
+     "spawns": 47,
+     "score": 12.1
+    },
+    {
+     "mob": "Spit Nettle",
+     "slug": "spit-nettle",
+     "hp": 150,
+     "spawns": 6,
+     "score": 4.0
+    },
+    {
+     "mob": "Dharalion",
+     "slug": "dharalion",
+     "hp": 390,
+     "spawns": 0,
+     "score": 0.0
+    }
+   ],
+   "easiest_hp": 150,
+   "top_spawns": 31
+  },
+  {
    "item": "Green Tunic",
    "value": 0,
    "sell_npc": null,
@@ -21254,16 +21179,16 @@
      "score": 1.3
     },
     {
-     "mob": "Dharalion",
-     "slug": "dharalion",
-     "hp": 390,
+     "mob": "Fernfang",
+     "slug": "fernfang",
+     "hp": 400,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Fernfang",
-     "slug": "fernfang",
-     "hp": 400,
+     "mob": "Dharalion",
+     "slug": "dharalion",
+     "hp": 390,
      "spawns": 0,
      "score": 0.0
     }
@@ -21345,32 +21270,6 @@
     }
    ],
    "easiest_hp": 2620,
-   "top_spawns": 30
-  },
-  {
-   "item": "Ornamented Ankh",
-   "value": 0,
-   "sell_npc": null,
-   "buy": null,
-   "traders": [],
-   "droppers": 2,
-   "mobs": [
-    {
-     "mob": "Grimaw",
-     "slug": "grimaw",
-     "hp": 4200,
-     "spawns": 30,
-     "score": 0.7
-    },
-    {
-     "mob": "Dipthrah",
-     "slug": "dipthrah",
-     "hp": 4200,
-     "spawns": 1,
-     "score": 0.0
-    }
-   ],
-   "easiest_hp": 4200,
    "top_spawns": 30
   },
   {
@@ -21588,6 +21487,13 @@
      "score": 3.8
     },
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -21602,16 +21508,9 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -22291,25 +22190,6 @@
    "top_spawns": 1
   },
   {
-   "item": "Burning Heart",
-   "value": 0,
-   "sell_npc": null,
-   "buy": null,
-   "traders": [],
-   "droppers": 1,
-   "mobs": [
-    {
-     "mob": "Mahrdis",
-     "slug": "mahrdis",
-     "hp": 3900,
-     "spawns": 1,
-     "score": 0.0
-    }
-   ],
-   "easiest_hp": 3900,
-   "top_spawns": 1
-  },
-  {
    "item": "Holy Falcon",
    "value": 0,
    "sell_npc": null,
@@ -22326,25 +22206,6 @@
     }
    ],
    "easiest_hp": 3900,
-   "top_spawns": 1
-  },
-  {
-   "item": "Sword Hilt",
-   "value": 0,
-   "sell_npc": null,
-   "buy": null,
-   "traders": [],
-   "droppers": 1,
-   "mobs": [
-    {
-     "mob": "Morguthis",
-     "slug": "morguthis",
-     "hp": 4800,
-     "spawns": 1,
-     "score": 0.0
-    }
-   ],
-   "easiest_hp": 4800,
    "top_spawns": 1
   },
   {
@@ -22386,44 +22247,6 @@
    "top_spawns": 1
   },
   {
-   "item": "Crystal Arrow",
-   "value": 0,
-   "sell_npc": null,
-   "buy": null,
-   "traders": [],
-   "droppers": 1,
-   "mobs": [
-    {
-     "mob": "Omruc",
-     "slug": "omruc",
-     "hp": 4300,
-     "spawns": 1,
-     "score": 0.0
-    }
-   ],
-   "easiest_hp": 4300,
-   "top_spawns": 1
-  },
-  {
-   "item": "Ancient Rune",
-   "value": 0,
-   "sell_npc": null,
-   "buy": null,
-   "traders": [],
-   "droppers": 1,
-   "mobs": [
-    {
-     "mob": "Rahemos",
-     "slug": "rahemos",
-     "hp": 3700,
-     "spawns": 1,
-     "score": 0.0
-    }
-   ],
-   "easiest_hp": 3700,
-   "top_spawns": 1
-  },
-  {
    "item": "Twin Axe",
    "value": 0,
    "sell_npc": null,
@@ -22440,44 +22263,6 @@
     }
    ],
    "easiest_hp": 3700,
-   "top_spawns": 1
-  },
-  {
-   "item": "Cobrafang Dagger",
-   "value": 0,
-   "sell_npc": null,
-   "buy": null,
-   "traders": [],
-   "droppers": 1,
-   "mobs": [
-    {
-     "mob": "Thalas",
-     "slug": "thalas",
-     "hp": 4100,
-     "spawns": 1,
-     "score": 0.0
-    }
-   ],
-   "easiest_hp": 4100,
-   "top_spawns": 1
-  },
-  {
-   "item": "Blue Note",
-   "value": 0,
-   "sell_npc": null,
-   "buy": null,
-   "traders": [],
-   "droppers": 1,
-   "mobs": [
-    {
-     "mob": "Vashresamun",
-     "slug": "vashresamun",
-     "hp": 4000,
-     "spawns": 1,
-     "score": 0.0
-    }
-   ],
-   "easiest_hp": 4000,
    "top_spawns": 1
   },
   {
@@ -22565,6 +22350,13 @@
    "droppers": 6,
    "mobs": [
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -22572,16 +22364,9 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -22593,9 +22378,9 @@
      "score": 0.0
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -22612,6 +22397,13 @@
    "droppers": 6,
    "mobs": [
     {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -22619,16 +22411,9 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -22640,9 +22425,9 @@
      "score": 0.0
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -22732,7 +22517,7 @@
    "sell_npc": null,
    "buy": null,
    "traders": [],
-   "droppers": 2,
+   "droppers": 1,
    "mobs": [
     {
      "mob": "Mad Santa",
@@ -22740,16 +22525,9 @@
      "hp": 250000,
      "spawns": 0,
      "score": 0.0
-    },
-    {
-     "mob": "The Old Widow",
-     "slug": "the-old-widow",
-     "hp": 100000,
-     "spawns": 0,
-     "score": 0.0
     }
    ],
-   "easiest_hp": 100000,
+   "easiest_hp": 250000,
    "top_spawns": 0
   },
   {
@@ -22788,25 +22566,6 @@
     }
    ],
    "easiest_hp": 265,
-   "top_spawns": 0
-  },
-  {
-   "item": "Disenchantment Rune",
-   "value": 0,
-   "sell_npc": null,
-   "buy": null,
-   "traders": [],
-   "droppers": 1,
-   "mobs": [
-    {
-     "mob": "The Old Widow",
-     "slug": "the-old-widow",
-     "hp": 100000,
-     "spawns": 0,
-     "score": 0.0
-    }
-   ],
-   "easiest_hp": 100000,
    "top_spawns": 0
   },
   {
@@ -23725,17 +23484,17 @@
     "score": 3.0
    },
    {
-    "mob": "Behemoth",
-    "slug": "behemoth",
-    "hp": 4000,
-    "mobs": 49,
-    "score": 1.2
-   },
-   {
     "mob": "Abomination",
     "slug": "abomination",
     "hp": 4000,
     "mobs": 48,
+    "score": 1.2
+   },
+   {
+    "mob": "Behemoth",
+    "slug": "behemoth",
+    "hp": 4000,
+    "mobs": 49,
     "score": 1.2
    },
    {
@@ -23778,17 +23537,17 @@
   ],
   "Giant Sword": [
    {
-    "mob": "Behemoth",
-    "slug": "behemoth",
-    "hp": 4000,
-    "mobs": 49,
-    "score": 1.2
-   },
-   {
     "mob": "Abomination",
     "slug": "abomination",
     "hp": 4000,
     "mobs": 48,
+    "score": 1.2
+   },
+   {
+    "mob": "Behemoth",
+    "slug": "behemoth",
+    "hp": 4000,
+    "mobs": 49,
     "score": 1.2
    },
    {
@@ -24152,9 +23911,9 @@
     "score": 0.9
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24263,15 +24022,6 @@
     "score": 4.5
    }
   ],
-  "Scarab Pincers": [
-   {
-    "mob": "Ancient Scarab",
-    "slug": "ancient-scarab",
-    "hp": 1000,
-    "mobs": 83,
-    "score": 8.3
-   }
-  ],
   "Scarab Coin": [
    {
     "mob": "Scarab",
@@ -24280,6 +24030,15 @@
     "mobs": 872,
     "score": 272.5
    },
+   {
+    "mob": "Ancient Scarab",
+    "slug": "ancient-scarab",
+    "hp": 1000,
+    "mobs": 83,
+    "score": 8.3
+   }
+  ],
+  "Scarab Pincers": [
    {
     "mob": "Ancient Scarab",
     "slug": "ancient-scarab",
@@ -24297,6 +24056,13 @@
     "score": 8.3
    },
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -24304,16 +24070,9 @@
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24382,9 +24141,9 @@
     "score": 3.9
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24472,20 +24231,6 @@
     "score": 0.7
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
@@ -24493,10 +24238,24 @@
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Bazir",
+    "slug": "bazir",
     "hp": 110000,
     "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Mahrdis",
+    "slug": "mahrdis",
+    "hp": 3900,
+    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -24516,6 +24275,13 @@
     "score": 2.2
    },
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -24523,16 +24289,9 @@
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24546,6 +24305,13 @@
     "score": 0.7
    },
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -24553,23 +24319,16 @@
     "score": 0.0
    },
    {
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Mad Santa",
     "slug": "mad-santa",
     "hp": 250000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24613,6 +24372,13 @@
   ],
   "Teddy Bear": [
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -24620,16 +24386,9 @@
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24641,9 +24400,9 @@
     "score": 0.0
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24678,15 +24437,22 @@
     "score": 0.6
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
   ],
   "Thunder Hammer": [
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -24694,16 +24460,9 @@
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24715,9 +24474,9 @@
     "score": 0.0
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24930,16 +24689,16 @@
     "score": 0.2
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24953,6 +24712,13 @@
     "score": 0.7
    },
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -24960,16 +24726,9 @@
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25011,9 +24770,9 @@
     "score": 0.7
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25085,8 +24844,8 @@
     "score": 0.9
    },
    {
-    "mob": "High Necromancer",
-    "slug": "high-necromancer",
+    "mob": "Necropharus",
+    "slug": "necropharus",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
@@ -25115,9 +24874,9 @@
     "score": 0.2
    },
    {
-    "mob": "Grim Reaper",
-    "slug": "grim-reaper",
-    "hp": 3900,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25138,13 +24897,6 @@
     "score": 0.7
    },
    {
-    "mob": "Undead Dragon",
-    "slug": "undead-dragon",
-    "hp": 26500,
-    "mobs": 32,
-    "score": 0.1
-   },
-   {
     "mob": "Queen Follower",
     "slug": "queen-follower",
     "hp": 18000,
@@ -25152,16 +24904,23 @@
     "score": 0.1
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
+    "mob": "Undead Dragon",
+    "slug": "undead-dragon",
+    "hp": 26500,
+    "mobs": 32,
+    "score": 0.1
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25189,16 +24948,16 @@
     "score": 0.7
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25323,6 +25082,13 @@
     "score": 0.7
    },
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -25330,23 +25096,16 @@
     "score": 0.0
    },
    {
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Mad Santa",
     "slug": "mad-santa",
     "hp": 250000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25381,9 +25140,9 @@
     "score": 1.6
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25434,6 +25193,13 @@
     "score": 0.7
    },
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -25441,16 +25207,9 @@
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25492,9 +25251,9 @@
     "score": 1.3
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25582,6 +25341,13 @@
     "score": 0.6
    },
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -25589,16 +25355,9 @@
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25626,6 +25385,13 @@
     "score": 0.1
    },
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -25633,16 +25399,9 @@
     "score": 0.0
    },
    {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25670,16 +25429,16 @@
     "score": 0.2
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25707,16 +25466,16 @@
     "score": 0.9
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25730,6 +25489,13 @@
     "score": 12.1
    },
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -25737,16 +25503,9 @@
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25767,6 +25526,13 @@
     "score": 3.8
    },
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -25781,16 +25547,9 @@
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25818,16 +25577,16 @@
     "score": 0.7
    },
    {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25878,6 +25637,13 @@
     "score": 106.2
    },
    {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -25885,16 +25651,9 @@
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -26575,22 +26334,6 @@
     "score": 0.7
    }
   ],
-  "Mirror": [
-   {
-    "mob": "Banshee",
-    "slug": "banshee",
-    "hp": 1000,
-    "mobs": 106,
-    "score": 10.6
-   },
-   {
-    "mob": "Spectre",
-    "slug": "spectre",
-    "hp": 1000,
-    "mobs": 68,
-    "score": 6.8
-   }
-  ],
   "Hair Of The Banshee": [
    {
     "mob": "Banshee",
@@ -26607,6 +26350,22 @@
     "hp": 1000,
     "mobs": 106,
     "score": 10.6
+   }
+  ],
+  "Mirror": [
+   {
+    "mob": "Banshee",
+    "slug": "banshee",
+    "hp": 1000,
+    "mobs": 106,
+    "score": 10.6
+   },
+   {
+    "mob": "Spectre",
+    "slug": "spectre",
+    "hp": 1000,
+    "mobs": 68,
+    "score": 6.8
    }
   ],
   "Poison Dagger": [
@@ -27291,11 +27050,11 @@
     "score": 7.2
    },
    {
-    "mob": "Cold Ambusher",
-    "slug": "cold-ambusher",
-    "hp": 1180,
-    "mobs": 48,
-    "score": 4.1
+    "mob": "Orc Warlord",
+    "slug": "orc-warlord",
+    "hp": 950,
+    "mobs": 15,
+    "score": 1.6
    }
   ],
   "Battle Hammer": [
@@ -27775,15 +27534,15 @@
     "score": 20.0
    },
    {
-    "mob": "High Necromancer",
-    "slug": "high-necromancer",
+    "mob": "Necropharus",
+    "slug": "necropharus",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Necropharus",
-    "slug": "necropharus",
+    "mob": "High Necromancer",
+    "slug": "high-necromancer",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
@@ -28000,17 +27759,17 @@
   ],
   "Sling Herb": [
    {
-    "mob": "Carniphila",
-    "slug": "carniphila",
-    "hp": 255,
-    "mobs": 36,
-    "score": 14.1
-   },
-   {
     "mob": "Elf Arcanist",
     "slug": "elf-arcanist",
     "hp": 220,
     "mobs": 31,
+    "score": 14.1
+   },
+   {
+    "mob": "Carniphila",
+    "slug": "carniphila",
+    "hp": 255,
+    "mobs": 36,
     "score": 14.1
    },
    {
@@ -28051,17 +27810,17 @@
     "score": 27.0
    },
    {
-    "mob": "Carniphila",
-    "slug": "carniphila",
-    "hp": 255,
-    "mobs": 36,
-    "score": 14.1
-   },
-   {
     "mob": "Elf Arcanist",
     "slug": "elf-arcanist",
     "hp": 220,
     "mobs": 31,
+    "score": 14.1
+   },
+   {
+    "mob": "Carniphila",
+    "slug": "carniphila",
+    "hp": 255,
+    "mobs": 36,
     "score": 14.1
    },
    {
@@ -28374,170 +28133,6 @@
     "score": 113.3
    }
   ],
-  "Throwing Knife": [
-   {
-    "mob": "Stalker",
-    "slug": "stalker",
-    "hp": 120,
-    "mobs": 446,
-    "score": 371.7
-   },
-   {
-    "mob": "Dworc Venomsniper",
-    "slug": "dworc-venomsniper",
-    "hp": 80,
-    "mobs": 246,
-    "score": 307.5
-   },
-   {
-    "mob": "Orc Leader",
-    "slug": "orc-leader",
-    "hp": 450,
-    "mobs": 65,
-    "score": 14.4
-   },
-   {
-    "mob": "Cold Ambusher",
-    "slug": "cold-ambusher",
-    "hp": 1180,
-    "mobs": 48,
-    "score": 4.1
-   }
-  ],
-  "Blank Rune": [
-   {
-    "mob": "Stalker",
-    "slug": "stalker",
-    "hp": 120,
-    "mobs": 446,
-    "score": 371.7
-   },
-   {
-    "mob": "Fire Devil",
-    "slug": "fire-devil",
-    "hp": 200,
-    "mobs": 112,
-    "score": 56.0
-   },
-   {
-    "mob": "Elf Arcanist",
-    "slug": "elf-arcanist",
-    "hp": 220,
-    "mobs": 31,
-    "score": 14.1
-   },
-   {
-    "mob": "Hellforged Devil",
-    "slug": "hellforged-devil",
-    "hp": 1000,
-    "mobs": 41,
-    "score": 4.1
-   },
-   {
-    "mob": "Cold Ambusher",
-    "slug": "cold-ambusher",
-    "hp": 1180,
-    "mobs": 48,
-    "score": 4.1
-   }
-  ],
-  "Katana": [
-   {
-    "mob": "Rotworm",
-    "slug": "rotworm",
-    "hp": 65,
-    "mobs": 1290,
-    "score": 1984.6
-   },
-   {
-    "mob": "Stalker",
-    "slug": "stalker",
-    "hp": 120,
-    "mobs": 446,
-    "score": 371.7
-   },
-   {
-    "mob": "Vampire",
-    "slug": "vampire",
-    "hp": 450,
-    "mobs": 370,
-    "score": 82.2
-   },
-   {
-    "mob": "Cold Ambusher",
-    "slug": "cold-ambusher",
-    "hp": 1180,
-    "mobs": 48,
-    "score": 4.1
-   },
-   {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
-    "hp": 450,
-    "mobs": 0,
-    "score": 0.0
-   }
-  ],
-  "Backpack": [
-   {
-    "mob": "Stalker",
-    "slug": "stalker",
-    "hp": 120,
-    "mobs": 446,
-    "score": 371.7
-   },
-   {
-    "mob": "Orc Rider",
-    "slug": "orc-rider",
-    "hp": 180,
-    "mobs": 29,
-    "score": 16.1
-   },
-   {
-    "mob": "Orc Leader",
-    "slug": "orc-leader",
-    "hp": 450,
-    "mobs": 65,
-    "score": 14.4
-   },
-   {
-    "mob": "Cold Ambusher",
-    "slug": "cold-ambusher",
-    "hp": 1180,
-    "mobs": 48,
-    "score": 4.1
-   }
-  ],
-  "Obsidian Lance": [
-   {
-    "mob": "Stalker",
-    "slug": "stalker",
-    "hp": 120,
-    "mobs": 446,
-    "score": 371.7
-   },
-   {
-    "mob": "Lizard Sentinel",
-    "slug": "lizard-sentinel",
-    "hp": 265,
-    "mobs": 100,
-    "score": 37.7
-   },
-   {
-    "mob": "Orc Rider",
-    "slug": "orc-rider",
-    "hp": 180,
-    "mobs": 29,
-    "score": 16.1
-   },
-   {
-    "mob": "Cold Ambusher",
-    "slug": "cold-ambusher",
-    "hp": 1180,
-    "mobs": 48,
-    "score": 4.1
-   }
-  ],
   "Moonlight Wand": [
    {
     "mob": "Minotaur Mage",
@@ -28745,13 +28340,6 @@
     "hp": 2620,
     "mobs": 30,
     "score": 1.1
-   },
-   {
-    "mob": "The Old Widow",
-    "slug": "the-old-widow",
-    "hp": 100000,
-    "mobs": 0,
-    "score": 0.0
    }
   ],
   "Time Ring": [
@@ -29705,6 +29293,43 @@
     "score": 0.0
    }
   ],
+  "Blank Rune": [
+   {
+    "mob": "Stalker",
+    "slug": "stalker",
+    "hp": 120,
+    "mobs": 446,
+    "score": 371.7
+   },
+   {
+    "mob": "Fire Devil",
+    "slug": "fire-devil",
+    "hp": 200,
+    "mobs": 112,
+    "score": 56.0
+   },
+   {
+    "mob": "Elf Arcanist",
+    "slug": "elf-arcanist",
+    "hp": 220,
+    "mobs": 31,
+    "score": 14.1
+   },
+   {
+    "mob": "Hellforged Devil",
+    "slug": "hellforged-devil",
+    "hp": 1000,
+    "mobs": 41,
+    "score": 4.1
+   },
+   {
+    "mob": "Dwarf Geomancer",
+    "slug": "dwarf-geomancer",
+    "hp": 380,
+    "mobs": 15,
+    "score": 3.9
+   }
+  ],
   "Inkwell": [
    {
     "mob": "Elf Arcanist",
@@ -29751,16 +29376,16 @@
     "score": 1.3
    },
    {
-    "mob": "Dharalion",
-    "slug": "dharalion",
-    "hp": 390,
+    "mob": "Fernfang",
+    "slug": "fernfang",
+    "hp": 400,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Fernfang",
-    "slug": "fernfang",
-    "hp": 400,
+    "mob": "Dharalion",
+    "slug": "dharalion",
+    "hp": 390,
     "mobs": 0,
     "score": 0.0
    }
@@ -29788,15 +29413,15 @@
     "score": 12.1
    },
    {
-    "mob": "Dharalion",
-    "slug": "dharalion",
-    "hp": 390,
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
+    "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -29834,6 +29459,13 @@
     "score": 7.1
    },
    {
+    "mob": "Fernfang",
+    "slug": "fernfang",
+    "hp": 400,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Omruc",
     "slug": "omruc",
     "hp": 4300,
@@ -29845,29 +29477,6 @@
     "slug": "dharalion",
     "hp": 390,
     "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Fernfang",
-    "slug": "fernfang",
-    "hp": 400,
-    "mobs": 0,
-    "score": 0.0
-   }
-  ],
-  "Ornamented Ankh": [
-   {
-    "mob": "Grimaw",
-    "slug": "grimaw",
-    "hp": 4200,
-    "mobs": 30,
-    "score": 0.7
-   },
-   {
-    "mob": "Dipthrah",
-    "slug": "dipthrah",
-    "hp": 4200,
-    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -30401,8 +30010,8 @@
     "score": 0.5
    },
    {
-    "mob": "High Necromancer",
-    "slug": "high-necromancer",
+    "mob": "Necropharus",
+    "slug": "necropharus",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
@@ -30566,6 +30175,29 @@
     "hp": 85,
     "mobs": 263,
     "score": 309.4
+   }
+  ],
+  "Throwing Knife": [
+   {
+    "mob": "Stalker",
+    "slug": "stalker",
+    "hp": 120,
+    "mobs": 446,
+    "score": 371.7
+   },
+   {
+    "mob": "Dworc Venomsniper",
+    "slug": "dworc-venomsniper",
+    "hp": 80,
+    "mobs": 246,
+    "score": 307.5
+   },
+   {
+    "mob": "Orc Leader",
+    "slug": "orc-leader",
+    "hp": 450,
+    "mobs": 65,
+    "score": 14.4
    }
   ],
   "Poison Arrow": [
@@ -31546,16 +31178,16 @@
     "score": 71.4
    },
    {
-    "mob": "The Horned Fox",
-    "slug": "the-horned-fox",
-    "hp": 265,
+    "mob": "General Murius",
+    "slug": "general-murius",
+    "hp": 550,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "General Murius",
-    "slug": "general-murius",
-    "hp": 550,
+    "mob": "The Horned Fox",
+    "slug": "the-horned-fox",
+    "hp": 265,
     "mobs": 0,
     "score": 0.0
    }
@@ -31770,13 +31402,6 @@
     "hp": 1300,
     "mobs": 94,
     "score": 7.2
-   },
-   {
-    "mob": "The Old Widow",
-    "slug": "the-old-widow",
-    "hp": 100000,
-    "mobs": 0,
-    "score": 0.0
    }
   ],
   "Small Axe": [
@@ -31895,29 +31520,6 @@
     "mob": "Grim Reaper",
     "slug": "grim-reaper",
     "hp": 3900,
-    "mobs": 0,
-    "score": 0.0
-   }
-  ],
-  "Power Ring": [
-   {
-    "mob": "Kongra",
-    "slug": "kongra",
-    "hp": 340,
-    "mobs": 219,
-    "score": 64.4
-   },
-   {
-    "mob": "Stone Golem",
-    "slug": "stone-golem",
-    "hp": 270,
-    "mobs": 124,
-    "score": 45.9
-   },
-   {
-    "mob": "Grorlam",
-    "slug": "grorlam",
-    "hp": 2700,
     "mobs": 0,
     "score": 0.0
    }
@@ -32180,15 +31782,15 @@
     "score": 2.2
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -32247,6 +31849,29 @@
     "hp": 80,
     "mobs": 69,
     "score": 86.2
+   }
+  ],
+  "Obsidian Lance": [
+   {
+    "mob": "Stalker",
+    "slug": "stalker",
+    "hp": 120,
+    "mobs": 446,
+    "score": 371.7
+   },
+   {
+    "mob": "Lizard Sentinel",
+    "slug": "lizard-sentinel",
+    "hp": 265,
+    "mobs": 100,
+    "score": 37.7
+   },
+   {
+    "mob": "Orc Rider",
+    "slug": "orc-rider",
+    "hp": 180,
+    "mobs": 29,
+    "score": 16.1
    }
   ],
   "Lizard Leather": [
@@ -32358,17 +31983,17 @@
   ],
   "Crystal Wand": [
    {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Rahemos",
     "slug": "rahemos",
     "hp": 3700,
     "mobs": 1,
+    "score": 0.0
+   },
+   {
+    "mob": "Mad Santa",
+    "slug": "mad-santa",
+    "hp": 250000,
+    "mobs": 0,
     "score": 0.0
    }
   ],
@@ -32388,13 +32013,6 @@
     "hp": 250000,
     "mobs": 0,
     "score": 0.0
-   },
-   {
-    "mob": "The Old Widow",
-    "slug": "the-old-widow",
-    "hp": 100000,
-    "mobs": 0,
-    "score": 0.0
    }
   ],
   "Blue Tome": [
@@ -32403,15 +32021,6 @@
     "slug": "mad-santa",
     "hp": 250000,
     "mobs": 0,
-    "score": 0.0
-   }
-  ],
-  "Burning Heart": [
-   {
-    "mob": "Mahrdis",
-    "slug": "mahrdis",
-    "hp": 3900,
-    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -32660,15 +32269,6 @@
     "score": 71.4
    }
   ],
-  "Sword Hilt": [
-   {
-    "mob": "Morguthis",
-    "slug": "morguthis",
-    "hp": 4800,
-    "mobs": 1,
-    "score": 0.0
-   }
-  ],
   "Ravager'S Axe": [
    {
     "mob": "Morguthis",
@@ -32776,15 +32376,6 @@
     "score": 0.0
    }
   ],
-  "Crystal Arrow": [
-   {
-    "mob": "Omruc",
-    "slug": "omruc",
-    "hp": 4300,
-    "mobs": 1,
-    "score": 0.0
-   }
-  ],
   "Orc Leather": [
    {
     "mob": "Orc",
@@ -32866,6 +32457,29 @@
     "hp": 210,
     "mobs": 236,
     "score": 112.4
+   }
+  ],
+  "Backpack": [
+   {
+    "mob": "Stalker",
+    "slug": "stalker",
+    "hp": 120,
+    "mobs": 446,
+    "score": 371.7
+   },
+   {
+    "mob": "Orc Rider",
+    "slug": "orc-rider",
+    "hp": 180,
+    "mobs": 29,
+    "score": 16.1
+   },
+   {
+    "mob": "Orc Leader",
+    "slug": "orc-leader",
+    "hp": 450,
+    "mobs": 65,
+    "score": 14.4
    }
   ],
   "Skull Belt": [
@@ -33063,6 +32677,22 @@
     "score": 12.1
    }
   ],
+  "Black Hood": [
+   {
+    "mob": "Priestess",
+    "slug": "priestess",
+    "hp": 390,
+    "mobs": 47,
+    "score": 12.1
+   },
+   {
+    "mob": "Skeleton Mage",
+    "slug": "skeleton-mage",
+    "hp": 800,
+    "mobs": 2,
+    "score": 0.2
+   }
+  ],
   "Powder Herb": [
    {
     "mob": "Priestess",
@@ -33079,22 +32709,6 @@
     "hp": 390,
     "mobs": 47,
     "score": 12.1
-   }
-  ],
-  "Black Hood": [
-   {
-    "mob": "Priestess",
-    "slug": "priestess",
-    "hp": 390,
-    "mobs": 47,
-    "score": 12.1
-   },
-   {
-    "mob": "Skeleton Mage",
-    "slug": "skeleton-mage",
-    "hp": 800,
-    "mobs": 2,
-    "score": 0.2
    }
   ],
   "Hat Of The Mad": [
@@ -33122,15 +32736,6 @@
     "hp": 15,
     "mobs": 276,
     "score": 1840.0
-   }
-  ],
-  "Ancient Rune": [
-   {
-    "mob": "Rahemos",
-    "slug": "rahemos",
-    "hp": 3700,
-    "mobs": 1,
-    "score": 0.0
    }
   ],
   "Magician Hat": [
@@ -33181,6 +32786,43 @@
     "hp": 65,
     "mobs": 1290,
     "score": 1984.6
+   }
+  ],
+  "Katana": [
+   {
+    "mob": "Rotworm",
+    "slug": "rotworm",
+    "hp": 65,
+    "mobs": 1290,
+    "score": 1984.6
+   },
+   {
+    "mob": "Stalker",
+    "slug": "stalker",
+    "hp": 120,
+    "mobs": 446,
+    "score": 371.7
+   },
+   {
+    "mob": "Vampire",
+    "slug": "vampire",
+    "hp": 450,
+    "mobs": 370,
+    "score": 82.2
+   },
+   {
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
+    "hp": 450,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
+    "hp": 450,
+    "mobs": 0,
+    "score": 0.0
    }
   ],
   "Piece Of Scarab Shell": [
@@ -33431,15 +33073,6 @@
     "score": 5.0
    }
   ],
-  "Cobrafang Dagger": [
-   {
-    "mob": "Thalas",
-    "slug": "thalas",
-    "hp": 4100,
-    "mobs": 1,
-    "score": 0.0
-   }
-  ],
   "Djinn Blade": [
    {
     "mob": "Thalas",
@@ -33454,15 +33087,6 @@
     "mob": "The Horned Fox",
     "slug": "the-horned-fox",
     "hp": 265,
-    "mobs": 0,
-    "score": 0.0
-   }
-  ],
-  "Disenchantment Rune": [
-   {
-    "mob": "The Old Widow",
-    "slug": "the-old-widow",
-    "hp": 100000,
     "mobs": 0,
     "score": 0.0
    }
@@ -33539,7 +33163,7 @@
     "score": 21.6
    }
   ],
-  "Vampire Teeth": [
+  "Blood Preservation": [
    {
     "mob": "Vampire",
     "slug": "vampire",
@@ -33548,7 +33172,7 @@
     "score": 82.2
    }
   ],
-  "Blood Preservation": [
+  "Vampire Teeth": [
    {
     "mob": "Vampire",
     "slug": "vampire",
@@ -33566,26 +33190,17 @@
     "score": 82.2
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
-    "hp": 450,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Vampire Viscount",
     "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
-   }
-  ],
-  "Blue Note": [
+   },
    {
-    "mob": "Vashresamun",
-    "slug": "vashresamun",
-    "hp": 4000,
-    "mobs": 1,
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
+    "hp": 450,
+    "mobs": 0,
     "score": 0.0
    }
   ],
