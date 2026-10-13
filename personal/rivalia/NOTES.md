@@ -59,3 +59,8 @@ One general model for every monster, driven by monster stats + the PG (no per-mo
   melee/physical reduced by armor + shield block; physical ranged attacks hit EVERY turn (armor + block reduce them); elemental/drain spells fire with chance `SPELL_P`=35%/turn (Andrea: distance always hits, elementals ~35% on dragons).
 - Survival budget = HP + (max mana / healMana) * healAmt (Exura Vita: 370 HP / 80 mana). Score = 100 - pressure*60 - fight-length penalty (>20s, up to -20). FARMABLE >= 75 (`FARM_MIN`, raised from 70 on 13 Oct 2026), RISKY >= 40, else LETHAL.
 - NOT modeled: several monsters at once, summons, conditions other than paralyze, mana drain effect, potions/rings. Heuristics to tune: SPELL_P, meleeExposure shape, penalty.
+
+## 6. GitBook refreshed 13 Oct 2026 (rivalia-online.gitbook.io)
+`personal/rivalia/llms-full.txt` re-exported (91 KB -> 114 KB; new: Mining, Alchemy, Crafting, Guild Management, Artifacts, Food/Equipment item pages, Elites, Analyzer).
+It has NO combat formulas, NO monster attack chances, and the creature pages (Hero, Dragon, Black Knight...) are empty; item pages list only weight/possible attributes (no Defense/Armor values).
+Useful bits: Monster Elites (2% chance the next spawn is a 1-3 star elite: more HP/damage/armor/speed), item attributes (Defense / Shielding / Armor / Dodge / Hit Chance, tiers 1-5), Edron Heroes custom spawn ("Recommended: 50+").
