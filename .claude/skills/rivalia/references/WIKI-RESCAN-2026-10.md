@@ -69,7 +69,7 @@ Per Paladin a distanza: i 5 charm "5% maxHP del mostro" sono i migliori contro m
   Upgrade costo BP = 5×(lvl+1)²+2.
 - Preferred list ×5 più probabile, Unwanted rimosso; 1 slot ciascuno → 5 (slot n costa owned×200 BP; assegnare costa 10 BP).
 - Weekly (reset **lunedì 08:00**): 6 kill + 6 delivery (espandibili a 9+9 con 1.000 Shop Points l'uno). Slot kill 1 = "Any Creature".
-  Hunting Points per kill task: 20/35/55/75 (Beg/Adept/Exp/Master); delivery 60 HP flat. Barra moltiplicatore: 5→×1.5, 8→×2, 12→×3, 16→×4 (la pagina cita anche "×8" in un punto: incoerenza interna, la tabella dice ×4).
+  Hunting Points per kill task: 20/35/55/75 (Beg/Adept/Exp/Master); delivery 60 HP flat. Barra moltiplicatore (tabella wiki): 5→×1.5, 8→×2, 12→×3, 16→×4. ✅ **CORREZIONE di Andrea (in-game, 13 ott): su Aeternum il weekly arriva a ×8 con 12 task** — la tabella del wiki è sbagliata/obsoleta, il testo della pagina che cita ×8 era quello giusto. Quindi basta chiudere 12 task, non 16.
 - Shop: outfit base 8.000 HP, addon 4.000 HP ciascuno (set completo 16.000).
 - Pool mostri per tier: Beginner (rat, orc, troll…), Adept (cyclops, dragon, kongra, minotaur*, vampire…), Expert (hydra, wyrm, banshee, cold ambusher, lich, serpent spawn…),
   Master (demon, dragon lord, behemoth, frost dragon, frozemoth, undead dragon, manticore, grim reaper…).
@@ -119,6 +119,9 @@ Boss raid: Orshabaal (1 anno), Demodras, Necropharus, Dharalion, The Old Widow, 
 - Quests: solo 5 questline tracciate (Cult of the Queen 4 mission, Nivarya 12, Trade Faction 1, Djinn War 3, Postman 10) + 222 reward chest classici.
 - NPC: 355 (invariato). Items: ~1200 in 20 categorie (Swords 36, Axes 30, Clubs 28, Dist. weapons 17, Ammo 7, Wands 13, Runes 29, Helmets 45, Armors 42, Legs 26, Boots 15, Shields 43, Amulets 30, Rings 18, Containers 89, Artifacts 40, Food 41, Jewelry 15, Creature products 208, Other 428).
   Le pagine item per categoria (`items.php?...`) NON sono state scrapate in questo giro.
+
+## Prezzi NPC dei drop mancanti
+`items-prices.json` mancava di 64 item di loot (Dragon Scale Mail 40k, Magic Plate Legs 120k, Scaled Quiver 4k, Boots of Haste 30k…) perché la lista loot vecchia era troncata. Riscrapati il 13 ott: ora 514 item, 229 con prezzo di vendita NPC. Alcuni (Ouroboros, Dragonbone Sigil…) non hanno NPC che li compra.
 
 ## Non verificato / TODO
 - Pagine item per categoria, dettagli di ogni quest/raid per region, Hunt Finder (mappa JS), daily reward e premium benefits non letti riga per riga.

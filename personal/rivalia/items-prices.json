@@ -10544,5 +10544,930 @@
 "sell": 2000
 }
 ]
+},
+"ancient-armor": {
+"item": "Ancient Armor",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ancient-bone": {
+"item": "Ancient Bone",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ancient-legs": {
+"item": "Ancient Legs",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"blink-rune": {
+"item": "Blink Rune",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"blue-spell-wand": {
+"item": "Blue Spell Wand",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"crown-helmet": {
+"item": "Crown Helmet",
+"sell": 2500,
+"buy": 70,
+"traders": 2,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 70,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 2500
+}
+]
+},
+"crown-legs": {
+"item": "Crown Legs",
+"sell": 12000,
+"buy": 60,
+"traders": 2,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 60,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 12000
+}
+]
+},
+"crown-shield": {
+"item": "Crown Shield",
+"sell": 8000,
+"buy": 109,
+"traders": 2,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 109,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 8000
+}
+]
+},
+"crusader-helmet": {
+"item": "Crusader Helmet",
+"sell": 6000,
+"buy": null,
+"traders": 1,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 6000
+}
+]
+},
+"crystal-ball": {
+"item": "Crystal Ball",
+"sell": 190,
+"buy": 530,
+"traders": 1,
+"npc": "Alexander (Edron)",
+"traders_list": [
+{
+"npc": "Alexander",
+"city": "Edron",
+"buy": 530,
+"sell": 190
+}
+]
+},
+"crystallized-bow": {
+"item": "Crystallized Bow",
+"sell": 40000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 40000
+}
+]
+},
+"crystallized-crossbow": {
+"item": "Crystallized Crossbow",
+"sell": 55000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 55000
+}
+]
+},
+"dark-shield": {
+"item": "Dark Shield",
+"sell": 400,
+"buy": 60,
+"traders": 2,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 60,
+"sell": null
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 400
+}
+]
+},
+"death-magic-book": {
+"item": "Death Magic Book",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"demons-heart": {
+"item": "Demon's Heart",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"devil-helmet": {
+"item": "Devil Helmet",
+"sell": 1000,
+"buy": 80,
+"traders": 5,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 450
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 80,
+"sell": null
+},
+{
+"npc": "Kroox",
+"city": "Kazordoon",
+"buy": null,
+"sell": 450
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 450
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 1000
+}
+]
+},
+"distance-ring": {
+"item": "Distance Ring",
+"sell": 50,
+"buy": 100,
+"traders": 1,
+"npc": "Haroun (Darashia)",
+"traders_list": [
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": 100,
+"sell": 50
+}
+]
+},
+"dragon-lords-eye": {
+"item": "Dragon Lord's Eye",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"dragon-scale-mail": {
+"item": "Dragon Scale Mail",
+"sell": 40000,
+"buy": 280,
+"traders": 2,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 280,
+"sell": null
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 40000
+}
+]
+},
+"dragon-shield": {
+"item": "Dragon Shield",
+"sell": 4000,
+"buy": 115,
+"traders": 4,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hardek",
+"city": "Thais",
+"buy": null,
+"sell": 360
+},
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 115,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 4000
+},
+{
+"npc": "Shanar",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 360
+}
+]
+},
+"dragon-slayer": {
+"item": "Dragon Slayer",
+"sell": 40000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 40000
+}
+]
+},
+"dragonbone-sigil": {
+"item": "Dragonbone Sigil",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"elven-amulet": {
+"item": "Elven Amulet",
+"sell": 100,
+"buy": 500,
+"traders": 1,
+"npc": "Haroun (Darashia)",
+"traders_list": [
+{
+"npc": "Haroun",
+"city": "Darashia",
+"buy": 500,
+"sell": 100
+}
+]
+},
+"elven-wand": {
+"item": "Elven Wand",
+"sell": 17000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 17000
+}
+]
+},
+"frostwarden-wand": {
+"item": "Frostwarden Wand",
+"sell": 25000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 25000
+}
+]
+},
+"frozen-heartstone": {
+"item": "Frozen Heartstone",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"frozen-shield": {
+"item": "Frozen Shield",
+"sell": 29000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 29000
+}
+]
+},
+"geomancers-staff": {
+"item": "Geomancer's Staff",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"glacier-kilt": {
+"item": "Glacier Kilt",
+"sell": 11000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 11000
+}
+]
+},
+"green-dragon-leather": {
+"item": "Green Dragon Leather",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"green-dragon-scale": {
+"item": "Green Dragon Scale",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"green-spell-wand": {
+"item": "Green Spell Wand",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"hat-of-the-mad": {
+"item": "Hat Of The Mad",
+"sell": 6000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 6000
+}
+]
+},
+"heavy-halberd": {
+"item": "Heavy Halberd",
+"sell": 35000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 35000
+}
+]
+},
+"hellforged-armor": {
+"item": "Hellforged Armor",
+"sell": 600000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 600000
+}
+]
+},
+"hellforged-shield": {
+"item": "Hellforged Shield",
+"sell": 36000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 36000
+}
+]
+},
+"hydra-scale-legs": {
+"item": "Hydra Scale Legs",
+"sell": 30000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 30000
+}
+]
+},
+"icicle-rune": {
+"item": "Icicle Rune",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"magic-plate-boots": {
+"item": "Magic Plate Boots",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"magic-plate-legs": {
+"item": "Magic Plate Legs",
+"sell": 120000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 120000
+}
+]
+},
+"mystical-hourglass": {
+"item": "Mystical Hourglass",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"naginata": {
+"item": "Naginata",
+"sell": 20000,
+"buy": 80,
+"traders": 2,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 80,
+"sell": null
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 20000
+}
+]
+},
+"nightmare-blade": {
+"item": "Nightmare Blade",
+"sell": 35000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 35000
+}
+]
+},
+"noble-armor": {
+"item": "Noble Armor",
+"sell": 900,
+"buy": 140,
+"traders": 2,
+"npc": "Nah'bob (Darashia)",
+"traders_list": [
+{
+"npc": "Hl",
+"city": "Other",
+"buy": 140,
+"sell": null
+},
+{
+"npc": "Nah'bob",
+"city": "Darashia",
+"buy": null,
+"sell": 900
+}
+]
+},
+"old-parchment": {
+"item": "Old Parchment",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"orichalcum-pearl": {
+"item": "Orichalcum Pearl",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ouroboros": {
+"item": "Ouroboros",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"percht-head": {
+"item": "Percht Head",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"permafrost-shard": {
+"item": "Permafrost Shard",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"piece-of-archer-armor": {
+"item": "Piece Of Archer Armor",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"poisoned-bow": {
+"item": "Poisoned Bow",
+"sell": 16000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 16000
+}
+]
+},
+"poisonous-tail": {
+"item": "Poisonous Tail",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"red-robe": {
+"item": "Red Robe",
+"sell": 12000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 12000
+}
+]
+},
+"red-tome": {
+"item": "Red Tome",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"ring-of-the-sky": {
+"item": "Ring Of The Sky",
+"sell": 30000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 30000
+}
+]
+},
+"scaled-quiver": {
+"item": "Scaled Quiver",
+"sell": 4000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 4000
+}
+]
+},
+"scroll-of-heroic-deeds": {
+"item": "Scroll Of Heroic Deeds",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"scythe": {
+"item": "Scythe",
+"sell": 12,
+"buy": 12,
+"traders": 15,
+"npc": "Beatrice (Edron)",
+"traders_list": [
+{
+"npc": "Ahmet",
+"city": "Ankrahmun",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Al Dee",
+"city": "Rookgaard",
+"buy": 12,
+"sell": null
+},
+{
+"npc": "Bashira",
+"city": "Ab'Dendriel",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Beatrice",
+"city": "Edron",
+"buy": 50,
+"sell": 12
+},
+{
+"npc": "Bezil",
+"city": "Kazordoon",
+"buy": 40,
+"sell": null
+},
+{
+"npc": "Dixi",
+"city": "Rookgaard",
+"buy": 12,
+"sell": null
+},
+{
+"npc": "Gorn",
+"city": "Thais",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Halif",
+"city": "Darashia",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Lee'delle",
+"city": "Rookgaard",
+"buy": 12,
+"sell": null
+},
+{
+"npc": "Nelliem",
+"city": "Venore",
+"buy": 25,
+"sell": null
+},
+{
+"npc": "Nezil",
+"city": "Kazordoon",
+"buy": 40,
+"sell": null
+},
+{
+"npc": "Norma",
+"city": "Rookgaard",
+"buy": 12,
+"sell": null
+},
+{
+"npc": "Obi",
+"city": "Rookgaard",
+"buy": 12,
+"sell": null
+},
+{
+"npc": "Perod",
+"city": "Port Hope",
+"buy": 50,
+"sell": null
+},
+{
+"npc": "Sarina",
+"city": "Carlin",
+"buy": 50,
+"sell": null
+}
+]
+},
+"shard": {
+"item": "Shard",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"skullcracker-armor": {
+"item": "Skullcracker Armor",
+"sell": 18000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 18000
+}
+]
+},
+"spectral-bow": {
+"item": "Spectral Bow",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
+},
+"staff-of-might": {
+"item": "Staff Of Might",
+"sell": 25000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 25000
+}
+]
+},
+"vanquisher": {
+"item": "Vanquisher",
+"sell": 100000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 100000
+}
+]
+},
+"winged-tail": {
+"item": "Winged Tail",
+"sell": null,
+"buy": null,
+"traders": 0,
+"npc": null,
+"traders_list": []
 }
 }
