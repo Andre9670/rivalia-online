@@ -50,7 +50,7 @@ Not rescanned: per-category item pages (`items.php?...`), Hunt Finder map, per-q
 
 ## 4. Andrea's current character (13 Oct 2026, from skills screenshot)
 Paladin, world Aeternum: Level 62, HP 725, Mana 845 (max; the 218 in the skills screenshot was current mana), Magic Level 15, Distance 79, Shielding 62, Melee 19, Fist 32, Fishing 30, Capacity 1441, Speed 171 base, 206 equipped.
-Map defaults (`CHAR_DEF` in build_html.py, `CHAR` in build_insights.py) updated. With the crossbow (two-handed): Armor 34, Defense 0 (no shield), Speed 206 (171 +35), Attack 30, Atk interval 2s, Crit +1%/+10%. Map default = crossbow setup (shieldDef 0). With a one-handed weapon + Dragon Shield the defense is 31.
+Map defaults (`CHAR_DEF` in build_html.py, `CHAR` in build_insights.py) updated. With the crossbow (two-handed): Armor 34, Defense 0 (no shield), Speed 206 (171 +35), Attack 30, Atk interval 2s, Crit +1%/+10%. Second setup: shield (Dragon Shield) + Royal Spears = Attack 34, Armor 34, Defense 31, Speed 206. Map default = this shield + Royal Spear setup (weapAtk 34, shieldDef 31); the crossbow setup is Attack 30 / Defense 0.
 Note: the map stores edited PG stats in browser localStorage (`rivalia_party`), which overrides these defaults on a browser that already saved values.
 
 ## 5. Map farmability engine (build_html.py `runAssess`) — rules as of 13 Oct 2026
