@@ -88795,6 +88795,14 @@ const STANCE_DEF={offensive:0.6, balanced:1.0, defensive:1.8};   // stance inver
 // blocco medio dello scudo (formula 7.4 ufficiale, media ≈ metà del max)
 function blockOf(c){return Math.floor((5*c.shield+50)*(c.shieldDef||0)*STANCE_DEF[c.stance]*49.5/10000);}
 const TURN=2.0;                                        // s per turno (euristico 7.4)
+// Melee exposure while kiting, a function of the speed ratio r = monster speed / my speed (same rule for EVERY monster):
+//   r >= 0.9 -> can't kite (100% of melee lands); slower monsters leak less: e = 0.15 + 0.85*r^2 (floor = imperfect kiting / terrain)
+//   a monster that PARALYZES breaks kiting while it works -> +0.30 exposure.  Heuristic, tunable.
+function meleeExposure(monSpeed, mySpeed, paralyzes){
+  const r=(monSpeed||0)/Math.max(1,mySpeed||171);
+  if(r>=0.9) return 1;
+  return Math.min(1, 0.15+0.85*r*r + (paralyzes?0.30:0));
+}
 const SPELL_P=0.35;                                    // chance per turno che un attacco-spell del mostro parta (euristico, tarabile)
 const VOCS={paladin:'Paladin',knight:'Knight',sorcerer:'Sorcerer',druid:'Druid'};
 const isCaster=v=>v==='sorcerer'||v==='druid';
@@ -88860,17 +88868,17 @@ function runAssess(s, group, origIdx){
   const atks=(s.attacks||[]).map(parseAtk).filter(Boolean);
   const isRanged = atks.some(a=>!(a.kind==='melee'||a.kind==='life drain'||a.kind==='mana drain'));
   // EXPECTED damage per turn, KITING model (Andrea, 13 Oct 2026):
-  //  - melee is NOT taken while kiting: only if the monster is too fast to kite (speed >= 90% of mine) it lands in full
+  //  - melee: scaled by meleeExposure(monster speed / my speed): slow monsters rarely reach me, monsters >= 90% of my speed always do
   //  - ranged / elemental / drain / physical SPELLS are what hurts: each fires with chance SPELL_P per turn
   //    (physical ones are reduced by armor + shield block, elemental ones are not)
   function rawPerTurn(c){
     if(!atks.length) return 0;
     const block=blockOf(c);
-    const kiteable=(s.speed||0) < (c.speed||171)*0.9;
+    const expo=meleeExposure(s.speed, c.speed, (s.attacks||[]).some(x=>/paraly/i.test(x)));
     let tot=0;
     for(const a of atks){
       let d=incomingPerHit(a,c.armor);
-      if(a.kind==='melee'){ d = kiteable ? 0 : Math.max(0,d-block); }
+      if(a.kind==='melee'){ d = Math.max(0,d-block) * expo; }
       else if(a.phys){ d=Math.max(0,d-block)*SPELL_P; }
       else d*=SPELL_P;
       tot+=d;
@@ -88930,7 +88938,7 @@ function assess(s){
   const notes=[];
   if(duo){const vs=chars.map(c=>VOCS[c.voc]).join(' + ');notes.push('party ('+vs+'): summed DPS, monster damage split onto the tank');}
   if(duo && score===soloFloor && soloFloor>r.score) notes.push('the teammate does not help here → score = as if playing solo (the better of the two)');
-  if(r.isRanged) notes.push('spell/ranged attacks counted at ~35%/turn each; melee ignored while kiting (monster slower than you)');
+  if(r.isRanged) notes.push('spell/ranged attacks counted at ~35%/turn each; melee scaled by how much slower the monster is than you (kiting exposure)');
   else if(r.atks.length) notes.push('melee: kite it (shoot & retreat)');
   if(r.manaStalled) notes.push('⚠️ the caster runs out of mana before the kill — bring mana pots or shorten it');
   r.perChar.forEach(p=>{if(!p.survivable)notes.push(`survival at risk: Char${p.idx+1} (${VOCS[p.voc]}${p.isTank?', tank':''}) takes ~${p.dmgTaken} vs ${p.hp}+${p.healBudget}`);});

@@ -52,3 +52,10 @@ Not rescanned: per-category item pages (`items.php?...`), Hunt Finder map, per-q
 Paladin, world Aeternum: Level 62, HP 725, Mana 845 (max; the 218 in the skills screenshot was current mana), Magic Level 15, Distance 79, Shielding 62, Melee 19, Fist 32, Fishing 30, Capacity 1441, Speed 171 (202 with equipment — map default uses 202).
 Map defaults (`CHAR_DEF` in build_html.py, `CHAR` in build_insights.py) updated. Armor (26) and shield defense (28) are NOT in the screenshot — still the old values.
 Note: the map stores edited PG stats in browser localStorage (`rivalia_party`), which overrides these defaults on a browser that already saved values.
+
+## 5. Map farmability engine (build_html.py `runAssess`) — rules as of 13 Oct 2026
+One general model for every monster, driven by monster stats + the PG (no per-monster overrides):
+- Damage per turn = sum of EXPECTED damage: melee scaled by `meleeExposure(monSpeed/mySpeed)` (r>=0.9 -> 100%; else 0.15+0.85*r^2, +0.30 if the monster paralyzes),
+  melee/physical reduced by armor + shield block; spell/ranged/elemental/drain attacks fire with chance `SPELL_P`=35%/turn (35% from Andrea's observation on dragons).
+- Survival budget = HP + (max mana / healMana) * healAmt (Exura Vita: 370 HP / 80 mana). Score = 100 - pressure*60 - fight-length penalty (>20s, up to -20).
+- NOT modeled: several monsters at once, summons, conditions other than paralyze, mana drain effect, potions/rings. Heuristics to tune: SPELL_P, meleeExposure shape, penalty.
