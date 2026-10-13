@@ -223,6 +223,8 @@ TEMPLATE = r'''<!DOCTYPE html>
   .party-toggle{display:flex;gap:6px;margin-bottom:10px}
   .ptab{flex:1;padding:6px;background:var(--panel2);border:1px solid var(--line);border-radius:7px;color:var(--dim);font-size:12px;cursor:pointer}
   .ptab.on{background:var(--acc2);color:#04121d;border-color:var(--acc2);font-weight:700}
+  .psetup{flex:1;padding:6px;background:var(--panel2);border:1px solid var(--line);border-radius:7px;color:var(--dim);font-size:12px;cursor:pointer}
+  .psetup.on{background:var(--acc2);color:#04121d;border-color:var(--acc2);font-weight:700}
   .charform{margin-bottom:10px}
   .cf-title{font-size:11px;font-weight:700;color:var(--acc);margin-bottom:6px;text-transform:uppercase;letter-spacing:.4px}
   #pgSec{background:linear-gradient(180deg,rgba(108,198,255,.08),transparent);border-bottom:2px solid var(--acc2)}
@@ -1348,6 +1350,9 @@ const F_WEAPON=[['weapSkill','Weapon skill'],['weapAtk','Weapon Attack']];   // 
 const F_CASTER=[['mlvl','Magic Level'],['spellDmg','Dmg/cast'],['spellMana','Mana/cast']];
 const F_DEFENSE=[['shield','Shielding'],['shieldDef','Shield def']];
 const F_HEAL=[['healAmt','Exura HP/cast'],['healMana','Exura mana/cast']];
+// Paladin loadout presets (Andrea's two setups, 13 Oct 2026): a bow/crossbow is two-handed -> no shield
+const PAL_SETUPS={spears:{weapAtk:34,shieldDef:31}, bow:{weapAtk:30,shieldDef:0}};
+function palSetupOf(c){return (c.shieldDef||0)>0?'spears':'bow';}
 function fieldHtml(idx,k,lab,title){const c=PARTY.chars[idx];
   return `<label>${lab}<input type="number" data-idx="${idx}" data-k="${k}" value="${c[k]}" ${title?`title="${title}"`:''}></label>`;}
 function charForm(idx){
@@ -1359,6 +1364,12 @@ function charForm(idx){
   h+=`<label class="voc-label">Vocation<select class="voc-sel" data-idx="${idx}" data-k="voc">`+
      Object.entries(VOCS).map(([v,n])=>`<option value="${v}" ${c.voc===v?'selected':''}>${n}</option>`).join('')+
      `</select></label>`;
+  if(c.voc==='paladin'){
+    const cur=palSetupOf(c);
+    h+=`<div class="party-toggle pal-setup" style="margin:6px 0" title="Preset: Attack and Shield def. A bow/crossbow is two-handed, so no shield.">`+
+       `<button class="psetup ${cur==='spears'?'on':''}" data-idx="${idx}" data-setup="spears">🛡️ Shield + spears</button>`+
+       `<button class="psetup ${cur==='bow'?'on':''}" data-idx="${idx}" data-setup="bow">🏹 Crossbow / bow</button></div>`;
+  }
   h+=`<div class="cfg-grid">`;
   for(const [k,lab] of F_COMMON_TOP) h+=fieldHtml(idx,k,lab);
   if(caster){ for(const [k,lab] of F_CASTER) h+=fieldHtml(idx,k, k==='spellDmg'?'Dmg/cast*':lab, k==='spellDmg'?'Average damage per cast/rune — verify in-game (custom Rivalia spell)':''); }
@@ -1387,6 +1398,10 @@ function renderCharForms(){
       saveParty();
       if(k==='voc') renderCharForms();   // cambia i campi mostrati
       refreshAll();};
+  });
+  wrap.querySelectorAll('.pal-setup .psetup').forEach(b=>{
+    b.onclick=()=>{const i=+b.dataset.idx; Object.assign(PARTY.chars[i],PAL_SETUPS[b.dataset.setup]);
+      saveParty(); renderCharForms(); refreshAll();};
   });
   [['ptSolo',1],['ptDuo',2],['ptTrio',3]].forEach(([id,n])=>
     document.getElementById(id).classList.toggle('on',PARTY.n===n));

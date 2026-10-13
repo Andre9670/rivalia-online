@@ -64,3 +64,7 @@ One general model for every monster, driven by monster stats + the PG (no per-mo
 `personal/rivalia/llms-full.txt` re-exported (91 KB -> 114 KB; new: Mining, Alchemy, Crafting, Guild Management, Artifacts, Food/Equipment item pages, Elites, Analyzer).
 It has NO combat formulas, NO monster attack chances, and the creature pages (Hero, Dragon, Black Knight...) are empty; item pages list only weight/possible attributes (no Defense/Armor values).
 Useful bits: Monster Elites (2% chance the next spawn is a 1-3 star elite: more HP/damage/armor/speed), item attributes (Defense / Shielding / Armor / Dodge / Hit Chance, tiers 1-5), Edron Heroes custom spawn ("Recommended: 50+").
+
+## 7. Paladin loadout toggle (map, "My character" panel)
+Two buttons for paladins: "Shield + spears" (Attack 34, Shield def 31) and "Crossbow / bow" (Attack 30, Shield def 0 — two-handed, no shield). Defined in `PAL_SETUPS` (build_html.py).
+Armor 34 and Speed 206 are the same in both setups (Combat Stats screenshots, 13 Oct 2026). The fields stay editable; the active button is derived from Shield def (>0 = spears).
