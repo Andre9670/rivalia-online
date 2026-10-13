@@ -806,7 +806,7 @@ function spriteFor(i){const v=SPRITES[DATA.names[i]];if(!v)return null;return v.
    ========================================================================== */
 // Default = le stat reali del Paladin di Andrea (13 ott 2026): lv62, Distance 79, Shielding 62, HP 725, Mana 845, ML 15,
 // scudo def 28, armor tot 26 (pari), spear Attack 30. Modificabili nel pannello.
-const CHAR_DEF = {voc:'paladin', level:62, weapSkill:79, shield:62, shieldDef:28, hp:725, mana:845, speed:202,
+const CHAR_DEF = {voc:'paladin', level:62, weapSkill:79, shield:62, shieldDef:31, hp:725, mana:845, speed:202,
   weapAtk:30, armor:26, stance:'balanced',            // weapAtk = Attack munizione (pala) o arma (knight)
   mlvl:15, spellDmg:0, spellMana:0,                   // caster: Magic Level, danno medio/cast, mana/cast
   healAmt:370, healMana:80};                           // Exura Vita (Andrea, 13 ott 2026): ~370 HP per cast / 80 mana
