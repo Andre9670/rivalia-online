@@ -88870,8 +88870,7 @@ function runAssess(s, group, origIdx){
   const isRanged = atks.some(a=>!(a.kind==='melee'||a.kind==='life drain'||a.kind==='mana drain'));
   // EXPECTED damage per turn, KITING model (Andrea, 13 Oct 2026):
   //  - melee: scaled by meleeExposure(monster speed / my speed): slow monsters rarely reach me, monsters >= 90% of my speed always do
-  //  - ranged / elemental / drain / physical SPELLS are what hurts: each fires with chance SPELL_P per turn
-  //    (physical ones are reduced by armor + shield block, elemental ones are not)
+  //  - physical ranged attacks hit EVERY turn (reduced by armor + shield block); elemental / drain spells fire with chance SPELL_P per turn (not reduced)
   function rawPerTurn(c){
     if(!atks.length) return 0;
     const block=blockOf(c);
@@ -88880,7 +88879,7 @@ function runAssess(s, group, origIdx){
     for(const a of atks){
       let d=incomingPerHit(a,c.armor);
       if(a.kind==='melee'){ d = Math.max(0,d-block) * expo; }
-      else if(a.phys){ d=Math.max(0,d-block)*SPELL_P; }
+      else if(a.phys){ d=Math.max(0,d-block); }          // physical ranged: fires every turn (Andrea: distance always hits, unlike elementals)
       else d*=SPELL_P;
       tot+=d;
     }
@@ -88939,7 +88938,7 @@ function assess(s){
   const notes=[];
   if(duo){const vs=chars.map(c=>VOCS[c.voc]).join(' + ');notes.push('party ('+vs+'): summed DPS, monster damage split onto the tank');}
   if(duo && score===soloFloor && soloFloor>r.score) notes.push('the teammate does not help here → score = as if playing solo (the better of the two)');
-  if(r.isRanged) notes.push('spell/ranged attacks counted at ~35%/turn each; melee scaled by how much slower the monster is than you (kiting exposure)');
+  if(r.isRanged) notes.push('physical ranged attacks hit every turn, elemental/drain spells ~35%/turn; melee scaled by how much slower the monster is than you (kiting exposure)');
   else if(r.atks.length) notes.push('melee: kite it (shoot & retreat)');
   if(r.manaStalled) notes.push('⚠️ the caster runs out of mana before the kill — bring mana pots or shorten it');
   r.perChar.forEach(p=>{if(!p.survivable)notes.push(`survival at risk: Char${p.idx+1} (${VOCS[p.voc]}${p.isTank?', tank':''}) takes ~${p.dmgTaken} vs ${p.hp}+${p.healBudget}`);});
