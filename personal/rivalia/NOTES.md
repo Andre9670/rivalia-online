@@ -47,3 +47,8 @@ Summary + findings in `.claude/skills/rivalia/references/WIKI-RESCAN-2026-10.md`
 `personal/rivalia/wiki-2026-10/`. `catalog-stats.json` updated (loot lists were truncated; 2 stat changes; 3 new bosses
 Ignaroth/Zatharak/Zyphera). New: Destiny PvP world (launched 5 Oct 2026), Rarity Upgrade replaces old Aethernite model.
 Not rescanned: per-category item pages (`items.php?...`), Hunt Finder map, per-quest details.
+
+## 4. Andrea's current character (13 Oct 2026, from skills screenshot)
+Paladin, world Aeternum: Level 62, HP 725, Mana 218, Magic Level 15, Distance 79, Shielding 62, Melee 19, Fist 32, Fishing 30, Capacity 1441, Speed 171.
+Map defaults (`CHAR_DEF` in build_html.py, `CHAR` in build_insights.py) updated. Armor (26) and shield defense (28) are NOT in the screenshot — still the old values.
+Note: the map stores edited PG stats in browser localStorage (`rivalia_party`), which overrides these defaults on a browser that already saved values.

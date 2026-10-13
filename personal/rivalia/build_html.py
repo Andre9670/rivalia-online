@@ -804,11 +804,11 @@ function spriteFor(i){const v=SPRITES[DATA.names[i]];if(!v)return null;return v.
    Parti EURISTICHE (tarabili, marcate nell'UI): turn-time, medie sui max-hit
    dei mostri, sostenibilita mana (valori Exura custom non confermati -> input).
    ========================================================================== */
-// Default = le stat reali del Paladin di Andrea (lug 2026): lv30, Distance 64, Shielding 53,
+// Default = le stat reali del Paladin di Andrea (13 ott 2026): lv62, Distance 79, Shielding 62, HP 725, Mana 218, ML 15,
 // scudo def 28, armor tot 26 (pari), spear Attack 30. Modificabili nel pannello.
-const CHAR_DEF = {voc:'paladin', level:40, weapSkill:71, shield:57, shieldDef:28, hp:615, mana:300,
+const CHAR_DEF = {voc:'paladin', level:62, weapSkill:79, shield:62, shieldDef:28, hp:725, mana:218,
   weapAtk:30, armor:26, stance:'balanced',            // weapAtk = Attack munizione (pala) o arma (knight)
-  mlvl:0, spellDmg:0, spellMana:0,                    // caster: Magic Level, danno medio/cast, mana/cast
+  mlvl:15, spellDmg:0, spellMana:0,                   // caster: Magic Level, danno medio/cast, mana/cast
   healAmt:120, healMana:40};                           // Exura: HP per cast / mana per cast (INPUT: verifica in-game)
 const STANCE_ATK={offensive:1.2, balanced:1.0, defensive:0.6};
 const STANCE_DEF={offensive:0.6, balanced:1.0, defensive:1.8};   // stance invertito per il block
