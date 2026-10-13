@@ -79,3 +79,8 @@ Split today: 124 monsters pick spears, 91 pick crossbow. Threshold `PHYS_SHARE_S
 - Distance hit chance of Royal Spears vs crossbow is UNKNOWN (no Rivalia source; the model assumes 90% for both). If Andrea measures it, add a per-setup hit chance to `PAL_SETUPS`.
 - Loadout choice by convenience (not picking up spears) is deliberately NOT modeled; use the Crossbow / bow button to force it.
 - Elite monsters (2% spawn, stronger) are not modeled; Hero/Dragon verdicts assume normal spawns.
+
+## 10. My character defaults vs saved browser state
+The map saves the edited PG in localStorage (`rivalia_party`), which used to override the code defaults forever. Now `CHAR_DEF_VERSION` (build_html.py) tags the saved PG:
+when the version changes, the saved stats are dropped and the new defaults apply; edits made afterwards persist normally. BUMP `CHAR_DEF_VERSION` every time CHAR_DEF changes.
+Current defaults (13 Oct 2026): Paladin lv62, Distance 79, Shielding 62, HP 725, Mana 845, Armor 34, Speed 206, loadout Auto (spears Atk 34 / def 31, crossbow Atk 30 / def 0), Exura 370 HP / 80 mana, stance Balanced (unconfirmed).

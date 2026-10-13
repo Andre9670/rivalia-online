@@ -88788,6 +88788,7 @@ function spriteFor(i){const v=SPRITES[DATA.names[i]];if(!v)return null;return v.
    ========================================================================== */
 // Default = le stat reali del Paladin di Andrea (13 ott 2026): lv62, Distance 79, Shielding 62, HP 725, Mana 845, ML 15,
 // scudo def 28, armor tot 26 (pari), spear Attack 30. Modificabili nel pannello.
+const CHAR_DEF_VERSION='2026-10-13';   // bump whenever CHAR_DEF changes: browsers with an older saved PG get reset to the new defaults
 const CHAR_DEF = {voc:'paladin', level:62, weapSkill:79, shield:62, shieldDef:31, hp:725, mana:845, speed:206,
   weapAtk:34, armor:34, stance:'balanced', loadout:'auto',            // weapAtk = Attack munizione (pala) o arma (knight)
   mlvl:15, spellDmg:0, spellMana:0,                   // caster: Magic Level, danno medio/cast, mana/cast
@@ -88840,15 +88841,17 @@ let PARTY = loadParty();
 function loadParty(){
   try{const s=JSON.parse(localStorage.getItem('rivalia_party'));
     if(s&&s.chars){ const n=s.n||(s.duo?2:1);
+      // defaults changed (CHAR_DEF_VERSION bumped) -> drop the stats saved by an older version so the new defaults apply
+      if(s.v!==CHAR_DEF_VERSION) return {n, v:CHAR_DEF_VERSION, chars:[0,1,2].map(()=>Object.assign({},CHAR_DEF))};
       const chars=s.chars.map(c=>Object.assign({},CHAR_DEF,c));
       while(chars.length<3) chars.push(Object.assign({},CHAR_DEF));
-      return {n, chars};
+      return {n, v:CHAR_DEF_VERSION, chars};
     }
   }catch(e){}
   // migrazione dal vecchio single-char se presente → default = le stat paladin di Andrea
   let a=Object.assign({},CHAR_DEF);
   try{const old=JSON.parse(localStorage.getItem('rivalia_char'));if(old)a=Object.assign(a,old);}catch(e){}
-  return {n:1, chars:[a, Object.assign({},CHAR_DEF), Object.assign({},CHAR_DEF)]};
+  return {n:1, v:CHAR_DEF_VERSION, chars:[a, Object.assign({},CHAR_DEF), Object.assign({},CHAR_DEF)]};
 }
 function saveParty(){localStorage.setItem('rivalia_party',JSON.stringify(PARTY));}
 function activeChars(){return PARTY.chars.slice(0,PARTY.n);}
