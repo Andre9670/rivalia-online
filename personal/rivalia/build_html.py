@@ -824,6 +824,7 @@ function meleeExposure(monSpeed, mySpeed, paralyzes){
   if(r>=0.9) return 1;
   return Math.min(1, 0.05+0.95*Math.pow(r/0.9,6) + (paralyzes?0.30:0));
 }
+const FARM_MIN=75;                                      // score minimo per FARMABLE (era 70; alzato a 75 su richiesta di Andrea: Dragon/Hero vanno letti RISKY)
 const SPELL_P=0.35;                                    // chance per turno che un attacco-spell del mostro parta (euristico, tarabile)
 const VOCS={paladin:'Paladin',knight:'Knight',sorcerer:'Sorcerer',druid:'Druid'};
 const isCaster=v=>v==='sorcerer'||v==='druid';
@@ -952,7 +953,7 @@ function assess(s){
   }
   const worst=r.worst;
   let label,cls;
-  if(score>=70){label='FARMABLE';cls='ok';}
+  if(score>=FARM_MIN){label='FARMABLE';cls='ok';}
   else if(score>=40){label='RISKY';cls='warn';}
   else {label='LETHAL';cls='bad';}
   const notes=[];
@@ -1471,8 +1472,8 @@ function renderZoneVerdict(ll){
   // se molte creature si sommano nel raggio, penalità pack
   const totMobs=rows.reduce((s,r)=>s+r.amt,0);
   if(totMobs>=6) zscore=Math.max(0,zscore-12);
-  const zcls=zscore>=70?'ok':zscore>=40?'warn':'bad';
-  const zlab=zscore>=70?'FARMABLE':zscore>=40?'RISKY':'LETHAL';
+  const zcls=zscore>=FARM_MIN?'ok':zscore>=40?'warn':'bad';
+  const zlab=zscore>=FARM_MIN?'FARMABLE':zscore>=40?'RISKY':'LETHAL';
   let h=`<div class="vsummary"><div class="big" style="color:var(--${zcls==='ok'?'ok':zcls==='warn'?'acc':'danger'})">${zscore}%</div>`+
         `<span class="vbadge ${zcls}">ZONE ${zlab}</span><div class="cfg-note" style="margin-top:6px">${rows.length} creatures · ${totMobs} spawns in radius${unknown?` · ${unknown} without stats`:''}</div></div>`;
   for(const r of rows){const spr=spriteFor(r.ci);

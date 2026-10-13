@@ -56,6 +56,6 @@ Note: the map stores edited PG stats in browser localStorage (`rivalia_party`), 
 ## 5. Map farmability engine (build_html.py `runAssess`) — rules as of 13 Oct 2026
 One general model for every monster, driven by monster stats + the PG (no per-monster overrides):
 - Damage per turn = sum of EXPECTED damage: melee scaled by `meleeExposure(monSpeed/mySpeed)` (r>=0.9 -> 100%; else 0.05+0.95*(r/0.9)^6, +0.30 if the monster paralyzes),
-  melee/physical reduced by armor + shield block; spell/ranged/elemental/drain attacks fire with chance `SPELL_P`=35%/turn (35% from Andrea's observation on dragons).
-- Survival budget = HP + (max mana / healMana) * healAmt (Exura Vita: 370 HP / 80 mana). Score = 100 - pressure*60 - fight-length penalty (>20s, up to -20).
+  melee/physical reduced by armor + shield block; physical ranged attacks hit EVERY turn (armor + block reduce them); elemental/drain spells fire with chance `SPELL_P`=35%/turn (Andrea: distance always hits, elementals ~35% on dragons).
+- Survival budget = HP + (max mana / healMana) * healAmt (Exura Vita: 370 HP / 80 mana). Score = 100 - pressure*60 - fight-length penalty (>20s, up to -20). FARMABLE >= 75 (`FARM_MIN`, raised from 70 on 13 Oct 2026), RISKY >= 40, else LETHAL.
 - NOT modeled: several monsters at once, summons, conditions other than paralyze, mana drain effect, potions/rings. Heuristics to tune: SPELL_P, meleeExposure shape, penalty.
