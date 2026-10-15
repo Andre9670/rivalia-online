@@ -152,7 +152,8 @@ Rivalia ha **due** sistemi di upgrade equip separati, con valute e meccaniche di
 - Item Attributes: se "Rare/Epic/Legendary/Brutal" (odds tier-up) è distinto dalla Classification slot.
 
 ## STATO PERSONAGGIO (ultimo noto — verificare/chiedere se serve)
-- **Royal Paladin — Livello 46, MID-GAME** (aggiornato 11 set 2026). **Distance Fighting 74, Shielding 60, Magic Level 13.** (era lv40/D71/S57 il 2 set; lv30/D64/S53 il 27 lug.) Distance = skill primaria. ⚠️ Il default `CHAR_DEF` nella reverse map è fermo a D64/S53 (lug) → rigenerare/ripubblicare (skill `rivalia-map`).
+- ⚠️ **Il dato più recente sta in `personal/rivalia/NOTES.md` §4 — LEGGILO PRIMA di rispondere, questa sezione invecchia.** Al 13 ott 2026: **Royal Paladin lvl 62, HP 725, Mana 845, ML 15, Distance 79, Shielding 62, Armor 34, Speed 206** (Dragon Shield def 31 + Royal Spears Atk 34, oppure crossbow Atk 30).
+- (Storico) lvl 46 / D74 / S60 / ML13 l'11 set 2026; lv40/D71/S57 il 2 set; lv30/D64/S53 il 27 lug. Distance = skill primaria.
 - **Ora caccia ANCHE con CROSSBOW** (non più solo spear/kiting puro): setup ibrido mid-game. Con mlvl 13 può usare **Conjure Bolt** (`exevo con mort`, 70 mana, mlvl6) per l'ammo; **a mlvl 14 sblocca Conjure Power Bolt** (`exevo con vis`, 200 mana, Premium) — power bolt = ammo molto più forte, è a **1 solo mlvl di distanza**.
 - **PROMOTION → Royal Paladin (custom Rivalia): +25% damage — CONFERMATO da Andrea in-game (11 set 2026).** Meccanica CUSTOM (vanilla la promotion NON dà danno). Le tabelle danno "SPEAR" qui sotto vanno **moltiplicate ×1.25** (char promosso). Vale anche per crossbow/bolt.
 - **IMPORTANTE — stat ITEM su Rivalia sono modificate (non solo i mob):** confermato 15 lug — Dwarven Shield base Rivalia ~26 def (vanilla era 20). NON fidarsi dei valori vanilla di armor/defense/attack degli item; verificare sul Bestiary/in-game. Andrea usa già **Item Attributes** per potenziare l'equip (+2 sullo scudo).
