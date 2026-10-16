@@ -198,6 +198,9 @@ TEMPLATE = r'''<!DOCTYPE html>
   .loot-list .lv{color:var(--acc);white-space:nowrap}
   .loot-list .lv.none{color:var(--dim)}
   .gt{font-size:10px;padding:0 5px;border-radius:8px;border:1px solid;white-space:nowrap;margin-left:2px}
+  .npc-hint{font-size:10.5px;color:var(--dim);padding:2px 0 4px}
+  .npc-need{font-size:11px;color:var(--dim);padding:2px 0 4px}
+  .trd-tbl tr.npc-cat td{background:var(--panel2);color:var(--acc);font-size:11px;padding:3px 6px}
   .gt-blue{color:#6db3ff;border-color:#6db3ff}.gt-green{color:#6fd694;border-color:#6fd694}.gt-zarith{color:#e3bd55;border-color:#e3bd55}
   .lopen{color:var(--dim);font-size:10px}
   .flags{font-size:11px;color:var(--dim);margin-top:6px}
@@ -686,7 +689,7 @@ TEMPLATE = r'''<!DOCTYPE html>
       </div>
       <div style="padding:8px 16px 0"><input type="search" id="npcQ" placeholder="Search NPC… (name, city, bought/sold item)" style="width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:8px 11px;font-size:13px;outline:none" autocomplete="off"></div>
       <div class="ins-body" id="npcBody"></div>
-      <div class="ins-note">Name · city · buy/sell offers = <b>authoritative Rivalia data</b> (npcs.php). 📍 = <b>approximate position</b> (Tibiantis 7.7, geography ≈ 7.4) — <b>verify in-game</b>. <b id="npcNcoord"></b> NPCs with a position.</div>
+      <div class="ins-note">Name · city · buy/sell lists = <b>Rivalia data</b> rebuilt from the item pages (full names; 💰 = he pays you, 🛒 = you pay him). 📍 = <b>approximate position</b> (Tibiantis 7.7, geography ≈ 7.4) — <b>verify in-game</b>. <b id="npcNcoord"></b> NPCs with a position.</div>
     </div>
   </div>
   <div id="taskModal" class="ins-modal">
@@ -2451,11 +2454,28 @@ selectFloor=function(z,keepView){ _selFloorMail(z,keepView); if(mailOn) drawMail
   document.getElementById('npcSub').textContent=N.length+' NPC · '+(NPCS.n_with_offers||0)+' with offers';
   document.getElementById('npcNcoord').textContent=(NPCS.n_with_coords||0);
   const npcURL=n=>'https://rivaliaonline.com/npcs.php?npc='+encodeURIComponent(n);
-  function offers(list,label){
+  // Each NPC has: buys[] = items he BUYS from you (you sell, he pays), sells[] = items he SELLS to you (you buy, you pay),
+  // other[] = rows the Rivalia site lists without saying which direction. Built by build_npc_trades.py from the item pages
+  // (full names + correct direction); the site's own NPC pages truncate names to one word ("sword").
+  const NEED={zarith:'Needs the Trade Faction: pay 100,000 gp to King Tibianus (or wear the Trading Documents artifact)',
+              blue:'Needs the Blue Djinn (Marid) quest',green:'Needs the Green Djinn (Efreet) quest'};
+  function offers(list,label,hint,open){
     if(!list||!list.length) return '';
-    const rows=list.map(o=>`<tr><td>${o.item}</td><td class="tn">${o.amount==null?'':o.amount}</td><td class="tn">${o.price!=null?o.price.toLocaleString()+' gp':'—'}</td></tr>`).join('');
-    return `<details class="trd"><summary>${label} (${list.length})</summary><table class="trd-tbl"><tr><th>Item</th><th class="tn">Qty</th><th class="tn">Price</th></tr>${rows}</table></details>`;
+    const bigList=list.length>12;
+    const order=[], by={};
+    for(const o of list){ const c=o.cat||''; if(!(c in by)){by[c]=[];order.push(c);} by[c].push(o); }
+    order.sort((x,y)=>(by[y][0].price)-(by[x][0].price));      // categories by their most valuable item
+    let rows='';
+    for(const c of order){
+      if(bigList && order.length>1) rows+=`<tr class="npc-cat"><td colspan="2"><b>${c||'Other'}</b> <span style="color:var(--dim)">(${by[c].length})</span></td></tr>`;
+      for(const o of by[c]) rows+=`<tr data-i="${o.item.toLowerCase().replace(/"/g,'')}"><td>${o.item}</td><td class="tn">${o.price!=null?o.price.toLocaleString()+' gp':'—'}</td></tr>`;
+    }
+    return `<details class="trd npc-offers" ${open?'open':''}><summary>${label} <span class="trdn">${list.length}</span></summary>`+
+      `<div class="npc-hint">${hint}</div><table class="trd-tbl"><tr><th>Item</th><th class="tn">Price</th></tr>${rows}</table></details>`;
   }
+  const H_BUYS='You sell here — he pays you this price', H_SELLS='You buy here — you pay this price',
+        H_OTHER='The Rivalia site lists these without saying whether he buys or sells them';
+  const L_BUYS='💰 Buys from you', L_SELLS='🛒 Sells to you', L_OTHER='❔ Also trades (direction not shown)';
   function renderNpc(){
     const byCity={};
     for(const n of N){ const c=n.city||'Unknown'; (byCity[c]=byCity[c]||[]).push(n); }
@@ -2468,11 +2488,14 @@ selectFloor=function(z,keepView){ _selFloorMail(z,keepView); if(mailOn) drawMail
       h+=`<details class="npc-city" open><summary><b>${c}</b> <span style="color:var(--dim)">(${arr.length})</span></summary>`;
       for(const n of arr){
         const go=n.px!=null?`<button class="npc-go" data-x="${n.px}" data-y="${n.py}" data-z="${n.z}" title="Go to the map (approximate position, ref 7.7)">📍</button>`:'';
-        const kw=(n.name+' '+c+' '+[...(n.sell||[]),...(n.buy||[])].map(o=>o.item).join(' ')).toLowerCase().replace(/"/g,'');
-        const hasInfo=(n.sell&&n.sell.length)||(n.buy&&n.buy.length);
+        const all=[...(n.buys||[]),...(n.sells||[]),...(n.other||[])];
+        const kw=(n.name+' '+c+' '+all.map(o=>o.item).join(' ')).toLowerCase().replace(/"/g,'');
+        const hasInfo=all.length>0;
+        const gate=n.gate?`<div class="npc-need"><span class="gt gt-${n.gate}">${n.gate==='zarith'?'Zarith · Trade Faction':n.gate==='blue'?'blue djinn':'green djinn'}</span> ${NEED[n.gate]}</div>`:'';
+        const open=!!n.gate;      // the quest-gated traders are the ones people look up: show their lists expanded
         h+=`<div class="npc-row" data-k="${kw}"><div><b class="npc-name">${n.name}</b> <small style="color:var(--dim)">${n.type||''}</small> ${go}`+
-           `<a href="${npcURL(n.name)}" target="_blank" rel="noopener" class="npc-web" title="open the card on the Rivalia site">↗</a></div>`+
-           (hasInfo?(offers(n.sell,'🛒 Buy here')+offers(n.buy,'💰 Sell here')):'<div style="color:var(--dim);font-size:11.5px;padding:2px 0">no trade offers</div>')+`</div>`;
+           `<a href="${npcURL(n.name)}" target="_blank" rel="noopener" class="npc-web" title="open the card on the Rivalia site">↗</a></div>`+gate+
+           (hasInfo?(offers(n.buys,L_BUYS,H_BUYS,open)+offers(n.sells,L_SELLS,H_SELLS,open)+offers(n.other,L_OTHER,H_OTHER,false)):'<div style="color:var(--dim);font-size:11.5px;padding:2px 0">no trade offers</div>')+`</div>`;
       }
       h+='</details>';
     }
@@ -2480,7 +2503,16 @@ selectFloor=function(z,keepView){ _selFloorMail(z,keepView); if(mailOn) drawMail
   }
   npcQ.addEventListener('input',()=>{
     const q=npcQ.value.trim().toLowerCase();
-    npcBody.querySelectorAll('.npc-row').forEach(r=>{ r.style.display=(!q||r.dataset.k.indexOf(q)>=0)?'':'none'; });
+    npcBody.querySelectorAll('.npc-row').forEach(r=>{
+      const hit=!q||r.dataset.k.indexOf(q)>=0; r.style.display=hit?'':'none';
+      if(!hit) return;
+      const nameHit=!q||r.querySelector('.npc-name').textContent.toLowerCase().indexOf(q)>=0;
+      // searching an ITEM: open the lists and show only the matching item rows
+      r.querySelectorAll('.npc-offers').forEach(d=>{ if(q&&!nameHit) d.open=true; });
+      r.querySelectorAll('.npc-offers tr[data-i]').forEach(t=>{ t.style.display=(!q||nameHit||t.dataset.i.indexOf(q)>=0)?'':'none'; });
+      r.querySelectorAll('.npc-offers tr.npc-cat').forEach(t=>{ t.style.display=(q&&!nameHit)?'none':''; });
+    });
+    npcBody.querySelectorAll('details.npc-city').forEach(c=>{ c.style.display=[...c.querySelectorAll('.npc-row')].some(r=>r.style.display!=='none')?'':'none'; });
   });
   npcBody.addEventListener('click',e=>{ const g=e.target.closest('.npc-go'); if(g) flyToNpc(+g.dataset.x,+g.dataset.y,+g.dataset.z); });
   document.getElementById('npcBtn').onclick=()=>{ npcModal.classList.add('show'); if(!npcBody.innerHTML) renderNpc(); };
@@ -2496,13 +2528,14 @@ selectFloor=function(z,keepView){ _selFloorMail(z,keepView); if(mailOn) drawMail
       const m=L.marker([IMGH-n.py,n.px],{icon:L.divIcon({className:'npc-pin',html:'<div class="npcpin">🧙</div>',iconSize:null})});
       m.bindTooltip('🧙 '+n.name+(n.city?(' · '+n.city):''),{direction:'top',opacity:.9});
       m.on('click',()=>{
-        const sell=(n.sell||[]).slice(0,6).map(o=>o.item+(o.price!=null?' '+o.price+'gp':'')).join(', ');
-        const buy=(n.buy||[]).slice(0,6).map(o=>o.item+(o.price!=null?' '+o.price+'gp':'')).join(', ');
+        const top=(l)=>(l||[]).slice(0,6).map(o=>o.item+(o.price!=null?' '+o.price.toLocaleString()+'gp':'')).join(', ');
+        const pays=top(n.buys), sells=top(n.sells);
         L.popup({maxWidth:300,className:'area-popup'}).setLatLng([IMGH-n.py,n.px])
          .setContent(`<div class="area-pop"><div class="ap-hd">🧙 ${n.name}</div>`+
            `<div class="ap-meta">${n.type||''} · ${n.city||'?'} · <i>approx. position (7.7)</i></div>`+
-           (sell?`<div class="ap-meta">🛒 Buy: ${sell}</div>`:'')+
-           (buy?`<div class="ap-meta">💰 Sell: ${buy}</div>`:'')+`</div>`).openOn(map);
+           (n.gate?`<div class="ap-meta">${NEED[n.gate]}</div>`:'')+
+           (pays?`<div class="ap-meta">💰 Buys from you (${n.buys.length}): ${pays}${n.buys.length>6?'…':''}</div>`:'')+
+           (sells?`<div class="ap-meta">🛒 Sells to you (${n.sells.length}): ${sells}${n.sells.length>6?'…':''}</div>`:'')+`</div>`).openOn(map);
       });
       npcLayer.addLayer(m);
     }

@@ -84,3 +84,12 @@ Split today: 124 monsters pick spears, 91 pick crossbow. Threshold `PHYS_SHARE_S
 The map saves the edited PG in localStorage (`rivalia_party`), which used to override the code defaults forever. Now `CHAR_DEF_VERSION` (build_html.py) tags the saved PG:
 when the version changes, the saved stats are dropped and the new defaults apply; edits made afterwards persist normally. BUMP `CHAR_DEF_VERSION` every time CHAR_DEF changes.
 Current defaults (13 Oct 2026): Paladin lv62, Distance 79, Shielding 62, HP 725, Mana 845, Armor 34, Speed 206, loadout Auto (spears Atk 34 / def 31, crossbow Atk 30 / def 0), Exura 370 HP / 80 mana, stance Balanced (unconfirmed).
+
+## 11. NPC trade lists rebuilt (16 Oct 2026)
+The site's npcs.php?npc=NAME pages truncate item names to one word ("sword") and mix both directions in "Sell Offers" (Zarith: 103 rows under Sell, 0 under Buy).
+`build_npc_trades.py` now rebuilds `npcs.json` (fields `buys` = he pays you, `sells` = you pay him, `other` = site rows with unknown direction, `cat`, `gate`) from the item pages
+(`wiki-2026-10/item-traders.json` + `item-categories.json`), the NPC pages (ids/prices for items missing from the item DB) and, for Zarith, the GitBook "What he buys" list
+(`zarith-gitbook-buy-list.json`, treated as the COMPLETE buy list: anything else he trades is classified as something he sells — inference).
+Zarith today: buys 104 items, sells 6 (Aether Prism 10k, Dragon Lord's Eye 5k, Poison Vaccine 5k, Sniper Gloves 2.5k, Piercing Bolt 15, Piercing Arrow 12).
+Access: the Rivalia wiki quest says pay 100,000 gp to King Tibianus (Trade Faction Accreditation); GitBook says the "Trading Documents" artifact (King questline or Store) is what lets you trade with him; GitBook also places him at Mount Sternum (Ascendia).
+Rerun: python3 build_npc_trades.py (NPC_CACHE=<dir> to reuse cached pages) then INLINE=1 python3 build_html.py.
