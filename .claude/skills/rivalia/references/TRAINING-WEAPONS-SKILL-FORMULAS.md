@@ -28,3 +28,15 @@ PDF: `Training_Weapons_Reference_2026-10-17.pdf` (stessa cartella). Verifica mia
 
 ## Non c'è nel PDF
 Dove si comprano/droppano i Training Weapons e quanto costano; se esistono dummy in ogni città. (Da chiedere / verificare in-game.)
+
+---
+# INSIGHTS TRAINING (analisi mia sui numeri del foglio; Paladin Andrea: Dist 79, Shield 62, ML 15; x1, senza voucher)
+1. **Il set (spear + scudo training) allena DUE skill insieme.** La spear dà Distance (2 punti/colpo), lo scudo dà Shielding (1 punto/blocco, il dummy attacca ogni 2 s). 84 h di set Transcendent = **Distance 79→89 e Shielding 62→~68,7** (128k tries di shielding in più). Non allenare le due cose separatamente.
+2. **Il tier cambia solo la velocità, non le tries per item.** Costo in item per livello = uguale per tutti i tier; Transcendent (1,5 s) = meno ore, e siccome lo **scudo si consuma a ritmo fisso (1.800 blocchi/h, dura 5,6 h)**, meno ore = meno scudi. Per +10 Distance: ~20 spear e ~15 scudi (Transcendent); a Charged ~103 h ≈ 18,5 scudi.
+3. **I moltiplicatori dividono ore E item** (le cariche si consumano per azione, i moltiplicatori aumentano le tries per azione). Voucher ×2 (o evento skill, il più alto dei due), Mad Santa ×2, Global +10% → fino a ×4,4: 84 h → ~19 h e ~5 spear. Prima il boost, poi gli item.
+4. **Rendimenti decrescenti forti.** Ogni +10 Distance costa ~2,6× il precedente per un guadagno di danno quasi costante: 79→89 = 343k tries (84 h) +11,2% danno; 89→99 = 890k (219 h) +10,1%; 99→109 = 2,31M (568 h) +9,2%. Oltre ~90 conviene alzare l'**Attack** (munizioni, attributi Attack/Critical/Distance) più che la skill. Shielding: 62→72 = 226k (149 h) +13,9% blocco; 72→82 = 587k (385 h) +12,2%.
+5. **Perché Shielding conviene per il Paladin con scudo:** costa ~16k tries per +1% di blocco contro ~31k tries per +1% di danno della Distance. Su Hero da solo (shield + spears): +10 Shielding → danno subito −17%, +10 Distance → −15%, **entrambe → −29%** (cure 1,8 → 1,1 a kill). Il blocco però serve solo contro il fisico e con lo scudo in mano (con la crossbow la difesa è 0).
+6. **Dummy vs caccia:** in caccia 1 try per colpo a segno (≤ 1.800/h); sul dummy col set 4.064 tries/h di Distance (≈ 2–4×) e 1.524 di Shielding, che da kiter in caccia quasi non alleni (blocchi rari). Ma 84 h di dummy = 84 h senza exp/loot (~42k exp/h al Dragon ≈ 3,5M exp): il training si paga quando la skill sblocca mostri nuovi o riduce rischio/cure, non "a prescindere".
+7. **Magic Level è un sottoprodotto:** per il Paladin (mult 1,4) 15→16 costa 62k mana spesi (≈ 780 cure da 80 mana); non vale training dedicato (la wand è solo sorcerer/druid).
+8. **Alternative alla skill pura:** attributi item Distance (+1…+5), Attack, Critical, Hit Chance (vedi skill, sezione Item Attributes) e artifact (Sniper Gloves ecc.) — spesso più rapidi di 84 h di dummy, ma costano Aether/gold.
+9. **Dati ancora aperti:** prezzo/fonte dei Training Weapons, se i colpi che mancano consumano carica (sì: "each weapon attack, hit or miss"), quanti dummy ci sono e dove, se il Global Skill Gain +10% è attivo su Aeternum, hit chance reale della spear sul dummy.

@@ -100,6 +100,12 @@ Rate applicato a ogni gain = rateSkill(mondo) × max(Voucher ×2, evento Skill b
 **Il vecchio "Magic Level = 1600 × 1.1^ml" è SBAGLIATO su Rivalia: è 400 × mult^M.**
 ⚠️ La regola "no training tool" qui sopra è SUPERATA: esistono i **Training Weapons** (Training Sword/Spear/Shield/Wand), che funzionano SOLO su un Training Dummy — vedi il file di riferimento.
 
+## INSIGHTS TRAINING (sintesi — dettaglio e numeri in `references/TRAINING-WEAPONS-SKILL-FORMULAS.md`)
+- Il set Training Spear + Training Shield sul dummy allena **Distance e Shielding insieme** (84 h ≈ Dist 79→89 e Shield 62→~69 per il Paladin di Andrea, x1).
+- Il tier cambia solo velocità; item per livello identici; lo scudo si consuma a 1.800 blocchi/h → meno ore = meno scudi. Boost (voucher/Mad Santa/evento) dividono ore E item.
+- Rendimenti decrescenti: ogni +10 Distance costa ~2,6× il precedente per ~+10% danno; oltre ~90 meglio Attack/attributi. Shielding costa ~16k tries per +1% blocco vs ~31k per +1% danno Distance.
+- Training dummy = tempo senza exp/loot: conviene se sblocca mostri/riduce rischio, non a prescindere.
+
 ## SPEAR SUPPLY (per training Distance economico)
 Spear è la scelta migliore per il training: riutilizzabile e droppata da **mob deboli che già cacci** — **Orc Shaman** (HP115/hit45), **Valkyrie** (HP190/hit55), Troll, Frost Troll, Orc Spearman, **Lizard Sentinel**, Black Knight (fonte: pagina item Spear GitBook, Atk 30 / range 7). Throwing Star è gated dietro mob duri (Demon Skeleton HP400/hit203, ecc. → inaccessibili a lvl 16-25); Throwing Knife solo dal Dworc Venomsniper (HP80/hit20) è farmabile facile. Gli NPC **non vendono** queste armi → solo drop. Break-chance/recupero su Rivalia NON documentato → verificare in-game/Discord.
 - ⚠️ **Hunting Spear** (drop Dworc Fleshhunter) è categoria **Axes** (Atk18/Def8), **arma da mischia — NON allena Distance.** Solo la Spear normale (Distance) traina.
