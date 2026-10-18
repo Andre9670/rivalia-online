@@ -77,7 +77,7 @@ Il danno cresce **linearmente con la skill**: `+5 × value × stance × 99/10000
 ⚠️ **Distinguere netto confermato vs modello.** Verificato lug 2026: il sottodominio `wiki.rivaliaonline.com` era **giù/404 su tutto** (aggiornamento set 2026: la wiki viva è `rivaliaonline.com/wiki.php`), `/calculator` reindirizza a `landing.php` (morto), e l'export GitBook completo (`llms-full.txt`, 91KB) ha **ZERO occorrenze** di skill-training/tries/formula. Quindi:
 
 **CONFERMATO da fonte Rivalia (export GitBook):**
-- **Skills x1** su Legacy (come Exp/Magic/Spawn/Loot). **Nessun** training tool, **nessun** offline training, **nessuna** stamina, **nessun** bonus premium/loyalty, **nessun** double-skill. Task Board dà solo Exp + Bounty/Hunting Points, MAI skill. → Le skill salgono **solo giocando attivamente a velocità vanilla piena**.
+- **Skills x1** su Legacy (come Exp/Magic/Spawn/Loot). *(Training tool: SOLO i Training Weapons sul Training Dummy, vedi sotto)*; **nessun** offline training, **nessuna** stamina, **nessun** bonus premium/loyalty, **nessun** double-skill. Task Board dà solo Exp + Bounty/Hunting Points, MAI skill. → Le skill salgono **solo giocando attivamente a velocità vanilla piena**.
 
 **MECCANISMO (7.x — CONFERMATO da fonte esterna Tibiantis, server 7.x classico = stesso engine base di Rivalia; verificato 23 lug 2026):** le skill salgono a **"tries" (tentativi), NON a danno**. Un colpo da 5 e uno da 90 valgono un try identico.
 - **Distance Fighting** = 1 try per **ogni freccia/lancia che va a segno** sul bersaglio. (Per questo le HMM rune NON trainano Distance: nessun colpo a distanza a segno. Manca il bersaglio = niente try.)
@@ -90,18 +90,15 @@ Il danno cresce **linearmente con la skill**: `+5 × value × stance × 99/10000
 - **Paladin avvantaggiato:** TibiaWiki — "Knights e Paladins avanzano più in fretta di Druid/Sorcerer nello shielding".
 - **Fonti:** tibiantis-notes.github.io/training, tibiantis.info/calc/training, tibia.fandom.com/wiki/Shielding (via ricerca DuckDuckGo — Google ha consent-wall, otland/fandom bloccano il fetch diretto). Meccaniche 7.x classiche; **da riconfermare su Rivalia** se il custom engine ha cambiato le cadenze, ma la regola "serve attaccare + cap a 2" è standard su questi server.
 
-**FORMULA TRIES ⚠️ (modello 7.4 classico — NON verificato su Rivalia, i coefficienti sono ciò che un custom tocca più spesso):**
+**FORMULA TRIES ✅ CONFERMATA (18 ott 2026, dal foglio "Training Weapons – How the System Works" generato dal codice live del server, autore Tyrhem/Rivalia, allegato Discord; PDF in `references/Training_Weapons_Reference_2026-10-17.pdf`, riassunto e numeri Paladin in `references/TRAINING-WEAPONS-SKILL-FORMULAS.md`):**
 ```
-tries per salire da skill s → s+1  =  BASE × MULT^(s − 10)     (skills partono da 10)
+tries per salire da L a L+1  =  BASE × MULT^(L − 10)        BASE: melee/fist 50 · distance 30 · shielding 100
+mana per Magic Level M→M+1   =  400 × MANAMULT^M            (verificato: Paladin distance 45→46 = 843 tries, 79→80 = 21.539)
 ```
-Costanti CLASSICHE 7.4 (Paladin) — DA VERIFICARE in-game:
-- **Shielding:** BASE = 100, MULT = 1.1  (≈ +10% tries per punto)
-- **Distance (Paladin):** BASE = 30, MULT ≈ 1.1  (il Paladin ha il constant distance più basso = sale più veloce delle altre voc sulla distance)
-- Melee (Sword/Axe/Club) constant più alto (~1.1 con BASE più grande); Magic Level usa una formula diversa (base 1600 × 1.1^ml, mana-based).
-
-Esempio Shielding col modello classico (da 50): 50→51 ≈ 4.5k blocchi ricevuti, poi +~10% a punto (51→52 ≈ 5.0k, 52→53 ≈ 5.5k…). 50→55 ≈ 28k attacchi ricevuti. **Se Rivalia ha alzato MULT a 1.2 i tempi ~raddoppiano per punto; se 1.05 vai molto più veloce — NON lo sappiamo.**
-
-**COME OTTENERE IL NUMERO REALE (invece del modello):** il client 7.4 mostra la % di progresso skill. Prendere 2 letture della % a distanza di N tries CONTATI (frecce a segno per Distance / blocchi ricevuti per Shielding) → si ricava il MULT reale del char. In alternativa chiedere sul Discord ("shielding/distance skill formula, vocation constants, Legacy"). Finché la wiki è giù, il Discord è l'unica fonte autorevole.
+Moltiplicatori per vocazione — **Paladin/Royal Paladin: melee 1.2 · distance 1.1 · shielding 1.1 · magic (mana) 1.4**; Knight 1.1 / 1.4 / 1.1 / 3.0; Druid 1.8 / 1.8 / 1.5 / 1.1; Sorcerer 2.0 / 2.0 / 1.5 / 1.1.
+Rate applicato a ogni gain = rateSkill(mondo) × max(Voucher ×2, evento Skill boost) × Mad Santa scroll ×2 × "Global Skill Gain +10%" (voucher e evento NON si cumulano). Magic: rateMagic × evento × +10% (il voucher NON vale per il magic).
+**Il vecchio "Magic Level = 1600 × 1.1^ml" è SBAGLIATO su Rivalia: è 400 × mult^M.**
+⚠️ La regola "no training tool" qui sopra è SUPERATA: esistono i **Training Weapons** (Training Sword/Spear/Shield/Wand), che funzionano SOLO su un Training Dummy — vedi il file di riferimento.
 
 ## SPEAR SUPPLY (per training Distance economico)
 Spear è la scelta migliore per il training: riutilizzabile e droppata da **mob deboli che già cacci** — **Orc Shaman** (HP115/hit45), **Valkyrie** (HP190/hit55), Troll, Frost Troll, Orc Spearman, **Lizard Sentinel**, Black Knight (fonte: pagina item Spear GitBook, Atk 30 / range 7). Throwing Star è gated dietro mob duri (Demon Skeleton HP400/hit203, ecc. → inaccessibili a lvl 16-25); Throwing Knife solo dal Dworc Venomsniper (HP80/hit20) è farmabile facile. Gli NPC **non vendono** queste armi → solo drop. Break-chance/recupero su Rivalia NON documentato → verificare in-game/Discord.
