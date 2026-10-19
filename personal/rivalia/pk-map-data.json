@@ -1,13 +1,13 @@
 {
  "source": "characterprofile.php recursive death-graph crawl, world=Aeternum",
  "world": "Aeternum",
- "captured": "11 October 2026",
- "window": "profile death history (19 May 2026 (06:47) – 11 October 2026 (15:58))",
- "n_profiles_scanned": 1743,
- "n_crawled_all_worlds": 2613,
- "n_killers": 1273,
- "total_kills": 4595,
- "total_unjustified": 2267,
+ "captured": "18 October 2026",
+ "window": "profile death history (19 May 2026 (06:47) – 18 October 2026 (20:30))",
+ "n_profiles_scanned": 1749,
+ "n_crawled_all_worlds": 2773,
+ "n_killers": 1272,
+ "total_kills": 4604,
+ "total_unjustified": 2276,
  "players": {
   "Daxo": {
    "name": "Daxo",
@@ -492,12 +492,12 @@
    "residence": "Carlin",
    "last_login": "22 July 2026 (02:09)",
    "times_died_pvp": 4,
-   "kills": 10,
+   "kills": 9,
    "unjustified": 3,
-   "justified": 7,
-   "avg_victim_level": 28.4,
-   "level_gap": 30.6,
-   "danger_score": 48.8,
+   "justified": 6,
+   "avg_victim_level": 28.3,
+   "level_gap": 30.7,
+   "danger_score": 47.3,
    "class": "PK / Assassin",
    "victims": [
     {
@@ -517,12 +517,6 @@
      "lv": 63,
      "date": "20 July 2026 (01:41)",
      "unjustified": true
-    },
-    {
-     "victim": "Miki Ek",
-     "lv": 29,
-     "date": "16 July 2026 (23:47)",
-     "unjustified": false
     },
     {
      "victim": "Fucinhoo",
@@ -567,7 +561,7 @@
    "level": 36,
    "vocation": "Knight",
    "residence": "Thais",
-   "last_login": "09 October 2026 (08:25)",
+   "last_login": "15 October 2026 (08:51)",
    "times_died_pvp": 2,
    "kills": 2,
    "unjustified": 1,
@@ -872,12 +866,12 @@
    "residence": "Carlin",
    "last_login": "05 September 2026 (03:30)",
    "times_died_pvp": 2,
-   "kills": 7,
+   "kills": 6,
    "unjustified": 5,
-   "justified": 2,
-   "avg_victim_level": 18.7,
-   "level_gap": 12.3,
-   "danger_score": 62.0,
+   "justified": 1,
+   "avg_victim_level": 19.7,
+   "level_gap": 11.3,
+   "danger_score": 60.4,
    "class": "PK / Serial",
    "victims": [
     {
@@ -909,12 +903,6 @@
      "lv": 8,
      "date": "05 September 2026 (03:30)",
      "unjustified": true
-    },
-    {
-     "victim": "Forestking",
-     "lv": 13,
-     "date": "05 September 2026 (03:28)",
-     "unjustified": false
     },
     {
      "victim": "Ironqueen",
@@ -2202,7 +2190,7 @@
    "level": 141,
    "vocation": "Paladin",
    "residence": "Venore",
-   "last_login": "01 October 2026 (15:05)",
+   "last_login": "17 October 2026 (05:35)",
    "times_died_pvp": 4,
    "kills": 51,
    "unjustified": 14,
@@ -2525,14 +2513,14 @@
    "level": 116,
    "vocation": "Elder Druid",
    "residence": "Thais",
-   "last_login": "11 October 2026 (21:56)",
+   "last_login": "19 October 2026 (01:48)",
    "times_died_pvp": 0,
-   "kills": 21,
-   "unjustified": 9,
+   "kills": 23,
+   "unjustified": 11,
    "justified": 12,
-   "avg_victim_level": 68.2,
-   "level_gap": 47.8,
-   "danger_score": 127.5,
+   "avg_victim_level": 67.7,
+   "level_gap": 48.3,
+   "danger_score": 150.5,
    "class": "PK / Serial",
    "victims": [
     {
@@ -2576,6 +2564,18 @@
      "lv": 54,
      "date": "18 July 2026 (05:32)",
      "unjustified": false
+    },
+    {
+     "victim": "Miki Ek",
+     "lv": 64,
+     "date": "16 October 2026 (05:24)",
+     "unjustified": true
+    },
+    {
+     "victim": "Perrito De Calle",
+     "lv": 60,
+     "date": "16 October 2026 (01:30)",
+     "unjustified": true
     },
     {
      "victim": "Fox Wizard",
@@ -2817,7 +2817,7 @@
    "level": 102,
    "vocation": "Royal Paladin",
    "residence": "Thais",
-   "last_login": "10 October 2026 (07:48)",
+   "last_login": "16 October 2026 (06:13)",
    "times_died_pvp": 5,
    "kills": 22,
    "unjustified": 3,
@@ -3451,7 +3451,7 @@
    "level": 94,
    "vocation": "Elder Druid",
    "residence": "Venore",
-   "last_login": "04 October 2026 (22:42)",
+   "last_login": "15 October 2026 (09:20)",
    "times_died_pvp": 2,
    "kills": 2,
    "unjustified": 1,
@@ -3480,7 +3480,7 @@
    "level": 112,
    "vocation": "Elite Knight",
    "residence": "Thais",
-   "last_login": "12 October 2026 (11:45)",
+   "last_login": "19 October 2026 (02:29)",
    "times_died_pvp": 3,
    "kills": 4,
    "unjustified": 1,
@@ -3658,9 +3658,9 @@
   "Nidavellir": {
    "name": "Nidavellir",
    "level": 79,
-   "vocation": "Master Sorcerer",
-   "residence": "Darashia",
-   "last_login": "11 August 2026 (01:24)",
+   "vocation": "Sorcerer",
+   "residence": "Thais",
+   "last_login": "13 October 2026 (07:59)",
    "times_died_pvp": 5,
    "kills": 10,
    "unjustified": 3,
@@ -3783,7 +3783,7 @@
    "level": 147,
    "vocation": "Royal Paladin",
    "residence": "Venore",
-   "last_login": "12 October 2026 (07:48)",
+   "last_login": "19 October 2026 (06:46)",
    "times_died_pvp": 2,
    "kills": 4,
    "unjustified": 0,
@@ -4005,7 +4005,7 @@
    "level": 20,
    "vocation": "Paladin",
    "residence": "Venore",
-   "last_login": "08 October 2026 (23:30)",
+   "last_login": "13 October 2026 (00:52)",
    "times_died_pvp": 0,
    "kills": 3,
    "unjustified": 1,
@@ -4134,7 +4134,7 @@
    "level": 46,
    "vocation": "Druid",
    "residence": "Carlin",
-   "last_login": "12 September 2026 (10:24)",
+   "last_login": "13 October 2026 (02:55)",
    "times_died_pvp": 5,
    "kills": 10,
    "unjustified": 3,
@@ -5443,17 +5443,17 @@
   },
   "Lord Jerusky": {
    "name": "Lord Jerusky",
-   "level": 138,
+   "level": 137,
    "vocation": "Royal Paladin",
    "residence": "Edron",
-   "last_login": "12 October 2026 (05:41)",
-   "times_died_pvp": 0,
-   "kills": 16,
-   "unjustified": 5,
+   "last_login": "17 October 2026 (08:36)",
+   "times_died_pvp": 1,
+   "kills": 17,
+   "unjustified": 6,
    "justified": 11,
-   "avg_victim_level": 82.4,
-   "level_gap": 55.6,
-   "danger_score": 81.0,
+   "avg_victim_level": 80.5,
+   "level_gap": 56.5,
+   "danger_score": 92.6,
    "class": "PK / Serial",
    "victims": [
     {
@@ -5479,6 +5479,12 @@
      "lv": 91,
      "date": "18 July 2026 (00:40)",
      "unjustified": false
+    },
+    {
+     "victim": "Itz Zae",
+     "lv": 50,
+     "date": "16 October 2026 (01:23)",
+     "unjustified": true
     },
     {
      "victim": "Soraka",
@@ -5559,7 +5565,7 @@
    "level": 140,
    "vocation": "Master Sorcerer",
    "residence": "Darashia",
-   "last_login": "11 October 2026 (22:15)",
+   "last_login": "17 October 2026 (01:04)",
    "times_died_pvp": 0,
    "kills": 33,
    "unjustified": 5,
@@ -5773,15 +5779,15 @@
    "name": "Nox Talgia",
    "level": 130,
    "vocation": "Master Sorcerer",
-   "residence": "Thais",
-   "last_login": "11 October 2026 (22:30)",
+   "residence": "Venore",
+   "last_login": "18 October 2026 (23:01)",
    "times_died_pvp": 2,
-   "kills": 51,
-   "unjustified": 13,
+   "kills": 52,
+   "unjustified": 14,
    "justified": 38,
-   "avg_victim_level": 67.0,
-   "level_gap": 63.0,
-   "danger_score": 214.4,
+   "avg_victim_level": 67.9,
+   "level_gap": 62.1,
+   "danger_score": 225.8,
    "class": "PK / Serial",
    "victims": [
     {
@@ -5914,6 +5920,12 @@
      "victim": "Dan Pally",
      "lv": 123,
      "date": "17 August 2026 (02:54)",
+     "unjustified": true
+    },
+    {
+     "victim": "Chocolate",
+     "lv": 114,
+     "date": "16 October 2026 (05:19)",
      "unjustified": true
     },
     {
@@ -6097,7 +6109,7 @@
    "level": 117,
    "vocation": "Royal Paladin",
    "residence": "Thais",
-   "last_login": "11 October 2026 (22:24)",
+   "last_login": "17 October 2026 (23:02)",
    "times_died_pvp": 3,
    "kills": 35,
    "unjustified": 7,
@@ -6573,7 +6585,7 @@
    "level": 28,
    "vocation": "Paladin",
    "residence": "Venore",
-   "last_login": "12 October 2026 (19:45)",
+   "last_login": "18 October 2026 (00:22)",
    "times_died_pvp": 2,
    "kills": 4,
    "unjustified": 4,
@@ -6790,7 +6802,7 @@
    "level": 115,
    "vocation": "Master Sorcerer",
    "residence": "Ankrahmun",
-   "last_login": "02 October 2026 (05:32)",
+   "last_login": "14 October 2026 (20:03)",
    "times_died_pvp": 4,
    "kills": 24,
    "unjustified": 7,
@@ -7246,7 +7258,7 @@
    "level": 61,
    "vocation": "Master Sorcerer",
    "residence": "Darashia",
-   "last_login": "05 October 2026 (17:25)",
+   "last_login": "16 October 2026 (16:12)",
    "times_died_pvp": 4,
    "kills": 6,
    "unjustified": 3,
@@ -7485,9 +7497,9 @@
   "Kage": {
    "name": "Kage",
    "level": 65,
-   "vocation": "Knight",
+   "vocation": "Elite Knight",
    "residence": "Thais",
-   "last_login": "07 October 2026 (02:57)",
+   "last_login": "15 October 2026 (22:03)",
    "times_died_pvp": 1,
    "kills": 4,
    "unjustified": 2,
@@ -7885,7 +7897,7 @@
    "level": 136,
    "vocation": "Elite Knight",
    "residence": "Edron",
-   "last_login": "06 October 2026 (02:23)",
+   "last_login": "14 October 2026 (07:23)",
    "times_died_pvp": 1,
    "kills": 13,
    "unjustified": 4,
@@ -7980,7 +7992,7 @@
    "level": 34,
    "vocation": "Elder Druid",
    "residence": "Thais",
-   "last_login": "12 October 2026 (07:04)",
+   "last_login": "19 October 2026 (04:55)",
    "times_died_pvp": 5,
    "kills": 6,
    "unjustified": 1,
@@ -8133,8 +8145,8 @@
    "name": "Knight Pekiador",
    "level": 39,
    "vocation": "Knight",
-   "residence": "Nivarya",
-   "last_login": "15 August 2026 (00:02)",
+   "residence": "Thais",
+   "last_login": "13 October 2026 (08:00)",
    "times_died_pvp": 3,
    "kills": 5,
    "unjustified": 2,
@@ -8242,12 +8254,12 @@
    "residence": "Ankrahmun",
    "last_login": "19 September 2026 (08:02)",
    "times_died_pvp": 5,
-   "kills": 13,
-   "unjustified": 8,
+   "kills": 12,
+   "unjustified": 7,
    "justified": 5,
-   "avg_victim_level": 30.1,
-   "level_gap": 9.9,
-   "danger_score": 100.7,
+   "avg_victim_level": 30.2,
+   "level_gap": 9.8,
+   "danger_score": 89.2,
    "class": "PK / Serial",
    "victims": [
     {
@@ -8284,12 +8296,6 @@
      "victim": "Drogata",
      "lv": 35,
      "date": "16 July 2026 (09:51)",
-     "unjustified": true
-    },
-    {
-     "victim": "White Mage",
-     "lv": 28,
-     "date": "15 July 2026 (01:04)",
      "unjustified": true
     },
     {
@@ -8873,7 +8879,7 @@
    "level": 31,
    "vocation": "Royal Paladin",
    "residence": "Carlin",
-   "last_login": "11 October 2026 (20:17)",
+   "last_login": "17 October 2026 (05:08)",
    "times_died_pvp": 3,
    "kills": 2,
    "unjustified": 2,
@@ -8902,7 +8908,7 @@
    "level": 137,
    "vocation": "Elder Druid",
    "residence": "Thais",
-   "last_login": "09 October 2026 (07:53)",
+   "last_login": "15 October 2026 (14:56)",
    "times_died_pvp": 4,
    "kills": 52,
    "unjustified": 8,
@@ -9378,12 +9384,12 @@
    "residence": "Carlin",
    "last_login": "01 September 2026 (15:04)",
    "times_died_pvp": 4,
-   "kills": 19,
-   "unjustified": 17,
+   "kills": 18,
+   "unjustified": 16,
    "justified": 2,
-   "avg_victim_level": 35.8,
-   "level_gap": -8.8,
-   "danger_score": 198.5,
+   "avg_victim_level": 35.4,
+   "level_gap": -8.4,
+   "danger_score": 187.0,
    "class": "PK / Serial",
    "victims": [
     {
@@ -9420,12 +9426,6 @@
      "victim": "Dayanara",
      "lv": 21,
      "date": "22 June 2026 (18:48)",
-     "unjustified": true
-    },
-    {
-     "victim": "Elmata Sanos",
-     "lv": 43,
-     "date": "22 June 2026 (04:38)",
      "unjustified": true
     },
     {
@@ -9865,16 +9865,16 @@
   },
   "White Mage": {
    "name": "White Mage",
-   "level": 76,
+   "level": 78,
    "vocation": "Elder Druid",
    "residence": "Thais",
-   "last_login": "12 October 2026 (19:49)",
+   "last_login": "19 October 2026 (03:55)",
    "times_died_pvp": 2,
    "kills": 1,
    "unjustified": 0,
    "justified": 1,
    "avg_victim_level": 32.0,
-   "level_gap": 44.0,
+   "level_gap": 46.0,
    "danger_score": 1.5,
    "class": "Guild-war / justified",
    "victims": [
@@ -9891,7 +9891,7 @@
    "level": 110,
    "vocation": "Sorcerer",
    "residence": "Thais",
-   "last_login": "05 October 2026 (17:24)",
+   "last_login": "19 October 2026 (16:23)",
    "times_died_pvp": 4,
    "kills": 24,
    "unjustified": 9,
@@ -11764,9 +11764,9 @@
   "Dan Pally": {
    "name": "Dan Pally",
    "level": 124,
-   "vocation": "Paladin",
+   "vocation": "Royal Paladin",
    "residence": "Thais",
-   "last_login": "12 October 2026 (07:17)",
+   "last_login": "18 October 2026 (06:58)",
    "times_died_pvp": 5,
    "kills": 14,
    "unjustified": 3,
@@ -12165,7 +12165,7 @@
    "level": 55,
    "vocation": "Paladin",
    "residence": "Venore",
-   "last_login": "15 September 2026 (21:47)",
+   "last_login": "12 October 2026 (23:30)",
    "times_died_pvp": 5,
    "kills": 9,
    "unjustified": 4,
@@ -12820,14 +12820,14 @@
    "level": 21,
    "vocation": "Knight",
    "residence": "Venore",
-   "last_login": "13 September 2026 (18:58)",
+   "last_login": "18 October 2026 (21:04)",
    "times_died_pvp": 2,
-   "kills": 9,
-   "unjustified": 9,
+   "kills": 10,
+   "unjustified": 10,
    "justified": 0,
    "avg_victim_level": 21.3,
    "level_gap": -0.3,
-   "danger_score": 103.5,
+   "danger_score": 115.0,
    "class": "PK / Serial",
    "victims": [
     {
@@ -12864,6 +12864,12 @@
      "victim": "Jerico",
      "lv": 12,
      "date": "21 July 2026 (19:59)",
+     "unjustified": true
+    },
+    {
+     "victim": "Toli",
+     "lv": 21,
+     "date": "18 October 2026 (21:11)",
      "unjustified": true
     },
     {
@@ -13776,7 +13782,7 @@
    "level": 32,
    "vocation": "Paladin",
    "residence": "Carlin",
-   "last_login": "26 August 2026 (03:21)",
+   "last_login": "13 October 2026 (17:15)",
    "times_died_pvp": 3,
    "kills": 6,
    "unjustified": 1,
@@ -13946,7 +13952,7 @@
    "level": 20,
    "vocation": "Master Sorcerer",
    "residence": "Thais",
-   "last_login": "12 October 2026 (17:46)",
+   "last_login": "18 October 2026 (07:15)",
    "times_died_pvp": 3,
    "kills": 5,
    "unjustified": 4,
@@ -14104,8 +14110,8 @@
    "level": 141,
    "vocation": "Elite Knight",
    "residence": "Thais",
-   "last_login": "12 October 2026 (18:57)",
-   "times_died_pvp": 1,
+   "last_login": "19 October 2026 (07:36)",
+   "times_died_pvp": 0,
    "kills": 4,
    "unjustified": 4,
    "justified": 0,
@@ -14571,9 +14577,9 @@
   "Vitafercho": {
    "name": "Vitafercho",
    "level": 18,
-   "vocation": "Sorcerer",
+   "vocation": "Master Sorcerer",
    "residence": "Venore",
-   "last_login": "06 October 2026 (04:44)",
+   "last_login": "17 October 2026 (11:30)",
    "times_died_pvp": 4,
    "kills": 7,
    "unjustified": 7,
@@ -14632,7 +14638,7 @@
    "level": 17,
    "vocation": "Sorcerer",
    "residence": "Thais",
-   "last_login": "28 September 2026 (14:46)",
+   "last_login": "15 October 2026 (03:29)",
    "times_died_pvp": 5,
    "kills": 3,
    "unjustified": 3,
@@ -15198,7 +15204,7 @@
    "level": 64,
    "vocation": "Master Sorcerer",
    "residence": "Thais",
-   "last_login": "09 October 2026 (23:28)",
+   "last_login": "16 October 2026 (00:46)",
    "times_died_pvp": 2,
    "kills": 10,
    "unjustified": 3,
@@ -15376,7 +15382,7 @@
    "level": 40,
    "vocation": "Master Sorcerer",
    "residence": "Nivarya",
-   "last_login": "06 October 2026 (02:28)",
+   "last_login": "14 October 2026 (20:07)",
    "times_died_pvp": 2,
    "kills": 3,
    "unjustified": 0,
@@ -15671,9 +15677,9 @@
   "Aiuni": {
    "name": "Aiuni",
    "level": 16,
-   "vocation": "Sorcerer",
+   "vocation": "Master Sorcerer",
    "residence": "Venore",
-   "last_login": "06 October 2026 (19:50)",
+   "last_login": "16 October 2026 (01:10)",
    "times_died_pvp": 5,
    "kills": 5,
    "unjustified": 4,
@@ -15877,9 +15883,9 @@
   "Rabioso": {
    "name": "Rabioso",
    "level": 96,
-   "vocation": "Knight",
+   "vocation": "Elite Knight",
    "residence": "Thais",
-   "last_login": "05 October 2026 (20:21)",
+   "last_login": "18 October 2026 (02:52)",
    "times_died_pvp": 3,
    "kills": 15,
    "unjustified": 4,
@@ -15983,17 +15989,17 @@
   },
   "Itz Zae": {
    "name": "Itz Zae",
-   "level": 50,
+   "level": 49,
    "vocation": "Royal Paladin",
    "residence": "Thais",
-   "last_login": "09 October 2026 (23:18)",
-   "times_died_pvp": 1,
+   "last_login": "18 October 2026 (03:08)",
+   "times_died_pvp": 2,
    "kills": 3,
    "unjustified": 1,
    "justified": 2,
    "avg_victim_level": 19.3,
-   "level_gap": 30.7,
-   "danger_score": 18.3,
+   "level_gap": 29.7,
+   "danger_score": 18.2,
    "class": "Occasional PK",
    "victims": [
     {
@@ -16121,7 +16127,7 @@
    "level": 67,
    "vocation": "Elite Knight",
    "residence": "Thais",
-   "last_login": "11 August 2026 (22:43)",
+   "last_login": "19 October 2026 (05:25)",
    "times_died_pvp": 5,
    "kills": 10,
    "unjustified": 8,
@@ -16410,12 +16416,12 @@
    "residence": "Ankrahmun",
    "last_login": "20 August 2026 (22:40)",
    "times_died_pvp": 3,
-   "kills": 7,
+   "kills": 8,
    "unjustified": 4,
-   "justified": 3,
-   "avg_victim_level": 51.7,
-   "level_gap": 55.3,
-   "danger_score": 57.4,
+   "justified": 4,
+   "avg_victim_level": 49.1,
+   "level_gap": 57.9,
+   "danger_score": 59.2,
    "class": "PK / Assassin",
    "victims": [
     {
@@ -16423,6 +16429,12 @@
      "lv": 62,
      "date": "29 July 2026 (18:02)",
      "unjustified": true
+    },
+    {
+     "victim": "Boget",
+     "lv": 31,
+     "date": "20 August 2026 (21:59)",
+     "unjustified": false
     },
     {
      "victim": "Nixie",
@@ -17630,18 +17642,18 @@
   },
   "Zepek": {
    "name": "Zepek",
-   "level": 107,
+   "level": 105,
    "vocation": "Royal Paladin",
    "residence": "Ankrahmun",
-   "last_login": "09 October 2026 (22:52)",
+   "last_login": "17 October 2026 (01:04)",
    "times_died_pvp": 1,
-   "kills": 2,
-   "unjustified": 0,
+   "kills": 3,
+   "unjustified": 1,
    "justified": 2,
-   "avg_victim_level": 15.5,
-   "level_gap": 91.5,
-   "danger_score": 3.0,
-   "class": "Guild-war / justified",
+   "avg_victim_level": 23.3,
+   "level_gap": 81.7,
+   "danger_score": 24.7,
+   "class": "Occasional PK",
    "victims": [
     {
      "victim": "Vincent Vega",
@@ -17654,6 +17666,12 @@
      "lv": 18,
      "date": "28 July 2026 (21:57)",
      "unjustified": false
+    },
+    {
+     "victim": "Elmata Sanos",
+     "lv": 39,
+     "date": "17 October 2026 (00:51)",
+     "unjustified": true
     }
    ]
   },
@@ -17767,6 +17785,194 @@
      "lv": 22,
      "date": "04 August 2026 (11:14)",
      "unjustified": true
+    }
+   ]
+  },
+  "Pragmatic Panda": {
+   "name": "Pragmatic Panda",
+   "level": 174,
+   "vocation": "Royal Paladin",
+   "residence": "Darashia",
+   "last_login": "16 October 2026 (08:30)",
+   "times_died_pvp": 0,
+   "kills": 6,
+   "unjustified": 2,
+   "justified": 4,
+   "avg_victim_level": 49.5,
+   "level_gap": 124.5,
+   "danger_score": 44.6,
+   "class": "PK / Assassin",
+   "victims": [
+    {
+     "victim": "Furionek",
+     "lv": 79,
+     "date": "19 August 2026 (06:46)",
+     "unjustified": false
+    },
+    {
+     "victim": "Pally Bruto",
+     "lv": 81,
+     "date": "19 August 2026 (06:46)",
+     "unjustified": false
+    },
+    {
+     "victim": "Nox",
+     "lv": 63,
+     "date": "19 August 2026 (06:45)",
+     "unjustified": false
+    },
+    {
+     "victim": "Boget",
+     "lv": 30,
+     "date": "18 August 2026 (07:17)",
+     "unjustified": true
+    },
+    {
+     "victim": "Boget",
+     "lv": 31,
+     "date": "18 August 2026 (07:04)",
+     "unjustified": true
+    },
+    {
+     "victim": "Lord Rato",
+     "lv": 13,
+     "date": "17 August 2026 (09:42)",
+     "unjustified": false
+    }
+   ]
+  },
+  "Lothricc": {
+   "name": "Lothricc",
+   "level": 126,
+   "vocation": "Elite Knight",
+   "residence": "Edron",
+   "last_login": "18 October 2026 (11:17)",
+   "times_died_pvp": 0,
+   "kills": 5,
+   "unjustified": 2,
+   "justified": 3,
+   "avg_victim_level": 34.2,
+   "level_gap": 91.8,
+   "danger_score": 39.0,
+   "class": "PK / Assassin",
+   "victims": [
+    {
+     "victim": "Mordziak",
+     "lv": 29,
+     "date": "30 August 2026 (09:00)",
+     "unjustified": false
+    },
+    {
+     "victim": "Mordziak",
+     "lv": 30,
+     "date": "30 August 2026 (08:50)",
+     "unjustified": false
+    },
+    {
+     "victim": "Mordziak",
+     "lv": 31,
+     "date": "30 August 2026 (08:40)",
+     "unjustified": true
+    },
+    {
+     "victim": "Boget",
+     "lv": 31,
+     "date": "18 August 2026 (07:04)",
+     "unjustified": true
+    },
+    {
+     "victim": "Kangal",
+     "lv": 50,
+     "date": "09 August 2026 (18:55)",
+     "unjustified": false
+    }
+   ]
+  },
+  "Mataca": {
+   "name": "Mataca",
+   "level": 167,
+   "vocation": "Royal Paladin",
+   "residence": "Nivarya",
+   "last_login": "19 October 2026 (02:59)",
+   "times_died_pvp": 0,
+   "kills": 6,
+   "unjustified": 3,
+   "justified": 3,
+   "avg_victim_level": 36.8,
+   "level_gap": 130.2,
+   "danger_score": 55.3,
+   "class": "PK / Assassin",
+   "victims": [
+    {
+     "victim": "Mago Merlin",
+     "lv": 23,
+     "date": "21 September 2026 (07:00)",
+     "unjustified": true
+    },
+    {
+     "victim": "Putifarry",
+     "lv": 79,
+     "date": "21 August 2026 (22:28)",
+     "unjustified": false
+    },
+    {
+     "victim": "Pumpek",
+     "lv": 13,
+     "date": "18 July 2026 (03:15)",
+     "unjustified": false
+    },
+    {
+     "victim": "Boget",
+     "lv": 31,
+     "date": "18 August 2026 (06:43)",
+     "unjustified": true
+    },
+    {
+     "victim": "Dikviga Gli",
+     "lv": 13,
+     "date": "18 August 2026 (06:43)",
+     "unjustified": true
+    },
+    {
+     "victim": "Nox",
+     "lv": 62,
+     "date": "02 September 2026 (00:02)",
+     "unjustified": false
+    }
+   ]
+  },
+  "Oneweek": {
+   "name": "Oneweek",
+   "level": 170,
+   "vocation": "Elite Knight",
+   "residence": "Darashia",
+   "last_login": "14 October 2026 (22:44)",
+   "times_died_pvp": 0,
+   "kills": 3,
+   "unjustified": 1,
+   "justified": 2,
+   "avg_victim_level": 37.0,
+   "level_gap": 133.0,
+   "danger_score": 31.1,
+   "class": "Occasional PK",
+   "victims": [
+    {
+     "victim": "Boget",
+     "lv": 31,
+     "date": "18 August 2026 (06:43)",
+     "unjustified": true
+    },
+    {
+     "victim": "Massu",
+     "lv": 50,
+     "date": "13 August 2026 (09:50)",
+     "unjustified": false
+    },
+    {
+     "victim": "Hemaskask",
+     "lv": 30,
+     "date": "11 August 2026 (21:37)",
+     "unjustified": false
     }
    ]
   },
@@ -18045,7 +18251,7 @@
    "level": 53,
    "vocation": "Master Sorcerer",
    "residence": "Venore",
-   "last_login": "08 October 2026 (22:28)",
+   "last_login": "17 October 2026 (08:36)",
    "times_died_pvp": 2,
    "kills": 2,
    "unjustified": 1,
@@ -18200,65 +18406,6 @@
      "lv": 11,
      "date": "27 June 2026 (07:11)",
      "unjustified": true
-    }
-   ]
-  },
-  "Yuno Valaa": {
-   "name": "Yuno Valaa",
-   "level": 63,
-   "vocation": "Paladin",
-   "residence": "Thais",
-   "last_login": "06 August 2026 (17:54)",
-   "times_died_pvp": 3,
-   "kills": 7,
-   "unjustified": 2,
-   "justified": 5,
-   "avg_victim_level": 35.7,
-   "level_gap": 27.3,
-   "danger_score": 33.9,
-   "class": "PK / Assassin",
-   "victims": [
-    {
-     "victim": "Youdiedafkhuehue",
-     "lv": 24,
-     "date": "31 May 2026 (20:12)",
-     "unjustified": false
-    },
-    {
-     "victim": "Xi Xinping",
-     "lv": 54,
-     "date": "21 June 2026 (05:03)",
-     "unjustified": false
-    },
-    {
-     "victim": "Brians Return",
-     "lv": 52,
-     "date": "17 June 2026 (08:23)",
-     "unjustified": true
-    },
-    {
-     "victim": "Ibro Chlcken Wing",
-     "lv": 56,
-     "date": "09 June 2026 (00:22)",
-     "unjustified": true
-    },
-    {
-     "victim": "Capoeira",
-     "lv": 23,
-     "date": "08 June 2026 (05:49)",
-     "unjustified": false
-    },
-    {
-     "victim": "Youdiedafkhuehue",
-     "lv": 23,
-     "date": "04 June 2026 (01:59)",
-     "unjustified": false
-    },
-    {
-     "victim": "Potreck",
-     "lv": 18,
-     "date": "02 June 2026 (02:11)",
-     "unjustified": false
     }
    ]
   },
@@ -18458,20 +18605,14 @@
    "residence": "Thais",
    "last_login": "07 August 2026 (00:32)",
    "times_died_pvp": 1,
-   "kills": 6,
-   "unjustified": 5,
+   "kills": 5,
+   "unjustified": 4,
    "justified": 1,
-   "avg_victim_level": 28.2,
-   "level_gap": 35.8,
-   "danger_score": 63.5,
-   "class": "PK / Serial",
+   "avg_victim_level": 25.6,
+   "level_gap": 38.4,
+   "danger_score": 52.3,
+   "class": "PK / Assassin",
    "victims": [
-    {
-     "victim": "Perrito De Calle",
-     "lv": 41,
-     "date": "28 July 2026 (00:52)",
-     "unjustified": true
-    },
     {
      "victim": "Vaca Amarella",
      "lv": 18,
@@ -18590,7 +18731,7 @@
    "level": 8,
    "vocation": "Paladin",
    "residence": "Venore",
-   "last_login": "25 June 2026 (12:02)",
+   "last_login": "16 October 2026 (20:23)",
    "times_died_pvp": 0,
    "kills": 1,
    "unjustified": 1,
@@ -18802,12 +18943,12 @@
    "residence": "Thais",
    "last_login": "31 July 2026 (06:12)",
    "times_died_pvp": 5,
-   "kills": 11,
-   "unjustified": 7,
+   "kills": 10,
+   "unjustified": 6,
    "justified": 4,
-   "avg_victim_level": 34.3,
-   "level_gap": -7.3,
-   "danger_score": 86.5,
+   "avg_victim_level": 33.4,
+   "level_gap": -6.4,
+   "danger_score": 75.0,
    "class": "PK / Serial",
    "victims": [
     {
@@ -18850,12 +18991,6 @@
      "victim": "Dayanara",
      "lv": 21,
      "date": "22 June 2026 (18:48)",
-     "unjustified": true
-    },
-    {
-     "victim": "Elmata Sanos",
-     "lv": 43,
-     "date": "22 June 2026 (04:38)",
      "unjustified": true
     },
     {
@@ -19247,7 +19382,7 @@
    "level": 126,
    "vocation": "Elite Knight",
    "residence": "Thais",
-   "last_login": "12 October 2026 (03:04)",
+   "last_login": "19 October 2026 (18:34)",
    "times_died_pvp": 3,
    "kills": 4,
    "unjustified": 0,
@@ -19447,7 +19582,7 @@
    "level": 20,
    "vocation": "Knight",
    "residence": "Thais",
-   "last_login": "23 September 2026 (03:04)",
+   "last_login": "13 October 2026 (00:46)",
    "times_died_pvp": 1,
    "kills": 4,
    "unjustified": 2,
@@ -19488,7 +19623,7 @@
    "level": 12,
    "vocation": "Druid",
    "residence": "Venore",
-   "last_login": "09 October 2026 (22:35)",
+   "last_login": "18 October 2026 (20:26)",
    "times_died_pvp": 3,
    "kills": 1,
    "unjustified": 0,
@@ -19959,6 +20094,59 @@
     }
    ]
   },
+  "Yuno Valaa": {
+   "name": "Yuno Valaa",
+   "level": 63,
+   "vocation": "Paladin",
+   "residence": "Thais",
+   "last_login": "06 August 2026 (17:54)",
+   "times_died_pvp": 3,
+   "kills": 6,
+   "unjustified": 1,
+   "justified": 5,
+   "avg_victim_level": 33.0,
+   "level_gap": 30.0,
+   "danger_score": 22.8,
+   "class": "Occasional PK",
+   "victims": [
+    {
+     "victim": "Youdiedafkhuehue",
+     "lv": 24,
+     "date": "31 May 2026 (20:12)",
+     "unjustified": false
+    },
+    {
+     "victim": "Xi Xinping",
+     "lv": 54,
+     "date": "21 June 2026 (05:03)",
+     "unjustified": false
+    },
+    {
+     "victim": "Ibro Chlcken Wing",
+     "lv": 56,
+     "date": "09 June 2026 (00:22)",
+     "unjustified": true
+    },
+    {
+     "victim": "Capoeira",
+     "lv": 23,
+     "date": "08 June 2026 (05:49)",
+     "unjustified": false
+    },
+    {
+     "victim": "Youdiedafkhuehue",
+     "lv": 23,
+     "date": "04 June 2026 (01:59)",
+     "unjustified": false
+    },
+    {
+     "victim": "Potreck",
+     "lv": 18,
+     "date": "02 June 2026 (02:11)",
+     "unjustified": false
+    }
+   ]
+  },
   "Winnie Harizad": {
    "name": "Winnie Harizad",
    "level": 56,
@@ -20065,19 +20253,19 @@
     }
    ]
   },
-  "Jerusky": {
-   "name": "Jerusky",
-   "level": 96,
+  "Furionek": {
+   "name": "Furionek",
+   "level": 98,
    "vocation": "Royal Paladin",
-   "residence": "Edron",
-   "last_login": "27 September 2026 (18:27)",
+   "residence": "Venore",
+   "last_login": "18 October 2026 (23:44)",
    "times_died_pvp": 1,
    "kills": 38,
    "unjustified": 11,
    "justified": 27,
    "avg_victim_level": 35.7,
-   "level_gap": 60.3,
-   "danger_score": 174.5,
+   "level_gap": 62.3,
+   "danger_score": 174.8,
    "class": "PK / Serial",
    "victims": [
     {
@@ -21656,7 +21844,7 @@
    "level": 17,
    "vocation": "Sorcerer",
    "residence": "Darashia",
-   "last_login": "20 August 2026 (04:46)",
+   "last_login": "19 October 2026 (06:14)",
    "times_died_pvp": 3,
    "kills": 4,
    "unjustified": 4,
@@ -21696,8 +21884,8 @@
    "name": "Krono",
    "level": 61,
    "vocation": "Elite Knight",
-   "residence": "Darashia",
-   "last_login": "18 August 2026 (03:39)",
+   "residence": "Thais",
+   "last_login": "19 October 2026 (11:15)",
    "times_died_pvp": 4,
    "kills": 3,
    "unjustified": 2,
@@ -21879,7 +22067,7 @@
    "level": 61,
    "vocation": "Master Sorcerer",
    "residence": "Thais",
-   "last_login": "12 October 2026 (05:32)",
+   "last_login": "17 October 2026 (00:38)",
    "times_died_pvp": 0,
    "kills": 3,
    "unjustified": 2,
@@ -22029,9 +22217,9 @@
   "Washoqlaoloco": {
    "name": "Washoqlaoloco",
    "level": 38,
-   "vocation": "Paladin",
+   "vocation": "Royal Paladin",
    "residence": "Thais",
-   "last_login": "09 October 2026 (22:59)",
+   "last_login": "13 October 2026 (06:18)",
    "times_died_pvp": 0,
    "kills": 1,
    "unjustified": 1,
@@ -22794,9 +22982,9 @@
   "Philipss": {
    "name": "Philipss",
    "level": 22,
-   "vocation": "Druid",
+   "vocation": "Elder Druid",
    "residence": "Thais",
-   "last_login": "08 October 2026 (23:42)",
+   "last_login": "14 October 2026 (02:25)",
    "times_died_pvp": 5,
    "kills": 2,
    "unjustified": 0,
@@ -23311,7 +23499,7 @@
    "level": 32,
    "vocation": "Paladin",
    "residence": "Thais",
-   "last_login": "12 October 2026 (09:51)",
+   "last_login": "15 October 2026 (17:41)",
    "times_died_pvp": 3,
    "kills": 8,
    "unjustified": 7,
@@ -23465,7 +23653,7 @@
    "level": 118,
    "vocation": "Master Sorcerer",
    "residence": "Thais",
-   "last_login": "10 October 2026 (17:40)",
+   "last_login": "18 October 2026 (22:29)",
    "times_died_pvp": 0,
    "kills": 9,
    "unjustified": 1,
@@ -23728,9 +23916,9 @@
   "Royal Kimi": {
    "name": "Royal Kimi",
    "level": 98,
-   "vocation": "Paladin",
+   "vocation": "Royal Paladin",
    "residence": "Thais",
-   "last_login": "12 October 2026 (17:30)",
+   "last_login": "19 October 2026 (04:57)",
    "times_died_pvp": 4,
    "kills": 12,
    "unjustified": 2,
@@ -23860,7 +24048,7 @@
    "level": 93,
    "vocation": "Royal Paladin",
    "residence": "Thais",
-   "last_login": "11 October 2026 (22:34)",
+   "last_login": "17 October 2026 (00:58)",
    "times_died_pvp": 2,
    "kills": 3,
    "unjustified": 0,
@@ -24035,21 +24223,27 @@
    "level": 149,
    "vocation": "Elite Knight",
    "residence": "Darashia",
-   "last_login": "12 October 2026 (18:05)",
+   "last_login": "19 October 2026 (18:18)",
    "times_died_pvp": 0,
-   "kills": 1,
-   "unjustified": 0,
+   "kills": 2,
+   "unjustified": 1,
    "justified": 1,
-   "avg_victim_level": 12.0,
-   "level_gap": 137.0,
-   "danger_score": 1.5,
-   "class": "Guild-war / justified",
+   "avg_victim_level": 40.0,
+   "level_gap": 109.0,
+   "danger_score": 26.6,
+   "class": "Occasional PK",
    "victims": [
     {
      "victim": "Crezrock",
      "lv": 12,
      "date": "31 July 2026 (21:26)",
      "unjustified": false
+    },
+    {
+     "victim": "Malone",
+     "lv": 68,
+     "date": "16 October 2026 (08:30)",
+     "unjustified": true
     }
    ]
   },
@@ -24090,23 +24284,29 @@
   },
   "Fastsd": {
    "name": "Fastsd",
-   "level": 138,
+   "level": 146,
    "vocation": "Master Sorcerer",
    "residence": "Darashia",
-   "last_login": "12 October 2026 (16:52)",
+   "last_login": "19 October 2026 (16:38)",
    "times_died_pvp": 2,
-   "kills": 3,
+   "kills": 4,
    "unjustified": 0,
-   "justified": 3,
-   "avg_victim_level": 19.0,
-   "level_gap": 119.0,
-   "danger_score": 4.5,
+   "justified": 4,
+   "avg_victim_level": 48.8,
+   "level_gap": 97.2,
+   "danger_score": 6.0,
    "class": "Guild-war / justified",
    "victims": [
     {
      "victim": "Juanchopepa",
      "lv": 21,
      "date": "15 June 2026 (23:34)",
+     "unjustified": false
+    },
+    {
+     "victim": "Lord Jerusky",
+     "lv": 138,
+     "date": "14 October 2026 (07:09)",
      "unjustified": false
     },
     {
@@ -24128,7 +24328,7 @@
    "level": 151,
    "vocation": "Elite Knight",
    "residence": "Nivarya",
-   "last_login": "12 October 2026 (19:13)",
+   "last_login": "19 October 2026 (18:36)",
    "times_died_pvp": 1,
    "kills": 4,
    "unjustified": 0,
@@ -25458,7 +25658,7 @@
    "level": 66,
    "vocation": "Elite Knight",
    "residence": "Ankrahmun",
-   "last_login": "12 October 2026 (02:41)",
+   "last_login": "18 October 2026 (05:25)",
    "times_died_pvp": 2,
    "kills": 5,
    "unjustified": 4,
@@ -25578,17 +25778,17 @@
   },
   "Cavalo De Rassa": {
    "name": "Cavalo De Rassa",
-   "level": 89,
+   "level": 87,
    "vocation": "Royal Paladin",
    "residence": "Carlin",
-   "last_login": "12 October 2026 (08:20)",
+   "last_login": "18 October 2026 (17:28)",
    "times_died_pvp": 2,
    "kills": 1,
    "unjustified": 1,
    "justified": 0,
    "avg_victim_level": 28.0,
-   "level_gap": 61.0,
-   "danger_score": 19.1,
+   "level_gap": 59.0,
+   "danger_score": 18.9,
    "class": "Occasional PK",
    "victims": [
     {
@@ -25606,12 +25806,12 @@
    "residence": "Ankrahmun",
    "last_login": "03 October 2026 (22:31)",
    "times_died_pvp": 1,
-   "kills": 6,
+   "kills": 5,
    "unjustified": 1,
-   "justified": 5,
-   "avg_victim_level": 45.3,
-   "level_gap": 75.7,
-   "danger_score": 28.5,
+   "justified": 4,
+   "avg_victim_level": 43.4,
+   "level_gap": 77.6,
+   "danger_score": 27.2,
    "class": "Occasional PK",
    "victims": [
     {
@@ -25642,12 +25842,6 @@
      "victim": "Dementador",
      "lv": 30,
      "date": "17 August 2026 (02:39)",
-     "unjustified": false
-    },
-    {
-     "victim": "Malone",
-     "lv": 55,
-     "date": "01 September 2026 (03:59)",
      "unjustified": false
     }
    ]
@@ -26679,53 +26873,6 @@
     }
    ]
   },
-  "Mataca": {
-   "name": "Mataca",
-   "level": 162,
-   "vocation": "Royal Paladin",
-   "residence": "Nivarya",
-   "last_login": "12 October 2026 (09:56)",
-   "times_died_pvp": 0,
-   "kills": 5,
-   "unjustified": 2,
-   "justified": 3,
-   "avg_victim_level": 38.0,
-   "level_gap": 124.0,
-   "danger_score": 43.0,
-   "class": "PK / Assassin",
-   "victims": [
-    {
-     "victim": "Mago Merlin",
-     "lv": 23,
-     "date": "21 September 2026 (07:00)",
-     "unjustified": true
-    },
-    {
-     "victim": "Putifarry",
-     "lv": 79,
-     "date": "21 August 2026 (22:28)",
-     "unjustified": false
-    },
-    {
-     "victim": "Pumpek",
-     "lv": 13,
-     "date": "18 July 2026 (03:15)",
-     "unjustified": false
-    },
-    {
-     "victim": "Dikviga Gli",
-     "lv": 13,
-     "date": "18 August 2026 (06:43)",
-     "unjustified": true
-    },
-    {
-     "victim": "Nox",
-     "lv": 62,
-     "date": "02 September 2026 (00:02)",
-     "unjustified": false
-    }
-   ]
-  },
   "Cestos": {
    "name": "Cestos",
    "level": 25,
@@ -26804,17 +26951,17 @@
   },
   "Br N": {
    "name": "Br N",
-   "level": 166,
+   "level": 167,
    "vocation": "Elite Knight",
    "residence": "Nivarya",
-   "last_login": "10 October 2026 (03:32)",
+   "last_login": "14 October 2026 (03:15)",
    "times_died_pvp": 0,
    "kills": 3,
    "unjustified": 1,
    "justified": 2,
    "avg_victim_level": 27.7,
-   "level_gap": 138.3,
-   "danger_score": 31.8,
+   "level_gap": 139.3,
+   "danger_score": 31.9,
    "class": "Occasional PK",
    "victims": [
     {
@@ -27489,16 +27636,16 @@
   },
   "Perrito De Calle": {
    "name": "Perrito De Calle",
-   "level": 60,
+   "level": 59,
    "vocation": "Master Sorcerer",
    "residence": "Ankrahmun",
-   "last_login": "12 October 2026 (14:11)",
+   "last_login": "19 October 2026 (06:33)",
    "times_died_pvp": 3,
    "kills": 1,
    "unjustified": 0,
    "justified": 1,
    "avg_victim_level": 33.0,
-   "level_gap": 27.0,
+   "level_gap": 26.0,
    "danger_score": 1.5,
    "class": "Guild-war / justified",
    "victims": [
@@ -27978,7 +28125,7 @@
    "level": 28,
    "vocation": "Sorcerer",
    "residence": "Thais",
-   "last_login": "07 August 2026 (02:20)",
+   "last_login": "19 October 2026 (18:15)",
    "times_died_pvp": 3,
    "kills": 1,
    "unjustified": 0,
@@ -28104,17 +28251,17 @@
   },
   "Malone": {
    "name": "Malone",
-   "level": 68,
+   "level": 66,
    "vocation": "Master Sorcerer",
    "residence": "Carlin",
-   "last_login": "12 October 2026 (08:52)",
+   "last_login": "19 October 2026 (07:30)",
    "times_died_pvp": 4,
    "kills": 10,
    "unjustified": 5,
    "justified": 5,
    "avg_victim_level": 28.8,
-   "level_gap": 39.2,
-   "danger_score": 69.9,
+   "level_gap": 37.2,
+   "danger_score": 69.7,
    "class": "PK / Serial",
    "victims": [
     {
@@ -28908,7 +29055,7 @@
    "level": 70,
    "vocation": "Knight",
    "residence": "Thais",
-   "last_login": "15 September 2026 (21:51)",
+   "last_login": "12 October 2026 (23:27)",
    "times_died_pvp": 4,
    "kills": 4,
    "unjustified": 4,
@@ -29389,9 +29536,9 @@
   "Tamacti Jun": {
    "name": "Tamacti Jun",
    "level": 48,
-   "vocation": "Elder Druid",
+   "vocation": "Druid",
    "residence": "Thais",
-   "last_login": "26 June 2026 (05:07)",
+   "last_login": "19 October 2026 (03:28)",
    "times_died_pvp": 3,
    "kills": 2,
    "unjustified": 1,
@@ -29967,7 +30114,7 @@
    "level": 11,
    "vocation": "Knight",
    "residence": "Thais",
-   "last_login": "11 October 2026 (02:59)",
+   "last_login": "16 October 2026 (00:46)",
    "times_died_pvp": 2,
    "kills": 1,
    "unjustified": 1,
@@ -30235,7 +30382,7 @@
    "level": 101,
    "vocation": "Royal Paladin",
    "residence": "Darashia",
-   "last_login": "11 October 2026 (05:02)",
+   "last_login": "19 October 2026 (17:50)",
    "times_died_pvp": 2,
    "kills": 6,
    "unjustified": 2,
@@ -30334,14 +30481,14 @@
    "level": 107,
    "vocation": "Paladin",
    "residence": "Thais",
-   "last_login": "11 October 2026 (07:26)",
+   "last_login": "19 October 2026 (14:19)",
    "times_died_pvp": 5,
-   "kills": 13,
-   "unjustified": 5,
+   "kills": 14,
+   "unjustified": 6,
    "justified": 8,
-   "avg_victim_level": 76.8,
-   "level_gap": 30.2,
-   "danger_score": 73.3,
+   "avg_victim_level": 76.7,
+   "level_gap": 30.3,
+   "danger_score": 84.8,
    "class": "PK / Serial",
    "victims": [
     {
@@ -30372,6 +30519,12 @@
      "victim": "Fantaus",
      "lv": 69,
      "date": "21 June 2026 (05:05)",
+     "unjustified": true
+    },
+    {
+     "victim": "White Mage",
+     "lv": 76,
+     "date": "13 October 2026 (08:02)",
      "unjustified": true
     },
     {
@@ -30920,7 +31073,7 @@
    "level": 49,
    "vocation": "Paladin",
    "residence": "Venore",
-   "last_login": "12 October 2026 (09:10)",
+   "last_login": "16 October 2026 (01:11)",
    "times_died_pvp": 0,
    "kills": 2,
    "unjustified": 0,
@@ -31089,7 +31242,7 @@
    "level": 58,
    "vocation": "Master Sorcerer",
    "residence": "Thais",
-   "last_login": "09 October 2026 (22:50)",
+   "last_login": "13 October 2026 (02:06)",
    "times_died_pvp": 3,
    "kills": 2,
    "unjustified": 1,
@@ -31509,7 +31662,7 @@
    "level": 14,
    "vocation": "Druid",
    "residence": "Venore",
-   "last_login": "11 October 2026 (11:15)",
+   "last_login": "19 October 2026 (03:03)",
    "times_died_pvp": 5,
    "kills": 2,
    "unjustified": 1,
@@ -31856,9 +32009,9 @@
   "Lord Silia": {
    "name": "Lord Silia",
    "level": 44,
-   "vocation": "Royal Paladin",
-   "residence": "Nivarya",
-   "last_login": "15 August 2026 (21:31)",
+   "vocation": "Paladin",
+   "residence": "Thais",
+   "last_login": "15 October 2026 (19:56)",
    "times_died_pvp": 2,
    "kills": 2,
    "unjustified": 2,
@@ -32196,7 +32349,7 @@
    "level": 134,
    "vocation": "Elite Knight",
    "residence": "Edron",
-   "last_login": "12 October 2026 (02:58)",
+   "last_login": "18 October 2026 (10:14)",
    "times_died_pvp": 3,
    "kills": 8,
    "unjustified": 5,
@@ -32275,29 +32428,6 @@
      "victim": "Giant Tizok",
      "lv": 53,
      "date": "16 June 2026 (06:45)",
-     "unjustified": true
-    }
-   ]
-  },
-  "Huntsman": {
-   "name": "Huntsman",
-   "level": 16,
-   "vocation": "Paladin",
-   "residence": "Darashia",
-   "last_login": "12 June 2026 (16:34)",
-   "times_died_pvp": 1,
-   "kills": 1,
-   "unjustified": 1,
-   "justified": 0,
-   "avg_victim_level": 33.0,
-   "level_gap": -17.0,
-   "danger_score": 11.5,
-   "class": "Occasional PK",
-   "victims": [
-    {
-     "victim": "Giant Tizok",
-     "lv": 33,
-     "date": "29 May 2026 (23:41)",
      "unjustified": true
     }
    ]
@@ -32706,17 +32836,17 @@
   },
   "Urek Mazino": {
    "name": "Urek Mazino",
-   "level": 101,
+   "level": 102,
    "vocation": "Elite Knight",
    "residence": "Carlin",
-   "last_login": "12 October 2026 (17:28)",
+   "last_login": "19 October 2026 (09:11)",
    "times_died_pvp": 2,
    "kills": 3,
    "unjustified": 1,
    "justified": 2,
    "avg_victim_level": 23.0,
-   "level_gap": 78.0,
-   "danger_score": 24.2,
+   "level_gap": 79.0,
+   "danger_score": 24.4,
    "class": "Occasional PK",
    "victims": [
     {
@@ -32741,17 +32871,17 @@
   },
   "Phyzter": {
    "name": "Phyzter",
-   "level": 146,
+   "level": 147,
    "vocation": "Elder Druid",
    "residence": "Ankrahmun",
-   "last_login": "12 October 2026 (19:33)",
+   "last_login": "19 October 2026 (08:14)",
    "times_died_pvp": 0,
    "kills": 6,
    "unjustified": 4,
    "justified": 2,
    "avg_victim_level": 36.3,
-   "level_gap": 109.7,
-   "danger_score": 62.7,
+   "level_gap": 110.7,
+   "danger_score": 62.8,
    "class": "PK / Assassin",
    "victims": [
     {
@@ -32797,7 +32927,7 @@
    "level": 62,
    "vocation": "Royal Paladin",
    "residence": "Carlin",
-   "last_login": "08 October 2026 (08:38)",
+   "last_login": "19 October 2026 (09:15)",
    "times_died_pvp": 2,
    "kills": 2,
    "unjustified": 1,
@@ -32999,7 +33129,7 @@
    "level": 11,
    "vocation": "Paladin",
    "residence": "Thais",
-   "last_login": "09 October 2026 (22:34)",
+   "last_login": "19 October 2026 (02:40)",
    "times_died_pvp": 2,
    "kills": 3,
    "unjustified": 2,
@@ -33081,47 +33211,18 @@
     }
    ]
   },
-  "Oneweek": {
-   "name": "Oneweek",
-   "level": 170,
-   "vocation": "Elite Knight",
-   "residence": "Darashia",
-   "last_login": "11 October 2026 (00:56)",
-   "times_died_pvp": 0,
-   "kills": 2,
-   "unjustified": 0,
-   "justified": 2,
-   "avg_victim_level": 40.0,
-   "level_gap": 130.0,
-   "danger_score": 3.0,
-   "class": "Guild-war / justified",
-   "victims": [
-    {
-     "victim": "Massu",
-     "lv": 50,
-     "date": "13 August 2026 (09:50)",
-     "unjustified": false
-    },
-    {
-     "victim": "Hemaskask",
-     "lv": 30,
-     "date": "11 August 2026 (21:37)",
-     "unjustified": false
-    }
-   ]
-  },
   "Positive": {
    "name": "Positive",
-   "level": 109,
+   "level": 110,
    "vocation": "Royal Paladin",
    "residence": "Ankrahmun",
-   "last_login": "11 October 2026 (11:12)",
+   "last_login": "19 October 2026 (18:09)",
    "times_died_pvp": 0,
    "kills": 1,
    "unjustified": 0,
    "justified": 1,
    "avg_victim_level": 30.0,
-   "level_gap": 79.0,
+   "level_gap": 80.0,
    "danger_score": 1.5,
    "class": "Guild-war / justified",
    "victims": [
@@ -33570,7 +33671,7 @@
    "level": 91,
    "vocation": "Elite Knight",
    "residence": "Carlin",
-   "last_login": "12 October 2026 (17:30)",
+   "last_login": "19 October 2026 (06:03)",
    "times_died_pvp": 2,
    "kills": 2,
    "unjustified": 2,
@@ -33680,7 +33781,7 @@
    "level": 147,
    "vocation": "Elite Knight",
    "residence": "Nivarya",
-   "last_login": "26 September 2026 (19:52)",
+   "last_login": "17 October 2026 (15:40)",
    "times_died_pvp": 1,
    "kills": 4,
    "unjustified": 1,
@@ -34419,7 +34520,7 @@
    "level": 8,
    "vocation": "Druid",
    "residence": "Venore",
-   "last_login": "15 August 2026 (18:21)",
+   "last_login": "13 October 2026 (08:41)",
    "times_died_pvp": 4,
    "kills": 2,
    "unjustified": 2,
@@ -34483,7 +34584,7 @@
    "level": 113,
    "vocation": "Elite Knight",
    "residence": "Darashia",
-   "last_login": "12 October 2026 (01:13)",
+   "last_login": "19 October 2026 (07:52)",
    "times_died_pvp": 1,
    "kills": 1,
    "unjustified": 1,
@@ -34752,47 +34853,6 @@
      "victim": "Jenja",
      "lv": 20,
      "date": "18 June 2026 (19:55)",
-     "unjustified": false
-    }
-   ]
-  },
-  "Pragmatic Panda": {
-   "name": "Pragmatic Panda",
-   "level": 174,
-   "vocation": "Royal Paladin",
-   "residence": "Darashia",
-   "last_login": "11 October 2026 (10:22)",
-   "times_died_pvp": 0,
-   "kills": 4,
-   "unjustified": 0,
-   "justified": 4,
-   "avg_victim_level": 59.0,
-   "level_gap": 115.0,
-   "danger_score": 6.0,
-   "class": "Guild-war / justified",
-   "victims": [
-    {
-     "victim": "Jerusky",
-     "lv": 79,
-     "date": "19 August 2026 (06:46)",
-     "unjustified": false
-    },
-    {
-     "victim": "Pally Bruto",
-     "lv": 81,
-     "date": "19 August 2026 (06:46)",
-     "unjustified": false
-    },
-    {
-     "victim": "Nox",
-     "lv": 63,
-     "date": "19 August 2026 (06:45)",
-     "unjustified": false
-    },
-    {
-     "victim": "Lord Rato",
-     "lv": 13,
-     "date": "17 August 2026 (09:42)",
      "unjustified": false
     }
    ]
@@ -35419,7 +35479,7 @@
    "level": 92,
    "vocation": "Elite Knight",
    "residence": "Edron",
-   "last_login": "10 October 2026 (22:24)",
+   "last_login": "17 October 2026 (01:38)",
    "times_died_pvp": 1,
    "kills": 2,
    "unjustified": 0,
@@ -35749,7 +35809,7 @@
    "level": 64,
    "vocation": "Elder Druid",
    "residence": "Thais",
-   "last_login": "12 October 2026 (15:51)",
+   "last_login": "19 October 2026 (17:14)",
    "times_died_pvp": 1,
    "kills": 1,
    "unjustified": 0,
@@ -35772,7 +35832,7 @@
    "level": 61,
    "vocation": "Master Sorcerer",
    "residence": "Thais",
-   "last_login": "08 October 2026 (08:16)",
+   "last_login": "14 October 2026 (09:56)",
    "times_died_pvp": 3,
    "kills": 1,
    "unjustified": 0,
@@ -35842,53 +35902,12 @@
     }
    ]
   },
-  "Lothricc": {
-   "name": "Lothricc",
-   "level": 126,
-   "vocation": "Elite Knight",
-   "residence": "Edron",
-   "last_login": "09 October 2026 (22:39)",
-   "times_died_pvp": 0,
-   "kills": 4,
-   "unjustified": 1,
-   "justified": 3,
-   "avg_victim_level": 35.0,
-   "level_gap": 91.0,
-   "danger_score": 27.4,
-   "class": "Occasional PK",
-   "victims": [
-    {
-     "victim": "Mordziak",
-     "lv": 29,
-     "date": "30 August 2026 (09:00)",
-     "unjustified": false
-    },
-    {
-     "victim": "Mordziak",
-     "lv": 30,
-     "date": "30 August 2026 (08:50)",
-     "unjustified": false
-    },
-    {
-     "victim": "Mordziak",
-     "lv": 31,
-     "date": "30 August 2026 (08:40)",
-     "unjustified": true
-    },
-    {
-     "victim": "Kangal",
-     "lv": 50,
-     "date": "09 August 2026 (18:55)",
-     "unjustified": false
-    }
-   ]
-  },
   "Nixie": {
    "name": "Nixie",
    "level": 55,
    "vocation": "Knight",
    "residence": "Venore",
-   "last_login": "25 August 2026 (15:00)",
+   "last_login": "14 October 2026 (20:04)",
    "times_died_pvp": 3,
    "kills": 1,
    "unjustified": 1,
@@ -36039,7 +36058,7 @@
    "level": 28,
    "vocation": "Druid",
    "residence": "Thais",
-   "last_login": "07 August 2026 (14:03)",
+   "last_login": "16 October 2026 (20:23)",
    "times_died_pvp": 4,
    "kills": 2,
    "unjustified": 2,
@@ -36489,9 +36508,9 @@
   "Ojetedementa": {
    "name": "Ojetedementa",
    "level": 60,
-   "vocation": "Paladin",
+   "vocation": "Royal Paladin",
    "residence": "Venore",
-   "last_login": "09 September 2026 (11:03)",
+   "last_login": "17 October 2026 (04:22)",
    "times_died_pvp": 2,
    "kills": 6,
    "unjustified": 5,
@@ -36587,17 +36606,17 @@
   },
   "Manso Nomenso Ll": {
    "name": "Manso Nomenso Ll",
-   "level": 142,
+   "level": 143,
    "vocation": "Elite Knight",
    "residence": "Thais",
-   "last_login": "12 October 2026 (16:35)",
+   "last_login": "19 October 2026 (05:25)",
    "times_died_pvp": 1,
    "kills": 4,
    "unjustified": 2,
    "justified": 2,
    "avg_victim_level": 45.8,
-   "level_gap": 96.2,
-   "danger_score": 38.0,
+   "level_gap": 97.2,
+   "danger_score": 38.1,
    "class": "PK / Assassin",
    "victims": [
     {
@@ -36984,7 +37003,7 @@
    "level": 104,
    "vocation": "Royal Paladin",
    "residence": "Carlin",
-   "last_login": "10 October 2026 (06:20)",
+   "last_login": "17 October 2026 (02:38)",
    "times_died_pvp": 1,
    "kills": 2,
    "unjustified": 1,
@@ -37264,7 +37283,7 @@
    "level": 13,
    "vocation": "Paladin",
    "residence": "Carlin",
-   "last_login": "29 September 2026 (03:37)",
+   "last_login": "13 October 2026 (02:43)",
    "times_died_pvp": 1,
    "kills": 1,
    "unjustified": 1,
@@ -37508,7 +37527,7 @@
    "level": 17,
    "vocation": "Druid",
    "residence": "Ab'Dendriel",
-   "last_login": "05 October 2026 (07:55)",
+   "last_login": "13 October 2026 (20:06)",
    "times_died_pvp": 2,
    "kills": 1,
    "unjustified": 1,
@@ -37903,7 +37922,7 @@
    "level": 33,
    "vocation": "Master Sorcerer",
    "residence": "Thais",
-   "last_login": "02 October 2026 (05:25)",
+   "last_login": "14 October 2026 (03:06)",
    "times_died_pvp": 1,
    "kills": 1,
    "unjustified": 0,
@@ -37924,9 +37943,9 @@
   "King Size": {
    "name": "King Size",
    "level": 34,
-   "vocation": "Elder Druid",
+   "vocation": "Druid",
    "residence": "Thais",
-   "last_login": "28 July 2026 (08:57)",
+   "last_login": "14 October 2026 (00:09)",
    "times_died_pvp": 3,
    "kills": 1,
    "unjustified": 0,
@@ -38117,7 +38136,7 @@
    "level": 18,
    "vocation": "Elder Druid",
    "residence": "Thais",
-   "last_login": "09 October 2026 (07:36)",
+   "last_login": "18 October 2026 (22:52)",
    "times_died_pvp": 2,
    "kills": 1,
    "unjustified": 0,
@@ -38407,7 +38426,7 @@
    "level": 37,
    "vocation": "Knight",
    "residence": "Carlin",
-   "last_login": "07 October 2026 (02:17)",
+   "last_login": "14 October 2026 (06:57)",
    "times_died_pvp": 2,
    "kills": 3,
    "unjustified": 0,
@@ -38439,17 +38458,17 @@
   },
   "Mike": {
    "name": "Mike",
-   "level": 111,
+   "level": 112,
    "vocation": "Master Sorcerer",
    "residence": "Darashia",
-   "last_login": "12 October 2026 (00:38)",
+   "last_login": "17 October 2026 (08:56)",
    "times_died_pvp": 2,
    "kills": 1,
    "unjustified": 1,
    "justified": 0,
    "avg_victim_level": 53.0,
-   "level_gap": 58.0,
-   "danger_score": 18.8,
+   "level_gap": 59.0,
+   "danger_score": 18.9,
    "class": "Occasional PK",
    "victims": [
     {
@@ -38700,12 +38719,47 @@
     }
    ]
   },
+  "Dziurka": {
+   "name": "Dziurka",
+   "level": 168,
+   "vocation": "Elite Knight",
+   "residence": "Venore",
+   "last_login": "19 October 2026 (16:22)",
+   "times_died_pvp": 0,
+   "kills": 3,
+   "unjustified": 0,
+   "justified": 3,
+   "avg_victim_level": 64.3,
+   "level_gap": 103.7,
+   "danger_score": 4.5,
+   "class": "Guild-war / justified",
+   "victims": [
+    {
+     "victim": "Os Pivete",
+     "lv": 9,
+     "date": "27 June 2026 (18:02)",
+     "unjustified": false
+    },
+    {
+     "victim": "Lord Jerusky",
+     "lv": 138,
+     "date": "14 October 2026 (07:09)",
+     "unjustified": false
+    },
+    {
+     "victim": "Pan Babcia",
+     "lv": 46,
+     "date": "03 August 2026 (20:26)",
+     "unjustified": false
+    }
+   ]
+  },
   "Hakaay": {
    "name": "Hakaay",
    "level": 27,
-   "vocation": "Elder Druid",
-   "residence": "Ankrahmun",
-   "last_login": "14 August 2026 (22:03)",
+   "vocation": "Druid",
+   "residence": "Thais",
+   "last_login": "16 October 2026 (22:48)",
    "times_died_pvp": 3,
    "kills": 1,
    "unjustified": 1,
@@ -38858,16 +38912,16 @@
   },
   "Patas Scar": {
    "name": "Patas Scar",
-   "level": 125,
+   "level": 129,
    "vocation": "Elder Druid",
    "residence": "Darashia",
-   "last_login": "11 October 2026 (22:44)",
+   "last_login": "19 October 2026 (08:09)",
    "times_died_pvp": 0,
    "kills": 4,
    "unjustified": 0,
    "justified": 4,
    "avg_victim_level": 46.2,
-   "level_gap": 78.8,
+   "level_gap": 82.8,
    "danger_score": 6.0,
    "class": "Guild-war / justified",
    "victims": [
@@ -39116,7 +39170,7 @@
    "level": 100,
    "vocation": "Elite Knight",
    "residence": "Ab'Dendriel",
-   "last_login": "11 October 2026 (22:20)",
+   "last_login": "18 October 2026 (16:32)",
    "times_died_pvp": 0,
    "kills": 2,
    "unjustified": 1,
@@ -39414,16 +39468,16 @@
   },
   "Nymeria": {
    "name": "Nymeria",
-   "level": 61,
+   "level": 67,
    "vocation": "Royal Paladin",
    "residence": "Darashia",
-   "last_login": "12 October 2026 (00:26)",
+   "last_login": "19 October 2026 (15:10)",
    "times_died_pvp": 4,
    "kills": 1,
    "unjustified": 0,
    "justified": 1,
    "avg_victim_level": 15.0,
-   "level_gap": 46.0,
+   "level_gap": 52.0,
    "danger_score": 1.5,
    "class": "Guild-war / justified",
    "victims": [
@@ -39437,16 +39491,16 @@
   },
   "Mrfloppy": {
    "name": "Mrfloppy",
-   "level": 56,
+   "level": 58,
    "vocation": "Elite Knight",
    "residence": "Thais",
-   "last_login": "09 October 2026 (15:00)",
+   "last_login": "18 October 2026 (22:18)",
    "times_died_pvp": 2,
    "kills": 1,
    "unjustified": 0,
    "justified": 1,
    "avg_victim_level": 15.0,
-   "level_gap": 41.0,
+   "level_gap": 43.0,
    "danger_score": 1.5,
    "class": "Guild-war / justified",
    "victims": [
@@ -39728,16 +39782,16 @@
   },
   "Giant Tizok": {
    "name": "Giant Tizok",
-   "level": 70,
+   "level": 68,
    "vocation": "Elite Knight",
    "residence": "Thais",
-   "last_login": "10 October 2026 (00:47)",
-   "times_died_pvp": 4,
+   "last_login": "17 October 2026 (06:15)",
+   "times_died_pvp": 3,
    "kills": 2,
    "unjustified": 0,
    "justified": 2,
    "avg_victim_level": 15.5,
-   "level_gap": 54.5,
+   "level_gap": 52.5,
    "danger_score": 3.0,
    "class": "Guild-war / justified",
    "victims": [
@@ -39997,7 +40051,7 @@
    "level": 18,
    "vocation": "Druid",
    "residence": "Thais",
-   "last_login": "02 September 2026 (16:51)",
+   "last_login": "16 October 2026 (19:03)",
    "times_died_pvp": 4,
    "kills": 1,
    "unjustified": 0,
@@ -40351,7 +40405,7 @@
    "level": 52,
    "vocation": "Royal Paladin",
    "residence": "Thais",
-   "last_login": "08 October 2026 (14:02)",
+   "last_login": "13 October 2026 (11:17)",
    "times_died_pvp": 2,
    "kills": 1,
    "unjustified": 0,
@@ -40607,7 +40661,7 @@
    "level": 18,
    "vocation": "Paladin",
    "residence": "Thais",
-   "last_login": "15 September 2026 (21:46)",
+   "last_login": "12 October 2026 (23:28)",
    "times_died_pvp": 0,
    "kills": 1,
    "unjustified": 0,
@@ -40740,7 +40794,7 @@
    "level": 21,
    "vocation": "Royal Paladin",
    "residence": "Nivarya",
-   "last_login": "12 October 2026 (03:23)",
+   "last_login": "17 October 2026 (07:46)",
    "times_died_pvp": 1,
    "kills": 1,
    "unjustified": 1,
@@ -40809,7 +40863,7 @@
    "level": 50,
    "vocation": "Elite Knight",
    "residence": "Thais",
-   "last_login": "04 October 2026 (03:50)",
+   "last_login": "18 October 2026 (23:48)",
    "times_died_pvp": 3,
    "kills": 1,
    "unjustified": 0,
@@ -40925,7 +40979,7 @@
    "level": 30,
    "vocation": "Master Sorcerer",
    "residence": "Edron",
-   "last_login": "20 August 2026 (01:32)",
+   "last_login": "19 October 2026 (15:14)",
    "times_died_pvp": 4,
    "kills": 5,
    "unjustified": 1,
@@ -41419,7 +41473,7 @@
    "level": 27,
    "vocation": "Elder Druid",
    "residence": "Carlin",
-   "last_login": "07 October 2026 (08:35)",
+   "last_login": "14 October 2026 (06:54)",
    "times_died_pvp": 0,
    "kills": 1,
    "unjustified": 0,
@@ -41821,16 +41875,16 @@
   },
   "Elmata Sanos": {
    "name": "Elmata Sanos",
-   "level": 39,
+   "level": 38,
    "vocation": "Master Sorcerer",
    "residence": "Edron",
-   "last_login": "11 October 2026 (06:17)",
+   "last_login": "17 October 2026 (01:39)",
    "times_died_pvp": 5,
    "kills": 1,
    "unjustified": 0,
    "justified": 1,
    "avg_victim_level": 25.0,
-   "level_gap": 14.0,
+   "level_gap": 13.0,
    "danger_score": 1.5,
    "class": "Guild-war / justified",
    "victims": [
@@ -42547,35 +42601,6 @@
     }
    ]
   },
-  "Dziurka": {
-   "name": "Dziurka",
-   "level": 164,
-   "vocation": "Elite Knight",
-   "residence": "Venore",
-   "last_login": "12 October 2026 (16:27)",
-   "times_died_pvp": 0,
-   "kills": 2,
-   "unjustified": 0,
-   "justified": 2,
-   "avg_victim_level": 27.5,
-   "level_gap": 136.5,
-   "danger_score": 3.0,
-   "class": "Guild-war / justified",
-   "victims": [
-    {
-     "victim": "Os Pivete",
-     "lv": 9,
-     "date": "27 June 2026 (18:02)",
-     "unjustified": false
-    },
-    {
-     "victim": "Pan Babcia",
-     "lv": 46,
-     "date": "03 August 2026 (20:26)",
-     "unjustified": false
-    }
-   ]
-  },
   "Kaliningrad": {
    "name": "Kaliningrad",
    "level": 32,
@@ -42662,7 +42687,7 @@
    "level": 34,
    "vocation": "Elder Druid",
    "residence": "Darashia",
-   "last_login": "12 October 2026 (20:01)",
+   "last_login": "17 October 2026 (06:06)",
    "times_died_pvp": 2,
    "kills": 1,
    "unjustified": 0,
@@ -42804,9 +42829,9 @@
   "Durin": {
    "name": "Durin",
    "level": 45,
-   "vocation": "Royal Paladin",
+   "vocation": "Paladin",
    "residence": "Thais",
-   "last_login": "23 August 2026 (05:33)",
+   "last_login": "14 October 2026 (18:05)",
    "times_died_pvp": 0,
    "kills": 1,
    "unjustified": 0,
@@ -43585,19 +43610,54 @@
     }
    ]
   },
-  "Pamelka": {
-   "name": "Pamelka",
-   "level": 49,
+  "Zo Nevin": {
+   "name": "Zo Nevin",
+   "level": 39,
    "vocation": "Royal Paladin",
    "residence": "Thais",
-   "last_login": "12 October 2026 (16:39)",
+   "last_login": "19 October 2026 (03:28)",
+   "times_died_pvp": 1,
+   "kills": 3,
+   "unjustified": 3,
+   "justified": 0,
+   "avg_victim_level": 33.0,
+   "level_gap": 6.0,
+   "danger_score": 35.2,
+   "class": "PK / Assassin",
+   "victims": [
+    {
+     "victim": "Toli",
+     "lv": 21,
+     "date": "18 October 2026 (20:30)",
+     "unjustified": true
+    },
+    {
+     "victim": "Poweredbymephh",
+     "lv": 23,
+     "date": "18 October 2026 (20:07)",
+     "unjustified": true
+    },
+    {
+     "victim": "Trolltrash",
+     "lv": 55,
+     "date": "16 June 2026 (21:33)",
+     "unjustified": true
+    }
+   ]
+  },
+  "Pamelka": {
+   "name": "Pamelka",
+   "level": 53,
+   "vocation": "Royal Paladin",
+   "residence": "Thais",
+   "last_login": "18 October 2026 (17:19)",
    "times_died_pvp": 0,
    "kills": 2,
    "unjustified": 2,
    "justified": 0,
    "avg_victim_level": 17.0,
-   "level_gap": 32.0,
-   "danger_score": 27.0,
+   "level_gap": 36.0,
+   "danger_score": 27.5,
    "class": "PK / Assassin",
    "victims": [
     {
@@ -43973,7 +44033,7 @@
    "level": 20,
    "vocation": "Knight",
    "residence": "Thais",
-   "last_login": "30 August 2026 (04:45)",
+   "last_login": "12 October 2026 (23:27)",
    "times_died_pvp": 3,
    "kills": 2,
    "unjustified": 2,
@@ -44873,7 +44933,7 @@
    "level": 151,
    "vocation": "Elite Knight",
    "residence": "Ankrahmun",
-   "last_login": "12 October 2026 (16:09)",
+   "last_login": "16 October 2026 (01:06)",
    "times_died_pvp": 4,
    "kills": 5,
    "unjustified": 3,
@@ -45348,7 +45408,7 @@
    "level": 78,
    "vocation": "Master Sorcerer",
    "residence": "Ankrahmun",
-   "last_login": "06 October 2026 (06:53)",
+   "last_login": "15 October 2026 (18:50)",
    "times_died_pvp": 1,
    "kills": 2,
    "unjustified": 2,
@@ -45832,7 +45892,7 @@
    "level": 109,
    "vocation": "Elite Knight",
    "residence": "Thais",
-   "last_login": "09 October 2026 (05:47)",
+   "last_login": "19 October 2026 (12:36)",
    "times_died_pvp": 0,
    "kills": 1,
    "unjustified": 0,
@@ -46143,7 +46203,7 @@
    "level": 40,
    "vocation": "Elite Knight",
    "residence": "Carlin",
-   "last_login": "10 October 2026 (01:55)",
+   "last_login": "17 October 2026 (22:18)",
    "times_died_pvp": 0,
    "kills": 1,
    "unjustified": 1,
@@ -46622,7 +46682,7 @@
    "level": 48,
    "vocation": "Knight",
    "residence": "Venore",
-   "last_login": "10 August 2026 (05:04)",
+   "last_login": "19 October 2026 (16:04)",
    "times_died_pvp": 1,
    "kills": 1,
    "unjustified": 0,
@@ -47175,7 +47235,7 @@
    "level": 36,
    "vocation": "Druid",
    "residence": "Thais",
-   "last_login": "06 October 2026 (03:22)",
+   "last_login": "16 October 2026 (21:34)",
    "times_died_pvp": 4,
    "kills": 1,
    "unjustified": 1,
@@ -47291,29 +47351,6 @@
     }
    ]
   },
-  "Zo Nevin": {
-   "name": "Zo Nevin",
-   "level": 39,
-   "vocation": "Royal Paladin",
-   "residence": "Thais",
-   "last_login": "11 October 2026 (07:43)",
-   "times_died_pvp": 1,
-   "kills": 1,
-   "unjustified": 1,
-   "justified": 0,
-   "avg_victim_level": 55.0,
-   "level_gap": -16.0,
-   "danger_score": 11.5,
-   "class": "Occasional PK",
-   "victims": [
-    {
-     "victim": "Trolltrash",
-     "lv": 55,
-     "date": "16 June 2026 (21:33)",
-     "unjustified": true
-    }
-   ]
-  },
   "Fnasy": {
    "name": "Fnasy",
    "level": 11,
@@ -47354,7 +47391,7 @@
    "level": 60,
    "vocation": "Elder Druid",
    "residence": "Edron",
-   "last_login": "12 October 2026 (11:24)",
+   "last_login": "19 October 2026 (11:38)",
    "times_died_pvp": 1,
    "kills": 1,
    "unjustified": 0,
@@ -47398,9 +47435,9 @@
   "Leturke": {
    "name": "Leturke",
    "level": 66,
-   "vocation": "Paladin",
+   "vocation": "Royal Paladin",
    "residence": "Venore",
-   "last_login": "08 October 2026 (22:26)",
+   "last_login": "16 October 2026 (01:23)",
    "times_died_pvp": 1,
    "kills": 1,
    "unjustified": 0,
@@ -47581,16 +47618,16 @@
   },
   "Tony White": {
    "name": "Tony White",
-   "level": 37,
+   "level": 39,
    "vocation": "Master Sorcerer",
    "residence": "Ankrahmun",
-   "last_login": "11 October 2026 (16:21)",
+   "last_login": "18 October 2026 (18:07)",
    "times_died_pvp": 0,
    "kills": 1,
    "unjustified": 0,
    "justified": 1,
    "avg_victim_level": 103.0,
-   "level_gap": -66.0,
+   "level_gap": -64.0,
    "danger_score": 1.5,
    "class": "Guild-war / justified",
    "victims": [
@@ -47709,9 +47746,9 @@
   "La Fruta": {
    "name": "La Fruta",
    "level": 70,
-   "vocation": "Paladin",
+   "vocation": "Royal Paladin",
    "residence": "Thais",
-   "last_login": "08 October 2026 (06:25)",
+   "last_login": "14 October 2026 (05:17)",
    "times_died_pvp": 1,
    "kills": 1,
    "unjustified": 0,
@@ -47849,7 +47886,7 @@
    "level": 14,
    "vocation": "Druid",
    "residence": "Thais",
-   "last_login": "10 October 2026 (04:32)",
+   "last_login": "18 October 2026 (11:15)",
    "times_died_pvp": 2,
    "kills": 3,
    "unjustified": 2,
@@ -48897,7 +48934,7 @@
    "level": 42,
    "vocation": "Master Sorcerer",
    "residence": "Thais",
-   "last_login": "08 October 2026 (01:32)",
+   "last_login": "14 October 2026 (17:39)",
    "times_died_pvp": 1,
    "kills": 1,
    "unjustified": 0,
@@ -48966,7 +49003,7 @@
    "level": 29,
    "vocation": "Knight",
    "residence": "Venore",
-   "last_login": "08 October 2026 (05:04)",
+   "last_login": "17 October 2026 (08:39)",
    "times_died_pvp": 1,
    "kills": 1,
    "unjustified": 0,

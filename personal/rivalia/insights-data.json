@@ -125,13 +125,6 @@
      "score": 0.1
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -141,6 +134,13 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Infernatil",
+     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -730,13 +730,6 @@
      "score": 0.7
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -751,9 +744,16 @@
      "score": 0.0
     },
     {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -810,13 +810,6 @@
      "score": 0.6
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -826,6 +819,13 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Infernatil",
+     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -1892,13 +1892,6 @@
      "score": 0.7
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -1908,6 +1901,13 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Infernatil",
+     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -1960,15 +1960,15 @@
      "score": 0.2
     },
     {
-     "mob": "Grim Reaper",
-     "slug": "grim-reaper",
-     "hp": 3900,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
+     "mob": "Bazir",
+     "slug": "bazir",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -2551,17 +2551,17 @@
      "score": 0.7
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Dipthrah",
-     "slug": "dipthrah",
-     "hp": 4200,
-     "spawns": 1,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
      "score": 0.0
     }
    ],
@@ -3092,9 +3092,9 @@
      "score": 1.3
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3218,13 +3218,6 @@
      "score": 7.1
     },
     {
-     "mob": "Fernfang",
-     "slug": "fernfang",
-     "hp": 400,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Omruc",
      "slug": "omruc",
      "hp": 4300,
@@ -3235,6 +3228,13 @@
      "mob": "Dharalion",
      "slug": "dharalion",
      "hp": 390,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Fernfang",
+     "slug": "fernfang",
+     "hp": 400,
      "spawns": 0,
      "score": 0.0
     }
@@ -3352,22 +3352,22 @@
    "droppers": 2,
    "mobs": [
     {
-     "mob": "Cold Ambusher",
-     "slug": "cold-ambusher",
-     "hp": 1180,
-     "spawns": 48,
-     "score": 4.1
-    },
-    {
      "mob": "Hellforged Devil",
      "slug": "hellforged-devil",
      "hp": 1000,
      "spawns": 41,
      "score": 4.1
+    },
+    {
+     "mob": "Cold Ambusher",
+     "slug": "cold-ambusher",
+     "hp": 1180,
+     "spawns": 48,
+     "score": 4.1
     }
    ],
    "easiest_hp": 1000,
-   "top_spawns": 48
+   "top_spawns": 41
   },
   {
    "item": "Beholder Shield",
@@ -3530,15 +3530,15 @@
      "score": 0.7
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
-     "hp": 450,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
+     "mob": "Bazir",
+     "slug": "bazir",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -3654,17 +3654,17 @@
      "score": 45.9
     },
     {
-     "mob": "Mahrdis",
-     "slug": "mahrdis",
-     "hp": 3900,
-     "spawns": 1,
-     "score": 0.0
-    },
-    {
      "mob": "Grorlam",
      "slug": "grorlam",
      "hp": 2700,
      "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Mahrdis",
+     "slug": "mahrdis",
+     "hp": 3900,
+     "spawns": 1,
      "score": 0.0
     }
    ],
@@ -3808,13 +3808,6 @@
      "score": 0.7
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -3824,6 +3817,13 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Infernatil",
+     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -4164,16 +4164,16 @@
      "score": 0.2
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -4443,13 +4443,6 @@
      "score": 2.2
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -4459,6 +4452,13 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Infernatil",
+     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -4979,9 +4979,9 @@
      "score": 0.6
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6080,10 +6080,10 @@
      "score": 0.7
     },
     {
-     "mob": "Omruc",
-     "slug": "omruc",
-     "hp": 4300,
-     "spawns": 1,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
+     "spawns": 0,
      "score": 0.0
     }
    ],
@@ -6139,13 +6139,6 @@
      "score": 8.3
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -6155,6 +6148,13 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Infernatil",
+     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -6251,13 +6251,6 @@
      "score": 12.1
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -6267,6 +6260,13 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Infernatil",
+     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -6392,9 +6392,9 @@
      "score": 0.5
     },
     {
-     "mob": "Skullar",
-     "slug": "skullar",
-     "hp": 580,
+     "mob": "Necropharus",
+     "slug": "necropharus",
+     "hp": 750,
      "spawns": 0,
      "score": 0.0
     }
@@ -7721,9 +7721,9 @@
      "score": 1.6
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -8442,15 +8442,15 @@
      "score": 20.0
     },
     {
-     "mob": "High Necromancer",
-     "slug": "high-necromancer",
+     "mob": "Necropharus",
+     "slug": "necropharus",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Necropharus",
-     "slug": "necropharus",
+     "mob": "High Necromancer",
+     "slug": "high-necromancer",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
@@ -9241,9 +9241,9 @@
      "score": 36.2
     },
     {
-     "mob": "Fernfang",
-     "slug": "fernfang",
-     "hp": 400,
+     "mob": "Grorlam",
+     "slug": "grorlam",
+     "hp": 2700,
      "spawns": 0,
      "score": 0.0
     }
@@ -9677,16 +9677,16 @@
      "score": 71.4
     },
     {
-     "mob": "The Horned Fox",
-     "slug": "the-horned-fox",
-     "hp": 265,
+     "mob": "General Murius",
+     "slug": "general-murius",
+     "hp": 550,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "General Murius",
-     "slug": "general-murius",
-     "hp": 550,
+     "mob": "The Horned Fox",
+     "slug": "the-horned-fox",
+     "hp": 265,
      "spawns": 0,
      "score": 0.0
     }
@@ -9798,9 +9798,9 @@
      "score": 3.9
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -12364,15 +12364,15 @@
      "score": 20.0
     },
     {
-     "mob": "High Necromancer",
-     "slug": "high-necromancer",
+     "mob": "Necropharus",
+     "slug": "necropharus",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Necropharus",
-     "slug": "necropharus",
+     "mob": "High Necromancer",
+     "slug": "high-necromancer",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
@@ -15486,16 +15486,16 @@
      "score": 12.1
     },
     {
-     "mob": "Fernfang",
-     "slug": "fernfang",
-     "hp": 400,
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
+     "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
-     "hp": 450,
+     "mob": "Dharalion",
+     "slug": "dharalion",
+     "hp": 390,
      "spawns": 0,
      "score": 0.0
     }
@@ -17236,17 +17236,17 @@
      "score": 1.7
     },
     {
-     "mob": "Elder Wyrm",
-     "slug": "elder-wyrm",
-     "hp": 2700,
-     "spawns": 34,
-     "score": 1.3
-    },
-    {
      "mob": "Forsaken Knight",
      "slug": "forsaken-knight",
      "hp": 2400,
      "spawns": 31,
+     "score": 1.3
+    },
+    {
+     "mob": "Elder Wyrm",
+     "slug": "elder-wyrm",
+     "hp": 2700,
+     "spawns": 34,
      "score": 1.3
     }
    ],
@@ -18590,9 +18590,9 @@
      "score": 0.9
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Necropharus",
+     "slug": "necropharus",
+     "hp": 750,
      "spawns": 0,
      "score": 0.0
     }
@@ -18630,16 +18630,16 @@
      "score": 0.9
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -18663,13 +18663,6 @@
      "score": 106.2
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -18679,6 +18672,13 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Infernatil",
+     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -18847,9 +18847,9 @@
      "score": 0.9
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19499,16 +19499,16 @@
      "score": 0.1
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19539,13 +19539,6 @@
      "score": 0.7
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -19560,9 +19553,16 @@
      "score": 0.0
     },
     {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19593,13 +19593,6 @@
      "score": 0.7
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -19609,6 +19602,13 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Infernatil",
+     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -20327,16 +20327,16 @@
      "score": 0.2
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -20585,9 +20585,9 @@
      "score": 4.0
     },
     {
-     "mob": "Fernfang",
-     "slug": "fernfang",
-     "hp": 400,
+     "mob": "Dharalion",
+     "slug": "dharalion",
+     "hp": 390,
      "spawns": 0,
      "score": 0.0
     }
@@ -21179,16 +21179,16 @@
      "score": 1.3
     },
     {
-     "mob": "Fernfang",
-     "slug": "fernfang",
-     "hp": 400,
+     "mob": "Dharalion",
+     "slug": "dharalion",
+     "hp": 390,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Dharalion",
-     "slug": "dharalion",
-     "hp": 390,
+     "mob": "Fernfang",
+     "slug": "fernfang",
+     "hp": 400,
      "spawns": 0,
      "score": 0.0
     }
@@ -21487,13 +21487,6 @@
      "score": 3.8
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -21503,6 +21496,13 @@
     {
      "mob": "Bazir",
      "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Infernatil",
+     "slug": "infernatil",
      "hp": 110000,
      "spawns": 0,
      "score": 0.0
@@ -22350,13 +22350,6 @@
    "droppers": 6,
    "mobs": [
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -22371,6 +22364,13 @@
      "score": 0.0
     },
     {
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Morgaroth",
      "slug": "morgaroth",
      "hp": 55000,
@@ -22378,9 +22378,9 @@
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -22397,13 +22397,6 @@
    "droppers": 6,
    "mobs": [
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -22418,6 +22411,13 @@
      "score": 0.0
     },
     {
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Morgaroth",
      "slug": "morgaroth",
      "hp": 55000,
@@ -22425,9 +22425,9 @@
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -23304,17 +23304,17 @@
     "score": 1.7
    },
    {
-    "mob": "Elder Wyrm",
-    "slug": "elder-wyrm",
-    "hp": 2700,
-    "mobs": 34,
-    "score": 1.3
-   },
-   {
     "mob": "Forsaken Knight",
     "slug": "forsaken-knight",
     "hp": 2400,
     "mobs": 31,
+    "score": 1.3
+   },
+   {
+    "mob": "Elder Wyrm",
+    "slug": "elder-wyrm",
+    "hp": 2700,
+    "mobs": 34,
     "score": 1.3
    }
   ],
@@ -23918,9 +23918,9 @@
     "score": 0.9
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24063,13 +24063,6 @@
     "score": 8.3
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -24079,6 +24072,13 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Infernatil",
+    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -24148,9 +24148,9 @@
     "score": 3.9
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24238,13 +24238,6 @@
     "score": 0.7
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -24254,6 +24247,13 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Infernatil",
+    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -24282,13 +24282,6 @@
     "score": 2.2
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -24298,6 +24291,13 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Infernatil",
+    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -24312,13 +24312,6 @@
     "score": 0.7
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -24333,9 +24326,16 @@
     "score": 0.0
    },
    {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24379,13 +24379,6 @@
   ],
   "Teddy Bear": [
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -24400,6 +24393,13 @@
     "score": 0.0
    },
    {
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Morgaroth",
     "slug": "morgaroth",
     "hp": 55000,
@@ -24407,9 +24407,9 @@
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24444,21 +24444,14 @@
     "score": 0.6
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
   ],
   "Thunder Hammer": [
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
    {
     "mob": "Ferumbras",
     "slug": "ferumbras",
@@ -24474,6 +24467,13 @@
     "score": 0.0
    },
    {
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Morgaroth",
     "slug": "morgaroth",
     "hp": 55000,
@@ -24481,9 +24481,9 @@
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24696,16 +24696,16 @@
     "score": 0.2
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24719,13 +24719,6 @@
     "score": 0.7
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -24735,6 +24728,13 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Infernatil",
+    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -24777,10 +24777,10 @@
     "score": 0.7
    },
    {
-    "mob": "Omruc",
-    "slug": "omruc",
-    "hp": 4300,
-    "mobs": 1,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
+    "mobs": 0,
     "score": 0.0
    }
   ],
@@ -24851,9 +24851,9 @@
     "score": 0.9
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Necropharus",
+    "slug": "necropharus",
+    "hp": 750,
     "mobs": 0,
     "score": 0.0
    }
@@ -24881,15 +24881,15 @@
     "score": 0.2
    },
    {
-    "mob": "Grim Reaper",
-    "slug": "grim-reaper",
-    "hp": 3900,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
+    "mob": "Bazir",
+    "slug": "bazir",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -24918,16 +24918,16 @@
     "score": 0.1
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24955,15 +24955,15 @@
     "score": 0.7
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
-    "hp": 450,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
+    "mob": "Bazir",
+    "slug": "bazir",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -25089,13 +25089,6 @@
     "score": 0.7
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -25110,9 +25103,16 @@
     "score": 0.0
    },
    {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25147,9 +25147,9 @@
     "score": 1.6
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25200,13 +25200,6 @@
     "score": 0.7
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -25216,6 +25209,13 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Infernatil",
+    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -25258,9 +25258,9 @@
     "score": 1.3
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25348,13 +25348,6 @@
     "score": 0.6
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -25364,6 +25357,13 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Infernatil",
+    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -25392,13 +25392,6 @@
     "score": 0.1
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -25408,6 +25401,13 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Infernatil",
+    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -25436,16 +25436,16 @@
     "score": 0.2
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25473,16 +25473,16 @@
     "score": 0.9
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25496,13 +25496,6 @@
     "score": 12.1
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -25512,6 +25505,13 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Infernatil",
+    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -25533,13 +25533,6 @@
     "score": 3.8
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -25549,6 +25542,13 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Infernatil",
+    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -25584,17 +25584,17 @@
     "score": 0.7
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Dipthrah",
-    "slug": "dipthrah",
-    "hp": 4200,
-    "mobs": 1,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
     "score": 0.0
    }
   ],
@@ -25644,13 +25644,6 @@
     "score": 106.2
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -25660,6 +25653,13 @@
    {
     "mob": "Bazir",
     "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Infernatil",
+    "slug": "infernatil",
     "hp": 110000,
     "mobs": 0,
     "score": 0.0
@@ -27504,15 +27504,15 @@
     "score": 20.0
    },
    {
-    "mob": "High Necromancer",
-    "slug": "high-necromancer",
+    "mob": "Necropharus",
+    "slug": "necropharus",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Necropharus",
-    "slug": "necropharus",
+    "mob": "High Necromancer",
+    "slug": "high-necromancer",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
@@ -27541,15 +27541,15 @@
     "score": 20.0
    },
    {
-    "mob": "High Necromancer",
-    "slug": "high-necromancer",
+    "mob": "Necropharus",
+    "slug": "necropharus",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Necropharus",
-    "slug": "necropharus",
+    "mob": "High Necromancer",
+    "slug": "high-necromancer",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
@@ -27794,9 +27794,9 @@
     "score": 4.0
    },
    {
-    "mob": "Fernfang",
-    "slug": "fernfang",
-    "hp": 400,
+    "mob": "Dharalion",
+    "slug": "dharalion",
+    "hp": 390,
     "mobs": 0,
     "score": 0.0
    }
@@ -28303,17 +28303,17 @@
   ],
   "Wooden Wand": [
    {
-    "mob": "Cold Ambusher",
-    "slug": "cold-ambusher",
-    "hp": 1180,
-    "mobs": 48,
-    "score": 4.1
-   },
-   {
     "mob": "Hellforged Devil",
     "slug": "hellforged-devil",
     "hp": 1000,
     "mobs": 41,
+    "score": 4.1
+   },
+   {
+    "mob": "Cold Ambusher",
+    "slug": "cold-ambusher",
+    "hp": 1180,
+    "mobs": 48,
     "score": 4.1
    }
   ],
@@ -29083,9 +29083,9 @@
     "score": 36.2
    },
    {
-    "mob": "Fernfang",
-    "slug": "fernfang",
-    "hp": 400,
+    "mob": "Grorlam",
+    "slug": "grorlam",
+    "hp": 2700,
     "mobs": 0,
     "score": 0.0
    }
@@ -29383,16 +29383,16 @@
     "score": 1.3
    },
    {
-    "mob": "Fernfang",
-    "slug": "fernfang",
-    "hp": 400,
+    "mob": "Dharalion",
+    "slug": "dharalion",
+    "hp": 390,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Dharalion",
-    "slug": "dharalion",
-    "hp": 390,
+    "mob": "Fernfang",
+    "slug": "fernfang",
+    "hp": 400,
     "mobs": 0,
     "score": 0.0
    }
@@ -29420,16 +29420,16 @@
     "score": 12.1
    },
    {
-    "mob": "Fernfang",
-    "slug": "fernfang",
-    "hp": 400,
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
+    "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
-    "hp": 450,
+    "mob": "Dharalion",
+    "slug": "dharalion",
+    "hp": 390,
     "mobs": 0,
     "score": 0.0
    }
@@ -29466,13 +29466,6 @@
     "score": 7.1
    },
    {
-    "mob": "Fernfang",
-    "slug": "fernfang",
-    "hp": 400,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Omruc",
     "slug": "omruc",
     "hp": 4300,
@@ -29483,6 +29476,13 @@
     "mob": "Dharalion",
     "slug": "dharalion",
     "hp": 390,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Fernfang",
+    "slug": "fernfang",
+    "hp": 400,
     "mobs": 0,
     "score": 0.0
    }
@@ -30017,9 +30017,9 @@
     "score": 0.5
    },
    {
-    "mob": "Skullar",
-    "slug": "skullar",
-    "hp": 580,
+    "mob": "Necropharus",
+    "slug": "necropharus",
+    "hp": 750,
     "mobs": 0,
     "score": 0.0
    }
@@ -31185,16 +31185,16 @@
     "score": 71.4
    },
    {
-    "mob": "The Horned Fox",
-    "slug": "the-horned-fox",
-    "hp": 265,
+    "mob": "General Murius",
+    "slug": "general-murius",
+    "hp": 550,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "General Murius",
-    "slug": "general-murius",
-    "hp": 550,
+    "mob": "The Horned Fox",
+    "slug": "the-horned-fox",
+    "hp": 265,
     "mobs": 0,
     "score": 0.0
    }
@@ -31540,17 +31540,17 @@
     "score": 45.9
    },
    {
-    "mob": "Mahrdis",
-    "slug": "mahrdis",
-    "hp": 3900,
-    "mobs": 1,
-    "score": 0.0
-   },
-   {
     "mob": "Grorlam",
     "slug": "grorlam",
     "hp": 2700,
     "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Mahrdis",
+    "slug": "mahrdis",
+    "hp": 3900,
+    "mobs": 1,
     "score": 0.0
    }
   ],
