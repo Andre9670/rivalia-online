@@ -126,3 +126,9 @@ Boss raid: Orshabaal (1 anno), Demodras, Necropharus, Dharalion, The Old Widow, 
 ## Non verificato / TODO
 - Pagine item per categoria, dettagli di ogni quest/raid per region, Hunt Finder (mappa JS), daily reward e premium benefits non letti riga per riga.
 - Se serve il prezzo/stat di un item specifico, vai su `items.php` e fetcha la categoria.
+
+## Invisibility `utana vid` (Paladin, ML 15, 210 mana, 1.000 gp) — insights (Andrea l'ha sbloccato il 20 ott 2026)
+Andrea: ~3 minuti di invisibilità, si può attaccare mentre sei invisibile. Dal motore classico (TFS): un mostro con **immunità "Invisible"** nella scheda del wiki **vede gli invisibili** (canSeeInvisibility = immune alla condizione), gli altri non ti targettano.
+- Vedono l'invisibile (quindi la spell NON serve): Dragon, Dragon Lord, Hero, Black Knight, Forsaken Knight, Hydra, Wyrm, Frost Dragon, Abomination, Demon, Manticore, Behemoth, Shadow Wraith, Ancient Scarab, Cold Ambusher.
+- NON vedono l'invisibile (80 mostri su 174 con spawn): Minotaur/Guard/Archer, Cyclops, Demon Skeleton, Fleshcursed Skeleton, Crypt Shambler, Scarab, Kongra, Stone Golem, Gargoyle, Slime, Ghost, Orc Berserker, Skeleton Mage, ecc. → danno subito ~0 (da verificare in-game se un mostro già aggrovato resta in mischia).
+- Costo: 210 mana ≈ 2,6 cure Exura Vita (80 mana). Usi pratici: attraversare zone infestate, mining sicuro vicino a mostri che non vedono invisibili, loot/scappare. Stealth `utana gran vid` (ML 18, 100 mana, cooldown 6 s, solo Paladin): invisibile 1–2 s, finisce se vieni colpito (GitBook).
