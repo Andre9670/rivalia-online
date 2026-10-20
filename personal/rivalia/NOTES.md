@@ -84,3 +84,9 @@ Split today: 124 monsters pick spears, 91 pick crossbow. Threshold `PHYS_SHARE_S
 The map saves the edited PG in localStorage (`rivalia_party`), which used to override the code defaults forever. Now `CHAR_DEF_VERSION` (build_html.py) tags the saved PG:
 when the version changes, the saved stats are dropped and the new defaults apply; edits made afterwards persist normally. BUMP `CHAR_DEF_VERSION` every time CHAR_DEF changes.
 Current defaults (13 Oct 2026): Paladin lv62, Distance 79, Shielding 62, HP 725, Mana 845, Armor 34, Speed 206, loadout Auto (spears Atk 34 / def 31, crossbow Atk 30 / def 0), Exura 370 HP / 80 mana, stance Balanced (unconfirmed).
+
+## 11. Djinn War completed (reported 20 Oct 2026)
+Andrea finished **The Djinn War on the MARID (blue) side** (with a higher-level knight helping). He can now SELL to **Nah'bob** (equipment) and **Haroun** (rings/amulets) in Darashia.
+He can NOT use the Efreet traders (Alesar/Yaman) - choice is exclusive (vanilla rule, not confirmed on Rivalia). Sell prices: see `.claude/skills/rivalia/references/quests/the-djinn-war-rivalia-live.md`.
+Use Nah'bob/Haroun prices (not Alesar) when valuing loot or choosing hunting spots. Only 3 quest-chest sources fit the Marid side: Black Knight (Crown Armor 12k / Crown Shield 8k), Crusader Helmet (6k), Noble Armor + Crown Helmet (900 + 2.5k).
+Charm Points: Andrea is about to unlock the Dragon charm (~1250 Dragon kills, 20 Oct 2026); wants to pick the best charm rune for dragon farming.
