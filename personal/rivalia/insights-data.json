@@ -125,9 +125,16 @@
      "score": 0.1
     },
     {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -135,13 +142,6 @@
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -730,9 +730,16 @@
      "score": 0.7
     },
     {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -747,13 +754,6 @@
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -810,16 +810,9 @@
      "score": 0.6
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -831,9 +824,16 @@
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -1859,10 +1859,10 @@
      "score": 1.1
     },
     {
-     "mob": "Chaos Hydra",
-     "slug": "chaos-hydra",
-     "hp": 3750,
-     "spawns": 7,
+     "mob": "Wight",
+     "slug": "wight",
+     "hp": 6000,
+     "spawns": 14,
      "score": 0.2
     }
    ],
@@ -1892,10 +1892,17 @@
      "score": 0.7
     },
     {
-     "mob": "Mahrdis",
-     "slug": "mahrdis",
-     "hp": 3900,
-     "spawns": 1,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
      "score": 0.0
     },
     {
@@ -1906,17 +1913,10 @@
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
-     "spawns": 0,
+     "mob": "Mahrdis",
+     "slug": "mahrdis",
+     "hp": 3900,
+     "spawns": 1,
      "score": 0.0
     }
    ],
@@ -1960,16 +1960,16 @@
      "score": 0.2
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -2551,17 +2551,17 @@
      "score": 0.7
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
+     "mob": "Dipthrah",
+     "slug": "dipthrah",
+     "hp": 4200,
+     "spawns": 1,
      "score": 0.0
     }
    ],
@@ -3092,9 +3092,9 @@
      "score": 1.3
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3537,9 +3537,9 @@
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3614,15 +3614,15 @@
      "score": 2.2
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -3808,20 +3808,6 @@
      "score": 0.7
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -3832,6 +3818,20 @@
      "mob": "Morgaroth",
      "slug": "morgaroth",
      "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -4164,16 +4164,16 @@
      "score": 0.2
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
+     "mob": "Rahemos",
+     "slug": "rahemos",
+     "hp": 3700,
+     "spawns": 1,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -4443,23 +4443,23 @@
      "score": 2.2
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -4879,17 +4879,17 @@
      "score": 3.0
     },
     {
-     "mob": "Behemoth",
-     "slug": "behemoth",
-     "hp": 4000,
-     "spawns": 49,
-     "score": 1.2
-    },
-    {
      "mob": "Abomination",
      "slug": "abomination",
      "hp": 4000,
      "spawns": 48,
+     "score": 1.2
+    },
+    {
+     "mob": "Behemoth",
+     "slug": "behemoth",
+     "hp": 4000,
+     "spawns": 49,
      "score": 1.2
     },
     {
@@ -4979,9 +4979,9 @@
      "score": 0.6
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6139,20 +6139,6 @@
      "score": 8.3
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -6163,6 +6149,20 @@
      "mob": "Morgaroth",
      "slug": "morgaroth",
      "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6251,16 +6251,9 @@
      "score": 12.1
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -6272,9 +6265,16 @@
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6392,9 +6392,9 @@
      "score": 0.5
     },
     {
-     "mob": "High Necromancer",
-     "slug": "high-necromancer",
-     "hp": 750,
+     "mob": "Skullar",
+     "slug": "skullar",
+     "hp": 580,
      "spawns": 0,
      "score": 0.0
     }
@@ -7721,9 +7721,9 @@
      "score": 1.6
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -9120,15 +9120,15 @@
      "score": 82.2
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -9677,16 +9677,16 @@
      "score": 71.4
     },
     {
-     "mob": "General Murius",
-     "slug": "general-murius",
-     "hp": 550,
+     "mob": "The Horned Fox",
+     "slug": "the-horned-fox",
+     "hp": 265,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "The Horned Fox",
-     "slug": "the-horned-fox",
-     "hp": 265,
+     "mob": "General Murius",
+     "slug": "general-murius",
+     "hp": 550,
      "spawns": 0,
      "score": 0.0
     }
@@ -9798,9 +9798,9 @@
      "score": 3.9
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -12324,9 +12324,9 @@
      "score": 78.1
     },
     {
-     "mob": "Gazer",
-     "slug": "gazer",
-     "hp": 120,
+     "mob": "The Evil Eye",
+     "slug": "the-evil-eye",
+     "hp": 1100,
      "spawns": 0,
      "score": 0.0
     }
@@ -15486,8 +15486,8 @@
      "score": 12.1
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -17236,17 +17236,17 @@
      "score": 1.7
     },
     {
-     "mob": "Elder Wyrm",
-     "slug": "elder-wyrm",
-     "hp": 2700,
-     "spawns": 34,
-     "score": 1.3
-    },
-    {
      "mob": "Forsaken Knight",
      "slug": "forsaken-knight",
      "hp": 2400,
      "spawns": 31,
+     "score": 1.3
+    },
+    {
+     "mob": "Elder Wyrm",
+     "slug": "elder-wyrm",
+     "hp": 2700,
+     "spawns": 34,
      "score": 1.3
     }
    ],
@@ -18345,10 +18345,10 @@
      "score": 1.1
     },
     {
-     "mob": "Demon",
-     "slug": "demon",
-     "hp": 8200,
-     "spawns": 61,
+     "mob": "Fog Wanderer",
+     "slug": "fog-wanderer",
+     "hp": 880,
+     "spawns": 6,
      "score": 0.7
     }
    ],
@@ -18630,16 +18630,16 @@
      "score": 0.9
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -18663,20 +18663,6 @@
      "score": 106.2
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -18687,6 +18673,20 @@
      "mob": "Morgaroth",
      "slug": "morgaroth",
      "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -18847,9 +18847,9 @@
      "score": 0.9
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19485,13 +19485,6 @@
      "score": 0.7
     },
     {
-     "mob": "Undead Dragon",
-     "slug": "undead-dragon",
-     "hp": 26500,
-     "spawns": 32,
-     "score": 0.1
-    },
-    {
      "mob": "Queen Follower",
      "slug": "queen-follower",
      "hp": 18000,
@@ -19499,16 +19492,23 @@
      "score": 0.1
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Undead Dragon",
+     "slug": "undead-dragon",
+     "hp": 26500,
+     "spawns": 32,
+     "score": 0.1
+    },
+    {
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19539,9 +19539,16 @@
      "score": 0.7
     },
     {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -19556,13 +19563,6 @@
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19593,20 +19593,6 @@
      "score": 0.7
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
@@ -19617,6 +19603,20 @@
      "mob": "Morgaroth",
      "slug": "morgaroth",
      "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -20327,16 +20327,16 @@
      "score": 0.2
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -21487,13 +21487,6 @@
      "score": 3.8
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Thalas",
      "slug": "thalas",
      "hp": 4100,
@@ -21501,16 +21494,23 @@
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -22350,16 +22350,9 @@
    "droppers": 6,
    "mobs": [
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -22371,9 +22364,16 @@
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     },
@@ -22397,16 +22397,9 @@
    "droppers": 6,
    "mobs": [
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -22418,9 +22411,16 @@
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     },
@@ -23304,17 +23304,17 @@
     "score": 1.7
    },
    {
-    "mob": "Elder Wyrm",
-    "slug": "elder-wyrm",
-    "hp": 2700,
-    "mobs": 34,
-    "score": 1.3
-   },
-   {
     "mob": "Forsaken Knight",
     "slug": "forsaken-knight",
     "hp": 2400,
     "mobs": 31,
+    "score": 1.3
+   },
+   {
+    "mob": "Elder Wyrm",
+    "slug": "elder-wyrm",
+    "hp": 2700,
+    "mobs": 34,
     "score": 1.3
    }
   ],
@@ -23385,10 +23385,10 @@
     "score": 1.1
    },
    {
-    "mob": "Chaos Hydra",
-    "slug": "chaos-hydra",
-    "hp": 3750,
-    "mobs": 7,
+    "mob": "Wight",
+    "slug": "wight",
+    "hp": 6000,
+    "mobs": 14,
     "score": 0.2
    }
   ],
@@ -23491,17 +23491,17 @@
     "score": 3.0
    },
    {
-    "mob": "Behemoth",
-    "slug": "behemoth",
-    "hp": 4000,
-    "mobs": 49,
-    "score": 1.2
-   },
-   {
     "mob": "Abomination",
     "slug": "abomination",
     "hp": 4000,
     "mobs": 48,
+    "score": 1.2
+   },
+   {
+    "mob": "Behemoth",
+    "slug": "behemoth",
+    "hp": 4000,
+    "mobs": 49,
     "score": 1.2
    },
    {
@@ -23918,9 +23918,9 @@
     "score": 0.9
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24063,20 +24063,6 @@
     "score": 8.3
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -24087,6 +24073,20 @@
     "mob": "Morgaroth",
     "slug": "morgaroth",
     "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24148,9 +24148,9 @@
     "score": 3.9
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24238,10 +24238,17 @@
     "score": 0.7
    },
    {
-    "mob": "Mahrdis",
-    "slug": "mahrdis",
-    "hp": 3900,
-    "mobs": 1,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
     "score": 0.0
    },
    {
@@ -24252,17 +24259,10 @@
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
-    "mobs": 0,
+    "mob": "Mahrdis",
+    "slug": "mahrdis",
+    "hp": 3900,
+    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -24282,23 +24282,23 @@
     "score": 2.2
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24312,9 +24312,16 @@
     "score": 0.7
    },
    {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24329,13 +24336,6 @@
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24379,16 +24379,9 @@
   ],
   "Teddy Bear": [
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24400,9 +24393,16 @@
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24444,25 +24444,18 @@
     "score": 0.6
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
   ],
   "Thunder Hammer": [
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24474,9 +24467,16 @@
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24696,16 +24696,16 @@
     "score": 0.2
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
+    "mob": "Rahemos",
+    "slug": "rahemos",
+    "hp": 3700,
+    "mobs": 1,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24719,20 +24719,6 @@
     "score": 0.7
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -24743,6 +24729,20 @@
     "mob": "Morgaroth",
     "slug": "morgaroth",
     "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24881,16 +24881,16 @@
     "score": 0.2
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24904,13 +24904,6 @@
     "score": 0.7
    },
    {
-    "mob": "Undead Dragon",
-    "slug": "undead-dragon",
-    "hp": 26500,
-    "mobs": 32,
-    "score": 0.1
-   },
-   {
     "mob": "Queen Follower",
     "slug": "queen-follower",
     "hp": 18000,
@@ -24918,16 +24911,23 @@
     "score": 0.1
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Undead Dragon",
+    "slug": "undead-dragon",
+    "hp": 26500,
+    "mobs": 32,
+    "score": 0.1
+   },
+   {
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24962,9 +24962,9 @@
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25089,9 +25089,16 @@
     "score": 0.7
    },
    {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25106,13 +25113,6 @@
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25147,9 +25147,9 @@
     "score": 1.6
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25184,10 +25184,10 @@
     "score": 1.1
    },
    {
-    "mob": "Demon",
-    "slug": "demon",
-    "hp": 8200,
-    "mobs": 61,
+    "mob": "Fog Wanderer",
+    "slug": "fog-wanderer",
+    "hp": 880,
+    "mobs": 6,
     "score": 0.7
    }
   ],
@@ -25200,20 +25200,6 @@
     "score": 0.7
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -25224,6 +25210,20 @@
     "mob": "Morgaroth",
     "slug": "morgaroth",
     "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25258,9 +25258,9 @@
     "score": 1.3
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25348,16 +25348,9 @@
     "score": 0.6
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25369,9 +25362,16 @@
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25392,9 +25392,16 @@
     "score": 0.1
    },
    {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25402,13 +25409,6 @@
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25436,16 +25436,16 @@
     "score": 0.2
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25473,6 +25473,43 @@
     "score": 0.9
    },
    {
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   }
+  ],
+  "Crystal Ball": [
+   {
+    "mob": "Priestess",
+    "slug": "priestess",
+    "hp": 390,
+    "mobs": 47,
+    "score": 12.1
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -25487,26 +25524,19 @@
     "score": 0.0
    }
   ],
-  "Crystal Ball": [
+  "Green Gem": [
    {
-    "mob": "Priestess",
-    "slug": "priestess",
-    "hp": 390,
-    "mobs": 47,
-    "score": 12.1
+    "mob": "Efreet",
+    "slug": "efreet",
+    "hp": 550,
+    "mobs": 21,
+    "score": 3.8
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
+    "mob": "Thalas",
+    "slug": "thalas",
+    "hp": 4100,
+    "mobs": 1,
     "score": 0.0
    },
    {
@@ -25522,41 +25552,11 @@
     "hp": 55000,
     "mobs": 0,
     "score": 0.0
-   }
-  ],
-  "Green Gem": [
-   {
-    "mob": "Efreet",
-    "slug": "efreet",
-    "hp": 550,
-    "mobs": 21,
-    "score": 3.8
    },
    {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Thalas",
-    "slug": "thalas",
-    "hp": 4100,
-    "mobs": 1,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25584,17 +25584,17 @@
     "score": 0.7
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
+    "mob": "Dipthrah",
+    "slug": "dipthrah",
+    "hp": 4200,
+    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -25644,20 +25644,6 @@
     "score": 106.2
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
@@ -25668,6 +25654,20 @@
     "mob": "Morgaroth",
     "slug": "morgaroth",
     "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -26868,9 +26868,9 @@
     "score": 78.1
    },
    {
-    "mob": "Gazer",
-    "slug": "gazer",
-    "hp": 120,
+    "mob": "The Evil Eye",
+    "slug": "the-evil-eye",
+    "hp": 1100,
     "mobs": 0,
     "score": 0.0
    }
@@ -29420,8 +29420,8 @@
     "score": 12.1
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -30017,9 +30017,9 @@
     "score": 0.5
    },
    {
-    "mob": "High Necromancer",
-    "slug": "high-necromancer",
-    "hp": 750,
+    "mob": "Skullar",
+    "slug": "skullar",
+    "hp": 580,
     "mobs": 0,
     "score": 0.0
    }
@@ -30253,15 +30253,15 @@
     "score": 82.2
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -31185,16 +31185,16 @@
     "score": 71.4
    },
    {
-    "mob": "General Murius",
-    "slug": "general-murius",
-    "hp": 550,
+    "mob": "The Horned Fox",
+    "slug": "the-horned-fox",
+    "hp": 265,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "The Horned Fox",
-    "slug": "the-horned-fox",
-    "hp": 265,
+    "mob": "General Murius",
+    "slug": "general-murius",
+    "hp": 550,
     "mobs": 0,
     "score": 0.0
    }
@@ -31711,15 +31711,15 @@
     "score": 2.2
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
