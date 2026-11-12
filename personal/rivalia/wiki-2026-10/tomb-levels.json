@@ -1,0 +1,467 @@
+{
+ "_source": "TibiaWiki (Fandom) tomb pages via the MediaWiki API, 12 Nov 2026 — vanilla Tibia layout; Rivalia may differ. Creature lists per hunting level; a label with '(through teleport)' = reached via the Scarab Coin teleporter.",
+ "levels": {
+  "Shadow Tomb": [
+   {
+    "label": "First Hunting Level",
+    "creatures": [
+     "Cave Rat",
+     "Snake",
+     "Poison Spider",
+     "Skeleton",
+     "Larva",
+     "Scorpion",
+     "Ghoul",
+     "Stalker",
+     "Scarab",
+     "Mummy",
+     "Slime",
+     "Bonelord"
+    ]
+   },
+   {
+    "label": "Second Hunting Level",
+    "creatures": [
+     "Skeleton",
+     "Larva",
+     "Scorpion",
+     "Ghoul",
+     "Stalker",
+     "Ghost",
+     "Scarab",
+     "Mummy",
+     "Crypt Shambler",
+     "Fire Devil",
+     "Fire Elemental",
+     "Vampire"
+    ]
+   },
+   {
+    "label": "Third Hunting Level (through teleport)",
+    "creatures": [
+     "Ghost",
+     "Scarab",
+     "Mummy",
+     "Slime",
+     "Crypt Shambler",
+     "Fire Elemental",
+     "Demon Skeleton",
+     "Vampire",
+     "Green Djinn"
+    ]
+   },
+   {
+    "label": "Fourth Hunting Level (through teleport)",
+    "creatures": [
+     "Flamethrower",
+     "Ghost",
+     "Scarab",
+     "Mummy",
+     "Slime",
+     "Green Djinn",
+     "Crypt Shambler",
+     "Fire Devil",
+     "Fire Elemental",
+     "Demon Skeleton",
+     "Vampire",
+     "Necromancer",
+     "Dragon"
+    ]
+   }
+  ],
+  "Sunken Ruins Tomb": [
+   {
+    "label": "First floor",
+    "creatures": [
+     "Cave Rat",
+     "Poison Spider",
+     "Cobra",
+     "Skeleton",
+     "Larva",
+     "Scorpion",
+     "Ghoul",
+     "Stalker",
+     "Ghost",
+     "Scarab",
+     "Mummy",
+     "Slime",
+     "Bonelord",
+     "Crypt Shambler"
+    ]
+   },
+   {
+    "label": "Second floor",
+    "creatures": [
+     "Skeleton",
+     "Ghoul",
+     "Stalker",
+     "Ghost",
+     "Scarab",
+     "Mummy",
+     "Fire Elemental",
+     "Vampire"
+    ]
+   },
+   {
+    "label": "Third floor (through teleport)",
+    "creatures": [
+     "Cobra",
+     "Scorpion",
+     "Ghoul",
+     "Stalker",
+     "Ghost",
+     "Gargoyle",
+     "Mummy",
+     "Slime",
+     "Bonelord",
+     "Crypt Shambler",
+     "Demon Skeleton",
+     "Vampire",
+     "Bonebeast",
+     "Banshee",
+     "Lich"
+    ]
+   },
+   {
+    "label": "Fourth floor (through teleport)",
+    "creatures": [
+     "Scorpion",
+     "Stalker",
+     "Ghost",
+     "Mummy",
+     "Bonelord",
+     "Crypt Shambler",
+     "Demon Skeleton",
+     "Vampire",
+     "Necromancer",
+     "Banshee",
+     "Lich"
+    ]
+   }
+  ],
+  "Tar Pit Tomb": [
+   {
+    "label": "First Hunting Level",
+    "creatures": [
+     "Cave Rat",
+     "Poison Spider",
+     "Skeleton",
+     "Scorpion",
+     "Ghoul",
+     "Scarab",
+     "Mummy",
+     "Bonelord",
+     "Crypt Shambler"
+    ]
+   },
+   {
+    "label": "Second Hunting Level",
+    "creatures": [
+     "Larva",
+     "Scorpion",
+     "Cobra",
+     "Skeleton",
+     "Ghoul",
+     "Stalker",
+     "Ghost",
+     "Scarab",
+     "Mummy",
+     "Crypt Shambler"
+    ]
+   },
+   {
+    "label": "Third Hunting Level",
+    "creatures": [
+     "Ghoul",
+     "Stalker",
+     "Mummy",
+     "Crypt Shambler",
+     "Demon Skeleton",
+     "Vampire",
+     "Bonebeast",
+     "Necromancer"
+    ]
+   },
+   {
+    "label": "Third Hunting Level (through teleport)",
+    "creatures": [
+     "Ghoul",
+     "Ghost",
+     "Gargoyle",
+     "Mummy",
+     "Stone Golem",
+     "Crypt Shambler",
+     "Demon Skeleton",
+     "Vampire",
+     "Bonebeast"
+    ]
+   },
+   {
+    "label": "Fourth Hunting Level (through teleport)",
+    "creatures": [
+     "Mummy",
+     "Gargoyle",
+     "Stone Golem",
+     "Crypt Shambler",
+     "Demon Skeleton",
+     "Vampire",
+     "Bonebeast",
+     "Behemoth"
+    ]
+   }
+  ],
+  "Stone Tomb": [
+   {
+    "label": "First Hunting Level",
+    "creatures": [
+     "Hyaena",
+     "Poison Spider",
+     "Skeleton",
+     "Larva",
+     "Scorpion",
+     "Ghoul",
+     "Scarab"
+    ]
+   },
+   {
+    "label": "Second Hunting Level",
+    "creatures": [
+     "Cobra",
+     "Skeleton",
+     "Ghoul",
+     "Stalker",
+     "Scarab",
+     "Mummy",
+     "Slime",
+     "Crypt Shambler"
+    ]
+   },
+   {
+    "label": "Third Hunting Level (through teleport)",
+    "creatures": [
+     "Poison Spider",
+     "Cobra",
+     "Scorpion",
+     "Ghoul",
+     "Larva",
+     "Scarab",
+     "Mummy",
+     "Slime",
+     "Bonelord",
+     "Crypt Shambler",
+     "Demon Skeleton",
+     "Vampire"
+    ]
+   },
+   {
+    "label": "Fourth Hunting Level (through teleport)",
+    "creatures": [
+     "Stalker",
+     "Ghost",
+     "Scarab",
+     "Mummy",
+     "Slime",
+     "Crypt Shambler",
+     "Demon Skeleton",
+     "Vampire",
+     "Bonebeast",
+     "Necromancer",
+     "Ancient Scarab",
+     "Giant Spider"
+    ]
+   }
+  ],
+  "Mountain Tomb": [
+   {
+    "label": "First Hunting Level",
+    "creatures": [
+     "Snake",
+     "Cave Rat",
+     "Hyaena",
+     "Poison Spider",
+     "Cobra",
+     "Skeleton",
+     "Larva",
+     "Ghoul"
+    ]
+   },
+   {
+    "label": "Second Hunting Level",
+    "creatures": [
+     "Snake",
+     "Cobra",
+     "Skeleton",
+     "Larva",
+     "Ghoul",
+     "Stalker",
+     "Scarab",
+     "Mummy",
+     "Demon Skeleton"
+    ]
+   },
+   {
+    "label": "Third Hunting Level (through teleport)",
+    "creatures": [
+     "Magicthrower",
+     "Ghoul",
+     "Stalker",
+     "Ghost",
+     "Scarab",
+     "Mummy",
+     "Gargoyle",
+     "Slime",
+     "Bonelord",
+     "Demon Skeleton",
+     "Vampire",
+     "Priestess",
+     "Necromancer",
+     "Lich"
+    ]
+   },
+   {
+    "label": "Fourth Hunting Level (through teleport)",
+    "creatures": [
+     "Stalker",
+     "Ghost",
+     "Scarab",
+     "Mummy",
+     "Gargoyle",
+     "Bonelord",
+     "Green Djinn",
+     "Demon Skeleton",
+     "Vampire",
+     "Priestess",
+     "Necromancer",
+     "Lich"
+    ]
+   }
+  ],
+  "Peninsula Tomb": [
+   {
+    "label": "First Hunting Level",
+    "creatures": [
+     "Snake",
+     "Spider",
+     "Poison Spider",
+     "Skeleton",
+     "Lion",
+     "Larva",
+     "Ghoul",
+     "Scarab"
+    ]
+   },
+   {
+    "label": "Second Hunting Level",
+    "creatures": [
+     "Snake",
+     "Cobra",
+     "Lion",
+     "Skeleton",
+     "Larva",
+     "Scorpion",
+     "Ghoul",
+     "Scarab",
+     "Mummy",
+     "Slime",
+     "Stone Golem",
+     "Crypt Shambler"
+    ]
+   },
+   {
+    "label": "Third Hunting Level (through teleport)",
+    "creatures": [
+     "Scorpion",
+     "Stalker",
+     "Ghost",
+     "Scarab",
+     "Gargoyle",
+     "Mummy",
+     "Slime",
+     "Bonelord",
+     "Crypt Shambler",
+     "Demon Skeleton",
+     "Vampire",
+     "Bonebeast"
+    ]
+   },
+   {
+    "label": "Fourth Hunting Level (through teleport)",
+    "creatures": [
+     "Stalker",
+     "Ghost",
+     "Bonelord",
+     "Green Djinn",
+     "Crypt Shambler",
+     "Demon Skeleton",
+     "Vampire",
+     "Vampire Bride",
+     "Bonebeast",
+     "Necromancer",
+     "Ancient Scarab"
+    ]
+   }
+  ],
+  "Oasis Tomb": [
+   {
+    "label": "First Hunting Level",
+    "creatures": [
+     "Snake",
+     "Hyaena",
+     "Poison Spider",
+     "Skeleton",
+     "Elf",
+     "Dwarf",
+     "Scorpion",
+     "Amazon",
+     "Ghoul"
+    ]
+   },
+   {
+    "label": "Second Hunting Level",
+    "creatures": [
+     "Snake",
+     "Poison Spider",
+     "Skeleton",
+     "Ghoul",
+     "Stalker",
+     "Scarab",
+     "Mummy",
+     "Slime"
+    ]
+   },
+   {
+    "label": "Third Hunting Level (through teleport)",
+    "creatures": [
+     "Scorpion",
+     "Ghoul",
+     "Stalker",
+     "Ghost",
+     "Mummy",
+     "Slime",
+     "Bonelord",
+     "Green Djinn",
+     "Crypt Shambler",
+     "Vampire",
+     "Lich"
+    ]
+   },
+   {
+    "label": "Fourth Hunting Level",
+    "creatures": [
+     "Stalker",
+     "Ghost",
+     "Mummy",
+     "Slime",
+     "Bonelord",
+     "Green Djinn",
+     "Crypt Shambler",
+     "Demon Skeleton",
+     "Vampire",
+     "Necromancer",
+     "Lich",
+     "Warlock"
+    ]
+   }
+  ]
+ }
+}

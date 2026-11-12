@@ -538,7 +538,7 @@
         <button class="btn" id="routeBtn" title="Find how to reach a point: click the START then the DESTINATION on the map">🧭 How to get there</button>
         <button class="btn on" id="cityBtn" title="Show city names (Thais, Carlin, Venore…) on the map as landmarks">🏰 Cities: On</button>
         <button class="btn" id="chestBtn" title="Show Rivalia's 222 reward chests on the map (pins on the current floor, popup with loot)">🎁 Chest: Off</button>
-        <button class="btn on" id="tombBtn" title="Mark the 7 Ankrahmun tomb entrances (dig with a shovel on the marked tile). Click a pin for the entrance tile, the Scarab Coin rule and every monster in that tomb.">⚰️ Tombs: On</button>
+        <button class="btn on" id="tombBtn" title="Mark the 7 Ankrahmun tomb entrances. Click a pin for every monster in that tomb and the teleporter / Scarab Coin notes.">⚰️ Tombs: On</button>
         <button class="btn" id="mailBtn" title="Show mailboxes (send parcels to your depot mid-hunt). Royal ones need the full Postman Quest. Positions are 7.4-vanilla candidates — verify in-game.">📮 Mail: Off</button>
       </div>
     </details>
@@ -834,13 +834,6 @@ const INS = {
      "score": 0.1
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Mad Santa",
      "slug": "mad-santa",
      "hp": 250000,
@@ -848,9 +841,16 @@ const INS = {
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -1439,13 +1439,6 @@ const INS = {
      "score": 0.7
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Mad Santa",
      "slug": "mad-santa",
      "hp": 250000,
@@ -1453,16 +1446,23 @@ const INS = {
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -1519,20 +1519,6 @@ const INS = {
      "score": 0.6
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -1540,9 +1526,23 @@ const INS = {
      "score": 0.0
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -1875,17 +1875,17 @@ const INS = {
    "droppers": 11,
    "mobs": [
     {
-     "mob": "Behemoth",
-     "slug": "behemoth",
-     "hp": 4000,
-     "spawns": 49,
-     "score": 1.2
-    },
-    {
      "mob": "Abomination",
      "slug": "abomination",
      "hp": 4000,
      "spawns": 48,
+     "score": 1.2
+    },
+    {
+     "mob": "Behemoth",
+     "slug": "behemoth",
+     "hp": 4000,
+     "spawns": 49,
      "score": 1.2
     },
     {
@@ -1911,7 +1911,7 @@ const INS = {
     }
    ],
    "easiest_hp": 4000,
-   "top_spawns": 49
+   "top_spawns": 48
   },
   {
    "item": "Elven Wand",
@@ -2054,15 +2054,15 @@ const INS = {
      "score": 2.2
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -2601,20 +2601,6 @@ const INS = {
      "score": 0.7
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -2622,9 +2608,23 @@ const INS = {
      "score": 0.0
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -2669,16 +2669,16 @@ const INS = {
      "score": 0.2
     },
     {
-     "mob": "Grim Reaper",
-     "slug": "grim-reaper",
-     "hp": 3900,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3260,16 +3260,16 @@ const INS = {
      "score": 0.7
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
+     "mob": "Dipthrah",
+     "slug": "dipthrah",
+     "hp": 4200,
+     "spawns": 1,
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3801,9 +3801,9 @@ const INS = {
      "score": 1.3
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3927,13 +3927,6 @@ const INS = {
      "score": 7.1
     },
     {
-     "mob": "Omruc",
-     "slug": "omruc",
-     "hp": 4300,
-     "spawns": 1,
-     "score": 0.0
-    },
-    {
      "mob": "Dharalion",
      "slug": "dharalion",
      "hp": 390,
@@ -3945,6 +3938,13 @@ const INS = {
      "slug": "fernfang",
      "hp": 400,
      "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Omruc",
+     "slug": "omruc",
+     "hp": 4300,
+     "spawns": 1,
      "score": 0.0
     }
    ],
@@ -4239,16 +4239,16 @@ const INS = {
      "score": 0.7
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
+     "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
+     "hp": 450,
      "spawns": 0,
      "score": 0.0
     }
@@ -4517,20 +4517,6 @@ const INS = {
      "score": 0.7
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -4538,9 +4524,23 @@ const INS = {
      "score": 0.0
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -4873,16 +4873,16 @@ const INS = {
      "score": 0.2
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -5152,23 +5152,23 @@ const INS = {
      "score": 2.2
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -5313,15 +5313,15 @@ const INS = {
      "score": 82.2
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -5588,17 +5588,17 @@ const INS = {
      "score": 3.0
     },
     {
-     "mob": "Behemoth",
-     "slug": "behemoth",
-     "hp": 4000,
-     "spawns": 49,
-     "score": 1.2
-    },
-    {
      "mob": "Abomination",
      "slug": "abomination",
      "hp": 4000,
      "spawns": 48,
+     "score": 1.2
+    },
+    {
+     "mob": "Behemoth",
+     "slug": "behemoth",
+     "hp": 4000,
+     "spawns": 49,
      "score": 1.2
     },
     {
@@ -5688,9 +5688,9 @@ const INS = {
      "score": 0.6
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6789,9 +6789,9 @@ const INS = {
      "score": 0.7
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6848,20 +6848,6 @@ const INS = {
      "score": 8.3
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -6869,9 +6855,23 @@ const INS = {
      "score": 0.0
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6960,20 +6960,6 @@ const INS = {
      "score": 12.1
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -6981,9 +6967,23 @@ const INS = {
      "score": 0.0
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -8430,9 +8430,9 @@ const INS = {
      "score": 1.6
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -9151,15 +9151,15 @@ const INS = {
      "score": 20.0
     },
     {
-     "mob": "High Necromancer",
-     "slug": "high-necromancer",
+     "mob": "Necropharus",
+     "slug": "necropharus",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Necropharus",
-     "slug": "necropharus",
+     "mob": "High Necromancer",
+     "slug": "high-necromancer",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
@@ -9950,9 +9950,9 @@ const INS = {
      "score": 36.2
     },
     {
-     "mob": "Grorlam",
-     "slug": "grorlam",
-     "hp": 2700,
+     "mob": "Fernfang",
+     "slug": "fernfang",
+     "hp": 400,
      "spawns": 0,
      "score": 0.0
     }
@@ -10386,16 +10386,16 @@ const INS = {
      "score": 71.4
     },
     {
-     "mob": "The Horned Fox",
-     "slug": "the-horned-fox",
-     "hp": 265,
+     "mob": "General Murius",
+     "slug": "general-murius",
+     "hp": 550,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "General Murius",
-     "slug": "general-murius",
-     "hp": 550,
+     "mob": "The Horned Fox",
+     "slug": "the-horned-fox",
+     "hp": 265,
      "spawns": 0,
      "score": 0.0
     }
@@ -10507,9 +10507,9 @@ const INS = {
      "score": 3.9
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -11317,16 +11317,16 @@ const INS = {
      "score": 10.5
     },
     {
-     "mob": "The Horned Fox",
-     "slug": "the-horned-fox",
-     "hp": 265,
+     "mob": "General Murius",
+     "slug": "general-murius",
+     "hp": 550,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "General Murius",
-     "slug": "general-murius",
-     "hp": 550,
+     "mob": "The Horned Fox",
+     "slug": "the-horned-fox",
+     "hp": 265,
      "spawns": 0,
      "score": 0.0
     }
@@ -16141,17 +16141,17 @@ const INS = {
      "score": 27.0
     },
     {
-     "mob": "Carniphila",
-     "slug": "carniphila",
-     "hp": 255,
-     "spawns": 36,
-     "score": 14.1
-    },
-    {
      "mob": "Elf Arcanist",
      "slug": "elf-arcanist",
      "hp": 220,
      "spawns": 31,
+     "score": 14.1
+    },
+    {
+     "mob": "Carniphila",
+     "slug": "carniphila",
+     "hp": 255,
+     "spawns": 36,
      "score": 14.1
     },
     {
@@ -16202,9 +16202,9 @@ const INS = {
      "score": 0.0
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
-     "hp": 450,
+     "mob": "Dharalion",
+     "slug": "dharalion",
+     "hp": 390,
      "spawns": 0,
      "score": 0.0
     }
@@ -19054,10 +19054,10 @@ const INS = {
      "score": 1.1
     },
     {
-     "mob": "Fog Wanderer",
-     "slug": "fog-wanderer",
-     "hp": 880,
-     "spawns": 6,
+     "mob": "Demon",
+     "slug": "demon",
+     "hp": 8200,
+     "spawns": 61,
      "score": 0.7
     }
    ],
@@ -19299,9 +19299,9 @@ const INS = {
      "score": 0.9
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19339,16 +19339,16 @@ const INS = {
      "score": 0.9
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19372,20 +19372,6 @@ const INS = {
      "score": 106.2
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -19393,9 +19379,23 @@ const INS = {
      "score": 0.0
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19556,9 +19556,9 @@ const INS = {
      "score": 0.9
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -20208,16 +20208,16 @@ const INS = {
      "score": 0.1
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -20248,13 +20248,6 @@ const INS = {
      "score": 0.7
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Mad Santa",
      "slug": "mad-santa",
      "hp": 250000,
@@ -20262,16 +20255,23 @@ const INS = {
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Ferumbras",
-     "slug": "ferumbras",
-     "hp": 28000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -20302,20 +20302,6 @@ const INS = {
      "score": 0.7
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -20323,9 +20309,23 @@ const INS = {
      "score": 0.0
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -21036,16 +21036,16 @@ const INS = {
      "score": 0.2
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -21255,53 +21255,6 @@ const INS = {
     }
    ],
    "easiest_hp": 255,
-   "top_spawns": 36
-  },
-  {
-   "item": "Sling Herb",
-   "value": 0,
-   "sell_npc": null,
-   "buy": null,
-   "traders": [],
-   "droppers": 6,
-   "mobs": [
-    {
-     "mob": "Carniphila",
-     "slug": "carniphila",
-     "hp": 255,
-     "spawns": 36,
-     "score": 14.1
-    },
-    {
-     "mob": "Elf Arcanist",
-     "slug": "elf-arcanist",
-     "hp": 220,
-     "spawns": 31,
-     "score": 14.1
-    },
-    {
-     "mob": "Priestess",
-     "slug": "priestess",
-     "hp": 390,
-     "spawns": 47,
-     "score": 12.1
-    },
-    {
-     "mob": "Spit Nettle",
-     "slug": "spit-nettle",
-     "hp": 150,
-     "spawns": 6,
-     "score": 4.0
-    },
-    {
-     "mob": "Dharalion",
-     "slug": "dharalion",
-     "hp": 390,
-     "spawns": 0,
-     "score": 0.0
-    }
-   ],
-   "easiest_hp": 150,
    "top_spawns": 36
   },
   {
@@ -21852,6 +21805,53 @@ const INS = {
    "top_spawns": 31
   },
   {
+   "item": "Sling Herb",
+   "value": 0,
+   "sell_npc": null,
+   "buy": null,
+   "traders": [],
+   "droppers": 6,
+   "mobs": [
+    {
+     "mob": "Elf Arcanist",
+     "slug": "elf-arcanist",
+     "hp": 220,
+     "spawns": 31,
+     "score": 14.1
+    },
+    {
+     "mob": "Carniphila",
+     "slug": "carniphila",
+     "hp": 255,
+     "spawns": 36,
+     "score": 14.1
+    },
+    {
+     "mob": "Priestess",
+     "slug": "priestess",
+     "hp": 390,
+     "spawns": 47,
+     "score": 12.1
+    },
+    {
+     "mob": "Spit Nettle",
+     "slug": "spit-nettle",
+     "hp": 150,
+     "spawns": 6,
+     "score": 4.0
+    },
+    {
+     "mob": "Dharalion",
+     "slug": "dharalion",
+     "hp": 390,
+     "spawns": 0,
+     "score": 0.0
+    }
+   ],
+   "easiest_hp": 150,
+   "top_spawns": 31
+  },
+  {
    "item": "Green Tunic",
    "value": 0,
    "sell_npc": null,
@@ -22196,20 +22196,6 @@ const INS = {
      "score": 3.8
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
@@ -22217,9 +22203,23 @@ const INS = {
      "score": 0.0
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -23059,23 +23059,16 @@ const INS = {
    "droppers": 6,
    "mobs": [
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -23087,9 +23080,16 @@ const INS = {
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -23106,23 +23106,16 @@ const INS = {
    "droppers": 6,
    "mobs": [
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Ferumbras",
      "slug": "ferumbras",
      "hp": 28000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -23134,9 +23127,16 @@ const INS = {
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Bazir",
+     "slug": "bazir",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -24207,17 +24207,17 @@ const INS = {
     "score": 3.0
    },
    {
-    "mob": "Behemoth",
-    "slug": "behemoth",
-    "hp": 4000,
-    "mobs": 49,
-    "score": 1.2
-   },
-   {
     "mob": "Abomination",
     "slug": "abomination",
     "hp": 4000,
     "mobs": 48,
+    "score": 1.2
+   },
+   {
+    "mob": "Behemoth",
+    "slug": "behemoth",
+    "hp": 4000,
+    "mobs": 49,
     "score": 1.2
    },
    {
@@ -24260,17 +24260,17 @@ const INS = {
   ],
   "Giant Sword": [
    {
-    "mob": "Behemoth",
-    "slug": "behemoth",
-    "hp": 4000,
-    "mobs": 49,
-    "score": 1.2
-   },
-   {
     "mob": "Abomination",
     "slug": "abomination",
     "hp": 4000,
     "mobs": 48,
+    "score": 1.2
+   },
+   {
+    "mob": "Behemoth",
+    "slug": "behemoth",
+    "hp": 4000,
+    "mobs": 49,
     "score": 1.2
    },
    {
@@ -24634,9 +24634,9 @@ const INS = {
     "score": 0.9
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24779,20 +24779,6 @@ const INS = {
     "score": 8.3
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -24800,9 +24786,23 @@ const INS = {
     "score": 0.0
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24864,9 +24864,9 @@ const INS = {
     "score": 3.9
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24954,20 +24954,6 @@ const INS = {
     "score": 0.7
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -24975,9 +24961,23 @@ const INS = {
     "score": 0.0
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24998,23 +24998,23 @@ const INS = {
     "score": 2.2
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25028,13 +25028,6 @@ const INS = {
     "score": 0.7
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Mad Santa",
     "slug": "mad-santa",
     "hp": 250000,
@@ -25042,16 +25035,23 @@ const INS = {
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25095,23 +25095,16 @@ const INS = {
   ],
   "Teddy Bear": [
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25123,9 +25116,16 @@ const INS = {
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25160,32 +25160,25 @@ const INS = {
     "score": 0.6
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
   ],
   "Thunder Hammer": [
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25197,9 +25190,16 @@ const INS = {
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25412,16 +25412,16 @@ const INS = {
     "score": 0.2
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25435,20 +25435,6 @@ const INS = {
     "score": 0.7
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -25456,9 +25442,23 @@ const INS = {
     "score": 0.0
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25493,9 +25493,9 @@ const INS = {
     "score": 0.7
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25567,9 +25567,9 @@ const INS = {
     "score": 0.9
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25597,16 +25597,16 @@ const INS = {
     "score": 0.2
    },
    {
-    "mob": "Grim Reaper",
-    "slug": "grim-reaper",
-    "hp": 3900,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25634,16 +25634,16 @@ const INS = {
     "score": 0.1
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25671,16 +25671,16 @@ const INS = {
     "score": 0.7
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
+    "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
+    "hp": 450,
     "mobs": 0,
     "score": 0.0
    }
@@ -25805,13 +25805,6 @@ const INS = {
     "score": 0.7
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Mad Santa",
     "slug": "mad-santa",
     "hp": 250000,
@@ -25819,16 +25812,23 @@ const INS = {
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Ferumbras",
-    "slug": "ferumbras",
-    "hp": 28000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25863,9 +25863,9 @@ const INS = {
     "score": 1.6
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25900,10 +25900,10 @@ const INS = {
     "score": 1.1
    },
    {
-    "mob": "Fog Wanderer",
-    "slug": "fog-wanderer",
-    "hp": 880,
-    "mobs": 6,
+    "mob": "Demon",
+    "slug": "demon",
+    "hp": 8200,
+    "mobs": 61,
     "score": 0.7
    }
   ],
@@ -25916,20 +25916,6 @@ const INS = {
     "score": 0.7
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -25937,9 +25923,23 @@ const INS = {
     "score": 0.0
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25974,9 +25974,9 @@ const INS = {
     "score": 1.3
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -26064,20 +26064,6 @@ const INS = {
     "score": 0.6
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -26085,9 +26071,23 @@ const INS = {
     "score": 0.0
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -26108,13 +26108,6 @@ const INS = {
     "score": 0.1
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Mad Santa",
     "slug": "mad-santa",
     "hp": 250000,
@@ -26122,9 +26115,16 @@ const INS = {
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -26152,16 +26152,16 @@ const INS = {
     "score": 0.2
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -26189,16 +26189,16 @@ const INS = {
     "score": 0.9
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -26212,20 +26212,6 @@ const INS = {
     "score": 12.1
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -26233,9 +26219,23 @@ const INS = {
     "score": 0.0
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -26249,20 +26249,6 @@ const INS = {
     "score": 3.8
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -26270,9 +26256,23 @@ const INS = {
     "score": 0.0
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -26300,16 +26300,16 @@ const INS = {
     "score": 0.7
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
+    "mob": "Dipthrah",
+    "slug": "dipthrah",
+    "hp": 4200,
+    "mobs": 1,
     "score": 0.0
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -26360,20 +26360,6 @@ const INS = {
     "score": 106.2
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Ferumbras",
     "slug": "ferumbras",
     "hp": 28000,
@@ -26381,9 +26367,23 @@ const INS = {
     "score": 0.0
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Bazir",
+    "slug": "bazir",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -28257,15 +28257,15 @@ const INS = {
     "score": 20.0
    },
    {
-    "mob": "High Necromancer",
-    "slug": "high-necromancer",
+    "mob": "Necropharus",
+    "slug": "necropharus",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Necropharus",
-    "slug": "necropharus",
+    "mob": "High Necromancer",
+    "slug": "high-necromancer",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
@@ -28482,17 +28482,17 @@ const INS = {
   ],
   "Sling Herb": [
    {
-    "mob": "Carniphila",
-    "slug": "carniphila",
-    "hp": 255,
-    "mobs": 36,
-    "score": 14.1
-   },
-   {
     "mob": "Elf Arcanist",
     "slug": "elf-arcanist",
     "hp": 220,
     "mobs": 31,
+    "score": 14.1
+   },
+   {
+    "mob": "Carniphila",
+    "slug": "carniphila",
+    "hp": 255,
+    "mobs": 36,
     "score": 14.1
    },
    {
@@ -28533,17 +28533,17 @@ const INS = {
     "score": 27.0
    },
    {
-    "mob": "Carniphila",
-    "slug": "carniphila",
-    "hp": 255,
-    "mobs": 36,
-    "score": 14.1
-   },
-   {
     "mob": "Elf Arcanist",
     "slug": "elf-arcanist",
     "hp": 220,
     "mobs": 31,
+    "score": 14.1
+   },
+   {
+    "mob": "Carniphila",
+    "slug": "carniphila",
+    "hp": 255,
+    "mobs": 36,
     "score": 14.1
    },
    {
@@ -29799,9 +29799,9 @@ const INS = {
     "score": 36.2
    },
    {
-    "mob": "Grorlam",
-    "slug": "grorlam",
-    "hp": 2700,
+    "mob": "Fernfang",
+    "slug": "fernfang",
+    "hp": 400,
     "mobs": 0,
     "score": 0.0
    }
@@ -30143,9 +30143,9 @@ const INS = {
     "score": 0.0
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
-    "hp": 450,
+    "mob": "Dharalion",
+    "slug": "dharalion",
+    "hp": 390,
     "mobs": 0,
     "score": 0.0
    }
@@ -30182,13 +30182,6 @@ const INS = {
     "score": 7.1
    },
    {
-    "mob": "Omruc",
-    "slug": "omruc",
-    "hp": 4300,
-    "mobs": 1,
-    "score": 0.0
-   },
-   {
     "mob": "Dharalion",
     "slug": "dharalion",
     "hp": 390,
@@ -30200,6 +30193,13 @@ const INS = {
     "slug": "fernfang",
     "hp": 400,
     "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Omruc",
+    "slug": "omruc",
+    "hp": 4300,
+    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -31871,16 +31871,16 @@ const INS = {
     "score": 10.5
    },
    {
-    "mob": "The Horned Fox",
-    "slug": "the-horned-fox",
-    "hp": 265,
+    "mob": "General Murius",
+    "slug": "general-murius",
+    "hp": 550,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "General Murius",
-    "slug": "general-murius",
-    "hp": 550,
+    "mob": "The Horned Fox",
+    "slug": "the-horned-fox",
+    "hp": 265,
     "mobs": 0,
     "score": 0.0
    }
@@ -31901,16 +31901,16 @@ const INS = {
     "score": 71.4
    },
    {
-    "mob": "The Horned Fox",
-    "slug": "the-horned-fox",
-    "hp": 265,
+    "mob": "General Murius",
+    "slug": "general-murius",
+    "hp": 550,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "General Murius",
-    "slug": "general-murius",
-    "hp": 550,
+    "mob": "The Horned Fox",
+    "slug": "the-horned-fox",
+    "hp": 265,
     "mobs": 0,
     "score": 0.0
    }
@@ -32505,15 +32505,15 @@ const INS = {
     "score": 2.2
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -33913,15 +33913,15 @@ const INS = {
     "score": 82.2
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -103780,20 +103780,35 @@ selectFloor=function(z,keepView){ _selFloorMail(z,keepView); if(mailOn) drawMail
 
 // ================= ANKRAHMUN TOMB ENTRANCES =================
 // Entrance tiles (surface, z7) from TibiaWiki "Mapper Coords" (a*256+b -> world x/y), converted to the map frame
-// (px=x-31744, py=y-30701). `verified` = Rivalia's own minimap has a stair/hole within 1-4 tiles of that tile
-// on the first underground floors. Monsters/floors/spawn counts are NOT written here: they come from Rivalia's
+// (px=x-31744, py=y-30701). Monsters/floors/spawn counts are NOT written here: they come from Rivalia's
 // hunting zones ("<zone> -1-2", "<zone> -3-4") via TOMB_ZONES, so the popups stay generic and follow the data.
 // Names are the players' unofficial ones. Entrances are hidden: dig with a shovel on the tile.
 const TOMB_ZONES = {"Mountain Tomb": [{"name": "Mountain Tomb -1-2", "floors": "Floors -4, -5", "spawns": 89, "mobs": [["Skeleton", 86, 35], ["Larva", 33, 44], ["Snake", 24, 10], ["Poison Spider", 21, 22], ["Hyaena", 20, 20], ["Ghoul", 9, 85], ["Cobra", 7, 30], ["Mummy", 4, 150], ["Cave Rat", 3, 10], ["Stalker", 3, 90], ["Scarab", 2, 120], ["Demon Skeleton", 1, 240]]}, {"name": "Mountain Tomb -3-4", "floors": "Floors -6, -7", "spawns": 125, "mobs": [["Vampire", 49, 290], ["Ghost", 42, 120], ["Mummy", 37, 150], ["Stalker", 33, 90], ["Demon Skeleton", 31, 240], ["Beholder", 13, 170], ["Ghoul", 13, 85], ["Priestess", 10, 420], ["Necromancer", 8, 580], ["Slime", 8, 160], ["Gargoyle", 6, 150], ["Magicthrower", 6, 18], ["Bonebeast", 4, 580], ["Lich", 4, 900], ["Scarab", 3, 120], ["Green Djinn", 2, 190], ["Scorpion", 2, 45]]}], "Oasis Tomb": [{"name": "Oasis Tomb -1-2", "floors": "Floors -4, -5", "spawns": 71, "mobs": [["Skeleton", 54, 35], ["Ghoul", 29, 85], ["Snake", 29, 10], ["Poison Spider", 9, 22], ["Scarab", 9, 120], ["Scorpion", 6, 45], ["Stalker", 6, 90], ["Hyaena", 5, 20], ["Mummy", 5, 150], ["Cobra", 4, 30], ["Slime", 2, 160], ["Amazon", 1, 60], ["Dwarf", 1, 45], ["Elf", 1, 42]]}, {"name": "Oasis Tomb -3-4", "floors": "Floors -6, -7", "spawns": 154, "mobs": [["Mummy", 60, 150], ["Vampire", 52, 290], ["Beholder", 51, 170], ["Ghost", 51, 120], ["Stalker", 36, 90], ["Green Djinn", 31, 190], ["Demon Skeleton", 19, 240], ["Necromancer", 18, 580], ["Scorpion", 17, 45], ["Lich", 13, 900], ["Ghoul", 11, 85], ["Crypt Shambler", 9, 195], ["Gargoyle", 9, 150], ["Cobra", 4, 30], ["Slime", 4, 160], ["Warlock", 2, 4000]]}], "Peninsula Tomb": [{"name": "Peninsula Tomb -1-2", "floors": "Floors -4, -5", "spawns": 84, "mobs": [["Skeleton", 33, 35], ["Larva", 25, 44], ["Ghoul", 23, 85], ["Snake", 15, 10], ["Scorpion", 13, 45], ["Lion", 10, 30], ["Crypt Shambler", 9, 195], ["Mummy", 9, 150], ["Scarab", 9, 120], ["Poison Spider", 6, 22], ["Slime", 4, 160], ["Cobra", 2, 30], ["Stone Golem", 1, 160]]}, {"name": "Peninsula Tomb -3-4", "floors": "Floors -6, -7", "spawns": 202, "mobs": [["Stalker", 197, 90], ["Ghost", 122, 120], ["Vampire", 88, 290], ["Mummy", 53, 150], ["Demon Skeleton", 39, 240], ["Necromancer", 18, 580], ["Bonebeast", 15, 580], ["Scorpion", 12, 45], ["Gargoyle", 8, 150], ["Crypt Shambler", 7, 195], ["Slime", 7, 160], ["Beholder", 6, 170], ["Scarab", 2, 120], ["Ancient Scarab", 1, 720], ["Green Djinn", 1, 190]]}], "Shadow Tomb": [{"name": "Shadow Tomb -1-2", "floors": "Floors -5, -6", "spawns": 82, "mobs": [["Ghoul", 51, 85], ["Skeleton", 38, 35], ["Larva", 31, 44], ["Scarab", 18, 120], ["Poison Spider", 15, 22], ["Crypt Shambler", 14, 195], ["Mummy", 8, 150], ["Scorpion", 7, 45], ["Fire Devil", 6, 110], ["Cave Rat", 4, 10], ["Stalker", 4, 90], ["Snake", 3, 10], ["Fire Elemental", 2, 220], ["Ghost", 2, 120], ["Beholder", 1, 170], ["Slime", 1, 160], ["Vampire", 1, 290]]}, {"name": "Shadow Tomb -3-4", "floors": "Floors -7, -8", "spawns": 161, "mobs": [["Mummy", 85, 150], ["Demon Skeleton", 63, 240], ["Fire Elemental", 63, 220], ["Crypt Shambler", 62, 195], ["Ghost", 22, 120], ["Vampire", 22, 290], ["Scarab", 15, 120], ["Green Djinn", 14, 190], ["Necromancer", 14, 580], ["Flamethrower", 7, 18], ["Dragon", 6, 700], ["Fire Devil", 5, 110]]}], "Stone Tomb": [{"name": "Stone Tomb -1-2", "floors": "Floors -4, -5", "spawns": 47, "mobs": [["Ghoul", 36, 85], ["Skeleton", 22, 35], ["Larva", 14, 44], ["Scarab", 8, 120], ["Hyaena", 3, 20], ["Mummy", 3, 150], ["Scorpion", 3, 45], ["Crypt Shambler", 2, 195], ["Poison Spider", 2, 22], ["Stalker", 2, 90], ["Cobra", 1, 30], ["Slime", 1, 160]]}, {"name": "Stone Tomb -3-4", "floors": "Floors -6, -7", "spawns": 240, "mobs": [["Scarab", 107, 120], ["Crypt Shambler", 90, 195], ["Slime", 90, 160], ["Mummy", 86, 150], ["Cobra", 31, 30], ["Ghoul", 26, 85], ["Vampire", 26, 290], ["Scorpion", 22, 45], ["Bonebeast", 14, 580], ["Ghost", 11, 120], ["Poison Spider", 11, 22], ["Ancient Scarab", 7, 720], ["Demon Skeleton", 6, 240], ["Necromancer", 5, 580], ["Giant Spider", 4, 900], ["Larva", 3, 44], ["Stalker", 3, 90], ["Beholder", 2, 170]]}], "Sunken Ruins Tomb": [{"name": "Sunken Ruins Tomb -1-2", "floors": "Floors -5, -6", "spawns": 83, "mobs": [["Ghoul", 52, 85], ["Skeleton", 46, 35], ["Mummy", 22, 150], ["Cobra", 15, 30], ["Scarab", 13, 120], ["Stalker", 12, 90], ["Larva", 8, 44], ["Cave Rat", 7, 10], ["Ghost", 6, 120], ["Slime", 5, 160], ["Poison Spider", 4, 22], ["Scorpion", 3, 45], ["Beholder", 2, 170], ["Crypt Shambler", 1, 195], ["Fire Elemental", 1, 220], ["Vampire", 1, 290]]}, {"name": "Sunken Ruins Tomb -3-4", "floors": "Floors -7, -8", "spawns": 135, "mobs": [["Ghost", 77, 120], ["Mummy", 43, 150], ["Demon Skeleton", 40, 240], ["Stalker", 36, 90], ["Vampire", 26, 290], ["Banshee", 21, 900], ["Necromancer", 15, 580], ["Crypt Shambler", 9, 195], ["Beholder", 8, 170], ["Lich", 6, 900], ["Slime", 6, 160], ["Scorpion", 5, 45], ["Gargoyle", 4, 150], ["Bonebeast", 2, 580], ["Cobra", 2, 30], ["Ghoul", 2, 85]]}], "Tar Pit Tomb": [{"name": "Tar Pit Tomb -1-2", "floors": "Floors -4, -5", "spawns": 71, "mobs": [["Skeleton", 52, 35], ["Ghoul", 49, 85], ["Cave Rat", 17, 10], ["Scarab", 9, 120], ["Mummy", 7, 150], ["Poison Spider", 5, 22], ["Crypt Shambler", 4, 195], ["Scorpion", 4, 45], ["Ghost", 3, 120], ["Larva", 3, 44], ["Stalker", 3, 90], ["Cobra", 2, 30], ["Beholder", 1, 170]]}, {"name": "Tar Pit Tomb -3-4", "floors": "Floors -6, -7", "spawns": 113, "mobs": [["Mummy", 51, 150], ["Demon Skeleton", 39, 240], ["Gargoyle", 39, 150], ["Stone Golem", 39, 160], ["Vampire", 25, 290], ["Crypt Shambler", 22, 195], ["Ghoul", 18, 85], ["Bonebeast", 6, 580], ["Behemoth", 5, 2500], ["Ghost", 1, 120]]}]};   // {"<Tomb name>": [{name,floors,spawns,mobs:[[creature,count,exp],..]}]}
+const TOMB_LEVELS = {"Shadow Tomb": [{"label": "First Hunting Level", "creatures": ["Cave Rat", "Snake", "Poison Spider", "Skeleton", "Larva", "Scorpion", "Ghoul", "Stalker", "Scarab", "Mummy", "Slime", "Bonelord"]}, {"label": "Second Hunting Level", "creatures": ["Skeleton", "Larva", "Scorpion", "Ghoul", "Stalker", "Ghost", "Scarab", "Mummy", "Crypt Shambler", "Fire Devil", "Fire Elemental", "Vampire"]}, {"label": "Third Hunting Level (through teleport)", "creatures": ["Ghost", "Scarab", "Mummy", "Slime", "Crypt Shambler", "Fire Elemental", "Demon Skeleton", "Vampire", "Green Djinn"]}, {"label": "Fourth Hunting Level (through teleport)", "creatures": ["Flamethrower", "Ghost", "Scarab", "Mummy", "Slime", "Green Djinn", "Crypt Shambler", "Fire Devil", "Fire Elemental", "Demon Skeleton", "Vampire", "Necromancer", "Dragon"]}], "Sunken Ruins Tomb": [{"label": "First floor", "creatures": ["Cave Rat", "Poison Spider", "Cobra", "Skeleton", "Larva", "Scorpion", "Ghoul", "Stalker", "Ghost", "Scarab", "Mummy", "Slime", "Bonelord", "Crypt Shambler"]}, {"label": "Second floor", "creatures": ["Skeleton", "Ghoul", "Stalker", "Ghost", "Scarab", "Mummy", "Fire Elemental", "Vampire"]}, {"label": "Third floor (through teleport)", "creatures": ["Cobra", "Scorpion", "Ghoul", "Stalker", "Ghost", "Gargoyle", "Mummy", "Slime", "Bonelord", "Crypt Shambler", "Demon Skeleton", "Vampire", "Bonebeast", "Banshee", "Lich"]}, {"label": "Fourth floor (through teleport)", "creatures": ["Scorpion", "Stalker", "Ghost", "Mummy", "Bonelord", "Crypt Shambler", "Demon Skeleton", "Vampire", "Necromancer", "Banshee", "Lich"]}], "Tar Pit Tomb": [{"label": "First Hunting Level", "creatures": ["Cave Rat", "Poison Spider", "Skeleton", "Scorpion", "Ghoul", "Scarab", "Mummy", "Bonelord", "Crypt Shambler"]}, {"label": "Second Hunting Level", "creatures": ["Larva", "Scorpion", "Cobra", "Skeleton", "Ghoul", "Stalker", "Ghost", "Scarab", "Mummy", "Crypt Shambler"]}, {"label": "Third Hunting Level", "creatures": ["Ghoul", "Stalker", "Mummy", "Crypt Shambler", "Demon Skeleton", "Vampire", "Bonebeast", "Necromancer"]}, {"label": "Third Hunting Level (through teleport)", "creatures": ["Ghoul", "Ghost", "Gargoyle", "Mummy", "Stone Golem", "Crypt Shambler", "Demon Skeleton", "Vampire", "Bonebeast"]}, {"label": "Fourth Hunting Level (through teleport)", "creatures": ["Mummy", "Gargoyle", "Stone Golem", "Crypt Shambler", "Demon Skeleton", "Vampire", "Bonebeast", "Behemoth"]}], "Stone Tomb": [{"label": "First Hunting Level", "creatures": ["Hyaena", "Poison Spider", "Skeleton", "Larva", "Scorpion", "Ghoul", "Scarab"]}, {"label": "Second Hunting Level", "creatures": ["Cobra", "Skeleton", "Ghoul", "Stalker", "Scarab", "Mummy", "Slime", "Crypt Shambler"]}, {"label": "Third Hunting Level (through teleport)", "creatures": ["Poison Spider", "Cobra", "Scorpion", "Ghoul", "Larva", "Scarab", "Mummy", "Slime", "Bonelord", "Crypt Shambler", "Demon Skeleton", "Vampire"]}, {"label": "Fourth Hunting Level (through teleport)", "creatures": ["Stalker", "Ghost", "Scarab", "Mummy", "Slime", "Crypt Shambler", "Demon Skeleton", "Vampire", "Bonebeast", "Necromancer", "Ancient Scarab", "Giant Spider"]}], "Mountain Tomb": [{"label": "First Hunting Level", "creatures": ["Snake", "Cave Rat", "Hyaena", "Poison Spider", "Cobra", "Skeleton", "Larva", "Ghoul"]}, {"label": "Second Hunting Level", "creatures": ["Snake", "Cobra", "Skeleton", "Larva", "Ghoul", "Stalker", "Scarab", "Mummy", "Demon Skeleton"]}, {"label": "Third Hunting Level (through teleport)", "creatures": ["Magicthrower", "Ghoul", "Stalker", "Ghost", "Scarab", "Mummy", "Gargoyle", "Slime", "Bonelord", "Demon Skeleton", "Vampire", "Priestess", "Necromancer", "Lich"]}, {"label": "Fourth Hunting Level (through teleport)", "creatures": ["Stalker", "Ghost", "Scarab", "Mummy", "Gargoyle", "Bonelord", "Green Djinn", "Demon Skeleton", "Vampire", "Priestess", "Necromancer", "Lich"]}], "Peninsula Tomb": [{"label": "First Hunting Level", "creatures": ["Snake", "Spider", "Poison Spider", "Skeleton", "Lion", "Larva", "Ghoul", "Scarab"]}, {"label": "Second Hunting Level", "creatures": ["Snake", "Cobra", "Lion", "Skeleton", "Larva", "Scorpion", "Ghoul", "Scarab", "Mummy", "Slime", "Stone Golem", "Crypt Shambler"]}, {"label": "Third Hunting Level (through teleport)", "creatures": ["Scorpion", "Stalker", "Ghost", "Scarab", "Gargoyle", "Mummy", "Slime", "Bonelord", "Crypt Shambler", "Demon Skeleton", "Vampire", "Bonebeast"]}, {"label": "Fourth Hunting Level (through teleport)", "creatures": ["Stalker", "Ghost", "Bonelord", "Green Djinn", "Crypt Shambler", "Demon Skeleton", "Vampire", "Vampire Bride", "Bonebeast", "Necromancer", "Ancient Scarab"]}], "Oasis Tomb": [{"label": "First Hunting Level", "creatures": ["Snake", "Hyaena", "Poison Spider", "Skeleton", "Elf", "Dwarf", "Scorpion", "Amazon", "Ghoul"]}, {"label": "Second Hunting Level", "creatures": ["Snake", "Poison Spider", "Skeleton", "Ghoul", "Stalker", "Scarab", "Mummy", "Slime"]}, {"label": "Third Hunting Level (through teleport)", "creatures": ["Scorpion", "Ghoul", "Stalker", "Ghost", "Mummy", "Slime", "Bonelord", "Green Djinn", "Crypt Shambler", "Vampire", "Lich"]}, {"label": "Fourth Hunting Level", "creatures": ["Stalker", "Ghost", "Mummy", "Slime", "Bonelord", "Green Djinn", "Crypt Shambler", "Demon Skeleton", "Vampire", "Necromancer", "Lich", "Warlock"]}]}; // {"<Tomb name>": [{label,creatures[]}]}  TibiaWiki per-level lists; '(through teleport)' = past the Scarab Coin teleporter
 const TOMBS=[
-  {name:'Tar Pit Tomb',    zone:'Tar Pit Tomb',    x:33233,y:32705, where:'Under the tar pit.', verified:true},
-  {name:'Oasis Tomb',      zone:'Oasis Tomb',      x:33132,y:32641, where:'A little north of the oasis.', verified:false},
-  {name:'Peninsula Tomb',  zone:'Peninsula Tomb',  x:33027,y:32870, where:'South-west peninsula.', verified:true},
-  {name:'Mountain Tomb',   zone:'Mountain Tomb',   x:33132,y:32568, where:'Between the mountain and a small stony hill (near the Giant Spider hill).', verified:false},
-  {name:'Sunken Ruins Tomb (Ancient Ruins)', zone:'Sunken Ruins Tomb', x:33207,y:32592, where:'Under the ancient ruins in the north; fire fields to cross on the way in.', verified:false},
-  {name:'Shadow Tomb',     zone:'Shadow Tomb',     x:33255,y:32833, where:'East of the city, in the shadow of the south-east tower.', verified:true},
-  {name:'Stone Tomb',      zone:'Stone Tomb',      x:33282,y:32743, where:'Covered by stones.', verified:true},
+  {name:'Tar Pit Tomb',    zone:'Tar Pit Tomb',    x:33233,y:32705},
+  {name:'Oasis Tomb',      zone:'Oasis Tomb',      x:33132,y:32641},
+  {name:'Peninsula Tomb',  zone:'Peninsula Tomb',  x:33027,y:32870},
+  {name:'Mountain Tomb',   zone:'Mountain Tomb',   x:33132,y:32568},
+  {name:'Sunken Ruins Tomb (Ancient Ruins)', zone:'Sunken Ruins Tomb', x:33207,y:32592},
+  {name:'Shadow Tomb',     zone:'Shadow Tomb',     x:33255,y:32833},
+  {name:'Stone Tomb',      zone:'Stone Tomb',      x:33282,y:32743},
 ];
+// Generic insights from the per-level lists: levels reached only through the teleporter, and levels that have BOTH a
+// part without and a part through the teleporter (with what lives only in each part).
+function tombInsights(zone){
+  const lv=TOMB_LEVELS[zone]||[]; if(!lv.length) return '';
+  const isTp=l=>/teleport/i.test(l), norm=l=>l.replace(/\s*\(.*?\)\s*/g,'').trim();
+  const by={}; for(const g of lv){ const k=norm(g.label); (by[k]=by[k]||{})[isTp(g.label)?'tp':'plain']=g; }
+  let h='';
+  const tpOnly=Object.keys(by).filter(k=>by[k].tp&&!by[k].plain);
+  if(tpOnly.length) h+=`<div class="ap-meta">ℹ️ Entirely past the teleporter: ${tpOnly.join(', ')}.</div>`;
+  for(const k of Object.keys(by)){ const v=by[k]; if(!(v.tp&&v.plain)) continue;
+    const onlyTp=v.tp.creatures.filter(c=>!v.plain.creatures.includes(c)), onlyPl=v.plain.creatures.filter(c=>!v.tp.creatures.includes(c));
+    h+=`<div class="ap-meta">ℹ️ <b>${k}</b> has two parts — without teleporter: ${v.plain.creatures.join(', ')}${onlyPl.length?' (only there: '+onlyPl.join(', ')+')':''}; `+
+       `through the teleporter: ${v.tp.creatures.join(', ')}${onlyTp.length?' (only there: '+onlyTp.join(', ')+')':''}.</div>`; }
+  return h;
+}
 const tombLayer=L.layerGroup();
 let tombOn=true;
 function drawTombs(){
@@ -103810,13 +103825,11 @@ function drawTombs(){
       const zhtml=zones.map(zn=>
         `<div class="ap-meta"><b>${zn.name}</b> · ${zn.floors} · ${zn.spawns} spawns</div>`+
         `<div class="ap-meta">${zn.mobs.map(m=>m[0]+' '+m[1]).join(' · ')}</div>`).join('');
-      L.popup({maxWidth:320,className:'area-popup'}).setLatLng([IMGH-py,px])
+      L.popup({maxWidth:340,className:'area-popup'}).setLatLng([IMGH-py,px])
        .setContent(`<div class="area-pop"><div class="ap-hd">⚰️ ${t.name}</div>`+
-         `<div class="ap-meta">📍 Entrance tile: x ${t.x}, y ${t.y}, z 7 — ${t.where}</div>`+
-         `<div class="ap-meta">⛏️ Hidden: dig with a shovel on that tile (the stairs lead down from there).</div>`+
          `<div class="ap-meta">🪙 Past the 2nd hunting floor a teleporter needs a Scarab Coin sacrifice (Scarab / Ancient Scarab drops, no NPC sells them).</div>`+
-         zhtml+
-         `<div class="ap-meta" style="opacity:.75">${t.verified?'Coordinates match a stair on Rivalia\'s minimap (±1-4 tiles).':'TibiaWiki coordinates only — no stair on the minimap here; look around the tile.'}</div></div>`).openOn(map);
+         tombInsights(t.zone)+zhtml+
+         `<div class="ap-meta" style="opacity:.7">Monsters: Rivalia hunting zones · levels/teleporter: TibiaWiki (vanilla layout).</div></div>`).openOn(map);
     });
     tombLayer.addLayer(mk);
   }

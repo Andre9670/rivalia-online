@@ -24,6 +24,7 @@ if os.path.exists('wiki-2026-10/hunting-zones.json'):
             _tomb_zones.setdefault(_m.group(1), []).append(
                 {'name': _z['name'], 'floors': _z['floors'], 'spawns': _z['spawns'], 'mobs': _z['mobs']})
 tombzones = json.dumps(_tomb_zones)
+tomblevels = json.dumps(json.load(open('wiki-2026-10/tomb-levels.json')).get('levels', {})) if os.path.exists('wiki-2026-10/tomb-levels.json') else '{}'
 
 # ---- Merge BOSSES/uniques into the searchable set ----------------------------------
 # 174 creatures have fixed spawns on the map (map-data.json / hunt-spots.json). The full
@@ -631,7 +632,7 @@ TEMPLATE = r'''<!DOCTYPE html>
         <button class="btn" id="routeBtn" title="Find how to reach a point: click the START then the DESTINATION on the map">🧭 How to get there</button>
         <button class="btn on" id="cityBtn" title="Show city names (Thais, Carlin, Venore…) on the map as landmarks">🏰 Cities: On</button>
         <button class="btn" id="chestBtn" title="Show Rivalia's 222 reward chests on the map (pins on the current floor, popup with loot)">🎁 Chest: Off</button>
-        <button class="btn on" id="tombBtn" title="Mark the 7 Ankrahmun tomb entrances (dig with a shovel on the marked tile). Click a pin for the entrance tile, the Scarab Coin rule and every monster in that tomb.">⚰️ Tombs: On</button>
+        <button class="btn on" id="tombBtn" title="Mark the 7 Ankrahmun tomb entrances. Click a pin for every monster in that tomb and the teleporter / Scarab Coin notes.">⚰️ Tombs: On</button>
         <button class="btn" id="mailBtn" title="Show mailboxes (send parcels to your depot mid-hunt). Royal ones need the full Postman Quest. Positions are 7.4-vanilla candidates — verify in-game.">📮 Mail: Off</button>
       </div>
     </details>
@@ -2462,20 +2463,35 @@ selectFloor=function(z,keepView){ _selFloorMail(z,keepView); if(mailOn) drawMail
 
 // ================= ANKRAHMUN TOMB ENTRANCES =================
 // Entrance tiles (surface, z7) from TibiaWiki "Mapper Coords" (a*256+b -> world x/y), converted to the map frame
-// (px=x-31744, py=y-30701). `verified` = Rivalia's own minimap has a stair/hole within 1-4 tiles of that tile
-// on the first underground floors. Monsters/floors/spawn counts are NOT written here: they come from Rivalia's
+// (px=x-31744, py=y-30701). Monsters/floors/spawn counts are NOT written here: they come from Rivalia's
 // hunting zones ("<zone> -1-2", "<zone> -3-4") via TOMB_ZONES, so the popups stay generic and follow the data.
 // Names are the players' unofficial ones. Entrances are hidden: dig with a shovel on the tile.
 const TOMB_ZONES = __TOMBZONES__;   // {"<Tomb name>": [{name,floors,spawns,mobs:[[creature,count,exp],..]}]}
+const TOMB_LEVELS = __TOMBLEVELS__; // {"<Tomb name>": [{label,creatures[]}]}  TibiaWiki per-level lists; '(through teleport)' = past the Scarab Coin teleporter
 const TOMBS=[
-  {name:'Tar Pit Tomb',    zone:'Tar Pit Tomb',    x:33233,y:32705, where:'Under the tar pit.', verified:true},
-  {name:'Oasis Tomb',      zone:'Oasis Tomb',      x:33132,y:32641, where:'A little north of the oasis.', verified:false},
-  {name:'Peninsula Tomb',  zone:'Peninsula Tomb',  x:33027,y:32870, where:'South-west peninsula.', verified:true},
-  {name:'Mountain Tomb',   zone:'Mountain Tomb',   x:33132,y:32568, where:'Between the mountain and a small stony hill (near the Giant Spider hill).', verified:false},
-  {name:'Sunken Ruins Tomb (Ancient Ruins)', zone:'Sunken Ruins Tomb', x:33207,y:32592, where:'Under the ancient ruins in the north; fire fields to cross on the way in.', verified:false},
-  {name:'Shadow Tomb',     zone:'Shadow Tomb',     x:33255,y:32833, where:'East of the city, in the shadow of the south-east tower.', verified:true},
-  {name:'Stone Tomb',      zone:'Stone Tomb',      x:33282,y:32743, where:'Covered by stones.', verified:true},
+  {name:'Tar Pit Tomb',    zone:'Tar Pit Tomb',    x:33233,y:32705},
+  {name:'Oasis Tomb',      zone:'Oasis Tomb',      x:33132,y:32641},
+  {name:'Peninsula Tomb',  zone:'Peninsula Tomb',  x:33027,y:32870},
+  {name:'Mountain Tomb',   zone:'Mountain Tomb',   x:33132,y:32568},
+  {name:'Sunken Ruins Tomb (Ancient Ruins)', zone:'Sunken Ruins Tomb', x:33207,y:32592},
+  {name:'Shadow Tomb',     zone:'Shadow Tomb',     x:33255,y:32833},
+  {name:'Stone Tomb',      zone:'Stone Tomb',      x:33282,y:32743},
 ];
+// Generic insights from the per-level lists: levels reached only through the teleporter, and levels that have BOTH a
+// part without and a part through the teleporter (with what lives only in each part).
+function tombInsights(zone){
+  const lv=TOMB_LEVELS[zone]||[]; if(!lv.length) return '';
+  const isTp=l=>/teleport/i.test(l), norm=l=>l.replace(/\s*\(.*?\)\s*/g,'').trim();
+  const by={}; for(const g of lv){ const k=norm(g.label); (by[k]=by[k]||{})[isTp(g.label)?'tp':'plain']=g; }
+  let h='';
+  const tpOnly=Object.keys(by).filter(k=>by[k].tp&&!by[k].plain);
+  if(tpOnly.length) h+=`<div class="ap-meta">ℹ️ Entirely past the teleporter: ${tpOnly.join(', ')}.</div>`;
+  for(const k of Object.keys(by)){ const v=by[k]; if(!(v.tp&&v.plain)) continue;
+    const onlyTp=v.tp.creatures.filter(c=>!v.plain.creatures.includes(c)), onlyPl=v.plain.creatures.filter(c=>!v.tp.creatures.includes(c));
+    h+=`<div class="ap-meta">ℹ️ <b>${k}</b> has two parts — without teleporter: ${v.plain.creatures.join(', ')}${onlyPl.length?' (only there: '+onlyPl.join(', ')+')':''}; `+
+       `through the teleporter: ${v.tp.creatures.join(', ')}${onlyTp.length?' (only there: '+onlyTp.join(', ')+')':''}.</div>`; }
+  return h;
+}
 const tombLayer=L.layerGroup();
 let tombOn=true;
 function drawTombs(){
@@ -2492,13 +2508,11 @@ function drawTombs(){
       const zhtml=zones.map(zn=>
         `<div class="ap-meta"><b>${zn.name}</b> · ${zn.floors} · ${zn.spawns} spawns</div>`+
         `<div class="ap-meta">${zn.mobs.map(m=>m[0]+' '+m[1]).join(' · ')}</div>`).join('');
-      L.popup({maxWidth:320,className:'area-popup'}).setLatLng([IMGH-py,px])
+      L.popup({maxWidth:340,className:'area-popup'}).setLatLng([IMGH-py,px])
        .setContent(`<div class="area-pop"><div class="ap-hd">⚰️ ${t.name}</div>`+
-         `<div class="ap-meta">📍 Entrance tile: x ${t.x}, y ${t.y}, z 7 — ${t.where}</div>`+
-         `<div class="ap-meta">⛏️ Hidden: dig with a shovel on that tile (the stairs lead down from there).</div>`+
          `<div class="ap-meta">🪙 Past the 2nd hunting floor a teleporter needs a Scarab Coin sacrifice (Scarab / Ancient Scarab drops, no NPC sells them).</div>`+
-         zhtml+
-         `<div class="ap-meta" style="opacity:.75">${t.verified?'Coordinates match a stair on Rivalia\'s minimap (±1-4 tiles).':'TibiaWiki coordinates only — no stair on the minimap here; look around the tile.'}</div></div>`).openOn(map);
+         tombInsights(t.zone)+zhtml+
+         `<div class="ap-meta" style="opacity:.7">Monsters: Rivalia hunting zones · levels/teleporter: TibiaWiki (vanilla layout).</div></div>`).openOn(map);
     });
     tombLayer.addLayer(mk);
   }
@@ -2954,6 +2968,7 @@ html = (TEMPLATE.replace('__MAPDATA__', mapdata).replace('__IMGS__', imgs)
         .replace('__PKMAP__', pkmap)
         .replace('__RELS__', rels)
         .replace('__NPCS__', npcs)
-        .replace('__TOMBZONES__', tombzones))
+        .replace('__TOMBZONES__', tombzones)
+        .replace('__TOMBLEVELS__', tomblevels))
 open(OUTFILE,'w').write(html)
 print("HTML written:", OUTFILE, len(html), "bytes", "(INLINE)" if INLINE else "(external sprites)")
