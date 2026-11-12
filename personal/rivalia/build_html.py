@@ -1,4 +1,4 @@
-import json, os, base64, mimetypes
+import json, os, base64, mimetypes, re
 
 # INLINE=1 -> embed creature sprites as base64 data URIs (self-contained, works in the
 # OneDrive sandbox which blocks relative fetches). Default: external creatures/ folder
@@ -15,6 +15,15 @@ insights = open('insights-data.json').read()       # loot-value / quests / farm 
 pkmap = open('pk-map-data.json').read()             # who-kills-who PK graph, Aeternum (from scrape_pk.py + aggregation)
 rels = open('relationships.json').read()             # player relationship graph (build_relationships.py): allies/enemies/co-faction
 npcs = open('npcs.json').read() if os.path.exists('npcs.json') else '{"npcs":[],"n_with_coords":0,"n_with_offers":0}'  # NPC directory (build_npcs.py); optional, not in weekly cron
+# Rivalia hunting zones (wiki) -> monster lists per Ankrahmun tomb, for the Tombs layer popups
+_tomb_zones = {}
+if os.path.exists('wiki-2026-10/hunting-zones.json'):
+    for _z in json.load(open('wiki-2026-10/hunting-zones.json')):
+        _m = re.match(r'^(.+ Tomb) -\d', _z['name'])
+        if _m and _z.get('region') == 'Ankrahmun':
+            _tomb_zones.setdefault(_m.group(1), []).append(
+                {'name': _z['name'], 'floors': _z['floors'], 'spawns': _z['spawns'], 'mobs': _z['mobs']})
+tombzones = json.dumps(_tomb_zones)
 
 # ---- Merge BOSSES/uniques into the searchable set ----------------------------------
 # 174 creatures have fixed spawns on the map (map-data.json / hunt-spots.json). The full
@@ -394,7 +403,6 @@ TEMPLATE = r'''<!DOCTYPE html>
   .mailpin.offfloor{opacity:.35;filter:grayscale(.6) drop-shadow(0 1px 2px #000)}
   .tomb-pin{background:none;border:none}
   .tombpin{font-size:17px;cursor:pointer;filter:drop-shadow(0 1px 2px #000);line-height:1}
-  .tombpin.garg{filter:drop-shadow(0 0 4px #f5c542) drop-shadow(0 1px 2px #000)}
   .tombpin.offfloor{opacity:.35;filter:grayscale(.6) drop-shadow(0 1px 2px #000)}
 
   /* DESKTOP-neutral: the creature-sheet wrapper is transparent (children float exactly as
@@ -623,7 +631,7 @@ TEMPLATE = r'''<!DOCTYPE html>
         <button class="btn" id="routeBtn" title="Find how to reach a point: click the START then the DESTINATION on the map">🧭 How to get there</button>
         <button class="btn on" id="cityBtn" title="Show city names (Thais, Carlin, Venore…) on the map as landmarks">🏰 Cities: On</button>
         <button class="btn" id="chestBtn" title="Show Rivalia's 222 reward chests on the map (pins on the current floor, popup with loot)">🎁 Chest: Off</button>
-        <button class="btn on" id="tombBtn" title="Mark the 7 Ankrahmun tomb entrances (dig with a shovel on the marked tile). 🗿 = tombs with Gargoyles. Click a pin for the route, Scarab Coin rule and what lives past the teleporter.">⚰️ Tombs: On</button>
+        <button class="btn on" id="tombBtn" title="Mark the 7 Ankrahmun tomb entrances (dig with a shovel on the marked tile). Click a pin for the entrance tile, the Scarab Coin rule and every monster in that tomb.">⚰️ Tombs: On</button>
         <button class="btn" id="mailBtn" title="Show mailboxes (send parcels to your depot mid-hunt). Royal ones need the full Postman Quest. Positions are 7.4-vanilla candidates — verify in-game.">📮 Mail: Off</button>
       </div>
     </details>
@@ -2455,17 +2463,18 @@ selectFloor=function(z,keepView){ _selFloorMail(z,keepView); if(mailOn) drawMail
 // ================= ANKRAHMUN TOMB ENTRANCES =================
 // Entrance tiles (surface, z7) from TibiaWiki "Mapper Coords" (a*256+b -> world x/y), converted to the map frame
 // (px=x-31744, py=y-30701). `verified` = Rivalia's own minimap has a stair/hole within 1-4 tiles of that tile
-// on the first underground floors. Spawn counts = Rivalia hunting zones "<Tomb> -3-4" (floors past the teleporter).
+// on the first underground floors. Monsters/floors/spawn counts are NOT written here: they come from Rivalia's
+// hunting zones ("<zone> -1-2", "<zone> -3-4") via TOMB_ZONES, so the popups stay generic and follow the data.
 // Names are the players' unofficial ones. Entrances are hidden: dig with a shovel on the tile.
+const TOMB_ZONES = __TOMBZONES__;   // {"<Tomb name>": [{name,floors,spawns,mobs:[[creature,count,exp],..]}]}
 const TOMBS=[
-  {name:'Tar Pit Tomb',  x:33233,y:32705, garg:39, spawns:113, floors:'-4/-5, then -6/-7', top:'Mummy 51 · Demon Skeleton 39 · Gargoyle 39 · Stone Golem 39', where:'Under the tar pit.', verified:true,  best:true,
-   note:'Two ways to the 3rd level (-6): stairs on the right = no Scarab Coin, Stalker/Vampire/Bonebeast, no Gargoyle; the left branch goes through the teleporter (Scarab Coin) and holds the Gargoyles and Stone Golems. (Reported in-game; the vanilla wiki says the same.)'},
-  {name:'Oasis Tomb',    x:33132,y:32641, garg:9,  spawns:154, floors:'-4/-5, then -6/-7', top:'Mummy 60 · Vampire 52 · Beholder 51 · Ghost 51', where:'A little north of the oasis.', verified:false},
-  {name:'Peninsula Tomb',x:33027,y:32870, garg:8,  spawns:202, floors:'-4/-5, then -6/-7', top:'Stalker 197 · Ghost 122 · Vampire 88 · Mummy 53', where:'South-west peninsula.', verified:true},
-  {name:'Mountain Tomb', x:33132,y:32568, garg:6,  spawns:125, floors:'-4/-5, then -6/-7', top:'Vampire 49 · Ghost 42 · Mummy 37 · Stalker 33', where:'Between the mountain and a small stony hill (near the Giant Spider hill).', verified:false},
-  {name:'Sunken Ruins Tomb (Ancient Ruins)', x:33207,y:32592, garg:4, spawns:135, floors:'-5/-6, then -7/-8', top:'Ghost 77 · Mummy 43 · Demon Skeleton 40 · Banshee 21', where:'Under the ancient ruins in the north; fire fields to cross on the way in.', verified:false},
-  {name:'Shadow Tomb',   x:33255,y:32833, garg:0,  spawns:161, floors:'-5/-6, then -7/-8', top:'Mummy 85 · Demon Skeleton 63 · Fire Elemental 63 · Crypt Shambler 62', where:'East of the city, in the shadow of the south-east tower.', verified:true},
-  {name:'Stone Tomb',    x:33282,y:32743, garg:0,  spawns:240, floors:'-4/-5, then -6/-7', top:'Scarab 107 · Crypt Shambler 90 · Slime 90 · Mummy 86', where:'Covered by stones.', verified:true},
+  {name:'Tar Pit Tomb',    zone:'Tar Pit Tomb',    x:33233,y:32705, where:'Under the tar pit.', verified:true},
+  {name:'Oasis Tomb',      zone:'Oasis Tomb',      x:33132,y:32641, where:'A little north of the oasis.', verified:false},
+  {name:'Peninsula Tomb',  zone:'Peninsula Tomb',  x:33027,y:32870, where:'South-west peninsula.', verified:true},
+  {name:'Mountain Tomb',   zone:'Mountain Tomb',   x:33132,y:32568, where:'Between the mountain and a small stony hill (near the Giant Spider hill).', verified:false},
+  {name:'Sunken Ruins Tomb (Ancient Ruins)', zone:'Sunken Ruins Tomb', x:33207,y:32592, where:'Under the ancient ruins in the north; fire fields to cross on the way in.', verified:false},
+  {name:'Shadow Tomb',     zone:'Shadow Tomb',     x:33255,y:32833, where:'East of the city, in the shadow of the south-east tower.', verified:true},
+  {name:'Stone Tomb',      zone:'Stone Tomb',      x:33282,y:32743, where:'Covered by stones.', verified:true},
 ];
 const tombLayer=L.layerGroup();
 let tombOn=true;
@@ -2474,21 +2483,21 @@ function drawTombs(){
   for(const t of TOMBS){
     const px=t.x-31744, py=t.y-30701, z=7;
     const off = z!==curFloor;
-    const cls='tombpin'+(t.garg?' garg':'')+(off?' offfloor':'');
-    const ico=t.garg?'🗿':'⚰️';
-    const html=`<div class="${cls}" title="${ico} ${t.name} — ${t.garg?t.garg+' Gargoyle':'no Gargoyle'}">${ico}</div>`;
+    const cls='tombpin'+(off?' offfloor':'');
+    const html=`<div class="${cls}" title="⚰️ ${t.name}">⚰️</div>`;
     const mk=L.marker([IMGH-py,px],{icon:L.divIcon({className:'tomb-pin',html,iconSize:null})});
-    mk.bindTooltip(`${ico} ${t.name}${t.garg?' · Gargoyle '+t.garg:''}`,{direction:'top',opacity:.9});
+    mk.bindTooltip(`⚰️ ${t.name}`,{direction:'top',opacity:.9});
     mk.on('click',()=>{
-      L.popup({maxWidth:300,className:'area-popup'}).setLatLng([IMGH-py,px])
-       .setContent(`<div class="area-pop"><div class="ap-hd">${ico} ${t.name}${t.best?' ⭐':''}</div>`+
+      const zones=(TOMB_ZONES[t.zone]||[]).slice().sort((a,b)=>a.name<b.name?-1:1);
+      const zhtml=zones.map(zn=>
+        `<div class="ap-meta"><b>${zn.name}</b> · ${zn.floors} · ${zn.spawns} spawns</div>`+
+        `<div class="ap-meta">${zn.mobs.map(m=>m[0]+' '+m[1]).join(' · ')}</div>`).join('');
+      L.popup({maxWidth:320,className:'area-popup'}).setLatLng([IMGH-py,px])
+       .setContent(`<div class="area-pop"><div class="ap-hd">⚰️ ${t.name}</div>`+
          `<div class="ap-meta">📍 Entrance tile: x ${t.x}, y ${t.y}, z 7 — ${t.where}</div>`+
          `<div class="ap-meta">⛏️ Hidden: dig with a shovel on that tile (the stairs lead down from there).</div>`+
          `<div class="ap-meta">🪙 Past the 2nd hunting floor a teleporter needs a Scarab Coin sacrifice (Scarab / Ancient Scarab drops, no NPC sells them).</div>`+
-         `<div class="ap-meta">Hunting floors: ${t.floors} · ${t.spawns} spawns past the teleporter</div>`+
-         `<div class="ap-meta">🗿 Gargoyle past the teleporter: <b>${t.garg||'none'}</b></div>`+
-         (t.note?`<div class="ap-meta">ℹ️ ${t.note}</div>`:'')+
-         `<div class="ap-meta">Main spawns: ${t.top}</div>`+
+         zhtml+
          `<div class="ap-meta" style="opacity:.75">${t.verified?'Coordinates match a stair on Rivalia\'s minimap (±1-4 tiles).':'TibiaWiki coordinates only — no stair on the minimap here; look around the tile.'}</div></div>`).openOn(map);
     });
     tombLayer.addLayer(mk);
@@ -2944,6 +2953,7 @@ html = (TEMPLATE.replace('__MAPDATA__', mapdata).replace('__IMGS__', imgs)
         .replace('__INSIGHTS__', insights).replace('__ROUTEIMGS__', route_imgs_json)
         .replace('__PKMAP__', pkmap)
         .replace('__RELS__', rels)
-        .replace('__NPCS__', npcs))
+        .replace('__NPCS__', npcs)
+        .replace('__TOMBZONES__', tombzones))
 open(OUTFILE,'w').write(html)
 print("HTML written:", OUTFILE, len(html), "bytes", "(INLINE)" if INLINE else "(external sprites)")
