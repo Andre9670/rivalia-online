@@ -2,7 +2,7 @@
 
 > ⚠️ All content here is **Tibia 7.4-era VANILLA** from TibiaWiki (fandom), version-filtered to `implemented ≤ 7.4`. Rivalia is CUSTOM: creature stats, loot, rewards and NPC behavior DIFFER. Use these for geography, quest structure, and spot layout — **cross-check numbers against `catalog-stats.json` + `hunt-spots.json` (real Rivalia data) and wiki.rivaliaonline.com.**
 
-Indexed 206 pages across Routes / Quests / Hunting Places.
+Indexed 207 pages across Routes / Quests / Hunting Places.
 
 
 ## 🗺️ Routes (22)
@@ -32,7 +32,7 @@ Travel walkthroughs between cities/areas.
 - [Route:Otherworld](routes/route-otherworld.md)
 - [Thaian-Venorean Road](routes/thaian-venorean-road.md)
 
-## 📜 Quests (79)
+## 📜 Quests (80)
 
 | Quest | Rec. Level | Reward |
 |---|---|---|
@@ -103,6 +103,7 @@ Travel walkthroughs between cities/areas.
 | [Steel Helmet Quest](quests/steel-helmet-quest.md) | ? | Steel Helmet, 47 gp, 56 gp, The Fox Is Out (Book) |
 | [Thais Lighthouse Quest](quests/thais-lighthouse-quest.md) | 25 | Dark Shield and Battle Hammer |
 | [The Ancient Tombs Quest](quests/the-ancient-tombs-quest.md) | ? | Helmet of the Ancients |
+| [The Ape City Quest](quests/the-ape-city-quest.md) | 130+ | Hairycles healing, Bananas, Monkey Statues, Shaman Outfits, access to Forbidden Lands and Deeper Banuta. |
 | [The Desert Dungeon Quest](quests/the-desert-dungeon-quest.md) | 20+ | Golden Bag with 25 Platinum Coins for each participating … |
 | [The Djinn War - Efreet Faction](quests/the-djinn-war-efreet-faction.md) | ? | 600 gp, Gemmed Lamp, permission to trade with Yaman and A… |
 | [The Djinn War - Marid Faction](quests/the-djinn-war-marid-faction.md) | ? | 3 Small Sapphires, Gemmed Lamp, the ability to trade with… |
