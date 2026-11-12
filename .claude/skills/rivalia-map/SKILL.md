@@ -56,6 +56,7 @@ Dati di input principali (già presenti, real Rivalia): `map-data.json`, `img-b6
 - **Verdetto farmabilità:** motore `assess()` (FARMABLE/RISKY/LETHAL) dal PG, riusato ovunque.
 - **Modal PK map** (☠️) e **Relationships** — dai grafi Aeternum.
 - **Layer toggle sulla mappa:** 🎯 Hunt areas · 🏰 Cities (13 landmark) · 🎁 Chests (222 geolocalizzate).
+- **⚰️ Tombs (7 ingressi Ankrahmun):** pin con popup (coordinate, pala, Scarab Coin, Gargoyle past teleporter). Lista **hardcoded** in `build_html.py` (`TOMBS`, coordinate TibiaWiki convertite px=x−31744, py=y−30701) — scelta voluta, per ora va bene così; per altre zone si aggiunge una riga.
 
 ## PATHFINDER "come ci arrivo" — walkability (GROUND TRUTH di Andrea, non cambiare a caso)
 A* 3D multi-piano su walk-grid + transizioni (`build_pathdata.py` → `pathdata-grid.json` + `pathdata-trans.json`).
