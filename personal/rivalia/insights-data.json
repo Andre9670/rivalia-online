@@ -125,6 +125,13 @@
      "score": 0.1
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Infernatil",
      "slug": "infernatil",
      "hp": 110000,
@@ -132,16 +139,9 @@
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -498,22 +498,22 @@
    "droppers": 2,
    "mobs": [
     {
-     "mob": "Rahemos",
-     "slug": "rahemos",
-     "hp": 3700,
-     "spawns": 1,
-     "score": 0.0
-    },
-    {
      "mob": "Mad Santa",
      "slug": "mad-santa",
      "hp": 250000,
      "spawns": 0,
      "score": 0.0
+    },
+    {
+     "mob": "Rahemos",
+     "slug": "rahemos",
+     "hp": 3700,
+     "spawns": 1,
+     "score": 0.0
     }
    ],
    "easiest_hp": 3700,
-   "top_spawns": 1
+   "top_spawns": 0
   },
   {
    "item": "Hellforged Shield",
@@ -730,6 +730,13 @@
      "score": 0.7
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Infernatil",
      "slug": "infernatil",
      "hp": 110000,
@@ -737,23 +744,16 @@
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -810,16 +810,16 @@
      "score": 0.6
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -831,9 +831,9 @@
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -1166,17 +1166,17 @@
    "droppers": 11,
    "mobs": [
     {
-     "mob": "Behemoth",
-     "slug": "behemoth",
-     "hp": 4000,
-     "spawns": 49,
-     "score": 1.2
-    },
-    {
      "mob": "Abomination",
      "slug": "abomination",
      "hp": 4000,
      "spawns": 48,
+     "score": 1.2
+    },
+    {
+     "mob": "Behemoth",
+     "slug": "behemoth",
+     "hp": 4000,
+     "spawns": 49,
      "score": 1.2
     },
     {
@@ -1202,7 +1202,7 @@
     }
    ],
    "easiest_hp": 4000,
-   "top_spawns": 49
+   "top_spawns": 48
   },
   {
    "item": "Elven Wand",
@@ -1892,6 +1892,13 @@
      "score": 0.7
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Infernatil",
      "slug": "infernatil",
      "hp": 110000,
@@ -1899,23 +1906,16 @@
      "score": 0.0
     },
     {
-     "mob": "Mahrdis",
-     "slug": "mahrdis",
-     "hp": 3900,
-     "spawns": 1,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
+     "spawns": 0,
      "score": 0.0
     },
     {
      "mob": "Orshabaal",
      "slug": "orshabaal",
      "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Apocalypse",
-     "slug": "apocalypse",
-     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -1960,9 +1960,9 @@
      "score": 0.2
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -2551,16 +2551,16 @@
      "score": 0.7
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3092,9 +3092,9 @@
      "score": 1.3
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -3218,6 +3218,13 @@
      "score": 7.1
     },
     {
+     "mob": "Omruc",
+     "slug": "omruc",
+     "hp": 4300,
+     "spawns": 1,
+     "score": 0.0
+    },
+    {
      "mob": "Dharalion",
      "slug": "dharalion",
      "hp": 390,
@@ -3229,13 +3236,6 @@
      "slug": "fernfang",
      "hp": 400,
      "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Omruc",
-     "slug": "omruc",
-     "hp": 4300,
-     "spawns": 1,
      "score": 0.0
     }
    ],
@@ -3530,16 +3530,16 @@
      "score": 0.7
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
+     "hp": 450,
      "spawns": 0,
      "score": 0.0
     }
@@ -3614,15 +3614,15 @@
      "score": 2.2
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -3654,17 +3654,17 @@
      "score": 45.9
     },
     {
-     "mob": "Mahrdis",
-     "slug": "mahrdis",
-     "hp": 3900,
-     "spawns": 1,
-     "score": 0.0
-    },
-    {
      "mob": "Grorlam",
      "slug": "grorlam",
      "hp": 2700,
      "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Mahrdis",
+     "slug": "mahrdis",
+     "hp": 3900,
+     "spawns": 1,
      "score": 0.0
     }
    ],
@@ -3808,16 +3808,16 @@
      "score": 0.7
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -3829,9 +3829,9 @@
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -4164,16 +4164,16 @@
      "score": 0.2
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -4443,16 +4443,16 @@
      "score": 2.2
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -4879,17 +4879,17 @@
      "score": 3.0
     },
     {
-     "mob": "Behemoth",
-     "slug": "behemoth",
-     "hp": 4000,
-     "spawns": 49,
-     "score": 1.2
-    },
-    {
      "mob": "Abomination",
      "slug": "abomination",
      "hp": 4000,
      "spawns": 48,
+     "score": 1.2
+    },
+    {
+     "mob": "Behemoth",
+     "slug": "behemoth",
+     "hp": 4000,
+     "spawns": 49,
      "score": 1.2
     },
     {
@@ -4979,9 +4979,9 @@
      "score": 0.6
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6080,10 +6080,10 @@
      "score": 0.7
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
+     "mob": "Omruc",
+     "slug": "omruc",
+     "hp": 4300,
+     "spawns": 1,
      "score": 0.0
     }
    ],
@@ -6139,16 +6139,9 @@
      "score": 8.3
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -6160,9 +6153,16 @@
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6251,16 +6251,16 @@
      "score": 12.1
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -6272,9 +6272,9 @@
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -6392,8 +6392,8 @@
      "score": 0.5
     },
     {
-     "mob": "Necropharus",
-     "slug": "necropharus",
+     "mob": "High Necromancer",
+     "slug": "high-necromancer",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
@@ -7721,9 +7721,9 @@
      "score": 1.6
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -8442,15 +8442,15 @@
      "score": 20.0
     },
     {
-     "mob": "Necropharus",
-     "slug": "necropharus",
+     "mob": "High Necromancer",
+     "slug": "high-necromancer",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "High Necromancer",
-     "slug": "high-necromancer",
+     "mob": "Necropharus",
+     "slug": "necropharus",
      "hp": 750,
      "spawns": 0,
      "score": 0.0
@@ -9120,15 +9120,15 @@
      "score": 82.2
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -9241,9 +9241,9 @@
      "score": 36.2
     },
     {
-     "mob": "Grorlam",
-     "slug": "grorlam",
-     "hp": 2700,
+     "mob": "Fernfang",
+     "slug": "fernfang",
+     "hp": 400,
      "spawns": 0,
      "score": 0.0
     }
@@ -9737,15 +9737,15 @@
      "score": 82.2
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Viscount",
-     "slug": "vampire-viscount",
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -9798,9 +9798,9 @@
      "score": 3.9
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -10608,16 +10608,16 @@
      "score": 10.5
     },
     {
-     "mob": "The Horned Fox",
-     "slug": "the-horned-fox",
-     "hp": 265,
+     "mob": "General Murius",
+     "slug": "general-murius",
+     "hp": 550,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "General Murius",
-     "slug": "general-murius",
-     "hp": 550,
+     "mob": "The Horned Fox",
+     "slug": "the-horned-fox",
+     "hp": 265,
      "spawns": 0,
      "score": 0.0
     }
@@ -12324,9 +12324,9 @@
      "score": 78.1
     },
     {
-     "mob": "Gazer",
-     "slug": "gazer",
-     "hp": 120,
+     "mob": "The Evil Eye",
+     "slug": "the-evil-eye",
+     "hp": 1100,
      "spawns": 0,
      "score": 0.0
     }
@@ -15486,15 +15486,15 @@
      "score": 12.1
     },
     {
-     "mob": "Dharalion",
-     "slug": "dharalion",
-     "hp": 390,
+     "mob": "Vampire Wanderer",
+     "slug": "vampire-wanderer",
+     "hp": 450,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Vampire Wanderer",
-     "slug": "vampire-wanderer",
+     "mob": "Vampire Viscount",
+     "slug": "vampire-viscount",
      "hp": 450,
      "spawns": 0,
      "score": 0.0
@@ -17236,17 +17236,17 @@
      "score": 1.7
     },
     {
-     "mob": "Elder Wyrm",
-     "slug": "elder-wyrm",
-     "hp": 2700,
-     "spawns": 34,
-     "score": 1.3
-    },
-    {
      "mob": "Forsaken Knight",
      "slug": "forsaken-knight",
      "hp": 2400,
      "spawns": 31,
+     "score": 1.3
+    },
+    {
+     "mob": "Elder Wyrm",
+     "slug": "elder-wyrm",
+     "hp": 2700,
+     "spawns": 34,
      "score": 1.3
     }
    ],
@@ -18345,10 +18345,10 @@
      "score": 1.1
     },
     {
-     "mob": "Demon",
-     "slug": "demon",
-     "hp": 8200,
-     "spawns": 61,
+     "mob": "Fog Wanderer",
+     "slug": "fog-wanderer",
+     "hp": 880,
+     "spawns": 6,
      "score": 0.7
     }
    ],
@@ -18590,9 +18590,9 @@
      "score": 0.9
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -18630,16 +18630,16 @@
      "score": 0.9
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Apocalypse",
+     "slug": "apocalypse",
+     "hp": 125000,
      "spawns": 0,
      "score": 0.0
     }
@@ -18663,16 +18663,16 @@
      "score": 106.2
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -18684,9 +18684,9 @@
      "score": 0.0
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -18847,9 +18847,9 @@
      "score": 0.9
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19485,13 +19485,6 @@
      "score": 0.7
     },
     {
-     "mob": "Undead Dragon",
-     "slug": "undead-dragon",
-     "hp": 26500,
-     "spawns": 32,
-     "score": 0.1
-    },
-    {
      "mob": "Queen Follower",
      "slug": "queen-follower",
      "hp": 18000,
@@ -19499,16 +19492,23 @@
      "score": 0.1
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Undead Dragon",
+     "slug": "undead-dragon",
+     "hp": 26500,
+     "spawns": 32,
+     "score": 0.1
+    },
+    {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19539,6 +19539,13 @@
      "score": 0.7
     },
     {
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
      "mob": "Infernatil",
      "slug": "infernatil",
      "hp": 110000,
@@ -19546,23 +19553,16 @@
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
-     "mob": "Mad Santa",
-     "slug": "mad-santa",
-     "hp": 250000,
-     "spawns": 0,
-     "score": 0.0
-    },
-    {
      "mob": "Apocalypse",
      "slug": "apocalypse",
      "hp": 125000,
+     "spawns": 0,
+     "score": 0.0
+    },
+    {
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -19593,16 +19593,16 @@
      "score": 0.7
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -19614,9 +19614,9 @@
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     }
@@ -20327,16 +20327,16 @@
      "score": 0.2
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     }
@@ -20585,9 +20585,9 @@
      "score": 4.0
     },
     {
-     "mob": "Dharalion",
-     "slug": "dharalion",
-     "hp": 390,
+     "mob": "Fernfang",
+     "slug": "fernfang",
+     "hp": 400,
      "spawns": 0,
      "score": 0.0
     }
@@ -21487,9 +21487,9 @@
      "score": 3.8
     },
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
@@ -21501,9 +21501,9 @@
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -22350,16 +22350,16 @@
    "droppers": 6,
    "mobs": [
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -22371,16 +22371,16 @@
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -22397,16 +22397,16 @@
    "droppers": 6,
    "mobs": [
     {
-     "mob": "Infernatil",
-     "slug": "infernatil",
-     "hp": 110000,
+     "mob": "Morgaroth",
+     "slug": "morgaroth",
+     "hp": 55000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Orshabaal",
-     "slug": "orshabaal",
-     "hp": 200000,
+     "mob": "Infernatil",
+     "slug": "infernatil",
+     "hp": 110000,
      "spawns": 0,
      "score": 0.0
     },
@@ -22418,16 +22418,16 @@
      "score": 0.0
     },
     {
-     "mob": "Morgaroth",
-     "slug": "morgaroth",
-     "hp": 55000,
+     "mob": "Orshabaal",
+     "slug": "orshabaal",
+     "hp": 200000,
      "spawns": 0,
      "score": 0.0
     },
     {
-     "mob": "Bazir",
-     "slug": "bazir",
-     "hp": 110000,
+     "mob": "Ferumbras",
+     "slug": "ferumbras",
+     "hp": 28000,
      "spawns": 0,
      "score": 0.0
     }
@@ -23311,17 +23311,17 @@
     "score": 1.7
    },
    {
-    "mob": "Elder Wyrm",
-    "slug": "elder-wyrm",
-    "hp": 2700,
-    "mobs": 34,
-    "score": 1.3
-   },
-   {
     "mob": "Forsaken Knight",
     "slug": "forsaken-knight",
     "hp": 2400,
     "mobs": 31,
+    "score": 1.3
+   },
+   {
+    "mob": "Elder Wyrm",
+    "slug": "elder-wyrm",
+    "hp": 2700,
+    "mobs": 34,
     "score": 1.3
    }
   ],
@@ -23498,17 +23498,17 @@
     "score": 3.0
    },
    {
-    "mob": "Behemoth",
-    "slug": "behemoth",
-    "hp": 4000,
-    "mobs": 49,
-    "score": 1.2
-   },
-   {
     "mob": "Abomination",
     "slug": "abomination",
     "hp": 4000,
     "mobs": 48,
+    "score": 1.2
+   },
+   {
+    "mob": "Behemoth",
+    "slug": "behemoth",
+    "hp": 4000,
+    "mobs": 49,
     "score": 1.2
    },
    {
@@ -23551,17 +23551,17 @@
   ],
   "Giant Sword": [
    {
-    "mob": "Behemoth",
-    "slug": "behemoth",
-    "hp": 4000,
-    "mobs": 49,
-    "score": 1.2
-   },
-   {
     "mob": "Abomination",
     "slug": "abomination",
     "hp": 4000,
     "mobs": 48,
+    "score": 1.2
+   },
+   {
+    "mob": "Behemoth",
+    "slug": "behemoth",
+    "hp": 4000,
+    "mobs": 49,
     "score": 1.2
    },
    {
@@ -23925,9 +23925,9 @@
     "score": 0.9
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24070,16 +24070,9 @@
     "score": 8.3
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24091,9 +24084,16 @@
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24155,9 +24155,9 @@
     "score": 3.9
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24245,6 +24245,13 @@
     "score": 0.7
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Infernatil",
     "slug": "infernatil",
     "hp": 110000,
@@ -24252,23 +24259,16 @@
     "score": 0.0
    },
    {
-    "mob": "Mahrdis",
-    "slug": "mahrdis",
-    "hp": 3900,
-    "mobs": 1,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
+    "mobs": 0,
     "score": 0.0
    },
    {
     "mob": "Orshabaal",
     "slug": "orshabaal",
     "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Apocalypse",
-    "slug": "apocalypse",
-    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24289,16 +24289,16 @@
     "score": 2.2
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24319,6 +24319,13 @@
     "score": 0.7
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Infernatil",
     "slug": "infernatil",
     "hp": 110000,
@@ -24326,23 +24333,16 @@
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24386,16 +24386,16 @@
   ],
   "Teddy Bear": [
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24407,16 +24407,16 @@
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24451,25 +24451,25 @@
     "score": 0.6
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
   ],
   "Thunder Hammer": [
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24481,16 +24481,16 @@
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Ferumbras",
+    "slug": "ferumbras",
+    "hp": 28000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24703,16 +24703,16 @@
     "score": 0.2
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24726,16 +24726,16 @@
     "score": 0.7
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24747,9 +24747,9 @@
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24784,10 +24784,10 @@
     "score": 0.7
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
-    "mobs": 0,
+    "mob": "Omruc",
+    "slug": "omruc",
+    "hp": 4300,
+    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -24858,9 +24858,9 @@
     "score": 0.9
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24888,9 +24888,9 @@
     "score": 0.2
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
@@ -24911,13 +24911,6 @@
     "score": 0.7
    },
    {
-    "mob": "Undead Dragon",
-    "slug": "undead-dragon",
-    "hp": 26500,
-    "mobs": 32,
-    "score": 0.1
-   },
-   {
     "mob": "Queen Follower",
     "slug": "queen-follower",
     "hp": 18000,
@@ -24925,16 +24918,23 @@
     "score": 0.1
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Undead Dragon",
+    "slug": "undead-dragon",
+    "hp": 26500,
+    "mobs": 32,
+    "score": 0.1
+   },
+   {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -24962,16 +24962,16 @@
     "score": 0.7
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
+    "hp": 450,
     "mobs": 0,
     "score": 0.0
    }
@@ -25096,6 +25096,13 @@
     "score": 0.7
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Infernatil",
     "slug": "infernatil",
     "hp": 110000,
@@ -25103,23 +25110,16 @@
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
     "mob": "Apocalypse",
     "slug": "apocalypse",
     "hp": 125000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25154,9 +25154,9 @@
     "score": 1.6
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25191,10 +25191,10 @@
     "score": 1.1
    },
    {
-    "mob": "Demon",
-    "slug": "demon",
-    "hp": 8200,
-    "mobs": 61,
+    "mob": "Fog Wanderer",
+    "slug": "fog-wanderer",
+    "hp": 880,
+    "mobs": 6,
     "score": 0.7
    }
   ],
@@ -25207,16 +25207,16 @@
     "score": 0.7
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25228,9 +25228,9 @@
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25265,9 +25265,9 @@
     "score": 1.3
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25355,16 +25355,16 @@
     "score": 0.6
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25376,9 +25376,9 @@
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25399,6 +25399,13 @@
     "score": 0.1
    },
    {
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
+    "mobs": 0,
+    "score": 0.0
+   },
+   {
     "mob": "Infernatil",
     "slug": "infernatil",
     "hp": 110000,
@@ -25406,16 +25413,9 @@
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
-    "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Mad Santa",
-    "slug": "mad-santa",
-    "hp": 250000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25443,16 +25443,16 @@
     "score": 0.2
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25480,16 +25480,16 @@
     "score": 0.9
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25503,16 +25503,16 @@
     "score": 12.1
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25524,9 +25524,9 @@
     "score": 0.0
    },
    {
-    "mob": "Morgaroth",
-    "slug": "morgaroth",
-    "hp": 55000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25540,9 +25540,9 @@
     "score": 3.8
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25554,9 +25554,9 @@
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25591,16 +25591,16 @@
     "score": 0.7
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Apocalypse",
+    "slug": "apocalypse",
+    "hp": 125000,
     "mobs": 0,
     "score": 0.0
    }
@@ -25651,16 +25651,16 @@
     "score": 106.2
    },
    {
-    "mob": "Infernatil",
-    "slug": "infernatil",
-    "hp": 110000,
+    "mob": "Morgaroth",
+    "slug": "morgaroth",
+    "hp": 55000,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Orshabaal",
-    "slug": "orshabaal",
-    "hp": 200000,
+    "mob": "Infernatil",
+    "slug": "infernatil",
+    "hp": 110000,
     "mobs": 0,
     "score": 0.0
    },
@@ -25672,9 +25672,9 @@
     "score": 0.0
    },
    {
-    "mob": "Bazir",
-    "slug": "bazir",
-    "hp": 110000,
+    "mob": "Orshabaal",
+    "slug": "orshabaal",
+    "hp": 200000,
     "mobs": 0,
     "score": 0.0
    }
@@ -26875,9 +26875,9 @@
     "score": 78.1
    },
    {
-    "mob": "Gazer",
-    "slug": "gazer",
-    "hp": 120,
+    "mob": "The Evil Eye",
+    "slug": "the-evil-eye",
+    "hp": 1100,
     "mobs": 0,
     "score": 0.0
    }
@@ -27548,15 +27548,15 @@
     "score": 20.0
    },
    {
-    "mob": "Necropharus",
-    "slug": "necropharus",
+    "mob": "High Necromancer",
+    "slug": "high-necromancer",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "High Necromancer",
-    "slug": "high-necromancer",
+    "mob": "Necropharus",
+    "slug": "necropharus",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
@@ -27801,9 +27801,9 @@
     "score": 4.0
    },
    {
-    "mob": "Dharalion",
-    "slug": "dharalion",
-    "hp": 390,
+    "mob": "Fernfang",
+    "slug": "fernfang",
+    "hp": 400,
     "mobs": 0,
     "score": 0.0
    }
@@ -29090,9 +29090,9 @@
     "score": 36.2
    },
    {
-    "mob": "Grorlam",
-    "slug": "grorlam",
-    "hp": 2700,
+    "mob": "Fernfang",
+    "slug": "fernfang",
+    "hp": 400,
     "mobs": 0,
     "score": 0.0
    }
@@ -29427,15 +29427,15 @@
     "score": 12.1
    },
    {
-    "mob": "Dharalion",
-    "slug": "dharalion",
-    "hp": 390,
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
+    "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -29473,6 +29473,13 @@
     "score": 7.1
    },
    {
+    "mob": "Omruc",
+    "slug": "omruc",
+    "hp": 4300,
+    "mobs": 1,
+    "score": 0.0
+   },
+   {
     "mob": "Dharalion",
     "slug": "dharalion",
     "hp": 390,
@@ -29484,13 +29491,6 @@
     "slug": "fernfang",
     "hp": 400,
     "mobs": 0,
-    "score": 0.0
-   },
-   {
-    "mob": "Omruc",
-    "slug": "omruc",
-    "hp": 4300,
-    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -30024,8 +30024,8 @@
     "score": 0.5
    },
    {
-    "mob": "Necropharus",
-    "slug": "necropharus",
+    "mob": "High Necromancer",
+    "slug": "high-necromancer",
     "hp": 750,
     "mobs": 0,
     "score": 0.0
@@ -30260,15 +30260,15 @@
     "score": 82.2
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -31162,16 +31162,16 @@
     "score": 10.5
    },
    {
-    "mob": "The Horned Fox",
-    "slug": "the-horned-fox",
-    "hp": 265,
+    "mob": "General Murius",
+    "slug": "general-murius",
+    "hp": 550,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "General Murius",
-    "slug": "general-murius",
-    "hp": 550,
+    "mob": "The Horned Fox",
+    "slug": "the-horned-fox",
+    "hp": 265,
     "mobs": 0,
     "score": 0.0
    }
@@ -31547,17 +31547,17 @@
     "score": 45.9
    },
    {
-    "mob": "Mahrdis",
-    "slug": "mahrdis",
-    "hp": 3900,
-    "mobs": 1,
-    "score": 0.0
-   },
-   {
     "mob": "Grorlam",
     "slug": "grorlam",
     "hp": 2700,
     "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Mahrdis",
+    "slug": "mahrdis",
+    "hp": 3900,
+    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -31718,15 +31718,15 @@
     "score": 2.2
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
@@ -31997,17 +31997,17 @@
   ],
   "Crystal Wand": [
    {
-    "mob": "Rahemos",
-    "slug": "rahemos",
-    "hp": 3700,
-    "mobs": 1,
-    "score": 0.0
-   },
-   {
     "mob": "Mad Santa",
     "slug": "mad-santa",
     "hp": 250000,
     "mobs": 0,
+    "score": 0.0
+   },
+   {
+    "mob": "Rahemos",
+    "slug": "rahemos",
+    "hp": 3700,
+    "mobs": 1,
     "score": 0.0
    }
   ],
@@ -32825,15 +32825,15 @@
     "score": 82.2
    },
    {
-    "mob": "Vampire Wanderer",
-    "slug": "vampire-wanderer",
+    "mob": "Vampire Viscount",
+    "slug": "vampire-viscount",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
    },
    {
-    "mob": "Vampire Viscount",
-    "slug": "vampire-viscount",
+    "mob": "Vampire Wanderer",
+    "slug": "vampire-wanderer",
     "hp": 450,
     "mobs": 0,
     "score": 0.0
