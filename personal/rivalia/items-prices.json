@@ -1793,11 +1793,18 @@
 },
 "bright-sword": {
 "item": "Bright Sword",
-"sell": null,
+"sell": 6000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 6000
+}
+]
 },
 "broadsword": {
 "item": "Broadsword",
@@ -3301,11 +3308,18 @@
 },
 "daramanian-waraxe": {
 "item": "Daramanian Waraxe",
-"sell": null,
+"sell": 1600,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 1600
+}
+]
 },
 "dark-armor": {
 "item": "Dark Armor",
@@ -4066,19 +4080,33 @@
 },
 "frozen-armor": {
 "item": "Frozen Armor",
-"sell": null,
+"sell": 5000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 5000
+}
+]
 },
 "frozen-legs": {
 "item": "Frozen Legs",
-"sell": null,
+"sell": 5000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 5000
+}
+]
 },
 "garlic-necklace": {
 "item": "Garlic Necklace",
@@ -4232,16 +4260,22 @@
 },
 "golden-legs": {
 "item": "Golden Legs",
-"sell": null,
+"sell": 30000,
 "buy": 120,
-"traders": 1,
-"npc": null,
+"traders": 2,
+"npc": "Zarith The Accredited (Kazordoon)",
 "traders_list": [
 {
 "npc": "Hl",
 "city": "Other",
 "buy": 120,
 "sell": null
+},
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 30000
 }
 ]
 },
@@ -4346,11 +4380,60 @@
 },
 "green-gem": {
 "item": "Green Gem",
-"sell": null,
+"sell": 5000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 8,
+"npc": "Briasol (Ab'Dendriel)",
+"traders_list": [
+{
+"npc": "Briasol",
+"city": "Ab'Dendriel",
+"buy": null,
+"sell": 5000
+},
+{
+"npc": "Gail",
+"city": "Port Hope",
+"buy": null,
+"sell": 5000
+},
+{
+"npc": "Hanna",
+"city": "Thais",
+"buy": null,
+"sell": 5000
+},
+{
+"npc": "Ishina",
+"city": "Darashia",
+"buy": null,
+"sell": 5000
+},
+{
+"npc": "Iwan",
+"city": "Edron",
+"buy": null,
+"sell": 5000
+},
+{
+"npc": "Odemara",
+"city": "Venore",
+"buy": null,
+"sell": 5000
+},
+{
+"npc": "Tesha",
+"city": "Ankrahmun",
+"buy": null,
+"sell": 5000
+},
+{
+"npc": "Tezila",
+"city": "Kazordoon",
+"buy": null,
+"sell": 5000
+}
+]
 },
 "green-mushroom": {
 "item": "Green Mushroom",
@@ -4790,11 +4873,18 @@
 },
 "hibiscus-dress": {
 "item": "Hibiscus Dress",
-"sell": null,
+"sell": 3000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 3000
+}
+]
 },
 "holy-falcon": {
 "item": "Holy Falcon",
@@ -5523,11 +5613,18 @@
 },
 "lightning-boots": {
 "item": "Lightning Boots",
-"sell": null,
+"sell": 2500,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 2500
+}
+]
 },
 "lightning-legs": {
 "item": "Lightning Legs",
@@ -5898,19 +5995,33 @@
 },
 "magician-hat": {
 "item": "Magician Hat",
-"sell": null,
+"sell": 8000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 8000
+}
+]
 },
 "mastermind-shield": {
 "item": "Mastermind Shield",
-"sell": null,
+"sell": 50000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 50000
+}
+]
 },
 "meat": {
 "item": "Meat",
@@ -7176,35 +7287,63 @@
 },
 "revenant-armor": {
 "item": "Revenant Armor",
-"sell": null,
+"sell": 6000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 6000
+}
+]
 },
 "revenant-boots": {
 "item": "Revenant Boots",
-"sell": null,
+"sell": 6000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 6000
+}
+]
 },
 "revenant-legs": {
 "item": "Revenant Legs",
-"sell": null,
+"sell": 6000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 6000
+}
+]
 },
 "revenant-mask": {
 "item": "Revenant Mask",
-"sell": null,
+"sell": 6000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 6000
+}
+]
 },
 "ring-of-healing": {
 "item": "Ring Of Healing",
@@ -9560,11 +9699,18 @@
 },
 "terra-legs": {
 "item": "Terra Legs",
-"sell": null,
+"sell": 11000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 11000
+}
+]
 },
 "terra-mantle": {
 "item": "Terra Mantle",
@@ -9591,11 +9737,18 @@
 },
 "the-stinger": {
 "item": "The Stinger",
-"sell": null,
+"sell": 7000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 7000
+}
+]
 },
 "throwing-knife": {
 "item": "Throwing Knife",
@@ -10074,11 +10227,18 @@
 },
 "violet-gem": {
 "item": "Violet Gem",
-"sell": null,
+"sell": 10000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 10000
+}
+]
 },
 "voodoo-doll": {
 "item": "Voodoo Doll",
@@ -10547,11 +10707,18 @@
 },
 "ancient-armor": {
 "item": "Ancient Armor",
-"sell": null,
+"sell": 75000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 75000
+}
+]
 },
 "ancient-bone": {
 "item": "Ancient Bone",
@@ -10563,11 +10730,18 @@
 },
 "ancient-legs": {
 "item": "Ancient Legs",
-"sell": null,
+"sell": 45000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 45000
+}
+]
 },
 "blink-rune": {
 "item": "Blink Rune",
@@ -11426,11 +11600,18 @@
 },
 "spectral-bow": {
 "item": "Spectral Bow",
-"sell": null,
+"sell": 80000,
 "buy": null,
-"traders": 0,
-"npc": null,
-"traders_list": []
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 80000
+}
+]
 },
 "staff-of-might": {
 "item": "Staff Of Might",
@@ -11469,5 +11650,35 @@
 "traders": 0,
 "npc": null,
 "traders_list": []
+},
+"ancient-helmet": {
+"item": "Ancient Helmet",
+"sell": 42000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 42000
+}
+]
+},
+"frozen-helmet": {
+"item": "Frozen Helmet",
+"sell": 5000,
+"buy": null,
+"traders": 1,
+"npc": "Zarith The Accredited (Kazordoon)",
+"traders_list": [
+{
+"npc": "Zarith The Accredited",
+"city": "Kazordoon",
+"buy": null,
+"sell": 5000
+}
+]
 }
 }

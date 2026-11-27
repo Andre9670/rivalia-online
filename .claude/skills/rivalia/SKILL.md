@@ -22,6 +22,9 @@ Quando ti chiede di un mostro, uno spot, un drop o un prezzo: **apri il Bestiary
 
 Per leggere le fonti usa `WebFetch` (le pagine wiki.rivaliaonline.com sono pubbliche, non Midway). Il Bestiary `catalog/mainland-creatures/` ha le stats embedded come JSON nel markup (health, experience, speed, race, armor, defense, immunities, attacks, loot) — vedi i dati già estratti sotto.
 
+## UPDATE UFFICIALI DI ALEX (8 ott → 27 nov 2026) — leggi `references/ALEX-UPDATES-2026-10-11.md`
+Digest degli annunci Discord (Dungeon System, Nivarya/Dawnforged, Zarith + prezzi verificati, green gem 5.000, respawn nuovi, Aeternum 1x exp a 100/150, line of sight, artifacts 10 slot). Per meccaniche/NPC/loot recenti fidati di questo file prima che del GitBook.
+
 ## SCAN COMPLETO DEL WIKI (13 ott 2026) — leggi `references/WIKI-RESCAN-2026-10.md`
 Contiene: nuovi sistemi (Charms, Prestige Arena, Guild System, Task Board completo, Mining/Rarity Upgrade, Artifacts), 3 boss nuovi, stats cambiate, fonti reali di Boots of Haste, spell Paladin, zone/raid.
 Dati grezzi: `personal/rivalia/wiki-2026-10/*.json`. Endpoint scrapabili con curl+UA: `creatures.php?creature=<slug>`, `raids.php`, `hunting_zones.php`, `spells.php`, `artifacts.php`, `charms.php`, `task_board.php`, `guild_system.php`, `prestige_arena.php`, `mining.php`, `upgrading_items.php`, `news.php`.
