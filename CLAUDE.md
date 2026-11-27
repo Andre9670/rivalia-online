@@ -14,8 +14,8 @@ no OneDrive, no Midway, no AIM package. Publishing is **GitHub Pages** (`map/ind
 
 ## Standing rules (see personal/rivalia/NOTES.md)
 - The reverse map's user-facing UI is **English**. Don't reintroduce Italian UI strings.
-- The PK/relationship crawl filters to **World == Aeternum** (Andrea's world). Don't
-  confuse this with the "Legacy" *rate set* (that's about rates, not the world value).
+- The PK/relationship crawl filters to **World == Destiny** (Andrea's world since 27 Nov 2026; was Aeternum). Don't
+  confuse this with the *rate set* (that's about rates, not the world value).
 
 ## Regenerating & publishing the map
 The full runbook (quick "map-only" update, full weekly PK refresh, the pipeline, the

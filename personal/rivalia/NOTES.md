@@ -20,7 +20,7 @@ reintroduce Italian UI strings. Code comments, variable names, and game DATA
 (creature/city/player/guild names) stay as-is. The `rivalia` skill's own guidance and
 Andrea's chat remain Italian — this rule is only about the map's rendered UI.
 
-## 2. PK / relationship crawl filters to World == Aeternum
+## 2. PK / relationship crawl filters to Andrea's world (Aeternum until 27 Nov 2026, **Destiny since** — see the last section)
 
 Andrea's Rivalia character is on world **Aeternum** (confirmed 27 Aug 2026 — the
 profile `World` field). The `characterprofile.php` crawl pulls in **three distinct
@@ -94,7 +94,10 @@ Zarith today: buys 104 items, sells 6 (Aether Prism 10k, Dragon Lord's Eye 5k, P
 Access: the Rivalia wiki quest says pay 100,000 gp to King Tibianus (Trade Faction Accreditation); GitBook says the "Trading Documents" artifact (King questline or Store) is what lets you trade with him; GitBook also places him at Mount Sternum (Ascendia).
 Rerun: python3 build_npc_trades.py (NPC_CACHE=<dir> to reuse cached pages) then INLINE=1 python3 build_html.py.
 
-## 27 Nov 2026 — Andrea è passato a Destiny (decisione: la mappa NON cambia)
+## 27 Nov 2026 — Andrea è passato a Destiny: il crawl PK ora è DESTINY
 
-Andrea ha trasferito il PG da Aeternum a **Destiny** (world id 3 su `highscores.php`; rate 2x exp/skill/loot/spawn/regen, magic 1x, da WIKI-RESCAN-2026-10). **Istruzione esplicita: "la mappa lasciala così, non dev'essere customizzata per me"** → il crawl PK/relazioni resta filtrato su Aeternum (`PK_WORLD_FILTER`, `PK_WORLD=2` nel seed, workflow `refresh-map.yml`), `CHAR_DEF`/`CHAR` non vanno aggiornati con le stat sue, nessun selettore di rate. Le sue stat/rate/quest vivono solo nella skill `rivalia` (consigli di gioco). Quest fatte: King Tibianus (Zarith) e djinn blu (Nah'bob/Haroun).
+Andrea ha trasferito il PG da Aeternum a **Destiny** (highscores `world=3`; label profilo `World == Destiny`). **Il crawl PK/relazioni/deaths ora filtra a World==Destiny**: `build_seed.py` (`PK_WORLD`, default 3), `build_pkdata.py` e `build_relationships.py` (`PK_WORLD_FILTER`, default Destiny), `refresh-map.yml` (stesse due env). Il roster cumulativo è **per mondo** (`known-players-w3.json` per Destiny; `known-players-w2.json` = archivio Aeternum, non più usato). La label "Aeternum/Destiny" nella UI viene dal campo `world` di `pk-map-data.json` (nessun nome hardcoded).
+Primo run Destiny (27 nov): 513 profili Destiny, 261 killer, 1.277 kill.
+
+**La mappa resta generica, NON customizzata per Andrea** (istruzione esplicita 27 nov): niente stat/rate/quest/accessi NPC suoi nella mappa (es. cosa può vendere a Zarith/djinn blu). Quelle cose stanno solo nella skill `rivalia` (contesto di gioco). I default del PG (`CHAR_DEF`/`CHAR`) non vanno aggiornati.
 

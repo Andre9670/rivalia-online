@@ -12,10 +12,10 @@ from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PROF = os.environ.get('PK_PROFILES', '/tmp/pk_profiles.json')
-WORLD = os.environ.get('PK_WORLD_FILTER', 'Aeternum')   # keep ONLY this world; drop cross-world contamination
+WORLD = os.environ.get('PK_WORLD_FILTER', 'Destiny')   # keep ONLY this world; drop cross-world contamination
 prof = json.load(open(PROF))
 
-# Andrea plays a single world (Aeternum). onlinelist/deaths + the recursive crawl pull in
+# Andrea plays a single world (Destiny since 27 Nov 2026; was Aeternum). onlinelist/deaths + the recursive crawl pull in
 # other worlds (Legacy, Ascendia) — filter them out. Names are globally unique on Rivalia and
 # PvP is intra-world, so a foreign-world subgraph detaches cleanly.
 allowed = {n for n, p in prof.items() if p.get('world') == WORLD}

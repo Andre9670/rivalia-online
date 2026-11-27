@@ -37,7 +37,8 @@ jobs:
       - name: Run PK-map refresh pipeline
         working-directory: personal/rivalia
         env:
-          PK_WORLD_FILTER: Aeternum   # keep the crawl to Andrea's world (see NOTES.md)
+          PK_WORLD: '3'               # highscores seed world id (3 = Destiny)
+          PK_WORLD_FILTER: Destiny    # keep the crawl to Andrea's world (see NOTES.md)
         run: |
           set -e
           python3 build_seed.py
@@ -59,7 +60,7 @@ jobs:
                   personal/rivalia/pk-map-data.json \
                   personal/rivalia/relationships.json \
                   personal/rivalia/insights-data.json \
-                  personal/rivalia/known-players.json
+                  personal/rivalia/known-players-w3.json
           if git diff --cached --quiet; then
             echo "No changes to publish — map already up to date."
           else

@@ -2,7 +2,7 @@
 # Weekly Rivalia PK-map refresh — publishes to GitHub Pages (personal repo Andre9670/rivalia-online).
 #
 # Pipeline (all local Python; scraping rivaliaonline.com is public, no auth needed):
-#   1. build_seed.py          -> /tmp/all_players.json   (highscores seed, Aeternum world)
+#   1. build_seed.py          -> /tmp/all_players.json   (highscores seed, Destiny world)
 #   2. crawl_pk.py            -> /tmp/pk_profiles.json   (recursive crawl to closure)
 #   3. build_pkdata.py        -> pk-map-data.json        (who-kills-who graph + danger scores)
 #   3b. build_relationships.py -> relationships.json     (allies/enemies/co-faction ego-graph)
@@ -13,8 +13,8 @@
 # The PK data lives INSIDE the reverse map as an in-page modal (button "PK Map"
 # next to "Insights"). There is no separate PK-map html file.
 #
-# NOTE: build_pkdata.py / build_relationships.py filter to World==Aeternum
-# (env PK_WORLD_FILTER, default Aeternum) — see personal/rivalia/NOTES.md.
+# NOTE: build_pkdata.py / build_relationships.py filter to World==Destiny
+# (env PK_WORLD_FILTER, default Destiny; seed uses PK_WORLD, default 3) — see personal/rivalia/NOTES.md.
 
 set -u
 
@@ -48,7 +48,7 @@ git add map/index.html \
         personal/rivalia/pk-map-data.json \
         personal/rivalia/relationships.json \
         personal/rivalia/insights-data.json \
-        personal/rivalia/known-players.json >> "$LOG" 2>&1
+        personal/rivalia/known-players-w3.json >> "$LOG" 2>&1
 if git diff --cached --quiet; then
   echo "  [6] no changes to publish (map already up to date)" >> "$LOG"
 else

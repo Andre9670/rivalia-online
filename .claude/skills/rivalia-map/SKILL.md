@@ -11,7 +11,7 @@ Repo: `Andre9670/rivalia-online`. Sorgenti in `personal/rivalia/`. Deliverable p
 
 ## ⚠️ REGOLE VINCOLANTI (non violarle)
 1. **La UI della mappa è in INGLESE.** Ogni testo user-facing (bottoni, label sidebar PLAYER/HUNT/NPC/MAP, tooltip `title=`, titoli/tab/note dei modal, placeholder, legenda, scanner, verdetti FARMABLE/RISKY/LETHAL, tab Insights, tabella PK, grafo relazioni, directory NPC, popup, pathfinder) deve essere in inglese. Feature NUOVE si scrivono in inglese da subito. Commenti/variabili/nomi-di-gioco restano come sono. (Standing instruction di Andrea, 28 ago 2026 — vedi `personal/rivalia/NOTES.md`.)
-2. **Il crawl PK/relazioni filtra a `World==Aeternum`** (il mondo di Andrea). `build_pkdata.py` e `build_relationships.py` usano l'env `PK_WORLD_FILTER` (default Aeternum). NON aggirare/disabilitare il filtro: senza, entrano player di altri mondi (Legacy/Ascendia) e sporcano i grafi. NON confondere "World Aeternum" col "rate set Legacy" (cose diverse). Vedi `NOTES.md`.
+2. **Il crawl PK/relazioni filtra a `World==Destiny`** (il mondo di Andrea dal 27 nov 2026; prima Aeternum). `build_pkdata.py` e `build_relationships.py` usano l'env `PK_WORLD_FILTER` (default Destiny; il seed usa `PK_WORLD`, default 3). NON aggirare/disabilitare il filtro: senza, entrano player di altri mondi (Legacy/Ascendia) e sporcano i grafi. NON confondere "World Aeternum" col "rate set Legacy" (cose diverse). Vedi `NOTES.md`.
 3. **Solo `INLINE=1` produce il file pubblicabile.** La build self-contained (base64) è l'unica che funziona come singolo file su GitHub Pages.
 4. **Pubblicare = commit+push di `map/index.html` su `main`.** Niente OneDrive/S3/Midway (roba del vecchio setup PC-lavoro, rimossa).
 
@@ -41,10 +41,10 @@ Pipeline: `build_seed.py` → `crawl_pk.py` → `build_pkdata.py` → `build_rel
 **Automazione:** gira come **GitHub Action schedulata** — `.github/workflows/refresh-map.yml`, lunedì 08:30 UTC (+ `workflow_dispatch` per lanciarla a mano dalla tab Actions). L'Action esegue la pipeline sui runner GitHub (hanno internet → lo scrape funziona) e committa `map/index.html` su `main` col `GITHUB_TOKEN`; Pages ripubblica. ⚠️ **Perché Action e non Claude Routine:** le sessioni Routine possono pushare solo su branch `claude/` (non su `main`, se `main` ha commit di altri autori — regola "Repositories and branch permissions" dei docs) e non hanno gli strumenti GitHub per mergiare una PR. L'Action non ha questi limiti. Lo script `cron/pk-map-refresh.sh` resta per esecuzione **manuale/locale** (da una sessione che può pushare su `main`).
 
 ## PIPELINE — ruolo di ogni script (in personal/rivalia/)
-- **`build_seed.py`** → seed player da highscores (Aeternum).
+- **`build_seed.py`** → seed player da highscores (`PK_WORLD`, default 3 = Destiny; roster cumulativo per mondo `known-players-w<id>.json`).
 - **`crawl_pk.py`** → crawl ricorsivo dei profili fino a chiusura (`/tmp/pk_profiles.json`).
-- **`build_pkdata.py`** → grafo who-kills-who + danger score → `pk-map-data.json` (filtra Aeternum).
-- **`build_relationships.py`** → grafo alleati/nemici/co-fazione → `relationships.json` (filtra Aeternum).
+- **`build_pkdata.py`** → grafo who-kills-who + danger score → `pk-map-data.json` (filtra Destiny).
+- **`build_relationships.py`** → grafo alleati/nemici/co-fazione → `relationships.json` (filtra Destiny).
 - **`build_insights.py`** → `insights-data.json` (loot-value, quest fattibili, farming, hunt areas). Contiene il blocco `CHAR` (stat del PG di Andrea) editabile in cima.
 - **`build_chests.py`** → `chests.json` + questline da rivaliaonline.com.
 - **`build_npcs.py`** → `npcs.json` (directory NPC; opzionale, non nel cron settimanale).
@@ -57,7 +57,7 @@ Dati di input principali (già presenti, real Rivalia): `map-data.json`, `img-b6
 - **Pannello "My PG" in cima:** Solo/Duo/Trio (1-3 PG), default = stat reali di Andrea in `CHAR_DEF`, salvato in localStorage. Tutti gli insight ripartono da qui (`refreshAll`→`buildDanger`).
 - **Insights (modal, 5 tab):** Hunt areas · Loot-value (droppers cliccabili → highlight sulla mappa, pallino farmabilità 🟢🟡🔴 dal PG) · Quests (Fandom 79 / Questline Rivalia 5 / Chest 222) · Where to farm · Routes (14 walkthrough + immagini annotate).
 - **Verdetto farmabilità:** motore `assess()` (FARMABLE/RISKY/LETHAL) dal PG, riusato ovunque.
-- **Modal PK map** (☠️) e **Relationships** — dai grafi Aeternum.
+- **Modal PK map** (☠️) e **Relationships** — dai grafi Destiny (la label del mondo viene dal campo `world` dei dati).
 - **Layer toggle sulla mappa:** 🎯 Hunt areas · 🏰 Cities (13 landmark) · 🎁 Chests (222 geolocalizzate).
 - **⚰️ Tombs (7 ingressi Ankrahmun):** pin ⚰️ uguali per tutti; il popup mostra SOLO: regola Scarab Coin/teleporter, insight generici (livelli interamente dopo il teleporter; livelli con parte senza e parte con teleporter, con cosa vive solo in ciascuna — da `wiki-2026-10/tomb-levels.json`, TibiaWiki) e TUTTI i mostri per zona `<Tomb> -1-2` / `-3-4` (da `wiki-2026-10/hunting-zones.json`). Niente ingresso/pala/location nel popup, niente roba specifica per un mostro (es. Gargoyle): la mappa resta generica (standing instruction di Andrea). Solo le coordinate dei pin sono scritte a mano in `build_html.py` (`TOMBS`, px=x−31744, py=y−30701).
 

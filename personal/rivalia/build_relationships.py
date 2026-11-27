@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the player-relationship graph -> relationships.json (Aeternum).
+"""Build the player-relationship graph -> relationships.json (world = PK_WORLD_FILTER, default Destiny).
 
 Consumes the SAME crawl the PK map uses (no extra fetching):
   - /tmp/pk_profiles.json      : per-player death history (killers[] per death)
@@ -63,10 +63,10 @@ def C(name):
         seen.add(name); name = canon[name]
     return name
 
-# ---------- world filter: keep ONLY Andrea's world (Aeternum) ----------
-# The crawl mixes worlds (Aeternum/Legacy/Ascendia). Names are globally unique and PvP is
+# ---------- world filter: keep ONLY Andrea's world (Destiny since 27 Nov 2026) ----------
+# The crawl mixes worlds (Aeternum/Legacy/Ascendia/Destiny). Names are globally unique and PvP is
 # intra-world, so restricting to in-world (canonical) nodes detaches foreign subgraphs cleanly.
-WORLD = os.environ.get('PK_WORLD_FILTER', 'Aeternum')
+WORLD = os.environ.get('PK_WORLD_FILTER', 'Destiny')
 world_of = {n: p.get('world') for n, p in prof.items()}
 allowed = {C(n) for n, p in prof.items() if p.get('world') == WORLD}
 def _inworld(cn):

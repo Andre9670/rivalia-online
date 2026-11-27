@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Recursive PK crawl to closure (Aeternum).
+"""Recursive PK crawl to closure (world follows the seed: PK_WORLD in build_seed.py).
 
 Starts from a frontier of known names (highscores + online list + every killer/victim
 already seen) and keeps fetching profiles, extracting NEW killer/victim names from each,

@@ -12,7 +12,8 @@ _spr = json.load(open('creatures/_index.json'))   # slug -> filename (e.g. "amaz
 pathgrid = open('pathdata-grid.json').read()       # RLE walkability (block=4, 100% walkable)
 pathtrans = open('pathdata-trans.json').read()     # [[gx,gy,floor,typecode]] typecode 0=up 1=down 2=both
 insights = open('insights-data.json').read()       # loot-value / quests / farm / hunt areas (from build_insights.py)
-pkmap = open('pk-map-data.json').read()             # who-kills-who PK graph, Aeternum (from scrape_pk.py + aggregation)
+pkmap = open('pk-map-data.json').read()
+pkworld = json.loads(pkmap).get('world') or 'Aeternum'   # label used in the PK / Relations UI             # who-kills-who PK graph for the world in its "world" field (from scrape_pk.py + aggregation)
 rels = open('relationships.json').read()             # player relationship graph (build_relationships.py): allies/enemies/co-faction
 npcs = open('npcs.json').read() if os.path.exists('npcs.json') else '{"npcs":[],"n_with_coords":0,"n_with_offers":0}'  # NPC directory (build_npcs.py); optional, not in weekly cron
 # Rivalia hunting zones (wiki) -> monster lists per Ankrahmun tomb, for the Tombs layer popups
@@ -622,8 +623,8 @@ TEMPLATE = r'''<!DOCTYPE html>
     <details class="sec" id="toolsDetails" open>
       <summary>🧰 Tools <small>PK map, hunt areas, NPCs, insights…</small></summary>
       <div class="toolsGrid">
-        <button class="btn" id="pkMapBtn" title="PK Map (Aeternum): who kills whom, unjustified flag and threat class, from player death profiles. Shared search with Relations.">☠️ PK Map</button>
-        <button class="btn" id="relBtn" title="Relations (Aeternum): a player's allies (same guild or co-kill together), reciprocal enemies and co-faction (shared victims), as a star graph. Shared search with PK Map.">🕸️ Relations</button>
+        <button class="btn" id="pkMapBtn" title="PK Map (__PKWORLD__): who kills whom, unjustified flag and threat class, from player death profiles. Shared search with Relations.">☠️ PK Map</button>
+        <button class="btn" id="relBtn" title="Relations (__PKWORLD__): a player's allies (same guild or co-kill together), reciprocal enemies and co-faction (shared victims), as a star graph. Shared search with PK Map.">🕸️ Relations</button>
         <button class="btn" id="insBtn" title="Loot-value, doable quests and where to farm items — computed on your data">💎 Insights</button>
         <button class="btn" id="areaBtn" title="Highlight TibiaWiki 7.4 hunting places on the map as zones colored by efficiency (xp/hit). Click a zone for its card + creatures">🎯 Hunt areas: Off</button>
         <button class="btn" id="taskBtn" title="Weekly-task helper: YOU pick a task (a monster) from the full list, one at a time, and it shows the best place & way to do it — densest floor / best hunting area, farmability for your char, with Show-on-map and route.">📋 Task Helper</button>
@@ -668,7 +669,7 @@ TEMPLATE = r'''<!DOCTYPE html>
   <div id="playerModal" class="ins-modal">
     <div class="ins-card" style="width:min(1080px,95vw)">
       <div class="ins-hd">
-        <span>👥 Player — Aeternum <small id="pkSub"></small><small id="relSub" style="display:none"></small></span>
+        <span>👥 Player — __PKWORLD__ <small id="pkSub"></small><small id="relSub" style="display:none"></small></span>
         <button id="playerClose" title="close">✕</button>
       </div>
       <div class="ins-tabs">
@@ -691,7 +692,7 @@ TEMPLATE = r'''<!DOCTYPE html>
       <div id="relSuggest" style="padding:6px 16px 0;font-size:12px;color:var(--dim);display:none"></div>
       <div class="ins-body" id="pkBody"></div>
       <div class="ins-body" id="relBody" style="min-height:420px;display:none"></div>
-      <div class="ins-note" id="pkNote"><b>Classes:</b> ☠️ <b>Serial</b> = 5+ unjustified · 🔴 <b>Assassin</b> = 2-4 · 🟡 <b>Occasional</b> = 1 · ⚪ <b>Guild-war</b> = 0 unjustified (PvP among peers). <b>Danger</b> weighs unjustified kills + the level advantage over victims. From <b id="pkNprof"></b> profiles (~3-month history, Aeternum). Click ▸ for the victims.</div>
+      <div class="ins-note" id="pkNote"><b>Classes:</b> ☠️ <b>Serial</b> = 5+ unjustified · 🔴 <b>Assassin</b> = 2-4 · 🟡 <b>Occasional</b> = 1 · ⚪ <b>Guild-war</b> = 0 unjustified (PvP among peers). <b>Danger</b> weighs unjustified kills + the level advantage over victims. From <b id="pkNprof"></b> profiles (~3-month history, __PKWORLD__). Click ▸ for the victims.</div>
       <div class="ins-note" id="relNote" style="display:none"><b>🟩 Ally</b> = same guild or co-kill together · <b>🟥 Enemy</b> = reciprocal kills · <b>🟨 Co-faction</b> = ≥3 shared victims. Line thickness = bond strength. Click a player in the graph to re-center. <b id="relNplayers"></b> connected players. Renames already merged.</div>
     </div>
   </div>
@@ -2750,7 +2751,7 @@ selectFloor=function(z,keepView){ _selFloorTomb(z,keepView); if(tombOn) drawTomb
     cr:['🐉 Creatures','search a monster → every spawn lights up on the map'],
     hunt:['🎯 Hunt','areas, loot value, quests, weekly tasks, routes'],
     npc:['🧙 NPC','355 NPCs — what they buy/sell, and where they stand'],
-    pl:['👥 Players','Aeternum threat map + relationship graph'],
+    pl:['👥 Players','__PKWORLD__ threat map + relationship graph'],
     me:['⚔️ My Char','your party drives every farmable / risky / lethal verdict']};
   const mk=(tag,cls,html)=>{const e=document.createElement(tag);
     if(cls)e.className=cls; if(html!=null)e.innerHTML=html; return e;};
@@ -2809,7 +2810,7 @@ selectFloor=function(z,keepView){ _selFloorTomb(z,keepView); if(tombOn) drawTomb
   PANES.npc.appendChild(mk('div','msec','On the map'));
   row(PANES.npc,'npcPinBtn','📍','Show NPC pins',{toggle:1,close:1});
 
-  PANES.pl.appendChild(mk('div','msec','Aeternum'));
+  PANES.pl.appendChild(mk('div','msec','__PKWORLD__'));
   row(PANES.pl,'pkMapBtn','☠️','Threat / PK map');
   row(PANES.pl,'relBtn','🕸️','Relations graph');
 
@@ -2966,6 +2967,7 @@ html = (TEMPLATE.replace('__MAPDATA__', mapdata).replace('__IMGS__', imgs)
         .replace('__PATHGRID__', pathgrid).replace('__PATHTRANS__', pathtrans)
         .replace('__INSIGHTS__', insights).replace('__ROUTEIMGS__', route_imgs_json)
         .replace('__PKMAP__', pkmap)
+        .replace('__PKWORLD__', pkworld)
         .replace('__RELS__', rels)
         .replace('__NPCS__', npcs)
         .replace('__TOMBZONES__', tombzones)
