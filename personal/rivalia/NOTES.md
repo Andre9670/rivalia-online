@@ -93,3 +93,8 @@ The site's npcs.php?npc=NAME pages truncate item names to one word ("sword") and
 Zarith today: buys 104 items, sells 6 (Aether Prism 10k, Dragon Lord's Eye 5k, Poison Vaccine 5k, Sniper Gloves 2.5k, Piercing Bolt 15, Piercing Arrow 12).
 Access: the Rivalia wiki quest says pay 100,000 gp to King Tibianus (Trade Faction Accreditation); GitBook says the "Trading Documents" artifact (King questline or Store) is what lets you trade with him; GitBook also places him at Mount Sternum (Ascendia).
 Rerun: python3 build_npc_trades.py (NPC_CACHE=<dir> to reuse cached pages) then INLINE=1 python3 build_html.py.
+
+## 27 Nov 2026 — Andrea è passato a Destiny (decisione: la mappa NON cambia)
+
+Andrea ha trasferito il PG da Aeternum a **Destiny** (world id 3 su `highscores.php`; rate 2x exp/skill/loot/spawn/regen, magic 1x, da WIKI-RESCAN-2026-10). **Istruzione esplicita: "la mappa lasciala così, non dev'essere customizzata per me"** → il crawl PK/relazioni resta filtrato su Aeternum (`PK_WORLD_FILTER`, `PK_WORLD=2` nel seed, workflow `refresh-map.yml`), `CHAR_DEF`/`CHAR` non vanno aggiornati con le stat sue, nessun selettore di rate. Le sue stat/rate/quest vivono solo nella skill `rivalia` (consigli di gioco). Quest fatte: King Tibianus (Zarith) e djinn blu (Nah'bob/Haroun).
+
