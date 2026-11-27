@@ -28,6 +28,9 @@ GitHub Pages ripubblica da solo in ~1 min (link stabile).
 
 > Build "esterna" leggera per test locali: `python3 build_html.py` senza `INLINE` → scrive `rivalia-reverse-map.html` (git-ignored, sprite serviti da `creatures/`). NON pubblicare questa.
 
+## REFRESH SPAWN DAL HUNT FINDER LIVE (quando Lex aggiunge respawn)
+Sorgente: `https://rivaliaonline.com/layout/huntmap/spawns.json` (dict `nome con spazi` → righe `[x, y, z, amount, time, radius]` — **time prima di radius**; sprite via `creature_image.php?<outfits.json[nome]>` → `creatures/<slug>.gif` + `creatures/_index.json`). Converti in `hunt-spots.json` (`{slug-con-trattini:[{x,y,z,amount,radius,time}]}`, ordinato per slug; la conversione con questo ordine riproduce esattamente il file precedente — verificalo prima di sovrascrivere). **Le righe fuori immagine** (`px∉[0,1685)` o `py∉[0,2827)`, es. la regione nuova a x 34.2k–36.7k vista il 27 nov 2026) vanno in `hunt-spots-offmap.json` e NON in `hunt-spots.json`, perché l'immagine live del Hunt Finder (`layout/huntmap/floor_N.png`, 1685×2827) non le copre e finirebbero come pin invisibili/aree di hunt fuori mappa. Poi `gen_map.py` → `build_insights.py` → `INLINE=1 build_html.py` → commit/pull --rebase/push. Creature nuove senza stats in `stats-all.json`/`catalog-stats.json` mostrano "no-stats" (nessun errore).
+
 ## REFRESH COMPLETO PK-MAP (settimanale)
 Rigenera anche il grafo PK/relazioni ri-scrapando `rivaliaonline.com` (pubblico, no auth). Script canonico:
 ```bash
